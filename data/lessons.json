@@ -2,177 +2,532 @@
   {
     "id": "onboarding-activation",
     "title": "Onboarding and activation",
-    "topics": ["Onboarding"],
+    "topics": [
+      "Onboarding"
+    ],
     "summary": "Get a new learner doing the real task, a real question set, while motivation is highest, and ask for everything else later. The apps that did this saw the biggest jumps.",
     "ideas": [
       {
         "heading": "Do the real task before asking for anything",
         "body": "Duolingo moved sign-up behind the first lesson and DAU rose about 20%. Making the later sign-up walls skippable added 8.2% more.",
-        "sources": ["The Tenets of A/B Testing from Duolingo's Master Growth Hacker"]
+        "sources": [
+          "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+        ]
       },
       {
         "heading": "A few questions create a sense of fit",
         "body": "Headspace doubled course starts (31% to 63%) by asking a short quiz, then starting the course inside onboarding, even when everyone got the same course.",
-        "sources": ["How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"]
+        "sources": [
+          "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
+        ]
+      },
+      {
+        "heading": "One scary word can block a step",
+        "body": "Duolingo's placement test was skipped by experienced learners because of the word 'test'. Rewording it doubled placement tests taken and lifted retention.",
+        "sources": [
+          "Lessons from Asia: turning local research into global experiments"
+        ]
       },
       {
         "heading": "Make goal questions multi-select",
         "body": "Headspace changed 'What brings you here?' from one answer to several: less drop-off and more trial starts.",
-        "sources": ["How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel"]
+        "sources": [
+          "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel"
+        ]
       },
       {
         "heading": "Length is a trade-off, so test the middle",
         "body": "Longer onboarding helped Headspace's week-1 engagement but cut conversion, and very short hurt too. FitnessAI found motivated buyers dropping out of long onboarding before they ever saw the paywall.",
-        "sources": ["How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel", "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"]
+        "sources": [
+          "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel",
+          "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+        ]
       },
       {
         "heading": "Activation fades if the way back is busy",
         "body": "Headspace's onboarding wins didn't change how often people meditated later. The return path (Home) has to lead straight back to the task.",
-        "sources": ["How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"]
+        "sources": [
+          "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
+        ]
+      },
+      {
+        "heading": "Easy benefit questions convert, open text doesn't",
+        "body": "Questions that make people think about what they'll get raised Trunk Club's conversion 133%. Removing one open-text field raised conversion 40% page over page. Noom's very long onboarding works because it explains why it asks each question.",
+        "sources": [
+          "Using behavioral science to improve your product (Kristen Berman, Irrational Labs)",
+          "The Longest Onboarding Ever (Noom)"
+        ]
+      },
+      {
+        "heading": "Give the first plan free, then ask",
+        "body": "BoldVoice found forcing a trial raised trial starts but refunds rose faster. It now gives the assessment and the whole first daily plan free before the trial. Mimo doubled trial opt-in with an honest trial screen in onboarding.",
+        "sources": [
+          "Why BoldVoice charged from day 1 and ignored the Duolingo freemium playbook (Anada Lakra)",
+          "Not a playbook: how Mimo 2x blended LTV/CAC in <12 months"
+        ]
+      },
+      {
+        "heading": "Place people at the right level",
+        "body": "Duolingo says landing each learner at the right level 'certainly helps retention'. It also lost Indian users by defaulting to the wrong language.",
+        "sources": [
+          "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
+          "Scaling Duolingo, embracing failure, and insight into Latin America's tech scene (Gina Gotthilf)",
+          "Lessons from Asia: turning local research into global experiments"
+        ]
       }
     ],
     "try": [
       "Ask 3 questions (exam and date, weakest subject, daily minutes), then start a first question set in that subject inside onboarding.",
       "Move the account step after the first session: 'Save your progress', with a soft 'Later'.",
-      "On return, open Home with one 'Continue today's plan' card."
+      "On return, open Home with one 'Continue today's plan' card.",
+      "Rename anything that sounds like an exam in onboarding ('Quick check of what you know', not 'Test').",
+      "Replace open-text onboarding questions with tap choices about the learner's goal."
+    ]
+  },
+  {
+    "id": "learning-design",
+    "title": "Practice and learning design",
+    "topics": [
+      "Practice",
+      "Lessons",
+      "Home"
+    ],
+    "summary": "How the best learning apps design the study session itself: one clear path, honest difficulty, and words that make effort feel worth it.",
+    "ideas": [
+      {
+        "heading": "One guided path beats a menu",
+        "body": "Duolingo replaced a choose-your-own skill tree with one guided path because learners weren't sure they were using the app right. Headspace replaced category tabs with a Today tab of one-tap activities.",
+        "sources": [
+          "Duolingo's new learning path (new home screen design)",
+          "Behind the Design: Headspace",
+          "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)"
+        ]
+      },
+      {
+        "heading": "Tell learners when it's hard",
+        "body": "Labelling hard questions, and showing a level-up card, made Duolingo learners study longer, take on harder content and come back more.",
+        "sources": [
+          "How lesson transparency helps learners reach their goals"
+        ]
+      },
+      {
+        "heading": "One sentence about effort",
+        "body": "A growth-mindset line above practice problems raised mastery about 3% on Khan Academy; generic 'do your best' did nothing. Duolingo's owl coach copy lifted D14 7.2%.",
+        "sources": [
+          "Growing a Mindset with the Right Words (Khan Academy x PERTS experiment)",
+          "Scaled-Up Social Psychology (Chapter 5: growth mindset messages in Khan Academy fractions exercises)",
+          "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+        ]
+      },
+      {
+        "heading": "Protect beginners from early failure",
+        "body": "At Chess.com fewer than a third of new users win their first game, and losing early drives them away. Easy early wins keep beginners going.",
+        "sources": [
+          "Finding hidden growth opportunities in your product (Albert Cheng: Duolingo, Grammarly, Chess.com)"
+        ]
+      },
+      {
+        "heading": "End every session with a celebration",
+        "body": "Duolingo's core loop is a lesson on the path with a celebration at the end.",
+        "sources": [
+          "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
+          "How Duolingo's streak builds habit"
+        ]
+      }
+    ],
+    "try": [
+      "Today's plan as one guided path, with the next session obvious.",
+      "A 'Tough one' label on hard questions and a short growth-mindset line after wrong answers.",
+      "Start new learners on easier questions so the first session ends with a win."
     ]
   },
   {
     "id": "streaks-habit",
     "title": "Streaks and habit",
-    "topics": ["Progress & streaks", "Gamification"],
+    "topics": [
+      "Progress & streaks",
+      "Gamification"
+    ],
     "summary": "A streak works when the rule is simple, it's explained the moment it starts, the learner chooses the goal, and missing a day is forgivable. Duolingo has tested all of this at scale.",
     "ideas": [
       {
         "heading": "Explain the streak in one line when it starts",
         "body": "An explanation of about eight words added more than 10,000 daily users at Duolingo, one of its top three retention wins.",
-        "sources": ["Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"]
+        "sources": [
+          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+        ]
+      },
+      {
+        "heading": "Make keeping the streak easy",
+        "body": "Letting one lesson extend the streak, instead of hitting a daily goal, raised day-14 retention 3.3% and the share of learners on a streak 19% among new learners.",
+        "sources": [
+          "Improving the streak: Forming habits one lesson at a time"
+        ]
       },
       {
         "heading": "Simple rule, but not trivially easy",
         "body": "Changing the rule to 'one lesson' helped; making it 'one exercise counts' moved nothing and was shut down.",
-        "sources": ["Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"]
+        "sources": [
+          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+        ]
       },
       {
         "heading": "Let learners choose the goal",
         "body": "A streak-goal picker with 'Commit to my goal' was a big win; preselecting a harder goal lost.",
-        "sources": ["Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"]
+        "sources": [
+          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+        ]
       },
       {
         "heading": "Celebrate every extension",
         "body": "Streak animations raised the share of new learners still active on day 7 by 1.7%. Learners who reach a 7-day streak are 3.6x more likely to finish their course.",
-        "sources": ["How Duolingo's streak builds habit"]
+        "sources": [
+          "How Duolingo's streak builds habit"
+        ]
       },
       {
         "heading": "Forgiveness, free and early",
         "body": "Holding two freezes instead of one raised daily actives; a third added nothing. 'Earn back' beat paying to repair, and a weekend amulet lifted D7 and D14.",
-        "sources": ["How Duolingo's streak builds habit", "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)", "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"]
+        "sources": [
+          "How Duolingo's streak builds habit",
+          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+          "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+        ]
       },
       {
         "heading": "Retention of current learners is the big lever",
         "body": "Duolingo found the current-user retention rate had 5x the impact of any other metric on DAU, and built leagues and the streak saver around it.",
-        "sources": ["How Duolingo reignited user growth"]
+        "sources": [
+          "How Duolingo reignited user growth"
+        ]
+      },
+      {
+        "heading": "A broken streak can push people away",
+        "body": "Highlighting a broken streak lowered how many people continued (45% vs 61%). Letting them repair it recovered most of the loss (85% vs 69%).",
+        "sources": [
+          "On or Off Track: How (Broken) Streaks Affect Consumer Decisions"
+        ]
+      },
+      {
+        "heading": "Bets and planned breaks",
+        "body": "Duolingo's streak wager raised day-7 retention 14%. Learners offered a weekend break were 4% more likely to return a week later.",
+        "sources": [
+          "How Streaks keep Duolingo learners committed to their language goals (Streak Wager and Weekend Amulet)"
+        ]
+      },
+      {
+        "heading": "Streaks with a friend",
+        "body": "Learners with a friend streak are 22% more likely to do their daily lesson (correlation). The lever is getting the first invite sent.",
+        "sources": [
+          "5 product lessons we learned from building Friend Streak",
+          "Kudos make you run! How runners influence each other on the online social network Strava"
+        ]
+      },
+      {
+        "heading": "Reward the comeback, not just the run",
+        "body": "In a 53-nudge megastudy, the best was a small bonus for returning right after a missed session (+27% visits). Almost no effect lasted after the programme ended.",
+        "sources": [
+          "Megastudies improve the impact of applied behavioural science (StepUp megastudy with 24 Hour Fitness)"
+        ]
+      },
+      {
+        "heading": "Points you can lose and small leagues",
+        "body": "In a trial, losable points, levels and a small weekly leaderboard raised activity most, and competition was the only design whose effect lasted. Sweatcoin found a growing balance beats a counter that resets daily.",
+        "sources": [
+          "Effectiveness of Behaviorally Designed Gamification Interventions With Social Incentives for Increasing Physical Activity (STEP UP trial)",
+          "How to Turn Gamification Into a Retention Powerhouse (Anton Derlyatka, Sweatcoin)"
+        ]
+      },
+      {
+        "heading": "Habits take months, not 21 days",
+        "body": "Gym habits typically took months to form; time since the last visit was the strongest predictor of the next.",
+        "sources": [
+          "What can machine learning teach us about habit formation? Evidence from exercise and hygiene"
+        ]
       }
     ],
     "try": [
       "After the first question set: 'Do one study session a day to grow your streak.'",
       "A streak goal picker (7, 14 or 30 days) with 'Commit to my goal'.",
       "Two free freezes on a new streak; 'Do 2 sessions today to earn it back' after a miss.",
-      "A streak animation after the day's first study, bigger at 3, 7, 14 and 30 days."
+      "A streak animation after the day's first study, bigger at 3, 7, 14 and 30 days.",
+      "After a missed day, show 'Repair your streak' with one easy session, never a big broken counter."
     ]
   },
   {
     "id": "reminders",
     "title": "Reminders and notifications",
-    "topics": ["Notifications"],
+    "topics": [
+      "Notifications"
+    ],
     "summary": "Ask for a reminder right after the first success, let the learner pick the time, and judge copy by what gets people to study, not by opens.",
     "ideas": [
       {
         "heading": "Ask right after the first success",
         "body": "Calm's reminder sat in Settings, found by under 1%. A prompt after the first session got 40% to set one, and they retained about 3x better.",
-        "sources": ["Learn How Calm Increased Retention 3X With Product Intelligence"]
+        "sources": [
+          "Learn How Calm Increased Retention 3X With Product Intelligence"
+        ]
       },
       {
         "heading": "Copy alone moves daily users",
         "body": "Duolingo's winning reminder copy alone added 5% DAU. A red badge dot on the app icon added 6%.",
-        "sources": ["The Tenets of A/B Testing from Duolingo's Master Growth Hacker"]
+        "sources": [
+          "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+        ]
       },
       {
         "heading": "Rotate copy, and don't repeat it",
         "body": "Duolingo picks each learner's reminder by what gets lessons finished, and penalises recently seen ones so they stay fresh.",
-        "sources": ["Hi, it's Duo: The AI behind the meme"]
+        "sources": [
+          "Hi, it's Duo: The AI behind the meme"
+        ]
       },
       {
         "heading": "Time it to the habit",
         "body": "Practice reminders go out 23.5 hours after the last session; the streak saver at 10 PM only if today isn't done. Sending more needed the CEO's sign-off.",
-        "sources": ["Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)", "How Duolingo reignited user growth"]
+        "sources": [
+          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+          "How Duolingo reignited user growth"
+        ]
+      },
+      {
+        "heading": "Win-back has a short window",
+        "body": "After 3–4 days away, a daily-habit user is hard to win back. Duolingo uses the first week of reminders, then weekly email, then friends as reasons to return.",
+        "sources": [
+          "How to Time Reactivation Campaigns for Maximum Impact (Jackson Shuttleworth, Duolingo)",
+          "Finding hidden growth opportunities in your product (Albert Cheng: Duolingo, Grammarly, Chess.com)"
+        ]
+      },
+      {
+        "heading": "Messages that know what happened",
+        "body": "8fit's streak messages changed depending on whether the streak was kept or broken, across push, email and in-app: weekly class views rose 40%.",
+        "sources": [
+          "Fitness and Nutrition App 8fit Leverages Braze to Promote User Workout Streaks"
+        ]
       }
     ],
     "try": [
       "After the first question set: 'When do you want to study each day?' with a time picker, then the push permission.",
       "10–15 reminder versions rotated without repeats, judged by sessions started.",
-      "A 10 PM streak saver only when today's plan isn't done."
+      "A 10 PM streak saver only when today's plan isn't done.",
+      "A lapsed-learner sequence: day 1–3 personal reminders, then weekly, then a 'start fresh' plan."
     ]
   },
   {
     "id": "paywall-trial",
     "title": "Paywall and trial",
-    "topics": ["Paywall"],
+    "topics": [
+      "Paywall"
+    ],
     "summary": "More people need to see the paywall, it should build the value case before the price, and being honest about the trial converts better than hiding it.",
     "ideas": [
       {
         "heading": "Most users never see a late paywall",
         "body": "FitnessAI moved its paywall before onboarding: installs reaching it went from about 40% to 85%, and revenue doubled. Rootd did the same and revenue rose 5x.",
-        "sources": ["8 paywall test ideas to grow app revenue", "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"]
+        "sources": [
+          "8 paywall test ideas to grow app revenue",
+          "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+        ]
       },
       {
         "heading": "Value first, price last",
         "body": "A three-card value story before the paywall took trial opt-in from 2% to 15% in one test. Speak4Me's three-step paywall beat a single screen by 27%.",
-        "sources": ["What the best subscription apps get right about paywalls", "Speak4Me: 27% higher conversion with a multi-step Duolingo-style paywall"]
+        "sources": [
+          "What the best subscription apps get right about paywalls",
+          "Speak4Me: 27% higher conversion with a multi-step Duolingo-style paywall"
+        ]
       },
       {
         "heading": "Honest trials convert",
         "body": "Blinkist's paywall with a trial timeline and a promise to remind before billing raised conversion 23% and cut complaints 55%. Pepper's day-by-day timeline lifted lifetime value by half.",
-        "sources": ["What the best subscription apps get right about paywalls", "Pepper: 50% lifetime value increase with a timeline paywall", "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"]
+        "sources": [
+          "What the best subscription apps get right about paywalls",
+          "Pepper: 50% lifetime value increase with a timeline paywall",
+          "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
+        ]
       },
       {
         "heading": "Default to yearly, match the entry point",
         "body": "Making yearly the default lifted yearly take-up 15–20% at Mojo. Duolingo changes the paywall's message to match what the person just tapped.",
-        "sources": ["8 paywall test ideas to grow app revenue"]
+        "sources": [
+          "8 paywall test ideas to grow app revenue"
+        ]
+      },
+      {
+        "heading": "Trial length: match it to time-to-value",
+        "body": "Across 17,000+ apps, longer trials came with higher conversion and first renewal on annual plans (24% to 45% conversion). Duolingo moved 14 to 7 days and still saw more conversions over time.",
+        "sources": [
+          "How long should your free trial be? Data from 17,000+ apps",
+          "How Clarity and Personalization Help Drive Duolingo's Growth — Anmol Tiwari, Duolingo"
+        ]
+      },
+      {
+        "heading": "Judge paywalls on revenue after refunds",
+        "body": "BoldVoice removed the close button: trial starts jumped, refunds jumped more. Clearful's timeline page raised trial starts 54% but hurt retention.",
+        "sources": [
+          "BoldVoice removed the X from its paywall. Trial starts jumped. Refunds jumped more.",
+          "Experiment: Free-trial Timeline Page vs. Long-form Feature/Benefit Page"
+        ]
+      },
+      {
+        "heading": "Where the paywall is matters",
+        "body": "Tinder's biggest paywall win ($50M) was a new entry point in the top navigation, not a new paywall.",
+        "sources": [
+          "How a Single Paywall Experiment Generated $50M — Jeff Morris, Chapter One, Ex-Tinder"
+        ]
+      },
+      {
+        "heading": "Annual highlighted, priced for the market",
+        "body": "ABBYY's savings badge and separate plan buttons doubled annual choice. In India, most apps price 50–80% below the US. Lose It! doubled its annual price and broke even on conversion.",
+        "sources": [
+          "How ABBYY increased annual subscription revenue by 58.5% with paywall A/B testing",
+          "The ultimate guide to price localization",
+          "The Hidden Cost of Underpricing Your Subscription — Patrick Rills, Lose It!"
+        ]
+      },
+      {
+        "heading": "Catch people who back out",
+        "body": "A discounted paywall for people who back out of checkout made up 17% of revenue across 18 apps, with fewer refunds.",
+        "sources": [
+          "17% Revenue Boost with Transaction Abandon Paywalls - A Case Study"
+        ]
+      },
+      {
+        "heading": "No trial can beat a trial",
+        "body": "Natal kept the trial only on annual and removed it from monthly; monthly subscriptions rose sharply, with users who already trusted the product.",
+        "sources": [
+          "How Removing the Free Trial Grew Monthly Subs 2000% — Nancy Anderson, Natal"
+        ]
       }
     ],
     "try": [
       "Track the share of installs that ever see the paywall; aim for 80%+.",
       "A headline that matches the trigger: locked explanation → 'Unlock every explanation'.",
       "Yearly preselected, shown as a monthly amount, with monthly under 'See all plans'.",
-      "A second paywall after the first completed plan session for those who skipped. (The trial timeline is already in the app.)"
+      "A second paywall after the first completed plan session for those who skipped. (The trial timeline is already in the app.)",
+      "Check India pricing against conversion: if India converts 5x worse than the US, test a lower price.",
+      "Judge every paywall test on revenue after refunds, on a matured cohort."
     ]
   },
   {
     "id": "renewal-churn",
     "title": "Renewal and churn",
-    "topics": ["Renewal"],
+    "topics": [
+      "Renewal"
+    ],
     "summary": "Match the save offer to why someone is leaving, show what they've built before renewal, and fix the quiet churn from failed payments.",
     "ideas": [
       {
         "heading": "Ask why, then offer the right thing",
         "body": "Cancel flows that route by reason (pause for 'too busy', a cheaper plan for 'too expensive', support for a bad experience) cut churn 10–20%.",
-        "sources": ["The Subscription Growth Formula: Churn Math, Retention Wins, and Smart Product Bets — Dan Layfield"]
+        "sources": [
+          "The Subscription Growth Formula: Churn Math, Retention Wins, and Smart Product Bets — Dan Layfield"
+        ]
       },
       {
         "heading": "Keep a cheaper plan for people leaving",
         "body": "FitnessAI keeps a cheaper plan visible only at cancellation; a meaningful share of subscribers end up on it.",
-        "sources": ["A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"]
+        "sources": [
+          "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+        ]
       },
       {
         "heading": "Message people who already cancelled differently",
         "body": "Blinkist sends trial users who already cancelled a different message from those still in.",
-        "sources": ["Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"]
+        "sources": [
+          "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
+        ]
+      },
+      {
+        "heading": "Use Apple's cancel-page message",
+        "body": "iOS now lets apps show a message or offer on the App Store cancel page. Offers saved the most (+5.5 points), but most apps' discounts are almost never accepted, so match the message to the reason.",
+        "sources": [
+          "Explore Retention Messaging in App Store Connect (WWDC26 session 309)",
+          "Early Apple Retention Messaging benchmarks from 22M messages"
+        ]
       }
     ],
     "try": [
       "A cancel survey: 'Exam done or postponed' → pause until the next cycle; 'Too expensive' → a cheaper Qbank-only plan.",
-      "Before renewal, a recap: questions done, accuracy gained, by subject."
+      "Before renewal, a recap: questions done, accuracy gained, by subject.",
+      "Set up App Store retention messaging: 'Exam postponed? Pause instead of cancelling.'"
+    ]
+  },
+  {
+    "id": "design-craft",
+    "title": "Screens, motion and accessibility",
+    "topics": [
+      "Visual design",
+      "Navigation",
+      "Accessibility",
+      "Copy"
+    ],
+    "summary": "Craft lessons from Apple, Google, Linear and Duolingo: clear navigation and words, motion that follows the hand, accessible colour and type, and dark mode built on tokens.",
+    "ideas": [
+      {
+        "heading": "Tabs mirror the hierarchy",
+        "body": "Tabs should reflect the app's information hierarchy; push to go deeper, and use modals only for self-contained tasks.",
+        "sources": [
+          "Explore Navigation Design for iOS (WWDC22)"
+        ]
+      },
+      {
+        "heading": "Make features visible, not explained",
+        "body": "Show features on the screen itself instead of in onboarding slides.",
+        "sources": [
+          "Discoverable Design (WWDC21)"
+        ]
+      },
+      {
+        "heading": "Each screen says one thing",
+        "body": "Write so each screen has one clear message, and label buttons with the action they perform.",
+        "sources": [
+          "Writing for Interfaces (WWDC22)"
+        ]
+      },
+      {
+        "heading": "Motion follows the hand",
+        "body": "Motion should respond instantly, be interruptible and carry the gesture's momentum.",
+        "sources": [
+          "Designing Fluid Interfaces (WWDC18)"
+        ]
+      },
+      {
+        "heading": "Bold, but usable",
+        "body": "Google's 46 studies found bolder colour, shape and size helped people spot key actions up to 4x faster, but removing text labels or scattering layouts hurt usability.",
+        "sources": [
+          "Expressive Design: Google's UX Research (Material 3 Expressive)"
+        ]
+      },
+      {
+        "heading": "Accessible by default",
+        "body": "Never rely on colour alone, design for large text from the start, aim for at least 4.5:1 contrast, and respect reduce-motion.",
+        "sources": [
+          "Make Your App Visually Accessible (WWDC20)"
+        ]
+      },
+      {
+        "heading": "Dark mode is tokens, not inversion",
+        "body": "Build dark mode on semantic colour names and elevation, so screens adapt without per-mode code.",
+        "sources": [
+          "Implementing Dark Mode on iOS (WWDC19)"
+        ]
+      },
+      {
+        "heading": "Less chrome, and a simple style",
+        "body": "Linear cut visual noise and generated themes from 3 inputs instead of 98 variables. Duolingo's few rounded shapes let a small team make hundreds of illustrations a year, and its characters run on Rive state machines.",
+        "sources": [
+          "How we redesigned the Linear UI",
+          "Shape language: Duolingo's art style",
+          "How Duolingo's World Characters lip sync"
+        ]
+      }
+    ],
+    "try": [
+      "Check each tab's job against the hierarchy before adding anything to it.",
+      "Run every new screen at the largest text size and in dark mode.",
+      "Label buttons with their action ('Start session', not 'Continue')."
     ]
   }
 ]

@@ -393,5 +393,1193 @@
     ],
     "Evidence type": "Experience",
     "Bottom line": "Match the save offer to why someone is cancelling: a pause for 'too busy', a cheaper plan for 'too expensive'. It cuts churn 10–20%."
+  },
+  {
+    "Title": "Lessons from Asia: turning local research into global experiments",
+    "Creator": "Zan Gilani and Carrie Wang (Duolingo)",
+    "Type": "Article",
+    "Link": "https://blog.duolingo.com/lessons-from-asia-turning-local-research-into-global-experiments/",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Copy",
+      "Notifications",
+      "Research methods"
+    ],
+    "Goal": [
+      "Activation",
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "One word in onboarding (\"test\") scared experienced learners away from placement, and renaming it doubled placement and lifted retention.",
+    "What they did": "Japanese learners with prior English avoided the placement test (\"The word 'test' scares me\"), started from the beginning and churned because it was too easy. Duolingo reworded \"take a placement test\" to \"check your English level\", then ran it globally; they also fixed an under-13 registration flow and moved and rewrote the notification opt-in prompt.",
+    "Results": "Rewording \"doubled placement tests taken and increased retention as well\"; run globally it \"improved placement completion and retention across the board.\" Under-13 learners registered at \"62% compared with 90% for others\" before the fix (no post-fix number given). Japanese learners were \"50% less likely to opt into receiving reminder notifications\" before the opt-in prompt changes (no post-change number given).",
+    "Takeaways": "Learners who already know some material churn if forced to start at the basics; Exam-like words can deter people from a diagnostic step; Local user interviews surfaced fixes that worked globally; Notification opt-in can be asked at motivated moments (promotion, out of hearts), not just once",
+    "Ideas for OnCourse": "Onboarding: rename any \"diagnostic test\" step to something like \"Check where you stand\" and let NEET PG repeaters skip ahead based on it. Today's plan: start returning-aspirant users at their level so the first session isn't too easy. Notifications: ask for reminder permission right after the first completed question set, not on launch",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Improving the streak: Forming habits one lesson at a time",
+    "Creator": "Anton Yu (Duolingo)",
+    "Type": "Article",
+    "Link": "https://blog.duolingo.com/improving-the-streak/",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Progress & streaks",
+      "Home",
+      "Gamification"
+    ],
+    "Goal": [
+      "Activation",
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Making the daily habit easy to keep (one lesson extends the streak) beat tying the streak to an ambitious daily goal, especially for new learners.",
+    "What they did": "Previously the streak only extended if the learner hit their daily goal (a number of lessons). Duolingo separated the two, so one lesson extends the streak and daily-goal progress is shown separately, and A/B tested it against the combined mechanic.",
+    "Results": "Day 14 retention +3.3%; daily active learners +1%; share of daily learners on a streak +10.5% within 20 days, and +19% among new learners only; learners on a 7+ day streak up \"over 40%\". A year later \"just over half\" of daily learners had a 7+ day streak versus roughly a third before. Downside: fewer learners hit their daily goals. Before the change, \"almost 40%\" of learners active two days in a row without a streak had the \"intense\" goal.",
+    "Takeaways": "High goals chosen in onboarding can punish the most motivated users; Keep the habit bar to one small action; Track volume goals separately from the streak; The effect is biggest for new users",
+    "Ideas for OnCourse": "Streaks: extend the streak with one completed question set or lesson, not the full daily plan. Today's plan: show progress toward the full plan separately from the streak so a partial day still counts. Onboarding: don't let an ambitious \"hours per day\" answer raise the bar for keeping the streak",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How lesson transparency helps learners reach their goals",
+    "Creator": "Rachel Salvador (Duolingo)",
+    "Type": "Article",
+    "Link": "https://blog.duolingo.com/duolingo-difficult-exercises/",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Practice",
+      "Lessons",
+      "Copy"
+    ],
+    "Goal": [
+      "Retention",
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Telling learners when a question is hard, and showing how they leveled up, made them study longer and come back more.",
+    "What they did": "Duolingo added a small \"this is a hard exercise\" indicator at the top of harder adaptive exercises, and a level-up card explaining how proficiency improved after finishing a skill level.",
+    "Results": "No figures reported. With the indicator, learners studied longer, spent more time on harder exercises, were more likely to come back the next day and more likely to start a Duolingo Plus trial. With the level-up card, study time and return frequency increased and \"learners chased the harder content!\" A learner quote: \"If I make a mistake, I don't feel as bad, because you warned me that it was hard. If I get it right, I feel proud.\"",
+    "Takeaways": "Labelling difficulty softens the sting of mistakes; It also makes correct answers feel earned; Explaining progress after a unit motivates taking on harder content; Results are directional only, no effect sizes published",
+    "Ideas for OnCourse": "Practice: tag high-difficulty questions with a \"Tough one, most aspirants miss this\" label before the answer. Lessons: end each topic with a card showing what the learner can now do (for example, accuracy up on a subject). Practice: show the share of users who got a question right after a wrong answer to reduce discouragement",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Duolingo's User Retention: 8 Tactics Tested On 300 Million Users",
+    "Creator": "Growth.Design",
+    "Type": "Case study",
+    "Link": "https://growth.design/case-studies/duolingo-user-retention",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Home",
+      "Practice",
+      "Progress & streaks",
+      "Notifications",
+      "Gamification"
+    ],
+    "Goal": [
+      "Activation",
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Duolingo gets new and returning users moving with a one-tap start, an easy first lesson and a quick win, then asks for a small commitment.",
+    "What they did": "The comic walks through a lapsed user's return: a one-tap shortcut to start a lesson without choosing, an easy \"happy path\" review lesson, a welcome-back reward, a streak start, a 7-day streak wager for gems, and notifications that stop on their own. It also proposes (not a Duolingo feature) an exit-point screen after the daily goal.",
+    "Results": "The streak wager \"increased Day-7 retention by +14%.\" Resurrected users are \"20% less likely than a new user\" to be retained. \"15-30% Duolingo students use the app to make international travel more enjoyable.\" The proposed exit-point screen's objective is \"Increase Day-30 retention by 5%\" (a hypothesis, not a result).",
+    "Takeaways": "A single start button beats making users choose a lesson; Make the first lesson deliberately easy, even if you cheat the flow a bit; Stacked pop-ups after the first lesson break momentum; Give users a satisfying place to stop once the daily goal is done; Stop notifying people who don't respond instead of spamming",
+    "Ideas for OnCourse": "Home: one large \"Start today's plan\" button that drops users straight into the first question with no selection step. Practice: make the first set for a new or returning user easier than their level so they get a quick win. Today's plan: after the plan is done, show a completion screen that says come back tomorrow, with extra practice as a low-emphasis option",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Duolingo's new learning path (new home screen design)",
+    "Creator": "Holly Munson, Anton Yu, Ananya Rajgarhia, AJ Noh (Duolingo)",
+    "Type": "Article",
+    "Link": "https://blog.duolingo.com/new-duolingo-home-screen-design",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Home",
+      "Lessons",
+      "Practice",
+      "Navigation"
+    ],
+    "Goal": [
+      "Usability",
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Duolingo replaced a choose-your-own skill tree with one guided path because learners weren't sure they were using the app the right way.",
+    "What they did": "The branching skill tree became a single linear path where each circle is one level; lessons from different skills are interleaved for spaced repetition, practice sessions and Stories sit inside the path, tips moved to a per-unit guidebook, crowns were removed and unit names became descriptive (\"get directions\" instead of \"City 3\"). Launched to all learners on November 1, 2022.",
+    "Results": null,
+    "Takeaways": "Users with lots of choice worry they are studying the wrong way; A single next step on Home removes that doubt; Build review into the forward path so practice feels like progress; Name units by what the learner will be able to do",
+    "Ideas for OnCourse": "Home: show today's plan as one ordered path of steps (lesson, questions, flashcards) with a clear next step rather than a grid of subjects. Today's plan: interleave revision of earlier topics into the plan so review counts as progress. Lessons: name units by outcome (\"Read an ECG for MI\") rather than chapter numbers",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Scaling Duolingo, embracing failure, and insight into Latin America's tech scene (Gina Gotthilf)",
+    "Creator": "Lenny's Podcast (Lenny Rachitsky with Gina Gotthilf)",
+    "Type": "Podcast",
+    "Link": "https://www.lennysnewsletter.com/p/scaling-duolingo-embracing-failure",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Gamification",
+      "Research methods"
+    ],
+    "Goal": [
+      "Activation",
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Duolingo's growth team wasted months because they didn't use their own experiments, and lost Indian users by defaulting to the wrong language.",
+    "What they did": "Gina describes a lean badge test (\"You sign up and then you get a badge\") that showed nothing because \"no one is proud of signing up\"; after dogfooding became practice, badges later became a growth lever. In India, Duolingo used the phone's UI language (often English) as the base language, so users were offered French, Spanish or German from English when they wanted to learn English, and left.",
+    "Results": "She says \"More than 50% of our AB tests didn't work out.\" Badges, once done properly, \"impacted almost all metrics across the company positively\" (no figures given). She helped grow Duolingo \"from 3 million to 200 million users.\"",
+    "Takeaways": "A reward for an unremarkable action (signing up) doesn't motivate; Use your own experiment variants before shipping them; In India, phone language doesn't tell you what the user wants; Retention is simply whether the product delivers real value",
+    "Ideas for OnCourse": "Onboarding: ask the exam and preferred explanation language directly instead of inferring from device settings. Streaks: tie the first badge or celebration to a real study action (first 10 questions answered), never to account creation. Practice: have the team play through each onboarding variant on a real device before it ships",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Using behavioral science to improve your product (Kristen Berman, Irrational Labs)",
+    "Creator": "Lenny's Podcast (Lenny Rachitsky with Kristen Berman)",
+    "Type": "Podcast",
+    "Link": "https://www.youtube.com/watch?v=u53fplD_C30",
+    "Apps": [
+      "One Medical",
+      "Trunk Club",
+      "TytoCare",
+      "Wealthfront",
+      "Apartment List"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Copy",
+      "Research methods"
+    ],
+    "Goal": [
+      "Activation",
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Easy questions in onboarding that make users think about the benefit raise conversion, hard open-text questions lower it, and the first key action should be booked during onboarding.",
+    "What they did": "Kristen explains replacing benefit carousels with easy multiple-choice questions about what users want, removing an open-text question, and redesigning One Medical onboarding to ask a few health questions, then recommend one provider and a few appointment times so people book right after signing up.",
+    "Results": "Trunk Club \"has come out and said they did this and it increased conversion by 133%\" (benefit questions in signup). TytoCare quiz: \"53% of them went on to purchase versus 37% who didn't complete.\" Removing an open-text field \"improved conversion by 40% page over page.\" No number is given for One Medical.",
+    "Takeaways": "Asking about goals makes users engage with the benefit instead of reading about it; Multiple-choice questions are cheap, open-text ones are costly; Recommend one option instead of a long list; Get the key behavior done in onboarding or users forget the app; Return drop-offs to where they left off, not to the start",
+    "Ideas for OnCourse": "Onboarding: replace intro carousels with 2–3 tap questions (target exam, attempt year, weakest subject) that end in a recommended first session. Onboarding: drop any free-text fields and recommend one starting topic and one time slot instead of a subject list. Today's plan: if someone leaves mid-onboarding or mid-set, reopen exactly where they stopped",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
+    "Creator": "Peter Yang with Cem Kansu (Duolingo)",
+    "Type": "Video",
+    "Link": "https://www.youtube.com/watch?v=MLB9q2a1OZc",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Home",
+      "Lessons",
+      "Progress & streaks",
+      "Gamification",
+      "Notifications"
+    ],
+    "Goal": [
+      "Activation",
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Duolingo's core loop is the lesson on a linear home path with celebration at the end, and placing users at the right level matters a lot for retention.",
+    "What they did": "Duolingo's head of product describes the core loop (a linear home path, a lesson, then celebration, streak extension and quests), streaks, leaderboards and push notifications as the main growth levers, and placement for learners who already know some of the language. He also describes temporarily changing the app icon to a \"melting\" or sick Duo for two to three weeks.",
+    "Results": "No experiment numbers. He says growth \"wasn't the case that one feature just changed all of our growth curves\" but compounded over time, and that subscriptions now make up \"more than 80%\" of Duolingo revenue. On placement: \"it certainly helps retention if you can kind of land the right person based on what they know to the right part of the courses.\"",
+    "Takeaways": "End every lesson with a clear celebration that feeds the streak and quests; A linear path on Home borrows from game design; Placement for partly-knowledgeable users is hard but helps retention; Growth comes from many compounding levers, not one feature",
+    "Ideas for OnCourse": "Lessons: end every lesson and question set with a celebration screen that shows the streak extended and progress toward today's plan. Onboarding: offer a short placement set so repeat NEET PG aspirants start at their level. Home: make the path to the next lesson the dominant element",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Why BoldVoice charged from day 1 and ignored the Duolingo freemium playbook (Anada Lakra)",
+    "Creator": "Sub Club by RevenueCat, with Anada Lakra (BoldVoice)",
+    "Type": "Podcast",
+    "Link": "https://www.youtube.com/watch?v=-5zgc14t2gc",
+    "Apps": [
+      "BoldVoice"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Paywall",
+      "Practice"
+    ],
+    "Goal": [
+      "Activation",
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Forcing a trial with a hard paywall raised trial starts but refunds rose faster, so BoldVoice gives the speech assessment and the whole first daily plan free before asking for a trial.",
+    "What they did": "BoldVoice tested a hard paywall with no close button, and a version where closing the paywall gave a discount. They now let users who close the paywall take the speech assessment, see their results, and do the rest of day one's training for free, then require a 7-day trial from day two.",
+    "Results": "Both forced variants \"looked very promising based on the number of trial subscriptions,\" but \"the number of returns increased significantly more than the number of new trial subscriptions\" (no exact figures given).",
+    "Takeaways": "Judge paywall tests on paid conversion and refunds, not trial starts; Tricking people into trials makes angry refunders; A free diagnostic plus one full day of the plan shows value before the ask; Skeptical users need a limited free path, not just a trial",
+    "Ideas for OnCourse": "Today's plan: make the full first daily plan free for every new user, with the paywall shown after day one is done. Onboarding: start with a short diagnostic whose results are shown free, as the first value moment. Paywall: measure trial tests on paid conversion and refunds, not trial starts",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Not a playbook: how Mimo 2x blended LTV/CAC in <12 months",
+    "Creator": "Ekaterina Gamsriegler (Mimo), RevenueCat blog",
+    "Type": "Case study",
+    "Link": "https://www.revenuecat.com/blog/growth/optimize-funnel-metrics-mimo",
+    "Apps": [
+      "Mimo"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Paywall",
+      "Copy"
+    ],
+    "Goal": [
+      "Conversion",
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "For Mimo, the biggest wins came from a transparent trial screen during onboarding and localising the app, not from retention tactics.",
+    "What they did": "Mimo replaced its onboarding paywall with an \"honest\" Blinkist-style screen explaining how the trial works (plus trial-ending reminders), cut the trial from 30 to 14 days, raised the yearly price 20%, and localised into six languages after a two-language test.",
+    "Results": "Honest paywall: \"trial opt-in rates more than doubled\" and trial-to-purchase rose 50% (the recap cites a 53% purchase-rate lift). Localisation: \"D7 retention increased by +40% on average\" in core markets and purchase rate rose 25–100%, with bigger gains where English adoption is lower. 20% price rise: higher ARPU with conversion unchanged. Churn and win-back tactics had no significant LTV impact. Over about three quarters: cLTV +65%, paid CAC -20%, monthly proceeds +35%.",
+    "Takeaways": "Most trials start in onboarding, so the trial screen there matters most; Being clear about how the trial works increases opt-in; Localisation lifted early retention most where English is weaker; Retention tactics matter little when most revenue comes from new subscribers",
+    "Ideas for OnCourse": "Onboarding: test explanations and UI in Hindi and other regional languages for aspirants who prefer them, and measure D7. Paywall: show a plain timeline of the trial (today, reminder day, charge day). Renewal: send a reminder before the trial ends",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "The Longest Onboarding Ever (Noom)",
+    "Creator": "Jacob Rushfinn, Retention.Blog",
+    "Type": "Article",
+    "Link": "https://www.retention.blog/p/the-longest-onboarding-ever",
+    "Apps": [
+      "Noom"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Paywall",
+      "Copy"
+    ],
+    "Goal": [
+      "Activation",
+      "Conversion"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Noom's 90+ screen onboarding works by explaining why it asks each question and giving value (a predicted goal date, a profile) before the paywall.",
+    "What they did": "A teardown of Noom's 96+ screen onboarding: it explains why each question is asked, uses a progress bar and conversational copy, adds encouragement after sensitive answers, breaks questions up with social proof and study stats, repeats the value proposition on 5+ screens, varies question formats, keeps text to about a sentence, predicts the goal-weight date and adds a behavioural profile quiz before a paywall with a countdown timer.",
+    "Results": null,
+    "Takeaways": "Tell users why each question is asked; Pair an emotional testimonial with study data; Give a personalised prediction before asking for money; Vary question formats and keep each screen to one sentence; If users finish without understanding what makes you different, the onboarding failed",
+    "Ideas for OnCourse": "Onboarding: add a one-line \"why we ask\" under each personalisation question. Onboarding: end with a personalised prediction (for example, syllabus coverage by a date given daily minutes) before the paywall. Paywall: show a short topper testimonial next to an outcome stat",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Growing a Mindset with the Right Words (Khan Academy x PERTS experiment)",
+    "Creator": "Rebecca Butler, EdSurge",
+    "Type": "Article",
+    "Link": "https://www.edsurge.com/news/2014-07-24-growing-a-mindset-with-the-right-words",
+    "Apps": [
+      "Khan Academy"
+    ],
+    "Topics": [
+      "Practice",
+      "Copy"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "One growth-mindset sentence above practice problems raised mastery on Khan Academy, while generic encouragement did nothing.",
+    "What they did": "Stanford's PERTS and Khan Academy randomly showed 250,000+ students one of three message types above fraction problems for two months (Jan–Feb 2013): growth mindset (\"If you make a mistake, it's an opportunity to get smarter!\"), standard encouragement (\"Some of these problems are hard. Just do your best.\") or science facts, against a no-message control.",
+    "Results": "Growth-mindset messages increased concepts mastered by 3%; the other message types had \"no statistically significant effect.\"",
+    "Takeaways": "The wording of microcopy in practice can change learning outcomes; Framing mistakes as learning beats generic encouragement; It costs almost nothing to test; Effects are small but apply to every question",
+    "Ideas for OnCourse": "Practice: after a wrong answer, show a short line that treats the mistake as learning (\"Getting this wrong now is how it sticks for exam day\"), and A/B test it against no message. Flashcards: use the same framing when a card is marked \"Again\"",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Finding hidden growth opportunities in your product (Albert Cheng: Duolingo, Grammarly, Chess.com)",
+    "Creator": "Lenny's Podcast (Lenny Rachitsky with Albert Cheng)",
+    "Type": "Podcast",
+    "Link": "https://www.youtube.com/watch?v=2BKmNmnEj9w",
+    "Apps": [
+      "Duolingo",
+      "Chess.com",
+      "Grammarly"
+    ],
+    "Topics": [
+      "Gamification",
+      "Progress & streaks",
+      "Notifications",
+      "Onboarding"
+    ],
+    "Goal": [
+      "Retention",
+      "Activation"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Once an app matures, returning and resurrected users matter as much as new ones, so design a real comeback experience and protect beginners from early failure.",
+    "What they did": "Duolingo used social push notifications (a friend just joined) and re-placement tests to bring back lapsed learners, and briefly tracked screenshots in the app to find shareable moments (streak milestones, funny challenges, top-3 leaderboard finishes) and then invested illustrators and animators in them. Chess.com is testing a guided learn-to-play flow for self-declared beginners and hiding ratings for the first five games.",
+    "Results": "At Chess.com, new and resurrected users are 'about similar size' in the active base, with roughly 80% of daily or weekly actives being existing users (Cheng's estimate). Over 75% of Chess.com new users call themselves new or beginners, fewer than a third win their first game, and 'when you lose a game, user retention is 10% worse than when you win a game'. Cheng calls D1 retention of 30 to 40% 'quite solid' for a consumer app.",
+    "Takeaways": "Treat resurrected users as their own segment with their own flow; Re-place returning users at the right level instead of dropping them where they left off; Find where users already screenshot and make those moments richer; Structure gamification as core loop, metagame and profile; Shield beginners from early failure signals such as falling ratings",
+    "Ideas for OnCourse": "Home: show users back after 14+ days a 'welcome back' quick diagnostic that re-places them in their plan instead of a backlog of missed tasks. Practice: for a first-time user's first session, serve an easier calibrated set and hide accuracy percentages until they have done 3 sessions. Streaks: track which screens users screenshot and invest in the share card for those (e.g., mock-test score, milestone streak).",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How to Time Reactivation Campaigns for Maximum Impact (Jackson Shuttleworth, Duolingo)",
+    "Creator": "Sub Club by RevenueCat (David Barnard with Jackson Shuttleworth)",
+    "Type": "Podcast",
+    "Link": "https://subclub.com/episode/how-to-time-reactivation-campaigns-for-maximum-impact-jackson-shuttleworth-duolingo",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Notifications",
+      "Progress & streaks",
+      "Copy"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Win-back has a short window: after 3 to 4 days away a daily-habit user is hard to recover, so the first week of reminders, then weekly email, then personal or social reasons to return carry the load.",
+    "What they did": "Duolingo sends a practice reminder on each of the first 7 days a user skips, then stops; it schedules the next reminder 23.5 hours after the user's first practice of the day instead of a time picked at onboarding. Lapsed users then get a weekly progress-report email, long-lapsed users get a Year in Review and seasonal (back-to-school, New Year) pushes, and active users are prompted to nudge friends who have been gone for months.",
+    "Results": "No lift percentages. Shuttleworth says efficacy 'has dropped significantly' by day 7, that after day 3 to 4 without a return 'it is just going to be tough sledding', that the 23.5-hour timing consistently beat other strategies, that 55 or 60% of users have a friend on the app, and that friend-to-friend resurrection is 'one of our best-performing' win-back campaigns. Messages from leaderboard strangers get a 'much higher click-through rate' than app reminders.",
+    "Takeaways": "Preventing churn is easier than winning users back; Concentrate reminder effort on days 1 to 4 after a miss; Time reminders from the user's actual study time, not a time they picked once; Switch to email for users who may have uninstalled; Personal and social messages beat generic product updates",
+    "Ideas for OnCourse": "Notifications: schedule tomorrow's study reminder about 23.5 hours after today's first session, and send a daily reminder for 7 days after a miss, then stop. Renewal: send lapsed users a weekly email with their questions done, accuracy and days to exam compared with last week. Notifications: let active users tap 'nudge' on a study-buddy who has been inactive for a while, with prewritten copy.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How to Turn Gamification Into a Retention Powerhouse (Anton Derlyatka, Sweatcoin)",
+    "Creator": "Sub Club by RevenueCat (David Barnard and Jacob Eiting with Anton Derlyatka)",
+    "Type": "Podcast",
+    "Link": "https://subclub.com/episode/how-to-turn-gamification-into-a-retention-powerhouse-anton-derlyatka-sweatcoin",
+    "Apps": [
+      "Sweatcoin"
+    ],
+    "Topics": [
+      "Gamification",
+      "Progress & streaks",
+      "Notifications"
+    ],
+    "Goal": [
+      "Retention",
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "A balance that keeps growing works better as progress than a counter that resets to zero each day, and optional rewards help retention only up to a small daily cap.",
+    "What they did": "Sweatcoin turned validated steps into an in-app currency (1 coin per 1,000 steps, with a daily cap) that accumulates rather than resetting daily, avoided guilt-based nudges, and tested optional rewarded videos worth 1 coin at once per day versus up to three or more per day.",
+    "Results": "Allowing rewarded video one to three times a day improved retention and engagement, while allowing it more often than that made retention drop. About 20% of users engage with ads. Derlyatka says users would pay 1 to 5 cents for others' coins but would sell their own for 50 cents to $1, and that moving retention by 1% is a 'massive uplift' at 60 to 80 thousand daily onboards.",
+    "Takeaways": "An accumulating balance creates something users do not want to lose; Cap bonus actions; more is not better for retention; Use positive reinforcement rather than guilt; Gamification only works on top of something genuinely good for the user",
+    "Ideas for OnCourse": "Home: show a lifetime 'questions mastered' count that only grows, alongside the daily goal that resets. Practice: cap bonus XP rounds (e.g., 'bonus review') at 1 to 3 per day rather than unlimited. Notifications: drop guilt-framed copy in favour of progress-framed copy and A/B test it.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "5 product lessons we learned from building Friend Streak",
+    "Creator": "Jackson Shuttleworth, Duolingo blog",
+    "Type": "Article",
+    "Link": "https://blog.duolingo.com/product-lessons-friend-streak/",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Progress & streaks",
+      "Gamification",
+      "Research methods"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "A shared streak with a friend needs no direct interaction to motivate daily practice, and the biggest lever is getting the first invite sent, not serving power users.",
+    "What they did": "Duolingo built Friend Streak, letting a learner share a streak with up to 5 friends, designed the UI for multiple friends from day one, used a data analysis of retention gain per extra streak instead of testing 6 or 7 slots, and focused iteration on the first-invite step, which was the largest funnel drop-off.",
+    "Results": "Learners with at least one Friend Streak are 22% more likely to complete their daily lesson, and the likelihood rises with more Friend Streaks (correlational). 57% of users have at least one friend on Duolingo. The analysis found users with large friend groups were few and already retaining well by 5 streaks.",
+    "Takeaways": "Social accountability can be passive, like studying next to a friend; Map the feature funnel and optimise the biggest drop-off (first invite); A 1% gain at the invite step reaches more people than optimising power users; Use analysis to avoid expensive slot experiments; Build a fun local prototype to win buy-in",
+    "Ideas for OnCourse": "Streaks: add a 'study buddy streak' with up to 3 classmates preparing for the same exam, which grows only when both finish today's plan. Onboarding: prompt users to invite one batchmate right after their first completed session, and measure invite-send rate as the key metric.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How Streaks keep Duolingo learners committed to their language goals (Streak Wager and Weekend Amulet)",
+    "Creator": "Kai Herng Loh, Duolingo blog",
+    "Type": "Case study",
+    "Link": "https://blog.duolingo.com/how-streaks-keep-duolingo-learners-committed-to-their-language-goals/",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Progress & streaks",
+      "Gamification"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Letting learners bet on their own consistency, and letting them take planned breaks without losing their streak, both raised retention in A/B tests.",
+    "What they did": "Duolingo tested a Streak Wager (spend in-game currency after a lesson to bet you keep your streak 7 more days, win double if you do) and a Weekend Amulet (equipped on Fridays to protect the streak if you skip the weekend).",
+    "Results": "Streak Wager: statistically significant rises in Day-1, Day-7 and Day-14 retention, with Day-7 retention up most, by +14%. Weekend Amulet: daily actives normally fall 5 to 10% on weekends; learners offered the amulet were 4% more likely to come back a week later and 5% less likely to lose their streak.",
+    "Takeaways": "A self-set commitment with a 7-day payoff lifts week-1 retention; Planned breaks can increase engagement over time; Bingeing predicts quitting more than steady pacing; Tie the payoff date to the retention window you care about",
+    "Ideas for OnCourse": "Streaks: offer a '7-day commitment' after the first completed plan, staking earned coins for a double payout on day 7. Today's plan: let users mark a rest day in advance (e.g., Sunday) that protects the streak, instead of only offering freezes after a miss.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Megastudies improve the impact of applied behavioural science (StepUp megastudy with 24 Hour Fitness)",
+    "Creator": "Katherine L. Milkman, Angela Duckworth et al., Nature (2021)",
+    "Type": "Case study",
+    "Link": "https://www.nature.com/articles/s41586-021-04128-4",
+    "Apps": [
+      "24 Hour Fitness"
+    ],
+    "Topics": [
+      "Notifications",
+      "Progress & streaks",
+      "Research methods"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "The best of 53 tested habit nudges was a small reward for coming back right after a missed session, and almost none of the effects lasted once the programme ended.",
+    "What they did": "Thirty scientists tested 54 four-week digital programmes on 61,293 gym members. The baseline involved planning workouts, a text reminder 30 minutes before each planned workout and micro-incentives; the top arm added a bonus of 125 points (US$0.09) for returning to the gym after a missed workout.",
+    "Results": "45% of interventions significantly increased weekly gym visits by 9% to 27%. The missed-workout bonus produced 0.40 more weekly visits per participant, 'a 27% increase in exercise' versus placebo control, and 16% more than planning, reminders and micro-incentives alone. 'Only 8% of interventions induced behaviour change that was significant and measurable after the four-week intervention.' Forecasts by impartial judges failed to predict which interventions would work best.",
+    "Takeaways": "Reward the comeback after a miss, not only the streak; Stop one miss from becoming a run of misses; Most short-term nudge effects fade when the programme ends; Experts cannot reliably predict winners, so test many variants at once",
+    "Ideas for OnCourse": "Streaks: when a user misses a planned day, give bonus XP for completing the very next day's plan ('Comeback bonus'). Notifications: test several reminder variants at once instead of one at a time, since intuition about winners is unreliable.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Effectiveness of Behaviorally Designed Gamification Interventions With Social Incentives for Increasing Physical Activity (STEP UP trial)",
+    "Creator": "Mitesh S. Patel et al., JAMA Internal Medicine (2019)",
+    "Type": "Case study",
+    "Link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2749761",
+    "Apps": [],
+    "Topics": [
+      "Gamification",
+      "Progress & streaks",
+      "Notifications"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Points you can lose, levels you can drop from, and a small weekly leaderboard raised activity most, and competition was the only social design whose effect lasted after the game stopped.",
+    "What they did": "602 adults were randomised to control or a 24-week game: a precommitment pledge, 70 points credited each Monday with 10 lost for each missed daily goal, five levels starting at silver so a drop felt like a loss, weekly fresh starts, and daily progress updates. The game had three social arms: a support sponsor emailed weekly, collaboration in teams of 3 where a random member's miss cost the team points, and competition with a weekly leaderboard email in groups of 3.",
+    "Results": "Versus control during the intervention, daily steps were up 920 (competition), 689 (support) and 637 (collaboration). In the 12-week follow-up only competition stayed significant, at 569 more steps (P = .009); support (428, P = .04) and collaboration (126, P = .49) did not meet the adjusted threshold. Share of days the goal was met during the intervention: competition 0.41, support 0.36, collaboration 0.36, control 0.25.",
+    "Takeaways": "Frame points as something you already have and can lose; Start users mid-ladder so dropping a level registers as a loss; Small groups of 3 are enough for competition; Weekly resets give a fresh start; Competition was the most durable social incentive",
+    "Ideas for OnCourse": "Home: put users in weekly groups of 3 to 5 aspirants at similar levels with a leaderboard of plans completed. Streaks: credit a weekly allowance of 7 'plan points' every Monday and deduct one per missed day, with levels starting mid-ladder.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Fitness and Nutrition App 8fit Leverages Braze to Promote User Workout Streaks",
+    "Creator": "Braze",
+    "Type": "Case study",
+    "Link": "https://www.braze.com/customers/8fit-case-study",
+    "Apps": [
+      "8fit"
+    ],
+    "Topics": [
+      "Notifications",
+      "Progress & streaks",
+      "Gamification"
+    ],
+    "Goal": [
+      "Retention",
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Streak messages that adapt to whether a user kept or broke their streak, sent across push, email and in-app, raised weekly class views and completions.",
+    "What they did": "8fit sent personalised push, email and in-app messages using each user's own workout record, split users into those who kept their streak (congratulations) and those who lapsed (prompts to restart), nudged users close to losing a streak to complete at least one class per week, and gave badges for extending streaks.",
+    "Results": "Weekly class views 'went up by 40%'; a '17% increase in weekly class completions' (also labelled an increase in users completing classes); free-to-paid conversion 'rose to 13%' (absolute rate, no baseline given). Vendor-reported case study.",
+    "Takeaways": "Branch streak messaging by kept versus broken; Put the user's own progress data in the message; Nudge before the streak breaks, not after; Coordinate push, email and in-app on the same goal",
+    "Ideas for OnCourse": "Notifications: send different evening messages to users who already finished today's plan (celebrate plus tomorrow's preview) and those at risk (one 10-question set saves your streak). Notifications: include the user's own numbers, such as days studied this week and topics left, in streak messages.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Scaled-Up Social Psychology (Chapter 5: growth mindset messages in Khan Academy fractions exercises)",
+    "Creator": "David Paunesku, Stanford PhD dissertation (2013), with Khan Academy",
+    "Type": "Case study",
+    "Link": "https://web.stanford.edu/~paunesku/paunesku_2013.pdf",
+    "Apps": [
+      "Khan Academy"
+    ],
+    "Topics": [
+      "Copy",
+      "Practice",
+      "Progress & streaks"
+    ],
+    "Goal": [
+      "Retention",
+      "Usability"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "One line of copy above each practice problem framing effort and mistakes as how you get smarter raised mastery, while generic 'just do your best' encouragement did nothing.",
+    "What they did": "Khan Academy randomised 265,082 learners on all fractions exercises to no header, standard encouragement ('Some of these problems are hard. Just do your best'), science trivia, or growth mindset headers such as 'Remember, the more you practice the smarter you become!' and 'If you make a mistake, it's an opportunity to get smarter!'",
+    "Results": "Relative to no header, the growth mindset group earned proficiencies at a rate 2.9% higher (z = 3.212, p < .01). Neither standard encouragement nor science statements changed the rate (z < 1).",
+    "Takeaways": "Copy that reframes effort and mistakes beats generic encouragement; Measure copy by mastery outcomes, not clicks; Even a 3% gain is cheap at scale; Users may tune out the same message shown above every problem",
+    "Ideas for OnCourse": "Practice: after a wrong answer, show rotating growth-framed lines ('Mistakes now are marks saved on exam day') and A/B test them against no message, measured by questions mastered. Lessons: replace 'You can do it!' style banners with copy about effort building memory.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "On or Off Track: How (Broken) Streaks Affect Consumer Decisions",
+    "Creator": "Jackie Silverman and Alixandra Barasch, Journal of Consumer Research (2023)",
+    "Type": "Case study",
+    "Link": "https://udspace.udel.edu/items/42ce576b-8e1f-429a-8541-e29e48dbcfbb",
+    "Apps": [],
+    "Topics": [
+      "Progress & streaks",
+      "Visual design"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Showing a broken streak in a log lowers people's willingness to continue, below showing no log at all, and letting them repair it recovers most of the loss.",
+    "What they did": "In seven online experiments, participants used app-like behaviour logs in which the same past behaviour was shown as an intact streak, a broken streak (an X), a repairable broken streak, or no log, and researchers measured whether they repeated the behaviour.",
+    "Results": "Exercise study: 66.23% continued with an intact streak versus 57.86% with a broken one. When a broken streak was highlighted in the log, 45.21% continued versus 60.90% when it was not. Study 7: 93.14% continued with an intact streak, 68.66% with a broken streak and 85.20% with a repairable broken streak. In a pilot survey, 59% of app users had 'gone out of their way' to maintain a streak. These are short online experiments, not field data.",
+    "Takeaways": "How the log displays a miss matters, regardless of actual effort; Highlighting a break can be worse than showing nothing; Self-blamed breaks hurt more than externally caused ones; Repair options blunt the drop-off",
+    "Ideas for OnCourse": "Streaks: after a miss, don't show a red X on the calendar; show the days studied this month and a 'repair by finishing 2 plans today' option. Home: when the streak is broken, lead with total study days and progress to exam rather than a zeroed streak counter.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "What can machine learning teach us about habit formation? Evidence from exercise and hygiene",
+    "Creator": "Anastasia Buyalskaya, Hung Ho, Katherine Milkman, Xiaomin Li, Angela Duckworth, Colin Camerer, PNAS (2023)",
+    "Type": "Case study",
+    "Link": "https://www.pnas.org/doi/10.1073/pnas.2216115120",
+    "Apps": [
+      "24 Hour Fitness"
+    ],
+    "Topics": [
+      "Progress & streaks",
+      "Research methods"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "A gym habit typically takes months to form, not 21 days, and the strongest predictor of the next visit is how long it has been since the last one.",
+    "What they did": "Researchers used machine learning on more than 12 million gym check-ins (over 30,000 gymgoers across four years) and more than 40 million hospital handwashing events to trace when each person's behaviour became predictable, that is, habitual.",
+    "Results": "'It typically takes months to form the habit of going to the gym but weeks to develop the habit of handwashing'; press coverage gives about six months on average for the gym. Time since last visit was an important predictor for 76% of gymgoers, and 69% tended to go on the same days of the week. More predictable (habitual) gymgoers were less responsive to an intervention to boost attendance.",
+    "Takeaways": "Week-1 mechanics alone won't create a habit; plan for months; Gaps compound, so shorten time-since-last-session; Same-weekday routines predict consistency; Habitual users respond less to incentives, so aim nudges at forming users",
+    "Ideas for OnCourse": "Today's plan: ask users to pick fixed study weekdays during onboarding and anchor reminders to those days. Notifications: trigger outreach based on days since last session rather than calendar dates, and focus incentives on users in their first 2 to 3 months.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Kudos make you run! How runners influence each other on the online social network Strava",
+    "Creator": "Rob Franken, Hidde Bekhuis, Jochem Tolsma, Social Networks (2023)",
+    "Type": "Case study",
+    "Link": "https://research.rug.nl/en/publications/kudos-make-you-run-how-runners-influence-each-other-on-the-online/",
+    "Apps": [
+      "Strava"
+    ],
+    "Topics": [
+      "Gamification",
+      "Progress & streaks"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Getting lightweight recognition (kudos) from clubmates makes people exercise more and more often, and people drift toward the habits of those they cheer for.",
+    "What they did": "Researchers built longitudinal network and activity data for five Strava clubs tied to real Dutch running clubs (329 members, 11 one-month periods) and modelled how giving and receiving kudos related to running behaviour.",
+    "Results": "'Receiving kudos induced runners to run more and more often.' Runners adjusted toward the running of the people they gave kudos to, but unexpectedly became more like kudos-friends who ran less, not more. Observational network study with no product change; sample limited to five Dutch clubs.",
+    "Takeaways": "One-tap peer recognition is a real motivator; Small cohort-based groups (clubs) carry social influence; Peers can pull behaviour down as well as up; Make recognition easy to give",
+    "Ideas for OnCourse": "Home: add a cohort feed for an exam batch where peers can send one-tap 'kudos' on finished daily plans. Notifications: tell users when a batchmate cheered their session ('Priya cheered your 50-question set').",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How Clarity and Personalization Help Drive Duolingo's Growth — Anmol Tiwari, Duolingo",
+    "Creator": "Sub Club by RevenueCat (David Barnard, Jacob Eiting) with Anmol Tiwari",
+    "Type": "Podcast",
+    "Link": "https://subclub.com/episode/how-clarity-and-personalization-help-drive-duolingos-growth-anmol-tiwari-duolingo",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Paywall",
+      "Notifications",
+      "Onboarding",
+      "Copy"
+    ],
+    "Goal": [
+      "Conversion",
+      "Renewal"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Duolingo treats the paywall as a place to give clarity rather than persuade, and found that shorter trials, repeated trial chances and letting users pick their reminder day all raised conversions.",
+    "What they did": "Moved from a two-week trial (used until around the end of 2024) to a 7-day trial and changed how many trials users get, including a no-strings 3-day 'free taste' of Super/Max framed as a reward after a lesson. Tested letting users choose which day they get the trial-ending reminder instead of a fixed reminder about two days before expiry.",
+    "Results": "On the trial change: \"overall net, we saw more conversions over time\", and going from 14 to 7 days \"basically doubled our experimentation velocity\". The pick-your-reminder-day test increased confidence and had users wait until \"that fifth day or sixth day to decide\"; no percentage uplift was given. Building the upsell into onboarding questions (e.g. learning with or without ads) was \"one of our biggest wins last year.\"",
+    "Takeaways": "Aim for clarity and confidence, not persuasion; Shorter trials double how fast you can learn from tests; Give users several chances to try premium across their lifecycle; Adding a choice of reminder day (friction) increased trust; Track day-0 cancellations as an intent signal",
+    "Ideas for OnCourse": "Paywall: next to the existing trial timeline, let the student pick the day they get the trial-ending reminder (e.g. day 5 or 6) and confirm it on screen. Practice: after a strong session, offer a 3-day no-strings premium 'earned' preview instead of a generic upsell. Onboarding: fold the premium question into the exam-plan questions (e.g. 'Do you want full mock tests and analytics?') rather than a standalone pitch.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "BoldVoice removed the X from its paywall. Trial starts jumped. Refunds jumped more.",
+    "Creator": "RevenueCat (write-up of Sub Club episode with Anada Lakra, BoldVoice)",
+    "Type": "Podcast",
+    "Link": "https://www.revenuecat.com/blog/growth/anada-lakra-boldvoice-sub-club-podcast-2026",
+    "Apps": [
+      "BoldVoice"
+    ],
+    "Topics": [
+      "Paywall",
+      "Onboarding",
+      "Research methods"
+    ],
+    "Goal": [
+      "Conversion",
+      "Renewal"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Forcing or tricking people into a trial lifts trial starts but costs more in refunds, so judge paywall tests on net revenue after refunds.",
+    "What they did": "BoldVoice, an accent-coaching learning app, tested a hard paywall with no dismiss button and a discount offer that appeared on dismiss and could not be closed. It now lets users who dismiss the paywall get a speech assessment, first daily plan and a coach video, then offers a 7-day trial on day two; the lead offer is an annual plan around $150/year.",
+    "Results": "No percentages given. Lakra: \"Both of those look so promising on the trial numbers\" but \"The refund spiked by way more than the gain in start trials.\" Tests are now judged on net revenue after refunds per exposed user on a matured cohort, waiting at least an extra week for trials to convert and two more for refunds to settle.",
+    "Takeaways": "Trial-start rate is the wrong scoreboard; Inescapable paywalls and offers come back as refunds; Give a real taste of value before the trial ask; Default to annual so payback lands within the trial window; Interview non-converters, not just happy users",
+    "Ideas for OnCourse": "Paywall: keep a visible close button and measure paywall tests on net revenue after refunds and renewal, not trial starts. Onboarding: if a student dismisses the paywall, give them a diagnostic mini-test and their first Today's plan, then re-offer the trial on day two. Today's plan: show the day-two trial offer inside the plan they already started.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How Removing the Free Trial Grew Monthly Subs 2000% — Nancy Anderson, Natal",
+    "Creator": "Sub Club by RevenueCat (David Barnard) with Nancy Anderson",
+    "Type": "Podcast",
+    "Link": "https://subclub.com/episode/how-removing-the-free-trial-grew-monthly-subs-2000-nancy-anderson-natal",
+    "Apps": [
+      "Natal"
+    ],
+    "Topics": [
+      "Paywall",
+      "Onboarding"
+    ],
+    "Goal": [
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Removing the free trial from the monthly plan, and keeping it only on annual, can lift paid starts sharply when users already trust the product before the paywall.",
+    "What they did": "Natal, a pregnancy fitness app, dropped the free trial from its monthly option (an idea borrowed from Zumba) and kept trials only on annual, making it permanent. It also raised prices during a growth quarter and added pre-tax HSA payment at web checkout.",
+    "Results": "\"I think our monthly subs went up by 2,000% and our quarterly went up by 46%, our annual went up by 21%\" (no baseline, timeframe or sample given). \"20% increase in ARR growth in Q1\" alongside a price increase. Trial conversion rate \"is like 68%\" versus an industry average she puts at 38%; download to trial about 17% versus a 6% health and fitness average.",
+    "Takeaways": "Trials on every plan can slow down people ready to buy; Keep the trial on annual to steer to the long plan; Trust built before the paywall reduces the need for a trial; Human support replies within 24 hours build that trust; Clear onboarding into one starting program beats more content",
+    "Ideas for OnCourse": "Paywall: test offering the free trial only on the annual/exam-cycle plan and a no-trial monthly plan, watching paid starts and refunds. Onboarding: build trust before the paywall with a personalised exam plan and visible human support response times.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How a Single Paywall Experiment Generated $50M — Jeff Morris, Chapter One, Ex-Tinder",
+    "Creator": "Sub Club by RevenueCat (David Barnard, Jacob Eiting) with Jeff Morris",
+    "Type": "Podcast",
+    "Link": "https://subclub.com/episode/how-a-single-paywall-experiment-generated-50m-jeff-morris-chapter-one-ex-tinder",
+    "Apps": [
+      "Tinder",
+      "Flighty"
+    ],
+    "Topics": [
+      "Paywall",
+      "Navigation"
+    ],
+    "Goal": [
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Where the paywall entry points sit can matter more than the paywall itself; Tinder's biggest win was a new entry point in the top nav.",
+    "What they did": "Around 2018 Tinder tested a toggle at the top of the app that let users enter a new subscription tier from the top nav bar, a 'throwaway' A/B test. Every subscription feature also had its own paywall entry point tracked for taps, conversion and incremental revenue, with pricing localized by geography (LATAM and India paid less).",
+    "Results": "Described as \"a single experiment that generated $50 million in revenue\" at roughly \"50 million monthly actives\"; no conversion lift or duration given.",
+    "Takeaways": "Treat in-app space as paywall real estate and test entry points; Track taps, conversion and revenue per entry point; One or two features drive most subscription revenue; Ask for payment after the magic moment; Hard paywalls can fake product-market fit if users churn later",
+    "Ideas for OnCourse": "Home: test a persistent premium entry point in the header (e.g. 'Unlock full mock tests') and track taps and conversion per entry point. Practice: put the paywall right after the moment of value, such as after a score breakdown, not before the first question. Paywall: lead with the one or two features that drive most upgrades (e.g. grand tests, analytics).",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "The Hidden Cost of Underpricing Your Subscription — Patrick Rills, Lose It!",
+    "Creator": "Sub Club by RevenueCat with Patrick Rills",
+    "Type": "Podcast",
+    "Link": "https://subclub.com/episode/the-hidden-cost-of-underpricing-your-subscription-patrick-rills-lose-it",
+    "Apps": [
+      "Lose It!"
+    ],
+    "Topics": [
+      "Paywall",
+      "Renewal"
+    ],
+    "Goal": [
+      "Conversion",
+      "Renewal"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Retest prices that lost before; doubling the annual price broke even on conversion and opened room for deeper lifecycle discounts.",
+    "What they did": "Lose It! had charged $39.99/year since 2012 and had tested everything from $5 to $120 a year. In late 2024 it retested about $80 across iOS, Android, new, existing and reactivated users, rolled it out in 2026, grandfathered existing subscribers, and uses a lifecycle sale system where the discount depends on where the user is in their journey.",
+    "Results": "Testing ~$80 \"broke even,\" which \"had never happened before\"; the full rollout \"results have been exactly our experiment results.\" Retention stayed \"very stable.\" At $80 \"we can do more steep discounting\" and \"the bigger the percent, usually the higher the conversion.\"",
+    "Takeaways": "Market changes can turn a losing price into a winner; A higher list price funds deeper, targeted discounts; Grandfather existing subscribers to avoid churn risk; A strong free tier protects retention after a price rise; Higher prices make paid acquisition pay back",
+    "Ideas for OnCourse": "Paywall: retest a higher annual list price paired with a lifecycle discount (e.g. bigger % off for students near their exam date). Renewal: keep current subscribers on their old price and show a 'your price changes if you lapse' note when they turn off auto-renew.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Explore Retention Messaging in App Store Connect (WWDC26 session 309)",
+    "Creator": "Apple (App Store server team)",
+    "Type": "Video",
+    "Link": "https://developer.apple.com/videos/play/wwdc2026/309/",
+    "Apps": [
+      "Apple App Store"
+    ],
+    "Topics": [
+      "Renewal",
+      "Copy"
+    ],
+    "Goal": [
+      "Renewal",
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "iOS now lets apps show a message, image, offer or plan switch on the App Store cancel page, and offers saved the most subscribers.",
+    "What they did": "Apple added Retention Messaging: a message shown on the App Store cancellation page that can be text only, text plus image, or text plus a retention offer, with real-time server-chosen messages and same-group plan switches available via an API. The App Store auto-picks the best eligible offer.",
+    "Results": "\"Subscriptions that have adopted Retention Messaging experience an average save rate increase of +1.4 points equivalent to an 82% increase, with promotional offer messages achieving the highest observed save rate at +5.5 points equivalent to a 223% increase. Note that we have observed varying results across developers.\" (Save rate = % who keep their subscription after reaching the cancel confirmation page.)",
+    "Takeaways": "The App Store cancel page is now a save surface you control; Offers had the highest observed save rate; Plan switches need the real-time API; Configure App Store Connect messages as fallback; Everything is testable in sandbox",
+    "Ideas for OnCourse": "Renewal: set up a retention message on the cancel page that reminds students what they lose before their exam (mock tests, saved progress) with an image. Renewal: for annual subscribers cancelling right after their exam, offer a switch to a cheaper monthly or next-cycle plan via real-time messaging.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Early Apple Retention Messaging benchmarks from 22M messages",
+    "Creator": "Margarita Loktionova, RevenueCat",
+    "Type": "Article",
+    "Link": "https://www.revenuecat.com/blog/growth/apple-retention-messaging-benchmarks",
+    "Apps": [
+      "Apple App Store"
+    ],
+    "Topics": [
+      "Renewal",
+      "Research methods"
+    ],
+    "Goal": [
+      "Renewal",
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Most apps throw discounts at cancelling users, but almost nobody accepts them, so match the message to the cancel reason and limit who sees discounts.",
+    "What they did": "RevenueCat analysed 21,960,020 retention messages across 309 apps (March 22 to September 20, 2026) to benchmark save rates, setups and offer acceptance on Apple's cancellation page.",
+    "Results": "Median save rate 16.7% (top quarter over 27%, top 10% 42% or more). 87% of apps regularly show a discount or plan-switch offer, yet acceptance was about 1.1% for promotional offers and 0.6% for plan switches. Adopters' median cancellation decline after launch was 3.6% vs 7.3% for matched apps; with 64 apps the gap \"could easily be chance.\"",
+    "Takeaways": "Save rate overstates impact; Offers are rarely accepted; Price may not be the real cancel reason; Exclude trial users and past redeemers from discounts; Measure renewals and revenue, not saves",
+    "Ideas for OnCourse": "Renewal: ask one cancel-reason question in-app (exam done, too expensive, not using) and show a matching message instead of a blanket discount. Renewal: keep discounts away from trial users and anyone who already redeemed one so cancelling isn't a shortcut to a lower price.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "17% Revenue Boost with Transaction Abandon Paywalls - A Case Study",
+    "Creator": "Superwall",
+    "Type": "Case study",
+    "Link": "https://superwall.com/blog/17-revenue-boost-with-transaction-abandon-paywalls-a-case-study/",
+    "Apps": [],
+    "Topics": [
+      "Paywall"
+    ],
+    "Goal": [
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Showing a discounted paywall to people who start checkout but back out recovered meaningful revenue without raising refunds.",
+    "What they did": "18 companies showed a discounted paywall to users who started a transaction but didn't confirm it with Face ID, running campaigns for at least two weeks and comparing against all recent installs.",
+    "Results": "Transaction abandon paywalls \"account for 17% of total revenue.\" Variant (87,403 users who abandoned) converted at 6.3% vs 8.9% for control (438,144 recent installs); refund rate 3.3% vs 6.8%. \"Approximately 20% of total paywalled users will encounter a transaction abandon paywall.\" Some apps \"received scrutiny from Apple.\"",
+    "Takeaways": "Only around 50% of users complete purchases once they start; A follow-up discount catches hesitant buyers; Refunds were lower, not higher; Watch App Review risk around unintended purchases; Hard to know how many would have bought anyway",
+    "Ideas for OnCourse": "Paywall: when a student cancels the App Store/Play purchase sheet, show a one-time discounted annual offer with the same trial timeline. Paywall: log purchase-sheet cancels separately from paywall dismisses to size the 43% who never start a purchase.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "The ultimate guide to price localization",
+    "Creator": "Daphne Tideman (with Jacob Rushfinn), RevenueCat",
+    "Type": "Article",
+    "Link": "https://www.revenuecat.com/blog/growth/price-localization-for-apps",
+    "Apps": [
+      "Duolingo",
+      "Flo",
+      "Impulse"
+    ],
+    "Topics": [
+      "Paywall"
+    ],
+    "Goal": [
+      "Conversion"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Store-default prices for India are far above what successful apps charge; build your own price index and test, judging on LTV.",
+    "What they did": "Jacob Rushfinn compared localized prices across 10 apps against Apple's suggested prices and describes what apps did: Duolingo charging more in Spain and France, Flo cutting prices sharply in Brazil, and Impulse dropping its annual plan in Brazil.",
+    "Results": "For India, \"Apple recommends pricing about 21% lower than the U.S., but most apps actually go 50–80% lower.\" Signal of mismatch: \"If your conversion rate in India is five times lower than in Canada, Australia, or US, well, there's some mismatch.\" Flo's pricing work coincided with 45% overall growth: 35% in English-speaking markets and 80% in non-English-speaking ones. About 40% of brands in a webinar poll still use store defaults.",
+    "Takeaways": "Store defaults follow taxes and exchange rates, not purchasing power; India prices at most apps are 50–80% below US; Compare conversion by country to spot mismatches; Build an index from ~10 comparable apps including local competitors; Test bold price gaps and judge on LTV",
+    "Ideas for OnCourse": "Paywall: compare India vs US paywall-to-purchase rates; if India is several times lower, test a price 50–80% below US for NEET PG. Paywall: build a price index from Indian exam-prep competitors and show plans in rupees per month of prep.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Experiment: Free-trial Timeline Page vs. Long-form Feature/Benefit Page",
+    "Creator": "Jeffrey Bunn (Clearful)",
+    "Type": "Case study",
+    "Link": "https://jeffreybunn.substack.com/p/free-trial-timeline-vs-long-form-pricing-page",
+    "Apps": [
+      "Clearful",
+      "Blinkist"
+    ],
+    "Topics": [
+      "Paywall",
+      "Notifications"
+    ],
+    "Goal": [
+      "Conversion",
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "A trial timeline paywall boosted trial starts but hurt retention versus a long-form benefits page, so combine both and check downstream metrics.",
+    "What they did": "Clearful A/B tested its long-form pricing page (features, benefits, testimonials, social proof, FAQ) against a Blinkist-style free-trial timeline page with a push prompt offering a reminder before the trial ends (sent two days before renewal).",
+    "Results": "\"54% increase in trial starts (yay) with worse retention for all users in the test (uh-oh).\" The vast majority of new trialists converted to Pro and push opt-ins rose; retention fell even among people who saw the page but didn't start a trial. No retention figures given. In a follow-up post, trial-user push opt-ins were \"nearing 100%\" and trial-to-paid conversion \"didn't drop.\"",
+    "Takeaways": "A timeline lifts trial starts; Benefits, testimonials and FAQ build understanding that supports retention; Paywall content affects even non-buyers; Check retention, not only trial starts; Next step is timeline on top of a long-form page",
+    "Ideas for OnCourse": "Paywall: keep the existing trial timeline at the top but add scrollable proof below it (topper testimonials, what's in the question bank, FAQ on cancelling). Paywall: A/B test on 30-day retention and renewal, not just trial starts.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How ABBYY increased annual subscription revenue by 58.5% with paywall A/B testing",
+    "Creator": "Adapty",
+    "Type": "Case study",
+    "Link": "https://adapty.io/case-studies/abbyy/",
+    "Apps": [
+      "ABBYY FineReader"
+    ],
+    "Topics": [
+      "Paywall",
+      "Visual design"
+    ],
+    "Goal": [
+      "Conversion"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Highlighting the annual plan with a savings badge and a longer trial, and making each plan its own button, doubled annual plan choice.",
+    "What they did": "ABBYY tested its paywall with benefits in a gallery and the monthly plan highlighted against a version with benefits in one list, the annual plan on a coloured button with a 'save 71%' badge and a 14-day free trial, and each plan as its own tappable button.",
+    "Results": "\"the users would choose the annual plan twice more often than the monthly option\"; \"the conversion rate from views to purchases increased from 1.37% to 1.54%\"; \"the revenue from annual subscriptions also increased by 58.5%\".",
+    "Takeaways": "Default and highlight the plan you want; A savings badge makes the annual value obvious; Put the trial on the annual plan; A single benefit list beats a gallery; Make plans directly tappable",
+    "Ideas for OnCourse": "Paywall: highlight the full-exam-cycle plan with a 'save X%' badge and attach the trial only to it. Paywall: replace any benefit carousel with a short list and make each plan card a direct purchase button.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How long should your free trial be? Data from 17,000+ apps",
+    "Creator": "Margarita Loktionova, RevenueCat",
+    "Type": "Article",
+    "Link": "https://www.revenuecat.com/blog/growth/free-trial-length",
+    "Apps": [],
+    "Topics": [
+      "Paywall",
+      "Renewal"
+    ],
+    "Goal": [
+      "Conversion",
+      "Renewal"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Longer trials tend to come with higher conversion and much higher first renewal, especially on annual plans, but pick length by time-to-value and test it.",
+    "What they did": "RevenueCat analysed trial length against trial conversion and first renewal across 17,000+ apps (August 2025 to July 2026), split by plan type, category and region.",
+    "Results": "Annual plans: conversion from 24% (≤4-day trials) to 44.6% (17–32 days); first renewal from 18.3% to 47.5%. Monthly: conversion 39.6% (≤4 days), 45.9% (5–9), 46.6% (10–16), 43.7% (17–32); first renewal 62.8% at 5–9 days to 77.5% at 17–32. Monthly plans in India & Southeast Asia peak at 5–9 days. Education top apps favor 5–9-day trials. Author calls it \"a correlational pattern.\"",
+    "Takeaways": "Short trials are common but correlate with weaker renewal; Annual plans benefit most from longer trials; India & SEA monthly peaks at 5–9 days; Choose by time to value, habit and audience; Test length on your own plans",
+    "Ideas for OnCourse": "Paywall: test a 7-day vs 14-day trial on the annual plan, measured on first renewal, since students need time to finish a few mocks. Renewal: report renewal rate by trial length cohort so trial changes are judged on renewal.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Writing for Interfaces (WWDC22)",
+    "Creator": "Kaely Coon and Jennifer Bush, Apple",
+    "Type": "Talk",
+    "Link": "https://developer.apple.com/videos/play/wwdc2022/10037/",
+    "Apps": [
+      "Apple"
+    ],
+    "Topics": [
+      "Copy",
+      "Accessibility"
+    ],
+    "Goal": [
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Make each screen say one clear thing, and label every button with the action it performs.",
+    "What they did": "Apple's UX writers set out the PACE framework (Purpose, Anticipation, Context, Empathy) with before/after rewrites of real iOS screens. One example: an ambiguous 'Confirm Cancellation' alert with 'Cancel'/'Confirm' buttons became 'Cancel Platinum Subscription?' with 'Cancel Subscription' and 'Keep Subscription'.",
+    "Results": null,
+    "Takeaways": "Decide the one thing a screen must say and cut the rest; Avoid Yes/No buttons, since the labels alone should explain the choice; Keep one voice but change the tone (calm for errors, celebratory for streaks), and use exclamation points sparingly; Drop 'Oops' and 'Sorry' from errors and say how to fix the problem; Empty states should explain how the space gets filled",
+    "Ideas for OnCourse": "Copy: Rewrite every alert and sheet so the buttons name their action (e.g. 'End session' / 'Keep practicing' instead of 'Yes' / 'No'). Flashcards: Replace empty states like 'Nothing here' with what fills them, e.g. 'No saved cards. Bookmark a question during practice and it shows up here.' Streaks: Keep the celebratory tone for milestones only and make the copy for missed days calm and factual.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Designing Fluid Interfaces (WWDC18)",
+    "Creator": "Chan, Nathan de Vries and Marcos, Apple Human Interface team",
+    "Type": "Talk",
+    "Link": "https://developer.apple.com/videos/play/wwdc2018/803/",
+    "Apps": [
+      "Apple"
+    ],
+    "Topics": [
+      "Visual design"
+    ],
+    "Goal": [
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Motion should respond instantly, be interruptible, and follow the gesture's momentum, so the interface feels like an extension of the hand.",
+    "What they did": "Apple's HI team explains the principles behind the iPhone X gesture interface: no latency, motion that can be redirected mid-gesture, spatial consistency, and springs described by damping and response instead of duration. It also covers projecting a flick's momentum to pick where an element should land.",
+    "Results": null,
+    "Takeaways": "Use springs described by damping and response, not fixed durations; Start at 100% damping and add bounce only when the gesture itself carries momentum; Things should leave the way they came in; Highlight on touch-down, commit on touch-up, and allow dragging off to cancel; Prototype interactions as live demos, not static frames",
+    "Ideas for OnCourse": "Motion: Define 2-3 shared spring presets (e.g. no-bounce for taps, slight bounce for swipe-dismiss) in the design system and use them everywhere instead of ad-hoc durations. Flashcards: Make the card swipe follow the finger one-to-one and use release velocity to decide know/don't-know, so a quick flick counts. Practice: Make answer options highlight on press-in, so a learner can slide off to change their mind before committing.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Explore Navigation Design for iOS (WWDC22)",
+    "Creator": "Sarah McClanahan, Apple",
+    "Type": "Talk",
+    "Link": "https://developer.apple.com/videos/play/wwdc2022/10001/",
+    "Apps": [
+      "Apple",
+      "Slopes",
+      "Messages"
+    ],
+    "Topics": [
+      "Navigation",
+      "Home"
+    ],
+    "Goal": [
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Tabs should mirror your information hierarchy. Push to go deeper, and use modals only for self-contained tasks.",
+    "What they did": "Using a fictional cycling app, the session shows how an overloaded first tab was split by modelling the content's natural relationships, and warns against a catch-all Home tab that duplicates actions found elsewhere. It sets rules for push (always when a chevron is shown) and modals (preferred action plus Cancel, and a sparing X).",
+    "Results": null,
+    "Takeaways": "Balance features across tabs instead of loading up the first one; A Home tab that duplicates functionality breaks the hierarchy (duplicating content is fine); Never switch tabs automatically, and keep each tab's state; A chevron always means push; Use X only on modals with no input, otherwise use Cancel plus a named action",
+    "Ideas for OnCourse": "Navigation: Audit whether Home repeats actions that already live in Practice or Lessons, and keep Home as a launch point rather than a second copy. Practice: Present a custom test builder as a bottom modal with 'Cancel' and 'Start test', not an X, since the learner has made choices. Lessons: Use push for chapter, then topic, then lesson, with the back button showing the previous title, and keep the tab bar visible.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Make Your App Visually Accessible (WWDC20)",
+    "Creator": "Drew Haas, Apple",
+    "Type": "Talk",
+    "Link": "https://developer.apple.com/videos/play/wwdc2020/10020/",
+    "Apps": [
+      "Apple"
+    ],
+    "Topics": [
+      "Accessibility",
+      "Visual design"
+    ],
+    "Goal": [
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Never rely on color alone, design for large text from the start, and respect the system's motion and contrast settings.",
+    "What they did": "An Apple accessibility engineer walks through a demo app, adding symbols to color-coded items, checking contrast (4.5:1 by default, 7.5:1 in the high-contrast variant), and switching layouts from horizontal to vertical at accessibility text sizes. He also turns off parallax and slide transitions when Reduce Motion is on.",
+    "Results": "Contrast example in the demo: 4.5:1 by default ('generally the lowest acceptable ratio'), 7.5:1 in the high-contrast variant",
+    "Takeaways": "Pair color with a shape or symbol for meaning (right/wrong, status); Aim for at least 4.5:1 contrast and provide high-contrast variants; Wrap text instead of truncating, and stack rows vertically at large sizes; Honour Reduce Motion by dropping idle animation, parallax and autoplay; Turn the settings on and look at your own app",
+    "Ideas for OnCourse": "Practice: Mark right and wrong answers with a check or cross icon as well as green and red, so color-blind learners can tell them apart. Design system: Add a contrast check (at least 4.5:1) to every text and background token pair in light and dark, and let answer rows wrap to vertical layouts at large Dynamic Type sizes. Motion: Gate celebration and confetti animations behind React Native's AccessibilityInfo.isReduceMotionEnabled.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Implementing Dark Mode on iOS (WWDC19)",
+    "Creator": "Kurt and Tyler, Apple UIKit team",
+    "Type": "Talk",
+    "Link": "https://developer.apple.com/videos/play/wwdc2019/214/",
+    "Apps": [
+      "Apple"
+    ],
+    "Topics": [
+      "Visual design"
+    ],
+    "Goal": [
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Dark mode is not an inversion. Build it on semantic color names and elevation levels so screens adapt without per-mode code.",
+    "What they did": "Apple's session shows converting a demo app by swapping hard-coded colors for semantic ones (system background, label, secondary label) and giving brand colors and images their own dark variants. It explains that elevated layers such as sheets get lighter backgrounds in dark mode to separate them from the black base.",
+    "Results": null,
+    "Takeaways": "Name colors by role (background, label, secondary label), not by value; Dark mode is subtler than inverting light mode; Elevated surfaces like sheets get lighter backgrounds in dark mode, while foreground colors stay the same; Brand colors and illustrations may need dedicated dark variants; Use four levels of text color to carry hierarchy",
+    "Ideas for OnCourse": "Design system: Replace raw hex values in components with role tokens (surface/base, surface/elevated, text/primary, text/secondary) that resolve per theme. Design system: Make bottom sheets and modals use a lighter elevated surface in dark mode, not the same black as the screen behind. Lessons: Give illustrations and diagram images dark-mode variants, or put them on a light card, so they don't glare.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Discoverable Design (WWDC21)",
+    "Creator": "Jiabao Li and Mylène Dreyer, Apple",
+    "Type": "Talk",
+    "Link": "https://developer.apple.com/videos/play/wwdc2021/10126/",
+    "Apps": [
+      "Apple"
+    ],
+    "Topics": [
+      "Navigation",
+      "Onboarding",
+      "Copy"
+    ],
+    "Goal": [
+      "Activation",
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Make features obvious from the screen itself instead of explaining them in onboarding slides.",
+    "What they did": "Apple designers redesign a fictional recipe app: they drop a hamburger menu for a tab bar, place features by how often they're used, label ambiguous icons, keep gestures as shortcuts next to visible buttons, and rewrite a feedback control over three rounds of testing until its consequence was clear ('Suggest toast like this').",
+    "Results": null,
+    "Takeaways": "People skip onboarding screens, so teach in context; Rank features and give screen space by frequency of use; Label icons that could mean several things; Gestures are invisible, so use them as shortcuts rather than replacements; Say why something was recommended ('Because you added...')",
+    "Ideas for OnCourse": "Onboarding: Replace feature-tour slides with in-context hints on the first practice session, e.g. a one-time label on the bookmark and the explanation toggle. Home: Label recommended content with its reason, e.g. 'Because you missed 4 cardiology questions'. Flashcards: Keep visible 'Again' and 'Got it' buttons even if swiping works, and make the first tap animate in the swipe direction to teach the gesture.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How we redesigned the Linear UI",
+    "Creator": "Linear",
+    "Type": "Article",
+    "Link": "https://linear.app/now/how-we-redesigned-the-linear-ui",
+    "Apps": [
+      "Linear"
+    ],
+    "Topics": [
+      "Visual design",
+      "Accessibility",
+      "Research methods"
+    ],
+    "Goal": [
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "A small team redesigned the chrome in about six weeks by cutting visual noise, generating themes from three variables, and dogfooding behind a flag.",
+    "What they did": "Linear refreshed its sidebar, tabs, headers and inbox, and rebuilt its themes on an LCH generator using three inputs (base, accent, contrast) instead of 98 hand-set variables per theme. That also made high-contrast themes possible. They deliberately left navigation alone and rolled the change out through a feature flag with an old/new toggle, then a private beta, then general availability.",
+    "Results": "About six weeks with a small dedicated team; themes went from 98 hand-defined variables to 3 inputs; no usage metrics reported",
+    "Takeaways": "Generate theme colors from a few inputs instead of hand-tuning dozens; A contrast input gives you accessibility themes almost for free; Scope tightly, since they skipped navigation because changing behavior added risk; Dogfood behind a flag with an old/new toggle; A redesign needs a dedicated team, not a side project",
+    "Ideas for OnCourse": "Design system: Generate OnCourse's light and dark palettes from a small set of base, accent and contrast values so dark mode and a high-contrast mode come from the same source. Design system: Ship visual refreshes behind a PostHog flag with an internal old/new toggle before rolling out. Navigation: Keep restyling separate from navigation changes, and test each on its own.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Expressive Design: Google's UX Research (Material 3 Expressive)",
+    "Creator": "Google Design",
+    "Type": "Article",
+    "Link": "https://design.google/library/expressive-material-design-google-research",
+    "Apps": [
+      "Google",
+      "Material Design"
+    ],
+    "Topics": [
+      "Visual design",
+      "Accessibility",
+      "Research methods"
+    ],
+    "Goal": [
+      "Usability"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Bolder color, shape, size and motion helped people find key actions faster, but only when basic usability stayed intact.",
+    "What they did": "Over three years Google ran 46 studies with more than 18,000 participants (eye tracking, surveys, usability tests) comparing expressive designs with standard Material. In one example, the email Send button was made bigger, moved above the keyboard and given a secondary color.",
+    "Results": "46 studies, 18,000+ participants; key UI elements spotted up to 4x faster; preference for expressive designs up to 87% among 18-24-year-olds; modernity perception +34%; age gaps in fixation time largely disappeared for users 45+; scattered layouts and removing text labels hurt usability",
+    "Takeaways": "Use size, color and placement to make the primary action easy to find; Put the main action near where the thumb already is; Expressiveness never beats basic function, so keep text labels; A strong minority prefers calmer designs; Test with eye tracking or timed tasks, not just preference",
+    "Ideas for OnCourse": "Practice: Make 'Submit' and 'Next question' larger and anchored at the bottom in the thumb zone, in a distinct color from the answer options. Home: Give the single 'Start today's plan' action clear size and color emphasis rather than equal weight with other cards. Design system: Keep text labels on icon buttons in the practice toolbar, since removing labels reduced usability in Google's tests.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "How Duolingo's World Characters lip sync",
+    "Creator": "Jasmine Vahidsafa and Kevin Lenzo, Duolingo",
+    "Type": "Article",
+    "Link": "https://blog.duolingo.com/world-character-visemes",
+    "Apps": [
+      "Duolingo",
+      "Rive"
+    ],
+    "Topics": [
+      "Visual design",
+      "Lessons",
+      "Gamification"
+    ],
+    "Goal": [
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Duolingo made characters feel alive at scale by driving Rive state machines with data, not hand-animated video.",
+    "What they did": "Duolingo ran its text-to-speech audio through its own speech models to get word and phoneme timings, mapped them to 20+ mouth shapes per character, and ran mouth and body animation as parallel states in a Rive state machine. The app downloads the audio and timings and drives the animation live, so characters react to taps and to right or wrong answers.",
+    "Results": "10 characters, 40+ languages, 100+ courses, 20+ mouth shapes per character; no engagement metrics reported",
+    "Takeaways": "Interactive state machines scale where hand-made video can't; Separate layers (body vs mouth) so they combine freely; Sending timing data is much lighter than shipping video; Characters reacting to right and wrong answers turn them into study buddies; Design the shapes to fit the brand before animating",
+    "Ideas for OnCourse": "Motion: Use Rive (it has a React Native runtime) for any mascot or feedback animation, with states for idle, correct and incorrect driven by app events instead of Lottie clips per outcome. Practice: Add a small reacting element (icon or character) that responds to correct and incorrect answers, so feedback feels warm without extra screens.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Shape language: Duolingo's art style",
+    "Creator": "Megan Barker, Duolingo",
+    "Type": "Article",
+    "Link": "https://blog.duolingo.com/shape-language-duolingos-art-style/",
+    "Apps": [
+      "Duolingo"
+    ],
+    "Topics": [
+      "Visual design"
+    ],
+    "Goal": [
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "A minimal style built from a few rounded shapes let a small team make hundreds of clear, friendly illustrations a year.",
+    "What they did": "In 2018 Duolingo moved from flat, sharp, muted art on gray to bright, rounded vector illustrations on white, and the UI followed with rounded buttons. The rules: use the fewest shapes needed, exaggerate key details almost to caricature, leave white space around artwork, and angle lines toward UI elements to guide the eye.",
+    "Results": "No metrics reported; the team produces 'hundreds' of illustrations a year. Qualitatively, animated skill icons held attention longer than static ones",
+    "Takeaways": "Pick a style you can produce quickly with a small team; Unclear art causes wrong answers ('Our failure becomes our learners' failure'); Use playfulness to lower the fear of mistakes; Surround art with white space so it reads on small screens; Use lines and motion to point attention at UI",
+    "Ideas for OnCourse": "Design system: Define a small illustration kit (2-3 base shapes, a fixed palette, a stroke rule) so devs and non-illustrators can make empty-state and milestone art that stays on style. Lessons: Keep medical diagrams minimal with exaggerated key features and generous white space so they stay legible on phones.",
+    "Status": "Read",
+    "Added": "2026-11-10"
+  },
+  {
+    "Title": "Behind the Design: Headspace",
+    "Creator": "Apple Developer (interview with Jeff Birkeland, Headspace)",
+    "Type": "Article",
+    "Link": "https://developer.apple.com/news/?id=fkfnhq8u",
+    "Apps": [
+      "Headspace"
+    ],
+    "Topics": [
+      "Navigation",
+      "Home",
+      "Visual design"
+    ],
+    "Goal": [
+      "Usability",
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Headspace replaced category tabs with a Today tab that offers one-tap activities by time of day, and moved the full library into Explore.",
+    "What they did": "Following user research, Headspace removed core tabs for meditation, focus, movement and sleep, and made a Today tab that offers activities of varying lengths for morning, afternoon and night without showing categories. The deep catalogue moved into an Explore tab with purpose-named collections.",
+    "Results": "No redesign-specific metrics; the app has 100M+ users in nearly 200 countries and won a 2023 Apple Design Award",
+    "Takeaways": "Keep the surface simple and the depth one step away; Organize the first screen around when and why people use the app, not your content taxonomy; Purpose-named collections beat category names; A warm brand makes hard topics approachable",
+    "Ideas for OnCourse": "Today's plan: Make the first tab a short, time-aware set of one-tap sessions (e.g. 10-minute warm-up, main block, evening review) rather than a list of subjects. Navigation: Move the full subject and system catalogue into a Browse/Explore tab so Home doesn't carry the taxonomy. Lessons: Name collections by goal ('High-yield for the last 30 days') as well as by subject.",
+    "Status": "Read",
+    "Added": "2026-11-10"
   }
 ]

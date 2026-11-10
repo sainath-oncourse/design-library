@@ -94,6 +94,8 @@
     "When should we ask to send reminders?",
     "How do I reduce cancellations at renewal?",
     "What makes a free trial feel safe to start?",
+    "How should tabs and navigation work?",
+    "How do we make screens accessible?",
   ];
 
   function renderAnswer(q) {
@@ -137,7 +139,7 @@
     app.innerHTML = `
       <section class="hero">
         <h1>We read the design talks<br/>so you don't have to</h1>
-        <p class="lede">What apps like Duolingo, Headspace and Calm changed in onboarding, streaks, reminders, paywalls and renewal, and what happened. Every point links to its source, with ideas for OnCourse.</p>
+        <p class="lede">What apps like Duolingo, Headspace and Calm changed in onboarding, practice, streaks, reminders, paywalls and renewal, and how teams like Apple and Linear design screens. Every point links to its source, with ideas for OnCourse.</p>
         <div class="stats">
           <div><strong>${sources.length}</strong><span>videos, talks and case studies</span></div>
           <div><strong>${testedCount}</strong><span>with tested results</span></div>
