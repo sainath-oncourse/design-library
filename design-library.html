@@ -2701,7 +2701,7 @@ window.LIBRARY = {
         <div class="meta"><span class="type ${typeClass(s.Type)}">${esc(s.Type)}</span>${evidenceBadge(s)}<span class="muted">${esc(host(s.Link))}</span>${learned.has(s.id) ? `<span class="tick">✓ Learned</span>` : ""}</div>
         <h3>${esc(s.Title)}</h3>
         <p class="did">${esc(s["Bottom line"] || s["What they did"])}</p>
-        ${r ? `<p class="result"><span>${esc(r)}</span></p>` : `<p class="result none"><span>No numbers in the source</span></p>`}
+        ${r && tested(s) ? `<p class="result"><span>${esc(r)}</span></p>` : `<p class="result none"><span>${r ? esc(r) : "No numbers in the source"}</span></p>`}
         <div class="tags">${(s.Apps || []).map((a) => `<span class="tag app">${esc(a)}</span>`).join("")}${(s.Topics || []).slice(0, 3).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
       </a>`;
   }
@@ -2768,7 +2768,7 @@ window.LIBRARY = {
               <div>
                 <p class="step-title">${screen ? `<span class="screen">${esc(screen)}</span> ` : ""}${esc(text)}</p>
                 <p class="step-why"><strong>${esc((s.Apps || [])[0] || s.Creator)}:</strong> ${esc(s["Bottom line"])}</p>
-                ${s.Results ? `<p class="step-result">${esc(firstSentence(s.Results))}</p>` : ""}
+                ${s.Results && tested(s) ? `<p class="step-result">${esc(firstSentence(s.Results))}</p>` : ""}
                 <a class="link small" href="#/s/${s.id}">Read the notes →</a>
               </div>
             </li>`;
