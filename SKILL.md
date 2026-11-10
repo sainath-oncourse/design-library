@@ -11,7 +11,7 @@ Sainath can't watch every video or read every article, so the agent does: it rea
 |---|---|
 | `data/sources.json` | One object per source. **The source of truth.** |
 | `data/experiments.json` | The weekly experiments |
-| `site/` | The website (`site/index.html` opens straight from disk) |
+| `site/`, `Design library.html` | The website. `Design library.html` is one self-contained file to open or share; `site/` holds its parts |
 | `build.mjs` | Run `node build.mjs` after any data change; it regenerates `site/data.js` and catches duplicate links |
 
 Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** kept here. They live in the `product-design` skill's `principles.md`. Don't add a source that only restates a principle.
