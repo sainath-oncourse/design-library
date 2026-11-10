@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<title>Design library</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="#/">Design library</a>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#/" data-tab="sources">Sources</a>
+      <a href="#/experiments" data-tab="experiments">Experiments</a>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-label="Switch light or dark">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
