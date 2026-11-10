@@ -115,7 +115,7 @@ code { font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; background: va
 .btn[aria-pressed="true"] { color: var(--good); border-color: var(--good); }
 textarea { width: 100%; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; resize: vertical; outline: none; }
 textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
-.related h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.related > h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 
 /* experiments */
 .exp-list { display: grid; gap: 14px; padding-bottom: 32px; }
@@ -139,21 +139,136 @@ textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent
   .filter-label { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ---------- v2: Harsha-style library ---------- */
+.logo { color: var(--accent); margin-right: 4px; }
+.top-row { gap: 18px; }
+.agent-link { margin-left: auto; font-size: 13px; font-weight: 600; text-decoration: none; color: var(--accent); white-space: nowrap; }
+.agent-link.active { text-decoration: underline; }
+.theme { margin-left: 0; }
+.eyebrow { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 10px; }
+.lede { font-size: 17px; color: var(--muted); max-width: 680px; margin: 0 0 8px; }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; margin: 44px 0 6px; }
+.section-head h2 { font-size: 20px; letter-spacing: -0.01em; margin: 0; }
+.card h3 { font-size: 17px; line-height: 1.3; margin: 0; letter-spacing: -0.01em; }
+
+/* hero */
+.hero { padding: 56px 0 8px; text-align: center; }
+.hero h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.05; letter-spacing: -0.03em; margin: 0 0 16px; }
+.hero .lede { margin: 0 auto 28px; }
+.stats { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+.stats div { display: grid; }
+.stats strong { font-size: 28px; letter-spacing: -0.02em; }
+.stats span { font-size: 13px; color: var(--muted); }
+
+/* ask */
+.ask { max-width: 760px; margin: 36px auto 0; }
+.ask-box { display: flex; gap: 8px; padding: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); }
+.ask-box:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.ask-box input { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--text); font: inherit; font-size: 16px; padding: 10px 12px; outline: none; }
+.suggest { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 14px 0 0; }
+.answer { margin-top: 22px; padding: 22px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); display: grid; gap: 14px; }
+.answer p { margin: 0; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+.steps li { display: grid; grid-template-columns: 30px 1fr; gap: 12px; }
+.num { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 13px; flex: none; }
+.step-title { font-weight: 600; margin: 2px 0 4px !important; }
+.step-why { color: var(--muted); font-size: 14px; margin-bottom: 4px !important; }
+.step-result { font-size: 13px; color: var(--good); margin-bottom: 4px !important; }
+.where { border-top: 1px solid var(--border); padding-top: 14px; display: grid; gap: 10px; justify-items: start; }
+.where-list { display: grid; gap: 6px; width: 100%; }
+.where-list a { display: grid; text-decoration: none; padding: 8px 10px; border-radius: 8px; background: var(--surface-2); }
+.where-list a:hover { background: var(--accent-soft); }
+
+/* course */
+.lesson-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; padding-top: 8px; }
+.lesson-list { display: grid; gap: 12px; padding-bottom: 32px; max-width: 760px; }
+.lesson { position: relative; display: grid; gap: 6px; align-content: start; padding: 18px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; transition: border-color .15s, transform .15s; }
+.lesson:hover { border-color: color-mix(in srgb, var(--accent) 40%, var(--border)); transform: translateY(-2px); }
+.lesson h3 { margin: 0; font-size: 16px; }
+.lesson p { margin: 0; font-size: 14px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.lesson-list .lesson p { -webkit-line-clamp: unset; }
+.lesson-num { font-size: 28px; font-weight: 700; color: var(--accent); line-height: 1; letter-spacing: -0.02em; }
+.lesson-page .lede { margin-bottom: 24px; }
+.idea-list { list-style: none; padding: 0 !important; margin: 0; display: grid; gap: 22px; }
+.idea-list li { margin: 0 !important; }
+.idea-list h3 { display: flex; align-items: center; gap: 10px; text-transform: none; letter-spacing: -0.01em; font-size: 18px; color: var(--text); margin: 0 0 6px; }
+.idea-list p { padding-left: 36px; }
+.cites { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.idea-list .cites { padding-left: 36px; }
+.cite { font-size: 12px; text-decoration: none; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
+.cite:hover { color: var(--accent); border-color: var(--accent); }
+.try { margin: 32px 0; padding: 18px 20px; background: var(--accent-soft); border-radius: var(--radius); max-width: 720px; }
+.try h3 { color: var(--accent) !important; margin-top: 0; }
+.try ul { margin: 0 0 8px; padding-left: 20px; }
+.try li { margin: 6px 0; }
+.pager { display: flex; justify-content: space-between; gap: 16px; padding: 8px 0 40px; }
+.pager a { text-decoration: none; color: var(--accent); font-weight: 600; }
+
+/* sources extras */
+.ev { font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 5px; background: var(--surface-2); color: var(--muted); }
+.ev-test { background: var(--good-soft); color: var(--good); }
+.tag.app { background: var(--accent-soft); color: var(--accent); text-decoration: none; }
+.bottom-line { padding: 16px 18px; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 12px 12px 0; }
+.bottom-line p { font-size: 17px; line-height: 1.5; }
+
+/* apps */
+.app-row { display: flex; flex-wrap: wrap; gap: 8px; padding: 8px 0 48px; }
+.app-pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 6px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); text-decoration: none; font-weight: 500; }
+.app-pill:hover { border-color: var(--accent); }
+.app-mark { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 8px; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 13px; }
+.app-mark.big { width: 44px; height: 44px; border-radius: 12px; font-size: 20px; }
+.app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; padding-bottom: 40px; }
+.app-card { display: flex; gap: 14px; align-items: center; padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; }
+.app-card:hover { border-color: var(--accent); }
+.app-card h3 { margin: 0; font-size: 16px; }
+.app-card p { margin: 2px 0 0; }
+.app-title { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+.app-title h1 { margin: 0; }
+.timeline { display: grid; gap: 14px; max-width: 760px; padding-bottom: 40px; }
+.tl-item { padding: 18px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.tl-item h3 { margin: 8px 0 6px; font-size: 17px; }
+.tl-item h3 a { text-decoration: none; }
+.tl-item h3 a:hover { color: var(--accent); }
+.tl-item p { margin: 6px 0 0; }
+.tl-item .result span { -webkit-line-clamp: unset; }
+
+/* agent */
+.prompt-list { display: grid; gap: 10px; max-width: 820px; }
+.prompt { display: flex; gap: 16px; align-items: center; justify-content: space-between; padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.prompt h3 { margin: 0 0 4px; font-size: 15px; }
+.prompt p { margin: 0; }
+.prompt code { white-space: normal; }
+.site-foot { padding: 20px 24px 40px; border-top: 1px solid var(--border); margin-top: 24px; }
+.foot { display: none; }
+
+@media (max-width: 760px) {
+  .tabs { overflow-x: auto; }
+  .agent-link { display: none; }
+  .stats { gap: 22px; }
+  .idea-list p, .idea-list .cites { padding-left: 0; }
+}
 </style>
 </head>
 <body>
 <header class="top">
   <div class="wrap top-row">
-    <a class="brand" href="#/">Design library</a>
+    <a class="brand" href="#/"><span class="logo" aria-hidden="true">◆</span> Design library</a>
     <nav class="tabs" aria-label="Sections">
-      <a href="#/" data-tab="sources">Sources</a>
+      <a href="#/" data-tab="ask">Ask</a>
+      <a href="#/course" data-tab="course">Course</a>
+      <a href="#/sources" data-tab="sources">Sources</a>
+      <a href="#/apps" data-tab="apps">Apps</a>
       <a href="#/experiments" data-tab="experiments">Experiments</a>
     </nav>
+    <a class="agent-link" href="#/agent" data-tab="agent">Use with your agent</a>
     <button class="theme" id="theme" type="button" aria-label="Switch light or dark">◐</button>
   </div>
 </header>
 
 <main class="wrap" id="app"></main>
+
+<footer class="wrap site-foot muted small" id="foot"></footer>
 
 <script>// Generated by build.mjs from data/*.json. Don't edit by hand.
 window.LIBRARY = {
@@ -178,6 +293,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Streaks: add a 10 PM 'streak saver' push only when today's plan isn't done. Home/today's plan: add a weekly league of aspirants matched by last week's questions answered, opted in by default. Analytics: set up New/Current/Reactivated/Resurrected states in PostHog to find which rate drives DAU most.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Duolingo grew by protecting its current learners, not chasing new ones: leagues, a late-night streak saver and careful pushes lifted retention for four years.",
    "id": "how-duolingo-reignited-user-growth"
   },
   {
@@ -200,6 +320,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Streaks: add a full-screen streak-extend animation after the first study action each day, with bigger versions at days 3, 7, 14 and 30. Streaks: let users hold up to 2 streak freezes and show them on the streak screen.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Celebrate every streak extension and give a little slack with freezes; both measurably kept new learners coming back.",
    "id": "how-duolingo-s-streak-builds-habit"
   },
   {
@@ -224,6 +349,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding/first session: after the first question set, show 'Do one study session a day to grow your streak. Miss a day and it resets.' Streaks: add a goal picker (7/14/30 days, default 30, with an opt-out to an easier goal) and the CTA 'Commit to my goal'. Streaks: give 2 free freezes on a new streak, and replace any paid repair with 'Do 2 sessions today to earn your streak back'.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "After 600+ streak tests: keep the rule simple, explain it in one line when it starts, let learners pick their goal, and make forgiveness free early.",
    "id": "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
   },
   {
@@ -248,6 +378,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding: drop the account step before the first session. Pick exam, answer 5 real NEET PG questions, then ask to 'Save your progress' with a soft 'Later' option. Practice: add brief growth-mindset coach lines after wrong answers ('Tough one. Mistakes now are what stick on exam day').",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Let people do a real lesson before signing up, then test small things like reminder copy and streak protection; each moved daily users by several percent.",
    "id": "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
   },
   {
@@ -268,6 +403,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Notifications: write 10–15 reminder templates (exam countdown, weak-topic nudge, streak-at-risk, 'today's plan takes 12 min'), rotate them with a no-repeat-within-N-days rule, and judge each by study sessions started, segmented by exam (NEET PG vs USMLE).",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Pick each learner's reminder by what gets them to finish a lesson, and keep the copy fresh by not repeating it.",
    "id": "hi-it-s-duo-the-ai-behind-the-meme"
   },
   {
@@ -290,6 +430,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding/first session: after the first completed question set, show 'When do you want to study each day?' with a time picker, then the OS push permission. Settings: keep it editable, but the post-first-session prompt is the main entry point.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Calm"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Ask new users to set a daily reminder right after their first session; those who did retained about 3x better.",
    "id": "learn-how-calm-increased-retention-3x-with-product-intelligence"
   },
   {
@@ -312,6 +457,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding: ask 3 questions (exam and date, weakest subject, daily minutes), then start a 'Your first plan' session in that subject right away. Onboarding: add 'When and where will you study?' (e.g. 'After dinner, at my desk'). Home: on return, open with a one-tap 'Continue today's plan' card, not a busy dashboard.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Headspace"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "A few onboarding questions and starting the course inside onboarding doubled course starts, but the habit only sticks if the way back leads straight to the task.",
    "id": "how-we-doubled-headspace-course-starts-and-why-getting-people-to-medit"
   },
   {
@@ -333,6 +483,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding: make 'What do you want help with?' multi-select (MCQ practice, revision, weak subjects, mock tests). Paywall: test a 7-day trial on monthly vs 14-day on annual. Paywall: gate by depth (full Qbank, explanations, mocks), keeping a sample free in each subject.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Headspace"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Locking more content, adding trials and a multi-select goal question all lifted conversion; onboarding length trades engagement for conversion.",
    "id": "how-headspace-optimized-revenue-by-gating-content-shreya-oswal-and-key"
   },
   {
@@ -356,6 +511,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: add 'We'll remind you 2 days before your trial ends' with the exact date. Renewal: send that push and email on trial day 5, and send already-cancelled users a 'make the most of your last days' message linking to their plan.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Blinkist"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Promise to remind people before their trial ends, and say so on the paywall; it removes the fear that stops them starting.",
    "id": "blinkist-using-transparency-to-increase-your-conversion-rate-with-evel"
   },
   {
@@ -378,6 +538,13 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: Today (full access) → Day 5 (reminder) → Day 7 (billing date and price). Onboarding: test a 3-card value carousel ('Daily plan to exam day', 'Qbank with explanations', 'Track weak topics') before the paywall. Post-purchase: show a 'Here's what you unlocked' screen.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Blinkist",
+    "Duolingo",
+    "Headspace"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "An honest paywall (timeline, what's included, a reminder promise) and a short value story before it beat hiding the terms.",
    "id": "what-the-best-subscription-apps-get-right-about-paywalls"
   },
   {
@@ -400,6 +567,14 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: default-select annual, shown as '₹X/month, billed yearly', with monthly under 'See all plans'. Paywall: make the headline depend on the trigger (locked explanation → 'Unlock every explanation'; mock test → 'Take full-length mocks'). Paywall: add a 10–15 s silent screen recording of today's plan and a question with its explanation.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "FitnessAI",
+    "Rootd",
+    "Mojo",
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Show the paywall to more people earlier, default to the yearly plan, and match the headline to what the learner just tapped.",
    "id": "8-paywall-test-ideas-to-grow-app-revenue"
   },
   {
@@ -423,6 +598,12 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Analytics: track the share of installs that reach the paywall and aim for 80%+. Renewal: add a cheaper 'Qbank only' plan to the subscription group as a downgrade at cancellation. Onboarding: add a second paywall after the first completed plan session for users who skipped the first.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "FitnessAI",
+    "Citizen"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Measure how many installs ever see the paywall; moving it earlier and adding a second one after a value moment catches more buyers.",
    "id": "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
   },
   {
@@ -442,6 +623,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: test a 3-step flow. Step 1 is your plan to exam day (personalised from onboarding), step 2 is what's unlocked (full Qbank, explanations, mocks, flashcards), step 3 is plans with the trial timeline.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Speak4Me"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Selling the value over three short steps before showing the price beat a single dense paywall.",
    "id": "speak4me-27-higher-conversion-with-a-multi-step-duolingo-style-paywall"
   },
   {
@@ -463,6 +649,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: a second step after plan selection that shows a dated trial timeline ('Today: full access to your NEET PG plan · Day 5: reminder · Day 7: ₹X charged, cancel anytime'). Roll out to 5% first and track trial-to-paid and LTV, not only trial starts.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Pepper"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "A paywall step showing what happens on each day of the trial raised lifetime value by half.",
    "id": "pepper-50-lifetime-value-increase-with-a-timeline-paywall"
   },
   {
@@ -485,31 +676,352 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Renewal: add a cancel flow with a reason survey. 'Exam done/postponed' offers a pause until the next exam cycle; 'Too expensive' offers a discounted period or a cheaper Qbank-only tier; 'Not using it' offers a reset plan. Renewal: before renewal, show a recap ('You did 1,240 questions, accuracy up 18% in Pharmacology').",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Codecademy"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Match the save offer to why someone is cancelling: a pause for 'too busy', a cheaper plan for 'too expensive'. It cuts churn 10–20%.",
    "id": "the-subscription-growth-formula-churn-math-retention-wins-and-smart-pr"
   }
  ],
  "experiments": [],
+ "lessons": [
+  {
+   "id": "onboarding-activation",
+   "title": "Onboarding and activation",
+   "topics": [
+    "Onboarding"
+   ],
+   "summary": "Get a new learner doing the real task, a real question set, while motivation is highest, and ask for everything else later. The apps that did this saw the biggest jumps.",
+   "ideas": [
+    {
+     "heading": "Do the real task before asking for anything",
+     "body": "Duolingo moved sign-up behind the first lesson and DAU rose about 20%. Making the later sign-up walls skippable added 8.2% more.",
+     "sources": [
+      "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+     ],
+     "sourceIds": [
+      "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
+     ]
+    },
+    {
+     "heading": "A few questions create a sense of fit",
+     "body": "Headspace doubled course starts (31% to 63%) by asking a short quiz, then starting the course inside onboarding, even when everyone got the same course.",
+     "sources": [
+      "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
+     ],
+     "sourceIds": [
+      "how-we-doubled-headspace-course-starts-and-why-getting-people-to-medit"
+     ]
+    },
+    {
+     "heading": "Make goal questions multi-select",
+     "body": "Headspace changed 'What brings you here?' from one answer to several: less drop-off and more trial starts.",
+     "sources": [
+      "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel"
+     ],
+     "sourceIds": [
+      "how-headspace-optimized-revenue-by-gating-content-shreya-oswal-and-key"
+     ]
+    },
+    {
+     "heading": "Length is a trade-off, so test the middle",
+     "body": "Longer onboarding helped Headspace's week-1 engagement but cut conversion, and very short hurt too. FitnessAI found motivated buyers dropping out of long onboarding before they ever saw the paywall.",
+     "sources": [
+      "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel",
+      "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+     ],
+     "sourceIds": [
+      "how-headspace-optimized-revenue-by-gating-content-shreya-oswal-and-key",
+      "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
+     ]
+    },
+    {
+     "heading": "Activation fades if the way back is busy",
+     "body": "Headspace's onboarding wins didn't change how often people meditated later. The return path (Home) has to lead straight back to the task.",
+     "sources": [
+      "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
+     ],
+     "sourceIds": [
+      "how-we-doubled-headspace-course-starts-and-why-getting-people-to-medit"
+     ]
+    }
+   ],
+   "try": [
+    "Ask 3 questions (exam and date, weakest subject, daily minutes), then start a first question set in that subject inside onboarding.",
+    "Move the account step after the first session: 'Save your progress', with a soft 'Later'.",
+    "On return, open Home with one 'Continue today's plan' card."
+   ]
+  },
+  {
+   "id": "streaks-habit",
+   "title": "Streaks and habit",
+   "topics": [
+    "Progress & streaks",
+    "Gamification"
+   ],
+   "summary": "A streak works when the rule is simple, it's explained the moment it starts, the learner chooses the goal, and missing a day is forgivable. Duolingo has tested all of this at scale.",
+   "ideas": [
+    {
+     "heading": "Explain the streak in one line when it starts",
+     "body": "An explanation of about eight words added more than 10,000 daily users at Duolingo, one of its top three retention wins.",
+     "sources": [
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+     ],
+     "sourceIds": [
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
+     ]
+    },
+    {
+     "heading": "Simple rule, but not trivially easy",
+     "body": "Changing the rule to 'one lesson' helped; making it 'one exercise counts' moved nothing and was shut down.",
+     "sources": [
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+     ],
+     "sourceIds": [
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
+     ]
+    },
+    {
+     "heading": "Let learners choose the goal",
+     "body": "A streak-goal picker with 'Commit to my goal' was a big win; preselecting a harder goal lost.",
+     "sources": [
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+     ],
+     "sourceIds": [
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
+     ]
+    },
+    {
+     "heading": "Celebrate every extension",
+     "body": "Streak animations raised the share of new learners still active on day 7 by 1.7%. Learners who reach a 7-day streak are 3.6x more likely to finish their course.",
+     "sources": [
+      "How Duolingo's streak builds habit"
+     ],
+     "sourceIds": [
+      "how-duolingo-s-streak-builds-habit"
+     ]
+    },
+    {
+     "heading": "Forgiveness, free and early",
+     "body": "Holding two freezes instead of one raised daily actives; a third added nothing. 'Earn back' beat paying to repair, and a weekend amulet lifted D7 and D14.",
+     "sources": [
+      "How Duolingo's streak builds habit",
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+      "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+     ],
+     "sourceIds": [
+      "how-duolingo-s-streak-builds-habit",
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete",
+      "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
+     ]
+    },
+    {
+     "heading": "Retention of current learners is the big lever",
+     "body": "Duolingo found the current-user retention rate had 5x the impact of any other metric on DAU, and built leagues and the streak saver around it.",
+     "sources": [
+      "How Duolingo reignited user growth"
+     ],
+     "sourceIds": [
+      "how-duolingo-reignited-user-growth"
+     ]
+    }
+   ],
+   "try": [
+    "After the first question set: 'Do one study session a day to grow your streak.'",
+    "A streak goal picker (7, 14 or 30 days) with 'Commit to my goal'.",
+    "Two free freezes on a new streak; 'Do 2 sessions today to earn it back' after a miss.",
+    "A streak animation after the day's first study, bigger at 3, 7, 14 and 30 days."
+   ]
+  },
+  {
+   "id": "reminders",
+   "title": "Reminders and notifications",
+   "topics": [
+    "Notifications"
+   ],
+   "summary": "Ask for a reminder right after the first success, let the learner pick the time, and judge copy by what gets people to study, not by opens.",
+   "ideas": [
+    {
+     "heading": "Ask right after the first success",
+     "body": "Calm's reminder sat in Settings, found by under 1%. A prompt after the first session got 40% to set one, and they retained about 3x better.",
+     "sources": [
+      "Learn How Calm Increased Retention 3X With Product Intelligence"
+     ],
+     "sourceIds": [
+      "learn-how-calm-increased-retention-3x-with-product-intelligence"
+     ]
+    },
+    {
+     "heading": "Copy alone moves daily users",
+     "body": "Duolingo's winning reminder copy alone added 5% DAU. A red badge dot on the app icon added 6%.",
+     "sources": [
+      "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+     ],
+     "sourceIds": [
+      "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
+     ]
+    },
+    {
+     "heading": "Rotate copy, and don't repeat it",
+     "body": "Duolingo picks each learner's reminder by what gets lessons finished, and penalises recently seen ones so they stay fresh.",
+     "sources": [
+      "Hi, it's Duo: The AI behind the meme"
+     ],
+     "sourceIds": [
+      "hi-it-s-duo-the-ai-behind-the-meme"
+     ]
+    },
+    {
+     "heading": "Time it to the habit",
+     "body": "Practice reminders go out 23.5 hours after the last session; the streak saver at 10 PM only if today isn't done. Sending more needed the CEO's sign-off.",
+     "sources": [
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+      "How Duolingo reignited user growth"
+     ],
+     "sourceIds": [
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete",
+      "how-duolingo-reignited-user-growth"
+     ]
+    }
+   ],
+   "try": [
+    "After the first question set: 'When do you want to study each day?' with a time picker, then the push permission.",
+    "10–15 reminder versions rotated without repeats, judged by sessions started.",
+    "A 10 PM streak saver only when today's plan isn't done."
+   ]
+  },
+  {
+   "id": "paywall-trial",
+   "title": "Paywall and trial",
+   "topics": [
+    "Paywall"
+   ],
+   "summary": "More people need to see the paywall, it should build the value case before the price, and being honest about the trial converts better than hiding it.",
+   "ideas": [
+    {
+     "heading": "Most users never see a late paywall",
+     "body": "FitnessAI moved its paywall before onboarding: installs reaching it went from about 40% to 85%, and revenue doubled. Rootd did the same and revenue rose 5x.",
+     "sources": [
+      "8 paywall test ideas to grow app revenue",
+      "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+     ],
+     "sourceIds": [
+      "8-paywall-test-ideas-to-grow-app-revenue",
+      "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
+     ]
+    },
+    {
+     "heading": "Value first, price last",
+     "body": "A three-card value story before the paywall took trial opt-in from 2% to 15% in one test. Speak4Me's three-step paywall beat a single screen by 27%.",
+     "sources": [
+      "What the best subscription apps get right about paywalls",
+      "Speak4Me: 27% higher conversion with a multi-step Duolingo-style paywall"
+     ],
+     "sourceIds": [
+      "what-the-best-subscription-apps-get-right-about-paywalls",
+      "speak4me-27-higher-conversion-with-a-multi-step-duolingo-style-paywall"
+     ]
+    },
+    {
+     "heading": "Honest trials convert",
+     "body": "Blinkist's paywall with a trial timeline and a promise to remind before billing raised conversion 23% and cut complaints 55%. Pepper's day-by-day timeline lifted lifetime value by half.",
+     "sources": [
+      "What the best subscription apps get right about paywalls",
+      "Pepper: 50% lifetime value increase with a timeline paywall",
+      "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
+     ],
+     "sourceIds": [
+      "what-the-best-subscription-apps-get-right-about-paywalls",
+      "pepper-50-lifetime-value-increase-with-a-timeline-paywall",
+      "blinkist-using-transparency-to-increase-your-conversion-rate-with-evel"
+     ]
+    },
+    {
+     "heading": "Default to yearly, match the entry point",
+     "body": "Making yearly the default lifted yearly take-up 15–20% at Mojo. Duolingo changes the paywall's message to match what the person just tapped.",
+     "sources": [
+      "8 paywall test ideas to grow app revenue"
+     ],
+     "sourceIds": [
+      "8-paywall-test-ideas-to-grow-app-revenue"
+     ]
+    }
+   ],
+   "try": [
+    "Track the share of installs that ever see the paywall; aim for 80%+.",
+    "A headline that matches the trigger: locked explanation → 'Unlock every explanation'.",
+    "Yearly preselected, shown as a monthly amount, with monthly under 'See all plans'.",
+    "A second paywall after the first completed plan session for those who skipped. (The trial timeline is already in the app.)"
+   ]
+  },
+  {
+   "id": "renewal-churn",
+   "title": "Renewal and churn",
+   "topics": [
+    "Renewal"
+   ],
+   "summary": "Match the save offer to why someone is leaving, show what they've built before renewal, and fix the quiet churn from failed payments.",
+   "ideas": [
+    {
+     "heading": "Ask why, then offer the right thing",
+     "body": "Cancel flows that route by reason (pause for 'too busy', a cheaper plan for 'too expensive', support for a bad experience) cut churn 10–20%.",
+     "sources": [
+      "The Subscription Growth Formula: Churn Math, Retention Wins, and Smart Product Bets — Dan Layfield"
+     ],
+     "sourceIds": [
+      "the-subscription-growth-formula-churn-math-retention-wins-and-smart-pr"
+     ]
+    },
+    {
+     "heading": "Keep a cheaper plan for people leaving",
+     "body": "FitnessAI keeps a cheaper plan visible only at cancellation; a meaningful share of subscribers end up on it.",
+     "sources": [
+      "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+     ],
+     "sourceIds": [
+      "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
+     ]
+    },
+    {
+     "heading": "Message people who already cancelled differently",
+     "body": "Blinkist sends trial users who already cancelled a different message from those still in.",
+     "sources": [
+      "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
+     ],
+     "sourceIds": [
+      "blinkist-using-transparency-to-increase-your-conversion-rate-with-evel"
+     ]
+    }
+   ],
+   "try": [
+    "A cancel survey: 'Exam done or postponed' → pause until the next cycle; 'Too expensive' → a cheaper Qbank-only plan.",
+    "Before renewal, a recap: questions done, accuracy gained, by subject."
+   ]
+  }
+ ],
  "built": "2026-11-10"
 };
 </script>
 <script>(() => {
-  const { sources, experiments, built } = window.LIBRARY;
+  const { sources, experiments, lessons, built } = window.LIBRARY;
   const app = document.getElementById("app");
+  const byId = Object.fromEntries(sources.map((s) => [s.id, s]));
 
   // ---------- personal state (this browser only) ----------
   const store = {
     get: (k, d) => { try { return JSON.parse(localStorage.getItem("dl:" + k)) ?? d; } catch { return d; } },
     set: (k, v) => localStorage.setItem("dl:" + k, JSON.stringify(v)),
   };
-  let learned = new Set(store.get("learned", []));
+  const learned = new Set(store.get("learned", []));
   const notes = store.get("notes", {});
-  const filters = { q: "", topic: null, goal: null, type: null, unread: false, results: false };
+  const filters = { q: "", topic: null, goal: null, type: null, unread: false, tested: false };
+  let lastQuestion = new URLSearchParams(location.search).get("q") || "";
 
   // ---------- theme ----------
   const root = document.documentElement;
   const applyTheme = (t) => { if (t) root.dataset.theme = t; else delete root.dataset.theme; };
-  const qs = new URLSearchParams(location.search).get("theme");
-  applyTheme(qs || store.get("theme", null));
+  applyTheme(new URLSearchParams(location.search).get("theme") || store.get("theme", null));
   document.getElementById("theme").onclick = () => {
     const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
     const next = dark ? "light" : "dark";
@@ -520,151 +1032,405 @@ window.LIBRARY = {
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
   const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+  const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
   const splitTakeaways = (t) => (t || "").split(/;\s+/).filter(Boolean).map(cap);
-  // "Paywall: do X. Onboarding: do Y." -> one bullet per screen
   const splitIdeas = (t) => (t || "").split(/(?<=[.!?'])\s+(?=[A-Z][\w/' -]{2,40}:\s)/).filter(Boolean);
-  const ideaParts = (i) => { const m = i.match(/^([A-Z][\w/' -]{2,40}):\s+(.*)$/s); return m ? [m[1], m[2]] : [null, i]; };
+  const ideaParts = (i) => { const m = i.match(/^([A-Z][\w/' -]{2,40}):\s+(.*)$/s); return m ? [m[1], cap(m[2])] : [null, cap(i)]; };
+  const firstSentence = (t) => (t || "").split(/(?<=\.)\s/)[0];
+  const typeClass = (t) => "t-" + String(t || "").toLowerCase().replace(/\s/g, "-");
+  const tested = (s) => s["Evidence type"] === "A/B test";
+  const apps = [...new Set(sources.flatMap((s) => s.Apps || []))]
+    .map((name) => ({ name, id: slug(name), items: sources.filter((s) => (s.Apps || []).includes(name)) }))
+    .sort((a, b) => b.items.length - a.items.length || a.name.localeCompare(b.name));
+  const ideaCount = sources.reduce((n, s) => n + splitIdeas(s["Ideas for OnCourse"]).length, 0);
+  const sectionHead = (title, href, label) => `<div class="section-head"><h2>${title}</h2>${href ? `<a class="link" href="${href}">${label} →</a>` : ""}</div>`;
+
+  const evidenceBadge = (s) => tested(s)
+    ? `<span class="ev ev-test" title="Backed by an A/B test or measured result">Tested</span>`
+    : `<span class="ev" title="Experience or opinion, no measured result">Experience</span>`;
+
+  function card(s) {
+    const r = s.Results ? firstSentence(s.Results) : null;
+    return `
+      <a class="card ${learned.has(s.id) ? "is-learned" : ""}" href="#/s/${s.id}">
+        <div class="meta"><span class="type ${typeClass(s.Type)}">${esc(s.Type)}</span>${evidenceBadge(s)}<span class="muted">${esc(host(s.Link))}</span>${learned.has(s.id) ? `<span class="tick">✓ Learned</span>` : ""}</div>
+        <h3>${esc(s.Title)}</h3>
+        <p class="did">${esc(s["Bottom line"] || s["What they did"])}</p>
+        ${r ? `<p class="result"><span>${esc(r)}</span></p>` : `<p class="result none"><span>No numbers in the source</span></p>`}
+        <div class="tags">${(s.Apps || []).map((a) => `<span class="tag app">${esc(a)}</span>`).join("")}${(s.Topics || []).slice(0, 3).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+      </a>`;
+  }
+
+  // ---------- Ask (searches the library in this browser) ----------
+  const STOP = new Set("a an the and or of to in on for with how do does did i we our my should can what when why which is are be it this that from at by into vs more most best get make".split(" "));
+  const SYN = {
+    push: ["notifications", "reminder"], notification: ["notifications", "reminder"], notifications: ["reminder"], remind: ["reminder", "notifications"], reminders: ["reminder", "notifications"],
+    cancel: ["renewal", "churn", "cancellation"], cancellations: ["renewal", "churn"], churn: ["renewal", "cancel"], renew: ["renewal"], renewal: ["churn", "cancel"],
+    trial: ["paywall", "trial"], price: ["paywall", "pricing", "plan"], pricing: ["paywall", "plan"], subscribe: ["paywall", "conversion"], conversion: ["paywall"], buy: ["paywall", "conversion"],
+    new: ["onboarding", "activation", "first"], week: ["activation", "first"], first: ["onboarding", "activation"], signup: ["sign-up", "onboarding"], activation: ["onboarding", "first"], onboard: ["onboarding"],
+    streak: ["streak", "streaks", "freeze"], streaks: ["streak", "freeze"], habit: ["streak", "retention", "daily"], retention: ["streak", "retain"], daily: ["streak", "habit"], study: ["lesson", "session"],
+    learners: ["users", "learner"], users: ["learner"], freeze: ["freezes", "streak"], freezes: ["freeze", "streak"],
+  };
+  const words = (q) => q.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").split(/\s+/).filter((w) => w.length > 1 && !STOP.has(w));
+  const expand = (ws) => [...new Set(ws.flatMap((w) => [w, ...(SYN[w] || []), w.replace(/s$/, "")]))];
+
+  function ask(q) {
+    const terms = expand(words(q));
+    if (!terms.length) return null;
+    const scored = sources.map((s) => {
+      const strong = [s.Title, (s.Topics || []).join(" "), s["Bottom line"]].join(" ").toLowerCase();
+      const body = [s["What they did"], s.Results, s.Takeaways, s["Ideas for OnCourse"]].join(" ").toLowerCase();
+      let score = 0;
+      for (const t of terms) { if (strong.includes(t)) score += 3; if (body.includes(t)) score += 1; }
+      if (score && tested(s)) score += 1.5;
+      return { s, score };
+    }).filter((x) => x.score > 0).sort((a, b) => b.score - a.score);
+    const lessonScores = lessons.map((l) => {
+      const hay = [l.title, l.summary, l.topics.join(" "), ...l.ideas.map((i) => i.heading + " " + i.body)].join(" ").toLowerCase();
+      return { l, score: terms.reduce((n, t) => n + (hay.includes(t) ? 1 : 0), 0) };
+    }).sort((a, b) => b.score - a.score);
+    return { hits: scored.slice(0, 6), lesson: lessonScores[0]?.score ? lessonScores[0].l : null };
+  }
+
+  const SUGGESTED = [
+    "How do I get new learners to study in their first week?",
+    "Should the paywall come before or after onboarding?",
+    "How should streak freezes work?",
+    "When should we ask to send reminders?",
+    "How do I reduce cancellations at renewal?",
+    "What makes a free trial feel safe to start?",
+  ];
+
+  function renderAnswer(q) {
+    const box = document.getElementById("answer");
+    if (!q.trim()) { box.innerHTML = ""; return; }
+    const res = ask(q);
+    if (!res || !res.hits.length) {
+      box.innerHTML = `<div class="answer"><p><strong>The library has nothing on that yet.</strong></p><p class="muted">Try different words, or ask your agent to find and add a source about it.</p></div>`;
+      return;
+    }
+    const top = res.hits.slice(0, 3);
+    box.innerHTML = `
+      <div class="answer">
+        <p class="eyebrow">What to do first</p>
+        <ol class="steps">
+          ${top.map(({ s }, i) => {
+            const [screen, text] = ideaParts(splitIdeas(s["Ideas for OnCourse"])[0] || "");
+            return `<li>
+              <span class="num">${i + 1}</span>
+              <div>
+                <p class="step-title">${screen ? `<span class="screen">${esc(screen)}</span> ` : ""}${esc(text)}</p>
+                <p class="step-why"><strong>${esc((s.Apps || [])[0] || s.Creator)}:</strong> ${esc(s["Bottom line"])}</p>
+                ${s.Results ? `<p class="step-result">${esc(firstSentence(s.Results))}</p>` : ""}
+                <a class="link small" href="#/s/${s.id}">Read the notes →</a>
+              </div>
+            </li>`;
+          }).join("")}
+        </ol>
+        <div class="where">
+          <p class="eyebrow">Where the answers come from</p>
+          <div class="where-list">${res.hits.slice(0, 5).map(({ s }) => `<a href="#/s/${s.id}"><span class="muted small">${esc(s.Type)} · ${esc(host(s.Link))}</span><span>${esc(s.Title)}</span></a>`).join("")}</div>
+          ${res.lesson ? `<a class="btn" href="#/course/${res.lesson.id}">Read the lesson: ${esc(res.lesson.title)} →</a>` : ""}
+        </div>
+        <p class="muted small">Searches this library on your Mac and shows what it says. For a written answer, ask your agent (it reads the same library).</p>
+      </div>`;
+  }
+
+  function renderHome() {
+    const testedCount = sources.filter(tested).length;
+    const recent = [...sources].sort((a, b) => String(b.Added).localeCompare(String(a.Added))).slice(0, 6);
+    app.innerHTML = `
+      <section class="hero">
+        <h1>We read the design talks<br/>so you don't have to</h1>
+        <p class="lede">What apps like Duolingo, Headspace and Calm changed in onboarding, streaks, reminders, paywalls and renewal, and what happened. Every point links to its source, with ideas for OnCourse.</p>
+        <div class="stats">
+          <div><strong>${sources.length}</strong><span>videos, talks and case studies</span></div>
+          <div><strong>${testedCount}</strong><span>with tested results</span></div>
+          <div><strong>${ideaCount}</strong><span>ideas for OnCourse</span></div>
+          <div><strong>${apps.length}</strong><span>apps</span></div>
+        </div>
+      </section>
+
+      <section class="ask">
+        <form id="askf" class="ask-box" role="search">
+          <input id="askq" type="search" placeholder="Ask about onboarding, streaks, reminders, paywalls, renewal…" value="${esc(lastQuestion)}" aria-label="Ask the library" autocomplete="off" />
+          <button class="btn primary" type="submit">Ask</button>
+        </form>
+        <div class="suggest">${SUGGESTED.map((q) => `<button type="button" class="chip" data-q="${esc(q)}">${esc(q)}</button>`).join("")}</div>
+        <div id="answer" aria-live="polite"></div>
+      </section>
+
+      <section>
+        ${sectionHead("The course", "#/course", "All lessons")}
+        <div class="lesson-grid">${lessons.map((l, i) => lessonCard(l, i)).join("")}</div>
+      </section>
+
+      <section>
+        ${sectionHead("Latest sources", "#/sources", `All ${sources.length}`)}
+        <div class="grid">${recent.map(card).join("")}</div>
+      </section>
+
+      <section>
+        ${sectionHead("Apps", "#/apps", "All apps")}
+        <div class="app-row">${apps.map((a) => `<a class="app-pill" href="#/apps/${a.id}"><span class="app-mark">${esc(a.name[0])}</span>${esc(a.name)} <span class="muted">${a.items.length}</span></a>`).join("")}</div>
+      </section>
+    `;
+    const f = document.getElementById("askf"), q = document.getElementById("askq");
+    f.onsubmit = (e) => { e.preventDefault(); lastQuestion = q.value; renderAnswer(q.value); };
+    app.querySelectorAll("[data-q]").forEach((b) => b.onclick = () => { q.value = b.dataset.q; lastQuestion = q.value; renderAnswer(q.value); });
+    if (lastQuestion) renderAnswer(lastQuestion);
+  }
+
+  // ---------- Course ----------
+  const lessonSources = (l) => [...new Set(l.ideas.flatMap((i) => i.sourceIds))];
+  function lessonCard(l, i) {
+    const n = lessonSources(l).length;
+    const done = lessonSources(l).filter((id) => learned.has(id)).length;
+    return `<a class="lesson" href="#/course/${l.id}">
+      <span class="lesson-num">${i + 1}</span>
+      <h3>${esc(l.title)}</h3>
+      <p class="muted">${esc(l.summary)}</p>
+      <span class="small muted">${l.ideas.length} ideas · ${n} sources${done ? ` · ${done} learned` : ""}</span>
+    </a>`;
+  }
+
+  function renderCourse() {
+    app.innerHTML = `
+      <section class="intro">
+        <h1>The course</h1>
+        <p class="muted">Each lesson brings together what every source says about one topic, so you can learn it in ten minutes. It ends with what to try at OnCourse.</p>
+      </section>
+      <div class="lesson-list">${lessons.map((l, i) => lessonCard(l, i)).join("")}</div>`;
+  }
+
+  function renderLesson(id) {
+    const i = lessons.findIndex((l) => l.id === id);
+    const l = lessons[i];
+    if (!l) return notFound("That lesson isn't in the course.");
+    const prev = lessons[i - 1], next = lessons[i + 1];
+    const srcs = lessonSources(l).map((x) => byId[x]);
+    app.innerHTML = `
+      <a class="back" href="#/course">← The course</a>
+      <article class="detail lesson-page">
+        <p class="eyebrow">Lesson ${i + 1} of ${lessons.length}</p>
+        <h1>${esc(l.title)}</h1>
+        <p class="lede">${esc(l.summary)}</p>
+
+        <ol class="idea-list">
+          ${l.ideas.map((idea, k) => `
+            <li>
+              <h3><span class="num">${k + 1}</span>${esc(idea.heading)}</h3>
+              <p>${esc(idea.body)}</p>
+              <div class="cites">${idea.sourceIds.map((sid) => `<a class="cite" href="#/s/${sid}">${esc((byId[sid].Apps || [])[0] || "")} · ${esc(byId[sid].Type)} ↗</a>`).join("")}</div>
+            </li>`).join("")}
+        </ol>
+
+        <section class="try">
+          <h3>Try at OnCourse</h3>
+          <ul>${l.try.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+          <p class="muted small">To prototype one, run <code>/product-design &lt;idea&gt;</code>.</p>
+        </section>
+      </article>
+
+      <section class="related">
+        ${sectionHead(`Sources in this lesson (${srcs.length})`)}
+        <div class="grid">${srcs.map(card).join("")}</div>
+      </section>
+
+      <nav class="pager">
+        ${prev ? `<a href="#/course/${prev.id}">← ${esc(prev.title)}</a>` : "<span></span>"}
+        ${next ? `<a href="#/course/${next.id}">${esc(next.title)} →</a>` : ""}
+      </nav>`;
+    scrollTo(0, 0);
+  }
+
+  // ---------- Sources ----------
   const uniq = (key) => [...new Set(sources.flatMap((s) => [].concat(s[key] || [])))].sort();
   const count = (key, v) => sources.filter((s) => [].concat(s[key] || []).includes(v)).length;
-
   const matches = (s) => {
     if (filters.topic && !(s.Topics || []).includes(filters.topic)) return false;
     if (filters.goal && !(s.Goal || []).includes(filters.goal)) return false;
     if (filters.type && s.Type !== filters.type) return false;
     if (filters.unread && learned.has(s.id)) return false;
-    if (filters.results && !s.Results) return false;
+    if (filters.tested && !tested(s)) return false;
     if (filters.q) {
-      const hay = [s.Title, s.Creator, s["What they did"], s.Results, s.Takeaways, s["Ideas for OnCourse"], (s.Topics || []).join(" ")].join(" ").toLowerCase();
+      const hay = [s.Title, s.Creator, s["Bottom line"], s["What they did"], s.Results, s.Takeaways, s["Ideas for OnCourse"], (s.Topics || []).join(" "), (s.Apps || []).join(" ")].join(" ").toLowerCase();
       return filters.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w));
     }
     return true;
   };
-
   const chipRow = (label, key, values, field) => `
     <div class="filter-row" role="group" aria-label="${label}">
       <span class="filter-label">${label}</span>
       ${values.map((v) => `<button type="button" class="chip ${filters[key] === v ? "on" : ""}" data-f="${key}" data-v="${esc(v)}" aria-pressed="${filters[key] === v}">${esc(v)} <span class="n">${count(field, v)}</span></button>`).join("")}
     </div>`;
 
-  // ---------- list ----------
-  function renderList() {
+  function renderSources() {
     const list = sources.filter(matches);
     const learnedCount = sources.filter((s) => learned.has(s.id)).length;
+    const active = filters.q || Object.entries(filters).some(([k, v]) => v && k !== "q");
     app.innerHTML = `
       <section class="intro">
-        <h1>What other apps tried, and what happened</h1>
-        <p class="muted">${sources.length} videos, talks and case studies, read for you, each with ideas for OnCourse. You've learned ${learnedCount} of ${sources.length}.</p>
+        <h1>Sources</h1>
+        <p class="muted">Every video, talk, article and case study, read by the agent from the source itself. You've learned ${learnedCount} of ${sources.length}.</p>
         <div class="progress" aria-hidden="true"><span style="width:${sources.length ? (learnedCount / sources.length) * 100 : 0}%"></span></div>
       </section>
-
       <section class="filters">
-        <input id="q" class="search" type="search" placeholder="Search: streak, paywall, trial reminder…" value="${esc(filters.q)}" aria-label="Search sources" />
+        <input id="q" class="search" type="search" placeholder="Search: streak, paywall, Duolingo…" value="${esc(filters.q)}" aria-label="Search sources" />
         ${chipRow("Topic", "topic", uniq("Topics"), "Topics")}
         ${chipRow("Goal", "goal", uniq("Goal"), "Goal")}
         ${chipRow("Type", "type", uniq("Type"), "Type")}
         <div class="filter-row">
           <span class="filter-label">Show</span>
-          <button type="button" class="chip ${filters.results ? "on" : ""}" data-toggle="results" aria-pressed="${filters.results}">With numbers</button>
+          <button type="button" class="chip ${filters.tested ? "on" : ""}" data-toggle="tested" aria-pressed="${filters.tested}">Tested only</button>
           <button type="button" class="chip ${filters.unread ? "on" : ""}" data-toggle="unread" aria-pressed="${filters.unread}">Not learned yet</button>
-          ${Object.entries(filters).some(([k, v]) => v && k !== "q") || filters.q ? `<button type="button" class="link" id="clear">Clear all</button>` : ""}
+          ${active ? `<button type="button" class="link" id="clear">Clear all</button>` : ""}
         </div>
       </section>
-
-      <p class="muted small">${list.length === sources.length ? "" : `${list.length} of ${sources.length} sources`}</p>
+      ${active ? `<p class="muted small">${list.length} of ${sources.length} sources</p>` : ""}
       ${list.length ? `<section class="grid">${list.map(card).join("")}</section>` :
         `<div class="empty"><p><strong>Nothing matches.</strong></p><p class="muted">Try fewer filters, or a different word.</p><button type="button" class="btn" id="clear2">Clear filters</button></div>`}
-      <footer class="foot muted small">Updated ${built}. Ask the agent to add a link, or edit <code>data/sources.json</code> and run <code>node build.mjs</code>.</footer>
     `;
-
     const q = document.getElementById("q");
-    q.oninput = () => { filters.q = q.value; const pos = q.selectionStart; renderList(); const n = document.getElementById("q"); n.focus(); n.setSelectionRange(pos, pos); };
-    app.querySelectorAll("[data-f]").forEach((b) => b.onclick = () => { const k = b.dataset.f; filters[k] = filters[k] === b.dataset.v ? null : b.dataset.v; renderList(); });
-    app.querySelectorAll("[data-toggle]").forEach((b) => b.onclick = () => { filters[b.dataset.toggle] = !filters[b.dataset.toggle]; renderList(); });
-    const clear = () => { Object.assign(filters, { q: "", topic: null, goal: null, type: null, unread: false, results: false }); renderList(); };
+    q.oninput = () => { filters.q = q.value; const pos = q.selectionStart; renderSources(); const n = document.getElementById("q"); n.focus(); n.setSelectionRange(pos, pos); };
+    app.querySelectorAll("[data-f]").forEach((b) => b.onclick = () => { const k = b.dataset.f; filters[k] = filters[k] === b.dataset.v ? null : b.dataset.v; renderSources(); });
+    app.querySelectorAll("[data-toggle]").forEach((b) => b.onclick = () => { filters[b.dataset.toggle] = !filters[b.dataset.toggle]; renderSources(); });
+    const clear = () => { Object.assign(filters, { q: "", topic: null, goal: null, type: null, unread: false, tested: false }); renderSources(); };
     document.getElementById("clear")?.addEventListener("click", clear);
     document.getElementById("clear2")?.addEventListener("click", clear);
   }
 
-  function card(s) {
-    const firstResult = s.Results ? s.Results.split(/(?<=\.)\s/)[0] : null;
-    return `
-      <a class="card ${learned.has(s.id) ? "is-learned" : ""}" href="#/s/${s.id}">
-        <div class="meta"><span class="type t-${esc((s.Type || "").toLowerCase().replace(/\s/g, "-"))}">${esc(s.Type)}</span><span class="muted">${esc(host(s.Link))}</span>${learned.has(s.id) ? `<span class="tick" title="Learned">✓ Learned</span>` : ""}</div>
-        <h2>${esc(s.Title)}</h2>
-        <p class="did">${esc(s["What they did"])}</p>
-        ${firstResult ? `<p class="result"><span>${esc(firstResult)}</span></p>` : `<p class="result none">No numbers in the source</p>`}
-        <div class="tags">${(s.Topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
-      </a>`;
-  }
-
-  // ---------- detail ----------
-  function renderDetail(id) {
-    const s = sources.find((x) => x.id === id);
-    if (!s) { app.innerHTML = `<div class="empty"><p><strong>That source isn't in the library.</strong></p><a class="btn" href="#/">Back to all sources</a></div>`; return; }
+  // ---------- Source notes ----------
+  function renderSource(id) {
+    const s = byId[id];
+    if (!s) return notFound("That source isn't in the library.");
     const isLearned = learned.has(s.id);
+    const inLessons = lessons.filter((l) => lessonSources(l).includes(s.id));
     const related = sources.filter((x) => x.id !== s.id && (x.Topics || []).some((t) => (s.Topics || []).includes(t))).slice(0, 3);
     app.innerHTML = `
-      <a class="back" href="#/">← All sources</a>
+      <a class="back" href="#/sources">← All sources</a>
       <article class="detail">
-        <div class="meta"><span class="type t-${esc((s.Type || "").toLowerCase().replace(/\s/g, "-"))}">${esc(s.Type)}</span><span class="muted">${esc(s.Creator)}</span></div>
+        <div class="meta"><span class="type ${typeClass(s.Type)}">${esc(s.Type)}</span>${evidenceBadge(s)}<span class="muted">${esc(s.Creator)}</span></div>
         <h1>${esc(s.Title)}</h1>
-        <div class="tags">${(s.Topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}${(s.Goal || []).map((g) => `<span class="tag goal">${esc(g)}</span>`).join("")}</div>
+        <div class="tags">${(s.Apps || []).map((a) => `<a class="tag app" href="#/apps/${slug(a)}">${esc(a)}</a>`).join("")}${(s.Topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+
+        <section class="bottom-line"><h3>The bottom line</h3><p>${esc(s["Bottom line"])}</p></section>
 
         <div class="actions">
           <a class="btn primary" href="${esc(s.Link)}" target="_blank" rel="noopener">Open the source ↗</a>
           <button type="button" class="btn" id="learn" aria-pressed="${isLearned}">${isLearned ? "✓ Learned" : "Mark as learned"}</button>
         </div>
 
+        <section><h3>Key takeaways</h3><ul>${splitTakeaways(s.Takeaways).map((t) => `<li>${esc(t)}</li>`).join("")}</ul></section>
         <section><h3>What they did</h3><p>${esc(s["What they did"])}</p></section>
         <section class="callout ${s.Results ? "" : "none"}"><h3>What happened</h3><p>${s.Results ? esc(s.Results) : "The source gives no numbers. Treat it as an idea, not a proven result."}</p></section>
-        <section><h3>Takeaways</h3><ul>${splitTakeaways(s.Takeaways).map((t) => `<li>${esc(t)}</li>`).join("")}</ul></section>
-        <section><h3>Ideas for OnCourse</h3><ul class="ideas">${splitIdeas(s["Ideas for OnCourse"]).map((i) => { const [screen, text] = ideaParts(i); return `<li>${screen ? `<span class="screen">${esc(screen)}</span>` : ""}<span>${esc(cap(text))}</span></li>`; }).join("")}</ul></section>
+        <section><h3>Ideas for OnCourse</h3><ul class="ideas">${splitIdeas(s["Ideas for OnCourse"]).map((i) => { const [screen, text] = ideaParts(i); return `<li>${screen ? `<span class="screen">${esc(screen)}</span>` : ""}<span>${esc(text)}</span></li>`; }).join("")}</ul></section>
+        ${inLessons.length ? `<section><h3>In the course</h3><div class="cites">${inLessons.map((l) => `<a class="cite" href="#/course/${l.id}">${esc(l.title)} →</a>`).join("")}</div></section>` : ""}
         ${s["Used in"] ? `<section><h3>Used in</h3><p>${esc(s["Used in"])}</p></section>` : ""}
 
-        <section><h3>My notes</h3><textarea id="notes" rows="4" placeholder="What did you learn? What would you try?">${esc(notes[s.id] || "")}</textarea><p class="muted small" id="saved">Saved in this browser.</p></section>
-        <p class="muted small">Added ${esc(s.Added || "")} · Read by the agent from the source itself.</p>
+        <section><h3>My notes</h3><textarea id="notes" rows="4" placeholder="What did you learn? What would you try?">${esc(notes[s.id] || "")}</textarea><p class="muted small">Saved in this browser.</p></section>
+        <p class="muted small">Added ${esc(s.Added || "")} · Notes written by the agent from the source itself; the source belongs to its creator.</p>
       </article>
-      ${related.length ? `<section class="related"><h3>Related</h3><div class="grid">${related.map(card).join("")}</div></section>` : ""}
+      ${related.length ? `<section class="related">${sectionHead("Related")}<div class="grid">${related.map(card).join("")}</div></section>` : ""}
     `;
     document.getElementById("learn").onclick = () => {
       learned.has(s.id) ? learned.delete(s.id) : learned.add(s.id);
-      store.set("learned", [...learned]); renderDetail(id);
+      store.set("learned", [...learned]); renderSource(id);
     };
     const ta = document.getElementById("notes");
     ta.oninput = () => { notes[s.id] = ta.value; store.set("notes", notes); };
     scrollTo(0, 0);
   }
 
-  // ---------- experiments ----------
+  // ---------- Apps ----------
+  function renderApps() {
+    app.innerHTML = `
+      <section class="intro"><h1>Apps</h1><p class="muted">What each app changed, and what happened, across every source.</p></section>
+      <div class="app-grid">${apps.map((a) => {
+        const results = a.items.filter((s) => s.Results).length;
+        return `<a class="app-card" href="#/apps/${a.id}"><span class="app-mark big">${esc(a.name[0])}</span><div><h3>${esc(a.name)}</h3><p class="muted small">${a.items.length} source${a.items.length > 1 ? "s" : ""} · ${results} with results</p></div></a>`;
+      }).join("")}</div>`;
+  }
+
+  function renderApp(id) {
+    const a = apps.find((x) => x.id === id);
+    if (!a) return notFound("That app isn't in the library.");
+    app.innerHTML = `
+      <a class="back" href="#/apps">← All apps</a>
+      <section class="intro"><div class="app-title"><span class="app-mark big">${esc(a.name[0])}</span><h1>${esc(a.name)}</h1></div>
+      <p class="muted">Everything the library says ${esc(a.name)} tried, with what happened.</p></section>
+      <div class="timeline">${a.items.map((s) => `
+        <article class="tl-item">
+          <div class="meta"><span class="type ${typeClass(s.Type)}">${esc(s.Type)}</span>${evidenceBadge(s)}<span class="muted">${esc(s.Creator)}</span></div>
+          <h3><a href="#/s/${s.id}">${esc(s.Title)}</a></h3>
+          <p>${esc(s["What they did"])}</p>
+          ${s.Results ? `<p class="result"><span>${esc(s.Results)}</span></p>` : ""}
+        </article>`).join("")}</div>`;
+    scrollTo(0, 0);
+  }
+
+  // ---------- Experiments ----------
   function renderExperiments() {
     const byWeek = [...experiments].sort((a, b) => String(b.Week).localeCompare(String(a.Week)));
     app.innerHTML = `
-      <section class="intro">
-        <h1>Weekly experiments</h1>
-        <p class="muted">One or two ideas a week, picked from the sources and OnCourse's own data.</p>
-      </section>
+      <section class="intro"><h1>Weekly experiments</h1><p class="muted">One or two ideas a week, picked from the sources and OnCourse's own data.</p></section>
       ${byWeek.length ? `<section class="exp-list">${byWeek.map((e) => `
         <article class="exp">
           <div class="meta"><span class="status s-${esc(String(e.Status || "").toLowerCase())}">${esc(e.Status || "Proposed")}</span><span class="muted">Week of ${esc(e.Week || "")} · ${esc(e.Area || "")} · ${esc(e.Goal || "")}</span>${e.Effort ? `<span class="muted">Effort ${esc(e.Effort)}</span>` : ""}</div>
-          <h2>${esc(e.Experiment)}</h2>
+          <h3>${esc(e.Experiment)}</h3>
           <p>${esc(e.Hypothesis)}</p>
           ${e.Data ? `<p class="small"><strong>Data:</strong> ${esc(e.Data)}</p>` : ""}
           ${e["Based on"] ? `<p class="small"><strong>Based on:</strong> ${esc(e["Based on"])}</p>` : ""}
           ${e.Result ? `<p class="callout"><strong>Result:</strong> ${esc(e.Result)}</p>` : ""}
         </article>`).join("")}</section>` :
-      `<div class="empty"><p><strong>No experiments yet.</strong></p><p class="muted">Ask the agent for "this week's design experiments". It finds the biggest leak in PostHog, matches it to what other apps did, and proposes one or two to try.</p><a class="btn" href="#/">Browse sources</a></div>`}
-    `;
+      `<div class="empty"><p><strong>No experiments yet.</strong></p><p class="muted">Ask your agent for "this week's design experiments". It finds the biggest leak in PostHog, matches it to what other apps did, and proposes one or two to try.</p><a class="btn" href="#/course">Browse the course</a></div>`}`;
+  }
+
+  // ---------- Use with your agent ----------
+  function renderAgent() {
+    const prompts = [
+      ["Add a source", "Add this to the design library: <link>"],
+      ["Ideas for a screen", "Use the design library: what did other apps do about <problem, e.g. new learners not studying in week 1>? Give me the 3 changes most likely to work for OnCourse, each with what the app did, the result and the link."],
+      ["This week's experiments", "Give me this week's design experiments from the design library and PostHog."],
+      ["Design with it", "/product-design <idea> (it checks the design library during the evidence step)"],
+    ];
+    app.innerHTML = `
+      <section class="intro"><h1>Use it with your agent</h1>
+      <p class="muted">The library is installed as the <code>design-library</code> skill in Claude Code, Cursor and Codex on this Mac, so any agent there can read it, add to it and use it while designing.</p></section>
+      <div class="prompt-list">${prompts.map(([t, p], i) => `
+        <div class="prompt"><div><h3>${esc(t)}</h3><p><code>${esc(p)}</code></p></div><button type="button" class="btn" data-copy="${i}">Copy</button></div>`).join("")}</div>
+      <section class="try"><h3>Where it lives</h3><ul>
+        <li><code>~/Documents/design-library/data/sources.json</code>: the sources (the agent edits this)</li>
+        <li><code>~/Documents/design-library/data/lessons.json</code>: the course</li>
+        <li><code>~/Documents/design-library/design-library.html</code>: this site, one file</li>
+      </ul></section>`;
+    app.querySelectorAll("[data-copy]").forEach((b) => b.onclick = async () => {
+      try { await navigator.clipboard.writeText(prompts[+b.dataset.copy][1]); b.textContent = "Copied"; setTimeout(() => (b.textContent = "Copy"), 1500); } catch { b.textContent = "Select and copy"; }
+    });
+  }
+
+  function notFound(msg) {
+    app.innerHTML = `<div class="empty"><p><strong>${esc(msg)}</strong></p><a class="btn" href="#/">Back home</a></div>`;
   }
 
   // ---------- router ----------
   function route() {
     const h = location.hash || "#/";
-    const tab = h.startsWith("#/experiments") ? "experiments" : "sources";
-    document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
-    if (h.startsWith("#/s/")) renderDetail(decodeURIComponent(h.slice(4)));
-    else if (tab === "experiments") renderExperiments();
-    else renderList();
+    const tab = h.startsWith("#/course") ? "course" : h.startsWith("#/s") ? "sources" : h.startsWith("#/apps") ? "apps" : h.startsWith("#/experiments") ? "experiments" : h.startsWith("#/agent") ? "agent" : "ask";
+    document.querySelectorAll("[data-tab]").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
+    const [, , a, b] = h.split("/");
+    if (h.startsWith("#/course/") && b === undefined && a) renderLesson(decodeURIComponent(a));
+    else if (h.startsWith("#/course")) renderCourse();
+    else if (h.startsWith("#/s/")) renderSource(decodeURIComponent(a));
+    else if (h.startsWith("#/sources")) renderSources();
+    else if (h.startsWith("#/apps/")) renderApp(decodeURIComponent(a));
+    else if (h.startsWith("#/apps")) renderApps();
+    else if (h.startsWith("#/experiments")) renderExperiments();
+    else if (h.startsWith("#/agent")) renderAgent();
+    else renderHome();
+    if (!h.startsWith("#/s/") && !h.startsWith("#/course/") && !h.startsWith("#/apps/")) scrollTo(0, 0);
   }
+  document.getElementById("foot").innerHTML = `Updated ${built} · Notes written by the agent from each source; the sources belong to their creators.`;
   addEventListener("hashchange", route);
   route();
 })();

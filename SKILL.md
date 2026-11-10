@@ -10,6 +10,7 @@ Sainath can't watch every video or read every article, so the agent does: it rea
 | Where | What |
 |---|---|
 | `data/sources.json` | One object per source. **The source of truth.** |
+| `data/lessons.json` | The course: one lesson per topic, each idea citing sources by exact Title |
 | `data/experiments.json` | The weekly experiments |
 | `site/`, `design-library.html` | The website. `design-library.html` is one self-contained file to open or share; `site/` holds its parts |
 | `build.mjs` | Run `node build.mjs` after any data change; it regenerates `site/data.js` and catches duplicate links |
@@ -30,6 +31,9 @@ Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** 
   "Results": "Numbers with their context, quoted from the source. null if the source has none.",
   "Takeaways": "3–5 short points separated by '; '",
   "Ideas for OnCourse": "Screen: change. Screen: change. (1–3, each starting with the OnCourse screen: Home, Today's plan, Practice, Lessons, Flashcards, Streaks, Onboarding, Paywall, Renewal, Notifications)",
+  "Apps": ["Duolingo"],
+  "Evidence type": "A/B test | Experience",
+  "Bottom line": "One sentence: what to take away.",
   "Status": "Read | To read | Tried",
   "Used in": "Experiment names, if any",
   "Added": "YYYY-MM-DD"
@@ -40,9 +44,10 @@ Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** 
 
 1. **Read the source itself, never from memory.** Fetch the article. For a video or podcast, get the transcript (the page, a transcript site, or a published transcript); if Caddie is connected, `create_video_note` then `get_note` reads YouTube transcripts. If it can't be read, add it with `"Status": "To read"` and say so.
 2. Fill every field. Quote numbers exactly with their context; never round up or invent them. Keep "Ideas for OnCourse" to a real screen and a real change.
-3. Check `Link` isn't already in `data/sources.json`, append the object, run `node build.mjs`.
-4. Commit and push (`git add -A && git commit -m "add: <title>" && git push`).
-5. Reply with three lines: what they did, what happened, and the one idea most worth trying.
+3. Check `Link` isn't already in `data/sources.json`, append the object.
+4. **Update the course.** Add the source to the matching lesson in `data/lessons.json`: cite it in an existing idea (`sources` uses the exact Title), add a new idea if it teaches something new, or start a new lesson when 3+ sources share a topic no lesson covers. Only state what the sources say. Run `node build.mjs` (it fails if a lesson cites a missing source).
+5. Commit and push (`git add -A && git commit -m "add: <title>" && git push`).
+6. Reply with three lines: what they did, what happened, and the one idea most worth trying.
 
 ## Use it while designing
 

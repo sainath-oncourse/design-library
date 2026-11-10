@@ -21,6 +21,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Streaks: add a 10 PM 'streak saver' push only when today's plan isn't done. Home/today's plan: add a weekly league of aspirants matched by last week's questions answered, opted in by default. Analytics: set up New/Current/Reactivated/Resurrected states in PostHog to find which rate drives DAU most.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Duolingo grew by protecting its current learners, not chasing new ones: leagues, a late-night streak saver and careful pushes lifted retention for four years.",
    "id": "how-duolingo-reignited-user-growth"
   },
   {
@@ -43,6 +48,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Streaks: add a full-screen streak-extend animation after the first study action each day, with bigger versions at days 3, 7, 14 and 30. Streaks: let users hold up to 2 streak freezes and show them on the streak screen.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Celebrate every streak extension and give a little slack with freezes; both measurably kept new learners coming back.",
    "id": "how-duolingo-s-streak-builds-habit"
   },
   {
@@ -67,6 +77,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding/first session: after the first question set, show 'Do one study session a day to grow your streak. Miss a day and it resets.' Streaks: add a goal picker (7/14/30 days, default 30, with an opt-out to an easier goal) and the CTA 'Commit to my goal'. Streaks: give 2 free freezes on a new streak, and replace any paid repair with 'Do 2 sessions today to earn your streak back'.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "After 600+ streak tests: keep the rule simple, explain it in one line when it starts, let learners pick their goal, and make forgiveness free early.",
    "id": "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
   },
   {
@@ -91,6 +106,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding: drop the account step before the first session. Pick exam, answer 5 real NEET PG questions, then ask to 'Save your progress' with a soft 'Later' option. Practice: add brief growth-mindset coach lines after wrong answers ('Tough one. Mistakes now are what stick on exam day').",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Let people do a real lesson before signing up, then test small things like reminder copy and streak protection; each moved daily users by several percent.",
    "id": "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
   },
   {
@@ -111,6 +131,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Notifications: write 10–15 reminder templates (exam countdown, weak-topic nudge, streak-at-risk, 'today's plan takes 12 min'), rotate them with a no-repeat-within-N-days rule, and judge each by study sessions started, segmented by exam (NEET PG vs USMLE).",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Pick each learner's reminder by what gets them to finish a lesson, and keep the copy fresh by not repeating it.",
    "id": "hi-it-s-duo-the-ai-behind-the-meme"
   },
   {
@@ -133,6 +158,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding/first session: after the first completed question set, show 'When do you want to study each day?' with a time picker, then the OS push permission. Settings: keep it editable, but the post-first-session prompt is the main entry point.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Calm"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Ask new users to set a daily reminder right after their first session; those who did retained about 3x better.",
    "id": "learn-how-calm-increased-retention-3x-with-product-intelligence"
   },
   {
@@ -155,6 +185,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding: ask 3 questions (exam and date, weakest subject, daily minutes), then start a 'Your first plan' session in that subject right away. Onboarding: add 'When and where will you study?' (e.g. 'After dinner, at my desk'). Home: on return, open with a one-tap 'Continue today's plan' card, not a busy dashboard.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Headspace"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "A few onboarding questions and starting the course inside onboarding doubled course starts, but the habit only sticks if the way back leads straight to the task.",
    "id": "how-we-doubled-headspace-course-starts-and-why-getting-people-to-medit"
   },
   {
@@ -176,6 +211,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Onboarding: make 'What do you want help with?' multi-select (MCQ practice, revision, weak subjects, mock tests). Paywall: test a 7-day trial on monthly vs 14-day on annual. Paywall: gate by depth (full Qbank, explanations, mocks), keeping a sample free in each subject.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Headspace"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Locking more content, adding trials and a multi-select goal question all lifted conversion; onboarding length trades engagement for conversion.",
    "id": "how-headspace-optimized-revenue-by-gating-content-shreya-oswal-and-key"
   },
   {
@@ -199,6 +239,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: add 'We'll remind you 2 days before your trial ends' with the exact date. Renewal: send that push and email on trial day 5, and send already-cancelled users a 'make the most of your last days' message linking to their plan.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Blinkist"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Promise to remind people before their trial ends, and say so on the paywall; it removes the fear that stops them starting.",
    "id": "blinkist-using-transparency-to-increase-your-conversion-rate-with-evel"
   },
   {
@@ -221,6 +266,13 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: Today (full access) → Day 5 (reminder) → Day 7 (billing date and price). Onboarding: test a 3-card value carousel ('Daily plan to exam day', 'Qbank with explanations', 'Track weak topics') before the paywall. Post-purchase: show a 'Here's what you unlocked' screen.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Blinkist",
+    "Duolingo",
+    "Headspace"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "An honest paywall (timeline, what's included, a reminder promise) and a short value story before it beat hiding the terms.",
    "id": "what-the-best-subscription-apps-get-right-about-paywalls"
   },
   {
@@ -243,6 +295,14 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: default-select annual, shown as '₹X/month, billed yearly', with monthly under 'See all plans'. Paywall: make the headline depend on the trigger (locked explanation → 'Unlock every explanation'; mock test → 'Take full-length mocks'). Paywall: add a 10–15 s silent screen recording of today's plan and a question with its explanation.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "FitnessAI",
+    "Rootd",
+    "Mojo",
+    "Duolingo"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Show the paywall to more people earlier, default to the yearly plan, and match the headline to what the learner just tapped.",
    "id": "8-paywall-test-ideas-to-grow-app-revenue"
   },
   {
@@ -266,6 +326,12 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Analytics: track the share of installs that reach the paywall and aim for 80%+. Renewal: add a cheaper 'Qbank only' plan to the subscription group as a downgrade at cancellation. Onboarding: add a second paywall after the first completed plan session for users who skipped the first.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "FitnessAI",
+    "Citizen"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Measure how many installs ever see the paywall; moving it earlier and adding a second one after a value moment catches more buyers.",
    "id": "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
   },
   {
@@ -285,6 +351,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: test a 3-step flow. Step 1 is your plan to exam day (personalised from onboarding), step 2 is what's unlocked (full Qbank, explanations, mocks, flashcards), step 3 is plans with the trial timeline.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Speak4Me"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Selling the value over three short steps before showing the price beat a single dense paywall.",
    "id": "speak4me-27-higher-conversion-with-a-multi-step-duolingo-style-paywall"
   },
   {
@@ -306,6 +377,11 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Paywall: a second step after plan selection that shows a dated trial timeline ('Today: full access to your NEET PG plan · Day 5: reminder · Day 7: ₹X charged, cancel anytime'). Roll out to 5% first and track trial-to-paid and LTV, not only trial starts.",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Pepper"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "A paywall step showing what happens on each day of the trial raised lifetime value by half.",
    "id": "pepper-50-lifetime-value-increase-with-a-timeline-paywall"
   },
   {
@@ -328,9 +404,329 @@ window.LIBRARY = {
    "Ideas for OnCourse": "Renewal: add a cancel flow with a reason survey. 'Exam done/postponed' offers a pause until the next exam cycle; 'Too expensive' offers a discounted period or a cheaper Qbank-only tier; 'Not using it' offers a reset plan. Renewal: before renewal, show a recap ('You did 1,240 questions, accuracy up 18% in Pharmacology').",
    "Status": "Read",
    "Added": "2026-11-10",
+   "Apps": [
+    "Codecademy"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Match the save offer to why someone is cancelling: a pause for 'too busy', a cheaper plan for 'too expensive'. It cuts churn 10–20%.",
    "id": "the-subscription-growth-formula-churn-math-retention-wins-and-smart-pr"
   }
  ],
  "experiments": [],
+ "lessons": [
+  {
+   "id": "onboarding-activation",
+   "title": "Onboarding and activation",
+   "topics": [
+    "Onboarding"
+   ],
+   "summary": "Get a new learner doing the real task, a real question set, while motivation is highest, and ask for everything else later. The apps that did this saw the biggest jumps.",
+   "ideas": [
+    {
+     "heading": "Do the real task before asking for anything",
+     "body": "Duolingo moved sign-up behind the first lesson and DAU rose about 20%. Making the later sign-up walls skippable added 8.2% more.",
+     "sources": [
+      "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+     ],
+     "sourceIds": [
+      "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
+     ]
+    },
+    {
+     "heading": "A few questions create a sense of fit",
+     "body": "Headspace doubled course starts (31% to 63%) by asking a short quiz, then starting the course inside onboarding, even when everyone got the same course.",
+     "sources": [
+      "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
+     ],
+     "sourceIds": [
+      "how-we-doubled-headspace-course-starts-and-why-getting-people-to-medit"
+     ]
+    },
+    {
+     "heading": "Make goal questions multi-select",
+     "body": "Headspace changed 'What brings you here?' from one answer to several: less drop-off and more trial starts.",
+     "sources": [
+      "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel"
+     ],
+     "sourceIds": [
+      "how-headspace-optimized-revenue-by-gating-content-shreya-oswal-and-key"
+     ]
+    },
+    {
+     "heading": "Length is a trade-off, so test the middle",
+     "body": "Longer onboarding helped Headspace's week-1 engagement but cut conversion, and very short hurt too. FitnessAI found motivated buyers dropping out of long onboarding before they ever saw the paywall.",
+     "sources": [
+      "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel",
+      "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+     ],
+     "sourceIds": [
+      "how-headspace-optimized-revenue-by-gating-content-shreya-oswal-and-key",
+      "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
+     ]
+    },
+    {
+     "heading": "Activation fades if the way back is busy",
+     "body": "Headspace's onboarding wins didn't change how often people meditated later. The return path (Home) has to lead straight back to the task.",
+     "sources": [
+      "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
+     ],
+     "sourceIds": [
+      "how-we-doubled-headspace-course-starts-and-why-getting-people-to-medit"
+     ]
+    }
+   ],
+   "try": [
+    "Ask 3 questions (exam and date, weakest subject, daily minutes), then start a first question set in that subject inside onboarding.",
+    "Move the account step after the first session: 'Save your progress', with a soft 'Later'.",
+    "On return, open Home with one 'Continue today's plan' card."
+   ]
+  },
+  {
+   "id": "streaks-habit",
+   "title": "Streaks and habit",
+   "topics": [
+    "Progress & streaks",
+    "Gamification"
+   ],
+   "summary": "A streak works when the rule is simple, it's explained the moment it starts, the learner chooses the goal, and missing a day is forgivable. Duolingo has tested all of this at scale.",
+   "ideas": [
+    {
+     "heading": "Explain the streak in one line when it starts",
+     "body": "An explanation of about eight words added more than 10,000 daily users at Duolingo, one of its top three retention wins.",
+     "sources": [
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+     ],
+     "sourceIds": [
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
+     ]
+    },
+    {
+     "heading": "Simple rule, but not trivially easy",
+     "body": "Changing the rule to 'one lesson' helped; making it 'one exercise counts' moved nothing and was shut down.",
+     "sources": [
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+     ],
+     "sourceIds": [
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
+     ]
+    },
+    {
+     "heading": "Let learners choose the goal",
+     "body": "A streak-goal picker with 'Commit to my goal' was a big win; preselecting a harder goal lost.",
+     "sources": [
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+     ],
+     "sourceIds": [
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
+     ]
+    },
+    {
+     "heading": "Celebrate every extension",
+     "body": "Streak animations raised the share of new learners still active on day 7 by 1.7%. Learners who reach a 7-day streak are 3.6x more likely to finish their course.",
+     "sources": [
+      "How Duolingo's streak builds habit"
+     ],
+     "sourceIds": [
+      "how-duolingo-s-streak-builds-habit"
+     ]
+    },
+    {
+     "heading": "Forgiveness, free and early",
+     "body": "Holding two freezes instead of one raised daily actives; a third added nothing. 'Earn back' beat paying to repair, and a weekend amulet lifted D7 and D14.",
+     "sources": [
+      "How Duolingo's streak builds habit",
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+      "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+     ],
+     "sourceIds": [
+      "how-duolingo-s-streak-builds-habit",
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete",
+      "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
+     ]
+    },
+    {
+     "heading": "Retention of current learners is the big lever",
+     "body": "Duolingo found the current-user retention rate had 5x the impact of any other metric on DAU, and built leagues and the streak saver around it.",
+     "sources": [
+      "How Duolingo reignited user growth"
+     ],
+     "sourceIds": [
+      "how-duolingo-reignited-user-growth"
+     ]
+    }
+   ],
+   "try": [
+    "After the first question set: 'Do one study session a day to grow your streak.'",
+    "A streak goal picker (7, 14 or 30 days) with 'Commit to my goal'.",
+    "Two free freezes on a new streak; 'Do 2 sessions today to earn it back' after a miss.",
+    "A streak animation after the day's first study, bigger at 3, 7, 14 and 30 days."
+   ]
+  },
+  {
+   "id": "reminders",
+   "title": "Reminders and notifications",
+   "topics": [
+    "Notifications"
+   ],
+   "summary": "Ask for a reminder right after the first success, let the learner pick the time, and judge copy by what gets people to study, not by opens.",
+   "ideas": [
+    {
+     "heading": "Ask right after the first success",
+     "body": "Calm's reminder sat in Settings, found by under 1%. A prompt after the first session got 40% to set one, and they retained about 3x better.",
+     "sources": [
+      "Learn How Calm Increased Retention 3X With Product Intelligence"
+     ],
+     "sourceIds": [
+      "learn-how-calm-increased-retention-3x-with-product-intelligence"
+     ]
+    },
+    {
+     "heading": "Copy alone moves daily users",
+     "body": "Duolingo's winning reminder copy alone added 5% DAU. A red badge dot on the app icon added 6%.",
+     "sources": [
+      "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+     ],
+     "sourceIds": [
+      "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
+     ]
+    },
+    {
+     "heading": "Rotate copy, and don't repeat it",
+     "body": "Duolingo picks each learner's reminder by what gets lessons finished, and penalises recently seen ones so they stay fresh.",
+     "sources": [
+      "Hi, it's Duo: The AI behind the meme"
+     ],
+     "sourceIds": [
+      "hi-it-s-duo-the-ai-behind-the-meme"
+     ]
+    },
+    {
+     "heading": "Time it to the habit",
+     "body": "Practice reminders go out 23.5 hours after the last session; the streak saver at 10 PM only if today isn't done. Sending more needed the CEO's sign-off.",
+     "sources": [
+      "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+      "How Duolingo reignited user growth"
+     ],
+     "sourceIds": [
+      "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete",
+      "how-duolingo-reignited-user-growth"
+     ]
+    }
+   ],
+   "try": [
+    "After the first question set: 'When do you want to study each day?' with a time picker, then the push permission.",
+    "10–15 reminder versions rotated without repeats, judged by sessions started.",
+    "A 10 PM streak saver only when today's plan isn't done."
+   ]
+  },
+  {
+   "id": "paywall-trial",
+   "title": "Paywall and trial",
+   "topics": [
+    "Paywall"
+   ],
+   "summary": "More people need to see the paywall, it should build the value case before the price, and being honest about the trial converts better than hiding it.",
+   "ideas": [
+    {
+     "heading": "Most users never see a late paywall",
+     "body": "FitnessAI moved its paywall before onboarding: installs reaching it went from about 40% to 85%, and revenue doubled. Rootd did the same and revenue rose 5x.",
+     "sources": [
+      "8 paywall test ideas to grow app revenue",
+      "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+     ],
+     "sourceIds": [
+      "8-paywall-test-ideas-to-grow-app-revenue",
+      "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
+     ]
+    },
+    {
+     "heading": "Value first, price last",
+     "body": "A three-card value story before the paywall took trial opt-in from 2% to 15% in one test. Speak4Me's three-step paywall beat a single screen by 27%.",
+     "sources": [
+      "What the best subscription apps get right about paywalls",
+      "Speak4Me: 27% higher conversion with a multi-step Duolingo-style paywall"
+     ],
+     "sourceIds": [
+      "what-the-best-subscription-apps-get-right-about-paywalls",
+      "speak4me-27-higher-conversion-with-a-multi-step-duolingo-style-paywall"
+     ]
+    },
+    {
+     "heading": "Honest trials convert",
+     "body": "Blinkist's paywall with a trial timeline and a promise to remind before billing raised conversion 23% and cut complaints 55%. Pepper's day-by-day timeline lifted lifetime value by half.",
+     "sources": [
+      "What the best subscription apps get right about paywalls",
+      "Pepper: 50% lifetime value increase with a timeline paywall",
+      "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
+     ],
+     "sourceIds": [
+      "what-the-best-subscription-apps-get-right-about-paywalls",
+      "pepper-50-lifetime-value-increase-with-a-timeline-paywall",
+      "blinkist-using-transparency-to-increase-your-conversion-rate-with-evel"
+     ]
+    },
+    {
+     "heading": "Default to yearly, match the entry point",
+     "body": "Making yearly the default lifted yearly take-up 15–20% at Mojo. Duolingo changes the paywall's message to match what the person just tapped.",
+     "sources": [
+      "8 paywall test ideas to grow app revenue"
+     ],
+     "sourceIds": [
+      "8-paywall-test-ideas-to-grow-app-revenue"
+     ]
+    }
+   ],
+   "try": [
+    "Track the share of installs that ever see the paywall; aim for 80%+.",
+    "A headline that matches the trigger: locked explanation → 'Unlock every explanation'.",
+    "Yearly preselected, shown as a monthly amount, with monthly under 'See all plans'.",
+    "A second paywall after the first completed plan session for those who skipped. (The trial timeline is already in the app.)"
+   ]
+  },
+  {
+   "id": "renewal-churn",
+   "title": "Renewal and churn",
+   "topics": [
+    "Renewal"
+   ],
+   "summary": "Match the save offer to why someone is leaving, show what they've built before renewal, and fix the quiet churn from failed payments.",
+   "ideas": [
+    {
+     "heading": "Ask why, then offer the right thing",
+     "body": "Cancel flows that route by reason (pause for 'too busy', a cheaper plan for 'too expensive', support for a bad experience) cut churn 10–20%.",
+     "sources": [
+      "The Subscription Growth Formula: Churn Math, Retention Wins, and Smart Product Bets — Dan Layfield"
+     ],
+     "sourceIds": [
+      "the-subscription-growth-formula-churn-math-retention-wins-and-smart-pr"
+     ]
+    },
+    {
+     "heading": "Keep a cheaper plan for people leaving",
+     "body": "FitnessAI keeps a cheaper plan visible only at cancellation; a meaningful share of subscribers end up on it.",
+     "sources": [
+      "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+     ],
+     "sourceIds": [
+      "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
+     ]
+    },
+    {
+     "heading": "Message people who already cancelled differently",
+     "body": "Blinkist sends trial users who already cancelled a different message from those still in.",
+     "sources": [
+      "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
+     ],
+     "sourceIds": [
+      "blinkist-using-transparency-to-increase-your-conversion-rate-with-evel"
+     ]
+    }
+   ],
+   "try": [
+    "A cancel survey: 'Exam done or postponed' → pause until the next cycle; 'Too expensive' → a cheaper Qbank-only plan.",
+    "Before renewal, a recap: questions done, accuracy gained, by subject."
+   ]
+  }
+ ],
  "built": "2026-11-10"
 };
