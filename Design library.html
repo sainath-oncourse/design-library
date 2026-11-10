@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<title>Design library</title>
+<style>:root {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface-2: #f0f0ed;
+  --text: #1a1a1a;
+  --muted: #6b6b66;
+  --border: #e4e4df;
+  --accent: #2f5bea;
+  --accent-text: #ffffff;
+  --accent-soft: #e9eefd;
+  --good: #1f7a4d;
+  --good-soft: #e5f4ec;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.04);
+  --radius: 14px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111112; --surface: #1b1b1d; --surface-2: #242427; --text: #ededeb; --muted: #9a9a95;
+    --border: #2e2e32; --accent: #7c9bff; --accent-text: #0d1330; --accent-soft: #1f2846;
+    --good: #6fd3a0; --good-soft: #17301f; --shadow: none; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111112; --surface: #1b1b1d; --surface-2: #242427; --text: #ededeb; --muted: #9a9a95;
+  --border: #2e2e32; --accent: #7c9bff; --accent-text: #0d1330; --accent-soft: #1f2846;
+  --good: #6fd3a0; --good-soft: #17301f; --shadow: none; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+code { font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--surface-2); padding: 1px 5px; border-radius: 5px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+
+/* header */
+.top { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+.top-row { display: flex; align-items: center; gap: 24px; height: 56px; }
+.brand { font-weight: 700; text-decoration: none; letter-spacing: -0.01em; }
+.tabs { display: flex; gap: 4px; }
+.tabs a { text-decoration: none; padding: 6px 12px; border-radius: 999px; color: var(--muted); font-weight: 500; }
+.tabs a.active { background: var(--surface-2); color: var(--text); }
+.theme { margin-left: auto; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer; font-size: 16px; }
+
+/* intro */
+.intro { padding: 40px 0 16px; }
+.intro h1 { font-size: 32px; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 8px; }
+.intro p { margin: 0 0 14px; max-width: 640px; }
+.progress { height: 6px; max-width: 320px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+.progress span { display: block; height: 100%; background: var(--good); border-radius: inherit; transition: width .3s; }
+
+/* filters */
+.filters { padding: 12px 0 8px; display: grid; gap: 10px; }
+.search { width: 100%; max-width: 520px; padding: 11px 14px; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 10px; outline: none; }
+.search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.filter-label { width: 52px; font-size: 13px; color: var(--muted); }
+.chip { font: inherit; font-size: 13px; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer; }
+.chip .n { color: var(--muted); margin-left: 2px; }
+.chip.on { background: var(--text); color: var(--bg); border-color: var(--text); }
+.chip.on .n { color: inherit; opacity: .7; }
+.link { font: inherit; font-size: 13px; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 5px 6px; }
+
+/* cards */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; padding: 8px 0 24px; }
+.card { display: flex; flex-direction: column; gap: 8px; padding: 18px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); text-decoration: none; transition: transform .15s, border-color .15s; }
+.card:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--accent) 40%, var(--border)); }
+.card.is-learned { opacity: .72; }
+.card h2 { font-size: 17px; line-height: 1.3; margin: 0; letter-spacing: -0.01em; }
+.card .did { margin: 0; color: var(--muted); font-size: 14px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.result { margin: 2px 0 0; padding: 8px 10px; border-radius: 8px; background: var(--good-soft); color: var(--good); font-size: 13px; font-weight: 500; }
+.result span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.result.none { background: var(--surface-2); color: var(--muted); font-weight: 400; }
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 12px; }
+.type { font-weight: 600; text-transform: uppercase; letter-spacing: .04em; font-size: 11px; padding: 2px 7px; border-radius: 5px; background: var(--accent-soft); color: var(--accent); }
+.tick { margin-left: auto; color: var(--good); font-weight: 600; }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; padding-top: 4px; }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
+.tag.goal { background: transparent; border: 1px solid var(--border); }
+
+/* detail */
+.back { display: inline-block; margin: 24px 0 8px; text-decoration: none; color: var(--muted); }
+.back:hover { color: var(--text); }
+.detail { max-width: 720px; padding-bottom: 24px; }
+.detail h1 { font-size: 30px; line-height: 1.2; letter-spacing: -0.02em; margin: 10px 0 12px; }
+.detail .tags { margin: 0 0 18px; }
+.detail section { margin: 26px 0; }
+.detail h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
+.detail p { margin: 0; }
+.detail ul { margin: 0; padding-left: 20px; }
+.detail li { margin: 6px 0; }
+.ideas { list-style: none; padding: 0 !important; display: grid; gap: 10px; }
+.ideas li { margin: 0 !important; padding: 12px 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; display: grid; gap: 4px; }
+.screen { font-size: 12px; font-weight: 600; color: var(--accent); }
+.callout { padding: 14px 16px; border-radius: 12px; background: var(--good-soft); }
+.callout h3 { color: var(--good); }
+.callout.none { background: var(--surface-2); }
+.callout.none h3 { color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; font: inherit; font-weight: 600; font-size: 14px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); color: var(--text); text-decoration: none; cursor: pointer; }
+.btn.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.btn[aria-pressed="true"] { color: var(--good); border-color: var(--good); }
+textarea { width: 100%; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; resize: vertical; outline: none; }
+textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.related h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+
+/* experiments */
+.exp-list { display: grid; gap: 14px; padding-bottom: 32px; }
+.exp { padding: 18px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.exp h2 { font-size: 18px; margin: 8px 0 6px; }
+.exp p { margin: 6px 0; }
+.status { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; padding: 2px 7px; border-radius: 5px; background: var(--surface-2); }
+.status.s-won { background: var(--good-soft); color: var(--good); }
+.status.s-running, .status.s-picked, .status.s-prototyping { background: var(--accent-soft); color: var(--accent); }
+
+/* empty + footer */
+.empty { text-align: center; padding: 56px 16px; display: grid; gap: 6px; justify-items: center; }
+.empty p { margin: 0; max-width: 460px; }
+.empty .btn { margin-top: 12px; }
+.foot { padding: 16px 0 40px; border-top: 1px solid var(--border); margin-top: 8px; }
+
+@media (max-width: 600px) {
+  .wrap { padding: 0 16px; }
+  .intro h1 { font-size: 26px; }
+  .grid { grid-template-columns: 1fr; }
+  .filter-label { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="#/">Design library</a>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#/" data-tab="sources">Sources</a>
+      <a href="#/experiments" data-tab="experiments">Experiments</a>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-label="Switch light or dark">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<script>// Generated by build.mjs from data/*.json. Don't edit by hand.
+window.LIBRARY = {
+ "sources": [
+  {
+   "Title": "How Duolingo reignited user growth",
+   "Creator": "Jorge Mazal (former Duolingo CPO), Lenny's Newsletter",
+   "Type": "Article",
+   "Link": "https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth",
+   "Topics": [
+    "Progress & streaks",
+    "Gamification",
+    "Notifications",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "What they did": "Duolingo built a growth model that put every user into a state (new, current, reactivated, resurrected, at-risk, dormant). It found that the current-user retention rate (CURR) had the biggest effect on DAU and made it the North Star for a new Retention Team. That team swapped friends-only leaderboards for weekly leagues of similarly engaged users, added a late-night streak-saver push, and treated notifications as a channel to protect: they tuned copy and timing freely, but sending more needed CEO sign-off.",
+   "Results": "In simulations, CURR had '5 times the impact of the second-best metric' on DAU. Leagues raised learning time 'by 17%', tripled highly engaged learners (at least 1 hour a day, 5 days a week) and gave significant D1/D7 gains. Over four years CURR rose 'by 21%', daily churn among the best users fell 'by over 40%', and the share of DAU on a 7+ day streak rose almost 3x to more than half of DAU. Failures: a moves counter was 'completely neutral' and a referral program raised new users 'by only 3%'.",
+   "Takeaways": "Model user states before picking a metric; retention of current users can matter more than new-user work; copied game mechanics fail if they don't fit the core loop; match competitors by engagement level; protect the push channel and optimise copy and timing rather than volume",
+   "Ideas for OnCourse": "Streaks: add a 10 PM 'streak saver' push only when today's plan isn't done. Home/today's plan: add a weekly league of aspirants matched by last week's questions answered, opted in by default. Analytics: set up New/Current/Reactivated/Resurrected states in PostHog to find which rate drives DAU most.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "how-duolingo-reignited-user-growth"
+  },
+  {
+   "Title": "How Duolingo's streak builds habit",
+   "Creator": "Osman Mansur, Duolingo Blog",
+   "Type": "Article",
+   "Link": "https://blog.duolingo.com/how-duolingo-streak-builds-habit/",
+   "Topics": [
+    "Progress & streaks",
+    "Gamification",
+    "Visual design"
+   ],
+   "Goal": [
+    "Retention",
+    "Activation"
+   ],
+   "What they did": "Duolingo added a celebration animation after a learner extends their streak, with special versions on milestone days. It also let learners equip up to two Streak Freezes at once instead of one.",
+   "Results": "The animations 'increased the likelihood a brand new learner was still using Duolingo 7 days later by +1.7%'. Allowing two Freezes 'increased the relative number of active learners on Duolingo every day by +0.38%'. Learners who reach a 7-day streak 'are 3.6 times more likely to complete their course'.",
+   "Takeaways": "Early streak days feel big because the relative gain is large (2 to 3 days is +50%); celebrate streak extension, especially milestones; some slack (freezes) motivates more than rigid rules; long streaks run on loss aversion, not novelty",
+   "Ideas for OnCourse": "Streaks: add a full-screen streak-extend animation after the first study action each day, with bigger versions at days 3, 7, 14 and 30. Streaks: let users hold up to 2 streak freezes and show them on the streak screen.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "how-duolingo-s-streak-builds-habit"
+  },
+  {
+   "Title": "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+   "Creator": "Lenny's Podcast (Lenny Rachitsky with Jackson Shuttleworth)",
+   "Type": "Podcast",
+   "Link": "https://www.lennysnewsletter.com/p/behind-the-product-duolingo-streaks",
+   "Topics": [
+    "Progress & streaks",
+    "Gamification",
+    "Notifications",
+    "Copy",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Retention",
+    "Activation"
+   ],
+   "What they did": "Over 600 streak experiments. Duolingo changed the streak rule from hitting an XP goal to doing one lesson, and added a short explanation when a streak starts. It added a streak-goal picker (default 30 days, with an opt-out and easier options) and renamed the CTA to 'Commit To My Goal'. It also gave two free freezes at the start of a new streak, replaced paid Streak Repair with 'Earn Back', and shows Perfect Streak only after day 7.",
+   "Results": "The roughly eight-word streak explanation added more than 10,000 DAUs and was a top-three CURR win. Going from 1 freeze to 2 or 3 was a 'huge DAU win' but hurt CURR, and 3 freezes were 'no better' than 2. 'One exercise counts' moved DAUs 'not one bit' and was shut down. Preselecting a harder goal 'lost pretty significantly'. 'Continue' to 'Commit To My Goal' was 'a massive win'. Practice reminders go out 23.5 hours after the last session; streak saver at 10 PM. About half of experiments lose.",
+   "Takeaways": "Make the streak rule simple and achievable (one lesson), but not trivially easy; explain the streak in one sentence the moment it starts; let users choose their goal, since choosing creates commitment; give forgiveness tools free early, and earn-back beats paying to repair; hold advanced streak concepts until after day 7",
+   "Ideas for OnCourse": "Onboarding/first session: after the first question set, show 'Do one study session a day to grow your streak. Miss a day and it resets.' Streaks: add a goal picker (7/14/30 days, default 30, with an opt-out to an easier goal) and the CTA 'Commit to my goal'. Streaks: give 2 free freezes on a new streak, and replace any paid repair with 'Do 2 sessions today to earn your streak back'.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-rete"
+  },
+  {
+   "Title": "The Tenets of A/B Testing from Duolingo's Master Growth Hacker",
+   "Creator": "Gina Gotthilf (ex-VP Growth, Duolingo), First Round Review",
+   "Type": "Article",
+   "Link": "https://review.firstround.com/the-tenets-of-a-b-testing-from-duolingos-master-growth-hacker/",
+   "Topics": [
+    "Onboarding",
+    "Notifications",
+    "Gamification",
+    "Progress & streaks",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "What they did": "Duolingo moved sign-up behind a first lesson, then used three skippable soft walls (a subtle 'Later' replaced a red 'Discard my progress') before a hard wall. It also tested reminder copy (the personalised 'Hi, it's Duo' won), a Friday-only Weekend Amulet for protecting the streak, a badge collection, and in-lesson coaching from the owl with growth-mindset copy.",
+   "Results": "Moving sign-up back 'led to about a 20% increase in DAUs'; later soft/hard wall work 'yielded an 8.2% increase in DAUs'. Winning reminder copy alone gave 'a 5% increase in DAUs'. Weekend Amulet: 'retention went up 2.1% and 4% D7 and D14'. Badges: '2.4% increase in DAUs' and '116% increase in friends added'. Owl coach: '7.2% increase in D14'. Red badge dot on the app icon: 'six percent increase in our DAUs'.",
+   "Takeaways": "Let users do the core task before asking for an account; use soft walls before a hard wall; reminder copy and timing alone move DAU; streak protection lifts D7/D14; encouragement in the moment (growth-mindset copy) beats generic praise",
+   "Ideas for OnCourse": "Onboarding: drop the account step before the first session. Pick exam, answer 5 real NEET PG questions, then ask to 'Save your progress' with a soft 'Later' option. Practice: add brief growth-mindset coach lines after wrong answers ('Tough one. Mistakes now are what stick on exam day').",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "the-tenets-of-a-b-testing-from-duolingo-s-master-growth-hacker"
+  },
+  {
+   "Title": "Hi, it's Duo: The AI behind the meme",
+   "Creator": "Kevin Yancey & Burr Settles, Duolingo Blog",
+   "Type": "Article",
+   "Link": "https://blog.duolingo.com/hi-its-duo-the-ai-behind-the-meme/",
+   "Topics": [
+    "Notifications",
+    "Copy",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "What they did": "Duolingo stopped picking practice-reminder templates at random. A bandit algorithm now chooses the best template for each user each day, rewarding lesson completion. Templates are compared only against others sent to the same type of learner, and recently seen ones get a recency penalty to counter novelty wear-off.",
+   "Takeaways": "Optimise reminders for the core action, not opens; compare templates within like-for-like segments; penalise repeats so copy stays fresh; copy performance varies by audience; A/B test new templates before adding them to the pool",
+   "Ideas for OnCourse": "Notifications: write 10–15 reminder templates (exam countdown, weak-topic nudge, streak-at-risk, 'today's plan takes 12 min'), rotate them with a no-repeat-within-N-days rule, and judge each by study sessions started, segmented by exam (NEET PG vs USMLE).",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "hi-it-s-duo-the-ai-behind-the-meme"
+  },
+  {
+   "Title": "Learn How Calm Increased Retention 3X With Product Intelligence",
+   "Creator": "Alicia Shiu, Amplitude",
+   "Type": "Case study",
+   "Link": "https://amplitude.com/blog/calm-increased-retention-amplitude",
+   "Topics": [
+    "Notifications",
+    "Onboarding",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention",
+    "Activation"
+   ],
+   "What they did": "Calm's Daily Reminder was buried in Settings, and fewer than 1% of users found it. Calm tested a screen shown right after a new user's first meditation that asks them to set a daily reminder at a time they choose.",
+   "Results": "Users who set reminders showed 'an almost 3x increase in retention'. '40% of users who saw the prompt went on to set a daily reminder', and those users got 'an equal boost in retention' to organic finders, which suggests the effect is causal. The effect held '12+ weeks out'.",
+   "Takeaways": "Check whether a correlation is causal by surfacing the feature to a random group; ask right after the first success, when motivation is high; let users pick the time instead of using a generic default; raising adoption of a buried feature can be the whole win",
+   "Ideas for OnCourse": "Onboarding/first session: after the first completed question set, show 'When do you want to study each day?' with a time picker, then the OS push permission. Settings: keep it editable, but the post-first-session prompt is the main entry point.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "learn-how-calm-increased-retention-3x-with-product-intelligence"
+  },
+  {
+   "Title": "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)",
+   "Creator": "Irrational Labs (with Headspace and Purchasely)",
+   "Type": "Case study",
+   "Link": "https://irrationallabs.com/case-studies/headspace-doubled-course-starts/",
+   "Topics": [
+    "Onboarding",
+    "Research methods",
+    "Home"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "What they did": "Headspace tested five onboarding flows for new trial users. Control was a breathing exercise then the Today tab. The others were: default to the Basics course; a short quiz then Basics for everyone ('perceived fit'); a quiz with a real personalised match; and precommitment, where users also planned how, when and where they'd meditate.",
+   "Results": "Course starts rose 'from a baseline of 31.25% in the control group all the way up to 62.97% in our perceived fit condition'. Asking questions alone gave '7.6 percentage points higher' starts than defaulting to Basics. Precommitment 'increased app opens by 7.5% and app open days by 4%'. But there was 'no statistically significant difference' in meditation days between control and any redesign.",
+   "Takeaways": "Put the target behaviour inside onboarding, while motivation peaks; a few questions create a sense of fit even if the output is the same; planning when and where helps return visits; activation gains fade if the return path (Home) doesn't lead straight back to the task; measure the value behaviour, not just starts",
+   "Ideas for OnCourse": "Onboarding: ask 3 questions (exam and date, weakest subject, daily minutes), then start a 'Your first plan' session in that subject right away. Onboarding: add 'When and where will you study?' (e.g. 'After dinner, at my desk'). Home: on return, open with a one-tap 'Continue today's plan' card, not a busy dashboard.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "how-we-doubled-headspace-course-starts-and-why-getting-people-to-medit"
+  },
+  {
+   "Title": "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel",
+   "Creator": "Sub Club by RevenueCat (David Barnard)",
+   "Type": "Podcast",
+   "Link": "https://subclub.com/episode/how-headspace-optimized-revenue-by-gating-content-shreya-oswal-and-keya-patel-headspace",
+   "Topics": [
+    "Paywall",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Conversion",
+    "Activation"
+   ],
+   "What they did": "Headspace went from about 80% to eventually 100% of content locked, and moved from direct purchase to free trials (7 days for monthly, 14 days for annual). Onboarding swung from 10–15 screens to 3–4 and back to a middle length. The goal question changed from single-select to multi-select, and the paywall dropped lifetime for a two-plan setup ($12.99 monthly, $69.99 annual).",
+   "Results": "Moving to 90–99% locked gave 'a pretty high lifting conversion'. Locking 100% gave 'a high double digit lift in paid subscribers'. Free trials gave a 'conversion lift that was in the double digits'. Multi-select goal question: 'a pretty significant lift', with less drop-off and more trial starts. Long onboarding helped week-1 engagement but cut conversion. Testing eight cheaper monthly prices was 'revenue negative'.",
+   "Takeaways": "Onboarding length trades engagement against conversion, so test the middle; multi-select goal questions reduce drop-off; trial length can differ by plan; long-tenured free users need a generous transition incentive if you gate more; 'best value' framing pushes annual uptake but may lower trial conversion",
+   "Ideas for OnCourse": "Onboarding: make 'What do you want help with?' multi-select (MCQ practice, revision, weak subjects, mock tests). Paywall: test a 7-day trial on monthly vs 14-day on annual. Paywall: gate by depth (full Qbank, explanations, mocks), keeping a sample free in each subject.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "how-headspace-optimized-revenue-by-gating-content-shreya-oswal-and-key"
+  },
+  {
+   "Title": "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko",
+   "Creator": "The Subscription League (Olivier Destrebecq), Purchasely",
+   "Type": "Podcast",
+   "Link": "https://subscriptionleague.com/episode/blinkist-using-transparency-to-increase-your-conversion-rate-with-eveline-moczko",
+   "Topics": [
+    "Paywall",
+    "Notifications",
+    "Onboarding",
+    "Copy"
+   ],
+   "Goal": [
+    "Conversion",
+    "Renewal"
+   ],
+   "What they did": "To fix 'trial anxiety' (users cancelling minutes after starting, or never starting for fear of being charged), Blinkist sent a day-5 push and email: 'you will be charged in two days'. Users who had already cancelled got a different message. Blinkist then advertised this reminder on the subscription screen, moved to a soft paywall with a 7-day trial, and dropped mandatory account creation before onboarding.",
+   "Results": "No percentages in the episode. Moczko says trial retention rose even before the reminder was advertised, and after it went on the subscription screen the trial start rate 'went up like crazy'. Removing mandatory sign-up made personalised onboarding finally work and improved conversion, a net win even after losing email-driven conversions.",
+   "Takeaways": "Fear of being charged blocks trial starts; a promised reminder is a selling point on the paywall; send different messages to trial users who have already cancelled; mandatory sign-up can cancel out the gains from onboarding; trial norms differ by market (Germany needed a retest later)",
+   "Ideas for OnCourse": "Paywall: add 'We'll remind you 2 days before your trial ends' with the exact date. Renewal: send that push and email on trial day 5, and send already-cancelled users a 'make the most of your last days' message linking to their plan.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "blinkist-using-transparency-to-increase-your-conversion-rate-with-evel"
+  },
+  {
+   "Title": "What the best subscription apps get right about paywalls",
+   "Creator": "Daphne Tideman with Rosie Hoggmascall, RevenueCat Blog",
+   "Type": "Article",
+   "Link": "https://www.revenuecat.com/blog/growth/how-top-apps-approach-paywalls",
+   "Topics": [
+    "Paywall",
+    "Onboarding",
+    "Renewal"
+   ],
+   "Goal": [
+    "Conversion",
+    "Renewal"
+   ],
+   "What they did": "Covers Blinkist's 'Honest Paywall' (a clear trial timeline, the features included, and a promise to remind users before the trial ends), plus Hoggmascall's test of where the paywall goes and what comes before it. Also covers Duolingo walking new subscribers through their benefits after purchase, and Headspace's clear cancellation instructions.",
+   "Results": "Blinkist's Honest Paywall 'increased their conversion rate by 23% and dropped complaints by 55%'. Hoggmascall's test: 'A: welcome screen, onboarding, home, paywall – 2% trial opt in'; 'B: welcome screen, paywall, onboarding, home – 8% trial opt in'; 'C: welcome screen, new three part carousel, paywall, onboarding, home – 15% trial opt in'. SmartTales improved paywall conversion by 86% by changing ads and store listing, not the paywall.",
+   "Takeaways": "A timeline plus a reminder promise builds trust and converts; track complaints as a quality check; a short value carousel before an early paywall beat both a late paywall and a bare early one; reinforce value after purchase; being clear about cancellation is part of trust",
+   "Ideas for OnCourse": "Paywall: Today (full access) → Day 5 (reminder) → Day 7 (billing date and price). Onboarding: test a 3-card value carousel ('Daily plan to exam day', 'Qbank with explanations', 'Track weak topics') before the paywall. Post-purchase: show a 'Here's what you unlocked' screen.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "what-the-best-subscription-apps-get-right-about-paywalls"
+  },
+  {
+   "Title": "8 paywall test ideas to grow app revenue",
+   "Creator": "David Barnard & Peter Meinertzhagen, RevenueCat Blog",
+   "Type": "Article",
+   "Link": "https://www.revenuecat.com/blog/growth/paywall-tests-grow-app-revenue",
+   "Topics": [
+    "Paywall",
+    "Onboarding",
+    "Copy",
+    "Visual design"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "What they did": "Named examples: FitnessAI moved the paywall ahead of onboarding and added a silent demo video. Rootd moved its paywall to the start of onboarding. Mojo made yearly the default, hid monthly behind 'view all plans', and showed the annual price as a monthly amount. Duolingo tailors the paywall to the entry point (hearts from the shop, ad removal from an ad).",
+   "Results": "FitnessAI: paywall views up 50%, 'install-to-trial conversions doubled' with trial-to-paid steady, 'leading to a doubling of revenue!'. Rootd: 'her revenue increased by 5x'. Mojo yearly default: '15-20% lift in yearly subscription take up' with only a slight rise in cancellations.",
+   "Takeaways": "Many users never see a late paywall, so placement is a big lever; a short product video can carry the value story; default to annual and show the monthly equivalent; match paywall copy to the entry point; sell outcomes, not price comparisons",
+   "Ideas for OnCourse": "Paywall: default-select annual, shown as '₹X/month, billed yearly', with monthly under 'See all plans'. Paywall: make the headline depend on the trigger (locked explanation → 'Unlock every explanation'; mock test → 'Take full-length mocks'). Paywall: add a 10–15 s silent screen recording of today's plan and a question with its explanation.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "8-paywall-test-ideas-to-grow-app-revenue"
+  },
+  {
+   "Title": "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC",
+   "Creator": "Sub Club by RevenueCat (David Barnard, Jake Mor of Superwall, Darrell Stone of Citizen)",
+   "Type": "Talk",
+   "Link": "https://subclub.com/episode/a-systematic-approach-to-paywall-optimization-live-at-app-promotion-summit-nyc",
+   "Topics": [
+    "Paywall",
+    "Onboarding",
+    "Renewal",
+    "Copy"
+   ],
+   "Goal": [
+    "Conversion",
+    "Renewal"
+   ],
+   "What they did": "FitnessAI added a video to the paywall and moved it before onboarding, changing nothing else. It also put a cheaper plan in the App Store subscription group, so people see it when they go to cancel. Citizen shows two paywalls in onboarding (after sign-up, and again after the safety profile for non-subscribers) and tested crowdsourced copy ('never be alone').",
+   "Results": "FitnessAI: 'conversion rates went up 80%', and installs reaching the paywall went 'from like 40% to 85%', with most converting further down the funnel. On the hidden cheaper plan, the transcript reads '10-15 of subscribers are on a plan that you can't even subscribe to in the app' (unit missing, likely %). Citizen: video was 'flat'; no other numbers.",
+   "Takeaways": "Measure what share of installs ever sees the paywall; motivated buyers drop out of long onboarding before the paywall; a downgrade plan shown at cancellation keeps subscribers; a second paywall after a value moment catches non-subscribers; video works for some products and is flat for others",
+   "Ideas for OnCourse": "Analytics: track the share of installs that reach the paywall and aim for 80%+. Renewal: add a cheaper 'Qbank only' plan to the subscription group as a downgrade at cancellation. Onboarding: add a second paywall after the first completed plan session for users who skipped the first.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "a-systematic-approach-to-paywall-optimization-live-at-app-promotion-su"
+  },
+  {
+   "Title": "Speak4Me: 27% higher conversion with a multi-step Duolingo-style paywall",
+   "Creator": "Superwall",
+   "Type": "Case study",
+   "Link": "https://superwall.com/case-studies/speak4me",
+   "Topics": [
+    "Paywall"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "What they did": "Speak4Me replaced a single-screen paywall with a trial checkbox with a three-step flow modelled on Duolingo. The flow walks users through premium features before showing pricing and trial options.",
+   "Results": "The multi-step paywall 'achieved a conversion rate increase of +27% over the simpler checkbox-style paywall' and 'resulted in a +36% increase in proceeds'. No baseline or sample size given.",
+   "Takeaways": "Building the value case over a few steps can beat a dense single screen; more steps aren't automatically friction if each one sells; pricing comes last, after value",
+   "Ideas for OnCourse": "Paywall: test a 3-step flow. Step 1 is your plan to exam day (personalised from onboarding), step 2 is what's unlocked (full Qbank, explanations, mocks, flashcards), step 3 is plans with the trial timeline.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "speak4me-27-higher-conversion-with-a-multi-step-duolingo-style-paywall"
+  },
+  {
+   "Title": "Pepper: 50% lifetime value increase with a timeline paywall",
+   "Creator": "Superwall",
+   "Type": "Case study",
+   "Link": "https://superwall.com/case-studies/pepper",
+   "Topics": [
+    "Paywall",
+    "Copy"
+   ],
+   "Goal": [
+    "Conversion",
+    "Renewal"
+   ],
+   "What they did": "Tweaking headers and highlights hadn't moved LTV, so Pepper built a two-step paywall with a timeline of what happens on each day of the free trial. It shipped first to 5% of users, then to over 50% after it beat every other design.",
+   "Results": "'The timeline paywall boosted LTV by half' (50% LTV increase), and 'LTV was sustained after moving the paywall to a larger user base'. No absolute figures given.",
+   "Takeaways": "When small copy tweaks stall, change the format; being clear about trial commitments lifts LTV, not just trial starts; test risky designs on a small share before scaling",
+   "Ideas for OnCourse": "Paywall: a second step after plan selection that shows a dated trial timeline ('Today: full access to your NEET PG plan · Day 5: reminder · Day 7: ₹X charged, cancel anytime'). Roll out to 5% first and track trial-to-paid and LTV, not only trial starts.",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "pepper-50-lifetime-value-increase-with-a-timeline-paywall"
+  },
+  {
+   "Title": "The Subscription Growth Formula: Churn Math, Retention Wins, and Smart Product Bets — Dan Layfield",
+   "Creator": "Sub Club by RevenueCat (David Barnard with Dan Layfield, ex-Codecademy)",
+   "Type": "Podcast",
+   "Link": "https://subclub.com/episode/the-subscription-growth-formula-churn-math-retention-wins-and-smart-product-bets-dan-layfield-subscription-index",
+   "Topics": [
+    "Renewal",
+    "Copy",
+    "Paywall"
+   ],
+   "Goal": [
+    "Renewal",
+    "Retention"
+   ],
+   "What they did": "Cancellation flows that route by survey answer: 'too expensive' gets a temporary discount or a hidden cheaper tier, 'negative experience' goes to support, 'too busy' gets a pause, which Codecademy used for people who learn in bursts. Also rewrote Codecademy's checkout error copy and added dunning emails for failed payments.",
+   "Results": "Reason-based save offers: 'I've seen between a 10 and 20% drop in churn'. Codecademy's checkout error copy rewrite (about two days of work) 'very conservatively lifted checkout page conversion 1%'. Dunning emails: 'not a massive uplift'. At very low churn, 'if you get your churn rate all the way down to 2%, 50% might be payment based churn'. Good lifecycle email: '30% open rate and a net 2% click-through rate'.",
+   "Takeaways": "Match the save offer to the cancellation reason; pause suits learning that happens in bursts, like exam prep; fixing payment failures is cheap recurring revenue; better activation always lowers churn; email reach is limited, so in-app moments matter more",
+   "Ideas for OnCourse": "Renewal: add a cancel flow with a reason survey. 'Exam done/postponed' offers a pause until the next exam cycle; 'Too expensive' offers a discounted period or a cheaper Qbank-only tier; 'Not using it' offers a reset plan. Renewal: before renewal, show a recap ('You did 1,240 questions, accuracy up 18% in Pharmacology').",
+   "Status": "Read",
+   "Added": "2026-11-10",
+   "id": "the-subscription-growth-formula-churn-math-retention-wins-and-smart-pr"
+  }
+ ],
+ "experiments": [],
+ "built": "2026-11-10"
+};
+</script>
+<script>(() => {
+  const { sources, experiments, built } = window.LIBRARY;
+  const app = document.getElementById("app");
+
+  // ---------- personal state (this browser only) ----------
+  const store = {
+    get: (k, d) => { try { return JSON.parse(localStorage.getItem("dl:" + k)) ?? d; } catch { return d; } },
+    set: (k, v) => localStorage.setItem("dl:" + k, JSON.stringify(v)),
+  };
+  let learned = new Set(store.get("learned", []));
+  const notes = store.get("notes", {});
+  const filters = { q: "", topic: null, goal: null, type: null, unread: false, results: false };
+
+  // ---------- theme ----------
+  const root = document.documentElement;
+  const applyTheme = (t) => { if (t) root.dataset.theme = t; else delete root.dataset.theme; };
+  const qs = new URLSearchParams(location.search).get("theme");
+  applyTheme(qs || store.get("theme", null));
+  document.getElementById("theme").onclick = () => {
+    const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    const next = dark ? "light" : "dark";
+    store.set("theme", next); applyTheme(next);
+  };
+
+  // ---------- helpers ----------
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
+  const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+  const splitTakeaways = (t) => (t || "").split(/;\s+/).filter(Boolean).map(cap);
+  // "Paywall: do X. Onboarding: do Y." -> one bullet per screen
+  const splitIdeas = (t) => (t || "").split(/(?<=[.!?'])\s+(?=[A-Z][\w/' -]{2,40}:\s)/).filter(Boolean);
+  const ideaParts = (i) => { const m = i.match(/^([A-Z][\w/' -]{2,40}):\s+(.*)$/s); return m ? [m[1], m[2]] : [null, i]; };
+  const uniq = (key) => [...new Set(sources.flatMap((s) => [].concat(s[key] || [])))].sort();
+  const count = (key, v) => sources.filter((s) => [].concat(s[key] || []).includes(v)).length;
+
+  const matches = (s) => {
+    if (filters.topic && !(s.Topics || []).includes(filters.topic)) return false;
+    if (filters.goal && !(s.Goal || []).includes(filters.goal)) return false;
+    if (filters.type && s.Type !== filters.type) return false;
+    if (filters.unread && learned.has(s.id)) return false;
+    if (filters.results && !s.Results) return false;
+    if (filters.q) {
+      const hay = [s.Title, s.Creator, s["What they did"], s.Results, s.Takeaways, s["Ideas for OnCourse"], (s.Topics || []).join(" ")].join(" ").toLowerCase();
+      return filters.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w));
+    }
+    return true;
+  };
+
+  const chipRow = (label, key, values, field) => `
+    <div class="filter-row" role="group" aria-label="${label}">
+      <span class="filter-label">${label}</span>
+      ${values.map((v) => `<button type="button" class="chip ${filters[key] === v ? "on" : ""}" data-f="${key}" data-v="${esc(v)}" aria-pressed="${filters[key] === v}">${esc(v)} <span class="n">${count(field, v)}</span></button>`).join("")}
+    </div>`;
+
+  // ---------- list ----------
+  function renderList() {
+    const list = sources.filter(matches);
+    const learnedCount = sources.filter((s) => learned.has(s.id)).length;
+    app.innerHTML = `
+      <section class="intro">
+        <h1>What other apps tried, and what happened</h1>
+        <p class="muted">${sources.length} videos, talks and case studies, read for you, each with ideas for OnCourse. You've learned ${learnedCount} of ${sources.length}.</p>
+        <div class="progress" aria-hidden="true"><span style="width:${sources.length ? (learnedCount / sources.length) * 100 : 0}%"></span></div>
+      </section>
+
+      <section class="filters">
+        <input id="q" class="search" type="search" placeholder="Search: streak, paywall, trial reminder…" value="${esc(filters.q)}" aria-label="Search sources" />
+        ${chipRow("Topic", "topic", uniq("Topics"), "Topics")}
+        ${chipRow("Goal", "goal", uniq("Goal"), "Goal")}
+        ${chipRow("Type", "type", uniq("Type"), "Type")}
+        <div class="filter-row">
+          <span class="filter-label">Show</span>
+          <button type="button" class="chip ${filters.results ? "on" : ""}" data-toggle="results" aria-pressed="${filters.results}">With numbers</button>
+          <button type="button" class="chip ${filters.unread ? "on" : ""}" data-toggle="unread" aria-pressed="${filters.unread}">Not learned yet</button>
+          ${Object.entries(filters).some(([k, v]) => v && k !== "q") || filters.q ? `<button type="button" class="link" id="clear">Clear all</button>` : ""}
+        </div>
+      </section>
+
+      <p class="muted small">${list.length === sources.length ? "" : `${list.length} of ${sources.length} sources`}</p>
+      ${list.length ? `<section class="grid">${list.map(card).join("")}</section>` :
+        `<div class="empty"><p><strong>Nothing matches.</strong></p><p class="muted">Try fewer filters, or a different word.</p><button type="button" class="btn" id="clear2">Clear filters</button></div>`}
+      <footer class="foot muted small">Updated ${built}. Ask the agent to add a link, or edit <code>data/sources.json</code> and run <code>node build.mjs</code>.</footer>
+    `;
+
+    const q = document.getElementById("q");
+    q.oninput = () => { filters.q = q.value; const pos = q.selectionStart; renderList(); const n = document.getElementById("q"); n.focus(); n.setSelectionRange(pos, pos); };
+    app.querySelectorAll("[data-f]").forEach((b) => b.onclick = () => { const k = b.dataset.f; filters[k] = filters[k] === b.dataset.v ? null : b.dataset.v; renderList(); });
+    app.querySelectorAll("[data-toggle]").forEach((b) => b.onclick = () => { filters[b.dataset.toggle] = !filters[b.dataset.toggle]; renderList(); });
+    const clear = () => { Object.assign(filters, { q: "", topic: null, goal: null, type: null, unread: false, results: false }); renderList(); };
+    document.getElementById("clear")?.addEventListener("click", clear);
+    document.getElementById("clear2")?.addEventListener("click", clear);
+  }
+
+  function card(s) {
+    const firstResult = s.Results ? s.Results.split(/(?<=\.)\s/)[0] : null;
+    return `
+      <a class="card ${learned.has(s.id) ? "is-learned" : ""}" href="#/s/${s.id}">
+        <div class="meta"><span class="type t-${esc((s.Type || "").toLowerCase().replace(/\s/g, "-"))}">${esc(s.Type)}</span><span class="muted">${esc(host(s.Link))}</span>${learned.has(s.id) ? `<span class="tick" title="Learned">✓ Learned</span>` : ""}</div>
+        <h2>${esc(s.Title)}</h2>
+        <p class="did">${esc(s["What they did"])}</p>
+        ${firstResult ? `<p class="result"><span>${esc(firstResult)}</span></p>` : `<p class="result none">No numbers in the source</p>`}
+        <div class="tags">${(s.Topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+      </a>`;
+  }
+
+  // ---------- detail ----------
+  function renderDetail(id) {
+    const s = sources.find((x) => x.id === id);
+    if (!s) { app.innerHTML = `<div class="empty"><p><strong>That source isn't in the library.</strong></p><a class="btn" href="#/">Back to all sources</a></div>`; return; }
+    const isLearned = learned.has(s.id);
+    const related = sources.filter((x) => x.id !== s.id && (x.Topics || []).some((t) => (s.Topics || []).includes(t))).slice(0, 3);
+    app.innerHTML = `
+      <a class="back" href="#/">← All sources</a>
+      <article class="detail">
+        <div class="meta"><span class="type t-${esc((s.Type || "").toLowerCase().replace(/\s/g, "-"))}">${esc(s.Type)}</span><span class="muted">${esc(s.Creator)}</span></div>
+        <h1>${esc(s.Title)}</h1>
+        <div class="tags">${(s.Topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}${(s.Goal || []).map((g) => `<span class="tag goal">${esc(g)}</span>`).join("")}</div>
+
+        <div class="actions">
+          <a class="btn primary" href="${esc(s.Link)}" target="_blank" rel="noopener">Open the source ↗</a>
+          <button type="button" class="btn" id="learn" aria-pressed="${isLearned}">${isLearned ? "✓ Learned" : "Mark as learned"}</button>
+        </div>
+
+        <section><h3>What they did</h3><p>${esc(s["What they did"])}</p></section>
+        <section class="callout ${s.Results ? "" : "none"}"><h3>What happened</h3><p>${s.Results ? esc(s.Results) : "The source gives no numbers. Treat it as an idea, not a proven result."}</p></section>
+        <section><h3>Takeaways</h3><ul>${splitTakeaways(s.Takeaways).map((t) => `<li>${esc(t)}</li>`).join("")}</ul></section>
+        <section><h3>Ideas for OnCourse</h3><ul class="ideas">${splitIdeas(s["Ideas for OnCourse"]).map((i) => { const [screen, text] = ideaParts(i); return `<li>${screen ? `<span class="screen">${esc(screen)}</span>` : ""}<span>${esc(cap(text))}</span></li>`; }).join("")}</ul></section>
+        ${s["Used in"] ? `<section><h3>Used in</h3><p>${esc(s["Used in"])}</p></section>` : ""}
+
+        <section><h3>My notes</h3><textarea id="notes" rows="4" placeholder="What did you learn? What would you try?">${esc(notes[s.id] || "")}</textarea><p class="muted small" id="saved">Saved in this browser.</p></section>
+        <p class="muted small">Added ${esc(s.Added || "")} · Read by the agent from the source itself.</p>
+      </article>
+      ${related.length ? `<section class="related"><h3>Related</h3><div class="grid">${related.map(card).join("")}</div></section>` : ""}
+    `;
+    document.getElementById("learn").onclick = () => {
+      learned.has(s.id) ? learned.delete(s.id) : learned.add(s.id);
+      store.set("learned", [...learned]); renderDetail(id);
+    };
+    const ta = document.getElementById("notes");
+    ta.oninput = () => { notes[s.id] = ta.value; store.set("notes", notes); };
+    scrollTo(0, 0);
+  }
+
+  // ---------- experiments ----------
+  function renderExperiments() {
+    const byWeek = [...experiments].sort((a, b) => String(b.Week).localeCompare(String(a.Week)));
+    app.innerHTML = `
+      <section class="intro">
+        <h1>Weekly experiments</h1>
+        <p class="muted">One or two ideas a week, picked from the sources and OnCourse's own data.</p>
+      </section>
+      ${byWeek.length ? `<section class="exp-list">${byWeek.map((e) => `
+        <article class="exp">
+          <div class="meta"><span class="status s-${esc(String(e.Status || "").toLowerCase())}">${esc(e.Status || "Proposed")}</span><span class="muted">Week of ${esc(e.Week || "")} · ${esc(e.Area || "")} · ${esc(e.Goal || "")}</span>${e.Effort ? `<span class="muted">Effort ${esc(e.Effort)}</span>` : ""}</div>
+          <h2>${esc(e.Experiment)}</h2>
+          <p>${esc(e.Hypothesis)}</p>
+          ${e.Data ? `<p class="small"><strong>Data:</strong> ${esc(e.Data)}</p>` : ""}
+          ${e["Based on"] ? `<p class="small"><strong>Based on:</strong> ${esc(e["Based on"])}</p>` : ""}
+          ${e.Result ? `<p class="callout"><strong>Result:</strong> ${esc(e.Result)}</p>` : ""}
+        </article>`).join("")}</section>` :
+      `<div class="empty"><p><strong>No experiments yet.</strong></p><p class="muted">Ask the agent for "this week's design experiments". It finds the biggest leak in PostHog, matches it to what other apps did, and proposes one or two to try.</p><a class="btn" href="#/">Browse sources</a></div>`}
+    `;
+  }
+
+  // ---------- router ----------
+  function route() {
+    const h = location.hash || "#/";
+    const tab = h.startsWith("#/experiments") ? "experiments" : "sources";
+    document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
+    if (h.startsWith("#/s/")) renderDetail(decodeURIComponent(h.slice(4)));
+    else if (tab === "experiments") renderExperiments();
+    else renderList();
+  }
+  addEventListener("hashchange", route);
+  route();
+})();
+</script>
+</body>
+</html>
