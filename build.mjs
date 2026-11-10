@@ -28,5 +28,5 @@ const html = readFileSync("site/index.html", "utf8")
   .replace('<link rel="stylesheet" href="styles.css" />', () => `<style>${readFileSync("site/styles.css", "utf8")}</style>`)
   .replace('<script src="data.js"></script>', () => `<script>${readFileSync("site/data.js", "utf8")}</script>`)
   .replace('<script src="app.js"></script>', () => `<script>${readFileSync("site/app.js", "utf8")}</script>`);
-writeFileSync("Design library.html", html);
-console.log("Built Design library.html");
+writeFileSync("design-library.html", html);
+console.log("Built design-library.html");
