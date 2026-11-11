@@ -256,7 +256,7 @@
     if (filters.unread && learned.has(s.id)) return false;
     if (filters.tested && !tested(s)) return false;
     if (filters.q) {
-      const hay = [s.Title, s.Creator, s["Bottom line"], s["What they did"], s.Results, s.Takeaways, s["Ideas for OnCourse"], (s.Topics || []).join(" "), (s.Apps || []).join(" ")].join(" ").toLowerCase();
+      const hay = [s.Title, s.Creator, s["Bottom line"], s["What they did"], s.Results, s.Takeaways, s["Ideas for OnCourse"], (s.Topics || []).join(" "), (s.Apps || []).join(" "), (s.Tools || []).join(" ")].join(" ").toLowerCase();
       return filters.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w));
     }
     return true;
@@ -325,7 +325,8 @@
 
         <section><h3>Key takeaways</h3><ul>${splitTakeaways(s.Takeaways).map((t) => `<li>${esc(t)}</li>`).join("")}</ul></section>
         <section><h3>What they did</h3><p>${esc(s["What they did"])}</p></section>
-        <section class="callout ${s.Results ? "" : "none"}"><h3>What happened</h3><p>${s.Results ? esc(s.Results) : "The source gives no numbers. Treat it as an idea, not a proven result."}</p></section>
+        ${(s.Tools || []).length ? `<section><h3>Tools they used</h3><div class="tags">${s.Tools.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div></section>` : ""}
+        <section class="callout ${s.Results && tested(s) ? "" : "none"}"><h3>${tested(s) ? "What happened" : "What they say happened"}</h3><p>${s.Results ? esc(s.Results) : "The source gives no numbers. Treat it as an idea, not a proven result."}</p>${s.Results && !tested(s) ? `<p class="muted small">Not from a measured test.</p>` : ""}</section>
         <section><h3>Ideas for OnCourse</h3><ul class="ideas">${splitIdeas(s["Ideas for OnCourse"]).map((i) => { const [screen, text] = ideaParts(i); return `<li>${screen ? `<span class="screen">${esc(screen)}</span>` : ""}<span>${esc(text)}</span></li>`; }).join("")}</ul></section>
         ${inLessons.length ? `<section><h3>In the course</h3><div class="cites">${inLessons.map((l) => `<a class="cite" href="#/course/${l.id}">${esc(l.title)} →</a>`).join("")}</div></section>` : ""}
         ${s["Used in"] ? `<section><h3>Used in</h3><p>${esc(s["Used in"])}</p></section>` : ""}

@@ -25,13 +25,14 @@ Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** 
   "Creator": "Osman Mansur, Duolingo Blog",
   "Type": "Video | Article | Talk | Case study | Podcast | Thread",
   "Link": "https://… (unique)",
-  "Topics": ["Onboarding", "Paywall", "Home", "Practice", "Lessons", "Progress & streaks", "Notifications", "Renewal", "Gamification", "Copy", "Visual design", "Navigation", "Accessibility", "Research methods"],
-  "Goal": ["Activation", "Retention", "Conversion", "Renewal", "Usability"],
+  "Topics": ["Onboarding", "Paywall", "Home", "Practice", "Lessons", "Progress & streaks", "Notifications", "Renewal", "Gamification", "Copy", "Visual design", "Navigation", "Accessibility", "Research methods", "Design process", "Motion", "AI tools"],
+  "Goal": ["Activation", "Retention", "Conversion", "Renewal", "Usability", "Craft", "Speed"],
   "What they did": "The concrete change, in 1–3 sentences.",
   "Results": "Numbers with their context, quoted from the source. null if the source has none.",
   "Takeaways": "3–5 short points separated by '; '",
-  "Ideas for OnCourse": "Screen: change. Screen: change. (1–3, each starting with the OnCourse screen: Home, Today's plan, Practice, Lessons, Flashcards, Streaks, Onboarding, Paywall, Renewal, Notifications)",
-  "Apps": ["Duolingo"],
+  "Ideas for OnCourse": "Screen: change. Screen: change. (1–3, each starting with the OnCourse screen: Home, Today's plan, Practice, Lessons, Flashcards, Streaks, Onboarding, Paywall, Renewal, Notifications, or "Design process:" for how the team works)",
+  "Apps": ["Products studied, e.g. Duolingo (not design tools)"],
+  "Tools": ["Design/AI tools shown, e.g. Figma, Claude Code, Cursor (optional)"],
   "Evidence type": "A/B test | Experience",
   "Bottom line": "One sentence: what to take away.",
   "Status": "Read | To read | Tried",
@@ -41,6 +42,9 @@ Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** 
 ```
 
 ## Add a source
+
+Channels already mined: Lenny's Podcast (transcripts: github.com/ChatPRD/lennys-podcast-transcripts), Dive Club (Ridd), Sneak Peek (@sneakpeekdesign). For YouTube captions, `youtube-transcript-api` (Python) works when yt-dlp hangs.
+
 
 1. **Read the source itself, never from memory.** Fetch the article. For a video or podcast, get the transcript (the page, a transcript site, or a published transcript); if Caddie is connected, `create_video_note` then `get_note` reads YouTube transcripts. If it can't be read, add it with `"Status": "To read"` and say so.
 2. Fill every field. Quote numbers exactly with their context; never round up or invent them. Keep "Ideas for OnCourse" to a real screen and a real change.
