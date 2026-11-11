@@ -231,7 +231,7 @@ section { margin: 0 0 56px; }
 .empty { text-align: center; padding: 64px 24px; border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--shadow); margin: 32px 0 64px; }
 
 /* ---------- source page ---------- */
-.src-hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: center; padding: 20px 0 40px; }
+.src-hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: start; padding: 20px 0 40px; }
 .player { position: relative; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow-lg); background: #000; }
 .player .banner { cursor: pointer; }
 .player .banner .play { opacity: 1; transform: none; width: 72px; height: 72px; }
@@ -239,6 +239,21 @@ section { margin: 0 0 56px; }
 .player .banner:hover .play { transform: scale(1.06); }
 .player iframe { display: block; width: 100%; aspect-ratio: 16/9; border: 0; }
 .player a.banner { display: block; }
+.player-col { min-width: 0; }
+.ch-strip { margin-top: 14px; }
+.ch-strip-head { display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 2px 8px; }
+.ch-scroll { display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x proximity; padding: 2px 2px 10px; scrollbar-width: thin; -webkit-mask-image: linear-gradient(90deg, #000 92%, transparent); mask-image: linear-gradient(90deg, #000 92%, transparent); }
+.ch-scroll.end { -webkit-mask-image: none; mask-image: none; }
+.ch-arrows { display: flex; gap: 6px; }
+.ch-arrow { width: 28px; height: 28px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font-size: 17px; line-height: 1; cursor: pointer; display: grid; place-items: center; padding: 0 0 2px; }
+.ch-arrow:hover:not(:disabled) { background: var(--surface-2); }
+.ch-arrow:disabled { opacity: .35; cursor: default; }
+.chip-ch { flex: none; width: 156px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 4px; padding: 10px 12px; border-radius: 12px; background: var(--surface); border: 1px solid var(--border); text-decoration: none; color: var(--text); transition: background .15s, border-color .15s, transform .15s; }
+.chip-ch:hover { background: var(--surface-2); border-color: var(--surface-3); transform: translateY(-1px); }
+.chip-ch .t { font-size: 12px; font-weight: 650; color: var(--accent); font-variant-numeric: tabular-nums; }
+.chip-ch .ct { font-size: 13px; font-weight: 550; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.chip-ch.on { background: var(--accent-soft); border-color: var(--accent); }
+.chip-ch.static .t { color: var(--muted); }
 .src-head .kinds { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 14px; }
 .src-head .creator { font-size: 13.5px; color: var(--muted); font-weight: 500; }
 .src-head h1 { font: 400 clamp(32px, 3.6vw, 46px)/1.08 var(--serif); letter-spacing: -.015em; margin: 0 0 16px; text-wrap: balance; }
@@ -303,6 +318,8 @@ a.ch, button.ch { width: calc(100% + 16px); }
 .app-pill:hover { background: var(--surface-2); }
 .app-mark { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 7px; background: var(--text); color: var(--bg); font-size: 12px; font-weight: 700; flex: none; }
 .app-mark.big { width: 44px; height: 44px; border-radius: 12px; font-size: 18px; }
+img.app-mark { object-fit: cover; background: #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.08); }
+.app-mark.xs { width: 16px; height: 16px; border-radius: 4px; font-size: 9px; margin: 0 6px 0 -4px; }
 .app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin-bottom: 64px; }
 .app-card { display: flex; align-items: center; gap: 14px; padding: 16px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); text-decoration: none; transition: transform .15s, box-shadow .15s; }
 .app-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
@@ -16110,6 +16127,157 @@ window.LIBRARY = {
    ]
   }
  ],
+ "icons": [
+  "24-hour-fitness",
+  "8fit",
+  "abbyy-finereader",
+  "adobe",
+  "airbnb-experiences",
+  "airbnb",
+  "airtable",
+  "amazon",
+  "amo",
+  "apartment-list",
+  "apple-app-store",
+  "apple",
+  "arc",
+  "atlassian",
+  "beyond-identity",
+  "blade-razorpay-design-system",
+  "blinkist",
+  "boldvoice",
+  "calm",
+  "canva",
+  "character",
+  "chargeflow",
+  "chess-com",
+  "citizen",
+  "clay",
+  "clearful",
+  "clout-monster",
+  "cnn",
+  "codecademy",
+  "coinbase",
+  "comet",
+  "cosmos",
+  "craft",
+  "cursor",
+  "deel",
+  "delphi",
+  "descript",
+  "dia",
+  "discord",
+  "doordash",
+  "dropbox",
+  "duckduckgo",
+  "duolingo",
+  "elevenlabs",
+  "etsy",
+  "eventbrite",
+  "facebook",
+  "family",
+  "figjam",
+  "figma-make",
+  "figma",
+  "find-my",
+  "firefox",
+  "fitnessai",
+  "flighty",
+  "flipkart",
+  "flo",
+  "github",
+  "givebutter",
+  "gmail",
+  "google-meet",
+  "grammarly",
+  "granola",
+  "habitica",
+  "hand-mirror",
+  "headspace",
+  "hinge",
+  "huckleberry",
+  "imperfect-foods",
+  "impulse",
+  "instacart",
+  "instagram",
+  "intercom-fin",
+  "intercom",
+  "invideo",
+  "jupiter-money",
+  "khan-academy",
+  "laika",
+  "lattice",
+  "lemonade",
+  "life360",
+  "limitless",
+  "linear",
+  "linkedin",
+  "lose-it",
+  "lyft",
+  "mailchimp",
+  "mailman",
+  "mercury",
+  "midjourney",
+  "mimo",
+  "miro",
+  "mojo",
+  "nara-baby",
+  "natal",
+  "netflix",
+  "nextdoor",
+  "noom",
+  "one-medical",
+  "outlook",
+  "outpace",
+  "patreon",
+  "pepper",
+  "pinterest",
+  "plaid",
+  "pocket-fm",
+  "ramp",
+  "rapidapi",
+  "razorpay",
+  "reclaim",
+  "reliance-jio",
+  "retro",
+  "rise",
+  "rootd",
+  "runway",
+  "shopify",
+  "sierra",
+  "skyscanner",
+  "slack",
+  "slopes",
+  "snapchat",
+  "snapdeal",
+  "speak4me",
+  "spotify",
+  "strava",
+  "stripe-checkout",
+  "stripe",
+  "sundial",
+  "suno",
+  "superhuman",
+  "sweatcoin",
+  "swiggy",
+  "tableau",
+  "thoughtspot",
+  "tinder",
+  "tolan",
+  "tripadvisor",
+  "twilio",
+  "twitter",
+  "tytocare",
+  "warp",
+  "wealthfront",
+  "wealthsimple",
+  "webflow",
+  "whatsapp",
+  "wyzant",
+  "x",
+  "youtube",
+  "zoom"
+ ],
  "built": "2026-11-11"
 };
 </script>
@@ -16471,6 +16639,15 @@ window.LIBRARY = {
     document.getElementById("clear2")?.addEventListener("click", clear);
   }
 
+  // ---------- App icons ----------
+  const ICON_BASE = location.pathname.includes("/site/") ? "../icons/" : "icons/";
+  const hasIcon = new Set(window.LIBRARY.icons || []);
+  function appMark(name, cls = "") {
+    const ch = esc(name[0].toUpperCase());
+    if (!hasIcon.has(slug(name))) return `<span class="app-mark ${cls}">${ch}</span>`;
+    return `<img class="app-mark img ${cls}" src="${ICON_BASE}${slug(name)}.png" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'app-mark ${cls}',textContent:this.dataset.l}))" data-l="${ch}">`;
+  }
+
   // ---------- Source page ----------
   function timeLink(s, t, anchor, label) {
     const url = jumpUrl(s, t, anchor);
@@ -16485,6 +16662,18 @@ window.LIBRARY = {
     const t = c.t != null ? approx(s) + fmtT(c.t) : String(i + 1).padStart(2, "0");
     const body = `<span class="t">${esc(t)}</span><span><span class="ct">${esc(c.title || c.anchor)}</span>${c.summary ? `<span class="cs">${esc(c.summary)}</span>` : ""}</span>`;
     return url ? `<li><a class="ch" href="${esc(url)}" target="_blank" rel="noopener" ${embed ? `data-t="${Math.round(c.t)}"` : ""}>${body}</a></li>` : `<li><div class="ch static">${body}</div></li>`;
+  }
+
+  function chapterStrip(s, chapters) {
+    const timed = chapters.filter((c) => c.t != null);
+    if (timed.length < 2) return "";
+    const embed = vidOf(s) && canEmbed;
+    const chips = timed.map((c) => {
+      const url = jumpUrl(s, c.t);
+      const inner = `<span class="t">${esc(approx(s) + fmtT(c.t))}</span><span class="ct">${esc(c.title || c.anchor)}</span>`;
+      return url ? `<a class="chip-ch" href="${esc(url)}" target="_blank" rel="noopener" ${embed ? `data-t="${Math.round(c.t)}"` : ""} title="${esc(c.summary || c.title)}">${inner}</a>` : `<span class="chip-ch static">${inner}</span>`;
+    }).join("");
+    return `<nav class="ch-strip" aria-label="Chapters"><div class="ch-strip-head"><span>Jump to a chapter · ${timed.length}</span><span class="ch-arrows"><button type="button" class="ch-arrow" data-dir="-1" aria-label="Previous chapters">‹</button><button type="button" class="ch-arrow" data-dir="1" aria-label="More chapters">›</button></span></div><div class="ch-scroll">${chips}</div></nav>`;
   }
 
   function renderSource(id) {
@@ -16503,8 +16692,11 @@ window.LIBRARY = {
     app.innerHTML = `
       <a class="back" href="#/sources">← All sources</a>
       <header class="src-hero">
-        <div class="player" id="player">
-          ${vid && canEmbed ? banner(s, { play: true, tag: "div" }) : banner(s, { play: !!isMedia, tag: "a", href: playUrl })}
+        <div class="player-col">
+          <div class="player" id="player">
+            ${vid && canEmbed ? banner(s, { play: true, tag: "div" }) : banner(s, { play: !!isMedia, tag: "a", href: playUrl })}
+          </div>
+          ${chapterStrip(s, chapters)}
         </div>
         <div class="src-head">
           <div class="kinds">${kindPill(s)}${evidenceBadge(s)}<span class="creator">${esc(s.Creator)}</span></div>
@@ -16552,7 +16744,7 @@ window.LIBRARY = {
           ${start && start.why ? `<div class="panel start-here"><h3>If you have 5 minutes</h3><p>${esc(start.why)}</p>${start.t != null || start.anchor ? timeLink(s, start.t, start.anchor, start.t != null ? `Watch from ${approx(s)}${fmtT(start.t)}` : "Read this part") : ""}</div>` : ""}
           ${chapters.length ? `<div class="panel"><h3>${isMedia ? "Chapters" : "Sections"} <span>${chapters.length}</span></h3><ol class="chapters ${chapters.some((c) => c.t != null) ? "" : "nums"}">${chapters.map((c, i) => chapterRow(s, c, i)).join("")}</ol></div>` : ""}
           <div class="panel"><dl>
-            ${(s.Apps || []).length ? `<div><dt>Apps</dt><dd class="tags">${s.Apps.map((a) => `<a class="tag app" href="#/apps/${slug(a)}">${esc(a)}</a>`).join("")}</dd></div>` : ""}
+            ${(s.Apps || []).length ? `<div><dt>Apps</dt><dd class="tags">${s.Apps.map((a) => `<a class="tag app" href="#/apps/${slug(a)}">${appMark(a, "xs")}${esc(a)}</a>`).join("")}</dd></div>` : ""}
             ${(s.Tools || []).length ? `<div><dt>Tools they used</dt><dd class="tags">${s.Tools.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</dd></div>` : ""}
             <div><dt>Topics</dt><dd class="tags">${(s.Topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</dd></div>
             ${inLessons.length ? `<div><dt>In the course</dt><dd class="tags">${inLessons.map((l) => `<a class="tag app" href="#/course/${l.id}">${esc(l.title)}</a>`).join("")}</dd></div>` : ""}
@@ -16566,9 +16758,17 @@ window.LIBRARY = {
 
     const player = document.getElementById("player");
     const play = (t) => {
+      app.querySelectorAll(".chip-ch").forEach((c) => c.classList.toggle("on", +c.dataset.t === Math.round(t || 0)));
       player.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${vid}?start=${Math.round(t || 0)}&autoplay=1&rel=0&modestbranding=1" title="${esc(s.Title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
-      player.scrollIntoView({ behavior: "smooth", block: "center" });
+      player.scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
+    const strip = app.querySelector(".ch-scroll");
+    if (strip) {
+      const arrows = app.querySelectorAll(".ch-arrow");
+      const sync = () => { arrows[0].disabled = strip.scrollLeft < 4; arrows[1].disabled = strip.scrollLeft + strip.clientWidth > strip.scrollWidth - 4; strip.classList.toggle("end", arrows[1].disabled); };
+      arrows.forEach((b) => b.onclick = () => strip.scrollBy({ left: +b.dataset.dir * strip.clientWidth * 0.8, behavior: "smooth" }));
+      strip.addEventListener("scroll", sync, { passive: true }); sync();
+    }
     if (vid && canEmbed) {
       player.querySelector(".banner").onclick = () => play(startT);
       app.querySelectorAll("[data-t]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); play(+a.dataset.t); }));
@@ -16591,7 +16791,7 @@ window.LIBRARY = {
       <section class="intro"><h1>Apps</h1><p>What each app changed, and what happened, across every source.</p></section>
       <div class="app-grid">${apps.map((a) => {
         const results = a.items.filter((s) => s.Results && tested(s)).length;
-        return `<a class="app-card" href="#/apps/${a.id}"><span class="app-mark big">${esc(a.name[0])}</span><div><h3>${esc(a.name)}</h3><p class="muted small">${a.items.length} source${a.items.length > 1 ? "s" : ""}${results ? ` · ${results} tested` : ""}</p></div></a>`;
+        return `<a class="app-card" href="#/apps/${a.id}">${appMark(a.name, "big")}<div><h3>${esc(a.name)}</h3><p class="muted small">${a.items.length} source${a.items.length > 1 ? "s" : ""}${results ? ` · ${results} tested` : ""}</p></div></a>`;
       }).join("")}</div>`;
   }
   function renderApp(id) {
@@ -16599,7 +16799,7 @@ window.LIBRARY = {
     if (!a) return notFound("That app isn't in the library.");
     app.innerHTML = `
       <a class="back" href="#/apps">← All apps</a>
-      <section class="intro"><div class="app-title"><span class="app-mark big">${esc(a.name[0])}</span><h1>${esc(a.name)}</h1></div>
+      <section class="intro"><div class="app-title">${appMark(a.name, "big")}<h1>${esc(a.name)}</h1></div>
       <p>Everything the library says ${esc(a.name)} tried, with what happened.</p></section>
       <div class="grid" style="margin-bottom:64px">${a.items.map(card).join("")}</div>`;
     scrollTo(0, 0);

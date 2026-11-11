@@ -356,6 +356,15 @@
     document.getElementById("clear2")?.addEventListener("click", clear);
   }
 
+  // ---------- App icons ----------
+  const ICON_BASE = location.pathname.includes("/site/") ? "../icons/" : "icons/";
+  const hasIcon = new Set(window.LIBRARY.icons || []);
+  function appMark(name, cls = "") {
+    const ch = esc(name[0].toUpperCase());
+    if (!hasIcon.has(slug(name))) return `<span class="app-mark ${cls}">${ch}</span>`;
+    return `<img class="app-mark img ${cls}" src="${ICON_BASE}${slug(name)}.png" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'app-mark ${cls}',textContent:this.dataset.l}))" data-l="${ch}">`;
+  }
+
   // ---------- Source page ----------
   function timeLink(s, t, anchor, label) {
     const url = jumpUrl(s, t, anchor);
@@ -370,6 +379,18 @@
     const t = c.t != null ? approx(s) + fmtT(c.t) : String(i + 1).padStart(2, "0");
     const body = `<span class="t">${esc(t)}</span><span><span class="ct">${esc(c.title || c.anchor)}</span>${c.summary ? `<span class="cs">${esc(c.summary)}</span>` : ""}</span>`;
     return url ? `<li><a class="ch" href="${esc(url)}" target="_blank" rel="noopener" ${embed ? `data-t="${Math.round(c.t)}"` : ""}>${body}</a></li>` : `<li><div class="ch static">${body}</div></li>`;
+  }
+
+  function chapterStrip(s, chapters) {
+    const timed = chapters.filter((c) => c.t != null);
+    if (timed.length < 2) return "";
+    const embed = vidOf(s) && canEmbed;
+    const chips = timed.map((c) => {
+      const url = jumpUrl(s, c.t);
+      const inner = `<span class="t">${esc(approx(s) + fmtT(c.t))}</span><span class="ct">${esc(c.title || c.anchor)}</span>`;
+      return url ? `<a class="chip-ch" href="${esc(url)}" target="_blank" rel="noopener" ${embed ? `data-t="${Math.round(c.t)}"` : ""} title="${esc(c.summary || c.title)}">${inner}</a>` : `<span class="chip-ch static">${inner}</span>`;
+    }).join("");
+    return `<nav class="ch-strip" aria-label="Chapters"><div class="ch-strip-head"><span>Jump to a chapter · ${timed.length}</span><span class="ch-arrows"><button type="button" class="ch-arrow" data-dir="-1" aria-label="Previous chapters">‹</button><button type="button" class="ch-arrow" data-dir="1" aria-label="More chapters">›</button></span></div><div class="ch-scroll">${chips}</div></nav>`;
   }
 
   function renderSource(id) {
@@ -388,8 +409,11 @@
     app.innerHTML = `
       <a class="back" href="#/sources">← All sources</a>
       <header class="src-hero">
-        <div class="player" id="player">
-          ${vid && canEmbed ? banner(s, { play: true, tag: "div" }) : banner(s, { play: !!isMedia, tag: "a", href: playUrl })}
+        <div class="player-col">
+          <div class="player" id="player">
+            ${vid && canEmbed ? banner(s, { play: true, tag: "div" }) : banner(s, { play: !!isMedia, tag: "a", href: playUrl })}
+          </div>
+          ${chapterStrip(s, chapters)}
         </div>
         <div class="src-head">
           <div class="kinds">${kindPill(s)}${evidenceBadge(s)}<span class="creator">${esc(s.Creator)}</span></div>
@@ -437,7 +461,7 @@
           ${start && start.why ? `<div class="panel start-here"><h3>If you have 5 minutes</h3><p>${esc(start.why)}</p>${start.t != null || start.anchor ? timeLink(s, start.t, start.anchor, start.t != null ? `Watch from ${approx(s)}${fmtT(start.t)}` : "Read this part") : ""}</div>` : ""}
           ${chapters.length ? `<div class="panel"><h3>${isMedia ? "Chapters" : "Sections"} <span>${chapters.length}</span></h3><ol class="chapters ${chapters.some((c) => c.t != null) ? "" : "nums"}">${chapters.map((c, i) => chapterRow(s, c, i)).join("")}</ol></div>` : ""}
           <div class="panel"><dl>
-            ${(s.Apps || []).length ? `<div><dt>Apps</dt><dd class="tags">${s.Apps.map((a) => `<a class="tag app" href="#/apps/${slug(a)}">${esc(a)}</a>`).join("")}</dd></div>` : ""}
+            ${(s.Apps || []).length ? `<div><dt>Apps</dt><dd class="tags">${s.Apps.map((a) => `<a class="tag app" href="#/apps/${slug(a)}">${appMark(a, "xs")}${esc(a)}</a>`).join("")}</dd></div>` : ""}
             ${(s.Tools || []).length ? `<div><dt>Tools they used</dt><dd class="tags">${s.Tools.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</dd></div>` : ""}
             <div><dt>Topics</dt><dd class="tags">${(s.Topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</dd></div>
             ${inLessons.length ? `<div><dt>In the course</dt><dd class="tags">${inLessons.map((l) => `<a class="tag app" href="#/course/${l.id}">${esc(l.title)}</a>`).join("")}</dd></div>` : ""}
@@ -451,9 +475,17 @@
 
     const player = document.getElementById("player");
     const play = (t) => {
+      app.querySelectorAll(".chip-ch").forEach((c) => c.classList.toggle("on", +c.dataset.t === Math.round(t || 0)));
       player.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${vid}?start=${Math.round(t || 0)}&autoplay=1&rel=0&modestbranding=1" title="${esc(s.Title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
-      player.scrollIntoView({ behavior: "smooth", block: "center" });
+      player.scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
+    const strip = app.querySelector(".ch-scroll");
+    if (strip) {
+      const arrows = app.querySelectorAll(".ch-arrow");
+      const sync = () => { arrows[0].disabled = strip.scrollLeft < 4; arrows[1].disabled = strip.scrollLeft + strip.clientWidth > strip.scrollWidth - 4; strip.classList.toggle("end", arrows[1].disabled); };
+      arrows.forEach((b) => b.onclick = () => strip.scrollBy({ left: +b.dataset.dir * strip.clientWidth * 0.8, behavior: "smooth" }));
+      strip.addEventListener("scroll", sync, { passive: true }); sync();
+    }
     if (vid && canEmbed) {
       player.querySelector(".banner").onclick = () => play(startT);
       app.querySelectorAll("[data-t]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); play(+a.dataset.t); }));
@@ -476,7 +508,7 @@
       <section class="intro"><h1>Apps</h1><p>What each app changed, and what happened, across every source.</p></section>
       <div class="app-grid">${apps.map((a) => {
         const results = a.items.filter((s) => s.Results && tested(s)).length;
-        return `<a class="app-card" href="#/apps/${a.id}"><span class="app-mark big">${esc(a.name[0])}</span><div><h3>${esc(a.name)}</h3><p class="muted small">${a.items.length} source${a.items.length > 1 ? "s" : ""}${results ? ` · ${results} tested` : ""}</p></div></a>`;
+        return `<a class="app-card" href="#/apps/${a.id}">${appMark(a.name, "big")}<div><h3>${esc(a.name)}</h3><p class="muted small">${a.items.length} source${a.items.length > 1 ? "s" : ""}${results ? ` · ${results} tested` : ""}</p></div></a>`;
       }).join("")}</div>`;
   }
   function renderApp(id) {
@@ -484,7 +516,7 @@
     if (!a) return notFound("That app isn't in the library.");
     app.innerHTML = `
       <a class="back" href="#/apps">← All apps</a>
-      <section class="intro"><div class="app-title"><span class="app-mark big">${esc(a.name[0])}</span><h1>${esc(a.name)}</h1></div>
+      <section class="intro"><div class="app-title">${appMark(a.name, "big")}<h1>${esc(a.name)}</h1></div>
       <p>Everything the library says ${esc(a.name)} tried, with what happened.</p></section>
       <div class="grid" style="margin-bottom:64px">${a.items.map(card).join("")}</div>`;
     scrollTo(0, 0);
