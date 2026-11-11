@@ -25970,5 +25970,1017 @@
       "anchor": "How Quiet tests paywalls",
       "why": "It shows in a few lines how to turn a visual test result into money, which OnCourse can use to read its own paywall tests."
     }
+  },
+  {
+    "Title": "The Subscription Value Loop: A framework for growing consumer subscription businesses",
+    "Creator": "Lenny's Newsletter (Phil Carter)",
+    "Type": "Article",
+    "Link": "https://www.lennysnewsletter.com/p/the-subscription-value-loop-a-framework",
+    "Apps": [
+      "Superhuman",
+      "AllTrails",
+      "Headway",
+      "Ladder",
+      "Calm",
+      "Tinder",
+      "Spotify",
+      "Duolingo",
+      "Quizlet",
+      "Flo",
+      "Blinkist"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Paywall",
+      "Renewal",
+      "Progress & streaks",
+      "Notifications",
+      "Gamification"
+    ],
+    "Goal": [
+      "Activation",
+      "Conversion",
+      "Renewal",
+      "Retention"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Consumer subscription apps grow by pulling ten levers across the loop of creating value and capturing it, from fast onboarding and a visible paywall to fixing failed payments and smart discounts.",
+    "What they did": "Phil Carter, a former Quizlet growth leader, describes a loop where users get value, convert, renew and refer others. He lists 10 levers with tactics, target metrics and an app example for each. Examples include Headway's onboarding, Calm's paywall, Duolingo's streaks, Quizlet's study streaks and back-to-school word of mouth, and Flo's trial toggle with a discount for users who decline.",
+    "Results": "Top-quartile apps \"only convert roughly 1 in 20 installs into a paid subscription\" and \"lose more than half of their annual subscribers after the first year\". Pricing and packaging changes \"consistently generate 5% to 15% lift on subscription revenue\"; at AllTrails a higher price \"drove an ~8.3% lift in ARPU\" in an A/B test. \"More than 75% of trial starts occur on the same day a user installs an app.\" Blinkist's timeline paywall \"boosted Blinkist's trial start rate by 23%, cut cancellations by 4%, and increased subscriber conversion by 9%.\" \"20% to 40% (or more)\" of churn can be involuntary.",
+    "Takeaways": "Most trials start on install day; Show the paywall to almost everyone on day one; Price changes are an underused lever; Fix churn people don't choose; Streaks and badges tap real motivations; Discounts should match low intent",
+    "Ideas for OnCourse": "Onboarding: ask 2–3 quick questions (exam, attempt date, weak subjects), then show a personal study plan before the paywall so the payoff comes first. Paywall: make sure most new users see it on day 1, and add a timeline that says when the trial ends and when they will be charged. Renewal: retry failed payments and remind users before the card fails, since 20% to 40% of churn can be involuntary.",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!fnHL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7432f8-a875-4420-bb1a-093a8df40287_1456x904.png",
+    "Key points": [
+      {
+        "title": "Most trials start on install day",
+        "detail": "The article cites a report that \"more than 75% of trial starts occur on the same day a user installs an app (often in the first few minutes).\" So onboarding must be built for speed to value. Headway does this with a clear promise, SSO, short questions that build intent, and a personal reading plan. OnCourse onboarding should end with a plan, not a form.",
+        "t": null
+      },
+      {
+        "title": "Show the paywall to almost everyone on day one",
+        "detail": "Carter says \"you want Day 1 Paywall View Rate to be at or above 80%.\" Blinkist's timeline paywall raised trial starts by 23% and cut cancellations by 4%. Calm keeps its paywall simple, with an emotional headline, a short feature list and a \"Most Popular\" tag on the annual plan. A clear, honest paywall seen early beats a hidden one.",
+        "t": null
+      },
+      {
+        "title": "Price changes are an underused lever",
+        "detail": "Carter has seen pricing and packaging changes \"consistently generate 5% to 15% lift on subscription revenue.\" AllTrails raised its price from $29.99 to $35.99 and an A/B test showed an \"~8.3% lift in ARPU.\" Many teams set a price once and never test it. Plans and durations deserve their own tests.",
+        "t": null
+      },
+      {
+        "title": "Fix churn people don't choose",
+        "detail": "Sources cited say \"20% to 40% (or more)\" of churn is involuntary, from failed payments. Fixes include payment retries, card updaters and grace periods. Web checkout also helps, because web subscribers have lower involuntary churn. This is a cheap renewal win before any redesign.",
+        "t": null
+      },
+      {
+        "title": "Streaks and badges tap real motivations",
+        "detail": "Quizlet's survey found \"Ownership, Accomplishment, and Scarcity\" were its users' main drives. That led to study streaks and accomplishments. Duolingo also uses loss avoidance through streak freezes and repairs. Notifications remind users about these features.",
+        "t": null
+      },
+      {
+        "title": "Discounts should match low intent",
+        "detail": "Flo shows a toggle for a free 14-day trial. Users who reject the trial see a big lifetime discount as an expiring one-time offer. Another tactic is an email with \"a one-time 15%-to-30% discount\" to users who don't subscribe within 24 to 48 hours. Seasonal and student discounts also work for study apps.",
+        "t": null
+      }
+    ],
+    "Chapters": [
+      {
+        "t": null,
+        "anchor": "Using the Subscription Value Loop to grow your consumer subscription business",
+        "title": "The loop",
+        "summary": "How value creation, conversion, retention and referral feed each other."
+      },
+      {
+        "t": null,
+        "anchor": "3. Deliver immediate value through new user onboarding",
+        "title": "Onboarding",
+        "summary": "Speed to value, SSO, +Psych screens and a personal plan, with Headway as the example."
+      },
+      {
+        "t": null,
+        "anchor": "5. Optimize paywall visibility and conversion",
+        "title": "Paywall",
+        "summary": "Day 1 paywall view rate, the Blinkist timeline paywall and Calm's simple paywall."
+      },
+      {
+        "t": null,
+        "anchor": "7. Improve subscriber retention by minimizing involuntary churn",
+        "title": "Involuntary churn",
+        "summary": "Failed payments cause a big share of churn and are cheap to fix."
+      },
+      {
+        "t": null,
+        "anchor": "8. Leverage motivation tactics (e.g. streaks, badges, leaderboards, and notifications)",
+        "title": "Motivation tactics",
+        "summary": "Quizlet's motivation survey and Duolingo's streak tactics."
+      },
+      {
+        "t": null,
+        "anchor": "10. Leverage strategic discounts and promotions",
+        "title": "Discounts",
+        "summary": "Activity-based and seasonal discounts, with Flo's trial toggle."
+      }
+    ],
+    "Start here": {
+      "t": null,
+      "anchor": "3. Deliver immediate value through new user onboarding",
+      "why": "It explains why the first minutes decide trial starts, which maps directly to OnCourse onboarding and paywall."
+    }
+  },
+  {
+    "Title": "How to develop product sense",
+    "Creator": "Lenny's Newsletter (Jules Walter)",
+    "Type": "Article",
+    "Link": "https://www.lennysnewsletter.com/p/product-sense",
+    "Apps": [
+      "Slack"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Research methods",
+      "Design process",
+      "Copy"
+    ],
+    "Goal": [
+      "Activation",
+      "Usability",
+      "Craft"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Product sense is a skill you build by watching real people use products, taking apart good products, and learning how strong product thinkers reason.",
+    "What they did": "Jules Walter, a product leader who worked at Slack, defines product sense as the skill of predicting what will help users. He gives four practices: observe users, deconstruct everyday products, learn from great product thinkers, and stay curious about technology. He uses Slack research on mobile churn and Slack experiments as examples.",
+    "Results": "Slack saw \"increases in purchases when we moved some of the information on the various purchase options behind a dropdown list.\" An early mobile experiment \"increased user retention just by telling new users what Slack is and linking to a video\". No percentages are given.",
+    "Takeaways": "Watch real users two to four times a month; Slack users were lost, distracted and wary; People are time-crunched and easily scared off; Less information can sell more; Deconstruct one product a month",
+    "Ideas for OnCourse": "Onboarding: add one plain line on what OnCourse does and how a day of study works, since telling new Slack users what Slack is raised retention. Paywall: move secondary plan details behind a \"See details\" toggle so the main choice is easy to scan. Practice: watch 2–4 users a month solve a question set, and note where they hesitate or look nervous.",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!Cvhp!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9a440cde-98a4-4954-a5b4-365ba9df0786_1600x534.png",
+    "Key points": [
+      {
+        "title": "Watch real users two to four times a month",
+        "detail": "Walter recommends observing people \"two to four times a month for your product.\" He says to attend research sessions, not just read reports. Watching builds empathy and shows you the gap between your intent and real behaviour. Notes from each session add up over time.",
+        "t": null
+      },
+      {
+        "title": "Slack users were lost, distracted and wary",
+        "detail": "Slack's mobile churn research found the homepage was \"too abstract\", users met \"competing calls to action\", and they did not want to share their address book. Each finding led to an experiment. Telling new users what Slack is and linking a video increased retention. The lesson is to explain the product before asking for anything.",
+        "t": null
+      },
+      {
+        "title": "People are time-crunched and easily scared off",
+        "detail": "Walter lists patterns he saw across hundreds of users. People are \"time-crunched and distracted\", so pick good defaults and make the main action obvious. They \"drop out of a product flow as soon as they feel confused or nervous.\" Small worries end sessions.",
+        "t": null
+      },
+      {
+        "title": "Less information can sell more",
+        "detail": "On Slack's pricing page, moving some plan details \"behind a dropdown list\" increased purchases. Too much information at once overwhelms people. Show the key choice first and let curious users expand the rest. This applies directly to paywalls.",
+        "t": null
+      },
+      {
+        "title": "Deconstruct one product a month",
+        "detail": "Walter spends \"one or two hours a month trying out new products and deconstructing them.\" He uses critique questions to ask why each choice was made. One example is Slack's quiet-hours detail, built \"to prevent anxiety\", not to move metrics. \"The details are not the details.\"",
+        "t": null
+      }
+    ],
+    "Chapters": [
+      {
+        "t": null,
+        "anchor": "What exactly is product sense? 🤔",
+        "title": "What product sense is",
+        "summary": "A definition: empathy for users plus creativity to find solutions."
+      },
+      {
+        "t": null,
+        "anchor": "1. Observe people interacting with products 🕵🏾",
+        "title": "Observe people",
+        "summary": "Slack's churn research and five lessons about how people behave in flows."
+      },
+      {
+        "t": null,
+        "anchor": "2. Deconstruct everyday products 👨🏾‍🔧️",
+        "title": "Deconstruct products",
+        "summary": "Questions to ask when taking apart a product you admire."
+      },
+      {
+        "t": null,
+        "anchor": "3. Learn from great product thinkers 📓",
+        "title": "Learn from others",
+        "summary": "Study how strong product people frame problems."
+      },
+      {
+        "t": null,
+        "anchor": "How to tell if you’re getting better at product sense 📈",
+        "title": "Signs of progress",
+        "summary": "How to check that your judgment is improving."
+      }
+    ],
+    "Start here": {
+      "t": null,
+      "anchor": "1. Observe people interacting with products 🕵🏾",
+      "why": "The Slack churn findings and the five behaviour lessons apply straight to OnCourse onboarding and paywall."
+    }
+  },
+  {
+    "Title": "The PM 🤝 Design Partnership",
+    "Creator": "Lenny's Newsletter (Katie Dill)",
+    "Type": "Article",
+    "Link": "https://www.lennysnewsletter.com/p/design-product-management-partnership",
+    "Apps": [
+      "Lyft",
+      "Airbnb"
+    ],
+    "Topics": [
+      "Design process"
+    ],
+    "Goal": [
+      "Craft",
+      "Speed"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "PMs and designers work best when the PM trusts the designer's craft, brings them in early, and both share goals and a north-star vision.",
+    "What they did": "Katie Dill, then head of design at Lyft, answers a reader who struggles to work with designers. She gives five tips: trust the designer's expertise, be the conductor, include designers early, invest in even small north stars, and create shared goals. She uses Lyft examples to size vision work.",
+    "Results": "Lyft's high-fidelity rider-app vision \"took ~6 months with bi-weekly exec reviews\", while a sketch vision for the sign-up flow \"took less than a week.\" No experiment results.",
+    "Takeaways": "North stars can be small and fast; Without a vision products become Frankensteins; Link design goals to business goals; Bring designers in at the start",
+    "Ideas for OnCourse": "Onboarding: before redesigning screen by screen, sketch a one-week north star for the whole first-day flow and agree on it with the PM. Home: tie design goals like consistency to a product goal, since \"consistency of the system is a sub-goal of usability which is a sub-goal of conversion.\"",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!RWve!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fab7ae3aa-1728-47ce-a85c-e5275f2e09ba_4898x3265.jpeg",
+    "Key points": [
+      {
+        "title": "North stars can be small and fast",
+        "detail": "Dill says a vision does not have to be huge. Lyft's high-fidelity rider-app vision took \"~6 months with bi-weekly exec reviews.\" A sketch vision of the sign-up flow \"took less than a week.\" Pick the size by scope, fidelity, time horizon and the buy-in you need.",
+        "t": null
+      },
+      {
+        "title": "Without a vision products become Frankensteins",
+        "detail": "Without a north star, teams \"miss the opportunity to innovate\" and neglect the long term. The product turns into \"a disjointed Frankenstein lacking consistency.\" A shared picture keeps small changes pointing the same way. Even one screen can be envisioned in a day.",
+        "t": null
+      },
+      {
+        "title": "Link design goals to business goals",
+        "detail": "Design goals like consistency, usability, accessibility and delight can look indirect. Dill explains \"consistency of the system is a sub-goal of usability which is a sub-goal of conversion.\" Mapping these links helps the team rank and sequence work. Ignoring indirect work \"is not an option.\"",
+        "t": null
+      },
+      {
+        "title": "Bring designers in at the start",
+        "detail": "Designers add the most when they help frame the problem, not just style the answer. The PM should act as a conductor who brings in the right people at the right time. Trust the designer's expertise rather than dictating solutions. Saying \"my design partner\" instead of \"my designer\" signals this.",
+        "t": null
+      }
+    ],
+    "Chapters": [
+      {
+        "t": null,
+        "anchor": "Tip #1: Trust the designer’s expertise",
+        "title": "Trust expertise",
+        "summary": "Let designers own the how and bring their skills to the problem."
+      },
+      {
+        "t": null,
+        "anchor": "Tip #3: Include designers early ",
+        "title": "Include designers early",
+        "summary": "Involve design in framing the problem, not only at the end."
+      },
+      {
+        "t": null,
+        "anchor": "Tip #4: Invest in even the smallest of north stars",
+        "title": "Small north stars",
+        "summary": "Size vision work by scope, fidelity, time horizon and buy-in, with Lyft examples."
+      },
+      {
+        "t": null,
+        "anchor": "Tip #5: Create shared goals",
+        "title": "Shared goals",
+        "summary": "Connect design goals like consistency to usability and conversion."
+      }
+    ],
+    "Start here": {
+      "t": null,
+      "anchor": "Tip #4: Invest in even the smallest of north stars",
+      "why": "It shows how to make a one-week vision for a single flow, which fits a small team like OnCourse."
+    }
+  },
+  {
+    "Title": "What working at Figma taught me about customer obsession",
+    "Creator": "Lenny's Newsletter (Sho Kuwamoto)",
+    "Type": "Article",
+    "Link": "https://www.lennysnewsletter.com/p/what-working-at-figma-taught-me-about",
+    "Apps": [
+      "Figma"
+    ],
+    "Topics": [
+      "Design process",
+      "Research methods",
+      "Visual design",
+      "Motion"
+    ],
+    "Goal": [
+      "Craft",
+      "Usability",
+      "Retention"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Figma stayed close to customers by making support everyone's job and by treating the feel of the product, like speed and consistency, as a core feature.",
+    "What they did": "Sho Kuwamoto, a former Figma product leader, shares three lessons. Engineers and designers answered support tickets directly. Figma treated software as a service that keeps improving, and it launched without some big features to keep the core feeling good. The team held a bar for feel, such as 60 frames per second.",
+    "Results": "Support took \"sometimes 20% of an engineer's time or more\", yet the team found it made product development faster, not slower. Multiplayer shipped \"nine months after our initial preview release.\" No measured experiment.",
+    "Takeaways": "Support is everyone's job; Ship a core that feels good, not every feature; Feel matters more the more often people use it; Hold a hard bar for speed; Think like a host",
+    "Ideas for OnCourse": "Practice: set a feel bar for answer feedback (instant tap response, smooth transitions), because daily-use products live or die on feel. Lessons: rotate designers through a weekly hour of reading support chats and app reviews to find friction.",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!iXLJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc84d66c3-49ab-4356-a503-1df2823ab4a2_1600x1065.png",
+    "Key points": [
+      {
+        "title": "Support is everyone's job",
+        "detail": "At Figma, engineers and designers answered customers directly. It took \"sometimes 20% of an engineer's time or more.\" The team found this made development go faster, not slower. They heard problems first-hand and fixed them quickly.",
+        "t": null
+      },
+      {
+        "title": "Ship a core that feels good, not every feature",
+        "detail": "Figma's first release had no \"components, styles, or even multiplayer.\" Cutting multiplayer was hard, but starting with something that \"felt bad\" would create a credibility problem. Multiplayer came \"nine months after our initial preview release.\" Quality of the core came before breadth.",
+        "t": null
+      },
+      {
+        "title": "Feel matters more the more often people use it",
+        "detail": "Kuwamoto writes \"the more frequently a piece of software is used, the more important 'feel' is.\" Daily tools like messaging and spreadsheets win or lose on feel. Feel includes performance, familiarity and consistency. OnCourse is used daily, so this applies strongly.",
+        "t": null
+      },
+      {
+        "title": "Hold a hard bar for speed",
+        "detail": "Figma tries \"to hold ourselves to a bar of 60 frames per second whenever we can.\" Speed is part of feel, not a separate engineering concern. Slow screens make users trust the product less. Designers should name performance in their specs.",
+        "t": null
+      },
+      {
+        "title": "Think like a host",
+        "detail": "Kuwamoto imagines himself as \"just like a host, inviting my user into my application\". He wants them to have a wonderful time. This framing keeps attention on how each moment feels. It suits a study app where users spend long sessions.",
+        "t": null
+      }
+    ],
+    "Chapters": [
+      {
+        "t": null,
+        "anchor": "Customer support is everyone’s job",
+        "title": "Support is everyone's job",
+        "summary": "Engineers answered tickets and it sped the team up."
+      },
+      {
+        "t": null,
+        "anchor": "Software as a service",
+        "title": "Software as a service",
+        "summary": "Launch a small core that feels right and keep improving it."
+      },
+      {
+        "t": null,
+        "anchor": "The importance of feel",
+        "title": "The importance of feel",
+        "summary": "Performance, familiarity and consistency, and why frequent use raises the bar."
+      }
+    ],
+    "Start here": {
+      "t": null,
+      "anchor": "The importance of feel",
+      "why": "OnCourse is a daily-use app, and this section explains why feel decides adoption for such products."
+    }
+  },
+  {
+    "Title": "Strategy and tactics for improving conversion",
+    "Creator": "Lenny's Newsletter (Lenny Rachitsky)",
+    "Type": "Article",
+    "Link": "https://www.lennysnewsletter.com/p/this-week-21-strategy-and-tactics",
+    "Apps": [
+      "Airbnb"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Paywall",
+      "Notifications",
+      "Copy"
+    ],
+    "Goal": [
+      "Conversion",
+      "Activation"
+    ],
+    "Evidence type": "A/B test",
+    "Bottom line": "Raise conversion by keeping users focused, keeping them motivated and removing friction, then bring bounced users back with a reminder, news that something changed, or more information.",
+    "What they did": "Lenny shares the biggest conversion wins he saw at Airbnb, grouped into three levers: focus, motivation and friction. Examples include opening listings in a new tab, removing a distracting Neighborhoods section, scarcity messages, Instant Book and smart defaults. He then covers what to say to bounced users and the channels to reach them.",
+    "Results": "Opening listings in a new tab \"turned out to be one of the biggest conversion wins\". When the team removed Neighborhoods from the home page, \"bookings went up.\" With Instant Book, \"guest conversion significantly increased.\" No percentages are given.",
+    "Takeaways": "Three levers: focus, motivation, friction; Interesting content can hurt conversion; Smart defaults beat extra questions; Remind users why to come back",
+    "Ideas for OnCourse": "Home: remove content that distracts from starting today's plan, since Airbnb's bookings rose when it removed interesting but distracting content. Onboarding: prefill smart defaults (exam, daily target) instead of asking open questions. Notifications: send users who left a set midway a reminder that they are a few questions from finishing.",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!Ghqc!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fba1fd859-81ee-4daf-b544-ab4603a1118b.tiff",
+    "Key points": [
+      {
+        "title": "Three levers: focus, motivation, friction",
+        "detail": "Lenny frames every funnel idea as keeping user focus, keeping motivation, or reducing friction. Teams should brainstorm ideas within each lever and test many of them. He advises testing \"as many ideas as you can, vs. betting on just a few amazing ideas.\" Where tests are not possible, do the research and trust your best guess.",
+        "t": null
+      },
+      {
+        "title": "Interesting content can hurt conversion",
+        "detail": "Airbnb's Neighborhoods content was loved by visitors, \"almost too much.\" It distracted them from booking. \"When the team removed it from the home page, bookings went up.\" Good content in the wrong place is a distraction.",
+        "t": null
+      },
+      {
+        "title": "Smart defaults beat extra questions",
+        "detail": "New Airbnb hosts faced dozens of questions about price and availability. The team found \"a lot of success in setting smart default answers\". When you can't remove a step, prefill it. Performance also mattered, especially on mobile.",
+        "t": null
+      },
+      {
+        "title": "Remind users why to come back",
+        "detail": "Bounced users need a reason to return: a reminder, \"something has changed\", or more information. Airbnb's best messages included telling new hosts they were \"only X steps away\". Channels are email or push, retargeting and calls. Push is \"simple, effective, but easy to abuse.\"",
+        "t": null
+      }
+    ],
+    "Chapters": [
+      {
+        "t": null,
+        "anchor": "Lever 1: Maintain user focus",
+        "title": "Keep users focused",
+        "summary": "New tabs, removing Neighborhoods and a date prompt."
+      },
+      {
+        "t": null,
+        "anchor": "Lever 2: Maintain user motivation",
+        "title": "Keep users motivated",
+        "summary": "Scarcity, highlights and value reminders."
+      },
+      {
+        "t": null,
+        "anchor": "Lever 3: Reduce user friction",
+        "title": "Reduce friction",
+        "summary": "Instant Book, smart defaults and performance."
+      },
+      {
+        "t": null,
+        "anchor": "WHAT to tell bounced users",
+        "title": "What to tell bounced users",
+        "summary": "Reminders, changes and more information."
+      },
+      {
+        "t": null,
+        "anchor": "HOW to reach bounced users",
+        "title": "How to reach them",
+        "summary": "Email and push, retargeting and calls."
+      }
+    ],
+    "Start here": {
+      "t": null,
+      "anchor": "Lever 1: Maintain user focus",
+      "why": "The Neighborhoods story is a clear warning about cluttering Home with content that pulls users away from the main action."
+    }
+  },
+  {
+    "Title": "How to consistently go viral: Nikita Bier’s playbook for winning at consumer apps (co-founder of TBH, Gas, advisor, investor)",
+    "Creator": "Lenny's Newsletter (Nikita Bier)",
+    "Type": "Podcast",
+    "Link": "https://www.lennysnewsletter.com/p/how-to-consistently-go-viral-nikita-bier",
+    "Apps": [
+      "TBH",
+      "Gas",
+      "Dupe"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Notifications",
+      "Design process",
+      "Research methods"
+    ],
+    "Goal": [
+      "Activation",
+      "Retention",
+      "Craft"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Consumer apps win by showing value in the first seconds, treating every tap as costly, and testing one idea cleanly while sweating the pixels.",
+    "What they did": "Nikita Bier built TBH and Gas, two teen apps that went viral, and sold them to Facebook and Discord. He explains how he tested ideas by launching in one school at a time to remove confounding variables. He also covers positive-only polls, 24-hour live chat support, contact permissions and why time to value must be seconds.",
+    "Results": "On day one, \"you're lucky if people send three or four\" messages, \"but we were sending 60\". A week after launch, \"40% of the high school down your street in Los Angeles has downloaded it\". Contact permission screens average \"about 65% approval rate across all apps.\" These are his reported figures, not controlled tests.",
+    "Takeaways": "Every tap is a miracle; Remove confounding variables when testing; Live chat is the best research tool; Positive mechanics drove huge engagement; Products live and die in the pixels; Show value in three seconds",
+    "Ideas for OnCourse": "Onboarding: cut every screen that doesn't lead to the first question, because \"every tap on a mobile app is a miracle\". Practice: show value in the first three seconds by opening the app to a ready question, not a menu. Notifications: keep messages positive and earned (progress, praise) rather than guilt-based.",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!6KuF!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e78be4d-c1e2-4db9-ae52-fb5fa37ed7ed_2048x2048.png",
+    "Key points": [
+      {
+        "title": "Every tap is a miracle",
+        "detail": "Bier says \"every tap on a mobile app is a miracle\" because users \"bounce to their next app very quickly.\" Each extra step loses people. He designs flows to get users to value with as few taps as possible. Onboarding length is a real cost.",
+        "t": 802
+      },
+      {
+        "title": "Remove confounding variables when testing",
+        "detail": "Bier tested by launching in a single school so many people adopted at once. This let him \"eliminate all those potentially confounding variables so you can know immediately whether something's working.\" He tests the ideal version of one idea, fully executed. Weak tests give unclear answers.",
+        "t": 1868
+      },
+      {
+        "title": "Live chat is the best research tool",
+        "detail": "He recommends \"live chat customer support in your app 24 hours a day.\" It gives users a white-glove experience. It is also \"the best vehicle for getting feedback and doing user research\" because users tell you their problem directly. Small teams can learn fast this way.",
+        "t": 1949
+      },
+      {
+        "title": "Positive mechanics drove huge engagement",
+        "detail": "TBH allowed only positive things through polls, like \"who has the best smile\". On day one users sent 60 messages, when \"you're lucky if people send three or four.\" People \"want to know good things about themselves.\" Positive feedback loops kept teens coming back.",
+        "t": 1613
+      },
+      {
+        "title": "Products live and die in the pixels",
+        "detail": "Bier argues that for consumer products, \"products live and die in the pixels.\" He gets into the pixels and designs flows himself. Details of screens decide whether an app spreads. Process documents matter less than the actual flow.",
+        "t": 3060
+      },
+      {
+        "title": "Show value in three seconds",
+        "detail": "Bier says \"if you can't demonstrate value in the first three seconds, it's over.\" Attention is spread thin across notifications and apps. Lenny sums it up as \"get to three seconds time to value.\" The first screen must deliver, not explain.",
+        "t": 5191
+      }
+    ],
+    "Chapters": [
+      {
+        "t": 825,
+        "anchor": "The birth of TBH",
+        "title": "The birth of TBH",
+        "summary": "How the positive-poll idea came from watching teen apps."
+      },
+      {
+        "t": 1200,
+        "anchor": "TBH’s viral success",
+        "title": "TBH's viral success",
+        "summary": "School-by-school launches and day-one message volume."
+      },
+      {
+        "t": 1938,
+        "anchor": "Leveraging live chat",
+        "title": "Leveraging live chat",
+        "summary": "24-hour in-app support as a research tool."
+      },
+      {
+        "t": 2048,
+        "anchor": "Lasting lessons from TBH",
+        "title": "Lessons from TBH",
+        "summary": "What carried over to later apps."
+      },
+      {
+        "t": 4394,
+        "anchor": "Building durable consumer apps",
+        "title": "Durable consumer apps",
+        "summary": "Why people download apps and how to keep them."
+      },
+      {
+        "t": 5007,
+        "anchor": "Contact permissions in iOS 18",
+        "title": "Contact permissions",
+        "summary": "Permission approval rates and the iOS 18 change."
+      },
+      {
+        "t": 5213,
+        "anchor": "The success of Dupe",
+        "title": "The success of Dupe",
+        "summary": "Time to value in seconds."
+      }
+    ],
+    "Start here": {
+      "t": 1938,
+      "anchor": "Leveraging live chat",
+      "why": "It shows how 24-hour live chat and clean, one-variable launches let a small team learn fast."
+    },
+    "Duration": 5898,
+    "Times": "exact"
+  },
+  {
+    "Title": "The hierarchy of engagement | Sarah Tavel (Benchmark, Greylock, Pinterest)",
+    "Creator": "Lenny's Newsletter (Sarah Tavel)",
+    "Type": "Podcast",
+    "Link": "https://www.lennysnewsletter.com/p/the-hierarchy-of-engagement-sarah",
+    "Apps": [
+      "Pinterest",
+      "YouTube",
+      "Evernote",
+      "Houseparty",
+      "Clubhouse"
+    ],
+    "Topics": [
+      "Onboarding",
+      "Home",
+      "Progress & streaks",
+      "Notifications"
+    ],
+    "Goal": [
+      "Activation",
+      "Retention"
+    ],
+    "Evidence type": "Research",
+    "Bottom line": "Products build lasting engagement in three levels: get users to the core action, make the product better the more they use it, then create loops that bring them back on their own.",
+    "What they did": "Sarah Tavel, a Benchmark partner and early Pinterest PM, explains her Hierarchy of Engagement. Level 1 is growing users who complete the core action. Level 2 is retention, where the product improves with use and users have more to lose by leaving. Level 3 is self-perpetuating loops, like Pinterest's repin notifications. The second half of the episode covers marketplaces.",
+    "Results": "At Pinterest, \"if someone's pinning something, they're coming back to Pinterest the next week with a super high, more than 90% probability at the time.\" No experiment numbers.",
+    "Takeaways": "Find the one core action; Rank actions by return rate; Make the product better with use; Notifications can create or break loops; Too much at the start kills activation; Watch for the smile graph",
+    "Ideas for OnCourse": "Onboarding: define one core action (finishing a first question set) and make the first session lead straight to it. Progress & streaks: show what the user has built (questions solved, weak topics fixed) so leaving feels like a loss. Notifications: track weekly cohorts on the core action and look for a smile-shaped curve, not just daily opens.",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!dN2X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedf23b85-ad4d-4125-937d-8ffec742fdbb_2048x2048.png",
+    "Key points": [
+      {
+        "title": "Find the one core action",
+        "detail": "Tavel says social products have \"the core action of that product that forms the foundation\". At Pinterest it was pinning. The new user experience must help users understand the product \"well enough that they start completing the core action.\" Everything in onboarding should point there.",
+        "t": 315
+      },
+      {
+        "title": "Rank actions by return rate",
+        "detail": "Pinterest found its core action by looking at which actions predicted return. Users who pinned came back the next week with \"more than 90% probability.\" YouTube first thought watching was core, but found \"subscribing was the core action.\" Data can overturn your assumption.",
+        "t": 1980
+      },
+      {
+        "title": "Make the product better with use",
+        "detail": "Level 2 is about accruing benefit. \"When they complete that core action, the product gets more retentive for them.\" A feed picked for you or saved notes give users more to lose by leaving. \"If you want to increase retention, get people to do the core action more often.\"",
+        "t": 797
+      },
+      {
+        "title": "Notifications can create or break loops",
+        "detail": "Level 3 is self-perpetuating loops. Pinterest's repin notification brought people back to pin again. Tavel warns that Houseparty and Clubhouse overused push and broke the loop. Notifications must carry real value.",
+        "t": 884
+      },
+      {
+        "title": "Too much at the start kills activation",
+        "detail": "A common mistake is that \"there's too much in the beginning to take in and understand.\" Then the product doesn't get users \"to the thing that you most want them to do.\" Founders often miss the activation moment. Focus beats features early on.",
+        "t": 1819
+      },
+      {
+        "title": "Watch for the smile graph",
+        "detail": "Tavel tracks weekly active users completing the core action by cohort. The hope is \"the classic smile graph\", where cohorts use the product more over time. The opposite is a leaky bucket where cohorts keep falling. This is a better health signal than raw opens.",
+        "t": 1645
+      }
+    ],
+    "Chapters": [
+      {
+        "t": 213,
+        "anchor": "Framework 1: The Hierarchy of Engagement",
+        "title": "The framework",
+        "summary": "The three levels at a glance."
+      },
+      {
+        "t": 363,
+        "anchor": "Level 1: Core action",
+        "title": "Level 1: Core action",
+        "summary": "Getting users to the core action."
+      },
+      {
+        "t": 633,
+        "anchor": "Level 2: Retention",
+        "title": "Level 2: Retention",
+        "summary": "Accruing benefit and loss on leaving."
+      },
+      {
+        "t": 840,
+        "anchor": "Level 3: Self-perpetuation",
+        "title": "Level 3: Self-perpetuation",
+        "summary": "Loops and notification risks."
+      },
+      {
+        "t": 1564,
+        "anchor": "Advice for founders who want to increase retention",
+        "title": "Increasing retention",
+        "summary": "Weekly cohorts and the smile graph."
+      },
+      {
+        "t": 1774,
+        "anchor": "What founders often get wrong",
+        "title": "Common mistakes",
+        "summary": "Too much at the start."
+      },
+      {
+        "t": 1903,
+        "anchor": "Examples of core actions",
+        "title": "Examples of core actions",
+        "summary": "Pinterest and YouTube."
+      }
+    ],
+    "Start here": {
+      "t": 363,
+      "anchor": "Level 1: Core action",
+      "why": "The first 38 minutes cover engagement; start at level 1 and stop at the marketplace section."
+    },
+    "Duration": 6650,
+    "Times": "exact"
+  },
+  {
+    "Title": "Identify your bullseye customer in one day | Michael Margolis (UX Research Partner at Google Ventures)",
+    "Creator": "Lenny's Newsletter (Michael Margolis)",
+    "Type": "Podcast",
+    "Link": "https://www.lennysnewsletter.com/p/finding-your-bullseye-customer-michael-margolis",
+    "Apps": [],
+    "Topics": [
+      "Research methods",
+      "Design process"
+    ],
+    "Goal": [
+      "Speed",
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Learn fast by interviewing five carefully chosen customers in one day, showing them three prototypes, and having the whole team watch together.",
+    "What they did": "Michael Margolis runs research sprints for Google Ventures startups. His formula is \"five and three in one\": five bullseye customers, three prototypes, one day. He explains how to define the customer with inclusion and exclusion criteria, recruit and pay them, build simple prototypes, write a two-part interview, and run a team watch party with no report.",
+    "Results": "He pays participants about \"125 bucks an hour\" for typical consumer studies. In one sprint, a pharmacy found \"a predictable, narrow window of when this was going to arrive was much, much important than ASAP\" for refrigerated medicines. No experiment numbers.",
+    "Takeaways": "Five customers, three prototypes, one day; Define a narrow bullseye customer; Learn what no looks like; Watch together instead of writing a report; Write predictions first to beat hindsight bias; Weight past behaviour over predictions",
+    "Ideas for OnCourse": "Onboarding: test three onboarding prototypes with five NEET-PG aspirants in one day, and have the PM and engineers watch live. Paywall: write team predictions before the sessions, then compare after, to avoid \"we knew that already\".",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!gYw4!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcca34167-413c-44a9-a394-adda7af76c95_2048x2048.png",
+    "Key points": [
+      {
+        "title": "Five customers, three prototypes, one day",
+        "detail": "Margolis's \"basic formula\" is \"five and three in one.\" Five interviews in a single day show patterns fast. Users compare three prototypes like shopping, which gives richer reactions than one. The team gets answers in a week.",
+        "t": 737
+      },
+      {
+        "title": "Define a narrow bullseye customer",
+        "detail": "He defines the target with inclusion criteria, exclusion criteria and triggers. A pharmacy sprint found the bullseye was patients with refrigerated medicines. For them, \"a predictable, narrow window\" mattered more than ASAP delivery. A narrow target makes the signal clear.",
+        "t": 1938
+      },
+      {
+        "title": "Learn what no looks like",
+        "detail": "Seeing customers reject an idea is valuable. One founder said \"Now I know what no looks like.\" Clear rejection saves months of building the wrong thing. It also sharpens what yes looks like.",
+        "t": 2174
+      },
+      {
+        "title": "Watch together instead of writing a report",
+        "detail": "The whole team joins a \"working watch party\". \"I'm not doing a report,\" he says, because everyone sees it first-hand. Watchers take notes in a shared sheet and agree takeaways at the end. This speeds up decisions.",
+        "t": 4141
+      },
+      {
+        "title": "Write predictions first to beat hindsight bias",
+        "detail": "Before the watch party, everyone predicts what they will learn. \"It's very difficult to remember that you didn't already know this\" afterwards. Comparing predictions with results shows real learning. It also reveals the team's blind spots.",
+        "t": 4376
+      },
+      {
+        "title": "Weight past behaviour over predictions",
+        "detail": "Margolis advises \"put more weight on past experiences than on people's predictions of what they would do.\" People are poor at forecasting their own behaviour. Ask what they did last time. This is key for pricing and study-habit questions.",
+        "t": 4925
+      }
+    ],
+    "Chapters": [
+      {
+        "t": 752,
+        "anchor": "An overview of the bullseye customer sprint",
+        "title": "Sprint overview",
+        "summary": "Five and three in one."
+      },
+      {
+        "t": 1428,
+        "anchor": "Step two: Define your bullseye customer",
+        "title": "Define the bullseye",
+        "summary": "Who exactly to talk to."
+      },
+      {
+        "t": 2304,
+        "anchor": "Narrowing attributes and exclusion criteria",
+        "title": "Exclusion criteria",
+        "summary": "Triggers and criteria for recruiting."
+      },
+      {
+        "t": 3371,
+        "anchor": "Step four: Creating effective prototypes",
+        "title": "Prototypes",
+        "summary": "Competitor products and simple flat prototypes."
+      },
+      {
+        "t": 3670,
+        "anchor": "Step five: Drafting your interview guide",
+        "title": "Interview guide",
+        "summary": "Discovery first, then prototypes."
+      },
+      {
+        "t": 4129,
+        "anchor": "Step six: The watch party method",
+        "title": "Watch party",
+        "summary": "Team viewing, notes and predictions."
+      }
+    ],
+    "Start here": {
+      "t": 752,
+      "anchor": "An overview of the bullseye customer sprint",
+      "why": "It lays out the whole one-day method that a small design team can copy for OnCourse tests."
+    },
+    "Duration": 5375,
+    "Times": "exact"
+  },
+  {
+    "Title": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+    "Creator": "Lenny's Newsletter (Bob Moesta)",
+    "Type": "Podcast",
+    "Link": "https://www.lennysnewsletter.com/p/the-ultimate-guide-to-jtbd-bob-moesta",
+    "Apps": [
+      "Autobooks",
+      "Basecamp",
+      "Intercom",
+      "SNHU"
+    ],
+    "Topics": [
+      "Research methods",
+      "Onboarding",
+      "Paywall",
+      "Copy"
+    ],
+    "Goal": [
+      "Conversion",
+      "Activation"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "People switch products because of a struggling moment, so design for their context and progress, and reduce the anxiety and habit that hold them back.",
+    "What they did": "Bob Moesta, co-creator of Jobs To Be Done, explains that demand comes from struggling moments. He describes the four forces of switching (push, pull, anxiety, habit) and six buying phases. He shares how to interview recent switchers without a script, and examples from a condo developer and Autobooks.",
+    "Results": "Including moving and two years of storage with a condo \"increased sales over 30%.\" Meeting Autobooks buyers by phase made \"the sales process almost half and at 4x basically conversion.\" Giving up a second bedroom suite for dining room table space \"increased sales 22%.\" These are his reported results.",
+    "Takeaways": "Struggling moments create demand; Reduce anxiety and habit, not just add pull; Meet people where they are in buying; Interview recent switchers, not a script; Complaints are not switching; Choose what to suck at",
+    "Ideas for OnCourse": "Paywall: address anxiety directly (\"Cancel anytime\", \"Will this cover my exam?\") rather than only adding features. Onboarding: ask what made the user start preparing now, and use that struggling moment to pick their first plan. Renewal: interview users who churned and those who just renewed, about what happened, not what they think.",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!WatH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1540a02c-8a10-4089-b8bf-1a259a473261_2049x2048.png",
+    "Key points": [
+      {
+        "title": "Struggling moments create demand",
+        "detail": "Moesta says people don't buy because of features but because of a struggle in their life. Context and outcome matter more than pain and gain. \"A kick-ass half is better than a half-ass whole.\" Build for the moment of struggle.",
+        "t": 480
+      },
+      {
+        "title": "Reduce anxiety and habit, not just add pull",
+        "detail": "Four forces drive switching: push, pull, anxiety and habit. A condo developer added moving and two years of storage because buyers feared getting rid of their stuff. It \"increased sales over 30%\" even at a higher price. Removing friction beat adding features.",
+        "t": 793
+      },
+      {
+        "title": "Meet people where they are in buying",
+        "detail": "There are \"six phases\" from first thought to ongoing use. Autobooks split its demos by phase. It cut the sales cycle \"almost half\" with \"4x basically conversion.\" Messages should match the phase the user is in.",
+        "t": 953
+      },
+      {
+        "title": "Interview recent switchers, not a script",
+        "detail": "Talk to people who just switched or churned, about what actually happened. About 10–12 interviews show repeating patterns. Moesta uses no discussion guide and plays answers back wrong on purpose. People correct you and reveal more.",
+        "t": 1674
+      },
+      {
+        "title": "Complaints are not switching",
+        "detail": "\"Bitchin' ain't switchin',\" says Moesta. Users who complain often still stay. What matters is what makes them actually move. Basecamp learned this when users asked for Gantt charts.",
+        "t": 2160
+      },
+      {
+        "title": "Choose what to suck at",
+        "detail": "Moesta advises: \"choose what to suck at and figure out the trade-offs.\" Your trade-offs should match the customer's. Giving up a second bedroom suite for dining table space \"increased sales 22%.\" Not every feature deserves equal effort.",
+        "t": 3514
+      }
+    ],
+    "Chapters": [
+      {
+        "t": 244,
+        "anchor": "A simple explanation of the Jobs To Be Done framework",
+        "title": "What JTBD is",
+        "summary": "Snickers vs Milky Way."
+      },
+      {
+        "t": 449,
+        "anchor": "Struggling moments and demand",
+        "title": "Struggling moments",
+        "summary": "Where demand comes from."
+      },
+      {
+        "t": 674,
+        "anchor": "Reducing friction in the sales process",
+        "title": "Reducing friction",
+        "summary": "The four forces and the condo story."
+      },
+      {
+        "t": 886,
+        "anchor": "How Autobooks improved their buying process and 4x’ed conversion",
+        "title": "Autobooks",
+        "summary": "Splitting by buying phase."
+      },
+      {
+        "t": 1638,
+        "anchor": "Tips for JTBD interviewing",
+        "title": "Interviewing",
+        "summary": "Who and how many to talk to."
+      },
+      {
+        "t": 1807,
+        "anchor": "Why you should not have a discussion guide",
+        "title": "No discussion guide",
+        "summary": "Playing back answers wrong on purpose."
+      },
+      {
+        "t": 2263,
+        "anchor": "Bob’s “layers of language”",
+        "title": "Layers of language",
+        "summary": "How people describe progress."
+      }
+    ],
+    "Start here": {
+      "t": 449,
+      "anchor": "Struggling moments and demand",
+      "why": "It sets up the struggling-moment idea and the four forces, which explain why aspirants start and stop paying."
+    },
+    "Duration": 4190,
+    "Times": "exact"
+  },
+  {
+    "Title": "The UX research reckoning is here | Judd Antin (Airbnb, Meta)",
+    "Creator": "Lenny's Newsletter (Judd Antin)",
+    "Type": "Podcast",
+    "Link": "https://www.lennysnewsletter.com/p/the-ux-research-reckoning-is-here",
+    "Apps": [
+      "Airbnb",
+      "Facebook"
+    ],
+    "Topics": [
+      "Research methods",
+      "Design process",
+      "Copy"
+    ],
+    "Goal": [
+      "Conversion",
+      "Usability"
+    ],
+    "Evidence type": "Experience",
+    "Bottom line": "Research pays off when it is fast, pointed at business problems and built into the team from the start, not used at the end to validate decisions already made.",
+    "What they did": "Judd Antin, former head of research at Airbnb, splits research into macro, middle-range and micro. He argues teams do too much vague middle-range research and too little fast micro work like usability. He names \"user-centered performance\", research done for show. He shares Airbnb's button-copy fix and Facebook's \"super hider\" interview, and argues for CSAT over NPS.",
+    "Results": "At Airbnb, research found a CTA felt scary; the team \"changed seven characters and made Airbnb millions of dollars\", which \"added like 1%\" to conversion. The insight came \"in like 48 hours\". No other numbers.",
+    "Takeaways": "Middle-range research is interesting but weak; Seven characters made millions; Don't validate, falsify; One user can burst a bubble; A/B tests say what, research says why; Use CSAT instead of NPS",
+    "Ideas for OnCourse": "Paywall: check whether the main button feels like it charges money now; reword it (e.g. \"See plans\") and test it. Practice: run quick usability checks on new screens within 48 hours rather than broad studies. Renewal: ask a short satisfaction (CSAT) question instead of NPS.",
+    "Status": "Read",
+    "Added": "2026-11-11",
+    "Image": "https://substackcdn.com/image/fetch/$s_!Xkb0!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21e1634c-431d-454d-83f3-0b54949c872a_2048x2048.png",
+    "Key points": [
+      {
+        "title": "Middle-range research is interesting but weak",
+        "detail": "Antin splits research into macro, middle-range and micro. Middle-range work asks broad questions like how hosts feel about payments. It is \"really interesting\" but \"not impactful enough for the business.\" Point research at a funnel step or goal.",
+        "t": 473
+      },
+      {
+        "title": "Seven characters made millions",
+        "detail": "Airbnb research found buyers were afraid the button would charge them. \"The CTA on the button feels scary.\" The team \"changed seven characters and made Airbnb millions of dollars\", adding about 1% to conversion. The insight took about 48 hours.",
+        "t": 2071
+      },
+      {
+        "title": "Don't validate, falsify",
+        "detail": "Antin's mantra is \"We don't validate, we falsify. We are looking to be wrong.\" Asking for a study at the end \"just to validate our assumptions\" is user-centered performance. It is too late to change anything. Bring research in early.",
+        "t": 1419
+      },
+      {
+        "title": "One user can burst a bubble",
+        "detail": "At Facebook, engineers wanted to use hidden posts as a quality signal. A \"super hider\" hid every post because she had seen it, aiming for inbox zero. Watching her changed the team's mind. One session can show a wrong assumption.",
+        "t": 3180
+      },
+      {
+        "title": "A/B tests say what, research says why",
+        "detail": "A/B tests are \"as close as we can get to making causal claims\". But they \"rarely tell you how and why\". Without the why, teams guess and run endless tests. Pair experiments with quick research.",
+        "t": 2384
+      },
+      {
+        "title": "Use CSAT instead of NPS",
+        "detail": "Antin calls NPS \"the best example of the marketing industry marketing itself.\" Its 11-point scale is imprecise, and on mobile options fall below the fold. A simple satisfaction question \"has better data properties\" and is more tied to business outcomes. Airbnb confirmed this in its own data.",
+        "t": 3818
+      }
+    ],
+    "Chapters": [
+      {
+        "t": 533,
+        "anchor": "Macro, middle-range, and micro research",
+        "title": "Three kinds of research",
+        "summary": "Why middle-range research underdelivers."
+      },
+      {
+        "t": 1435,
+        "anchor": "User-centered performance",
+        "title": "User-centered performance",
+        "summary": "Research done for show."
+      },
+      {
+        "t": 1974,
+        "anchor": "Common tropes about PMs, from researchers",
+        "title": "Tropes about research",
+        "summary": "Speed, the multimillion-dollar button and DIY research."
+      },
+      {
+        "t": 2462,
+        "anchor": "A/B testing vs. user research",
+        "title": "A/B tests vs research",
+        "summary": "What each answers."
+      },
+      {
+        "t": 3078,
+        "anchor": "How product managers can be better partners to user researchers",
+        "title": "Partnering with researchers",
+        "summary": "The super hider story."
+      },
+      {
+        "t": 3819,
+        "anchor": "The limitations of NPS as a metric",
+        "title": "Limits of NPS",
+        "summary": "Why CSAT is better."
+      },
+      {
+        "t": 4008,
+        "anchor": "The risks of dogfooding",
+        "title": "Risks of dogfooding",
+        "summary": "You are not the user."
+      }
+    ],
+    "Start here": {
+      "t": 1974,
+      "anchor": "Common tropes about PMs, from researchers",
+      "why": "It holds the button-copy story, a fast micro-research win that maps to OnCourse paywall and CTA copy."
+    },
+    "Duration": 4471,
+    "Times": "exact"
   }
 ]
