@@ -2,397 +2,514 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
+<meta name="view-transition" content="same-origin" />
 <title>Design library</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" />
-<style>/* Design library — v3 */
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" />
+<style>/* Design library — v4 */
 :root {
-  --bg: #faf9f7;
+  --bg: #f6f6f4;
   --surface: #ffffff;
-  --surface-2: #f2f1ee;
-  --surface-3: #e9e7e3;
-  --text: #161615;
-  --text-2: #3d3d3a;
-  --muted: #74736e;
-  --border: #e6e4df;
-  --accent: #3e4fd8;
-  --accent-text: #ffffff;
-  --accent-soft: #eceefd;
-  --good: #18794e;
-  --good-soft: #e3f3ea;
-  --video: #e5484d;
-  --podcast: #8e4ec6;
-  --article: #0b7bd6;
-  --case: #12a594;
-  --talk: #e2630f;
-  --paper: #6f6e77;
-  --shadow-sm: 0 1px 2px rgba(20, 20, 18, 0.05);
-  --shadow: 0 1px 2px rgba(20, 20, 18, 0.04), 0 8px 24px rgba(20, 20, 18, 0.06);
-  --shadow-lg: 0 2px 4px rgba(20, 20, 18, 0.04), 0 18px 48px rgba(20, 20, 18, 0.12);
-  --r-sm: 8px;
-  --r: 14px;
-  --r-lg: 20px;
-  --serif: "Instrument Serif", "New York", "Iowan Old Style", Georgia, serif;
-  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --surface-2: #f0f0ed;
+  --surface-3: #e6e6e2;
+  --border: rgba(20, 20, 18, .08);
+  --border-strong: rgba(20, 20, 18, .14);
+  --text: #131312;
+  --text-2: #45453f;
+  --muted: #84847d;
+  --accent: #4f46e5;
+  --accent-2: #6d64f5;
+  --accent-text: #fff;
+  --accent-soft: #eeedfd;
+  --good: #0e8a4f;
+  --good-soft: #e6f5ec;
+  --warn: #b45309;
+  --video: #e5484d; --podcast: #8e4ec6; --article: #0090ff; --case: #12a594; --talk: #f76b15; --paper: #6f6e77;
+  --r-sm: 10px; --r: 16px; --r-lg: 22px;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.04);
+  --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.04);
+  --shadow-lg: 0 2px 6px rgba(0,0,0,.05), 0 16px 40px rgba(0,0,0,.08);
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --side: 256px;
+  --font: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0f0f10; --surface: #19191b; --surface-2: #222225; --surface-3: #2c2c30; --text: #efefec; --text-2: #cfcfca; --muted: #9b9a95;
-    --border: #2b2b2f; --accent: #8b9bff; --accent-text: #0c1033; --accent-soft: #1d2348; --good: #5fd39a; --good-soft: #142b1f;
-    --shadow-sm: none; --shadow: 0 0 0 1px #26262a; --shadow-lg: 0 0 0 1px #2e2e33, 0 18px 48px rgba(0,0,0,.5); color-scheme: dark;
+    --bg: #0c0c0d; --surface: #161618; --surface-2: #1e1e21; --surface-3: #2a2a2e;
+    --border: rgba(255,255,255,.07); --border-strong: rgba(255,255,255,.13);
+    --text: #f3f3f1; --text-2: #c9c9c4; --muted: #8d8d87;
+    --accent: #8f8cff; --accent-2: #a5a3ff; --accent-text: #0d0c2b; --accent-soft: #1f1e3f;
+    --good: #4fd18b; --good-soft: #10291c;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25); --shadow-lg: 0 2px 6px rgba(0,0,0,.35), 0 16px 40px rgba(0,0,0,.4);
+    color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0f0f10; --surface: #19191b; --surface-2: #222225; --surface-3: #2c2c30; --text: #efefec; --text-2: #cfcfca; --muted: #9b9a95;
-  --border: #2b2b2f; --accent: #8b9bff; --accent-text: #0c1033; --accent-soft: #1d2348; --good: #5fd39a; --good-soft: #142b1f;
-  --shadow-sm: none; --shadow: 0 0 0 1px #26262a; --shadow-lg: 0 0 0 1px #2e2e33, 0 18px 48px rgba(0,0,0,.5); color-scheme: dark;
+  --bg: #0c0c0d; --surface: #161618; --surface-2: #1e1e21; --surface-3: #2a2a2e;
+  --border: rgba(255,255,255,.07); --border-strong: rgba(255,255,255,.13);
+  --text: #f3f3f1; --text-2: #c9c9c4; --muted: #8d8d87;
+  --accent: #8f8cff; --accent-2: #a5a3ff; --accent-text: #0d0c2b; --accent-soft: #1f1e3f;
+  --good: #4fd18b; --good-soft: #10291c;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25); --shadow-lg: 0 2px 6px rgba(0,0,0,.35), 0 16px 40px rgba(0,0,0,.4);
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.6 var(--sans); -webkit-font-smoothing: antialiased; font-feature-settings: "cv11", "ss01"; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.55 var(--font); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 a { color: inherit; }
 img { display: block; max-width: 100%; }
-button { font: inherit; }
+h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -.015em; line-height: 1.2; }
+p { margin: 0; }
+button, input, textarea, select { font: inherit; color: inherit; }
+svg { fill: currentColor; }
 code { font: 12.5px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--surface-2); padding: 2px 6px; border-radius: 6px; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
-.wrap { max-width: 1200px; margin: 0 auto; padding: 0 28px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 8px; }
+::selection { background: var(--accent-soft); }
 .muted { color: var(--muted); }
 .small { font-size: 13px; }
-.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
-.link { color: var(--accent); text-decoration: none; font-weight: 500; background: none; border: 0; padding: 0; cursor: pointer; }
-.link:hover { text-decoration: underline; }
 
-/* ---------- header ---------- */
-.top { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: saturate(1.4) blur(14px); -webkit-backdrop-filter: saturate(1.4) blur(14px); border-bottom: 1px solid var(--border); }
-.top-row { display: flex; align-items: center; gap: 28px; height: 60px; }
-.brand { display: flex; align-items: center; gap: 10px; font-weight: 650; text-decoration: none; letter-spacing: -.01em; white-space: nowrap; }
-.logo { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: var(--text); color: var(--bg); font-size: 14px; }
-.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
-.tabs a { text-decoration: none; padding: 7px 13px; border-radius: 999px; color: var(--muted); font-weight: 500; font-size: 14px; white-space: nowrap; transition: color .15s, background .15s; }
-.tabs a:hover { color: var(--text); }
-.tabs a.active { background: var(--surface-2); color: var(--text); }
-.agent-link { margin-left: auto; font-size: 14px; font-weight: 500; color: var(--muted); text-decoration: none; white-space: nowrap; }
-.agent-link:hover, .agent-link.active { color: var(--text); }
-.theme { width: 36px; height: 36px; flex: none; border-radius: 50%; border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer; font-size: 15px; }
+/* images fade in once loaded */
+img.f { opacity: 0; transition: opacity .45s var(--ease); }
+img.f.ld { opacity: 1; }
 
-/* ---------- buttons, chips ---------- */
-.btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font-weight: 550; font-size: 14px; text-decoration: none; cursor: pointer; transition: transform .1s, background .15s, border-color .15s; }
-.btn:hover { border-color: var(--surface-3); background: var(--surface-2); }
-.btn:active { transform: scale(.98); }
+/* ---------- shell ---------- */
+.shell { display: grid; grid-template-columns: var(--side) minmax(0, 1fr); min-height: 100vh; }
+.sidebar { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; gap: 4px; padding: 18px 14px 14px; border-right: 1px solid var(--border); background: var(--bg); overflow: hidden; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 650; font-size: 15px; letter-spacing: -.01em; padding: 4px 8px 14px; }
+.logo { width: 28px; height: 28px; border-radius: 9px; background: var(--text); color: var(--bg); display: grid; place-items: center; }
+.logo svg { width: 12px; height: 12px; }
+.side-search { position: relative; margin: 0 2px 10px; }
+.side-search svg { position: absolute; left: 11px; top: 50%; width: 16px; height: 16px; transform: translateY(-50%); color: var(--muted); }
+.side-search input { width: 100%; height: 38px; padding: 0 12px 0 34px; border-radius: 11px; border: 1px solid var(--border); background: var(--surface); font-size: 14px; outline: none; transition: border-color .2s, box-shadow .2s; }
+.side-search input:focus { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.side-nav { display: flex; flex-direction: column; gap: 2px; }
+.side-link { display: flex; align-items: center; gap: 11px; width: 100%; padding: 8px 10px; border-radius: 10px; border: 0; background: none; text-decoration: none; color: var(--text-2); font-size: 14px; font-weight: 500; cursor: pointer; text-align: left; transition: background .15s, color .15s; }
+.side-link svg { width: 18px; height: 18px; flex: none; opacity: .85; }
+.side-link:hover { background: var(--surface-2); color: var(--text); }
+.side-link.active { background: var(--surface); color: var(--text); box-shadow: var(--shadow-sm), inset 0 0 0 1px var(--border); }
+.side-link .n { margin-left: auto; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.side-label { margin: 18px 10px 6px; font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.side-channels { flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 1px; margin: 0 -6px; padding: 0 6px; scrollbar-width: thin; }
+.side-channels .side-link { padding: 6px 10px; font-size: 13.5px; }
+.side-foot { border-top: 1px solid var(--border); padding-top: 10px; margin-top: 8px; display: flex; flex-direction: column; gap: 2px; }
+
+.main { min-width: 0; display: flex; flex-direction: column; }
+.topbar { display: none; }
+.page { width: 100%; max-width: 1320px; margin: 0 auto; padding: 28px 40px 80px; view-transition-name: page; }
+.site-foot { max-width: 1320px; margin: 0 auto; width: 100%; padding: 24px 40px 40px; color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--border); }
+.tabbar { display: none; }
+
+/* page transitions */
+::view-transition-old(page) { animation: vt-out .16s var(--ease) both; }
+::view-transition-new(page) { animation: vt-in .32s var(--ease) both; }
+@keyframes vt-out { to { opacity: 0; transform: translateY(-4px); } }
+@keyframes vt-in { from { opacity: 0; transform: translateY(8px); } }
+.enter > * { animation: vt-in .4s var(--ease) both; }
+.enter > *:nth-child(2) { animation-delay: .03s; } .enter > *:nth-child(3) { animation-delay: .06s; } .enter > *:nth-child(4) { animation-delay: .09s; } .enter > *:nth-child(n+5) { animation-delay: .12s; }
+
+/* ---------- shared ---------- */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding: 0 16px; border-radius: 12px; border: 1px solid var(--border-strong); background: var(--surface); text-decoration: none; font-size: 14px; font-weight: 550; cursor: pointer; white-space: nowrap; transition: background .15s, border-color .15s, transform .15s var(--ease); }
+.btn:hover { background: var(--surface-2); }
+.btn:active { transform: scale(.97); }
+.btn svg { width: 13px; height: 13px; }
 .btn.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
 .btn.primary:hover { opacity: .9; }
 .btn.accent { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.btn.accent:hover { background: var(--accent-2); }
 .btn[aria-pressed="true"] { background: var(--good-soft); color: var(--good); border-color: transparent; }
-.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-2); font-size: 13px; cursor: pointer; transition: background .15s, border-color .15s; }
-.chip:hover { border-color: var(--surface-3); background: var(--surface-2); }
-.chip.on { background: var(--text); color: var(--bg); border-color: var(--text); }
-.chip .n { color: var(--muted); font-size: 12px; }
-.chip.on .n { color: inherit; opacity: .7; }
-.tags { display: flex; flex-wrap: wrap; gap: 6px; }
-.tag { display: inline-flex; align-items: center; padding: 3px 9px; border-radius: 999px; background: var(--surface-2); color: var(--text-2); font-size: 12px; font-weight: 500; text-decoration: none; }
+.link { color: var(--accent); text-decoration: none; font-weight: 550; font-size: 14px; background: none; border: 0; padding: 0; cursor: pointer; }
+.link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.back { display: inline-flex; align-items: center; gap: 6px; font-size: 13.5px; color: var(--muted); text-decoration: none; margin-bottom: 18px; transition: color .15s; }
+.back:hover { color: var(--text); }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.page-head { margin: 8px 0 28px; }
+.page-head h1 { font-size: 34px; letter-spacing: -.025em; }
+.page-head p { margin-top: 8px; color: var(--text-2); font-size: 16px; max-width: 680px; }
+.sec { margin-top: 48px; }
+.sec-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+.sec-head h2 { font-size: 21px; letter-spacing: -.02em; }
+.sec-head p { color: var(--muted); font-size: 13.5px; margin-top: 3px; }
+.sec-tools { display: flex; align-items: center; gap: 8px; }
+.round { width: 34px; height: 34px; border-radius: 999px; border: 1px solid var(--border-strong); background: var(--surface); display: grid; place-items: center; cursor: pointer; font-size: 17px; line-height: 1; padding-bottom: 2px; transition: background .15s, opacity .2s; }
+.round:hover:not(:disabled) { background: var(--surface-2); }
+.round:disabled { opacity: .35; cursor: default; }
+.tag { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: var(--surface-2); color: var(--text-2); font-size: 12.5px; font-weight: 500; text-decoration: none; transition: background .15s; }
 a.tag:hover { background: var(--surface-3); }
-.tag.app { background: var(--accent-soft); color: var(--accent); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
 
-/* ---------- media type pill ---------- */
-.kind { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #fff; background: var(--k, var(--paper)); line-height: 1.3; letter-spacing: .01em; }
-.kind svg { width: 13px; height: 13px; fill: currentColor; flex: none; }
-.k-video { --k: var(--video); } .k-podcast { --k: var(--podcast); } .k-article { --k: var(--article); } .k-case-study { --k: var(--case); } .k-talk { --k: var(--talk); } .k-paper, .k-thread { --k: var(--paper); }
-.ev { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600; color: var(--muted); }
-.ev::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--surface-3); }
-.ev-test { color: var(--good); }
-.ev-test::before { background: var(--good); }
-.ev-research { color: var(--accent); }
-.ev-research::before { background: var(--accent); }
+/* kind + evidence */
+.kind { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px; border-radius: 999px; font-size: 11.5px; font-weight: 600; color: #fff; background: var(--k, var(--article)); }
+.kind svg { width: 10px; height: 10px; }
+.k-video { --k: var(--video); } .k-podcast { --k: var(--podcast); } .k-article { --k: var(--article); } .k-case-study { --k: var(--case); } .k-talk { --k: var(--talk); } .k-paper { --k: var(--paper); }
+.ev { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 550; color: var(--muted); }
+.ev::before { content: ""; width: 6px; height: 6px; border-radius: 99px; background: currentColor; opacity: .7; }
+.ev-test { color: var(--good); } .ev-research { color: var(--accent); }
 
-/* ---------- banner (thumbnail) ---------- */
-.banner { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: var(--surface-2); }
-.banner img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
-.banner::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.28) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 60%, rgba(0,0,0,.5) 100%); pointer-events: none; }
-.banner .kind { position: absolute; top: 12px; left: 12px; z-index: 1; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
-.banner .dur { position: absolute; right: 10px; bottom: 10px; z-index: 1; padding: 2px 7px; border-radius: 6px; background: rgba(0,0,0,.78); color: #fff; font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.banner .chan { position: absolute; left: 12px; bottom: 10px; z-index: 1; color: #fff; font-size: 12px; font-weight: 600; text-shadow: 0 1px 4px rgba(0,0,0,.5); max-width: 65%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.banner .play { position: absolute; inset: 0; margin: auto; z-index: 1; width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: rgba(255,255,255,.92); color: #111; box-shadow: 0 6px 24px rgba(0,0,0,.3); opacity: 0; transform: scale(.9); transition: opacity .2s, transform .2s; }
-.banner .play svg { width: 20px; height: 20px; fill: currentColor; margin-left: 3px; }
-.banner.fallback { display: grid; place-items: center; background: radial-gradient(120% 120% at 0% 0%, color-mix(in srgb, var(--k) 70%, #fff) 0%, var(--k) 55%, color-mix(in srgb, var(--k) 70%, #000) 100%); }
-.banner.fallback .fb-title { position: relative; z-index: 1; color: #fff; font: 400 26px/1.1 var(--serif); padding: 0 28px; text-align: center; text-wrap: balance; text-shadow: 0 1px 12px rgba(0,0,0,.15); }
-.banner.fallback::after { background: linear-gradient(180deg, rgba(0,0,0,0) 50%, rgba(0,0,0,.25)); }
+/* channel + app marks */
+.cmark { flex: none; width: 20px; height: 20px; border-radius: 6px; object-fit: cover; background: var(--surface-2); box-shadow: 0 0 0 1px var(--border); display: grid; place-items: center; font-size: 9px; font-weight: 700; color: #fff; }
+span.cmark { background: var(--c, #8b8d98); box-shadow: none; }
+.cmark.md { width: 32px; height: 32px; border-radius: 9px; font-size: 12px; }
+.cmark.lg { width: 56px; height: 56px; border-radius: 16px; font-size: 18px; }
+.cmark.xl { width: 84px; height: 84px; border-radius: 24px; font-size: 26px; }
+.app-mark { flex: none; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 7px; background: var(--text); color: var(--bg); font-size: 11px; font-weight: 700; object-fit: cover; }
+img.app-mark { background: #fff; box-shadow: 0 0 0 1px var(--border); }
+.app-mark.xs { width: 18px; height: 18px; border-radius: 5px; font-size: 9px; }
+.app-mark.big { width: 44px; height: 44px; border-radius: 12px; font-size: 17px; }
+.app-mark.xl { width: 72px; height: 72px; border-radius: 18px; font-size: 26px; }
+
+/* ---------- media thumb ---------- */
+.thumb { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: var(--surface-2); border-radius: 12px; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease), opacity .45s var(--ease); }
+.thumb .kind { position: absolute; top: 10px; left: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+.thumb .dur { position: absolute; right: 10px; bottom: 10px; padding: 2px 7px; border-radius: 6px; background: rgba(0,0,0,.72); color: #fff; font-size: 11.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.thumb .play { position: absolute; inset: 0; margin: auto; width: 54px; height: 54px; border-radius: 99px; background: rgba(255,255,255,.95); color: #111; display: grid; place-items: center; box-shadow: 0 8px 24px rgba(0,0,0,.25); opacity: 0; transform: scale(.85); transition: opacity .25s var(--ease), transform .25s var(--ease); }
+.thumb .play svg { width: 18px; height: 18px; margin-left: 3px; }
+.thumb.fallback { display: grid; place-items: center; background: radial-gradient(120% 120% at 0% 0%, color-mix(in srgb, var(--k) 70%, #fff) 0%, var(--k) 55%, color-mix(in srgb, var(--k) 70%, #000) 100%); }
+.thumb .fb { color: #fff; font-weight: 650; font-size: 18px; letter-spacing: -.01em; padding: 20px; text-align: center; text-shadow: 0 1px 8px rgba(0,0,0,.2); }
 
 /* ---------- cards ---------- */
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px; }
-.card { display: flex; flex-direction: column; background: var(--surface); border-radius: var(--r); overflow: hidden; text-decoration: none; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease; }
-.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
-.card:hover .banner img { transform: scale(1.04); }
-.card:hover .banner .play { opacity: 1; transform: none; }
-.card-body { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; flex: 1; }
-.card-meta { display: flex; align-items: center; gap: 10px; font-size: 12px; color: var(--muted); }
-.card-meta .host { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.card h3 { margin: 0; font-size: 16.5px; line-height: 1.35; font-weight: 650; letter-spacing: -.01em; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.card .did { margin: 0; color: var(--text-2); font-size: 14px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-.card .result { margin: 2px 0 0; padding: 8px 10px; border-radius: var(--r-sm); background: var(--good-soft); color: var(--good); font-size: 13px; font-weight: 550; line-height: 1.4; }
-.card .result span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.card-foot { margin-top: auto; padding-top: 6px; display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--muted); }
-.card-foot .kp { display: inline-flex; align-items: center; gap: 5px; }
-.card.is-learned .banner::before { content: "✓ Learned"; position: absolute; z-index: 2; top: 12px; right: 12px; padding: 3px 9px; border-radius: 999px; background: var(--good); color: #fff; font-size: 12px; font-weight: 600; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(244px, 1fr)); gap: 28px 20px; }
+.card { display: flex; flex-direction: column; gap: 12px; text-decoration: none; color: inherit; min-width: 0; }
+.card:hover .thumb img { transform: scale(1.035); }
+.card:hover .play { opacity: 1; transform: none; }
+.card:hover h3 { color: var(--accent); }
+.card-b { display: flex; flex-direction: column; gap: 6px; padding: 0 2px; }
+.card-ch { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--muted); font-weight: 500; min-width: 0; }
+.card-ch span:not(.cmark):not(.ev) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card-ch .ev { margin-left: auto; flex: none; }
+.card h3 { font-size: 15.5px; line-height: 1.35; letter-spacing: -.01em; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; transition: color .15s; }
+.card .bl { font-size: 13.5px; color: var(--text-2); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .res { font-size: 12.5px; color: var(--good); font-weight: 550; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .meta { font-size: 12px; color: var(--muted); }
+.card.is-learned .thumb::after { content: "✓ Learned"; position: absolute; left: 10px; bottom: 10px; padding: 2px 8px; border-radius: 6px; background: var(--good); color: #fff; font-size: 11px; font-weight: 600; }
+
+/* shelves */
+.shelf { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(270px, 300px); gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 2px 16px; margin: 0 -2px; scrollbar-width: none; overscroll-behavior-x: contain; }
+.shelf::-webkit-scrollbar { display: none; }
+.shelf > * { scroll-snap-align: start; }
 
 /* ---------- home ---------- */
-.hero { padding: 72px 0 36px; text-align: center; }
-.hero h1 { font: 400 clamp(44px, 6vw, 76px)/1 var(--serif); letter-spacing: -.02em; margin: 0 0 18px; text-wrap: balance; }
-.hero h1 em { font-style: italic; color: var(--accent); }
-.hero .lede { max-width: 660px; margin: 0 auto; color: var(--text-2); font-size: 17px; line-height: 1.6; }
-.stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
-.stats div { display: flex; align-items: baseline; gap: 6px; padding: 8px 14px; border-radius: 999px; background: var(--surface); box-shadow: var(--shadow-sm); border: 1px solid var(--border); font-size: 13px; color: var(--muted); }
-.stats strong { color: var(--text); font-size: 15px; font-variant-numeric: tabular-nums; }
-section { margin: 0 0 56px; }
-.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin: 0 0 18px; }
-.section-head h2 { margin: 0; font: 400 32px/1.1 var(--serif); letter-spacing: -.01em; }
-.section-head p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+.home-hero { padding: 36px 0 8px; text-align: left; }
+.home-hero h1 { font-size: clamp(30px, 3.6vw, 44px); letter-spacing: -.035em; line-height: 1.08; max-width: 760px; }
+.home-hero h1 span { color: var(--muted); }
+.home-hero .sub { margin-top: 12px; color: var(--text-2); font-size: 16.5px; max-width: 640px; }
+.stats { display: flex; flex-wrap: wrap; gap: 26px; margin-top: 22px; }
+.stats div { display: flex; flex-direction: column; }
+.stats strong { font-size: 24px; font-weight: 650; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.stats span { font-size: 12.5px; color: var(--muted); }
+.ask-box { margin-top: 28px; display: flex; align-items: center; gap: 8px; padding: 7px 7px 7px 18px; max-width: 760px; border-radius: 18px; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); transition: box-shadow .2s, border-color .2s; }
+.ask-box:focus-within { border-color: var(--accent); box-shadow: 0 0 0 5px var(--accent-soft), var(--shadow); }
+.ask-box svg { width: 18px; height: 18px; color: var(--muted); flex: none; }
+.ask-box input { flex: 1; min-width: 0; border: 0; background: none; outline: none; font-size: 16px; height: 42px; }
+.suggest { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; max-width: 860px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 13px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); font-size: 13px; color: var(--text-2); cursor: pointer; transition: background .15s, border-color .15s, color .15s; }
+.chip:hover { border-color: var(--border-strong); color: var(--text); }
+.chip.on { background: var(--text); color: var(--bg); border-color: var(--text); }
 
-.ask { max-width: 760px; margin: 0 auto 64px; }
-.ask-box { display: flex; gap: 8px; padding: 7px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); transition: box-shadow .2s, border-color .2s; }
-.ask-box:focus-within { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft), var(--shadow); }
-.ask-box input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--text); font: inherit; font-size: 16px; padding: 0 16px; }
-.suggest { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 16px; }
+.answer { margin-top: 22px; max-width: 900px; padding: 24px; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); animation: vt-in .35s var(--ease) both; }
+.answer .eyebrow { margin-bottom: 12px; }
+.steps { list-style: none; margin: 0 0 20px; padding: 0; display: grid; gap: 16px; }
+.steps li { display: grid; grid-template-columns: 28px 1fr; gap: 12px; }
+.num { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); font-size: 12.5px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.step-title { font-weight: 600; font-size: 15px; }
+.step-why { font-size: 14px; color: var(--text-2); margin-top: 3px; }
+.step-res { font-size: 13px; color: var(--good); margin-top: 4px; font-weight: 550; }
+.screen { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-size: 12px; font-weight: 600; vertical-align: 1px; }
+.minis { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; margin: 10px 0 16px; }
+.mini { display: flex; align-items: center; gap: 10px; padding: 6px; border-radius: 12px; text-decoration: none; font-size: 13px; font-weight: 500; transition: background .15s; }
+.mini:hover { background: var(--surface-2); }
+.mini .thumb { width: 72px; flex: none; border-radius: 8px; }
+.mini span:last-child { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.35; }
 
-.answer { margin-top: 24px; padding: 26px; border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--shadow); text-align: left; }
-.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }
-.steps li { display: grid; grid-template-columns: 30px 1fr; gap: 14px; }
-.num { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-size: 13px; font-weight: 700; flex: none; }
-.step-title { margin: 2px 0 6px; font-weight: 600; line-height: 1.45; }
-.step-why { margin: 0 0 6px; color: var(--text-2); font-size: 14px; }
-.step-result { margin: 0 0 6px; font-size: 13px; color: var(--good); font-weight: 550; }
-.screen { display: inline-block; font-size: 11.5px; font-weight: 650; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 999px; margin-right: 6px; vertical-align: 1px; }
-.where { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--border); }
-.where-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-bottom: 16px; }
-.mini { display: grid; grid-template-columns: 84px 1fr; gap: 12px; align-items: center; padding: 8px; border-radius: var(--r-sm); background: var(--surface-2); text-decoration: none; transition: background .15s; }
-.mini:hover { background: var(--surface-3); }
-.mini .thumb { aspect-ratio: 16/9; border-radius: 6px; overflow: hidden; background: var(--surface-3); }
-.mini .thumb img { width: 100%; height: 100%; object-fit: cover; }
-.mini .thumb.fallback { background: var(--k); }
-.mini span { font-size: 13px; line-height: 1.35; font-weight: 550; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.continue { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 20px; padding: 22px 24px; border-radius: var(--r-lg); background: linear-gradient(135deg, var(--accent-soft), var(--surface)); border: 1px solid var(--border); text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s; }
+.continue:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.continue h3 { font-size: 19px; margin-top: 4px; }
+.continue p { color: var(--text-2); font-size: 14px; margin-top: 4px; }
+.bar { height: 6px; border-radius: 99px; background: var(--surface-3); overflow: hidden; margin-top: 12px; max-width: 360px; }
+.bar span { display: block; height: 100%; border-radius: inherit; background: var(--accent); transition: width .6s var(--ease); }
 
-/* channels */
-.channels { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px; }
-.channel { display: flex; align-items: center; gap: 12px; padding: 14px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); text-decoration: none; transition: transform .15s, box-shadow .15s; }
-.channel:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
-.channel .avatar { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 16px; flex: none; background: var(--k, var(--paper)); }
-.channel h3 { margin: 0; font-size: 14.5px; font-weight: 650; }
-.channel p { margin: 0; font-size: 12.5px; color: var(--muted); }
+/* lesson tiles */
+.ltile { display: flex; flex-direction: column; gap: 10px; padding: 18px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--border); text-decoration: none; min-height: 210px; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+.ltile:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: transparent; }
+.ltile .n { font-size: 12px; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.ltile h3 { font-size: 16.5px; }
+.ltile p { font-size: 13.5px; color: var(--text-2); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.ltile .foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 12px; color: var(--muted); }
+.faces { display: flex; }
+.faces img, .faces i { width: 30px; height: 30px; border-radius: 99px; object-fit: cover; border: 2px solid var(--surface); margin-left: -8px; background: var(--surface-2); }
+.faces img:first-child { margin-left: 0; }
 
-/* ---------- course ---------- */
-.lesson-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
-.lesson { position: relative; display: flex; flex-direction: column; gap: 8px; padding: 22px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); text-decoration: none; transition: transform .15s, box-shadow .15s; overflow: hidden; }
-.lesson:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
-.lesson-num { font: 400 40px/1 var(--serif); color: var(--accent); }
-.lesson h3 { margin: 0; font-size: 17px; line-height: 1.3; font-weight: 650; }
-.lesson p { margin: 0; font-size: 14px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-.lesson .faces { display: flex; margin-top: auto; padding-top: 8px; }
-.lesson .faces img, .lesson .faces i { width: 44px; height: 26px; border-radius: 5px; object-fit: cover; border: 2px solid var(--surface); margin-right: -10px; background: var(--k, var(--surface-3)); }
-.lesson-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; margin-bottom: 56px; }
+/* channel tiles */
+.ch-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+.ctile { display: flex; align-items: center; gap: 14px; padding: 14px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--border); text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+.ctile:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); border-color: transparent; }
+.ctile h3 { font-size: 14.5px; }
+.ctile p { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.cbig { display: flex; flex-direction: column; gap: 14px; padding: 18px; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--border); text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+.cbig:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: transparent; }
+.cbig .top { display: flex; align-items: center; gap: 14px; }
+.cbig h3 { font-size: 16px; }
+.cbig .desc { font-size: 13.5px; color: var(--text-2); }
+.cbig .strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.cbig .strip .thumb { border-radius: 8px; }
 
-.intro { padding: 52px 0 24px; }
-.intro h1 { font: 400 52px/1.05 var(--serif); letter-spacing: -.02em; margin: 0 0 10px; }
-.intro p { margin: 0 0 14px; max-width: 660px; color: var(--text-2); font-size: 16px; }
-.progress { height: 6px; max-width: 320px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
-.progress span { display: block; height: 100%; background: var(--good); border-radius: inherit; transition: width .3s; }
-.back { display: inline-flex; align-items: center; gap: 6px; margin: 28px 0 0; color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 500; }
-.back:hover { color: var(--text); }
-
-.lesson-page { max-width: 760px; margin: 0 auto; padding: 24px 0 8px; }
-.lesson-page h1 { font: 400 54px/1.05 var(--serif); letter-spacing: -.02em; margin: 0 0 14px; text-wrap: balance; }
-.lesson-page .lede { font-size: 18px; color: var(--text-2); margin: 0 0 36px; }
-.idea-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
-.idea-list li { padding: 22px 24px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); }
-.idea-list h3 { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 8px; font-size: 17.5px; line-height: 1.35; font-weight: 650; }
-.idea-list p { margin: 0 0 14px 40px; color: var(--text-2); }
-.idea-list .cites { margin-left: 40px; }
-.cites { display: flex; flex-wrap: wrap; gap: 8px; }
-.cite { display: inline-flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; border-radius: 999px; background: var(--surface-2); font-size: 12.5px; font-weight: 550; text-decoration: none; color: var(--text-2); max-width: 100%; transition: background .15s; }
-.cite:hover { background: var(--surface-3); }
-.cite img, .cite i { width: 30px; height: 20px; border-radius: 999px; object-fit: cover; flex: none; background: var(--k, var(--surface-3)); }
-.cite b { font-weight: 550; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 260px; }
-.try { margin-top: 28px; padding: 24px 26px; border-radius: var(--r); background: var(--accent-soft); }
-.try h3 { margin: 0 0 10px; font-size: 16px; color: var(--accent); }
-.try ul { margin: 0 0 10px; padding-left: 20px; }
-.try li { margin-bottom: 6px; }
-.related { margin-top: 56px; }
-.related > h3 { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
-.pager { display: flex; justify-content: space-between; gap: 16px; margin: 0 0 64px; }
-.pager a { padding: 16px 20px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); text-decoration: none; font-weight: 600; max-width: 48%; }
-
-/* ---------- sources list ---------- */
-.filters { display: grid; gap: 10px; padding: 0 0 24px; }
-.search { width: 100%; max-width: 560px; padding: 12px 18px; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; outline: none; box-shadow: var(--shadow-sm); }
-.search:focus { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
-.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
-.filter-label { width: 72px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
-.empty { text-align: center; padding: 64px 24px; border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--shadow); margin: 32px 0 64px; }
+/* ---------- library ---------- */
+.lib { display: grid; grid-template-columns: 236px minmax(0, 1fr); gap: 36px; align-items: start; }
+.facets { position: sticky; top: 20px; max-height: calc(100vh - 40px); overflow-y: auto; padding-right: 6px; scrollbar-width: thin; }
+.facet { margin-bottom: 22px; }
+.facet h4 { font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px 8px; }
+.facet-list { display: flex; flex-direction: column; gap: 1px; }
+.fopt { display: flex; align-items: center; gap: 10px; width: 100%; padding: 6px 8px; border: 0; border-radius: 9px; background: none; font-size: 13.5px; color: var(--text-2); cursor: pointer; text-align: left; transition: background .15s, color .15s; }
+.fopt:hover { background: var(--surface-2); color: var(--text); }
+.fopt.on { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.fopt .n { margin-left: auto; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.fopt .dot { width: 8px; height: 8px; border-radius: 99px; background: var(--k); flex: none; }
+.fopt.more { color: var(--accent); font-weight: 550; }
+.lib-search { position: relative; margin-bottom: 18px; }
+.lib-search svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 17px; height: 17px; color: var(--muted); }
+.lib-search input { width: 100%; height: 46px; padding: 0 16px 0 42px; border-radius: 14px; border: 1px solid var(--border); background: var(--surface); font-size: 15px; outline: none; box-shadow: var(--shadow-sm); transition: border-color .2s, box-shadow .2s; }
+.lib-search input:focus { border-color: var(--accent); box-shadow: 0 0 0 5px var(--accent-soft); }
+.lib-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; flex-wrap: wrap; }
+.lib-bar .count { font-size: 13.5px; color: var(--muted); }
+.lib-bar .active { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.pill-x { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; border-radius: 999px; background: var(--text); color: var(--bg); border: 0; font-size: 12.5px; font-weight: 550; cursor: pointer; }
+select.sort { height: 34px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); padding: 0 10px; font-size: 13px; }
+.filters-btn { display: none; }
+.empty { padding: 60px 20px; text-align: center; display: grid; gap: 10px; justify-items: center; }
 
 /* ---------- source page ---------- */
-.src-hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: start; padding: 20px 0 40px; }
-.player { position: relative; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow-lg); background: #000; }
-.player .banner { cursor: pointer; }
-.player .banner .play { opacity: 1; transform: none; width: 72px; height: 72px; }
-.player .banner .play svg { width: 26px; height: 26px; }
-.player .banner:hover .play { transform: scale(1.06); }
-.player iframe { display: block; width: 100%; aspect-ratio: 16/9; border: 0; }
-.player a.banner { display: block; }
-.player-col { min-width: 0; }
-.ch-strip { margin-top: 14px; }
-.ch-strip-head { display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 2px 8px; }
-.ch-scroll { display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x proximity; padding: 2px 2px 10px; scrollbar-width: thin; -webkit-mask-image: linear-gradient(90deg, #000 92%, transparent); mask-image: linear-gradient(90deg, #000 92%, transparent); }
-.ch-scroll.end { -webkit-mask-image: none; mask-image: none; }
-.ch-arrows { display: flex; gap: 6px; }
-.ch-arrow { width: 28px; height: 28px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font-size: 17px; line-height: 1; cursor: pointer; display: grid; place-items: center; padding: 0 0 2px; }
-.ch-arrow:hover:not(:disabled) { background: var(--surface-2); }
-.ch-arrow:disabled { opacity: .35; cursor: default; }
-.chip-ch { flex: none; width: 156px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 4px; padding: 10px 12px; border-radius: 12px; background: var(--surface); border: 1px solid var(--border); text-decoration: none; color: var(--text); transition: background .15s, border-color .15s, transform .15s; }
-.chip-ch:hover { background: var(--surface-2); border-color: var(--surface-3); transform: translateY(-1px); }
-.chip-ch .t { font-size: 12px; font-weight: 650; color: var(--accent); font-variant-numeric: tabular-nums; }
-.chip-ch .ct { font-size: 13px; font-weight: 550; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.chip-ch.on { background: var(--accent-soft); border-color: var(--accent); }
-.chip-ch.static .t { color: var(--muted); }
-.src-head .kinds { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 14px; }
-.src-head .creator { font-size: 13.5px; color: var(--muted); font-weight: 500; }
-.src-head h1 { font: 400 clamp(32px, 3.6vw, 46px)/1.08 var(--serif); letter-spacing: -.015em; margin: 0 0 16px; text-wrap: balance; }
-.src-head .bl { margin: 0 0 22px; font-size: 17px; line-height: 1.55; color: var(--text-2); }
-.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; }
-.facts { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); }
-.facts span { display: inline-flex; align-items: center; gap: 6px; }
+.stage { display: grid; grid-template-columns: minmax(0, 1fr) 372px; gap: 20px; align-items: stretch; }
+.stage.solo { grid-template-columns: minmax(0, 1fr); max-width: 980px; }
+.player { position: relative; aspect-ratio: 16 / 9; border-radius: var(--r-lg); overflow: hidden; background: #000; box-shadow: var(--shadow-lg); }
+.player .thumb { border-radius: 0; height: 100%; aspect-ratio: auto; cursor: pointer; }
+.player .thumb .play { opacity: 1; transform: none; width: 76px; height: 76px; }
+.player .thumb .play svg { width: 24px; height: 24px; }
+.player .thumb:hover .play { transform: scale(1.06); }
+.player .thumb:hover img { transform: scale(1.02); }
+.player .thumb .kind { top: 16px; left: 16px; }
+.player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.player a.thumb { display: block; }
+.player .open { position: absolute; right: 14px; bottom: 14px; padding: 8px 12px; border-radius: 10px; background: rgba(255,255,255,.92); color: #111; font-size: 13px; font-weight: 600; text-decoration: none; }
 
-.src-body { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 44px; align-items: start; padding-bottom: 24px; }
-.src-main > section { margin-bottom: 44px; }
-.src-main h2 { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 0 0 16px; font: 400 30px/1.1 var(--serif); letter-spacing: -.01em; }
-.src-main h2 small { font: 500 13px var(--sans); color: var(--muted); }
-.kps { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; counter-reset: kp; }
-.kp-item { display: grid; grid-template-columns: 36px 1fr; gap: 14px; padding: 20px 22px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); }
-.kp-item .num { width: 32px; height: 32px; font-size: 14px; }
-.kp-item h3 { margin: 3px 0 6px; font-size: 16.5px; line-height: 1.4; font-weight: 650; letter-spacing: -.005em; }
-.kp-item p { margin: 0; color: var(--text-2); line-height: 1.65; }
-.kp-item .jump { margin-top: 12px; }
-.jump { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 8px; border-radius: 999px; background: var(--surface-2); color: var(--text); font-size: 12.5px; font-weight: 600; font-variant-numeric: tabular-nums; text-decoration: none; border: 0; cursor: pointer; transition: background .15s, color .15s; }
-.jump svg { width: 10px; height: 10px; fill: currentColor; }
-.jump:hover { background: var(--accent); color: var(--accent-text); }
-.callout { padding: 20px 22px; border-radius: var(--r); background: var(--good-soft); color: var(--good); }
-.callout h3 { margin: 0 0 6px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
-.callout p { margin: 0; font-size: 15.5px; font-weight: 550; line-height: 1.55; }
-.callout.none { background: var(--surface-2); color: var(--text-2); }
-.callout.none h3 { color: var(--muted); }
-.callout .note { margin-top: 8px; font-size: 12.5px; font-weight: 500; color: var(--muted); }
-.prose { color: var(--text-2); line-height: 1.7; margin: 0; }
+.chpanel { position: relative; min-height: 320px; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--border); }
+.chpanel-in { position: absolute; inset: 0; display: flex; flex-direction: column; }
+.chpanel-head { display: flex; align-items: baseline; justify-content: space-between; padding: 16px 18px 10px; border-bottom: 1px solid var(--border); }
+.chpanel-head h2 { font-size: 15px; }
+.chpanel-head span { font-size: 12px; color: var(--muted); }
+.chlist { list-style: none; margin: 0; padding: 6px; overflow-y: auto; flex: 1; scrollbar-width: thin; }
+.chrow { display: grid; grid-template-columns: 58px 1fr; gap: 10px; width: 100%; padding: 10px 12px; border-radius: 12px; text-decoration: none; color: inherit; border: 0; background: none; text-align: left; cursor: pointer; transition: background .15s; }
+a.chrow:hover, button.chrow:hover { background: var(--surface-2); }
+.chrow.on { background: var(--accent-soft); }
+.chrow .t { font-size: 12.5px; font-weight: 650; color: var(--accent); font-variant-numeric: tabular-nums; padding-top: 1px; }
+.chrow.static .t { color: var(--muted); }
+.chrow .ct { display: block; font-size: 14px; font-weight: 600; line-height: 1.35; }
+.chrow .cs { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; line-height: 1.45; }
+.chrow.best { background: linear-gradient(135deg, var(--accent-soft), transparent); margin-bottom: 4px; }
+.chrow.best .ct::before { content: "★ "; color: var(--accent); }
+.chpanel-note { padding: 10px 18px 14px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); }
+
+.src-title { margin: 28px 0 8px; max-width: 900px; }
+.src-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 13.5px; color: var(--muted); }
+.src-meta a { color: var(--text); font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
+.src-meta a:hover { color: var(--accent); }
+.src-title h1 { font-size: clamp(26px, 2.8vw, 36px); letter-spacing: -.03em; line-height: 1.12; margin-top: 14px; }
+.src-title .lede { margin-top: 12px; font-size: 17px; line-height: 1.55; color: var(--text-2); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; align-items: center; }
+.facts { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); margin-left: 6px; }
+
+.src-cols { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 48px; margin-top: 36px; align-items: start; }
+.src-main > section + section { margin-top: 40px; }
+.src-main h2 { font-size: 20px; letter-spacing: -.02em; margin-bottom: 14px; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.src-main h2 small { font-size: 12.5px; font-weight: 500; color: var(--muted); letter-spacing: 0; }
+.kps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--border); }
+.kp { display: grid; grid-template-columns: 36px 1fr; gap: 14px; padding: 20px 0; border-bottom: 1px solid var(--border); }
+.kp h3 { font-size: 16.5px; line-height: 1.35; }
+.kp p { margin-top: 6px; font-size: 15px; line-height: 1.65; color: var(--text-2); }
+.jump { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; height: 28px; padding: 0 10px; border-radius: 8px; background: var(--surface-2); font-size: 12.5px; font-weight: 600; color: var(--text); text-decoration: none; font-variant-numeric: tabular-nums; border: 0; cursor: pointer; transition: background .15s, color .15s; }
+.jump svg { width: 9px; height: 9px; }
+a.jump:hover { background: var(--accent-soft); color: var(--accent); }
+.callout { padding: 20px 22px; border-radius: var(--r); background: var(--good-soft); }
+.callout h3 { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--good); margin-bottom: 8px; }
+.callout p { font-size: 15px; line-height: 1.6; }
+.callout .note { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+.callout.research { background: var(--accent-soft); } .callout.research h3 { color: var(--accent); }
+.callout.none { background: var(--surface-2); } .callout.none h3 { color: var(--muted); }
+.prose { font-size: 15.5px; line-height: 1.7; color: var(--text-2); }
 .ideas { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
-.ideas li { padding: 16px 18px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); border-left: 3px solid var(--accent); }
-.ideas li .screen { margin-bottom: 6px; }
-.ideas li span:last-child { display: block; line-height: 1.55; }
-textarea { width: 100%; padding: 14px 16px; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); resize: vertical; outline: none; }
-textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.ideas li { padding: 16px 18px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--border); font-size: 15px; line-height: 1.55; }
+.ideas .screen { display: table; margin-bottom: 6px; }
+textarea { width: 100%; min-height: 110px; padding: 14px 16px; border-radius: var(--r); border: 1px solid var(--border); background: var(--surface); resize: vertical; outline: none; font-size: 14.5px; line-height: 1.55; transition: border-color .2s, box-shadow .2s; }
+textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 5px var(--accent-soft); }
 
-.side { position: sticky; top: 84px; display: grid; gap: 16px; max-height: calc(100vh - 100px); overflow: auto; scrollbar-width: thin; padding-bottom: 8px; }
-.panel { padding: 18px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); }
-.panel h3 { margin: 0 0 12px; font-size: 12px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; }
-.panel h3 span { text-transform: none; letter-spacing: 0; font-weight: 500; }
-.start-here { background: var(--accent-soft); box-shadow: none; }
-.start-here h3 { color: var(--accent); }
-.start-here p { margin: 0 0 12px; font-size: 14.5px; line-height: 1.5; font-weight: 500; }
-.chapters { list-style: none; margin: 0; padding: 0; position: relative; }
-.chapters li { position: relative; }
-.ch { display: grid; grid-template-columns: 58px 1fr; gap: 10px; width: 100%; padding: 9px 8px; margin: 0 -8px; border-radius: var(--r-sm); text-align: left; background: none; border: 0; color: inherit; text-decoration: none; cursor: pointer; transition: background .15s; }
-a.ch, button.ch { width: calc(100% + 16px); }
-.ch:hover { background: var(--surface-2); }
-.ch .t { font-size: 12.5px; font-weight: 650; color: var(--accent); font-variant-numeric: tabular-nums; padding-top: 1px; }
-.ch .ct { display: block; font-size: 14px; font-weight: 600; line-height: 1.35; }
-.ch .cs { display: block; margin-top: 2px; font-size: 12.5px; line-height: 1.45; color: var(--muted); }
-.chapters.nums .ch { grid-template-columns: 26px 1fr; }
-.ch.static { cursor: default; }
-.ch.static:hover { background: none; }
-.side .tags { gap: 6px; }
-.side dl { margin: 0; display: grid; gap: 12px; }
-.side dt { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
-.side dd { margin: 0; }
+.side { position: sticky; top: 24px; display: grid; gap: 22px; }
+.side h4 { font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.side .tags .tag { font-size: 12.5px; }
+.rel { display: grid; gap: 4px; }
+.rel a { display: grid; grid-template-columns: 96px 1fr; gap: 10px; align-items: center; padding: 6px; margin: 0 -6px; border-radius: 12px; text-decoration: none; transition: background .15s; }
+.rel a:hover { background: var(--surface-2); }
+.rel .thumb { border-radius: 8px; }
+.rel b { font-size: 13px; font-weight: 600; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.rel small { display: block; font-size: 11.5px; color: var(--muted); margin-top: 2px; }
 
-/* ---------- apps ---------- */
-.app-row { display: flex; flex-wrap: wrap; gap: 8px; }
-.app-pill { display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px 5px 5px; border-radius: 999px; background: var(--surface); box-shadow: var(--shadow-sm); border: 1px solid var(--border); font-size: 13.5px; font-weight: 550; text-decoration: none; }
-.app-pill:hover { background: var(--surface-2); }
-.app-mark { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 7px; background: var(--text); color: var(--bg); font-size: 12px; font-weight: 700; flex: none; }
-.app-mark.big { width: 44px; height: 44px; border-radius: 12px; font-size: 18px; }
-img.app-mark { object-fit: cover; background: #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.08); }
-.app-mark.xs { width: 16px; height: 16px; border-radius: 4px; font-size: 9px; margin: 0 6px 0 -4px; }
-.app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin-bottom: 64px; }
-.app-card { display: flex; align-items: center; gap: 14px; padding: 16px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); text-decoration: none; transition: transform .15s, box-shadow .15s; }
-.app-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
-.app-card h3 { margin: 0; font-size: 15px; }
-.app-card p { margin: 0; }
-.app-title { display: flex; align-items: center; gap: 14px; }
-.app-title h1 { margin: 0; }
+/* ---------- channel + app pages ---------- */
+.hero-id { display: flex; align-items: center; gap: 20px; margin: 8px 0 32px; }
+.hero-id h1 { font-size: 34px; letter-spacing: -.03em; }
+.hero-id p { color: var(--text-2); margin-top: 6px; font-size: 15px; }
+.hero-id .facts { margin: 10px 0 0; }
+.app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.app-card { display: flex; align-items: center; gap: 14px; padding: 14px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--border); text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+.app-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); border-color: transparent; }
+.app-card h3 { font-size: 14.5px; }
+.app-card p { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.seg { display: inline-flex; padding: 3px; border-radius: 12px; background: var(--surface-2); gap: 2px; margin-bottom: 20px; }
+.seg button { height: 32px; padding: 0 14px; border: 0; border-radius: 9px; background: none; font-size: 13px; font-weight: 550; color: var(--muted); cursor: pointer; transition: background .15s, color .15s; }
+.seg button.on { background: var(--surface); color: var(--text); box-shadow: var(--shadow-sm); }
 
-/* ---------- experiments, agent ---------- */
-.exp-list { display: grid; gap: 14px; }
-.exp { padding: 22px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); }
-.exp h3 { margin: 8px 0; }
-.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 12.5px; }
-.status { padding: 3px 9px; border-radius: 999px; background: var(--surface-2); font-weight: 600; }
-.prompt-list { display: grid; gap: 12px; margin-bottom: 32px; }
-.prompt { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 20px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); }
-.prompt h3 { margin: 0 0 6px; font-size: 15px; }
-.prompt p { margin: 0; }
+/* ---------- course ---------- */
+.course-list { display: grid; gap: 12px; }
+.lrow { display: grid; grid-template-columns: 56px minmax(0, 1fr) 220px; gap: 20px; align-items: center; padding: 20px 22px; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--border); text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+.lrow:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); border-color: transparent; }
+.lrow .big { font-size: 28px; font-weight: 600; letter-spacing: -.03em; color: var(--accent); font-variant-numeric: tabular-nums; }
+.lrow h3 { font-size: 17.5px; }
+.lrow p { font-size: 14px; color: var(--text-2); margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.lrow .meta { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+.lrow .bar { margin-top: 10px; }
 
-.site-foot { padding: 32px 28px 48px; border-top: 1px solid var(--border); margin-top: 24px; }
+.lesson { display: grid; grid-template-columns: 220px minmax(0, 720px); gap: 56px; justify-content: center; }
+.toc { position: sticky; top: 24px; align-self: start; max-height: calc(100vh - 48px); overflow-y: auto; scrollbar-width: thin; }
+.toc h4 { font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.toc a { display: block; padding: 6px 10px; border-radius: 8px; font-size: 13px; color: var(--text-2); text-decoration: none; line-height: 1.35; border-left: 2px solid transparent; transition: background .15s, color .15s; }
+.toc a:hover { background: var(--surface-2); color: var(--text); }
+.toc a.on { color: var(--accent); background: var(--accent-soft); }
+.lesson h1 { font-size: clamp(30px, 3.2vw, 40px); letter-spacing: -.03em; line-height: 1.1; margin-top: 10px; }
+.lesson .lede { margin-top: 14px; font-size: 18px; line-height: 1.55; color: var(--text-2); }
+.idea { padding: 28px 0; border-bottom: 1px solid var(--border); scroll-margin-top: 20px; }
+.idea:first-of-type { margin-top: 20px; border-top: 1px solid var(--border); }
+.idea h2 { display: flex; gap: 12px; align-items: flex-start; font-size: 19px; letter-spacing: -.015em; }
+.idea h2 .num { flex: none; margin-top: 1px; }
+.idea > p { margin: 10px 0 0 38px; font-size: 15.5px; line-height: 1.7; color: var(--text-2); }
+.cites { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0 38px; }
+.cite { display: inline-flex; align-items: center; gap: 8px; max-width: 100%; padding: 4px 12px 4px 4px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); font-size: 12.5px; text-decoration: none; transition: border-color .15s, background .15s; }
+.cite:hover { border-color: var(--accent); }
+.cite img, .cite i { width: 36px; height: 22px; border-radius: 99px; object-fit: cover; flex: none; background: var(--k, var(--surface-2)); }
+.cite b { font-weight: 550; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 360px; }
+.examples { margin-top: 40px; }
+.examples h2, .try h2 { font-size: 19px; margin-bottom: 14px; }
+.ex-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+.ex { display: flex; gap: 14px; align-items: flex-start; padding: 16px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--border); text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+.ex:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); border-color: transparent; }
+.ex b { font-size: 14.5px; }
+.ex p { margin: 4px 0 8px; font-size: 13.5px; line-height: 1.5; color: var(--text-2); }
+.ex .go { font-size: 12.5px; font-weight: 600; color: var(--accent); }
+.try { margin-top: 40px; padding: 24px; border-radius: var(--r-lg); background: var(--accent-soft); }
+.try h2 { color: var(--accent); }
+.try ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 15px; }
+.try .muted { margin-top: 14px; }
+.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 48px; }
+.pager a { padding: 16px 18px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--border); text-decoration: none; transition: border-color .15s; }
+.pager a:hover { border-color: var(--accent); }
+.pager small { display: block; font-size: 12px; color: var(--muted); }
+.pager b { font-size: 15px; }
+.pager a:last-child { text-align: right; }
+
+/* ---------- experiments + agent ---------- */
+.stack { display: grid; gap: 12px; max-width: 860px; }
+.box { padding: 20px 22px; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--border); }
+.box h3 { font-size: 16.5px; }
+.box p { margin-top: 6px; color: var(--text-2); font-size: 14.5px; }
+.prompt { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.prompt code { display: block; margin-top: 8px; white-space: normal; line-height: 1.5; padding: 8px 10px; }
 
 /* ---------- responsive ---------- */
-@media (max-width: 960px) {
-  .src-hero { grid-template-columns: minmax(0, 1fr); gap: 24px; }
-  .src-body { grid-template-columns: minmax(0, 1fr); }
-  .side { position: static; max-height: none; order: -1; }
+@media (max-width: 1280px) {
+  .src-cols { grid-template-columns: minmax(0, 1fr) 260px; gap: 36px; }
+  .stage { grid-template-columns: minmax(0, 1fr) 330px; }
+}
+@media (max-width: 1080px) {
+  .shell { grid-template-columns: minmax(0, 1fr); }
+  .sidebar { display: none; }
+  .topbar { display: flex; align-items: center; gap: 6px; position: sticky; top: 0; z-index: 20; padding: 10px 16px; padding-top: max(10px, env(safe-area-inset-top)); background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: saturate(1.6) blur(16px); -webkit-backdrop-filter: saturate(1.6) blur(16px); border-bottom: 1px solid var(--border); }
+  .topbar .brand { padding: 0; margin-right: auto; }
+  .icon-btn { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 10px; border: 0; background: none; cursor: pointer; color: var(--text-2); }
+  .icon-btn svg { width: 19px; height: 19px; }
+  .icon-btn:hover { background: var(--surface-2); }
+  .tabbar { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; padding: 6px 6px max(6px, env(safe-area-inset-bottom)); background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: saturate(1.6) blur(16px); -webkit-backdrop-filter: saturate(1.6) blur(16px); border-top: 1px solid var(--border); }
+  .tabbar a { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 6px 0; font-size: 10.5px; font-weight: 550; color: var(--muted); text-decoration: none; border-radius: 10px; }
+  .tabbar a svg { width: 21px; height: 21px; }
+  .tabbar a.active { color: var(--accent); }
+  .page { padding: 20px 24px 110px; }
+  .site-foot { padding-bottom: 100px; }
+  .stage { grid-template-columns: minmax(0, 1fr); }
+  .chpanel { min-height: 0; }
+  .chpanel-in { position: static; max-height: 460px; }
+  .src-cols { grid-template-columns: minmax(0, 1fr); }
+  .side { position: static; }
+  .lib { grid-template-columns: minmax(0, 1fr); }
+  .facets { display: none; position: static; max-height: none; padding: 16px; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--border); margin-bottom: 18px; }
+  .facets.open { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0 24px; }
+  .filters-btn { display: inline-flex; }
+  .lesson { grid-template-columns: minmax(0, 1fr); }
+  .toc { display: none; }
 }
 @media (max-width: 640px) {
-  .wrap { padding: 0 18px; }
-  .top-row { gap: 12px; }
-  .agent-link { display: none; }
-  .tabs { margin-right: auto; }
-  .brand span:last-child { display: none; }
-  .hero { padding: 44px 0 24px; }
-  .grid { grid-template-columns: 1fr; }
-  .intro h1, .lesson-page h1 { font-size: 40px; }
-  .idea-list p, .idea-list .cites { margin-left: 0; }
-  .kp-item { grid-template-columns: 1fr; }
-  .filter-label { width: 100%; }
+  body { font-size: 14.5px; }
+  .page { padding: 16px 16px 110px; }
+  .home-hero { padding-top: 16px; }
+  .stats { gap: 18px; }
+  .stats strong { font-size: 20px; }
+  .grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .shelf { grid-auto-columns: 78%; }
+  .lrow { grid-template-columns: 40px minmax(0, 1fr); }
+  .lrow .faces { display: none; }
+  .lrow .big { font-size: 22px; }
+  .player { border-radius: var(--r); margin: 0 -16px; border-radius: 0; }
+  .src-title h1 { font-size: 25px; }
+  .actions .btn { flex: 1 1 auto; }
+  .idea > p, .cites { margin-left: 0; }
+  .pager { grid-template-columns: minmax(0, 1fr); }
+  .hero-id { align-items: flex-start; }
+  .hero-id h1 { font-size: 27px; }
+  .continue { grid-template-columns: minmax(0, 1fr); }
 }
-@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
-
-.examples { margin: 40px 0; }
-.examples h3 { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 14px; }
-.ex-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
-.ex { display: flex; gap: 14px; align-items: flex-start; padding: 16px; border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow); text-decoration: none; color: var(--text); transition: transform .15s, box-shadow .15s; }
-.ex:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
-.ex b { font-size: 15px; }
-.ex p { margin: 4px 0 8px; font-size: 14px; line-height: 1.45; color: var(--text-2); }
-.ex-link { font-size: 12.5px; font-weight: 600; color: var(--accent); }
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { animation: none !important; transition: none !important; }
+  html { scroll-behavior: auto; }
+}
 </style>
 </head>
 <body>
-<header class="top">
-  <div class="wrap top-row">
-    <a class="brand" href="#/"><span class="logo" aria-hidden="true">◆</span><span>Design library</span></a>
-    <nav class="tabs" aria-label="Sections">
-      <a href="#/" data-tab="ask">Ask</a>
-      <a href="#/course" data-tab="course">Course</a>
-      <a href="#/sources" data-tab="sources">Sources</a>
-      <a href="#/apps" data-tab="apps">Apps</a>
-      <a href="#/experiments" data-tab="experiments">Experiments</a>
-    </nav>
-    <a class="agent-link" href="#/agent" data-tab="agent">Use with your agent</a>
-    <button class="theme" id="theme" type="button" aria-label="Switch light or dark">◐</button>
+<div class="shell">
+  <aside class="sidebar" aria-label="Main">
+    <a class="brand" href="#/"><span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2 22 12 12 22 2 12z"/></svg></span><span>Design library</span></a>
+    <form class="side-search" id="gsearch" role="search">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M8.5 3a5.5 5.5 0 1 0 3.3 9.9l3.6 3.6 1.1-1.1-3.6-3.6A5.5 5.5 0 0 0 8.5 3zm0 1.5a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/></svg>
+      <input id="gq" type="search" placeholder="Search the library" aria-label="Search the library" autocomplete="off" />
+    </form>
+    <nav class="side-nav" id="sidenav"></nav>
+    <div class="side-label">Channels</div>
+    <nav class="side-channels" id="sidechannels"></nav>
+    <div class="side-foot">
+      <a href="#/agent" data-tab="agent" class="side-link"><svg viewBox="0 0 20 20"><path d="M10 2l1.6 4.4L16 8l-4.4 1.6L10 14l-1.6-4.4L4 8l4.4-1.6zM15.5 13l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg><span>Use with your agent</span></a>
+      <button class="side-link" id="theme" type="button"><svg viewBox="0 0 20 20"><path d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm0 1.5v13a6.5 6.5 0 0 1 0-13z"/></svg><span>Light or dark</span></button>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <a class="brand" href="#/"><span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2 22 12 12 22 2 12z"/></svg></span><span>Design library</span></a>
+      <a class="icon-btn" href="#/sources" aria-label="Search"><svg viewBox="0 0 20 20"><path d="M8.5 3a5.5 5.5 0 1 0 3.3 9.9l3.6 3.6 1.1-1.1-3.6-3.6A5.5 5.5 0 0 0 8.5 3zm0 1.5a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/></svg></a>
+      <button class="icon-btn" id="theme2" type="button" aria-label="Light or dark"><svg viewBox="0 0 20 20"><path d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm0 1.5v13a6.5 6.5 0 0 1 0-13z"/></svg></button>
+    </header>
+    <main id="app" class="page"></main>
+    <footer class="site-foot" id="foot"></footer>
   </div>
-</header>
-
-<main class="wrap" id="app"></main>
-
-<footer class="wrap site-foot muted small" id="foot"></footer>
+</div>
+<nav class="tabbar" id="tabbar" aria-label="Sections"></nav>
 
 <script>// Generated by build.mjs from data/*.json. Don't edit by hand.
 window.LIBRARY = {
@@ -21960,6 +22077,40 @@ window.LIBRARY = {
   "zazzle",
   "zoom"
  ],
+ "chIcons": [
+  "adapty",
+  "airship",
+  "apple-wwdc",
+  "brilliant",
+  "built-for-mars",
+  "dive-club",
+  "duolingo",
+  "emil-kowalski",
+  "figma",
+  "first-round-review",
+  "google-design",
+  "growth-design",
+  "intercom",
+  "irrational-labs",
+  "khan-academy",
+  "lenny-s-newsletter",
+  "lenny-s-podcast",
+  "linear",
+  "nielsen-norman-group",
+  "nir-eyal",
+  "phiture",
+  "quizlet",
+  "rauno-freiberg",
+  "reforge",
+  "retention-blog",
+  "revenuecat",
+  "sneak-peek",
+  "spotify-design",
+  "sub-club",
+  "superwall",
+  "the-learning-scientists",
+  "vercel"
+ ],
  "built": "2026-11-11"
 };
 </script>
@@ -21975,18 +22126,26 @@ window.LIBRARY = {
   };
   const learned = new Set(store.get("learned", []));
   const notes = store.get("notes", {});
-  const filters = { q: "", topic: null, goal: null, type: null, channel: null, unread: false, tested: false };
+  const EMPTY = { q: "", topic: null, goal: null, type: null, channel: null, unread: false, tested: false };
+  const filters = { ...EMPTY };
+  let sortBy = "new";
   let lastQuestion = new URLSearchParams(location.search).get("q") || "";
 
   // ---------- theme ----------
   const root = document.documentElement;
   const applyTheme = (t) => { if (t) root.dataset.theme = t; else delete root.dataset.theme; };
   applyTheme(new URLSearchParams(location.search).get("theme") || store.get("theme", null));
-  document.getElementById("theme").onclick = () => {
+  const toggleTheme = () => {
     const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
     const next = dark ? "light" : "dark";
     store.set("theme", next); applyTheme(next);
   };
+  document.getElementById("theme").onclick = toggleTheme;
+  document.getElementById("theme2").onclick = toggleTheme;
+
+  // images fade in when loaded
+  document.addEventListener("load", (e) => { if (e.target.tagName === "IMG") e.target.classList.add("ld"); }, true);
+  document.addEventListener("error", (e) => { if (e.target.tagName === "IMG") e.target.classList.add("ld"); }, true);
 
   // ---------- helpers ----------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -21999,7 +22158,22 @@ window.LIBRARY = {
   const firstSentence = (t) => (t || "").split(/(?<=\.)\s/)[0];
   const tested = (s) => s["Evidence type"] === "A/B test";
   const research = (s) => s["Evidence type"] === "Research";
-  const sectionHead = (title, href, label, sub) => `<div class="section-head"><div><h2>${title}</h2>${sub ? `<p>${sub}</p>` : ""}</div>${href ? `<a class="link" href="${href}">${label} →</a>` : ""}</div>`;
+  const initials = (n) => n.replace(/[^\w\s]/g, "").split(/\s+/).filter(Boolean).map((w) => w[0]).join("").slice(0, 2).toUpperCase();
+  const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+  const secHead = (title, sub, right = "") => `<div class="sec-head"><div><h2>${title}</h2>${sub ? `<p>${sub}</p>` : ""}</div>${right}</div>`;
+  const shelfTools = (id, href, label) => `<div class="sec-tools">${href ? `<a class="link" href="${href}">${label}</a>` : ""}<button type="button" class="round" data-shelf="${id}" data-dir="-1" aria-label="Back">‹</button><button type="button" class="round" data-shelf="${id}" data-dir="1" aria-label="More">›</button></div>`;
+  const shelf = (id, html) => `<div class="shelf" id="${id}">${html}</div>`;
+
+  const SVG = {
+    home: '<svg viewBox="0 0 20 20"><path d="M10 2.5 2.5 8.4V17c0 .3.2.5.5.5h4.5v-5h5v5H17c.3 0 .5-.2.5-.5V8.4z"/></svg>',
+    course: '<svg viewBox="0 0 20 20"><path d="M10 3 1 7.5l9 4.5 7.5-3.75V13H19V7.5zM4.5 10.8v3.2c0 1.4 2.5 3 5.5 3s5.5-1.6 5.5-3v-3.2L10 13.5z"/></svg>',
+    library: '<svg viewBox="0 0 20 20"><path d="M3 3h3v14H3zm4.5 0h3v14h-3zm4.6.6 2.9-.8 3.6 13.5-2.9.8z"/></svg>',
+    channels: '<svg viewBox="0 0 20 20"><path d="M3 3h6v6H3zm8 0h6v6h-6zM3 11h6v6H3zm8 0h6v6h-6z"/></svg>',
+    apps: '<svg viewBox="0 0 20 20"><path d="M5 2h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3zm2.5 4.5v7h1.6v-2.6h1.5c1.6 0 2.7-1 2.7-2.2S12.2 6.5 10.6 6.5zm1.6 1.3h1.3c.7 0 1.2.4 1.2.9s-.5 1-1.2 1H9.1z"/></svg>',
+    flask: '<svg viewBox="0 0 20 20"><path d="M7 2h6v1.5h-1v4.2l4.8 7.6c.7 1.1-.1 2.7-1.4 2.7H4.6c-1.3 0-2.1-1.6-1.4-2.7L8 7.7V3.5H7zm2.5 1.5v4.6L7.2 11.8h5.6l-2.3-3.7V3.5z"/></svg>',
+    search: '<svg viewBox="0 0 20 20"><path d="M8.5 3a5.5 5.5 0 1 0 3.3 9.9l3.6 3.6 1.1-1.1-3.6-3.6A5.5 5.5 0 0 0 8.5 3zm0 1.5a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/></svg>',
+    spark: '<svg viewBox="0 0 20 20"><path d="M10 2l1.6 4.4L16 8l-4.4 1.6L10 14l-1.6-4.4L4 8l4.4-1.6z"/></svg>',
+  };
 
   // media
   const ICON = {
@@ -22014,7 +22188,9 @@ window.LIBRARY = {
   const kindOf = (s) => (PAPERS.test(s.Link) ? "paper" : String(s.Type || "article").toLowerCase().replace(/\s+/g, "-"));
   const kindLabel = (k) => ({ "case-study": "Case study", paper: "Research" }[k] || cap(k));
   const kindPill = (s) => { const k = kindOf(s); return `<span class="kind k-${k}">${ICON[k] || ICON.article}${kindLabel(k)}</span>`; };
+  const kVar = (s) => `var(--${kindOf(s) === "case-study" ? "case" : kindOf(s)})`;
   const vidOf = (s) => ((s.Video || s.Link).match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/) || [])[1] || null;
+  const isMedia = (s) => !!vidOf(s) || /Video|Podcast|Talk/.test(s.Type);
   const canEmbed = location.protocol.startsWith("http");
   const fmtDur = (sec) => { if (!sec) return ""; const m = Math.round(sec / 60); return m >= 60 ? `${Math.floor(m / 60)}h ${m % 60 ? (m % 60) + "m" : ""}`.trim() : `${m} min`; };
   const fmtT = (t) => { t = Math.max(0, Math.round(t)); const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), x = String(t % 60).padStart(2, "0"); return h ? `${h}:${String(m).padStart(2, "0")}:${x}` : `${m}:${x}`; };
@@ -22027,64 +22203,97 @@ window.LIBRARY = {
     if (anchor) return `${s.Link.split("#")[0]}#:~:text=${frag(anchor)}`;
     return null;
   }
+
+  // ---------- channels ----------
   const CHANNELS = [
-    [/^Lenny's Newsletter/, "Lenny's Newsletter", "#ff6719"],
-    [/lennysnewsletter\.com|^Lenny's Podcast/, "Lenny's Podcast", "#f76b15"],
-    [/^Dive Club/, "Dive Club", "#2c7be5"],
-    [/^Sneak Peek/, "Sneak Peek", "#12a594"],
-    [/subclub\.com|^Sub Club/, "Sub Club", "#e93d82"],
-    [/revenuecat\.com/, "RevenueCat", "#f2545b"],
-    [/developer\.apple\.com/, "Apple WWDC", "#1d1d1f"],
-    [/blog\.duolingo\.com/, "Duolingo Blog", "#58a700"],
-    [/superwall\.com/, "Superwall", "#6e56cf"],
-    [PAPERS, "Research papers", "#6f6e77"],
-    [/growth\.design/, "Growth.Design", "#ff5a36"],
-    [/^Built for Mars/, "Built for Mars", "#c2410c"],
-    [/nngroup\.com/, "Nielsen Norman Group", "#d6001c"],
-    [/emilkowal\.ski|^Emil Kowalski/, "Emil Kowalski", "#111111"],
-    [/rauno\.me/, "Rauno Freiberg", "#444444"],
-    [/linear\.app/, "Linear", "#5e6ad2"],
-    [/phiture\.com/, "Phiture", "#00a3a1"],
-    [/andrewchen\.com/, "Andrew Chen", "#2563eb"],
-    [/reforge\.com/, "Reforge", "#7c3aed"],
-    [/khanacademy\.org/, "Khan Academy", "#14bf96"],
-    [/quizlet\.com/, "Quizlet", "#4255ff"],
+    [/^Lenny's Newsletter|lennysnewsletter\.com\/p\//, "Lenny's Newsletter", "#ff6719", "Lenny Rachitsky's newsletter on product, growth and careers.", "https://www.lennysnewsletter.com"],
+    [/^Lenny's Podcast|youtube.*lenny/i, "Lenny's Podcast", "#f76b15", "Long interviews with product leaders, designers and growth people.", "https://www.youtube.com/@LennysPodcast"],
+    [/^Dive Club/, "Dive Club", "#2c7be5", "Ridd's interviews with designers about how they work.", "https://www.youtube.com/@dive-club"],
+    [/^Sneak Peek/, "Sneak Peek", "#12a594", "Designers walk through real product work, screen by screen.", "https://www.youtube.com/@sneakpeekpod"],
+    [/subclub\.com|^Sub Club/, "Sub Club", "#e93d82", "RevenueCat's podcast on subscription app growth.", "https://subclub.com"],
+    [/revenuecat\.com/, "RevenueCat", "#f2545b", "Subscription app data, paywalls and pricing.", "https://www.revenuecat.com/blog"],
+    [/developer\.apple\.com/, "Apple WWDC", "#1d1d1f", "Apple's design and developer talks.", "https://developer.apple.com/videos/"],
+    [/duolingo\.com/, "Duolingo", "#58a700", "Duolingo's own write-ups on design, research and experiments.", "https://blog.duolingo.com"],
+    [/superwall\.com/, "Superwall", "#6e56cf", "Paywall experiments and teardowns.", "https://superwall.com/blog"],
+    [PAPERS, "Research papers", "#6f6e77", "Peer-reviewed studies on learning and behaviour.", ""],
+    [/growth\.design/, "Growth.Design", "#ff5a36", "Comic-style case studies of product psychology.", "https://growth.design/case-studies"],
+    [/^Built for Mars|builtformars\.com/, "Built for Mars", "#c2410c", "Peter Ramsey's UX teardowns and experiments.", "https://builtformars.com"],
+    [/nngroup\.com/, "Nielsen Norman Group", "#d6001c", "Usability research and guidelines.", "https://www.nngroup.com/articles/"],
+    [/emilkowal\.ski|^Emil Kowalski/, "Emil Kowalski", "#111111", "Animation and interface craft.", "https://emilkowal.ski"],
+    [/rauno\.me/, "Rauno Freiberg", "#444444", "Interaction design details and essays.", "https://rauno.me"],
+    [/linear\.app/, "Linear", "#5e6ad2", "How Linear designs and builds.", "https://linear.app/now"],
+    [/phiture\.com/, "Phiture", "#00a3a1", "Mobile growth, retention and lifecycle.", "https://phiture.com/blog/"],
+    [/andrewchen\.com/, "Andrew Chen", "#2563eb", "Essays on growth and network effects.", "https://andrewchen.com"],
+    [/reforge\.com/, "Reforge", "#7c3aed", "Growth and product frameworks.", "https://www.reforge.com/blog"],
+    [/khanacademy\.org/, "Khan Academy", "#14bf96", "Learning design from Khan Academy.", "https://blog.khanacademy.org"],
+    [/quizlet\.com/, "Quizlet", "#4255ff", "Study tools and learning science.", "https://quizlet.com/blog"],
+    [/irrationallabs\.com/, "Irrational Labs", "#ff4d4d", "Behavioural science applied to products.", "https://irrationallabs.com/blog/"],
+    [/firstround\.com/, "First Round Review", "#1a1a1a", "Long-form playbooks from startup operators.", "https://review.firstround.com"],
+    [/figma\.com/, "Figma", "#a259ff", "Figma's blog on design process and craft.", "https://www.figma.com/blog/"],
+    [/design\.google|material\.io/, "Google Design", "#4285f4", "Google's design articles and guidance.", "https://design.google"],
+    [/adapty\.io/, "Adapty", "#6720ff", "Paywall and subscription data.", "https://adapty.io/blog/"],
+    [/retention\.blog/, "Retention.blog", "#0f766e", "Deep dives on retention and engagement.", "https://www.retention.blog"],
+    [/brilliant\.org/, "Brilliant", "#111111", "Interactive learning design.", "https://brilliant.org"],
+    [/spotify\.design/, "Spotify Design", "#1db954", "Spotify's design team on craft and research.", "https://spotify.design"],
+    [/intercom\.com/, "Intercom", "#1f8ded", "Product and onboarding writing from Intercom.", "https://www.intercom.com/blog/"],
+    [/vercel\.com/, "Vercel", "#000000", "Web craft and performance.", "https://vercel.com/blog"],
+    [/airship\.com/, "Airship", "#0b61a4", "Push notification benchmarks and practice.", "https://www.airship.com/resources/"],
+    [/nirandfar\.com/, "Nir Eyal", "#e85d04", "Habit-forming products.", "https://www.nirandfar.com"],
+    [/learningscientists\.org/, "The Learning Scientists", "#2a9d8f", "Evidence-based study strategies.", "https://www.learningscientists.org"],
   ];
-  const channelOf = (s) => { for (const [re, name, color] of CHANNELS) if (re.test(s.Link) || re.test(s.Creator || "")) return { name, color }; return { name: host(s.Link).replace(/^blog\./, ""), color: "#8b8d98" }; };
-  sources.forEach((s) => { s._ch = channelOf(s).name; });
+  const channelOf = (s) => { for (const [re, name] of CHANNELS) if (re.test(s.Link) || re.test(s.Creator || "")) return name; return host(s.Link).replace(/^blog\./, ""); };
+  sources.forEach((s) => { s._ch = channelOf(s); });
+  const byNew = [...sources].sort((a, b) => String(b.Added).localeCompare(String(a.Added)));
   const channels = [...new Set(sources.map((s) => s._ch))]
-    .map((name) => ({ name, color: (CHANNELS.find((c) => c[1] === name) || [])[2] || "#8b8d98", items: sources.filter((s) => s._ch === name) }))
-    .sort((a, b) => b.items.length - a.items.length);
+    .map((name) => { const c = CHANNELS.find((x) => x[1] === name) || []; return { name, id: slug(name), color: c[2] || "#8b8d98", desc: c[3] || "", home: c[4] || "", items: byNew.filter((s) => s._ch === name) }; })
+    .sort((a, b) => b.items.length - a.items.length || a.name.localeCompare(b.name));
+  const chByName = Object.fromEntries(channels.map((c) => [c.name, c]));
   const kpCount = (s) => (s["Key points"] || []).length || splitTakeaways(s.Takeaways).length;
 
-  function banner(s, { play = false, tag = "div", href = "" } = {}) {
-    const k = kindOf(s), dur = fmtDur(s.Duration), ch = channelOf(s);
-    const inner = `${kindPill(s)}${dur ? `<span class="dur">${dur}</span>` : ""}${s.Image ? "" : `<span class="chan">${esc(ch.name)}</span>`}${play || vidOf(s) ? `<span class="play">${ICON.video}</span>` : ""}`;
-    const attrs = href ? ` href="${esc(href)}"` : "";
-    if (s.Image) return `<${tag} class="banner"${attrs} style="--k:var(--${k === "case-study" ? "case" : k})"><img src="${esc(s.Image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('fallback');this.remove()"/>${inner}</${tag}>`;
-    return `<${tag} class="banner fallback"${attrs} style="--k:var(--${k === "case-study" ? "case" : k})"><span class="fb-title">${esc(s._ch)}</span>${inner}</${tag}>`;
+  // ---------- icons ----------
+  const ICON_BASE = location.pathname.includes("/site/") ? "../icons/" : "icons/";
+  const hasIcon = new Set(window.LIBRARY.icons || []);
+  const hasCh = new Set(window.LIBRARY.chIcons || []);
+  const swap = (cls, txt, style = "") => `this.replaceWith(Object.assign(document.createElement('span'),{className:'${cls}',textContent:'${txt}'${style ? `,style:'${style}'` : ""}}))`;
+  function appMark(name, cls = "") {
+    const ch = esc(name[0].toUpperCase());
+    if (!hasIcon.has(slug(name))) return `<span class="app-mark ${cls}">${ch}</span>`;
+    return `<img class="app-mark ${cls}" src="${ICON_BASE}${slug(name)}.png" alt="" loading="lazy" onerror="${swap(`app-mark ${cls}`, ch)}">`;
   }
-  const thumb = (s, cls = "thumb") => s.Image ? `<span class="${cls}"><img src="${esc(s.Image)}" alt="" loading="lazy" referrerpolicy="no-referrer"/></span>` : `<span class="${cls} fallback" style="--k:var(--${kindOf(s) === "case-study" ? "case" : kindOf(s)})"></span>`;
-  const citeThumb = (s) => s.Image ? `<img src="${esc(s.Image)}" alt="" loading="lazy" referrerpolicy="no-referrer"/>` : `<i style="--k:var(--${kindOf(s) === "case-study" ? "case" : kindOf(s)})"></i>`;
+  function channelMark(name, cls = "") {
+    const c = chByName[name] || { color: "#8b8d98" };
+    const ini = esc(initials(name));
+    if (!hasCh.has(slug(name))) return `<span class="cmark ${cls}" style="--c:${c.color}">${ini}</span>`;
+    return `<img class="cmark ${cls}" src="${ICON_BASE}channels/${slug(name)}.png" alt="" loading="lazy" onerror="${swap(`cmark ${cls}`, ini, `--c:${c.color}`)}">`;
+  }
 
+  // ---------- thumbs + cards ----------
+  function thumb(s, { play = false, cls = "" } = {}) {
+    const dur = fmtDur(s.Duration);
+    const extra = `${kindPill(s)}${dur ? `<span class="dur">${dur}</span>` : ""}${play ? `<span class="play">${ICON.video}</span>` : ""}`;
+    if (s.Image) return `<span class="thumb ${cls}" style="--k:${kVar(s)}"><img class="f" src="${esc(s.Image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('fallback');this.parentNode.insertAdjacentHTML('afterbegin','<span class=fb>${esc(s._ch).replace(/'/g, "")}</span>');this.remove()"/>${extra}</span>`;
+    return `<span class="thumb fallback ${cls}" style="--k:${kVar(s)}"><span class="fb">${esc(s._ch)}</span>${extra}</span>`;
+  }
+  const plainThumb = (s) => s.Image ? `<span class="thumb"><img class="f" src="${esc(s.Image)}" alt="" loading="lazy" referrerpolicy="no-referrer"/></span>` : `<span class="thumb fallback" style="--k:${kVar(s)}"></span>`;
+  const citeThumb = (s) => s.Image ? `<img src="${esc(s.Image)}" alt="" loading="lazy" referrerpolicy="no-referrer"/>` : `<i style="--k:${kVar(s)}"></i>`;
   const evidenceBadge = (s) => tested(s)
     ? `<span class="ev ev-test" title="Backed by an A/B test or measured result">Tested</span>`
-    : s["Evidence type"] === "Research"
+    : research(s)
     ? `<span class="ev ev-research" title="Backed by a usability study or real usage data, not an A/B test">Research</span>`
     : `<span class="ev" title="Experience or opinion, no measured result">Experience</span>`;
 
   function card(s) {
     const r = s.Results && tested(s) ? firstSentence(s.Results) : null;
-    return `
-      <a class="card ${learned.has(s.id) ? "is-learned" : ""}" href="#/s/${s.id}">
-        ${banner(s)}
-        <div class="card-body">
-          <h3>${esc(s.Title)}</h3>
-          <p class="did">${esc(s["Bottom line"] || s["What they did"])}</p>
-          ${r ? `<p class="result"><span>${esc(r)}</span></p>` : ""}
-          <div class="card-foot">${evidenceBadge(s)}<span class="kp">${kpCount(s)} key points${(s.Chapters || []).length ? ` · ${s.Chapters.length} chapters` : ""}</span></div>
-        </div>
-      </a>`;
+    const chs = (s.Chapters || []).length;
+    return `<a class="card ${learned.has(s.id) ? "is-learned" : ""}" href="#/s/${s.id}">
+      ${thumb(s, { play: isMedia(s) })}
+      <div class="card-b">
+        <div class="card-ch">${channelMark(s._ch)}<span>${esc(s._ch)}</span>${evidenceBadge(s)}</div>
+        <h3>${esc(s.Title)}</h3>
+        ${r ? `<p class="res">${esc(r)}</p>` : `<p class="bl">${esc(s["Bottom line"] || s["What they did"])}</p>`}
+        <p class="meta">${plural(kpCount(s), "key point")}${chs ? ` · ${plural(chs, isMedia(s) ? "chapter" : "section")}` : ""}</p>
+      </div>
+    </a>`;
   }
 
   // ---------- Ask (searches the library in this browser) ----------
@@ -22120,7 +22329,6 @@ window.LIBRARY = {
     }).sort((a, b) => b.score - a.score);
     return { hits: scored.slice(0, 6), lesson: lessonScores[0]?.score ? lessonScores[0].l : null };
   }
-
   const SUGGESTED = [
     "How do I get new learners to study in their first week?",
     "Should the paywall come before or after onboarding?",
@@ -22128,168 +22336,167 @@ window.LIBRARY = {
     "When should we ask to send reminders?",
     "How do I reduce cancellations at renewal?",
     "How do designers prototype with Claude Code?",
-    "How should we run design crits?",
     "How do we add delight without clutter?",
   ];
-
   function renderAnswer(q) {
     const box = document.getElementById("answer");
+    if (!box) return;
     if (!q.trim()) { box.innerHTML = ""; return; }
     const res = ask(q);
     if (!res || !res.hits.length) {
       box.innerHTML = `<div class="answer"><p><strong>The library has nothing on that yet.</strong></p><p class="muted">Try different words, or ask your agent to find and add a source about it.</p></div>`;
       return;
     }
-    const top = res.hits.slice(0, 3);
-    box.innerHTML = `
-      <div class="answer">
-        <p class="eyebrow">What to do first</p>
-        <ol class="steps">
-          ${top.map(({ s }, i) => {
-            const [screen, text] = ideaParts(splitIdeas(s["Ideas for OnCourse"])[0] || "");
-            return `<li>
-              <span class="num">${i + 1}</span>
-              <div>
-                <p class="step-title">${screen ? `<span class="screen">${esc(screen)}</span>` : ""}${esc(text)}</p>
-                <p class="step-why"><strong>${esc((s.Apps || [])[0] || s._ch)}:</strong> ${esc(s["Bottom line"])}</p>
-                ${s.Results && tested(s) ? `<p class="step-result">${esc(firstSentence(s.Results))}</p>` : ""}
-                <a class="link small" href="#/s/${s.id}">Read the notes →</a>
-              </div>
-            </li>`;
-          }).join("")}
-        </ol>
-        <div class="where">
-          <p class="eyebrow">Where the answers come from</p>
-          <div class="where-list">${res.hits.slice(0, 6).map(({ s }) => `<a class="mini" href="#/s/${s.id}">${thumb(s)}<span>${esc(s.Title)}</span></a>`).join("")}</div>
-          ${res.lesson ? `<a class="btn" href="#/course/${res.lesson.id}">Read the lesson: ${esc(res.lesson.title)} →</a>` : ""}
-        </div>
-      </div>`;
+    box.innerHTML = `<div class="answer">
+      <p class="eyebrow">What to do first</p>
+      <ol class="steps">${res.hits.slice(0, 3).map(({ s }, i) => {
+        const [screen, text] = ideaParts(splitIdeas(s["Ideas for OnCourse"])[0] || "");
+        return `<li><span class="num">${i + 1}</span><div>
+          <p class="step-title">${screen ? `<span class="screen">${esc(screen)}</span>` : ""}${esc(text)}</p>
+          <p class="step-why"><strong>${esc((s.Apps || [])[0] || s._ch)}:</strong> ${esc(s["Bottom line"])}</p>
+          ${s.Results && tested(s) ? `<p class="step-res">${esc(firstSentence(s.Results))}</p>` : ""}
+          <a class="link small" href="#/s/${s.id}">Read the notes →</a></div></li>`;
+      }).join("")}</ol>
+      <p class="eyebrow">Where the answers come from</p>
+      <div class="minis">${res.hits.map(({ s }) => `<a class="mini" href="#/s/${s.id}">${plainThumb(s)}<span>${esc(s.Title)}</span></a>`).join("")}</div>
+      ${res.lesson ? `<a class="btn" href="#/course/${res.lesson.id}">Read the lesson: ${esc(res.lesson.title)} →</a>` : ""}
+    </div>`;
   }
 
+  // ---------- course helpers ----------
+  const lessonSources = (l) => [...new Set(l.ideas.flatMap((i) => i.sourceIds))].filter((id) => byId[id]);
+  const lessonDone = (l) => { const ids = lessonSources(l); return ids.length ? ids.filter((id) => learned.has(id)).length / ids.length : 0; };
+  const faces = (l, n = 4) => `<span class="faces">${lessonSources(l).map((id) => byId[id]).filter((s) => s.Image).slice(0, n).map((s) => `<img src="${esc(s.Image)}" alt="" loading="lazy" referrerpolicy="no-referrer"/>`).join("")}</span>`;
+  const lessonTile = (l, i) => `<a class="ltile" href="#/course/${l.id}">
+      <span class="n">Lesson ${String(i + 1).padStart(2, "0")}</span>
+      <h3>${esc(l.title)}</h3>
+      <p>${esc(l.summary)}</p>
+      <div class="foot"><span>${l.ideas.length} ideas · ${lessonSources(l).length} sources</span>${faces(l, 3)}</div>
+    </a>`;
+
+  // ---------- Home ----------
   function renderHome() {
     const testedCount = sources.filter(tested).length;
     const hours = Math.round(sources.reduce((n, s) => n + (s.Duration || 0), 0) / 3600);
-    const byNew = [...sources].sort((a, b) => String(b.Added).localeCompare(String(a.Added)));
     const recent = []; const seenCh = new Set();
-    for (const s of byNew) if (recent.length < 6 && !seenCh.has(s._ch) && s.Added === byNew[0].Added) { recent.push(s); seenCh.add(s._ch); }
-    for (const s of byNew) if (recent.length < 6 && !recent.includes(s)) recent.push(s);
-    app.innerHTML = `
-      <section class="hero">
-        <h1>We watch the design talks<br/>so you <em>don't have to</em></h1>
-        <p class="lede">What Duolingo, Headspace, Linear, Swiggy and others changed, and what happened. Every video, podcast and article is boiled down to key points you can learn in minutes, with links straight to the moment it's said.</p>
-        <div class="stats">
-          <div><strong>${sources.length}</strong> sources</div>
-          <div><strong>${hours}h</strong> of video and podcasts</div>
-          <div><strong>${testedCount}</strong> with tested results</div>
-          <div><strong>${lessons.length}</strong> lessons</div>
-        </div>
-      </section>
+    for (const s of byNew) if (recent.length < 10 && !seenCh.has(s._ch)) { recent.push(s); seenCh.add(s._ch); }
+    for (const s of byNew) if (recent.length < 12 && !recent.includes(s)) recent.push(s);
+    const nextLesson = lessons.find((l) => lessonDone(l) < 1) || lessons[0];
+    const nextIdx = lessons.indexOf(nextLesson);
+    const started = learned.size > 0;
+    const topicCounts = {};
+    sources.forEach((s) => (s.Topics || []).forEach((t) => (topicCounts[t] = (topicCounts[t] || 0) + 1)));
+    const topTopics = Object.entries(topicCounts).sort((a, b) => b[1] - a[1]).slice(0, 4).map(([t]) => t);
+    const videos = byNew.filter((s) => vidOf(s)).slice(0, 12);
 
-      <section class="ask">
+    app.innerHTML = `<div class="enter">
+      <section class="home-hero">
+        <h1>What other apps tried, <span>and what happened.</span></h1>
+        <p class="sub">Talks, podcasts and articles from Duolingo, Headspace, Linear and more, boiled down to key points with links to the exact moment.</p>
         <form id="askf" class="ask-box" role="search">
-          <input id="askq" type="search" placeholder="Ask anything: onboarding, streaks, paywalls, crits, AI prototyping…" value="${esc(lastQuestion)}" aria-label="Ask the library" autocomplete="off" />
+          ${SVG.spark}
+          <input id="askq" type="search" placeholder="What do you want to learn today?" value="${esc(lastQuestion)}" aria-label="Ask the library" autocomplete="off" />
           <button class="btn primary" type="submit">Ask</button>
         </form>
         <div class="suggest">${SUGGESTED.map((q) => `<button type="button" class="chip" data-q="${esc(q)}">${esc(q)}</button>`).join("")}</div>
         <div id="answer" aria-live="polite"></div>
+        <div class="stats">
+          <div><strong>${sources.length}</strong><span>sources</span></div>
+          <div><strong>${channels.length}</strong><span>channels</span></div>
+          <div><strong>${hours}h</strong><span>of video and audio</span></div>
+          <div><strong>${testedCount}</strong><span>with tested results</span></div>
+        </div>
       </section>
 
-      <section>
-        ${sectionHead("Latest", "#/sources", `All ${sources.length} sources`, "Newly added videos, podcasts and articles")}
-        <div class="grid">${recent.map(card).join("")}</div>
+      <section class="sec">
+        <a class="continue" href="#/course/${nextLesson.id}">
+          <div>
+            <span class="eyebrow">${started ? "Continue the course" : "Start the course"} · Lesson ${nextIdx + 1} of ${lessons.length}</span>
+            <h3>${esc(nextLesson.title)}</h3>
+            <p>${esc(nextLesson.summary)}</p>
+            <div class="bar"><span style="width:${Math.round(lessonDone(nextLesson) * 100)}%"></span></div>
+          </div>
+          ${faces(nextLesson, 4)}
+        </a>
       </section>
 
-      <section>
-        ${sectionHead("The course", "#/course", "All lessons", "Everything the sources say on one topic, in ten minutes")}
-        <div class="lesson-grid">${lessons.map((l, i) => lessonCard(l, i)).join("")}</div>
+      <section class="sec">
+        ${secHead("New in the library", "The latest from each channel", shelfTools("sh-new", "#/sources", "See all"))}
+        ${shelf("sh-new", recent.map(card).join(""))}
       </section>
 
-      <section>
-        ${sectionHead("Channels", null, null, "Where the sources come from")}
-        <div class="channels">${channels.filter((c) => c.items.length >= 2).map((c) => `
-          <a class="channel" href="#/sources" data-channel="${esc(c.name)}"><span class="avatar" style="--k:${c.color}">${esc(c.name.split(/\s+/).map((w) => w[0]).join("").slice(0, 2))}</span><div><h3>${esc(c.name)}</h3><p>${c.items.length} sources</p></div></a>`).join("")}</div>
+      <section class="sec">
+        ${secHead("Channels", "Newsletters, podcasts and blogs we read", `<a class="link" href="#/channels">All ${channels.length}</a>`)}
+        <div class="ch-grid">${channels.slice(0, 12).map(channelTile).join("")}</div>
       </section>
-    `;
+
+      <section class="sec">
+        ${secHead("The course", "Everything the sources say on one topic, in ten minutes", shelfTools("sh-course", "#/course", "All lessons"))}
+        ${shelf("sh-course", lessons.map(lessonTile).join(""))}
+      </section>
+
+      ${videos.length ? `<section class="sec">
+        ${secHead("Watch", "Talks and interviews with chapters you can jump to", shelfTools("sh-vid"))}
+        ${shelf("sh-vid", videos.map(card).join(""))}
+      </section>` : ""}
+
+      ${topTopics.map((t, i) => `<section class="sec">
+        ${secHead(esc(cap(t)), plural(topicCounts[t], "source"), shelfTools("sh-t" + i, "#/sources", "See all").replace('href="#/sources"', `href="#/sources" data-topic="${esc(t)}"`))}
+        ${shelf("sh-t" + i, byNew.filter((s) => (s.Topics || []).includes(t)).slice(0, 12).map(card).join(""))}
+      </section>`).join("")}
+    </div>`;
     const f = document.getElementById("askf"), q = document.getElementById("askq");
     f.onsubmit = (e) => { e.preventDefault(); lastQuestion = q.value; renderAnswer(q.value); };
     app.querySelectorAll("[data-q]").forEach((b) => b.onclick = () => { q.value = b.dataset.q; lastQuestion = q.value; renderAnswer(q.value); });
-    app.querySelectorAll("[data-channel]").forEach((a) => a.onclick = () => { Object.assign(filters, { q: "", topic: null, goal: null, type: null, unread: false, tested: false, channel: a.dataset.channel }); });
+    app.querySelectorAll("[data-topic]").forEach((a) => a.onclick = () => Object.assign(filters, EMPTY, { topic: a.dataset.topic }));
+    wireShelves();
     if (lastQuestion) renderAnswer(lastQuestion);
   }
 
-  // ---------- Course ----------
-  const lessonSources = (l) => [...new Set(l.ideas.flatMap((i) => i.sourceIds))];
-  function lessonCard(l, i) {
-    const ids = lessonSources(l);
-    const done = ids.filter((id) => learned.has(id)).length;
-    const faces = ids.map((id) => byId[id]).filter((s) => s.Image).slice(0, 5);
-    return `<a class="lesson" href="#/course/${l.id}">
-      <span class="lesson-num">${String(i + 1).padStart(2, "0")}</span>
-      <h3>${esc(l.title)}</h3>
-      <p class="muted">${esc(l.summary)}</p>
-      <span class="small muted">${l.ideas.length} ideas · ${ids.length} sources${done ? ` · ${done} learned` : ""}</span>
-      <span class="faces">${faces.map((s) => `<img src="${esc(s.Image)}" alt="" loading="lazy" referrerpolicy="no-referrer"/>`).join("")}</span>
-    </a>`;
+  function wireShelves() {
+    app.querySelectorAll(".shelf").forEach((el) => {
+      const btns = app.querySelectorAll(`[data-shelf="${el.id}"]`);
+      if (!btns.length) return;
+      const sync = () => { btns[0].disabled = el.scrollLeft < 4; btns[1].disabled = el.scrollLeft + el.clientWidth > el.scrollWidth - 4; };
+      btns.forEach((b) => b.onclick = () => el.scrollBy({ left: +b.dataset.dir * el.clientWidth * 0.85, behavior: "smooth" }));
+      el.addEventListener("scroll", sync, { passive: true }); sync();
+    });
   }
 
-  function renderCourse() {
-    app.innerHTML = `
-      <section class="intro">
-        <h1>The course</h1>
-        <p>Each lesson brings together what every source says about one topic, so you can learn it in ten minutes. It ends with what to try at OnCourse.</p>
-      </section>
-      <div class="lesson-list">${lessons.map((l, i) => lessonCard(l, i)).join("")}</div>`;
+  // ---------- Channels ----------
+  const channelTile = (c) => `<a class="ctile" href="#/channels/${c.id}">${channelMark(c.name, "md")}<div><h3>${esc(c.name)}</h3><p>${plural(c.items.length, "source")}</p></div></a>`;
+  function renderChannels() {
+    app.innerHTML = `<div class="enter">
+      <header class="page-head"><h1>Channels</h1><p>The newsletters, podcasts, blogs and research the library reads from. ${channels.length} so far.</p></header>
+      <div class="grid">${channels.map((c) => `<a class="cbig" href="#/channels/${c.id}">
+        <div class="top">${channelMark(c.name, "lg")}<div><h3>${esc(c.name)}</h3><p class="muted small">${plural(c.items.length, "source")}</p></div></div>
+        ${c.desc ? `<p class="desc">${esc(c.desc)}</p>` : ""}
+        <div class="strip">${c.items.slice(0, 3).map(plainThumb).join("")}</div>
+      </a>`).join("")}</div>
+    </div>`;
+  }
+  function renderChannel(id) {
+    const c = channels.find((x) => x.id === id);
+    if (!c) return notFound("That channel isn't in the library.");
+    const t = c.items.filter(tested).length;
+    app.innerHTML = `<div class="enter">
+      <a class="back" href="#/channels">← All channels</a>
+      <header class="hero-id">${channelMark(c.name, "xl")}<div>
+        <h1>${esc(c.name)}</h1>
+        ${c.desc ? `<p>${esc(c.desc)}</p>` : ""}
+        <div class="facts"><span>${plural(c.items.length, "source")}</span>${t ? `<span>${t} tested</span>` : ""}${c.home ? `<a class="link" href="${esc(c.home)}" target="_blank" rel="noopener">${esc(host(c.home))} ↗</a>` : ""}</div>
+      </div></header>
+      <div class="grid">${c.items.map(card).join("")}</div>
+    </div>`;
   }
 
-  function renderLesson(id) {
-    const i = lessons.findIndex((l) => l.id === id);
-    const l = lessons[i];
-    if (!l) return notFound("That lesson isn't in the course.");
-    const prev = lessons[i - 1], next = lessons[i + 1];
-    const srcs = lessonSources(l).map((x) => byId[x]);
-    app.innerHTML = `
-      <a class="back" href="#/course">← The course</a>
-      <article class="lesson-page">
-        <p class="eyebrow">Lesson ${i + 1} of ${lessons.length}</p>
-        <h1>${esc(l.title)}</h1>
-        <p class="lede">${esc(l.summary)}</p>
-        <ol class="idea-list">
-          ${l.ideas.map((idea, k) => `
-            <li>
-              <h3><span class="num">${k + 1}</span>${esc(idea.heading)}</h3>
-              <p>${esc(idea.body)}</p>
-              <div class="cites">${idea.sourceIds.map((sid) => { const s = byId[sid]; return `<a class="cite" href="#/s/${sid}">${citeThumb(s)}<b>${esc((s.Apps || [])[0] || s._ch)} · ${esc(s.Title)}</b></a>`; }).join("")}</div>
-            </li>`).join("")}
-        </ol>
-        ${(l.examples || []).length ? `<section class="examples">
-          <h3>See it in real apps</h3>
-          <div class="ex-grid">${l.examples.map((e) => `<a class="ex" href="${esc(e.url)}" target="_blank" rel="noopener">${appMark(e.app, "big")}<div><b>${esc(e.app)}</b><p>${esc(e.note)}</p><span class="ex-link">Open on Mobbin ↗</span></div></a>`).join("")}</div>
-        </section>` : ""}
-        <section class="try">
-          <h3>Try at OnCourse</h3>
-          <ul>${(l.try || []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
-          <p class="muted small">To prototype one, run <code>/product-design &lt;idea&gt;</code>.</p>
-        </section>
-      </article>
-      <section class="related">
-        ${sectionHead(`Sources in this lesson`, null, null, `${srcs.length} videos, podcasts and articles`)}
-        <div class="grid">${srcs.map(card).join("")}</div>
-      </section>
-      <nav class="pager">
-        ${prev ? `<a href="#/course/${prev.id}">← ${esc(prev.title)}</a>` : "<span></span>"}
-        ${next ? `<a href="#/course/${next.id}">${esc(next.title)} →</a>` : ""}
-      </nav>`;
-    scrollTo(0, 0);
-  }
-
-  // ---------- Sources ----------
+  // ---------- Library ----------
   const uniq = (key) => [...new Set(sources.flatMap((s) => [].concat(s[key] || [])))].sort();
-  const count = (key, v) => sources.filter((s) => [].concat(s[key] || []).includes(v)).length;
-  const matches = (s) => {
-    if (filters.topic && !(s.Topics || []).includes(filters.topic)) return false;
-    if (filters.goal && !(s.Goal || []).includes(filters.goal)) return false;
-    if (filters.type && s.Type !== filters.type) return false;
-    if (filters.channel && s._ch !== filters.channel) return false;
+  const matches = (s, skip) => {
+    if (skip !== "topic" && filters.topic && !(s.Topics || []).includes(filters.topic)) return false;
+    if (skip !== "goal" && filters.goal && !(s.Goal || []).includes(filters.goal)) return false;
+    if (skip !== "type" && filters.type && s.Type !== filters.type) return false;
+    if (skip !== "channel" && filters.channel && s._ch !== filters.channel) return false;
     if (filters.unread && learned.has(s.id)) return false;
     if (filters.tested && !tested(s)) return false;
     if (filters.q) {
@@ -22298,83 +22505,85 @@ window.LIBRARY = {
     }
     return true;
   };
-  const chipRow = (label, key, values, field) => `
-    <div class="filter-row" role="group" aria-label="${label}">
-      <span class="filter-label">${label}</span>
-      ${values.map((v) => `<button type="button" class="chip ${filters[key] === v ? "on" : ""}" data-f="${key}" data-v="${esc(v)}" aria-pressed="${filters[key] === v}">${esc(v)} <span class="n">${field === "_ch" ? sources.filter((s) => s._ch === v).length : count(field, v)}</span></button>`).join("")}
-    </div>`;
+  let showAllCh = false;
+  function facet(title, key, values, field, { mark, limit } = {}) {
+    const pool = sources.filter((s) => matches(s, key));
+    const n = (v) => pool.filter((s) => (field === "_ch" ? s._ch === v : [].concat(s[field] || []).includes(v))).length;
+    let rows = values.map((v) => [v, n(v)]).filter(([v, c]) => c || filters[key] === v);
+    const more = limit && rows.length > limit && !showAllCh;
+    if (more) rows = rows.slice(0, limit);
+    return `<div class="facet"><h4>${title}</h4><div class="facet-list">
+      ${rows.map(([v, c]) => `<button type="button" class="fopt ${filters[key] === v ? "on" : ""}" data-f="${key}" data-v="${esc(v)}" aria-pressed="${filters[key] === v}">${mark ? mark(v) : ""}<span>${esc(v)}</span><span class="n">${c}</span></button>`).join("")}
+      ${limit && values.length > limit ? `<button type="button" class="fopt more" id="morech">${showAllCh ? "Show fewer" : `Show all ${values.length}`}</button>` : ""}
+    </div></div>`;
+  }
+  const typeDot = (t) => `<span class="dot" style="--k:var(--${t === "Case study" ? "case" : t.toLowerCase().replace(/\s+/g, "-")})"></span>`;
 
-  function renderSources() {
-    const list = sources.filter(matches);
+  function renderSources(keepFocus) {
+    const list = sources.filter((s) => matches(s));
+    if (sortBy === "new") list.sort((a, b) => String(b.Added).localeCompare(String(a.Added)));
+    else if (sortBy === "tested") list.sort((a, b) => (tested(b) - tested(a)) || (research(b) - research(a)));
+    else if (sortBy === "short") list.sort((a, b) => (a.Duration || 600) - (b.Duration || 600));
     const learnedCount = sources.filter((s) => learned.has(s.id)).length;
-    const active = filters.q || Object.entries(filters).some(([k, v]) => v && k !== "q");
-    app.innerHTML = `
-      <section class="intro">
-        <h1>Sources</h1>
-        <p>Every video, podcast, talk and article, read by the agent from the source itself. You've learned ${learnedCount} of ${sources.length}.</p>
-        <div class="progress" aria-hidden="true"><span style="width:${sources.length ? (learnedCount / sources.length) * 100 : 0}%"></span></div>
-      </section>
-      <section class="filters">
-        <input id="q" class="search" type="search" placeholder="Search: streak, paywall, Duolingo, Claude Code…" value="${esc(filters.q)}" aria-label="Search sources" />
-        ${chipRow("Channel", "channel", channels.filter((c) => c.items.length >= 2).map((c) => c.name), "_ch")}
-        ${chipRow("Type", "type", uniq("Type"), "Type")}
-        ${chipRow("Topic", "topic", uniq("Topics"), "Topics")}
-        ${chipRow("Goal", "goal", uniq("Goal"), "Goal")}
-        <div class="filter-row">
-          <span class="filter-label">Show</span>
-          <button type="button" class="chip ${filters.tested ? "on" : ""}" data-toggle="tested" aria-pressed="${filters.tested}">Tested only</button>
-          <button type="button" class="chip ${filters.unread ? "on" : ""}" data-toggle="unread" aria-pressed="${filters.unread}">Not learned yet</button>
-          ${active ? `<button type="button" class="link" id="clear">Clear all</button>` : ""}
+    const chips = [
+      ...["channel", "type", "topic", "goal"].filter((k) => filters[k]).map((k) => [k, filters[k]]),
+      ...(filters.tested ? [["tested", "Tested only"]] : []), ...(filters.unread ? [["unread", "Not learned"]] : []),
+    ];
+    const open = app.querySelector(".facets.open");
+    app.innerHTML = `<div class="${keepFocus ? "" : "enter"}">
+      <header class="page-head"><h1>Library</h1><p>Every video, podcast, talk and article, read by the agent from the source. You've learned ${learnedCount} of ${sources.length}.</p></header>
+      <div class="lib">
+        <aside class="facets ${open ? "open" : ""}" id="facets">
+          <div class="facet"><h4>Show</h4><div class="facet-list">
+            <button type="button" class="fopt ${filters.tested ? "on" : ""}" data-toggle="tested" aria-pressed="${filters.tested}"><span>Tested results only</span><span class="n">${sources.filter((s) => tested(s) && matches(s)).length}</span></button>
+            <button type="button" class="fopt ${filters.unread ? "on" : ""}" data-toggle="unread" aria-pressed="${filters.unread}"><span>Not learned yet</span></button>
+          </div></div>
+          ${facet("Type", "type", uniq("Type"), "Type", { mark: typeDot })}
+          ${facet("Channel", "channel", channels.map((c) => c.name), "_ch", { mark: (v) => channelMark(v), limit: 10 })}
+          ${facet("Topic", "topic", uniq("Topics"), "Topics")}
+          ${facet("Goal", "goal", uniq("Goal"), "Goal")}
+        </aside>
+        <div>
+          <form class="lib-search" role="search" onsubmit="return false">${SVG.search}<input id="q" type="search" placeholder="Search: streak, paywall, Duolingo, Claude Code…" value="${esc(filters.q)}" aria-label="Search the library" autocomplete="off" /></form>
+          <div class="lib-bar">
+            <div class="active">
+              <button type="button" class="btn filters-btn" id="fbtn">Filters${chips.length ? ` · ${chips.length}` : ""}</button>
+              <span class="count">${list.length === sources.length ? `${list.length} sources` : `${list.length} of ${sources.length}`}</span>
+              ${chips.map(([k, v]) => `<button type="button" class="pill-x" data-x="${k}">${esc(v)} ✕</button>`).join("")}
+              ${chips.length || filters.q ? `<button type="button" class="link" id="clear">Clear all</button>` : ""}
+            </div>
+            <select class="sort" id="sort" aria-label="Sort">
+              <option value="new" ${sortBy === "new" ? "selected" : ""}>Newest</option>
+              <option value="tested" ${sortBy === "tested" ? "selected" : ""}>Tested first</option>
+              <option value="short" ${sortBy === "short" ? "selected" : ""}>Shortest first</option>
+            </select>
+          </div>
+          ${list.length ? `<div class="grid">${list.map(card).join("")}</div>` :
+            `<div class="empty"><p><strong>Nothing matches.</strong></p><p class="muted">Try fewer filters, or a different word.</p><button type="button" class="btn" id="clear2">Clear filters</button></div>`}
         </div>
-      </section>
-      ${active ? `<p class="muted small">${list.length} of ${sources.length} sources</p>` : ""}
-      ${list.length ? `<section class="grid">${list.map(card).join("")}</section>` :
-        `<div class="empty"><p><strong>Nothing matches.</strong></p><p class="muted">Try fewer filters, or a different word.</p><button type="button" class="btn" id="clear2">Clear filters</button></div>`}
-    `;
+      </div></div>`;
     const q = document.getElementById("q");
-    q.oninput = () => { filters.q = q.value; const pos = q.selectionStart; renderSources(); const n = document.getElementById("q"); n.focus(); n.setSelectionRange(pos, pos); };
-    app.querySelectorAll("[data-f]").forEach((b) => b.onclick = () => { const k = b.dataset.f; filters[k] = filters[k] === b.dataset.v ? null : b.dataset.v; renderSources(); });
-    app.querySelectorAll("[data-toggle]").forEach((b) => b.onclick = () => { filters[b.dataset.toggle] = !filters[b.dataset.toggle]; renderSources(); });
-    const clear = () => { Object.assign(filters, { q: "", topic: null, goal: null, type: null, channel: null, unread: false, tested: false }); renderSources(); };
+    let tm;
+    q.oninput = () => { clearTimeout(tm); tm = setTimeout(() => { filters.q = q.value; const pos = q.selectionStart; renderSources(true); const n = document.getElementById("q"); n.focus(); n.setSelectionRange(pos, pos); }, 120); };
+    app.querySelectorAll("[data-f]").forEach((b) => b.onclick = () => { const k = b.dataset.f; filters[k] = filters[k] === b.dataset.v ? null : b.dataset.v; renderSources(true); });
+    app.querySelectorAll("[data-toggle]").forEach((b) => b.onclick = () => { filters[b.dataset.toggle] = !filters[b.dataset.toggle]; renderSources(true); });
+    app.querySelectorAll("[data-x]").forEach((b) => b.onclick = () => { const k = b.dataset.x; filters[k] = typeof filters[k] === "boolean" ? false : null; renderSources(true); });
+    const clear = () => { Object.assign(filters, EMPTY); renderSources(true); };
     document.getElementById("clear")?.addEventListener("click", clear);
     document.getElementById("clear2")?.addEventListener("click", clear);
-  }
-
-  // ---------- App icons ----------
-  const ICON_BASE = location.pathname.includes("/site/") ? "../icons/" : "icons/";
-  const hasIcon = new Set(window.LIBRARY.icons || []);
-  function appMark(name, cls = "") {
-    const ch = esc(name[0].toUpperCase());
-    if (!hasIcon.has(slug(name))) return `<span class="app-mark ${cls}">${ch}</span>`;
-    return `<img class="app-mark img ${cls}" src="${ICON_BASE}${slug(name)}.png" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'app-mark ${cls}',textContent:this.dataset.l}))" data-l="${ch}">`;
+    document.getElementById("morech")?.addEventListener("click", () => { showAllCh = !showAllCh; renderSources(true); });
+    document.getElementById("sort").onchange = (e) => { sortBy = e.target.value; renderSources(true); };
+    document.getElementById("fbtn").onclick = () => document.getElementById("facets").classList.toggle("open");
   }
 
   // ---------- Source page ----------
-  function timeLink(s, t, anchor, label) {
-    const url = jumpUrl(s, t, anchor);
-    const text = label || (t != null ? approx(s) + fmtT(t) : "Read");
-    if (!url) return t != null ? `<span class="jump" title="Time in the episode">${esc(text)}</span>` : "";
-    const embed = t != null && vidOf(s) && canEmbed;
-    return `<a class="jump" href="${esc(url)}" target="_blank" rel="noopener" ${embed ? `data-t="${Math.round(t)}"` : ""}>${t != null ? ICON.video : "↗"} ${esc(text)}</a>`;
-  }
-  function chapterRow(s, c, i) {
+  function chapterRow(s, c, i, best) {
     const url = jumpUrl(s, c.t, c.anchor);
     const embed = c.t != null && vidOf(s) && canEmbed;
-    const t = c.t != null ? approx(s) + fmtT(c.t) : String(i + 1).padStart(2, "0");
+    const t = c.t != null ? approx(s) + fmtT(c.t) : best ? "Start" : String(i + 1).padStart(2, "0");
     const body = `<span class="t">${esc(t)}</span><span><span class="ct">${esc(c.title || c.anchor)}</span>${c.summary ? `<span class="cs">${esc(c.summary)}</span>` : ""}</span>`;
-    return url ? `<li><a class="ch" href="${esc(url)}" target="_blank" rel="noopener" ${embed ? `data-t="${Math.round(c.t)}"` : ""}>${body}</a></li>` : `<li><div class="ch static">${body}</div></li>`;
-  }
-
-  function chapterStrip(s, chapters) {
-    const timed = chapters.filter((c) => c.t != null);
-    if (timed.length < 2) return "";
-    const embed = vidOf(s) && canEmbed;
-    const chips = timed.map((c) => {
-      const url = jumpUrl(s, c.t);
-      const inner = `<span class="t">${esc(approx(s) + fmtT(c.t))}</span><span class="ct">${esc(c.title || c.anchor)}</span>`;
-      return url ? `<a class="chip-ch" href="${esc(url)}" target="_blank" rel="noopener" ${embed ? `data-t="${Math.round(c.t)}"` : ""} title="${esc(c.summary || c.title)}">${inner}</a>` : `<span class="chip-ch static">${inner}</span>`;
-    }).join("");
-    return `<nav class="ch-strip" aria-label="Chapters"><div class="ch-strip-head"><span>Jump to a chapter · ${timed.length}</span><span class="ch-arrows"><button type="button" class="ch-arrow" data-dir="-1" aria-label="Previous chapters">‹</button><button type="button" class="ch-arrow" data-dir="1" aria-label="More chapters">›</button></span></div><div class="ch-scroll">${chips}</div></nav>`;
+    const cls = `chrow${best ? " best" : ""}`;
+    return url ? `<li><a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener" ${embed ? `data-t="${Math.round(c.t)}"` : ""}>${body}</a></li>` : `<li><div class="${cls} static">${body}</div></li>`;
   }
 
   function renderSource(id) {
@@ -22382,145 +22591,211 @@ window.LIBRARY = {
     if (!s) return notFound("That source isn't in the library.");
     const isLearned = learned.has(s.id);
     const inLessons = lessons.filter((l) => lessonSources(l).includes(s.id));
-    const related = sources.filter((x) => x.id !== s.id && (x.Topics || []).some((t) => (s.Topics || []).includes(t))).sort((a, b) => (b.Topics || []).filter((t) => (s.Topics || []).includes(t)).length - (a.Topics || []).filter((t) => (s.Topics || []).includes(t)).length).slice(0, 3);
+    const shared = (x) => (x.Topics || []).filter((t) => (s.Topics || []).includes(t)).length;
+    const related = sources.filter((x) => x.id !== s.id && shared(x)).sort((a, b) => shared(b) - shared(a) || (b._ch === s._ch) - (a._ch === s._ch)).slice(0, 6);
+    const moreCh = (chByName[s._ch]?.items || []).filter((x) => x.id !== s.id).slice(0, 8);
     const kps = (s["Key points"] || []).length ? s["Key points"] : splitTakeaways(s.Takeaways).map((t) => ({ title: t }));
     const chapters = s.Chapters || [];
     const start = s["Start here"];
     const vid = vidOf(s);
-    const isMedia = vid || /Video|Podcast|Talk/.test(s.Type);
+    const media = isMedia(s);
     const startT = start && start.t != null ? start.t : 0;
     const playUrl = vid ? `https://www.youtube.com/watch?v=${vid}${startT ? `&t=${Math.round(startT)}s` : ""}` : s.Link;
-    app.innerHTML = `
-      <a class="back" href="#/sources">← All sources</a>
-      <header class="src-hero">
-        <div class="player-col">
-          <div class="player" id="player">
-            ${vid && canEmbed ? banner(s, { play: true, tag: "div" }) : banner(s, { play: !!isMedia, tag: "a", href: playUrl })}
-          </div>
-          ${chapterStrip(s, chapters)}
-        </div>
-        <div class="src-head">
-          <div class="kinds">${kindPill(s)}${evidenceBadge(s)}<span class="creator">${esc(s.Creator)}</span></div>
-          <h1>${esc(s.Title)}</h1>
-          <p class="bl">${esc(s["Bottom line"])}</p>
-          <div class="actions">
-            ${start && (start.t != null || start.anchor) ? `<a class="btn accent" href="${esc(jumpUrl(s, start.t, start.anchor) || s.Link)}" target="_blank" rel="noopener" ${start.t != null && vid && canEmbed ? `data-t="${Math.round(start.t)}"` : ""}>${ICON.video.replace("<svg", '<svg width="12" height="12" fill="currentColor"')} ${start.t != null ? `Start at ${approx(s)}${fmtT(start.t)}` : "Jump to the best part"}</a>` : ""}
-            <a class="btn" href="${esc(s.Link)}" target="_blank" rel="noopener">${vid ? "Open on YouTube" : "Open the source"} ↗</a>
-            <button type="button" class="btn" id="learn" aria-pressed="${isLearned}">${isLearned ? "✓ Learned" : "Mark as learned"}</button>
-          </div>
-          <div class="facts">
-            ${s.Duration ? `<span>${fmtDur(s.Duration)}</span>` : ""}
-            <span>${kps.length} key points</span>
-            ${chapters.length ? `<span>${chapters.length} chapters</span>` : ""}
-            ${s.Times === "approximate" ? `<span title="Worked out from the transcript, may be off by up to a minute">≈ times are estimates</span>` : ""}
-          </div>
+    const bestRow = start && (start.t != null || start.anchor)
+      ? chapterRow(s, { t: start.t, anchor: start.anchor, title: "If you have 5 minutes", summary: start.why }, 0, true) : "";
+    const hasPanel = chapters.length || bestRow;
+    const playerInner = vid && canEmbed
+      ? `<div class="thumb" id="poster" role="button" tabindex="0" aria-label="Play">${s.Image ? `<img class="f" src="${esc(s.Image)}" alt="" referrerpolicy="no-referrer"/>` : ""}${kindPill(s)}<span class="play">${ICON.video}</span></div>`
+      : `<a class="thumb ${s.Image ? "" : "fallback"}" href="${esc(playUrl)}" target="_blank" rel="noopener" style="--k:${kVar(s)}">${s.Image ? `<img class="f" src="${esc(s.Image)}" alt="" referrerpolicy="no-referrer"/>` : `<span class="fb">${esc(s._ch)}</span>`}${kindPill(s)}${media ? `<span class="play">${ICON.video}</span>` : ""}<span class="open">${media ? "Play on " + esc(host(s.Link)) : "Read on " + esc(host(s.Link))} ↗</span></a>`;
+    const startLabel = start && start.t != null ? `Play the best part · ${approx(s)}${fmtT(start.t)}` : "Read the best part";
+
+    app.innerHTML = `<div class="enter">
+      <a class="back" href="#/channels/${slug(s._ch)}">← ${esc(s._ch)}</a>
+      <div class="stage ${hasPanel ? "" : "solo"}">
+        <div class="player" id="player">${playerInner}</div>
+        ${hasPanel ? `<aside class="chpanel" aria-label="${media ? "Chapters" : "Sections"}"><div class="chpanel-in">
+          <div class="chpanel-head"><h2>${media ? "Chapters" : "Sections"}</h2><span>${chapters.length ? chapters.length : ""}${chapters.some((c) => c.t != null) && vid && canEmbed ? " · plays here" : ""}</span></div>
+          <ol class="chlist">${bestRow}${chapters.map((c, i) => chapterRow(s, c, i)).join("")}</ol>
+          ${s.Times === "approximate" ? `<p class="chpanel-note">≈ Times are worked out from the transcript and may be off by up to a minute.</p>` : ""}
+        </div></aside>` : ""}
+      </div>
+
+      <header class="src-title">
+        <div class="src-meta"><a href="#/channels/${slug(s._ch)}">${channelMark(s._ch, "md")}${esc(s._ch)}</a>${s.Creator && s.Creator !== s._ch ? `<span>· ${esc(s.Creator.replace(s._ch, "").replace(/^\s*\((.*)\)\s*$/, "$1").trim() || s.Creator)}</span>` : ""}${kindPill(s)}${evidenceBadge(s)}</div>
+        <h1>${esc(s.Title)}</h1>
+        <p class="lede">${esc(s["Bottom line"])}</p>
+        <div class="actions">
+          ${start && (start.t != null || start.anchor) ? `<a class="btn accent" href="${esc(jumpUrl(s, start.t, start.anchor) || s.Link)}" target="_blank" rel="noopener" ${start.t != null && vid && canEmbed ? `data-t="${Math.round(start.t)}"` : ""}>${ICON.video} ${startLabel}</a>` : ""}
+          <a class="btn" href="${esc(s.Link)}" target="_blank" rel="noopener">${vid ? "Open on YouTube" : "Open the source"} ↗</a>
+          <button type="button" class="btn" id="learn" aria-pressed="${isLearned}">${isLearned ? "✓ Learned" : "Mark as learned"}</button>
+          <span class="facts">${s.Duration ? `<span>${fmtDur(s.Duration)}</span>` : ""}<span>${plural(kps.length, "key point")}</span>${s.Added ? `<span>Added ${esc(s.Added)}</span>` : ""}</span>
         </div>
       </header>
 
-      <div class="src-body">
+      <div class="src-cols">
         <div class="src-main">
           <section>
-            <h2>Key points <small>${isMedia && kps.some((k) => k.t != null) ? "Tap a time to jump there" : ""}</small></h2>
-            <ol class="kps">${kps.map((k, i) => `
-              <li class="kp-item">
-                <span class="num">${i + 1}</span>
-                <div>
-                  <h3>${esc(k.title)}</h3>
-                  ${k.detail ? `<p>${esc(k.detail)}</p>` : ""}
-                  ${k.t != null && jumpUrl(s, k.t) ? `<div>${timeLink(s, k.t)}</div>` : ""}
-                </div>
-              </li>`).join("")}</ol>
+            <h2>Key points <small>${media && kps.some((k) => k.t != null) ? "Tap a time to play from there" : ""}</small></h2>
+            <ol class="kps">${kps.map((k, i) => `<li class="kp"><span class="num">${i + 1}</span><div>
+              <h3>${esc(k.title)}</h3>
+              ${k.detail ? `<p>${esc(k.detail)}</p>` : ""}
+              ${k.t != null && jumpUrl(s, k.t) ? `<a class="jump" href="${esc(jumpUrl(s, k.t))}" target="_blank" rel="noopener" ${vid && canEmbed ? `data-t="${Math.round(k.t)}"` : ""}>${ICON.video} ${approx(s)}${fmtT(k.t)}</a>` : k.anchor && jumpUrl(s, null, k.anchor) ? `<a class="jump" href="${esc(jumpUrl(s, null, k.anchor))}" target="_blank" rel="noopener">Read this part ↗</a>` : ""}
+            </div></li>`).join("")}</ol>
           </section>
-
-          <section class="callout ${s.Results && (tested(s) || research(s)) ? "" : "none"}"><h3>${tested(s) ? "What happened" : research(s) ? "What the research found" : "What they say happened"}</h3><p>${s.Results ? esc(s.Results) : "The source gives no numbers. Treat it as an idea, not a proven result."}</p>${s.Results && research(s) ? `<p class="note">From a study or real usage data, not an A/B test.</p>` : s.Results && !tested(s) ? `<p class="note">Not from a measured test.</p>` : ""}</section>
-
+          <section class="callout ${tested(s) && s.Results ? "" : research(s) && s.Results ? "research" : "none"}">
+            <h3>${tested(s) ? "What happened" : research(s) ? "What the research found" : "What they say happened"}</h3>
+            <p>${s.Results ? esc(s.Results) : "The source gives no numbers. Treat it as an idea, not a proven result."}</p>
+            ${s.Results && research(s) ? `<p class="note">From a study or real usage data, not an A/B test.</p>` : s.Results && !tested(s) ? `<p class="note">Not from a measured test.</p>` : ""}
+          </section>
           <section><h2>What they did</h2><p class="prose">${esc(s["What they did"])}</p></section>
-
-          <section><h2>Ideas for OnCourse</h2><ul class="ideas">${splitIdeas(s["Ideas for OnCourse"]).map((i) => { const [screen, text] = ideaParts(i); return `<li>${screen ? `<span class="screen">${esc(screen)}</span>` : ""}<span>${esc(text)}</span></li>`; }).join("")}</ul></section>
-
-          <section><h2>My notes</h2><textarea id="notes" rows="4" placeholder="What did you learn? What would you try?">${esc(notes[s.id] || "")}</textarea><p class="muted small">Saved in this browser.</p></section>
+          <section><h2>Ideas for OnCourse</h2><ul class="ideas">${splitIdeas(s["Ideas for OnCourse"]).map((i) => { const [screen, text] = ideaParts(i); return `<li>${screen ? `<span class="screen">${esc(screen)}</span>` : ""}${esc(text)}</li>`; }).join("")}</ul></section>
+          <section><h2>My notes</h2><textarea id="notes" placeholder="What did you learn? What would you try?">${esc(notes[s.id] || "")}</textarea><p class="muted small" style="margin-top:6px">Saved in this browser.</p></section>
         </div>
-
         <aside class="side">
-          ${start && start.why ? `<div class="panel start-here"><h3>If you have 5 minutes</h3><p>${esc(start.why)}</p>${start.t != null || start.anchor ? timeLink(s, start.t, start.anchor, start.t != null ? `Watch from ${approx(s)}${fmtT(start.t)}` : "Read this part") : ""}</div>` : ""}
-          ${chapters.length ? `<div class="panel"><h3>${isMedia ? "Chapters" : "Sections"} <span>${chapters.length}</span></h3><ol class="chapters ${chapters.some((c) => c.t != null) ? "" : "nums"}">${chapters.map((c, i) => chapterRow(s, c, i)).join("")}</ol></div>` : ""}
-          <div class="panel"><dl>
-            ${(s.Apps || []).length ? `<div><dt>Apps</dt><dd class="tags">${s.Apps.map((a) => `<a class="tag app" href="#/apps/${slug(a)}">${appMark(a, "xs")}${esc(a)}</a>`).join("")}</dd></div>` : ""}
-            ${(s.Tools || []).length ? `<div><dt>Tools they used</dt><dd class="tags">${s.Tools.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</dd></div>` : ""}
-            <div><dt>Topics</dt><dd class="tags">${(s.Topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</dd></div>
-            ${inLessons.length ? `<div><dt>In the course</dt><dd class="tags">${inLessons.map((l) => `<a class="tag app" href="#/course/${l.id}">${esc(l.title)}</a>`).join("")}</dd></div>` : ""}
-            ${s["Used in"] ? `<div><dt>Used in</dt><dd>${esc(s["Used in"])}</dd></div>` : ""}
-            <div><dt>Added</dt><dd class="small">${esc(s.Added || "")} · ${esc(s._ch)}</dd></div>
-          </dl></div>
+          ${(s.Apps || []).length ? `<div><h4>Apps</h4><div class="tags">${s.Apps.map((a) => `<a class="tag" href="#/apps/${slug(a)}">${appMark(a, "xs")}${esc(a)}</a>`).join("")}</div></div>` : ""}
+          ${(s.Tools || []).length ? `<div><h4>Tools they used</h4><div class="tags">${s.Tools.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div></div>` : ""}
+          ${(s.Topics || []).length ? `<div><h4>Topics</h4><div class="tags">${s.Topics.map((t) => `<a class="tag" href="#/sources" data-topic="${esc(t)}">${esc(t)}</a>`).join("")}</div></div>` : ""}
+          ${inLessons.length ? `<div><h4>In the course</h4><div class="tags">${inLessons.map((l) => `<a class="tag" href="#/course/${l.id}">${esc(l.title)}</a>`).join("")}</div></div>` : ""}
+          ${s["Used in"] ? `<div><h4>Used in</h4><p class="small">${esc(s["Used in"])}</p></div>` : ""}
+          ${related.length ? `<div><h4>Related</h4><div class="rel">${related.slice(0, 4).map((x) => `<a href="#/s/${x.id}">${plainThumb(x)}<span><b>${esc(x.Title)}</b><small>${esc(x._ch)}</small></span></a>`).join("")}</div></div>` : ""}
         </aside>
       </div>
-      ${related.length ? `<section class="related">${sectionHead("Related")}<div class="grid">${related.map(card).join("")}</div></section>` : ""}
-    `;
+
+      ${moreCh.length ? `<section class="sec">${secHead(`More from ${esc(s._ch)}`, "", shelfTools("sh-ch", `#/channels/${slug(s._ch)}`, "See all"))}${shelf("sh-ch", moreCh.map(card).join(""))}</section>` : ""}
+    </div>`;
 
     const player = document.getElementById("player");
+    const rows = [...app.querySelectorAll(".chlist [data-t]")];
     const play = (t) => {
-      app.querySelectorAll(".chip-ch").forEach((c) => c.classList.toggle("on", +c.dataset.t === Math.round(t || 0)));
+      rows.forEach((r) => r.classList.toggle("on", +r.dataset.t === Math.round(t || 0) && !r.classList.contains("best")));
       player.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${vid}?start=${Math.round(t || 0)}&autoplay=1&rel=0&modestbranding=1" title="${esc(s.Title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
-      player.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      const r = player.getBoundingClientRect();
+      if (r.top < 0 || r.bottom > innerHeight) player.scrollIntoView({ behavior: "smooth", block: "center" });
     };
-    const strip = app.querySelector(".ch-scroll");
-    if (strip) {
-      const arrows = app.querySelectorAll(".ch-arrow");
-      const sync = () => { arrows[0].disabled = strip.scrollLeft < 4; arrows[1].disabled = strip.scrollLeft + strip.clientWidth > strip.scrollWidth - 4; strip.classList.toggle("end", arrows[1].disabled); };
-      arrows.forEach((b) => b.onclick = () => strip.scrollBy({ left: +b.dataset.dir * strip.clientWidth * 0.8, behavior: "smooth" }));
-      strip.addEventListener("scroll", sync, { passive: true }); sync();
-    }
     if (vid && canEmbed) {
-      player.querySelector(".banner").onclick = () => play(startT);
+      const poster = document.getElementById("poster");
+      poster.onclick = () => play(startT);
+      poster.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); play(startT); } };
       app.querySelectorAll("[data-t]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); play(+a.dataset.t); }));
     }
-    document.getElementById("learn").onclick = () => {
+    app.querySelectorAll("[data-topic]").forEach((a) => a.onclick = () => Object.assign(filters, EMPTY, { topic: a.dataset.topic }));
+    document.getElementById("learn").onclick = (e) => {
+      const b = e.currentTarget;
       learned.has(s.id) ? learned.delete(s.id) : learned.add(s.id);
-      store.set("learned", [...learned]); renderSource(id);
+      store.set("learned", [...learned]);
+      b.setAttribute("aria-pressed", learned.has(s.id)); b.textContent = learned.has(s.id) ? "✓ Learned" : "Mark as learned";
     };
     const ta = document.getElementById("notes");
     ta.oninput = () => { notes[s.id] = ta.value; store.set("notes", notes); };
-    scrollTo(0, 0);
+    wireShelves();
+  }
+
+  // ---------- Course ----------
+  function renderCourse() {
+    const done = lessons.filter((l) => lessonDone(l) >= 1).length;
+    app.innerHTML = `<div class="enter">
+      <header class="page-head"><h1>The course</h1><p>Each lesson brings together what every source says about one topic, so you can learn it in ten minutes, and ends with what to try at OnCourse. ${done ? `${done} of ${lessons.length} done.` : ""}</p></header>
+      <div class="course-list">${lessons.map((l, i) => { const p = Math.round(lessonDone(l) * 100); return `<a class="lrow" href="#/course/${l.id}">
+        <span class="big">${String(i + 1).padStart(2, "0")}</span>
+        <div><h3>${esc(l.title)}</h3><p>${esc(l.summary)}</p>
+          <p class="meta">${l.ideas.length} ideas · ${lessonSources(l).length} sources${(l.examples || []).length ? ` · ${l.examples.length} app examples` : ""}${p ? ` · ${p}% learned` : ""}</p>
+          ${p ? `<div class="bar"><span style="width:${p}%"></span></div>` : ""}</div>
+        ${faces(l, 4)}
+      </a>`; }).join("")}</div>
+    </div>`;
+  }
+
+  function renderLesson(id) {
+    const i = lessons.findIndex((l) => l.id === id);
+    const l = lessons[i];
+    if (!l) return notFound("That lesson isn't in the course.");
+    const prev = lessons[i - 1], next = lessons[i + 1];
+    const srcs = lessonSources(l).map((x) => byId[x]);
+    app.innerHTML = `<div class="enter">
+      <div class="lesson">
+        <nav class="toc" aria-label="In this lesson">
+          <a class="back" href="#/course">← The course</a>
+          <h4>In this lesson</h4>
+          ${l.ideas.map((idea, k) => `<a href="#idea-${k}" data-idea="${k}">${k + 1}. ${esc(idea.heading)}</a>`).join("")}
+          ${(l.examples || []).length ? `<a href="#idea-ex" data-idea="ex">See it in real apps</a>` : ""}
+          <a href="#idea-try" data-idea="try">Try at OnCourse</a>
+        </nav>
+        <article>
+          <p class="eyebrow">Lesson ${i + 1} of ${lessons.length}</p>
+          <h1>${esc(l.title)}</h1>
+          <p class="lede">${esc(l.summary)}</p>
+          ${l.ideas.map((idea, k) => `<section class="idea" id="idea-${k}">
+            <h2><span class="num">${k + 1}</span>${esc(idea.heading)}</h2>
+            <p>${esc(idea.body)}</p>
+            <div class="cites">${idea.sourceIds.filter((sid) => byId[sid]).map((sid) => { const s = byId[sid]; return `<a class="cite" href="#/s/${sid}">${citeThumb(s)}<b>${esc((s.Apps || [])[0] || s._ch)} · ${esc(s.Title)}</b></a>`; }).join("")}</div>
+          </section>`).join("")}
+          ${(l.examples || []).length ? `<section class="examples" id="idea-ex"><h2>See it in real apps</h2>
+            <div class="ex-grid">${l.examples.map((e) => `<a class="ex" href="${esc(e.url)}" target="_blank" rel="noopener">${appMark(e.app, "big")}<div><b>${esc(e.app)}</b><p>${esc(e.note)}</p><span class="go">Open on Mobbin ↗</span></div></a>`).join("")}</div>
+          </section>` : ""}
+          <section class="try" id="idea-try"><h2>Try at OnCourse</h2>
+            <ul>${(l.try || []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+            <p class="muted small">To prototype one, run <code>/product-design &lt;idea&gt;</code>.</p>
+          </section>
+          <nav class="pager">
+            ${prev ? `<a href="#/course/${prev.id}"><small>← Previous</small><b>${esc(prev.title)}</b></a>` : "<span></span>"}
+            ${next ? `<a href="#/course/${next.id}"><small>Next →</small><b>${esc(next.title)}</b></a>` : ""}
+          </nav>
+        </article>
+      </div>
+      <section class="sec">${secHead("Sources in this lesson", plural(srcs.length, "source"), shelfTools("sh-ls"))}${shelf("sh-ls", srcs.map(card).join(""))}</section>
+    </div>`;
+    // in-page links without touching the hash route
+    app.querySelectorAll(".toc [data-idea]").forEach((a) => a.onclick = (e) => { e.preventDefault(); document.getElementById("idea-" + a.dataset.idea)?.scrollIntoView({ behavior: "smooth", block: "start" }); });
+    const tocLinks = [...app.querySelectorAll(".toc [data-idea]")];
+    const io = new IntersectionObserver((es) => es.forEach((en) => { if (en.isIntersecting) tocLinks.forEach((a) => a.classList.toggle("on", "idea-" + a.dataset.idea === en.target.id)); }), { rootMargin: "-20% 0px -70% 0px" });
+    app.querySelectorAll(".idea, #idea-ex, #idea-try").forEach((el) => io.observe(el));
+    wireShelves();
   }
 
   // ---------- Apps ----------
   const apps = [...new Set(sources.flatMap((s) => s.Apps || []))]
     .map((name) => ({ name, id: slug(name), items: sources.filter((s) => (s.Apps || []).includes(name)) }))
     .sort((a, b) => b.items.length - a.items.length || a.name.localeCompare(b.name));
+  let appSort = "count";
   function renderApps() {
-    app.innerHTML = `
-      <section class="intro"><h1>Apps</h1><p>What each app changed, and what happened, across every source.</p></section>
-      <div class="app-grid">${apps.map((a) => {
+    const list = appSort === "az" ? [...apps].sort((a, b) => a.name.localeCompare(b.name)) : apps;
+    app.innerHTML = `<div class="enter">
+      <header class="page-head"><h1>Apps</h1><p>What each of ${apps.length} apps changed, and what happened, across every source.</p></header>
+      <div class="seg" role="group" aria-label="Sort apps"><button type="button" data-as="count" class="${appSort === "count" ? "on" : ""}">Most covered</button><button type="button" data-as="az" class="${appSort === "az" ? "on" : ""}">A to Z</button></div>
+      <div class="app-grid">${list.map((a) => {
         const results = a.items.filter((s) => s.Results && tested(s)).length;
-        return `<a class="app-card" href="#/apps/${a.id}">${appMark(a.name, "big")}<div><h3>${esc(a.name)}</h3><p class="muted small">${a.items.length} source${a.items.length > 1 ? "s" : ""}${results ? ` · ${results} tested` : ""}</p></div></a>`;
-      }).join("")}</div>`;
+        return `<a class="app-card" href="#/apps/${a.id}">${appMark(a.name, "big")}<div><h3>${esc(a.name)}</h3><p>${plural(a.items.length, "source")}${results ? ` · ${results} tested` : ""}</p></div></a>`;
+      }).join("")}</div>
+    </div>`;
+    app.querySelectorAll("[data-as]").forEach((b) => b.onclick = () => { appSort = b.dataset.as; renderApps(); });
   }
   function renderApp(id) {
     const a = apps.find((x) => x.id === id);
     if (!a) return notFound("That app isn't in the library.");
-    app.innerHTML = `
+    const t = a.items.filter(tested).length;
+    app.innerHTML = `<div class="enter">
       <a class="back" href="#/apps">← All apps</a>
-      <section class="intro"><div class="app-title">${appMark(a.name, "big")}<h1>${esc(a.name)}</h1></div>
-      <p>Everything the library says ${esc(a.name)} tried, with what happened.</p></section>
-      <div class="grid" style="margin-bottom:64px">${a.items.map(card).join("")}</div>`;
-    scrollTo(0, 0);
+      <header class="hero-id">${appMark(a.name, "xl")}<div><h1>${esc(a.name)}</h1><p>Everything the library says ${esc(a.name)} tried, with what happened.</p>
+        <div class="facts"><span>${plural(a.items.length, "source")}</span>${t ? `<span>${t} tested</span>` : ""}</div></div></header>
+      <div class="grid">${a.items.map(card).join("")}</div>
+    </div>`;
   }
 
   // ---------- Experiments ----------
   function renderExperiments() {
     const byWeek = [...experiments].sort((a, b) => String(b.Week).localeCompare(String(a.Week)));
-    app.innerHTML = `
-      <section class="intro"><h1>Weekly experiments</h1><p>One or two ideas a week, picked from the sources and OnCourse's own data.</p></section>
-      ${byWeek.length ? `<section class="exp-list">${byWeek.map((e) => `
-        <article class="exp">
-          <div class="meta"><span class="status">${esc(e.Status || "Proposed")}</span><span class="muted">Week of ${esc(e.Week || "")} · ${esc(e.Area || "")} · ${esc(e.Goal || "")}</span>${e.Effort ? `<span class="muted">Effort ${esc(e.Effort)}</span>` : ""}</div>
-          <h3>${esc(e.Experiment)}</h3>
-          <p>${esc(e.Hypothesis)}</p>
-          ${e.Data ? `<p class="small"><strong>Data:</strong> ${esc(e.Data)}</p>` : ""}
-          ${e["Based on"] ? `<p class="small"><strong>Based on:</strong> ${esc(e["Based on"])}</p>` : ""}
-          ${e.Result ? `<p class="callout"><strong>Result:</strong> ${esc(e.Result)}</p>` : ""}
-        </article>`).join("")}</section>` :
-      `<div class="empty"><p><strong>No experiments yet.</strong></p><p class="muted">Ask your agent for "this week's design experiments". It finds the biggest leak in PostHog, matches it to what other apps did, and proposes one or two to try.</p><a class="btn" href="#/course">Browse the course</a></div>`}`;
+    app.innerHTML = `<div class="enter">
+      <header class="page-head"><h1>Weekly experiments</h1><p>One or two ideas a week, picked from the sources and OnCourse's own data.</p></header>
+      ${byWeek.length ? `<div class="stack">${byWeek.map((e) => `<article class="box">
+        <p class="eyebrow">${esc(e.Status || "Proposed")} · Week of ${esc(e.Week || "")} · ${esc(e.Area || "")}${e.Goal ? ` · ${esc(e.Goal)}` : ""}${e.Effort ? ` · Effort ${esc(e.Effort)}` : ""}</p>
+        <h3 style="margin-top:8px">${esc(e.Experiment)}</h3>
+        <p>${esc(e.Hypothesis)}</p>
+        ${e.Data ? `<p class="small"><strong>Data:</strong> ${esc(e.Data)}</p>` : ""}
+        ${e["Based on"] ? `<p class="small"><strong>Based on:</strong> ${esc(e["Based on"])}</p>` : ""}
+        ${e.Result ? `<div class="callout" style="margin-top:12px"><h3>Result</h3><p>${esc(e.Result)}</p></div>` : ""}
+      </article>`).join("")}</div>` :
+      `<div class="box" style="max-width:640px"><h3>No experiments yet</h3><p>Ask your agent for "this week's design experiments". It finds the biggest leak in PostHog, matches it to what other apps did, and proposes one or two to try.</p><p style="margin-top:14px"><a class="btn" href="#/course">Browse the course</a></p></div>`}
+    </div>`;
   }
 
   // ---------- Use with your agent ----------
@@ -22531,16 +22806,15 @@ window.LIBRARY = {
       ["This week's experiments", "Give me this week's design experiments from the design library and PostHog."],
       ["Design with it", "/product-design <idea> (it checks the design library during the evidence step)"],
     ];
-    app.innerHTML = `
-      <section class="intro"><h1>Use it with your agent</h1>
-      <p>The library is the <code>design-library</code> skill in Claude Code, Cursor and Codex, so any agent can read it, add to it and use it while designing.</p></section>
-      <div class="prompt-list">${prompts.map(([t, p], i) => `
-        <div class="prompt"><div><h3>${esc(t)}</h3><p><code>${esc(p)}</code></p></div><button type="button" class="btn" data-copy="${i}">Copy</button></div>`).join("")}</div>
-      <section class="try"><h3>Where it lives</h3><ul>
+    app.innerHTML = `<div class="enter">
+      <header class="page-head"><h1>Use it with your agent</h1><p>The library is the <code>design-library</code> skill in Claude Code, Cursor and Codex, so any agent can read it, add to it and use it while designing.</p></header>
+      <div class="stack">${prompts.map(([t, p], i) => `<div class="box prompt"><div><h3>${esc(t)}</h3><code>${esc(p)}</code></div><button type="button" class="btn" data-copy="${i}">Copy</button></div>`).join("")}</div>
+      <section class="try" style="max-width:860px"><h2>Where it lives</h2><ul>
         <li><code>~/Documents/design-library/data/sources.json</code>: the sources (the agent edits this)</li>
         <li><code>~/Documents/design-library/data/lessons.json</code>: the course</li>
         <li><a class="link" href="https://github.com/sainath-oncourse/design-library" target="_blank" rel="noopener">github.com/sainath-oncourse/design-library</a>: every push updates this site</li>
-      </ul></section>`;
+      </ul></section>
+    </div>`;
     app.querySelectorAll("[data-copy]").forEach((b) => b.onclick = async () => {
       try { await navigator.clipboard.writeText(prompts[+b.dataset.copy][1]); b.textContent = "Copied"; setTimeout(() => (b.textContent = "Copy"), 1500); } catch { b.textContent = "Select and copy"; }
     });
@@ -22550,26 +22824,56 @@ window.LIBRARY = {
     app.innerHTML = `<div class="empty"><p><strong>${esc(msg)}</strong></p><a class="btn" href="#/">Back home</a></div>`;
   }
 
+  // ---------- shell: nav ----------
+  const NAV = [
+    ["home", "Home", "#/", SVG.home],
+    ["course", "Course", "#/course", SVG.course, lessons.length],
+    ["sources", "Library", "#/sources", SVG.library, sources.length],
+    ["channels", "Channels", "#/channels", SVG.channels, channels.length],
+    ["apps", "Apps", "#/apps", SVG.apps, apps.length],
+    ["experiments", "Experiments", "#/experiments", SVG.flask],
+  ];
+  document.getElementById("sidenav").innerHTML = NAV.map(([k, label, href, icon, n]) => `<a class="side-link" data-tab="${k}" href="${href}">${icon}<span>${label}</span>${n ? `<span class="n">${n}</span>` : ""}</a>`).join("");
+  document.getElementById("tabbar").innerHTML = NAV.slice(0, 5).map(([k, label, href, icon]) => `<a data-tab="${k}" href="${href}">${icon}<span>${label}</span></a>`).join("");
+  document.getElementById("sidechannels").innerHTML = channels.map((c) => `<a class="side-link" data-ch="${c.id}" href="#/channels/${c.id}">${channelMark(c.name)}<span>${esc(c.name)}</span><span class="n">${c.items.length}</span></a>`).join("");
+  const gq = document.getElementById("gq");
+  document.getElementById("gsearch").onsubmit = (e) => { e.preventDefault(); Object.assign(filters, EMPTY, { q: gq.value.trim() }); gq.value = ""; gq.blur(); if (location.hash === "#/sources") go(); else location.hash = "#/sources"; };
+  addEventListener("keydown", (e) => { if (e.key === "/" && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); (document.getElementById("q") || gq).focus(); } });
+
   // ---------- router ----------
-  function route() {
+  function render() {
     const h = location.hash || "#/";
-    const tab = h.startsWith("#/course") ? "course" : h.startsWith("#/s") ? "sources" : h.startsWith("#/apps") ? "apps" : h.startsWith("#/experiments") ? "experiments" : h.startsWith("#/agent") ? "agent" : "ask";
+    const tab = h.startsWith("#/course") ? "course" : h.startsWith("#/s") ? "sources" : h.startsWith("#/channels") ? "channels" : h.startsWith("#/apps") ? "apps" : h.startsWith("#/experiments") ? "experiments" : h.startsWith("#/agent") ? "agent" : "home";
     document.querySelectorAll("[data-tab]").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
-    const [, , a, b] = h.split("/");
-    if (h.startsWith("#/course/") && b === undefined && a) renderLesson(decodeURIComponent(a));
+    const [, , a] = h.split("/");
+    document.querySelectorAll("[data-ch]").forEach((x) => x.classList.toggle("active", h.startsWith("#/channels/") && x.dataset.ch === a));
+    const id = a && decodeURIComponent(a);
+    if (h.startsWith("#/course/") && id) renderLesson(id);
     else if (h.startsWith("#/course")) renderCourse();
-    else if (h.startsWith("#/s/")) renderSource(decodeURIComponent(a));
+    else if (h.startsWith("#/s/")) renderSource(id);
     else if (h.startsWith("#/sources")) renderSources();
-    else if (h.startsWith("#/apps/")) renderApp(decodeURIComponent(a));
+    else if (h.startsWith("#/channels/") && id) renderChannel(id);
+    else if (h.startsWith("#/channels")) renderChannels();
+    else if (h.startsWith("#/apps/") && id) renderApp(id);
     else if (h.startsWith("#/apps")) renderApps();
     else if (h.startsWith("#/experiments")) renderExperiments();
     else if (h.startsWith("#/agent")) renderAgent();
     else renderHome();
-    if (!h.startsWith("#/s/") && !h.startsWith("#/course/") && !h.startsWith("#/apps/")) scrollTo(0, 0);
+    const t = { course: "Course", sources: "Library", channels: "Channels", apps: "Apps", experiments: "Experiments", agent: "Use with your agent" }[tab];
+    const h1 = app.querySelector("h1")?.textContent;
+    document.title = h1 && tab !== "home" ? `${h1} · Design library` : t ? `${t} · Design library` : "Design library";
+    scrollTo({ top: 0, behavior: "instant" });
+  }
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function go() {
+    if (document.startViewTransition && !reduce) {
+      app.classList.add("vt");
+      document.startViewTransition(() => { render(); app.querySelector(".enter")?.classList.remove("enter"); });
+    } else render();
   }
   document.getElementById("foot").innerHTML = `Updated ${built} · Notes written by an agent from each source; the videos, podcasts and articles belong to their creators.`;
-  addEventListener("hashchange", route);
-  route();
+  addEventListener("hashchange", go);
+  render();
 })();
 </script>
 </body>
