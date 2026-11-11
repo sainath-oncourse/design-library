@@ -1,945 +1,1228 @@
 [
-  {
-    "id": "onboarding-activation",
-    "title": "Onboarding and activation",
-    "topics": [
-      "Onboarding"
-    ],
-    "summary": "Get a new learner doing the real task, a real question set, while motivation is highest, and ask for everything else later. The apps that did this saw the biggest jumps.",
-    "ideas": [
-      {
-        "heading": "Do the real task before asking for anything",
-        "body": "Duolingo moved sign-up behind the first lesson and DAU rose about 20%. Making the later sign-up walls skippable added 8.2% more.",
-        "sources": [
-          "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
-        ]
-      },
-      {
-        "heading": "A few questions create a sense of fit",
-        "body": "Headspace doubled course starts (31% to 63%) by asking a short quiz, then starting the course inside onboarding, even when everyone got the same course.",
-        "sources": [
-          "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
-        ]
-      },
-      {
-        "heading": "One scary word can block a step",
-        "body": "Duolingo's placement test was skipped by experienced learners because of the word 'test'. Rewording it doubled placement tests taken and lifted retention. Twilio's first checklist step, 'get a phone number', scared developers new to telecom. Tucking it inside a familiar code sample converted better.",
-        "sources": [
-          "Lessons from Asia: turning local research into global experiments",
-          "Career frameworks, A/B testing, onboarding tips, selling to engineers (Laura Schaffer)"
-        ]
-      },
-      {
-        "heading": "Make goal questions multi-select",
-        "body": "Headspace changed 'What brings you here?' from one answer to several: less drop-off and more trial starts.",
-        "sources": [
-          "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel"
-        ]
-      },
-      {
-        "heading": "Length is a trade-off, so test the middle",
-        "body": "Longer onboarding helped Headspace's week-1 engagement but cut conversion, and very short hurt too. FitnessAI found motivated buyers dropping out of long onboarding before they ever saw the paywall.",
-        "sources": [
-          "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel",
-          "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
-        ]
-      },
-      {
-        "heading": "Activation fades if the way back is busy",
-        "body": "Headspace's onboarding wins didn't change how often people meditated later. The return path (Home) has to lead straight back to the task.",
-        "sources": [
-          "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
-        ]
-      },
-      {
-        "heading": "Easy benefit questions convert, open text doesn't",
-        "body": "Questions that make people think about what they'll get raised Trunk Club's conversion 133%. Removing one open-text field raised conversion 40% page over page. Noom's very long onboarding works because it explains why it asks each question. Twilio added four signup questions with no personalisation behind them and signups improved 5%, because they told people they were in the right place. Givebutter found one-tap options beat a dropdown plus yes/no, though none of its three versions succeeded.",
-        "sources": [
-          "Using behavioral science to improve your product (Kristen Berman, Irrational Labs)",
-          "The Longest Onboarding Ever (Noom)",
-          "Career frameworks, A/B testing, onboarding tips, selling to engineers (Laura Schaffer)",
-          "AI Native Designer shows his Growth Design Process (Clint, Givebutter)"
-        ]
-      },
-      {
-        "heading": "Give the first plan free, then ask",
-        "body": "BoldVoice found forcing a trial raised trial starts but refunds rose faster. It now gives the assessment and the whole first daily plan free before the trial. Mimo doubled trial opt-in with an honest trial screen in onboarding.",
-        "sources": [
-          "Why BoldVoice charged from day 1 and ignored the Duolingo freemium playbook (Anada Lakra)",
-          "This is not a playbook: how Mimo grew customer LTV by 65%"
-        ]
-      },
-      {
-        "heading": "Place people at the right level",
-        "body": "Duolingo says landing each learner at the right level 'certainly helps retention'. It also lost Indian users by defaulting to the wrong language.",
-        "sources": [
-          "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
-          "Scaling Duolingo, embracing failure, and insight into Latin America's tech scene (Gina Gotthilf)",
-          "Lessons from Asia: turning local research into global experiments"
-        ]
-      },
-      {
-        "heading": "Build something real, not a tooltip tour",
-        "body": "Airtable retired most tooltips for a wizard of simple button questions that builds the user's workflow as they answer. With personalisation by learning style and a tips panel, activation rose 20% over about six to eight months. Kate Syuma found more than 60% of 80+ companies still rely on step-by-step tooltips. Airbnb's short welcome tour is built from a screenshot of the user's own screen.",
-        "sources": [
-          "Mastering onboarding (Lauryn Isford)",
-          "Designing with a growth mindset (Kate Syuma)",
-          "How Airbnb innovates with design (Teo Connor)",
-          "How to grow a subscription business (Yuriy Timen)"
-        ]
-      },
-      {
-        "heading": "Carry the promise that brought them in",
-        "body": "Swiggy stopped opening with 'here is everything we do' and carried the exact offer from the ad into the splash and onboarding, framed as 'what is in it for you'. Jupiter Money introduces its next product only after people find value in the first. At Patreon, human coaching for high-potential creators lifted first or second month revenue by 25%; the team then built those steps into opinionated defaults.",
-        "sources": [
-          "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart) (Anuj Rathi)",
-          "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods) (Adam Fishman)"
-        ]
-      },
-      {
-        "heading": "Friction is fine if it leads to an early win",
-        "body": "Etsy first opened seller shops as fast as possible, which hurt sellers getting a first sale. Adding friction that made sellers more thoughtful got them to a first sale faster. Adam Fishman expects onboarding conversion to dip a little when retention rises, and judges changes on fast proxies like speed to first patron.",
-        "sources": [
-          "Nickey Skarstad (Airbnb, Etsy, Shopify, Duolingo) on translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more (Nickey Skarstad)",
-          "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods) (Adam Fishman)"
-        ]
-      },
-      {
-        "heading": "Anything before sign-up costs sign-ups",
-        "body": "Retro's 7-second intro before sign-up 'lost like 20% or 30% of signups', so the team made it easy to skip and made it respect the mute switch. Miro removed an animated preview from sign-up because people tried to play with it and dropped at each step; removing it 'worked way better'.",
-        "sources": [
-          "Make your designs memorable (Rafa Conde)",
-          "Designing with a growth mindset (Kate Syuma)"
-        ]
-      },
-      {
-        "heading": "Define activation from the people who stay",
-        "body": "Kate Syuma works back from retained or paying users to the early actions they share, and keeps the aha moment simple. Lauryn Isford suggests a good activation metric is one only 'five to 15%' of users reach. Instagram first logged all 8 sign-up steps to find drop-offs; recommending real friends first at sign-up doubled retention over a year and a half.",
-        "sources": [
-          "Designing with a growth mindset (Kate Syuma)",
-          "Mastering onboarding (Lauryn Isford)",
-          "Unorthodox frameworks for growing your product, career, and impact (Bangaly Kaba)"
-        ]
-      }
-    ],
-    "try": [
-      "Ask 3 questions (exam and date, weakest subject, daily minutes), then start a first question set in that subject inside onboarding.",
-      "Move the account step after the first session: 'Save your progress', with a soft 'Later'.",
-      "On return, open Home with one 'Continue today's plan' card.",
-      "Rename anything that sounds like an exam in onboarding ('Quick check of what you know', not 'Test').",
-      "Replace open-text onboarding questions with tap choices about the learner's goal.",
-      "Log every onboarding step in PostHog, and carry the promise from the ad or store page into the first screen."
+ {
+  "id": "onboarding-activation",
+  "title": "Onboarding and activation",
+  "topics": [
+   "Onboarding"
+  ],
+  "summary": "Get a new learner doing the real task, a real question set, while motivation is highest, and ask for everything else later. The apps that did this saw the biggest jumps.",
+  "ideas": [
+   {
+    "heading": "Do the real task before asking for anything",
+    "body": "Duolingo moved sign-up behind the first lesson and DAU rose about 20%. Making the later sign-up walls skippable added 8.2% more.",
+    "sources": [
+     "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
     ]
-  },
-  {
-    "id": "learning-design",
-    "title": "Practice and learning design",
-    "topics": [
-      "Practice",
-      "Lessons",
-      "Home"
-    ],
-    "summary": "How the best learning apps design the study session itself: one clear path, honest difficulty, and words that make effort feel worth it.",
-    "ideas": [
-      {
-        "heading": "One guided path beats a menu",
-        "body": "Duolingo replaced a choose-your-own skill tree with one guided path because learners weren't sure they were using the app right. Headspace replaced category tabs with a Today tab of one-tap activities. Make Time's system starts each day with one Highlight, given a 60 to 90 minute block.",
-        "sources": [
-          "Duolingo's new learning path (new home screen design)",
-          "Behind the Design: Headspace",
-          "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
-          "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC) (Jake Knapp and John Zeratsky)"
-        ]
-      },
-      {
-        "heading": "Tell learners when it's hard",
-        "body": "Labelling hard questions, and showing a level-up card, made Duolingo learners study longer, take on harder content and come back more.",
-        "sources": [
-          "How lesson transparency helps learners reach their goals"
-        ]
-      },
-      {
-        "heading": "One sentence about effort",
-        "body": "A growth-mindset line above practice problems raised mastery about 3% on Khan Academy; generic 'do your best' did nothing. Duolingo's owl coach copy lifted D14 7.2%.",
-        "sources": [
-          "Growing a Mindset with the Right Words (Khan Academy x PERTS experiment)",
-          "Scaled-Up Social Psychology (Chapter 5: growth mindset messages in Khan Academy fractions exercises)",
-          "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
-        ]
-      },
-      {
-        "heading": "Protect beginners from early failure",
-        "body": "At Chess.com fewer than a third of new users win their first game, and losing early drives them away. Easy early wins keep beginners going.",
-        "sources": [
-          "Finding hidden growth opportunities in your product (Albert Cheng: Duolingo, Grammarly, Chess.com)"
-        ]
-      },
-      {
-        "heading": "End every session with a celebration",
-        "body": "Duolingo's core loop is a lesson on the path with a celebration at the end.",
-        "sources": [
-          "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
-          "How Duolingo's streak builds habit"
-        ]
-      },
-      {
-        "heading": "Make the core action fun, not just rewarded",
-        "body": "Superhuman uses game design instead of points and badges: its snooze field accepts playful input like 'in a fortnight and a day', so people explore it for fun. Rahul Vohra cites a Stanford study where children expecting a reward spent 8% of their time drawing, against 17% with no reward.",
-        "sources": [
-          "Superhuman's secret to success | Rahul Vohra (CEO and founder) (Rahul Vohra)"
-        ]
-      },
-      {
-        "heading": "Make the repeat action one tap",
-        "body": "At Instacart, 'after five times... 90% of your order was the same', but reordering took 7 or 8 clicks and was all-or-nothing. So they made reordering easy.",
-        "sources": [
-          "Unorthodox frameworks for growing your product, career, and impact (Bangaly Kaba)"
-        ]
-      }
-    ],
-    "try": [
-      "Today's plan as one guided path, with the next session obvious.",
-      "A 'Tough one' label on hard questions and a short growth-mindset line after wrong answers.",
-      "Start new learners on easier questions so the first session ends with a win.",
-      "A one-tap 'Repeat yesterday's set' or 'Redo my wrong answers' on Home."
+   },
+   {
+    "heading": "A few questions create a sense of fit",
+    "body": "Headspace doubled course starts (31% to 63%) by asking a short quiz, then starting the course inside onboarding, even when everyone got the same course.",
+    "sources": [
+     "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
     ]
-  },
-  {
-    "id": "streaks-habit",
-    "title": "Streaks and habit",
-    "topics": [
-      "Progress & streaks",
-      "Gamification"
-    ],
-    "summary": "A streak works when the rule is simple, it's explained the moment it starts, the learner chooses the goal, and missing a day is forgivable. Duolingo has tested all of this at scale.",
-    "ideas": [
-      {
-        "heading": "Explain the streak in one line when it starts",
-        "body": "An explanation of about eight words added more than 10,000 daily users at Duolingo, one of its top three retention wins.",
-        "sources": [
-          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
-        ]
-      },
-      {
-        "heading": "Make keeping the streak easy",
-        "body": "Letting one lesson extend the streak, instead of hitting a daily goal, raised day-14 retention 3.3% and the share of learners on a streak 19% among new learners.",
-        "sources": [
-          "Improving the streak: Forming habits one lesson at a time"
-        ]
-      },
-      {
-        "heading": "Simple rule, but not trivially easy",
-        "body": "Changing the rule to 'one lesson' helped; making it 'one exercise counts' moved nothing and was shut down.",
-        "sources": [
-          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
-        ]
-      },
-      {
-        "heading": "Let learners choose the goal",
-        "body": "A streak-goal picker with 'Commit to my goal' was a big win; preselecting a harder goal lost.",
-        "sources": [
-          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
-        ]
-      },
-      {
-        "heading": "Celebrate every extension",
-        "body": "Streak animations raised the share of new learners still active on day 7 by 1.7%. Learners who reach a 7-day streak are 3.6x more likely to finish their course.",
-        "sources": [
-          "How Duolingo's streak builds habit"
-        ]
-      },
-      {
-        "heading": "Forgiveness, free and early",
-        "body": "Holding two freezes instead of one raised daily actives; a third added nothing. 'Earn back' beat paying to repair, and a weekend amulet lifted D7 and D14. Make Time's rule for a missed day: try again tomorrow.",
-        "sources": [
-          "How Duolingo's streak builds habit",
-          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
-          "The Tenets of A/B Testing from Duolingo's Master Growth Hacker",
-          "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC) (Jake Knapp and John Zeratsky)"
-        ]
-      },
-      {
-        "heading": "Retention of current learners is the big lever",
-        "body": "Duolingo found the current-user retention rate had 5x the impact of any other metric on DAU, and built leagues and the streak saver around it.",
-        "sources": [
-          "How Duolingo reignited user growth"
-        ]
-      },
-      {
-        "heading": "A broken streak can push people away",
-        "body": "Highlighting a broken streak lowered how many people continued (45% vs 61%). Letting them repair it recovered most of the loss (85% vs 69%).",
-        "sources": [
-          "On or Off Track: How (Broken) Streaks Affect Consumer Decisions"
-        ]
-      },
-      {
-        "heading": "Bets and planned breaks",
-        "body": "Duolingo's streak wager raised day-7 retention 14%. Learners offered a weekend break were 4% more likely to return a week later.",
-        "sources": [
-          "How Streaks keep Duolingo learners committed to their language goals (Streak Wager and Weekend Amulet)"
-        ]
-      },
-      {
-        "heading": "Streaks with a friend",
-        "body": "Learners with a friend streak are 22% more likely to do their daily lesson (correlation). The lever is getting the first invite sent.",
-        "sources": [
-          "5 product lessons we learned from building Friend Streak",
-          "Kudos make you run! How runners influence each other on the online social network Strava"
-        ]
-      },
-      {
-        "heading": "Reward the comeback, not just the run",
-        "body": "In a 53-nudge megastudy, the best was a small bonus for returning right after a missed session (+27% visits). Almost no effect lasted after the programme ended.",
-        "sources": [
-          "Megastudies improve the impact of applied behavioural science (StepUp megastudy with 24 Hour Fitness)"
-        ]
-      },
-      {
-        "heading": "Points you can lose and small leagues",
-        "body": "In a trial, losable points, levels and a small weekly leaderboard raised activity most, and competition was the only design whose effect lasted. Sweatcoin found a growing balance beats a counter that resets daily.",
-        "sources": [
-          "Effectiveness of Behaviorally Designed Gamification Interventions With Social Incentives for Increasing Physical Activity (STEP UP trial)",
-          "How to Turn Gamification Into a Retention Powerhouse (Anton Derlyatka, Sweatcoin)"
-        ]
-      },
-      {
-        "heading": "Habits take months, not 21 days",
-        "body": "Gym habits typically took months to form; time since the last visit was the strongest predictor of the next.",
-        "sources": [
-          "What can machine learning teach us about habit formation? Evidence from exercise and hygiene"
-        ]
-      },
-      {
-        "heading": "Saved history brings people back",
-        "body": "Seeing people save snaps to their camera roll gave Snapchat more conviction to build Memories, though Jack Brody says it 'didn't necessarily come from' that; its flashbacks became a reason people still open the app every day. Etsy built its habit loop around Favorites: an updates feed plus pushes when a favorited item goes on sale or is about to sell out.",
-        "sources": [
-          "Designing Snapchat and the future of music (Jack Brody)",
-          "Inside Etsy's product, growth, and marketplace evolution (Tim Holley)"
-        ]
-      }
-    ],
-    "try": [
-      "After the first question set: 'Do one study session a day to grow your streak.'",
-      "A streak goal picker (7, 14 or 30 days) with 'Commit to my goal'.",
-      "Two free freezes on a new streak; 'Do 2 sessions today to earn it back' after a miss.",
-      "A streak animation after the day's first study, bigger at 3, 7, 14 and 30 days.",
-      "After a missed day, show 'Repair your streak' with one easy session, never a big broken counter."
+   },
+   {
+    "heading": "One scary word can block a step",
+    "body": "Duolingo's placement test was skipped by experienced learners because of the word 'test'. Rewording it doubled placement tests taken and lifted retention. Twilio's first checklist step, 'get a phone number', scared developers new to telecom. Tucking it inside a familiar code sample converted better.",
+    "sources": [
+     "Lessons from Asia: turning local research into global experiments",
+     "Career frameworks, A/B testing, onboarding tips, selling to engineers (Laura Schaffer)"
     ]
-  },
-  {
-    "id": "reminders",
-    "title": "Reminders and notifications",
-    "topics": [
-      "Notifications"
-    ],
-    "summary": "Ask for a reminder right after the first success, let the learner pick the time, and judge copy by what gets people to study, not by opens.",
-    "ideas": [
-      {
-        "heading": "Ask right after the first success",
-        "body": "Calm's reminder sat in Settings, found by under 1%. A prompt after the first session got 40% to set one, and they retained about 3x better.",
-        "sources": [
-          "Learn How Calm Increased Retention 3X With Product Intelligence"
-        ]
-      },
-      {
-        "heading": "Copy alone moves daily users",
-        "body": "Duolingo's winning reminder copy alone added 5% DAU. A red badge dot on the app icon added 6%.",
-        "sources": [
-          "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
-        ]
-      },
-      {
-        "heading": "Rotate copy, and don't repeat it",
-        "body": "Duolingo picks each learner's reminder by what gets lessons finished, and penalises recently seen ones so they stay fresh.",
-        "sources": [
-          "Hi, it's Duo: The AI behind the meme"
-        ]
-      },
-      {
-        "heading": "Time it to the habit",
-        "body": "Practice reminders go out 23.5 hours after the last session; the streak saver at 10 PM only if today isn't done. Sending more needed the CEO's sign-off.",
-        "sources": [
-          "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
-          "How Duolingo reignited user growth"
-        ]
-      },
-      {
-        "heading": "Win-back has a short window",
-        "body": "After 3–4 days away, a daily-habit user is hard to win back. Duolingo uses the first week of reminders, then weekly email, then friends as reasons to return.",
-        "sources": [
-          "How to Time Reactivation Campaigns for Maximum Impact (Jackson Shuttleworth, Duolingo)",
-          "Finding hidden growth opportunities in your product (Albert Cheng: Duolingo, Grammarly, Chess.com)"
-        ]
-      },
-      {
-        "heading": "Messages that know what happened",
-        "body": "8fit's streak messages changed depending on whether the streak was kept or broken, across push, email and in-app: weekly class views rose 40%.",
-        "sources": [
-          "Fitness and Nutrition App 8fit Leverages Braze to Promote User Workout Streaks"
-        ]
-      },
-      {
-        "heading": "Push about something the learner saved",
-        "body": "Etsy sends a push when a favorited item goes on sale or is about to sell out. Tim Holley says retention tests need 30, 60 or 90-day windows, not one session.",
-        "sources": [
-          "Inside Etsy's product, growth, and marketplace evolution (Tim Holley)"
-        ]
-      }
-    ],
-    "try": [
-      "After the first question set: 'When do you want to study each day?' with a time picker, then the push permission.",
-      "10–15 reminder versions rotated without repeats, judged by sessions started.",
-      "A 10 PM streak saver only when today's plan isn't done.",
-      "A lapsed-learner sequence: day 1–3 personal reminders, then weekly, then a 'start fresh' plan."
+   },
+   {
+    "heading": "Make goal questions multi-select",
+    "body": "Headspace changed 'What brings you here?' from one answer to several: less drop-off and more trial starts.",
+    "sources": [
+     "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel"
     ]
-  },
-  {
-    "id": "paywall-trial",
-    "title": "Paywall and trial",
-    "topics": [
-      "Paywall"
-    ],
-    "summary": "More people need to see the paywall, it should build the value case before the price, and being honest about the trial converts better than hiding it.",
-    "ideas": [
-      {
-        "heading": "Most users never see a late paywall",
-        "body": "FitnessAI moved its paywall before onboarding: installs reaching it went from about 40% to 85%, and revenue doubled. Rootd did the same and revenue rose 5x.",
-        "sources": [
-          "8 paywall test ideas to grow app revenue",
-          "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
-        ]
-      },
-      {
-        "heading": "Value first, price last",
-        "body": "A three-card value story before the paywall took trial opt-in from 2% to 15% in one test. Speak4Me's three-step paywall beat a single screen by 27%.",
-        "sources": [
-          "What the best subscription apps get right about paywalls",
-          "Speak4Me: 27% higher conversion with a multi-step Duolingo-style paywall"
-        ]
-      },
-      {
-        "heading": "Honest trials convert",
-        "body": "Blinkist's paywall with a trial timeline and a promise to remind before billing raised conversion 23% and cut complaints 55%. Pepper's day-by-day timeline lifted lifetime value by half.",
-        "sources": [
-          "What the best subscription apps get right about paywalls",
-          "Pepper: 50% lifetime value increase with a timeline paywall",
-          "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
-        ]
-      },
-      {
-        "heading": "Default to yearly, match the entry point",
-        "body": "Making yearly the default lifted yearly take-up 15–20% at Mojo. Duolingo changes the paywall's message to match what the person just tapped.",
-        "sources": [
-          "8 paywall test ideas to grow app revenue"
-        ]
-      },
-      {
-        "heading": "Trial length: match it to time-to-value",
-        "body": "Across 17,000+ apps, longer trials came with higher conversion and first renewal on annual plans (24% to 45% conversion). Duolingo moved 14 to 7 days and still saw more conversions over time.",
-        "sources": [
-          "How long should your free trial be? Data from 17,000+ apps",
-          "How Clarity and Personalization Help Drive Duolingo's Growth — Anmol Tiwari, Duolingo"
-        ]
-      },
-      {
-        "heading": "Judge paywalls on revenue after refunds",
-        "body": "BoldVoice removed the close button: trial starts jumped, refunds jumped more. Clearful's timeline page raised trial starts 54% but hurt retention.",
-        "sources": [
-          "BoldVoice removed the X from its paywall. Trial starts jumped. Refunds jumped more.",
-          "Experiment: Free-trial Timeline Page vs. Long-form Feature/Benefit Page"
-        ]
-      },
-      {
-        "heading": "Where the paywall is matters",
-        "body": "Tinder's biggest paywall win ($50M) was a new entry point in the top navigation, not a new paywall.",
-        "sources": [
-          "How a Single Paywall Experiment Generated $50M — Jeff Morris, Chapter One, Ex-Tinder"
-        ]
-      },
-      {
-        "heading": "Annual highlighted, priced for the market",
-        "body": "ABBYY's savings badge and separate plan buttons doubled annual choice. In India, most apps price 50–80% below the US. Lose It! doubled its annual price and broke even on conversion.",
-        "sources": [
-          "How ABBYY increased annual subscription revenue by 58.5% with paywall A/B testing",
-          "The ultimate guide to price localization",
-          "The Hidden Cost of Underpricing Your Subscription — Patrick Rills, Lose It!"
-        ]
-      },
-      {
-        "heading": "Catch people who back out",
-        "body": "A discounted paywall for people who back out of checkout made up 17% of revenue across 18 apps, with fewer refunds.",
-        "sources": [
-          "17% Revenue Boost with Transaction Abandon Paywalls - A Case Study"
-        ]
-      },
-      {
-        "heading": "No trial can beat a trial",
-        "body": "Natal removed the free trial from its monthly plan and offers it \"only on our annual subscription\" at web checkout; monthly subscriptions rose sharply, with users who already trusted the product.",
-        "sources": [
-          "How Removing the Free Trial Grew Monthly Subs 2000% — Nancy Anderson, Natal"
-        ]
-      },
-      {
-        "heading": "One plain line can beat a feature",
-        "body": "Etsy added one cart line, 'Etsy offsets carbon emissions from every delivery', and saw 'huge uplift' it didn't expect. On an education product, swapping raw Facebook-group screenshots for designed testimonial cards made the page convert worse; putting the screenshots back recovered it. Erik Kennedy pairs each likely objection with a testimonial that answers it.",
-        "sources": [
-          "Inside Etsy's product, growth, and marketplace evolution (Tim Holley)",
-          "Make landing pages that convert (Erik Kennedy)"
-        ]
-      },
-      {
-        "heading": "Price as a daily value story people can explain back",
-        "body": "Madhavan Ramanujam tests pricing by asking customers to explain it back, and shows good, better, best options so the talk moves to value. Superhuman's $30 a month was told as 'a dollar a day' for 'four hours of productivity back in the week'; $30 was the median 'starting to get expensive' answer from about 100 early users. Tinder's big spenders compared the cost to the cost of dating, not to other apps.",
-        "sources": [
-          "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam (Madhavan Ramanujam)",
-          "Superhuman's secret to success | Rahul Vohra (CEO and founder) (Rahul Vohra)",
-          "How to build your product strategy stack (Ravi Mehta)"
-        ]
-      },
-      {
-        "heading": "Don't give away what people pay for",
-        "body": "Ramanujam's '20-80 axiom': the 20% of a product that drives 80% of willingness to pay is often the easiest to build, and gets given away free. Lauryn Isford suggests a reverse trial: everyone starts on full premium for a limited time, then drops to free.",
-        "sources": [
-          "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam (Madhavan Ramanujam)",
-          "Mastering onboarding (Lauryn Isford)"
-        ]
-      }
-    ],
-    "try": [
-      "Track the share of installs that ever see the paywall; aim for 80%+.",
-      "A headline that matches the trigger: locked explanation → 'Unlock every explanation'.",
-      "Yearly preselected, shown as a monthly amount, with monthly under 'See all plans'.",
-      "A second paywall after the first completed plan session for those who skipped. (The trial timeline is already in the app.)",
-      "Check India pricing against conversion: if India converts 5x worse than the US, test a lower price.",
-      "Judge every paywall test on revenue after refunds, on a matured cohort."
+   },
+   {
+    "heading": "Length is a trade-off, so test the middle",
+    "body": "Longer onboarding helped Headspace's week-1 engagement but cut conversion, and very short hurt too. FitnessAI found motivated buyers dropping out of long onboarding before they ever saw the paywall.",
+    "sources": [
+     "How Headspace Optimized Revenue by Gating Content — Shreya Oswal and Keya Patel",
+     "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
     ]
-  },
-  {
-    "id": "renewal-churn",
-    "title": "Renewal and churn",
-    "topics": [
-      "Renewal"
-    ],
-    "summary": "Match the save offer to why someone is leaving, show what they've built before renewal, and fix the quiet churn from failed payments.",
-    "ideas": [
-      {
-        "heading": "Ask why, then offer the right thing",
-        "body": "Cancel flows that route by reason (pause for 'too busy', a cheaper plan for 'too expensive', support for a bad experience) cut churn 10–20%.",
-        "sources": [
-          "The Subscription Growth Formula: Churn Math, Retention Wins, and Smart Product Bets — Dan Layfield"
-        ]
-      },
-      {
-        "heading": "Keep a cheaper plan for people leaving",
-        "body": "FitnessAI keeps a cheaper plan visible only at cancellation; a meaningful share of subscribers end up on it.",
-        "sources": [
-          "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
-        ]
-      },
-      {
-        "heading": "Message people who already cancelled differently",
-        "body": "Blinkist sends trial users who already cancelled a different message from those still in.",
-        "sources": [
-          "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
-        ]
-      },
-      {
-        "heading": "Use Apple's cancel-page message",
-        "body": "iOS now lets apps show a message or offer on the App Store cancel page. Offers saved the most (+5.5 points), but most apps' discounts are almost never accepted, so match the message to the reason.",
-        "sources": [
-          "Explore Retention Messaging in App Store Connect (WWDC26 session 309)",
-          "Early Apple Retention Messaging benchmarks from 22M messages"
-        ]
-      },
-      {
-        "heading": "Stop churn upstream",
-        "body": "Madhavan Ramanujam says the way to stop churn is to acquire the kind of customers who stay, not to throw offers at people already leaving. Yuriy Timen says most $5 to $7 a month consumer subscriptions have lifetime values that 'cap out at 50 to 60 bucks'.",
-        "sources": [
-          "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam (Madhavan Ramanujam)",
-          "How to grow a subscription business (Yuriy Timen)"
-        ]
-      }
-    ],
-    "try": [
-      "A cancel survey: 'Exam done or postponed' → pause until the next cycle; 'Too expensive' → a cheaper Qbank-only plan.",
-      "Before renewal, a recap: questions done, accuracy gained, by subject.",
-      "Set up App Store retention messaging: 'Exam postponed? Pause instead of cancelling.'"
+   },
+   {
+    "heading": "Activation fades if the way back is busy",
+    "body": "Headspace's onboarding wins didn't change how often people meditated later. The return path (Home) has to lead straight back to the task.",
+    "sources": [
+     "How We Doubled Headspace Course Starts (And Why Getting People to Meditate is Harder)"
     ]
-  },
-  {
-    "id": "design-craft",
-    "title": "Screens, motion and accessibility",
-    "topics": [
-      "Visual design",
-      "Navigation",
-      "Accessibility",
-      "Copy"
-    ],
-    "summary": "Craft lessons from Apple, Google, Linear, Netflix, Airbnb and Duolingo: clear navigation and words, motion that follows the hand and is judged on a real phone, delight in everyday moments, accessible colour and type, and dark mode built on tokens. How an app feels moved Netflix's business metrics.",
-    "ideas": [
-      {
-        "heading": "Tabs mirror the hierarchy",
-        "body": "Tabs should reflect the app's information hierarchy; push to go deeper, and use modals only for self-contained tasks.",
-        "sources": [
-          "Explore Navigation Design for iOS (WWDC22)"
-        ]
-      },
-      {
-        "heading": "Make features visible, not explained",
-        "body": "Show features on the screen itself instead of in onboarding slides.",
-        "sources": [
-          "Discoverable Design (WWDC21)"
-        ]
-      },
-      {
-        "heading": "Each screen says one thing",
-        "body": "Write so each screen has one clear message, and label buttons with the action they perform. Write real copy, not lorem ipsum, because it changes the design. Ridd had Claude render every toast, dialog and error on one page to write all system copy together.",
-        "sources": [
-          "Writing for Interfaces (WWDC22)",
-          "Lessons from the founding designer at Linear (Adrien Griveau)",
-          "Our AI design workflows have changed (again) (Kyle Zantos)"
-        ]
-      },
-      {
-        "heading": "Motion follows the hand",
-        "body": "Motion should respond instantly, be interruptible and carry the gesture's momentum. Janum Trivedi's ladder: animations you can interrupt, that keep momentum when they change direction, that stretch at edges, and that always respond.",
-        "sources": [
-          "Designing Fluid Interfaces (WWDC18)",
-          "What makes a software product feel great (Janum Trivedi)"
-        ]
-      },
-      {
-        "heading": "Bold, but usable",
-        "body": "Google's 46 studies found bolder colour, shape and size helped people spot key actions up to 4x faster, but removing text labels or scattering layouts hurt usability.",
-        "sources": [
-          "Expressive Design: Google's UX Research (Material 3 Expressive)"
-        ]
-      },
-      {
-        "heading": "Accessible by default",
-        "body": "Never rely on colour alone, design for large text from the start, aim for at least 4.5:1 contrast, and respect reduce-motion.",
-        "sources": [
-          "Make Your App Visually Accessible (WWDC20)"
-        ]
-      },
-      {
-        "heading": "Dark mode is tokens, not inversion",
-        "body": "Build dark mode on semantic colour names and elevation, so screens adapt without per-mode code. Good dark modes use a dark background with lighter cards, not black cards on grey.",
-        "sources": [
-          "Implementing Dark Mode on iOS (WWDC19)",
-          "7 Senior Designers Show How They Collect Design Inspiration (Shopify, DuckDuckGo, Webflow designers)"
-        ]
-      },
-      {
-        "heading": "Less chrome, and a simple style",
-        "body": "Linear cut visual noise and generated themes from 3 inputs instead of 98 variables. Duolingo's few rounded shapes let a small team make hundreds of illustrations a year, and its characters run on Rive state machines.",
-        "sources": [
-          "How we redesigned the Linear UI",
-          "Shape language: Duolingo's art style",
-          "How Duolingo's World Characters lip sync"
-        ]
-      },
-      {
-        "heading": "How it feels moves the business",
-        "body": "Netflix tested a 9-month motion and polish refresh as one package against control, so it wouldn't feel patched together: 'all core business metrics are positive by a substantial margin'. Stripe found a better checkout gave 'a 10.5% increase in business' revenue'.",
-        "sources": [
-          "What makes a software product feel great (Janum Trivedi)",
-          "Building beautiful products with Stripe's Head of Design (Katie Dill)"
-        ]
-      },
-      {
-        "heading": "Delight lives in everyday moments",
-        "body": "Confetti on completion is now expected, so FigJam looked for care in everyday moments like cursor chat and high-fives. Airbnb added haptics, 3D icons and an Easter egg in the guest counter, and saves special treatments for special moments. Craft keeps skip screens plain. Amo asks what reaction every button gives.",
-        "sources": [
-          "The art of designing for delight (Jenny Wen)",
-          "How Airbnb innovates with design (Teo Connor)",
-          "What it takes to design an award-winning product (Balint Orosz)",
-          "Why Amo's Design Hits Different (Julien Martin)"
-        ]
-      },
-      {
-        "heading": "One idea sets the tone",
-        "body": "Amo spent about 4 months on a polished 'black gem' look, then dropped it as cold and not fun; animated real-person avatars became the idea that shaped everything. Retro let haptics, sound and pacing all follow one motif, 'slow down'. Jessica Hische names the feeling a typeface gives, then works out why, and tests every asset at its smallest real size first.",
-        "sources": [
-          "Why Amo's Design Hits Different (Julien Martin)",
-          "Make your designs memorable (Rafa Conde)",
-          "How to see like a designer: The hidden power of typography and logos (Jessica Hische)"
-        ]
-      },
-      {
-        "heading": "A few visual rules go a long way",
-        "body": "Give each colour a different brightness so they don't clash, use colour for meanings the product defines (red = delete), and try black, white and one accent. Beyond Identity uses colour only where it means something and shows trends with weight and brightness. Superhuman tested 15 font families on printouts and fixed line length at roughly 90 to 120 characters.",
-        "sources": [
-          "Mastering the pillars of great visual design (Anthony Hobday)",
-          "Claude Code Workflow for Design Teams (Alan and Becky, Beyond Identity)",
-          "Superhuman's secret to success | Rahul Vohra (CEO and founder) (Rahul Vohra)"
-        ]
-      },
-      {
-        "heading": "Edit in place and invite play",
-        "body": "Interface Craft's buttons morph in place (Edit name becomes Done) instead of opening dialogs. Buyers sign a library card they pick themselves, spend minutes on it and share it. Amo's Bump shows friends on an iPod-style wheel under your thumb.",
-        "sources": [
-          "Crafting interfaces with uncommon care (Josh Puckett)",
-          "Why Amo's Design Hits Different (Julien Martin)"
-        ]
-      },
-      {
-        "heading": "Give errors and empty states a character",
-        "body": "Swiggy's Snacc used a ginger cat mascot for every error and empty state instead of a generic icon. It reused the Swiggy design system and only swapped the primary colour token, so all design took one week.",
-        "sources": [
-          "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)"
-        ]
-      },
-      {
-        "heading": "Hidden gestures lose new users",
-        "body": "Snapchat's gesture-only navigation was fast for early users, but it hid too much and new users struggled. Every Linear feature must work with the mouse; keyboard shortcuts are added on top.",
-        "sources": [
-          "Designing Snapchat and the future of music (Jack Brody)",
-          "Lessons from the founding designer at Linear (Adrien Griveau)"
-        ]
-      },
-      {
-        "heading": "Judge motion on a real phone",
-        "body": "Airbnb moves from Figma to real-code prototypes early to judge motion on a device. Swiggy hands off motion as Lottie or a video with easing and duration values, then tests on a real phone to fix 2px and easing mismatches. One designer storyboarded motion with keyframes and exact pixel math.",
-        "sources": [
-          "How Airbnb innovates with design (Teo Connor)",
-          "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)",
-          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)"
-        ]
-      }
-    ],
-    "try": [
-      "Check each tab's job against the hierarchy before adding anything to it.",
-      "Run every new screen at the largest text size and in dark mode.",
-      "Label buttons with their action ('Start session', not 'Continue').",
-      "Give every error and empty state one shared illustration or mascot and a plain, warm line.",
-      "Sign off motion on a real phone, with easing and duration written down."
+   },
+   {
+    "heading": "Easy benefit questions convert, open text doesn't",
+    "body": "Questions that make people think about what they'll get raised Trunk Club's conversion 133%. Removing one open-text field raised conversion 40% page over page. Noom's very long onboarding works because it explains why it asks each question. Twilio added four signup questions with no personalisation behind them and signups improved 5%, because they told people they were in the right place. Givebutter found one-tap options beat a dropdown plus yes/no, though none of its three versions succeeded.",
+    "sources": [
+     "Using behavioral science to improve your product (Kristen Berman, Irrational Labs)",
+     "The Longest Onboarding Ever (Noom)",
+     "Career frameworks, A/B testing, onboarding tips, selling to engineers (Laura Schaffer)",
+     "AI Native Designer shows his Growth Design Process (Clint, Givebutter)"
     ]
-  },
-  {
-    "id": "design-process",
-    "title": "How top design teams work",
-    "topics": [
-      "Design process",
-      "Research methods"
-    ],
-    "summary": "The best teams stay rough until the idea is clear, try it in the real product with real data, and run crits and polish reviews with clear rules. They walk whole journeys as a user, talk to users every week, and save good work daily to build taste.",
-    "ideas": [
-      {
-        "heading": "Write tenets that take a side",
-        "body": "At ThoughtSpot, Bob Baxley set three tenets every team memorised, like 'documentation is a failure state'. Keep it to 3 or 4, and make them rules people could argue against, unlike 'simple, clear, beautiful'. Descript writes principles that pick a side on dilemmas like novice vs pro.",
-        "sources": [
-          "35 years of product design wisdom from Apple, Disney, Pinterest and beyond (Bob Baxley)",
-          "The 2 Question Rule that makes Design Crits effective (John, Descript)"
-        ]
-      },
-      {
-        "heading": "Stay rough until the concept is clear",
-        "body": "Baxley's team worked in chunky block diagrams for weeks so feedback stayed on the concept; once locked, an agency 'could do the full high-res comps in a day'. Tripadvisor's strategy doc wasn't done until it had wireframes. Plaid starts each exploration on a blank artboard, because duplicate-and-tweak anchors you on idea one. Granola blocks flows out in Whimsical first.",
-        "sources": [
-          "35 years of product design wisdom from Apple, Disney, Pinterest and beyond (Bob Baxley)",
-          "How to build your product strategy stack (Ravi Mehta)",
-          "Plaid's culture of craft, tips for CRIT, and lessons from early Facebook (Christophe Tauziet)",
-          "How I Design at Granola (Pawin)"
-        ]
-      },
-      {
-        "heading": "Test in the real product with real data",
-        "body": "At Skyscanner, testers with fake data picked a variant with $1,000 flights that real buyers would hate, so Craft prototypes in the real app. Linear puts a feature into production, staff-only, in about the first week, then opens it to opted-in customers. Airbnb moves to real-code prototypes early. Jake Knapp's Design Sprint goes from zero to a prototype tested with customers in five days.",
-        "sources": [
-          "What it takes to design an award-winning product (Balint Orosz)",
-          "Inside Linear: Building with taste, craft, and focus (Karri Saarinen)",
-          "How Airbnb innovates with design (Teo Connor)",
-          "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC) (Jake Knapp and John Zeratsky)"
-        ]
-      },
-      {
-        "heading": "Crits work when the presenter sets the rules",
-        "body": "Show a 'what I need today' frame, collect silent written feedback first, then talk, and open with what changed since last time. Descript makes the room ask two clarifying questions before any opinion, and keeps craft crit, cross-functional review and go/no-go sign-off separate. Plaid finds 7 to 10 people the best crit size. Brian Lovin says what feedback he doesn't want.",
-        "sources": [
-          "7 Top Designers Show How They Do Design Critiques (Figma, Slack, Ramp, CNN, Firefox, Hex designers)",
-          "The 2 Question Rule that makes Design Crits effective (John, Descript)",
-          "Plaid's culture of craft, tips for CRIT, and lessons from early Facebook (Christophe Tauziet)",
-          "Takeaways from interviewing 100+ design teams about their process (Brian Lovin)"
-        ]
-      },
-      {
-        "heading": "A polish review before build, and every state checked",
-        "body": "A fixed panel of senior Plaid designers nitpicks each file in the 24 to 48 hours before engineering starts; comments per file fell from '20 30' to 'five six seven' in a year. Plaid's polish review checks accessibility, colours, type, padding and copy. Before launch Linear's Karri Saarinen tries every state himself, and pulled threaded comments back for janky animation with long messages.",
-        "sources": [
-          "Plaid's culture of craft, tips for CRIT, and lessons from early Facebook (Christophe Tauziet)",
-          "This is how a top Consumer Designer designs in Figma (John, Plaid)",
-          "Inside Linear: Building with taste, craft, and focus (Karri Saarinen)"
-        ]
-      },
-      {
-        "heading": "Walk whole journeys, not single screens",
-        "body": "Stripe gave 15 key user journeys named owners who walk them end to end every quarter, write a friction log with screenshots and give a colour score. Figma reviews whole systems where 'we made all the right local decisions and yet together they're too complex'. Swiggy's Anuj Rathi maps every screen for one concrete person at a specific moment, including waiting and failure states.",
-        "sources": [
-          "Building beautiful products with Stripe's Head of Design (Katie Dill)",
-          "Dylan Field live at Figma's Config: Intuition, simplicity, and the future of design (Dylan Field)",
-          "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart) (Anuj Rathi)"
-        ]
-      },
-      {
-        "heading": "Handoff explains why, every state, and the motion",
-        "body": "Good specs sit on one 'ready for dev' page with the why, states, long and short text, empty and error states, and screen-reader order. Plaid keeps a clean end-to-end page apart from a messy workspace page, and records decisions in callouts because resolved comments vanish. Swiggy hands off motion with easing and duration values, then tunes it together on a phone.",
-        "sources": [
-          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)",
-          "This is how a top Consumer Designer designs in Figma (John, Plaid)",
-          "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)"
-        ]
-      },
-      {
-        "heading": "Start research from the risk, and check what people really use",
-        "body": "Noam Segal asks what risk a study reduces, turns it into a few learning goals, and uses a guide, not a script. Granola's designer runs four to six user calls a week, and the team removed collaborative notes after internal users didn't miss it. Tinder phoned its big spenders and learned the data's reason was wrong. Campsite deleted a feature nobody used and 'zero people complained'.",
-        "sources": [
-          "Doing UX research with AI (Noam Segal)",
-          "How I Design at Granola (Pawin)",
-          "How to build your product strategy stack (Ravi Mehta)",
-          "Takeaways from interviewing 100+ design teams about their process (Brian Lovin)"
-        ]
-      },
-      {
-        "heading": "Save good work daily, and crop the exact part",
-        "body": "A Shopify designer spends about 10 minutes most mornings saving to Mobbin and Pinterest, and highlights the exact element on each reference before handing it to a person or an agent. Anthony Hobday says experience is mostly known patterns, so save examples and look again. Rafa Conde keeps a folder of small delightful details from other apps.",
-        "sources": [
-          "7 Senior Designers Show How They Collect Design Inspiration (Shopify, DuckDuckGo, Webflow designers)",
-          "How I use Claude Code as a Designer at Shopify (Caston)",
-          "Mastering the pillars of great visual design (Anthony Hobday)",
-          "Make your designs memorable (Rafa Conde)"
-        ]
-      },
-      {
-        "heading": "Build a design system from what the product already uses",
-        "body": "DoorDash built its first system (tokens, buttons, modals) from the components the UI used most, and timed it to the rebrand; by mid next year 'everything on the website was using the design system'. Linear's founding designer instead designs on screenshots of the live app, saying a large system slows small teams. Airbnb's 3D icons start in one area and join the system only once proven.",
-        "sources": [
-          "Defining the visual language for DoorDash (Kathryn Gonzalez)",
-          "Lessons from the founding designer at Linear (Adrien Griveau)",
-          "How Airbnb innovates with design (Teo Connor)"
-        ]
-      }
-    ],
-    "try": [
-      "Write 3 OnCourse design tenets that settle repeat debates, such as first-year student vs repeat aspirant.",
-      "Start each crit with a 'What I need today' frame, 5 minutes of silent comments and two clarifying questions.",
-      "Every quarter, walk install → first question set → paywall → day-2 return as a new aspirant; log friction with screenshots and a colour score.",
-      "Add a 24-hour polish review (spacing, tokens, copy, every state) before a screen goes to engineering.",
-      "Save 10 minutes of Mobbin references each morning, cropped to the exact part you like."
+   },
+   {
+    "heading": "Give the first plan free, then ask",
+    "body": "BoldVoice found forcing a trial raised trial starts but refunds rose faster. It now gives the assessment and the whole first daily plan free before the trial. Mimo doubled trial opt-in with an honest trial screen in onboarding.",
+    "sources": [
+     "Why BoldVoice charged from day 1 and ignored the Duolingo freemium playbook (Anada Lakra)",
+     "This is not a playbook: how Mimo grew customer LTV by 65%"
     ]
-  },
-  {
-    "id": "ai-prototyping",
-    "title": "Designing with AI tools",
-    "topics": [
-      "AI tools",
-      "Design process"
-    ],
-    "summary": "Teams at Pocket FM, Shopify, Razorpay, Deel and Atlassian prototype in code on their real design system, with short rules files that stop the AI inventing components. They go wide cheaply, agree on how a flow works before how it looks, and hand off a link or a PR instead of a spec.",
-    "ideas": [
-      {
-        "heading": "Build a sandbox on the real design system and real content",
-        "body": "Pocket FM stripped its app of backend, analytics and ad SDKs into a playground on the real components, with real show data; the first version took 'less than a week' and 'around 20 product designers' use it. Beyond Identity rebuilt its whole app page by page as a mock-data sandbox. Shopify designers work in a clone of the admin on the real system. Deel's UI playground repo uses markdown guardrails so Claude only uses real components.",
-        "sources": [
-          "How I Built Pocket FM's Prototyping Playground (Harsha)",
-          "Claude Code Workflow for Design Teams (Alan and Becky, Beyond Identity)",
-          "How I use Claude Code as a Designer at Shopify (Caston)",
-          "How Deel Designers Start Prototyping Before PRDs (Chris)"
-        ]
-      },
-      {
-        "heading": "Pre-code the app shell so the AI edits instead of invents",
-        "body": "Atlassian built templates with the top and side nav already coded, so the AI only edits the content area. Navigation errors fell from 'maybe like half of the prototypes' to 'nearly zero'; people had been spending 'two or three hours' getting the nav right. Instructions alone gave about '50 60% accuracy'. Three clean examples per component worked better than every variant, and big screenshots get truncated, so feed smaller sections.",
-        "sources": [
-          "The trick to AI prototyping with your design system (Lewis Healey and Kyler Hall)"
-        ]
-      },
-      {
-        "heading": "Keep a short rules file built from real corrections",
-        "body": "Beyond Identity's CLAUDE.md grew from corrections ('MUI components only', 'use the theme tokens'), then Claude shrank it from about 1,000 lines to under 200. Pocket FM's CLAUDE.md tells agents to use Figma terms, and a side agent appends unsaid rules from each chat to a shared file. Atlassian cut its guidelines from 5,000 lines to 2,000 to 3,000. Descript shares its head of design's Cursor rules for everyone to copy.",
-        "sources": [
-          "Claude Code Workflow for Design Teams (Alan and Becky, Beyond Identity)",
-          "How I Built Pocket FM's Prototyping Playground (Harsha)",
-          "The trick to AI prototyping with your design system (Lewis Healey and Kyler Hall)",
-          "The 2 Question Rule that makes Design Crits effective (John, Descript)"
-        ]
-      },
-      {
-        "heading": "Stop invented components with the design system itself",
-        "body": "Razorpay converts aligned flows to its Blade system through a design-system MCP, with one Figma screenshot for the visual language. When Claude invents a component, Deel's designer pastes the Storybook link and says 'you are inventing this'. Pocket FM uses an MCP to check which Figma components exist in code. Lovable's CI fails code with raw hex values, so explorations don't have to be perfect.",
-        "sources": [
-          "How Razorpay Designers use AI to Ship 8 Projects a Month (PJ and Mina)",
-          "How Deel Designers Start Prototyping Before PRDs (Chris)",
-          "How I Built Pocket FM's Prototyping Playground (Harsha)",
-          "Inside Lovable's Design Team (Arthur)"
-        ]
-      },
-      {
-        "heading": "Go wide cheaply, then build the chosen idea in code",
-        "body": "Wealthsimple's designer has Claude draw five concepts on a Paper canvas, then builds the chosen one in the real monorepo in plan mode, adding 'use the ask user question tool' so Claude interviews him. Shopify's designer feeds Claude a dictated brief, a wireframe screenshot and the wireframe folder at once. Ridd prototypes 4 layouts in HTML and says Claude's accuracy from his video feedback is '80 90%'. Lovable asks for '15 variants', picks one and refines by hand.",
-        "sources": [
-          "Wealthsimple’s AI Native Design Process (Danny, Wealthsimple)",
-          "How I use Claude Code as a Designer at Shopify (Caston)",
-          "Our AI design workflows have changed (again) (Kyle Zantos)",
-          "Inside Lovable's Design Team (Arthur)"
-        ]
-      },
-      {
-        "heading": "Agree how it works before how it looks",
-        "body": "Razorpay uses unstyled Claude artifacts only to align on structure, then restyles. Deel keeps concepts visibly rough; a concept test takes 'half of a day' and gives validation 'in one day or two days'. Granola starts in low-fidelity wireframes because AI prototypes make you 'narrow down too early'. Claude Code's design lead doesn't polish experiments that test a mental model, and notes AI won't tell you an idea is wrong.",
-        "sources": [
-          "How Razorpay Designers use AI to Ship 8 Projects a Month (PJ and Mina)",
-          "How Deel Designers Start Prototyping Before PRDs (Chris)",
-          "How I Design at Granola (Pawin)",
-          "Designing Claude Code (and what's coming next) (Meaghan Choi)"
-        ]
-      },
-      {
-        "heading": "Put every option and state behind one link",
-        "body": "Beyond Identity's sandbox has a hidden panel to switch option, variant, state (empty or filled) and placement, instead of 15 prototype links. Givebutter's concepts switch between first visit, partial progress, completed and returning user. Granola's prototype has a screen picker with A/B/C variants per screen. CNN deploys each git branch to its own URL with a version switcher.",
-        "sources": [
-          "Claude Code Workflow for Design Teams (Alan and Becky, Beyond Identity)",
-          "AI Native Designer shows his Growth Design Process (Clint, Givebutter)",
-          "How I Design at Granola (Pawin)",
-          "7 Top Designers Show How They Do Design Critiques (Figma, Slack, Ramp, CNN, Firefox, Hex designers)"
-        ]
-      },
-      {
-        "heading": "The handoff is a PR or a live link",
-        "body": "Lovable's designer has shipped 'like I think 130 PRs'; a button fix went from problem to merged in about '10 minutes'. Claude Code's design lead says 'more than half of my code' now comes through Claude in Slack. Intercom engineers often say 'I can use 80% of that' about a coded prototype PR. At Shopify a prototype 'has given 80% to the developer', and a few days of work per version became a few hours.",
-        "sources": [
-          "Inside Lovable's Design Team (Arthur)",
-          "Designing Claude Code (and what's coming next) (Meaghan Choi)",
-          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)",
-          "How I use Claude Code as a Designer at Shopify (Caston)"
-        ]
-      },
-      {
-        "heading": "Prototype AI features with the real model",
-        "body": "Mercury's deterministic chat prototype hit a ceiling, so the designer paired with her PM on one wired to a real model and concluded 'the system prompt in a way is the product'. Money movement shows a 'Draft' with edit, cancel and send buttons, and thinking is one line users can expand. Shopify prototypes AI features with a live LLM. Julie Zhuo says define success so precisely an agent can tell pass from fail.",
-        "sources": [
-          "Agentic Design Process at Mercury (Carol, Mercury)",
-          "How I use Claude Code as a Designer at Shopify (Caston)",
-          "From managing people to managing AI: The leadership skills everyone needs (Julie Zhuo)"
-        ]
-      },
-      {
-        "heading": "AI gives the obvious answer, so craft still decides",
-        "body": "Figma's CEO says AI design features give you the most obvious answer, so unique craft becomes the differentiator. Josh Puckett uses AI's speed to go deeper on a few moments, not to add scope. Swiggy kept AI food images consistent with a fixed silhouette and fixed AI tells like an extra thumb by hand. Designers avoid 'AI slop' by saving good work daily.",
-        "sources": [
-          "Dylan Field live at Figma's Config: Intuition, simplicity, and the future of design (Dylan Field)",
-          "Crafting interfaces with uncommon care (Josh Puckett)",
-          "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)",
-          "7 Senior Designers Show How They Collect Design Inspiration (Shopify, DuckDuckGo, Webflow designers)"
-        ]
-      }
-    ],
-    "try": [
-      "Set up an OnCourse playground: the app without backend or analytics, on existing components, with real questions and real plan data.",
-      "Pre-code the tab bar, header and question card so Claude only edits the screen's content area.",
-      "Start a CLAUDE.md under 200 lines and add a rule each time you correct Claude (tokens, components, icons).",
-      "Add a state switcher to each prototype (first visit, mid-plan, plan done, streak broken, trial ended) and share one link.",
-      "Hand off a draft PR plus a 2-minute video, after running a code-review skill on it."
+   },
+   {
+    "heading": "Place people at the right level",
+    "body": "Duolingo says landing each learner at the right level 'certainly helps retention'. It also lost Indian users by defaulting to the wrong language.",
+    "sources": [
+     "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
+     "Scaling Duolingo, embracing failure, and insight into Latin America's tech scene (Gina Gotthilf)",
+     "Lessons from Asia: turning local research into global experiments"
     ]
-  }
+   },
+   {
+    "heading": "Build something real, not a tooltip tour",
+    "body": "Airtable retired most tooltips for a wizard of simple button questions that builds the user's workflow as they answer. With personalisation by learning style and a tips panel, activation rose 20% over about six to eight months. Kate Syuma found more than 60% of 80+ companies still rely on step-by-step tooltips. Airbnb's short welcome tour is built from a screenshot of the user's own screen.",
+    "sources": [
+     "Mastering onboarding (Lauryn Isford)",
+     "Designing with a growth mindset (Kate Syuma)",
+     "How Airbnb innovates with design (Teo Connor)",
+     "How to grow a subscription business (Yuriy Timen)"
+    ]
+   },
+   {
+    "heading": "Carry the promise that brought them in",
+    "body": "Swiggy stopped opening with 'here is everything we do' and carried the exact offer from the ad into the splash and onboarding, framed as 'what is in it for you'. Jupiter Money introduces its next product only after people find value in the first. At Patreon, human coaching for high-potential creators lifted first or second month revenue by 25%; the team then built those steps into opinionated defaults.",
+    "sources": [
+     "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart) (Anuj Rathi)",
+     "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods) (Adam Fishman)"
+    ]
+   },
+   {
+    "heading": "Friction is fine if it leads to an early win",
+    "body": "Etsy first opened seller shops as fast as possible, which hurt sellers getting a first sale. Adding friction that made sellers more thoughtful got them to a first sale faster. Adam Fishman expects onboarding conversion to dip a little when retention rises, and judges changes on fast proxies like speed to first patron.",
+    "sources": [
+     "Nickey Skarstad (Airbnb, Etsy, Shopify, Duolingo) on translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more (Nickey Skarstad)",
+     "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods) (Adam Fishman)"
+    ]
+   },
+   {
+    "heading": "Anything before sign-up costs sign-ups",
+    "body": "Retro's 7-second intro before sign-up 'lost like 20% or 30% of signups', so the team made it easy to skip and made it respect the mute switch. Miro removed an animated preview from sign-up because people tried to play with it and dropped at each step; removing it 'worked way better'.",
+    "sources": [
+     "Make your designs memorable (Rafa Conde)",
+     "Designing with a growth mindset (Kate Syuma)"
+    ]
+   },
+   {
+    "heading": "Define activation from the people who stay",
+    "body": "Kate Syuma works back from retained or paying users to the early actions they share, and keeps the aha moment simple. Lauryn Isford suggests a good activation metric is one only 'five to 15%' of users reach. Instagram first logged all 8 sign-up steps to find drop-offs; recommending real friends first at sign-up doubled retention over a year and a half.",
+    "sources": [
+     "Designing with a growth mindset (Kate Syuma)",
+     "Mastering onboarding (Lauryn Isford)",
+     "Unorthodox frameworks for growing your product, career, and impact (Bangaly Kaba)"
+    ]
+   },
+   {
+    "heading": "Skip the tutorial and teach by doing",
+    "body": "In NN/g's 70-person test, people who read a swipe-through tutorial were no more successful (91% vs 94%) and rated the app harder to use (4.92 vs 5.49 out of 7). Keep only setup the app truly needs.",
+    "sources": [
+     "Mobile Tutorials: Wasted Effort or Efficiency Boost?",
+     "Mobile-App Onboarding: An Analysis of Components and Techniques"
+    ]
+   },
+   {
+    "heading": "Use the answers you asked for",
+    "body": "Grammarly's paywall reflected the goals people chose in onboarding and upgrades rose 10%+. Asking 'why are you here' only helps if the answer visibly changes the plan, home and paywall.",
+    "sources": [
+     "How to Craft Onboarding Surveys Users Love: 5 Do's and Don'ts",
+     "How To Properly Apply Jobs-To-Be-Done To User Onboarding"
+    ]
+   },
+   {
+    "heading": "The first week decides, especially for education",
+    "body": "The average app loses 77% of daily users within 3 days. Education apps keep only about 14–15% on day 1, 6% on day 7 and 2–3% on day 30, so a first-session win matters more than later reminders.",
+    "sources": [
+     "New data shows losing 80% of mobile users is normal, and why the best apps do better",
+     "Managing Retention Rate Benchmarks & Expectations"
+    ]
+   }
+  ],
+  "try": [
+   "Ask 3 questions (exam and date, weakest subject, daily minutes), then start a first question set in that subject inside onboarding.",
+   "Move the account step after the first session: 'Save your progress', with a soft 'Later'.",
+   "On return, open Home with one 'Continue today's plan' card.",
+   "Rename anything that sounds like an exam in onboarding ('Quick check of what you know', not 'Test').",
+   "Replace open-text onboarding questions with tap choices about the learner's goal.",
+   "Log every onboarding step in PostHog, and carry the promise from the ad or store page into the first screen."
+  ],
+  "examples": [
+   {
+    "app": "Brilliant",
+    "note": "'What motivates you to learn?' as four big picture cards, one tap each.",
+    "url": "https://mobbin.com/screens/a4620b17-54f6-4ec4-810f-cc65b243b59e"
+   },
+   {
+    "app": "Ahead",
+    "note": "'What do you most hope to improve?' with short emoji options and a progress bar.",
+    "url": "https://mobbin.com/screens/d0399d4e-86e1-4024-b0bb-2d77b0089531"
+   },
+   {
+    "app": "Wealthfront",
+    "note": "A goal question with a 'Why is this important?' link for people who hesitate.",
+    "url": "https://mobbin.com/screens/dbff49cb-97c6-4fbf-9158-9e7f0c77011c"
+   }
+  ]
+ },
+ {
+  "id": "learning-design",
+  "title": "Practice and learning design",
+  "topics": [
+   "Practice",
+   "Lessons",
+   "Home"
+  ],
+  "summary": "How the best learning apps design the study session itself: one clear path, honest difficulty, and words that make effort feel worth it.",
+  "ideas": [
+   {
+    "heading": "One guided path beats a menu",
+    "body": "Duolingo replaced a choose-your-own skill tree with one guided path because learners weren't sure they were using the app right. Headspace replaced category tabs with a Today tab of one-tap activities. Make Time's system starts each day with one Highlight, given a 60 to 90 minute block.",
+    "sources": [
+     "Duolingo's new learning path (new home screen design)",
+     "Behind the Design: Headspace",
+     "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
+     "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC) (Jake Knapp and John Zeratsky)"
+    ]
+   },
+   {
+    "heading": "Tell learners when it's hard",
+    "body": "Labelling hard questions, and showing a level-up card, made Duolingo learners study longer, take on harder content and come back more.",
+    "sources": [
+     "How lesson transparency helps learners reach their goals"
+    ]
+   },
+   {
+    "heading": "One sentence about effort",
+    "body": "A growth-mindset line above practice problems raised mastery about 3% on Khan Academy; generic 'do your best' did nothing. Duolingo's owl coach copy lifted D14 7.2%.",
+    "sources": [
+     "Growing a Mindset with the Right Words (Khan Academy x PERTS experiment)",
+     "Scaled-Up Social Psychology (Chapter 5: growth mindset messages in Khan Academy fractions exercises)",
+     "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+    ]
+   },
+   {
+    "heading": "Protect beginners from early failure",
+    "body": "At Chess.com fewer than a third of new users win their first game, and losing early drives them away. Easy early wins keep beginners going.",
+    "sources": [
+     "Finding hidden growth opportunities in your product (Albert Cheng: Duolingo, Grammarly, Chess.com)"
+    ]
+   },
+   {
+    "heading": "End every session with a celebration",
+    "body": "Duolingo's core loop is a lesson on the path with a celebration at the end.",
+    "sources": [
+     "Inside Duolingo's Unhinged Growth to a $500M Business (Cem Kansu)",
+     "How Duolingo's streak builds habit"
+    ]
+   },
+   {
+    "heading": "Make the core action fun, not just rewarded",
+    "body": "Superhuman uses game design instead of points and badges: its snooze field accepts playful input like 'in a fortnight and a day', so people explore it for fun. Rahul Vohra cites a Stanford study where children expecting a reward spent 8% of their time drawing, against 17% with no reward.",
+    "sources": [
+     "Superhuman's secret to success | Rahul Vohra (CEO and founder) (Rahul Vohra)"
+    ]
+   },
+   {
+    "heading": "Make the repeat action one tap",
+    "body": "At Instacart, 'after five times... 90% of your order was the same', but reordering took 7 or 8 clicks and was all-or-nothing. So they made reordering easy.",
+    "sources": [
+     "Unorthodox frameworks for growing your product, career, and impact (Bangaly Kaba)"
+    ]
+   }
+  ],
+  "try": [
+   "Today's plan as one guided path, with the next session obvious.",
+   "A 'Tough one' label on hard questions and a short growth-mindset line after wrong answers.",
+   "Start new learners on easier questions so the first session ends with a win.",
+   "A one-tap 'Repeat yesterday's set' or 'Redo my wrong answers' on Home."
+  ]
+ },
+ {
+  "id": "practice-memory",
+  "title": "Practice that makes it stick",
+  "topics": [
+   "Practice",
+   "Lessons"
+  ],
+  "summary": "What the learning apps found about review, question formats and study time. This is the closest evidence to OnCourse's Practice and Flashcards screens.",
+  "ideas": [
+   {
+    "heading": "Show the questions they're about to forget",
+    "body": "Most students cram: Quizlet found 95% study a set over four days at most, too short for classic spacing. So Quizlet stopped scheduling by calendar and always shows the cards a student is most likely to get wrong right now. Even after a first-try correct answer, the chance of getting it right next time is only about 87%.",
+    "sources": [
+     "Spaced Repetition for All: Cognitive Science Meets Big Data in a Procrastinating World"
+    ]
+   },
+   {
+    "heading": "A miss shouldn't send a card back to day 1",
+    "body": "Anki's newer scheduler, FSRS, predicts recall for each card and lets the learner pick a target retention. A 70% target gave far fewer daily reviews while ending with more cards learned than the 90% default. Missing a card no longer resets it to the start.",
+    "sources": [
+     "Spaced Repetition Systems Have Gotten Way Better"
+    ]
+   },
+   {
+    "heading": "Start with choices, move to recall",
+    "body": "Quizlet tested question formats. Multiple choice works for new material, then typed recall as the learner improves. True/false led to more people quitting, and 'none of the above' made students stop early even though it helped recall.",
+    "sources": [
+     "Selecting Question Formats to Maximize the Testing Effect"
+    ]
+   },
+   {
+    "heading": "A steady weekly dose is what moves scores",
+    "body": "Khan Academy's trials found gains only when practice was regular: at about 4 minutes a week there was no effect, and schools practising about 47 minutes a week scored 0.44–0.47 SD higher. With support, over 20% of learners hit the weekly goal, against about 10% without.",
+    "sources": [
+     "Four Things to Look for in Edtech, and How Khan Academy Measures Up"
+    ]
+   },
+   {
+    "heading": "A tutor needs to know the learner's last answers",
+    "body": "Khan Academy ran about 20 A/B tests on its AI tutor. Giving it the student's recent answers and missing basics raised next-question correctness by 6.1% in total, and limiting it to the student's own work cut answer give-aways by 50%.",
+    "sources": [
+     "How Khan Academy Is Building a Better AI Tutor: Our Most Recent Learnings"
+    ]
+   },
+   {
+    "heading": "Low-stakes tests, with every answer reviewable",
+    "body": "Babbel's level test was framed as low-stakes and ended with a clear result and a review of every answer. 80% finished it, and about 90% reviewed their answers at the end.",
+    "sources": [
+     "Testing, testing — how we created an assessment tool for Babbel users"
+    ]
+   },
+   {
+    "heading": "Remove steps between opening the app and the first question",
+    "body": "Busuu removed one activity menu screen and saw a 27% rise in unit completion. Unacademy rebuilt its exam-prep app around plan, self-study and progress, with a planner that shows free time in the day.",
+    "sources": [
+     "Re-designing busuu. One year as a Product Designer",
+     "Unacademy Rewrites the Book"
+    ]
+   }
+  ],
+  "try": [
+   "Practice: order a session's questions by how likely the learner is to get each wrong now, not by topic order.",
+   "Flashcards: when a card is missed, shorten its interval instead of resetting it to day 1, and show 'due today' as one number.",
+   "Practice: start a new topic with MCQs, then mix in recall-style questions once accuracy passes a set level.",
+   "Today's plan: set a weekly practice target (questions or minutes) and show progress toward it, not just a daily streak."
+  ]
+ },
+ {
+  "id": "streaks-habit",
+  "title": "Streaks and habit",
+  "topics": [
+   "Progress & streaks",
+   "Gamification"
+  ],
+  "summary": "A streak works when the rule is simple, it's explained the moment it starts, the learner chooses the goal, and missing a day is forgivable. Duolingo has tested all of this at scale.",
+  "ideas": [
+   {
+    "heading": "Explain the streak in one line when it starts",
+    "body": "An explanation of about eight words added more than 10,000 daily users at Duolingo, one of its top three retention wins.",
+    "sources": [
+     "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+    ]
+   },
+   {
+    "heading": "Make keeping the streak easy",
+    "body": "Letting one lesson extend the streak, instead of hitting a daily goal, raised day-14 retention 3.3% and the share of learners on a streak 19% among new learners.",
+    "sources": [
+     "Improving the streak: Forming habits one lesson at a time"
+    ]
+   },
+   {
+    "heading": "Simple rule, but not trivially easy",
+    "body": "Changing the rule to 'one lesson' helped; making it 'one exercise counts' moved nothing and was shut down.",
+    "sources": [
+     "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+    ]
+   },
+   {
+    "heading": "Let learners choose the goal",
+    "body": "A streak-goal picker with 'Commit to my goal' was a big win; preselecting a harder goal lost.",
+    "sources": [
+     "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)"
+    ]
+   },
+   {
+    "heading": "Celebrate every extension",
+    "body": "Streak animations raised the share of new learners still active on day 7 by 1.7%. Learners who reach a 7-day streak are 3.6x more likely to finish their course.",
+    "sources": [
+     "How Duolingo's streak builds habit"
+    ]
+   },
+   {
+    "heading": "Forgiveness, free and early",
+    "body": "Holding two freezes instead of one raised daily actives; a third added nothing. 'Earn back' beat paying to repair, and a weekend amulet lifted D7 and D14. Make Time's rule for a missed day: try again tomorrow.",
+    "sources": [
+     "How Duolingo's streak builds habit",
+     "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+     "The Tenets of A/B Testing from Duolingo's Master Growth Hacker",
+     "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC) (Jake Knapp and John Zeratsky)"
+    ]
+   },
+   {
+    "heading": "Retention of current learners is the big lever",
+    "body": "Duolingo found the current-user retention rate had 5x the impact of any other metric on DAU, and built leagues and the streak saver around it.",
+    "sources": [
+     "How Duolingo reignited user growth"
+    ]
+   },
+   {
+    "heading": "A broken streak can push people away",
+    "body": "Highlighting a broken streak lowered how many people continued (45% vs 61%). Letting them repair it recovered most of the loss (85% vs 69%).",
+    "sources": [
+     "On or Off Track: How (Broken) Streaks Affect Consumer Decisions"
+    ]
+   },
+   {
+    "heading": "Bets and planned breaks",
+    "body": "Duolingo's streak wager raised day-7 retention 14%. Learners offered a weekend break were 4% more likely to return a week later.",
+    "sources": [
+     "How Streaks keep Duolingo learners committed to their language goals (Streak Wager and Weekend Amulet)"
+    ]
+   },
+   {
+    "heading": "Streaks with a friend",
+    "body": "Learners with a friend streak are 22% more likely to do their daily lesson (correlation). The lever is getting the first invite sent.",
+    "sources": [
+     "5 product lessons we learned from building Friend Streak",
+     "Kudos make you run! How runners influence each other on the online social network Strava"
+    ]
+   },
+   {
+    "heading": "Reward the comeback, not just the run",
+    "body": "In a 53-nudge megastudy, the best was a small bonus for returning right after a missed session (+27% visits). Almost no effect lasted after the programme ended.",
+    "sources": [
+     "Megastudies improve the impact of applied behavioural science (StepUp megastudy with 24 Hour Fitness)"
+    ]
+   },
+   {
+    "heading": "Points you can lose and small leagues",
+    "body": "In a trial, losable points, levels and a small weekly leaderboard raised activity most, and competition was the only design whose effect lasted. Sweatcoin found a growing balance beats a counter that resets daily.",
+    "sources": [
+     "Effectiveness of Behaviorally Designed Gamification Interventions With Social Incentives for Increasing Physical Activity (STEP UP trial)",
+     "How to Turn Gamification Into a Retention Powerhouse (Anton Derlyatka, Sweatcoin)"
+    ]
+   },
+   {
+    "heading": "Habits take months, not 21 days",
+    "body": "Gym habits typically took months to form; time since the last visit was the strongest predictor of the next.",
+    "sources": [
+     "What can machine learning teach us about habit formation? Evidence from exercise and hygiene"
+    ]
+   },
+   {
+    "heading": "Saved history brings people back",
+    "body": "Seeing people save snaps to their camera roll gave Snapchat more conviction to build Memories, though Jack Brody says it 'didn't necessarily come from' that; its flashbacks became a reason people still open the app every day. Etsy built its habit loop around Favorites: an updates feed plus pushes when a favorited item goes on sale or is about to sell out.",
+    "sources": [
+     "Designing Snapchat and the future of music (Jack Brody)",
+     "Inside Etsy's product, growth, and marketplace evolution (Tim Holley)"
+    ]
+   },
+   {
+    "heading": "Frequent and useful makes a habit",
+    "body": "Nir Eyal: habits form when an action is both frequent and clearly useful. Unfinished progress pulls people back (the Zeigarnik effect), but don't build a compulsive loop.",
+    "sources": [
+     "Getting Your Product Into the Habit Zone",
+     "Zeigarnik Effect: Why it's hard to leave things incomplete"
+    ]
+   }
+  ],
+  "try": [
+   "After the first question set: 'Do one study session a day to grow your streak.'",
+   "A streak goal picker (7, 14 or 30 days) with 'Commit to my goal'.",
+   "Two free freezes on a new streak; 'Do 2 sessions today to earn it back' after a miss.",
+   "A streak animation after the day's first study, bigger at 3, 7, 14 and 30 days.",
+   "After a missed day, show 'Repair your streak' with one easy session, never a big broken counter."
+  ],
+  "examples": [
+   {
+    "app": "WHOOP",
+    "note": "Explains the streak rule in three lines under a week strip: when it starts, how to keep it, when it resets.",
+    "url": "https://mobbin.com/screens/8c343843-48fe-456f-8ecc-980625ba676d"
+   },
+   {
+    "app": "BitePal",
+    "note": "Big streak count and a month calendar, with two streak savers that apply automatically.",
+    "url": "https://mobbin.com/screens/c6961180-60fb-450b-88af-27755cdfd567"
+   },
+   {
+    "app": "LinkedIn",
+    "note": "Wend puzzle: streak freezes ready to use, milestone badges at 3, 5, 7 and 31 days, and a reminder toggle right on the result.",
+    "url": "https://mobbin.com/screens/ac97796a-bc39-417a-a3ec-b92d96040c1d"
+   },
+   {
+    "app": "Insight Timer",
+    "note": "The zero-day state: '0 consecutive days' with one line telling you to practise now.",
+    "url": "https://mobbin.com/screens/a3da0692-68e9-4a08-b6c1-daa8acd4a810"
+   }
+  ]
+ },
+ {
+  "id": "reminders",
+  "title": "Reminders and notifications",
+  "topics": [
+   "Notifications"
+  ],
+  "summary": "Ask for a reminder right after the first success, let the learner pick the time, and judge copy by what gets people to study, not by opens.",
+  "ideas": [
+   {
+    "heading": "Ask right after the first success",
+    "body": "Calm's reminder sat in Settings, found by under 1%. A prompt after the first session got 40% to set one, and they retained about 3x better.",
+    "sources": [
+     "Learn How Calm Increased Retention 3X With Product Intelligence"
+    ]
+   },
+   {
+    "heading": "Copy alone moves daily users",
+    "body": "Duolingo's winning reminder copy alone added 5% DAU. A red badge dot on the app icon added 6%.",
+    "sources": [
+     "The Tenets of A/B Testing from Duolingo's Master Growth Hacker"
+    ]
+   },
+   {
+    "heading": "Rotate copy, and don't repeat it",
+    "body": "Duolingo picks each learner's reminder by what gets lessons finished, and penalises recently seen ones so they stay fresh.",
+    "sources": [
+     "Hi, it's Duo: The AI behind the meme"
+    ]
+   },
+   {
+    "heading": "Time it to the habit",
+    "body": "Practice reminders go out 23.5 hours after the last session; the streak saver at 10 PM only if today isn't done. Sending more needed the CEO's sign-off.",
+    "sources": [
+     "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention)",
+     "How Duolingo reignited user growth"
+    ]
+   },
+   {
+    "heading": "Win-back has a short window",
+    "body": "After 3–4 days away, a daily-habit user is hard to win back. Duolingo uses the first week of reminders, then weekly email, then friends as reasons to return.",
+    "sources": [
+     "How to Time Reactivation Campaigns for Maximum Impact (Jackson Shuttleworth, Duolingo)",
+     "Finding hidden growth opportunities in your product (Albert Cheng: Duolingo, Grammarly, Chess.com)"
+    ]
+   },
+   {
+    "heading": "Messages that know what happened",
+    "body": "8fit's streak messages changed depending on whether the streak was kept or broken, across push, email and in-app: weekly class views rose 40%.",
+    "sources": [
+     "Fitness and Nutrition App 8fit Leverages Braze to Promote User Workout Streaks"
+    ]
+   },
+   {
+    "heading": "Push about something the learner saved",
+    "body": "Etsy sends a push when a favorited item goes on sale or is about to sell out. Tim Holley says retention tests need 30, 60 or 90-day windows, not one session.",
+    "sources": [
+     "Inside Etsy's product, growth, and marketplace evolution (Tim Holley)"
+    ]
+   },
+   {
+    "heading": "Ask for push when it's clearly useful",
+    "body": "LinkedIn asks right after an action that makes alerts useful and names what you'll hear about: 5–10% opt in, against 1–2% for random prompts. NN/g found first-launch prompts mostly get 'Don't Allow'.",
+    "sources": [
+     "How Linkedin Increased Notification Opt-in Rates by 500%",
+     "Five Mistakes in Designing Mobile Push Notifications"
+    ]
+   },
+   {
+    "heading": "Build the reminder that reaches everyone, often",
+    "body": "Phiture's RRF framework ranks ideas by reach, relevance and frequency. A daily message to every user at 0.5% CTR beats a perfect message that fires rarely.",
+    "sources": [
+     "RRF: A Framework for Building Impactful Notifications"
+    ]
+   },
+   {
+    "heading": "Send at each learner's own time",
+    "body": "Kahuna data shows timing delivery to each user's habits lifted conversion by 384% on average. Utility-style pushes about the user's own routine got up to 40% engagement.",
+    "sources": [
+     "New data on push notifications show up to 40% CTRs, the best perform 4X better than the worst (Guest post)"
+    ]
+   },
+   {
+    "heading": "Education users opt in, so don't waste it",
+    "body": "Education has some of the highest push opt-in rates, and even top education apps send only about one push a day. Personalised win-backs work: SoundCloud got 5x more reactivations by naming the last track a user liked.",
+    "sources": [
+     "Mobile App Push Notification Benchmarks for 2025",
+     "Increasing Retention with Push, In-App and Email Part 3: Implementing the Strategy"
+    ]
+   }
+  ],
+  "try": [
+   "After the first question set: 'When do you want to study each day?' with a time picker, then the push permission.",
+   "10–15 reminder versions rotated without repeats, judged by sessions started.",
+   "A 10 PM streak saver only when today's plan isn't done.",
+   "A lapsed-learner sequence: day 1–3 personal reminders, then weekly, then a 'start fresh' plan."
+  ],
+  "examples": [
+   {
+    "app": "Brilliant",
+    "note": "A pre-permission screen that previews a real reminder ('You're about to level up!') before the system prompt.",
+    "url": "https://mobbin.com/screens/c33921fd-b1a6-4f0e-8c59-70b4121a18c7"
+   },
+   {
+    "app": "ChatGPT",
+    "note": "Names the exact thing you'll be told about ('when tasks are done') above the system prompt.",
+    "url": "https://mobbin.com/screens/0fb5a49b-e98f-4f8f-803d-6571324fc342"
+   },
+   {
+    "app": "Cal AI",
+    "note": "Asks inside onboarding with one goal line and a pointing hand at Allow.",
+    "url": "https://mobbin.com/screens/021dbea1-92b5-4b3a-bed8-b1d677491e66"
+   }
+  ]
+ },
+ {
+  "id": "paywall-trial",
+  "title": "Paywall and trial",
+  "topics": [
+   "Paywall"
+  ],
+  "summary": "More people need to see the paywall, it should build the value case before the price, and being honest about the trial converts better than hiding it.",
+  "ideas": [
+   {
+    "heading": "Most users never see a late paywall",
+    "body": "FitnessAI moved its paywall before onboarding: installs reaching it went from about 40% to 85%, and revenue doubled. Rootd did the same and revenue rose 5x.",
+    "sources": [
+     "8 paywall test ideas to grow app revenue",
+     "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+    ]
+   },
+   {
+    "heading": "Value first, price last",
+    "body": "A three-card value story before the paywall took trial opt-in from 2% to 15% in one test. Speak4Me's three-step paywall beat a single screen by 27%.",
+    "sources": [
+     "What the best subscription apps get right about paywalls",
+     "Speak4Me: 27% higher conversion with a multi-step Duolingo-style paywall"
+    ]
+   },
+   {
+    "heading": "Honest trials convert",
+    "body": "Blinkist's paywall with a trial timeline and a promise to remind before billing raised conversion 23% and cut complaints 55%. Pepper's day-by-day timeline lifted lifetime value by half.",
+    "sources": [
+     "What the best subscription apps get right about paywalls",
+     "Pepper: 50% lifetime value increase with a timeline paywall",
+     "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
+    ]
+   },
+   {
+    "heading": "Default to yearly, match the entry point",
+    "body": "Making yearly the default lifted yearly take-up 15–20% at Mojo. Duolingo changes the paywall's message to match what the person just tapped.",
+    "sources": [
+     "8 paywall test ideas to grow app revenue"
+    ]
+   },
+   {
+    "heading": "Trial length: match it to time-to-value",
+    "body": "Across 17,000+ apps, longer trials came with higher conversion and first renewal on annual plans (24% to 45% conversion). Duolingo moved 14 to 7 days and still saw more conversions over time.",
+    "sources": [
+     "How long should your free trial be? Data from 17,000+ apps",
+     "How Clarity and Personalization Help Drive Duolingo's Growth — Anmol Tiwari, Duolingo"
+    ]
+   },
+   {
+    "heading": "Judge paywalls on revenue after refunds",
+    "body": "BoldVoice removed the close button: trial starts jumped, refunds jumped more. Clearful's timeline page raised trial starts 54% but hurt retention.",
+    "sources": [
+     "BoldVoice removed the X from its paywall. Trial starts jumped. Refunds jumped more.",
+     "Experiment: Free-trial Timeline Page vs. Long-form Feature/Benefit Page"
+    ]
+   },
+   {
+    "heading": "Where the paywall is matters",
+    "body": "Tinder's biggest paywall win ($50M) was a new entry point in the top navigation, not a new paywall.",
+    "sources": [
+     "How a Single Paywall Experiment Generated $50M — Jeff Morris, Chapter One, Ex-Tinder"
+    ]
+   },
+   {
+    "heading": "Annual highlighted, priced for the market",
+    "body": "ABBYY's savings badge and separate plan buttons doubled annual choice. In India, most apps price 50–80% below the US. Lose It! doubled its annual price and broke even on conversion.",
+    "sources": [
+     "How ABBYY increased annual subscription revenue by 58.5% with paywall A/B testing",
+     "The ultimate guide to price localization",
+     "The Hidden Cost of Underpricing Your Subscription — Patrick Rills, Lose It!"
+    ]
+   },
+   {
+    "heading": "Catch people who back out",
+    "body": "A discounted paywall for people who back out of checkout made up 17% of revenue across 18 apps, with fewer refunds.",
+    "sources": [
+     "17% Revenue Boost with Transaction Abandon Paywalls - A Case Study"
+    ]
+   },
+   {
+    "heading": "No trial can beat a trial",
+    "body": "Natal removed the free trial from its monthly plan and offers it \"only on our annual subscription\" at web checkout; monthly subscriptions rose sharply, with users who already trusted the product.",
+    "sources": [
+     "How Removing the Free Trial Grew Monthly Subs 2000% — Nancy Anderson, Natal"
+    ]
+   },
+   {
+    "heading": "One plain line can beat a feature",
+    "body": "Etsy added one cart line, 'Etsy offsets carbon emissions from every delivery', and saw 'huge uplift' it didn't expect. On an education product, swapping raw Facebook-group screenshots for designed testimonial cards made the page convert worse; putting the screenshots back recovered it. Erik Kennedy pairs each likely objection with a testimonial that answers it.",
+    "sources": [
+     "Inside Etsy's product, growth, and marketplace evolution (Tim Holley)",
+     "Make landing pages that convert (Erik Kennedy)"
+    ]
+   },
+   {
+    "heading": "Price as a daily value story people can explain back",
+    "body": "Madhavan Ramanujam tests pricing by asking customers to explain it back, and shows good, better, best options so the talk moves to value. Superhuman's $30 a month was told as 'a dollar a day' for 'four hours of productivity back in the week'; $30 was the median 'starting to get expensive' answer from about 100 early users. Tinder's big spenders compared the cost to the cost of dating, not to other apps.",
+    "sources": [
+     "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam (Madhavan Ramanujam)",
+     "Superhuman's secret to success | Rahul Vohra (CEO and founder) (Rahul Vohra)",
+     "How to build your product strategy stack (Ravi Mehta)"
+    ]
+   },
+   {
+    "heading": "Don't give away what people pay for",
+    "body": "Ramanujam's '20-80 axiom': the 20% of a product that drives 80% of willingness to pay is often the easiest to build, and gets given away free. Lauryn Isford suggests a reverse trial: everyone starts on full premium for a limited time, then drops to free.",
+    "sources": [
+     "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam (Madhavan Ramanujam)",
+     "Mastering onboarding (Lauryn Isford)"
+    ]
+   },
+   {
+    "heading": "Show their result before the price",
+    "body": "Growth.Design's trial teardown argues for showing the user's own urgent result and letting them do the core action once before the paywall. A free gift that looks like a paywall gets read as an upsell.",
+    "sources": [
+     "The \"almost\" perfect trial conversion",
+     "Strava: When good UX intentions fail without psychology"
+    ]
+   }
+  ],
+  "try": [
+   "Track the share of installs that ever see the paywall; aim for 80%+.",
+   "A headline that matches the trigger: locked explanation → 'Unlock every explanation'.",
+   "Yearly preselected, shown as a monthly amount, with monthly under 'See all plans'.",
+   "A second paywall after the first completed plan session for those who skipped. (The trial timeline is already in the app.)",
+   "Check India pricing against conversion: if India converts 5x worse than the US, test a lower price.",
+   "Judge every paywall test on revenue after refunds, on a matured cohort."
+  ],
+  "examples": [
+   {
+    "app": "Brilliant",
+    "note": "Trial timeline: today full access, a reminder on day 5, charged on day 7 with the exact date.",
+    "url": "https://mobbin.com/screens/c5954cee-b3b0-4d32-a959-bbd9907c5785"
+   },
+   {
+    "app": "5 Minute Journal",
+    "note": "Timeline plus an annual plan shown per month, and 'No payment now' under the button.",
+    "url": "https://mobbin.com/screens/0b03c06a-63c8-43dd-87ed-58fecc57f0a1"
+   },
+   {
+    "app": "pillowtalk",
+    "note": "Timeline with a user quote and the price per week under it.",
+    "url": "https://mobbin.com/screens/2f9bcce8-e4bd-4cf1-9027-3b8f44eb4ca6"
+   },
+   {
+    "app": "Cal AI",
+    "note": "Yearly as the default with 'save 75%', and the renewal terms in plain words.",
+    "url": "https://mobbin.com/screens/e145982d-dec3-4809-9325-816c72f9db32"
+   }
+  ]
+ },
+ {
+  "id": "renewal-churn",
+  "title": "Renewal and churn",
+  "topics": [
+   "Renewal"
+  ],
+  "summary": "Match the save offer to why someone is leaving, show what they've built before renewal, and fix the quiet churn from failed payments.",
+  "ideas": [
+   {
+    "heading": "Ask why, then offer the right thing",
+    "body": "Cancel flows that route by reason (pause for 'too busy', a cheaper plan for 'too expensive', support for a bad experience) cut churn 10–20%.",
+    "sources": [
+     "The Subscription Growth Formula: Churn Math, Retention Wins, and Smart Product Bets — Dan Layfield"
+    ]
+   },
+   {
+    "heading": "Keep a cheaper plan for people leaving",
+    "body": "FitnessAI keeps a cheaper plan visible only at cancellation; a meaningful share of subscribers end up on it.",
+    "sources": [
+     "A Systematic Approach to Paywall Optimization — Live at App Promotion Summit NYC"
+    ]
+   },
+   {
+    "heading": "Message people who already cancelled differently",
+    "body": "Blinkist sends trial users who already cancelled a different message from those still in.",
+    "sources": [
+     "Blinkist – Using transparency to increase your conversion rate with Eveline Moczko"
+    ]
+   },
+   {
+    "heading": "Use Apple's cancel-page message",
+    "body": "iOS now lets apps show a message or offer on the App Store cancel page. Offers saved the most (+5.5 points), but most apps' discounts are almost never accepted, so match the message to the reason.",
+    "sources": [
+     "Explore Retention Messaging in App Store Connect (WWDC26 session 309)",
+     "Early Apple Retention Messaging benchmarks from 22M messages"
+    ]
+   },
+   {
+    "heading": "Stop churn upstream",
+    "body": "Madhavan Ramanujam says the way to stop churn is to acquire the kind of customers who stay, not to throw offers at people already leaving. Yuriy Timen says most $5 to $7 a month consumer subscriptions have lifetime values that 'cap out at 50 to 60 bucks'.",
+    "sources": [
+     "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam (Madhavan Ramanujam)",
+     "How to grow a subscription business (Yuriy Timen)"
+    ]
+   }
+  ],
+  "try": [
+   "A cancel survey: 'Exam done or postponed' → pause until the next cycle; 'Too expensive' → a cheaper Qbank-only plan.",
+   "Before renewal, a recap: questions done, accuracy gained, by subject.",
+   "Set up App Store retention messaging: 'Exam postponed? Pause instead of cancelling.'"
+  ],
+  "examples": [
+   {
+    "app": "Shopify",
+    "note": "Cancel shows cheaper options next to it: pause for less, or start again for $1.",
+    "url": "https://mobbin.com/screens/62e7fa56-6733-41c3-b1cf-60370165418f"
+   },
+   {
+    "app": "Glovo",
+    "note": "Names the money you'd lose ('Keep on saving 2,80 € on every order') with keep as the main button.",
+    "url": "https://mobbin.com/screens/9d295f34-a687-4b57-acfa-68c06a4692cc"
+   },
+   {
+    "app": "Lifesum",
+    "note": "Asks why you're leaving before sending you to the App Store.",
+    "url": "https://mobbin.com/screens/1c9bdd40-86bb-4859-88c0-485b4ca57a74"
+   },
+   {
+    "app": "Cash App",
+    "note": "After cancelling: what you still have until the end date, with 'Keep your service' one tap away.",
+    "url": "https://mobbin.com/screens/4a2ce607-549c-45a1-b03b-fb5d159504b6"
+   }
+  ]
+ },
+ {
+  "id": "design-craft",
+  "title": "Screens, motion and accessibility",
+  "topics": [
+   "Visual design",
+   "Navigation",
+   "Accessibility",
+   "Copy"
+  ],
+  "summary": "Craft lessons from Apple, Google, Linear, Netflix, Airbnb and Duolingo: clear navigation and words, motion that follows the hand and is judged on a real phone, delight in everyday moments, accessible colour and type, and dark mode built on tokens. How an app feels moved Netflix's business metrics.",
+  "ideas": [
+   {
+    "heading": "Tabs mirror the hierarchy",
+    "body": "Tabs should reflect the app's information hierarchy; push to go deeper, and use modals only for self-contained tasks.",
+    "sources": [
+     "Explore Navigation Design for iOS (WWDC22)"
+    ]
+   },
+   {
+    "heading": "Make features visible, not explained",
+    "body": "Show features on the screen itself instead of in onboarding slides.",
+    "sources": [
+     "Discoverable Design (WWDC21)"
+    ]
+   },
+   {
+    "heading": "Each screen says one thing",
+    "body": "Write so each screen has one clear message, and label buttons with the action they perform. Write real copy, not lorem ipsum, because it changes the design. Ridd had Claude render every toast, dialog and error on one page to write all system copy together.",
+    "sources": [
+     "Writing for Interfaces (WWDC22)",
+     "Lessons from the founding designer at Linear (Adrien Griveau)",
+     "Our AI design workflows have changed (again) (Kyle Zantos)"
+    ]
+   },
+   {
+    "heading": "Motion follows the hand",
+    "body": "Motion should respond instantly, be interruptible and carry the gesture's momentum. Janum Trivedi's ladder: animations you can interrupt, that keep momentum when they change direction, that stretch at edges, and that always respond.",
+    "sources": [
+     "Designing Fluid Interfaces (WWDC18)",
+     "What makes a software product feel great (Janum Trivedi)"
+    ]
+   },
+   {
+    "heading": "Bold, but usable",
+    "body": "Google's 46 studies found bolder colour, shape and size helped people spot key actions up to 4x faster, but removing text labels or scattering layouts hurt usability.",
+    "sources": [
+     "Expressive Design: Google's UX Research (Material 3 Expressive)"
+    ]
+   },
+   {
+    "heading": "Accessible by default",
+    "body": "Never rely on colour alone, design for large text from the start, aim for at least 4.5:1 contrast, and respect reduce-motion.",
+    "sources": [
+     "Make Your App Visually Accessible (WWDC20)"
+    ]
+   },
+   {
+    "heading": "Dark mode is tokens, not inversion",
+    "body": "Build dark mode on semantic colour names and elevation, so screens adapt without per-mode code. Good dark modes use a dark background with lighter cards, not black cards on grey.",
+    "sources": [
+     "Implementing Dark Mode on iOS (WWDC19)",
+     "7 Senior Designers Show How They Collect Design Inspiration (Shopify, DuckDuckGo, Webflow designers)"
+    ]
+   },
+   {
+    "heading": "Less chrome, and a simple style",
+    "body": "Linear cut visual noise and generated themes from 3 inputs instead of 98 variables. Duolingo's few rounded shapes let a small team make hundreds of illustrations a year, and its characters run on Rive state machines.",
+    "sources": [
+     "How we redesigned the Linear UI",
+     "Shape language: Duolingo's art style",
+     "How Duolingo's World Characters lip sync"
+    ]
+   },
+   {
+    "heading": "How it feels moves the business",
+    "body": "Netflix tested a 9-month motion and polish refresh as one package against control, so it wouldn't feel patched together: 'all core business metrics are positive by a substantial margin'. Stripe found a better checkout gave 'a 10.5% increase in business' revenue'.",
+    "sources": [
+     "What makes a software product feel great (Janum Trivedi)",
+     "Building beautiful products with Stripe's Head of Design (Katie Dill)"
+    ]
+   },
+   {
+    "heading": "Delight lives in everyday moments",
+    "body": "Confetti on completion is now expected, so FigJam looked for care in everyday moments like cursor chat and high-fives. Airbnb added haptics, 3D icons and an Easter egg in the guest counter, and saves special treatments for special moments. Craft keeps skip screens plain. Amo asks what reaction every button gives.",
+    "sources": [
+     "The art of designing for delight (Jenny Wen)",
+     "How Airbnb innovates with design (Teo Connor)",
+     "What it takes to design an award-winning product (Balint Orosz)",
+     "Why Amo's Design Hits Different (Julien Martin)"
+    ]
+   },
+   {
+    "heading": "One idea sets the tone",
+    "body": "Amo spent about 4 months on a polished 'black gem' look, then dropped it as cold and not fun; animated real-person avatars became the idea that shaped everything. Retro let haptics, sound and pacing all follow one motif, 'slow down'. Jessica Hische names the feeling a typeface gives, then works out why, and tests every asset at its smallest real size first.",
+    "sources": [
+     "Why Amo's Design Hits Different (Julien Martin)",
+     "Make your designs memorable (Rafa Conde)",
+     "How to see like a designer: The hidden power of typography and logos (Jessica Hische)"
+    ]
+   },
+   {
+    "heading": "A few visual rules go a long way",
+    "body": "Give each colour a different brightness so they don't clash, use colour for meanings the product defines (red = delete), and try black, white and one accent. Beyond Identity uses colour only where it means something and shows trends with weight and brightness. Superhuman tested 15 font families on printouts and fixed line length at roughly 90 to 120 characters.",
+    "sources": [
+     "Mastering the pillars of great visual design (Anthony Hobday)",
+     "Claude Code Workflow for Design Teams (Alan and Becky, Beyond Identity)",
+     "Superhuman's secret to success | Rahul Vohra (CEO and founder) (Rahul Vohra)"
+    ]
+   },
+   {
+    "heading": "Edit in place and invite play",
+    "body": "Interface Craft's buttons morph in place (Edit name becomes Done) instead of opening dialogs. Buyers sign a library card they pick themselves, spend minutes on it and share it. Amo's Bump shows friends on an iPod-style wheel under your thumb.",
+    "sources": [
+     "Crafting interfaces with uncommon care (Josh Puckett)",
+     "Why Amo's Design Hits Different (Julien Martin)"
+    ]
+   },
+   {
+    "heading": "Give errors and empty states a character",
+    "body": "Swiggy's Snacc used a ginger cat mascot for every error and empty state instead of a generic icon. It reused the Swiggy design system and only swapped the primary colour token, so all design took one week.",
+    "sources": [
+     "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)"
+    ]
+   },
+   {
+    "heading": "Hidden gestures lose new users",
+    "body": "Snapchat's gesture-only navigation was fast for early users, but it hid too much and new users struggled. Every Linear feature must work with the mouse; keyboard shortcuts are added on top.",
+    "sources": [
+     "Designing Snapchat and the future of music (Jack Brody)",
+     "Lessons from the founding designer at Linear (Adrien Griveau)"
+    ]
+   },
+   {
+    "heading": "Judge motion on a real phone",
+    "body": "Airbnb moves from Figma to real-code prototypes early to judge motion on a device. Swiggy hands off motion as Lottie or a video with easing and duration values, then tests on a real phone to fix 2px and easing mismatches. One designer storyboarded motion with keyframes and exact pixel math.",
+    "sources": [
+     "How Airbnb innovates with design (Teo Connor)",
+     "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)",
+     "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)"
+    ]
+   },
+   {
+    "heading": "Fast motion, under 300ms",
+    "body": "Emil Kowalski's rules: press scale about 0.97, start from 0.9+ not 0, ease-out, and keep UI animation under 300ms. Animations must be interruptible and respect reduced motion.",
+    "sources": [
+     "7 Practical Animation Tips",
+     "Great Animations"
+    ]
+   },
+   {
+    "heading": "Copy the platform's hidden rules for sheets",
+    "body": "A bottom sheet feels native only with flick-to-dismiss, damped over-drag and iOS's curve at 500ms. Haptics should mean one thing each and match the animation.",
+    "sources": [
+     "Building a drawer component",
+     "Playing haptics"
+    ]
+   },
+   {
+    "heading": "Keep the main tabs visible",
+    "body": "NN/g found visible navigation was used 86% of the time on phones against 57% when hidden, and hidden menus made people 15% slower.",
+    "sources": [
+     "Hamburger Menus and Hidden Navigation Hurt UX Metrics"
+    ]
+   },
+   {
+    "heading": "Show progress on every wait",
+    "body": "With a moving progress bar, people waited about 3 times longer. When work should look heavy, showing it happen raises trust.",
+    "sources": [
+     "Progress Indicators Make a Slow System Less Insufferable",
+     "Labor Perception Bias: Why faster isn't always better"
+    ]
+   },
+   {
+    "heading": "Design the peak and the ending",
+    "body": "People remember the most intense moment and the end: 80% chose to repeat a longer but better-ending cold-water trial. Celebrate the learner's real milestone, not the app's.",
+    "sources": [
+     "The Peak–End Rule: How Impressions Become Memories",
+     "Why Confetti Celebrations Backfire (and How to Make Them Work)"
+    ]
+   }
+  ],
+  "try": [
+   "Check each tab's job against the hierarchy before adding anything to it.",
+   "Run every new screen at the largest text size and in dark mode.",
+   "Label buttons with their action ('Start session', not 'Continue').",
+   "Give every error and empty state one shared illustration or mascot and a plain, warm line.",
+   "Sign off motion on a real phone, with easing and duration written down."
+  ]
+ },
+ {
+  "id": "design-process",
+  "title": "How top design teams work",
+  "topics": [
+   "Design process",
+   "Research methods"
+  ],
+  "summary": "The best teams stay rough until the idea is clear, try it in the real product with real data, and run crits and polish reviews with clear rules. They walk whole journeys as a user, talk to users every week, and save good work daily to build taste.",
+  "ideas": [
+   {
+    "heading": "Write tenets that take a side",
+    "body": "At ThoughtSpot, Bob Baxley set three tenets every team memorised, like 'documentation is a failure state'. Keep it to 3 or 4, and make them rules people could argue against, unlike 'simple, clear, beautiful'. Descript writes principles that pick a side on dilemmas like novice vs pro.",
+    "sources": [
+     "35 years of product design wisdom from Apple, Disney, Pinterest and beyond (Bob Baxley)",
+     "The 2 Question Rule that makes Design Crits effective (John, Descript)"
+    ]
+   },
+   {
+    "heading": "Stay rough until the concept is clear",
+    "body": "Baxley's team worked in chunky block diagrams for weeks so feedback stayed on the concept; once locked, an agency 'could do the full high-res comps in a day'. Tripadvisor's strategy doc wasn't done until it had wireframes. Plaid starts each exploration on a blank artboard, because duplicate-and-tweak anchors you on idea one. Granola blocks flows out in Whimsical first.",
+    "sources": [
+     "35 years of product design wisdom from Apple, Disney, Pinterest and beyond (Bob Baxley)",
+     "How to build your product strategy stack (Ravi Mehta)",
+     "Plaid's culture of craft, tips for CRIT, and lessons from early Facebook (Christophe Tauziet)",
+     "How I Design at Granola (Pawin)"
+    ]
+   },
+   {
+    "heading": "Test in the real product with real data",
+    "body": "At Skyscanner, testers with fake data picked a variant with $1,000 flights that real buyers would hate, so Craft prototypes in the real app. Linear puts a feature into production, staff-only, in about the first week, then opens it to opted-in customers. Airbnb moves to real-code prototypes early. Jake Knapp's Design Sprint goes from zero to a prototype tested with customers in five days.",
+    "sources": [
+     "What it takes to design an award-winning product (Balint Orosz)",
+     "Inside Linear: Building with taste, craft, and focus (Karri Saarinen)",
+     "How Airbnb innovates with design (Teo Connor)",
+     "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC) (Jake Knapp and John Zeratsky)"
+    ]
+   },
+   {
+    "heading": "Crits work when the presenter sets the rules",
+    "body": "Show a 'what I need today' frame, collect silent written feedback first, then talk, and open with what changed since last time. Descript makes the room ask two clarifying questions before any opinion, and keeps craft crit, cross-functional review and go/no-go sign-off separate. Plaid finds 7 to 10 people the best crit size. Brian Lovin says what feedback he doesn't want.",
+    "sources": [
+     "7 Top Designers Show How They Do Design Critiques (Figma, Slack, Ramp, CNN, Firefox, Hex designers)",
+     "The 2 Question Rule that makes Design Crits effective (John, Descript)",
+     "Plaid's culture of craft, tips for CRIT, and lessons from early Facebook (Christophe Tauziet)",
+     "Takeaways from interviewing 100+ design teams about their process (Brian Lovin)"
+    ]
+   },
+   {
+    "heading": "A polish review before build, and every state checked",
+    "body": "A fixed panel of senior Plaid designers nitpicks each file in the 24 to 48 hours before engineering starts; comments per file fell from '20 30' to 'five six seven' in a year. Plaid's polish review checks accessibility, colours, type, padding and copy. Before launch Linear's Karri Saarinen tries every state himself, and pulled threaded comments back for janky animation with long messages.",
+    "sources": [
+     "Plaid's culture of craft, tips for CRIT, and lessons from early Facebook (Christophe Tauziet)",
+     "This is how a top Consumer Designer designs in Figma (John, Plaid)",
+     "Inside Linear: Building with taste, craft, and focus (Karri Saarinen)"
+    ]
+   },
+   {
+    "heading": "Walk whole journeys, not single screens",
+    "body": "Stripe gave 15 key user journeys named owners who walk them end to end every quarter, write a friction log with screenshots and give a colour score. Figma reviews whole systems where 'we made all the right local decisions and yet together they're too complex'. Swiggy's Anuj Rathi maps every screen for one concrete person at a specific moment, including waiting and failure states.",
+    "sources": [
+     "Building beautiful products with Stripe's Head of Design (Katie Dill)",
+     "Dylan Field live at Figma's Config: Intuition, simplicity, and the future of design (Dylan Field)",
+     "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart) (Anuj Rathi)"
+    ]
+   },
+   {
+    "heading": "Handoff explains why, every state, and the motion",
+    "body": "Good specs sit on one 'ready for dev' page with the why, states, long and short text, empty and error states, and screen-reader order. Plaid keeps a clean end-to-end page apart from a messy workspace page, and records decisions in callouts because resolved comments vanish. Swiggy hands off motion with easing and duration values, then tunes it together on a phone.",
+    "sources": [
+     "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)",
+     "This is how a top Consumer Designer designs in Figma (John, Plaid)",
+     "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)"
+    ]
+   },
+   {
+    "heading": "Start research from the risk, and check what people really use",
+    "body": "Noam Segal asks what risk a study reduces, turns it into a few learning goals, and uses a guide, not a script. Granola's designer runs four to six user calls a week, and the team removed collaborative notes after internal users didn't miss it. Tinder phoned its big spenders and learned the data's reason was wrong. Campsite deleted a feature nobody used and 'zero people complained'.",
+    "sources": [
+     "Doing UX research with AI (Noam Segal)",
+     "How I Design at Granola (Pawin)",
+     "How to build your product strategy stack (Ravi Mehta)",
+     "Takeaways from interviewing 100+ design teams about their process (Brian Lovin)"
+    ]
+   },
+   {
+    "heading": "Save good work daily, and crop the exact part",
+    "body": "A Shopify designer spends about 10 minutes most mornings saving to Mobbin and Pinterest, and highlights the exact element on each reference before handing it to a person or an agent. Anthony Hobday says experience is mostly known patterns, so save examples and look again. Rafa Conde keeps a folder of small delightful details from other apps.",
+    "sources": [
+     "7 Senior Designers Show How They Collect Design Inspiration (Shopify, DuckDuckGo, Webflow designers)",
+     "How I use Claude Code as a Designer at Shopify (Caston)",
+     "Mastering the pillars of great visual design (Anthony Hobday)",
+     "Make your designs memorable (Rafa Conde)"
+    ]
+   },
+   {
+    "heading": "Build a design system from what the product already uses",
+    "body": "DoorDash built its first system (tokens, buttons, modals) from the components the UI used most, and timed it to the rebrand; by mid next year 'everything on the website was using the design system'. Linear's founding designer instead designs on screenshots of the live app, saying a large system slows small teams. Airbnb's 3D icons start in one area and join the system only once proven.",
+    "sources": [
+     "Defining the visual language for DoorDash (Kathryn Gonzalez)",
+     "Lessons from the founding designer at Linear (Adrien Griveau)",
+     "How Airbnb innovates with design (Teo Connor)"
+    ]
+   },
+   {
+    "heading": "Make polish a weekly habit",
+    "body": "Linear's Quality Wednesdays: everyone fixes one small flaw a week, usually 30 minutes or less. Over 1,000 fixes later, the team spots flaws before they ship.",
+    "sources": [
+     "Quality Wednesdays: How we trained our team to see what doesn’t work"
+    ]
+   }
+  ],
+  "try": [
+   "Write 3 OnCourse design tenets that settle repeat debates, such as first-year student vs repeat aspirant.",
+   "Start each crit with a 'What I need today' frame, 5 minutes of silent comments and two clarifying questions.",
+   "Every quarter, walk install → first question set → paywall → day-2 return as a new aspirant; log friction with screenshots and a colour score.",
+   "Add a 24-hour polish review (spacing, tokens, copy, every state) before a screen goes to engineering.",
+   "Save 10 minutes of Mobbin references each morning, cropped to the exact part you like."
+  ]
+ },
+ {
+  "id": "ai-prototyping",
+  "title": "Designing with AI tools",
+  "topics": [
+   "AI tools",
+   "Design process"
+  ],
+  "summary": "Teams at Pocket FM, Shopify, Razorpay, Deel and Atlassian prototype in code on their real design system, with short rules files that stop the AI inventing components. They go wide cheaply, agree on how a flow works before how it looks, and hand off a link or a PR instead of a spec.",
+  "ideas": [
+   {
+    "heading": "Build a sandbox on the real design system and real content",
+    "body": "Pocket FM stripped its app of backend, analytics and ad SDKs into a playground on the real components, with real show data; the first version took 'less than a week' and 'around 20 product designers' use it. Beyond Identity rebuilt its whole app page by page as a mock-data sandbox. Shopify designers work in a clone of the admin on the real system. Deel's UI playground repo uses markdown guardrails so Claude only uses real components.",
+    "sources": [
+     "How I Built Pocket FM's Prototyping Playground (Harsha)",
+     "Claude Code Workflow for Design Teams (Alan and Becky, Beyond Identity)",
+     "How I use Claude Code as a Designer at Shopify (Caston)",
+     "How Deel Designers Start Prototyping Before PRDs (Chris)"
+    ]
+   },
+   {
+    "heading": "Pre-code the app shell so the AI edits instead of invents",
+    "body": "Atlassian built templates with the top and side nav already coded, so the AI only edits the content area. Navigation errors fell from 'maybe like half of the prototypes' to 'nearly zero'; people had been spending 'two or three hours' getting the nav right. Instructions alone gave about '50 60% accuracy'. Three clean examples per component worked better than every variant, and big screenshots get truncated, so feed smaller sections.",
+    "sources": [
+     "The trick to AI prototyping with your design system (Lewis Healey and Kyler Hall)"
+    ]
+   },
+   {
+    "heading": "Keep a short rules file built from real corrections",
+    "body": "Beyond Identity's CLAUDE.md grew from corrections ('MUI components only', 'use the theme tokens'), then Claude shrank it from about 1,000 lines to under 200. Pocket FM's CLAUDE.md tells agents to use Figma terms, and a side agent appends unsaid rules from each chat to a shared file. Atlassian cut its guidelines from 5,000 lines to 2,000 to 3,000. Descript shares its head of design's Cursor rules for everyone to copy.",
+    "sources": [
+     "Claude Code Workflow for Design Teams (Alan and Becky, Beyond Identity)",
+     "How I Built Pocket FM's Prototyping Playground (Harsha)",
+     "The trick to AI prototyping with your design system (Lewis Healey and Kyler Hall)",
+     "The 2 Question Rule that makes Design Crits effective (John, Descript)"
+    ]
+   },
+   {
+    "heading": "Stop invented components with the design system itself",
+    "body": "Razorpay converts aligned flows to its Blade system through a design-system MCP, with one Figma screenshot for the visual language. When Claude invents a component, Deel's designer pastes the Storybook link and says 'you are inventing this'. Pocket FM uses an MCP to check which Figma components exist in code. Lovable's CI fails code with raw hex values, so explorations don't have to be perfect.",
+    "sources": [
+     "How Razorpay Designers use AI to Ship 8 Projects a Month (PJ and Mina)",
+     "How Deel Designers Start Prototyping Before PRDs (Chris)",
+     "How I Built Pocket FM's Prototyping Playground (Harsha)",
+     "Inside Lovable's Design Team (Arthur)"
+    ]
+   },
+   {
+    "heading": "Go wide cheaply, then build the chosen idea in code",
+    "body": "Wealthsimple's designer has Claude draw five concepts on a Paper canvas, then builds the chosen one in the real monorepo in plan mode, adding 'use the ask user question tool' so Claude interviews him. Shopify's designer feeds Claude a dictated brief, a wireframe screenshot and the wireframe folder at once. Ridd prototypes 4 layouts in HTML and says Claude's accuracy from his video feedback is '80 90%'. Lovable asks for '15 variants', picks one and refines by hand.",
+    "sources": [
+     "Wealthsimple’s AI Native Design Process (Danny, Wealthsimple)",
+     "How I use Claude Code as a Designer at Shopify (Caston)",
+     "Our AI design workflows have changed (again) (Kyle Zantos)",
+     "Inside Lovable's Design Team (Arthur)"
+    ]
+   },
+   {
+    "heading": "Agree how it works before how it looks",
+    "body": "Razorpay uses unstyled Claude artifacts only to align on structure, then restyles. Deel keeps concepts visibly rough; a concept test takes 'half of a day' and gives validation 'in one day or two days'. Granola starts in low-fidelity wireframes because AI prototypes make you 'narrow down too early'. Claude Code's design lead doesn't polish experiments that test a mental model, and notes AI won't tell you an idea is wrong.",
+    "sources": [
+     "How Razorpay Designers use AI to Ship 8 Projects a Month (PJ and Mina)",
+     "How Deel Designers Start Prototyping Before PRDs (Chris)",
+     "How I Design at Granola (Pawin)",
+     "Designing Claude Code (and what's coming next) (Meaghan Choi)"
+    ]
+   },
+   {
+    "heading": "Put every option and state behind one link",
+    "body": "Beyond Identity's sandbox has a hidden panel to switch option, variant, state (empty or filled) and placement, instead of 15 prototype links. Givebutter's concepts switch between first visit, partial progress, completed and returning user. Granola's prototype has a screen picker with A/B/C variants per screen. CNN deploys each git branch to its own URL with a version switcher.",
+    "sources": [
+     "Claude Code Workflow for Design Teams (Alan and Becky, Beyond Identity)",
+     "AI Native Designer shows his Growth Design Process (Clint, Givebutter)",
+     "How I Design at Granola (Pawin)",
+     "7 Top Designers Show How They Do Design Critiques (Figma, Slack, Ramp, CNN, Firefox, Hex designers)"
+    ]
+   },
+   {
+    "heading": "The handoff is a PR or a live link",
+    "body": "Lovable's designer has shipped 'like I think 130 PRs'; a button fix went from problem to merged in about '10 minutes'. Claude Code's design lead says 'more than half of my code' now comes through Claude in Slack. Intercom engineers often say 'I can use 80% of that' about a coded prototype PR. At Shopify a prototype 'has given 80% to the developer', and a few days of work per version became a few hours.",
+    "sources": [
+     "Inside Lovable's Design Team (Arthur)",
+     "Designing Claude Code (and what's coming next) (Meaghan Choi)",
+     "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)",
+     "How I use Claude Code as a Designer at Shopify (Caston)"
+    ]
+   },
+   {
+    "heading": "Prototype AI features with the real model",
+    "body": "Mercury's deterministic chat prototype hit a ceiling, so the designer paired with her PM on one wired to a real model and concluded 'the system prompt in a way is the product'. Money movement shows a 'Draft' with edit, cancel and send buttons, and thinking is one line users can expand. Shopify prototypes AI features with a live LLM. Julie Zhuo says define success so precisely an agent can tell pass from fail.",
+    "sources": [
+     "Agentic Design Process at Mercury (Carol, Mercury)",
+     "How I use Claude Code as a Designer at Shopify (Caston)",
+     "From managing people to managing AI: The leadership skills everyone needs (Julie Zhuo)"
+    ]
+   },
+   {
+    "heading": "AI gives the obvious answer, so craft still decides",
+    "body": "Figma's CEO says AI design features give you the most obvious answer, so unique craft becomes the differentiator. Josh Puckett uses AI's speed to go deeper on a few moments, not to add scope. Swiggy kept AI food images consistent with a fixed silhouette and fixed AI tells like an extra thumb by hand. Designers avoid 'AI slop' by saving good work daily.",
+    "sources": [
+     "Dylan Field live at Figma's Config: Intuition, simplicity, and the future of design (Dylan Field)",
+     "Crafting interfaces with uncommon care (Josh Puckett)",
+     "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)",
+     "7 Senior Designers Show How They Collect Design Inspiration (Shopify, DuckDuckGo, Webflow designers)"
+    ]
+   }
+  ],
+  "try": [
+   "Set up an OnCourse playground: the app without backend or analytics, on existing components, with real questions and real plan data.",
+   "Pre-code the tab bar, header and question card so Claude only edits the screen's content area.",
+   "Start a CLAUDE.md under 200 lines and add a rule each time you correct Claude (tokens, components, icons).",
+   "Add a state switcher to each prototype (first visit, mid-plan, plan done, streak broken, trial ended) and share one link.",
+   "Hand off a draft PR plus a 2-minute video, after running a code-review skill on it."
+  ]
+ }
 ]

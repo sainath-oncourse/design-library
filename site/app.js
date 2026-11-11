@@ -33,6 +33,7 @@
   const ideaParts = (i) => { const m = i.match(/^([A-Z][\w/' -]{2,40}):\s+(.*)$/s); return m ? [m[1], cap(m[2])] : [null, cap(i)]; };
   const firstSentence = (t) => (t || "").split(/(?<=\.)\s/)[0];
   const tested = (s) => s["Evidence type"] === "A/B test";
+  const research = (s) => s["Evidence type"] === "Research";
   const sectionHead = (title, href, label, sub) => `<div class="section-head"><div><h2>${title}</h2>${sub ? `<p>${sub}</p>` : ""}</div>${href ? `<a class="link" href="${href}">${label} →</a>` : ""}</div>`;
 
   // media
@@ -62,6 +63,7 @@
     return null;
   }
   const CHANNELS = [
+    [/^Lenny's Newsletter/, "Lenny's Newsletter", "#ff6719"],
     [/lennysnewsletter\.com|^Lenny's Podcast/, "Lenny's Podcast", "#f76b15"],
     [/^Dive Club/, "Dive Club", "#2c7be5"],
     [/^Sneak Peek/, "Sneak Peek", "#12a594"],
@@ -71,6 +73,17 @@
     [/blog\.duolingo\.com/, "Duolingo Blog", "#58a700"],
     [/superwall\.com/, "Superwall", "#6e56cf"],
     [PAPERS, "Research papers", "#6f6e77"],
+    [/growth\.design/, "Growth.Design", "#ff5a36"],
+    [/^Built for Mars/, "Built for Mars", "#c2410c"],
+    [/nngroup\.com/, "Nielsen Norman Group", "#d6001c"],
+    [/emilkowal\.ski|^Emil Kowalski/, "Emil Kowalski", "#111111"],
+    [/rauno\.me/, "Rauno Freiberg", "#444444"],
+    [/linear\.app/, "Linear", "#5e6ad2"],
+    [/phiture\.com/, "Phiture", "#00a3a1"],
+    [/andrewchen\.com/, "Andrew Chen", "#2563eb"],
+    [/reforge\.com/, "Reforge", "#7c3aed"],
+    [/khanacademy\.org/, "Khan Academy", "#14bf96"],
+    [/quizlet\.com/, "Quizlet", "#4255ff"],
   ];
   const channelOf = (s) => { for (const [re, name, color] of CHANNELS) if (re.test(s.Link) || re.test(s.Creator || "")) return { name, color }; return { name: host(s.Link).replace(/^blog\./, ""), color: "#8b8d98" }; };
   sources.forEach((s) => { s._ch = channelOf(s).name; });
@@ -91,6 +104,8 @@
 
   const evidenceBadge = (s) => tested(s)
     ? `<span class="ev ev-test" title="Backed by an A/B test or measured result">Tested</span>`
+    : s["Evidence type"] === "Research"
+    ? `<span class="ev ev-research" title="Backed by a usability study or real usage data, not an A/B test">Research</span>`
     : `<span class="ev" title="Experience or opinion, no measured result">Experience</span>`;
 
   function card(s) {
@@ -281,9 +296,13 @@
               <div class="cites">${idea.sourceIds.map((sid) => { const s = byId[sid]; return `<a class="cite" href="#/s/${sid}">${citeThumb(s)}<b>${esc((s.Apps || [])[0] || s._ch)} · ${esc(s.Title)}</b></a>`; }).join("")}</div>
             </li>`).join("")}
         </ol>
+        ${(l.examples || []).length ? `<section class="examples">
+          <h3>See it in real apps</h3>
+          <div class="ex-grid">${l.examples.map((e) => `<a class="ex" href="${esc(e.url)}" target="_blank" rel="noopener">${appMark(e.app, "big")}<div><b>${esc(e.app)}</b><p>${esc(e.note)}</p><span class="ex-link">Open on Mobbin ↗</span></div></a>`).join("")}</div>
+        </section>` : ""}
         <section class="try">
           <h3>Try at OnCourse</h3>
-          <ul>${l.try.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+          <ul>${(l.try || []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
           <p class="muted small">To prototype one, run <code>/product-design &lt;idea&gt;</code>.</p>
         </section>
       </article>
@@ -448,7 +467,7 @@
               </li>`).join("")}</ol>
           </section>
 
-          <section class="callout ${s.Results && tested(s) ? "" : "none"}"><h3>${tested(s) ? "What happened" : "What they say happened"}</h3><p>${s.Results ? esc(s.Results) : "The source gives no numbers. Treat it as an idea, not a proven result."}</p>${s.Results && !tested(s) ? `<p class="note">Not from a measured test.</p>` : ""}</section>
+          <section class="callout ${s.Results && (tested(s) || research(s)) ? "" : "none"}"><h3>${tested(s) ? "What happened" : research(s) ? "What the research found" : "What they say happened"}</h3><p>${s.Results ? esc(s.Results) : "The source gives no numbers. Treat it as an idea, not a proven result."}</p>${s.Results && research(s) ? `<p class="note">From a study or real usage data, not an A/B test.</p>` : s.Results && !tested(s) ? `<p class="note">Not from a measured test.</p>` : ""}</section>
 
           <section><h2>What they did</h2><p class="prose">${esc(s["What they did"])}</p></section>
 

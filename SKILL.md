@@ -33,7 +33,7 @@ Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** 
   "Ideas for OnCourse": "Screen: change. Screen: change. (1–3, each starting with the OnCourse screen: Home, Today's plan, Practice, Lessons, Flashcards, Streaks, Onboarding, Paywall, Renewal, Notifications, or "Design process:" for how the team works)",
   "Apps": ["Products studied, e.g. Duolingo (not design tools)"],
   "Tools": ["Design/AI tools shown, e.g. Figma, Claude Code, Cursor (optional)"],
-  "Evidence type": "A/B test | Experience",
+  "Evidence type": "A/B test | Research | Experience",   // Research = usability study or usage data, not an A/B test
   "Bottom line": "One sentence: what to take away.",
   "Key points": [{ "title": "Short claim, ≤10 words", "detail": "2–4 sentences explaining what, how and why, with specifics and quotes", "t": 1234 }],
   "Chapters": [{ "t": 0, "title": "Intro", "summary": "One sentence" }],
@@ -50,7 +50,7 @@ Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** 
 
 ## Add a source
 
-Channels already mined: Lenny's Podcast (transcripts: github.com/ChatPRD/lennys-podcast-transcripts), Dive Club (Ridd), Sneak Peek (@sneakpeekdesign). For YouTube captions, `youtube-transcript-api` (Python) works when yt-dlp hangs.
+Channels already mined: Growth.Design, Built for Mars (free pieces only; most is paywalled), Nielsen Norman Group, Emil Kowalski, Rauno Freiberg, Linear, Phiture, Andrew Chen, Reforge, Lenny's Newsletter (free posts), Khan Academy, Quizlet, Brilliant, Busuu, Babbel, Unacademy, Lenny's Podcast (transcripts: github.com/ChatPRD/lennys-podcast-transcripts), Dive Club (Ridd), Sneak Peek (@sneakpeekdesign). Lessons can carry `examples: [{app, note, url}]`, real screens from Mobbin; link to the Mobbin screen, never copy its images (the site is public). App icons live in `icons/<slug>.png`. For YouTube captions, `youtube-transcript-api` (Python) works when yt-dlp hangs.
 
 
 1. **Read the source itself, never from memory.** Fetch the article. For a video or podcast, get the transcript (the page, a transcript site, or a published transcript); if Caddie is connected, `create_video_note` then `get_note` reads YouTube transcripts. If it can't be read, add it with `"Status": "To read"` and say so.

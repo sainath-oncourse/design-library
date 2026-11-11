@@ -14394,6 +14394,5233 @@ window.LIBRARY = {
     "websim"
    ],
    "id": "dylan-field-live-at-figma-s-config-intuition-simplicity-and-the-future"
+  },
+  {
+   "Title": "How Linkedin Increased Notification Opt-in Rates by 500%",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/linkedin-retention-triggers",
+   "Apps": [
+    "LinkedIn",
+    "Slack"
+   ],
+   "Topics": [
+    "Notifications",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Ask for notifications right after an action that makes them useful, name the specific thing the user will hear about, and phrase it as a simple yes/no question.",
+   "What they did": "When a user with notifications turned off sends a private message, LinkedIn shows a prompt asking if they want to know when that person (named, with photo) replies. Growth.Design compares this with a generic permission request that appears at login and breaks down four reasons the contextual one works: context, the human, the value and a conversational yes/no question. It also shows a similar contextual trigger from Slack.",
+   "Results": "\"according to Linkedin's product team, this trigger converts 5x better than default ones!\" \"By using behavioral retention triggers, Linkedin achieves a 5-10% conversion rate (vs 1-2% for random prompts).\" The case study also cites that \"50% of users block\" notifications.",
+   "Takeaways": "Ask right after the action that needs the answer; Name the person or thing, not the feature; Sell the benefit, not alerts and badges; A yes/no question beats an Allow button; Re-ask blocked users through in-app triggers",
+   "Ideas for OnCourse": "Notifications: after a user bookmarks a question or schedules a revision, ask \"Want a reminder when this topic is due for revision?\" instead of a generic permission prompt. Notifications: for users who declined the OS prompt, show an in-app yes/no card tied to a specific event (\"Tell me when my mock test result is ready?\") before re-routing them to Settings",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cl3l5sadb000h0umu76291bai.gif",
+   "Key points": [
+    {
+     "title": "Ask right after the action that needs the answer",
+     "detail": "The prompt appears the moment the user sends an important message, when they are already expecting a reply. Growth.Design calls this a micro-commitment: \"People feel less threatened by small steps that are coherent with your previous actions.\" A random prompt at login has no such reason behind it. For OnCourse, tie the notification ask to a moment like finishing a test or setting a revision date.",
+     "t": null
+    },
+    {
+     "title": "Name the person or thing, not the feature",
+     "detail": "LinkedIn shows the name and photo of the person you just wrote to, instead of a vague promise like \"know when a connection answers.\" This is the Singularity Effect: people care more about a single identifiable individual than abstract groups. For OnCourse, name the exact topic, test or plan item the alert is about.",
+     "t": null
+    },
+    {
+     "title": "Sell the benefit, not alerts and badges",
+     "detail": "The prompt is about \"knowing when Bill answers\", not about alerts, sounds and badges. The user sees what they gain right now. OnCourse prompts should say what the aspirant gets (\"your result\", \"your revision\"), not describe notification types.",
+     "t": null
+    },
+    {
+     "title": "A yes/no question beats an Allow button",
+     "detail": "\"It's easier to agree to simple yes/no questions. After all, when's the last time you answered 'Allow' to a question in real life?\" The in-app question comes first, and only a yes leads to the system prompt. This protects the one-shot iOS permission.",
+     "t": null
+    },
+    {
+     "title": "Re-ask blocked users through in-app triggers",
+     "detail": "When a user taps \"Don't allow\", iOS won't let the app prompt again, so these users \"become really hard to reach.\" Behavioral triggers get a 5-10% conversion rate versus 1-2% for random prompts, and slowly win back users with notifications they asked for. The key, the author says, is to show users their attention is precious and you won't abuse it.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Micro-commitment",
+     "title": "Context and micro-commitment",
+     "summary": "Why a prompt right after sending a message is perfectly timed."
+    },
+    {
+     "t": null,
+     "anchor": "Singularity Effect",
+     "title": "Naming the human",
+     "summary": "Showing the specific person beats a generic promise about connections."
+    },
+    {
+     "t": null,
+     "anchor": "Recapturing Permissions",
+     "title": "The 5x result",
+     "summary": "LinkedIn's numbers and why blocked users are so hard to win back."
+    },
+    {
+     "t": null,
+     "anchor": "Here's an example from Slack",
+     "title": "Applying it elsewhere",
+     "summary": "A similar contextual trigger in Slack, and the rule of respecting attention."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Recapturing Permissions",
+    "why": "It has the numbers (5x, 5-10% vs 1-2%) and explains why OnCourse should never waste its one system prompt."
+   },
+   "id": "how-linkedin-increased-notification-opt-in-rates-by-500"
+  },
+  {
+   "Title": "How Hopper Perfectly Nails Permission Requests UX",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/hopper-permission-requests-ux",
+   "Apps": [
+    "Hopper",
+    "Kayak"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Notifications",
+    "Visual design"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Ask for a permission when the user wants what it unlocks; Hopper's location ask came too early, but its notification ask landed at the exact moment the user needed it.",
+   "What they did": "The author tries Hopper, a travel booking app, with a low \"psych\" of 30%. Hopper asks for location as soon as the user taps \"where from\", which feels too early, so Growth.Design proposes a user-driven prompt instead. Later, Hopper tells the user to wait before buying and offers to notify them when the price drops, and the author taps Allow without hesitation. Three redesign proposals target cognitive load on the date picker and the flight review screen.",
+   "Results": "No measured results. The proposed redesigns have hypothesis objectives only: \"Increase Location Access Conversion by 4%\", \"Lift 'Flight Dates' completion by 3%\" and \"Lift completion of flights review by 8%\".",
+   "Takeaways": "Early permission asks fail because trust is low; Let the user trigger the prompt themselves; The best ask follows a moment of value; Too many colours and options raise cognitive load; Recommend one action on decision screens",
+   "Ideas for OnCourse": "Onboarding: remove the notification permission step and instead ask on Today's plan after the first completed set, when a reminder for tomorrow's plan clearly helps. Practice: after a user gets a question wrong, offer \"Remind me to revise this in 3 days?\" as the moment to request notification access. Today's plan: show one recommended next action, with other options visually quieter",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cktk85q0g00070tjya7r7f9qu.png",
+   "Key points": [
+    {
+     "title": "Early permission asks fail because trust is low",
+     "detail": "Hopper asked for location access as soon as the user entered the \"where from\" field. It was contextual, but \"too early in the experience to have my trust,\" so the author declined. Context alone is not enough if the user hasn't seen value yet.",
+     "t": null
+    },
+    {
+     "title": "Let the user trigger the prompt themselves",
+     "detail": "\"If you need information or private access early in the product experience, implement ways where the user deliberately triggers the prompt.\" The redesign lets users choose to use location, shows the direct benefit, and keeps the dreamy background so the mood is not broken. Its objective was to \"Increase Location Access Conversion by 4%\" (a hypothesis).",
+     "t": null
+    },
+    {
+     "title": "The best ask follows a moment of value",
+     "detail": "Hopper's aha moment is advising the user to wait before buying to save money. Right then, it offers to notify them when to buy, and the author says: \"I didn't even see it coming. We're so used to see those prompts really early in the experience.\" For OnCourse, the notification ask should come right after a moment where a reminder obviously helps the aspirant.",
+     "t": null
+    },
+    {
+     "title": "Too many colours and options raise cognitive load",
+     "detail": "The date picker used alarming saturated colours with tags only $50 apart, and filters took primary space. The proposed fix uses a lighter active colour, fewer price levels and lower saturation for a calm feel, aiming to lift date completion by 3%. Hopper did get one thing right: it guides users through incremental decisions instead of one crowded screen.",
+     "t": null
+    },
+    {
+     "title": "Recommend one action on decision screens",
+     "detail": "The flight review screen hid price prediction and flex dates under too much text. \"Having a clear call to action and a clean interface goes a long way when a user is trying to decide what's the best course of action.\" The redesign puts a clear recommendation and all key information above the fold.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Progressive Disclosure",
+     "title": "A simple first screen",
+     "summary": "Hopper's home asks only where from and where to, unlike Kayak's extra fields."
+    },
+    {
+     "t": null,
+     "anchor": "User-Driven prompt",
+     "title": "The location ask came too early",
+     "summary": "Why the first permission failed and a redesign that lets the user choose."
+    },
+    {
+     "t": null,
+     "anchor": "Minimize cognitive Load",
+     "title": "The date picker",
+     "summary": "Too many saturated colours and price tags; a calmer redesign."
+    },
+    {
+     "t": null,
+     "anchor": "Recommend ONE Action",
+     "title": "Notification ask at the aha moment",
+     "summary": "The perfectly timed price alert prompt, and a cleaner review screen."
+    },
+    {
+     "t": null,
+     "anchor": "Temptation Bundling",
+     "title": "Temptation bundling",
+     "summary": "Dreamy destination imagery makes the hard work of booking feel lighter."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Recommend ONE Action",
+    "why": "It shows the notification ask that worked, right after the aha moment, which is the pattern OnCourse should copy."
+   },
+   "id": "how-hopper-perfectly-nails-permission-requests-ux"
+  },
+  {
+   "Title": "How To Properly Apply Jobs-To-Be-Done To User Onboarding",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/headspace-user-onboarding",
+   "Apps": [
+    "Headspace",
+    "Calm"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Paywall",
+    "Notifications",
+    "Home",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation",
+    "Conversion"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Ask why the user came, frame the answers positively, then actually use that answer on the paywall and home screen; otherwise onboarding becomes \"give give give\" and users leave.",
+   "What they did": "The author tries Headspace to relax. The splash screen gives value right away, but the goal question frames options negatively (\"Manage my anxiety\"), the next screen talks about life-long courses, a paywall appears before the app is seen, and the notification ask comes before any meditation. The home screen then shows courses unrelated to the chosen goal, and the author gives up, then also bounces off Calm's paywall.",
+   "Results": null,
+   "Takeaways": "Use loading time to give value; Frame goals as positive outcomes; Turn extra steps into a primed transition; Personalize the paywall with the user's goal; Ask for permissions after the first win; Home must match the job the user picked",
+   "Ideas for OnCourse": "Onboarding: phrase exam goals positively (\"Clear NEET-PG with a top rank\") rather than around fears like \"stop forgetting topics\". Paywall: repeat the user's chosen exam and goal in the headline and plan description. Home: make the first card the exact action tied to the goal picked in onboarding",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cktlz836z000j0umw2m5ag5pw.png",
+   "Key points": [
+    {
+     "title": "Use loading time to give value",
+     "detail": "Headspace's splash screen helps the user \"break free of my current thoughts,\" much like Calm's. \"Spinners tend to add uncertainty as they give almost zero feedback.\" This rocket start even carried the user through an early full signup form.",
+     "t": null
+    },
+    {
+     "title": "Frame goals as positive outcomes",
+     "detail": "The goal list included \"Manage my anxiety\", which the author calls negative framing: \"Would you say 'Avoid nightmares' instead of sleeping soundly?\" The advice is to show positive benefits and research the real job by asking users why they want to \"hire\" you. For OnCourse, goal options should describe the rank or confidence the aspirant wants.",
+     "t": null
+    },
+    {
+     "title": "Turn extra steps into a primed transition",
+     "detail": "A screen about \"life-long skills\" and \"courses\" felt like a big commitment to someone who just wanted to relax. The redesign replaces it with an animated transition that primes excitement and shows effort spent customizing (Labor Illusion: people \"trust & value results more when they obtain them after a carefully crafted delay\").",
+     "t": null
+    },
+    {
+     "title": "Personalize the paywall with the user's goal",
+     "detail": "The paywall appeared before the user saw the app and still talked about sleep, though they had not chosen sleep. Knowing the user's job \"can help you craft a personalized offer for anyone\" (Endowment Effect). The author also never noticed the X, and notes such a paywall \"might increase short-term conversions but hurt long-term customer value.\"",
+     "t": null
+    },
+    {
+     "title": "Ask for permissions after the first win",
+     "detail": "The notification ask came right after paying, before any meditation. \"Would you ask for 6 favors in a row to a stranger?\" Asking \"right after the first meditation would be a solid improvement.\"",
+     "t": null
+    },
+    {
+     "title": "Home must match the job the user picked",
+     "detail": "The home screen showed only courses and a \"Remember the blue sky\" session that did not fit the goal of relaxing. With psych now low, the user did not search further and left. Nailing the customer's job is \"proven to be critical for engagement.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Loading Time = Opportunities",
+     "title": "A splash screen that gives value",
+     "summary": "Headspace calms you before asking for anything."
+    },
+    {
+     "t": null,
+     "anchor": "Framing Customers' Jobs",
+     "title": "The goal question",
+     "summary": "Negative framing and how to research the real job."
+    },
+    {
+     "t": null,
+     "anchor": "Labor Illusion",
+     "title": "Replacing a heavy step with a transition",
+     "summary": "Priming and crafted delay instead of more reading."
+    },
+    {
+     "t": null,
+     "anchor": "Endowment Effect",
+     "title": "The early paywall",
+     "summary": "A paywall that ignores the chosen goal and hides its X."
+    },
+    {
+     "t": null,
+     "anchor": "Reciprocity",
+     "title": "Notification timing",
+     "summary": "Too many asks in a row before giving value."
+    },
+    {
+     "t": null,
+     "anchor": "Consider User Psych",
+     "title": "Low psych and the Calm attempt",
+     "summary": "Why asking for money without value fails when motivation is low."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Endowment Effect",
+    "why": "OnCourse's paywall comes after onboarding questions too; this shows what happens when the paywall ignores the answers."
+   },
+   "id": "how-to-properly-apply-jobs-to-be-done-to-user-onboarding"
+  },
+  {
+   "Title": "One Simple Psychology Framework To Improve Your Onboarding",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/blinkist-user-onboarding",
+   "Apps": [
+    "Blinkist"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Paywall",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Every onboarding step adds or drains \"psych\"; Blinkist drained it with a tracking prompt, an unexplained daily habit, random recommendations and jargon before the user ever reached the one summary they came for.",
+   "What they did": "The author downloads Blinkist to read one book summary. On the way he meets an App Tracking prompt, a daily reading goal with no explanation, a \"48 hours per week\" benefit claim, interest questions asked too late, recommendations unrelated to his picks, and a features screen with terms he didn't know. He reaches the trial paywall, praises its transparency, but then hits a wall of recommendations and gives up. Growth.Design proposes two redesigns: asking what the user wants to accomplish, and anchoring time saved to the user's goal.",
+   "Results": null,
+   "Takeaways": "Build trust before you ask for data; Ask what users want before imposing a habit; Anchor benefits to the user's own goal; Personalization done wrong is worse than none; Let users keep something they picked; Drop optional steps that drain psych",
+   "Ideas for OnCourse": "Onboarding: ask the aspirant's main goal (e.g. first attempt, improving rank, FMGE pass) before suggesting a daily question target, and explain the target. Onboarding: if the user picks subjects, make the first recommended set come from those subjects so the questions feel earned. Design process: score each onboarding step as adding or draining psych and cut the drainers",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/ckycjclh100050tk95siphdft.png",
+   "Key points": [
+    {
+     "title": "Build trust before you ask for data",
+     "detail": "The first thing Blinkist showed was a request to track activity across apps. \"You wouldn't greet a stranger on the street and ask for the keys to their house. This prompt is the digital equivalent.\" The user hadn't even seen a summary yet, so he declined.",
+     "t": null
+    },
+    {
+     "title": "Ask what users want before imposing a habit",
+     "detail": "Blinkist set a daily reading goal right after promising a 15-minute summary. \"Imposing a new daily habit without any explanation is intense.\" The redesign asks what the user wants to accomplish, using top reasons from The Economist's research, so the experience follows the user's needs \"not the other way around.\"",
+     "t": null
+    },
+    {
+     "title": "Anchor benefits to the user's own goal",
+     "detail": "Blinkist claimed the user could read 48 hours per week, which no one wants. The redesign anchors the comparison to the user's goal instead of \"an unreachable amount of reading time every week.\" Frame the experience around core value, and anchor the status quo as time-consuming to show the product's value.",
+     "t": null
+    },
+    {
+     "title": "Personalization done wrong is worse than none",
+     "detail": "After the user picked three psychology categories, Blinkist recommended Oprah's book on trauma and \"Sex & Relationships\". A quick search shows a clear top five psychology books it could have started with. \"Asking questions creates expectations,\" and failing them can backfire.",
+     "t": null
+    },
+    {
+     "title": "Let users keep something they picked",
+     "detail": "Once the user saved \"Thinking Fast & Slow\", knowing it waited in his library made him stay to the end (Endowment Effect). Combined with good personalization this pushes users to finish onboarding. OnCourse could let users save a first topic or question set during onboarding.",
+     "t": null
+    },
+    {
+     "title": "Drop optional steps that drain psych",
+     "detail": "A features screen asked about \"Blinks\" and \"Shortcasts\" before the user had seen the app, and the small Skip link was never noticed. \"Every user interaction will either add or subtract Psych.\" The closing checklist: avoid unnecessary friction, build psych before the big ask, delay optional or hard tasks, start from user needs, use psychology ethically.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Respect > Data",
+     "title": "The tracking prompt",
+     "summary": "Asking for data before giving anything."
+    },
+    {
+     "t": null,
+     "anchor": "Progressive disclosure",
+     "title": "Ask what they want first",
+     "summary": "A redesign that replaces an unexplained daily goal with a goal question."
+    },
+    {
+     "t": null,
+     "anchor": "Framing & Anchoring",
+     "title": "The 48 hours claim",
+     "summary": "Anchoring benefits to the user's goal instead."
+    },
+    {
+     "t": null,
+     "anchor": "Personalization Expectations",
+     "title": "Off-target recommendations",
+     "summary": "Questions raise expectations that the recommendations didn't meet."
+    },
+    {
+     "t": null,
+     "anchor": "Endowment Effect",
+     "title": "Saving a book",
+     "summary": "Owning something kept the user going."
+    },
+    {
+     "t": null,
+     "anchor": "Psych Framework",
+     "title": "The psych framework",
+     "summary": "How each step adds or subtracts motivation, and the closing checklist."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Psych Framework",
+    "why": "It names the one framework behind the whole teardown and ends with a 5-item checklist Sainath can use on OnCourse's onboarding."
+   },
+   "id": "one-simple-psychology-framework-to-improve-your-onboarding"
+  },
+  {
+   "Title": "How to Craft Onboarding Surveys Users Love: 5 Do's and Don'ts",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/grammarly-onboarding-survey",
+   "Apps": [
+    "Grammarly"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Paywall",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation",
+    "Conversion"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Onboarding questions pay off when you show users how their answers shape what they get, including a paywall that recommends the plan that fits their stated goals.",
+   "What they did": "The author signs up for Grammarly for his team. Grammarly starts with simple questions, reframes \"Skip\" as skipping personalization, suggests goals based on earlier answers (though this isn't made clear), and shows a paywall that ties plans to the chosen goals. After payment, a different team's flow asks the same questions again and ends on a plain Profile page; Growth.Design proposes redesigns for the paywall and the post-payment step.",
+   "Results": "\"Upgrade rates increased by 10%+ when Grammarly tested this paywall.\" The experiment worked in 3 steps: \"Show you understand users' goals\", \"Show you have the features to help\", \"Show a personalized path to upgrade\".",
+   "Takeaways": "Start with simple questions and reframe Skip; Make personalization visible; A goal-based paywall lifted upgrades 10%+; Team gaps create repeated questions; Give back right after users give",
+   "Ideas for OnCourse": "Onboarding: label the skip link as \"Skip personalization\" and start with the easiest question (which exam). Paywall: show \"Based on your goal: [goal]\" and highlight the plan that fits the exam date the user entered. Home: after onboarding or purchase, show a first plan built from the answers instead of a generic screen",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/clzuahqp000130tlcaveecugr.png",
+   "Key points": [
+    {
+     "title": "Start with simple questions and reframe Skip",
+     "detail": "Grammarly asks short, simple questions first to get users engaged (the Spark Effect). It also reframes skipping questions as \"skipping personalization\", which made the author stop and answer because he wanted personalization. This is the Framing Effect applied to a skip link.",
+     "t": null
+    },
+    {
+     "title": "Make personalization visible",
+     "detail": "Grammarly did customize the suggested goals based on earlier answers, but they \"look a bit random\" to the user. \"Personalization that's poorly communicated can be worse than no personalization at all.\" The fix is to say plainly that these are picked for you.",
+     "t": null
+    },
+    {
+     "title": "A goal-based paywall lifted upgrades 10%+",
+     "detail": "At first the paywall felt like a random upsell, then the author saw the Business plan matched his goals. \"Upgrade rates increased by 10%+ when Grammarly tested this paywall.\" The redesign makes plan choice part of onboarding (pseudo-set framing), says it is based on your answers, and highlights the matching plan first (salience).",
+     "t": null
+    },
+    {
+     "title": "Team gaps create repeated questions",
+     "detail": "After payment, the user was asked most of the same questions again. Growth.Design blames Conway's Law: one team made this step and another made the earlier ones. For OnCourse, review onboarding, paywall and first-session screens together so answers carry over.",
+     "t": null
+    },
+    {
+     "title": "Give back right after users give",
+     "detail": "All the answers led to a Profile page, and the user had to dig through menus. \"When users give, they expect to get.\" The redesign replaces the post-payment steps with a personalized setup based on earlier answers.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Framing Effect",
+     "title": "Simple first questions",
+     "summary": "Spark effect and reframing skip as losing personalization."
+    },
+    {
+     "t": null,
+     "anchor": "Personalization Clarity",
+     "title": "Suggested goals",
+     "summary": "Real personalization that looked random."
+    },
+    {
+     "t": null,
+     "anchor": "Personalized Paywall",
+     "title": "The paywall test",
+     "summary": "The 10%+ upgrade lift and a 3-change redesign."
+    },
+    {
+     "t": null,
+     "anchor": "conway's Law",
+     "title": "Repeated questions",
+     "summary": "How team boundaries show up as duplicate steps."
+    },
+    {
+     "t": null,
+     "anchor": "Reciprocity Principle",
+     "title": "Giving back after payment",
+     "summary": "Replacing a generic profile with a personalized setup."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Personalized Paywall",
+    "why": "It has the tested 10%+ result and a clear 3-step recipe for tying OnCourse's paywall to onboarding answers."
+   },
+   "id": "how-to-craft-onboarding-surveys-users-love-5-do-s-and-don-ts"
+  },
+  {
+   "Title": "The \"almost\" perfect trial conversion",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/mine-trial-conversion",
+   "Apps": [
+    "Mine"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Paywall"
+   ],
+   "Goal": [
+    "Activation",
+    "Conversion"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Show the user's most urgent, personal result before the paywall and let them take the core action once, so paying feels like a no-brainer.",
+   "What they did": "The author uses Mine, an app that finds companies holding your personal data. Mine builds momentum with easy yes screens, a guessing quiz and a pre-validated action, but surprises the user with a request to read his emails and puts a paywall right before his first data reclaim. Only after paying does he learn 60 companies hold his financial data, which Growth.Design argues should have been shown before the paywall.",
+   "Results": null,
+   "Takeaways": "Easy yeses build momentum for a later ask; Show the path before a big permission; Long warnings get skipped; Confirm the action before users take it; Show the scariest personal insight before the paywall",
+   "Ideas for OnCourse": "Paywall: before showing plans, show the user's own weak-subject result from their first practice set (e.g. \"You scored 40% in Pharmacology\"). Onboarding: show a short numbered list of what comes next (choose exam, take a 10-question check, see your plan) before asking for sign-in. Practice: let free users finish one full set and see the analysis before gating",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/clzah041l000d0tlc0xg48fqx.png",
+   "Key points": [
+    {
+     "title": "Easy yeses build momentum for a later ask",
+     "detail": "Mine opens with screens the user agrees with right away, then a short story the user says yes to. This \"Yes\" Ladder: \"People are more likely to agree to a large task after saying 'yes' to a smaller one.\" It primes users for the later sign-in and paywall.",
+     "t": null
+    },
+    {
+     "title": "Show the path before a big permission",
+     "detail": "Sign-in asked to view the user's messages, which felt alarming even though it is how Mine scans for companies. The redesign shows a clear step-by-step plan so \"we know exactly what's coming and why.\" When a step is critical for funnel conversion, remove barriers upfront.",
+     "t": null
+    },
+    {
+     "title": "Long warnings get skipped",
+     "detail": "Mine had warned about email access earlier, but the user missed it. \"Our brains block complex or lengthy information to save us from overloading.\" Short, well-timed explanations work better than an early block of text.",
+     "t": null
+    },
+    {
+     "title": "Confirm the action before users take it",
+     "detail": "Before reclaiming data from Headspace, Mine shows feedback confirming the action. \"People seek validation to feel secure in their decisions - especially when it's the first time they take action.\" The tip: whenever you can validate someone's thoughts before they act, do it.",
+     "t": null
+    },
+    {
+     "title": "Show the scariest personal insight before the paywall",
+     "detail": "The paywall hit just before the first reclaim, and the user nearly left. After paying, he saw that \"60 companies have my financial data\" and says they \"should have told me from the get go.\" Growth.Design calls this a Journey Reorder: surfacing that risk earlier would make the paywall a no-brainer. The author also asks if users should get one free reclaim first. Mine scored a B.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "\"Yes\" Ladder",
+     "title": "Building momentum",
+     "summary": "Easy screens that prime users for bigger asks."
+    },
+    {
+     "t": null,
+     "anchor": "Showing the path forward",
+     "title": "The email permission",
+     "summary": "A step-by-step plan to soften a scary request."
+    },
+    {
+     "t": null,
+     "anchor": "Blocking information",
+     "title": "Missed warnings",
+     "summary": "Why the earlier warning didn't land."
+    },
+    {
+     "t": null,
+     "anchor": "Pre-validated Action",
+     "title": "Confirming the first action",
+     "summary": "Reassuring feedback before the first reclaim."
+    },
+    {
+     "t": null,
+     "anchor": "Journey Reorder",
+     "title": "Reorder the journey",
+     "summary": "Showing the financial-data risk before the paywall."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Journey Reorder",
+    "why": "It is the core idea for OnCourse's paywall: show the aspirant's own urgent result before asking them to pay."
+   },
+   "id": "the-almost-perfect-trial-conversion"
+  },
+  {
+   "Title": "Zeigarnik Effect: Why it's hard to leave things incomplete",
+   "Creator": "Growth.Design",
+   "Type": "Article",
+   "Link": "https://growth.design/case-studies/zeigarnik-effect",
+   "Apps": [
+    "LinkedIn",
+    "Turo",
+    "Clash of Clans"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Progress & streaks",
+    "Gamification"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Unfinished tasks pull people back, so show real progress and the remaining steps, but don't turn it into a loop that trains people to come back compulsively.",
+   "What they did": "The piece explains the Zeigarnik Effect with a TV cliffhanger, then shows LinkedIn's profile-completion widget, which starts users with steps already done. It shows a Turo booking flow where the author churned and argues a progress bar with remaining steps would have helped. It ends with Clash of Clans as an example of overuse, where timers bring players back many times a day.",
+   "Results": "Cited data, not a test: \"Almost 70% of all checkout sessions are abandoned.\" \"20% of those churned sessions were due to a long and complicated checkout process\" (Baymard Institute, 2021).",
+   "Takeaways": "Unfinished tasks create tension people want to resolve; Start users with real progress already made; Show the remaining steps to cut drop-off; Don't hold users' time hostage",
+   "Ideas for OnCourse": "Onboarding: show a setup checklist with steps already completed (exam chosen, account created) and the 2-3 left. Today's plan: show \"3 of 5 done\" with the remaining items named, so an unfinished plan pulls users back. Progress & streaks: avoid timers or partial rewards that push users to reopen the app many times a day",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cl802n4fc000f0tlf5g2q6al2.png",
+   "Key points": [
+    {
+     "title": "Unfinished tasks create tension people want to resolve",
+     "detail": "\"People hate the tension created by incomplete tasks. That's why we remember them better or take action to complete them.\" A cliffhanger makes you watch one more episode. Any digital product can use this, for example by leaving a visible, unfinished goal.",
+     "t": null
+    },
+    {
+     "title": "Start users with real progress already made",
+     "detail": "LinkedIn added a profile-completion widget to fix empty profiles, and it shows two steps already completed. This is the Endowed Progress Effect: early progress raises motivation to finish. But \"if you 'fake' the start, it can backfire\"; LinkedIn's progress is real because the user already did those steps.",
+     "t": null
+    },
+    {
+     "title": "Show the remaining steps to cut drop-off",
+     "detail": "After hours of research the author churned in Turo's booking flow. A clear view of the remaining steps and a progress bar could have closed the deal. Baymard data: almost 70% of checkout sessions are abandoned, and 20% of those due to long, complicated checkouts.",
+     "t": null
+    },
+    {
+     "title": "Don't hold users' time hostage",
+     "detail": "Clash of Clans is built on waiting for buildings to complete and brings players back \"every minute or so during onboarding.\" When people come back \"100+ times a day\" to start and finish tasks, \"We're no longer helping people complete complex tasks. We're training them to get addicted.\" OnCourse should use open loops to help finish a plan, not to farm opens.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Zeigarnik Effect",
+     "title": "The principle",
+     "summary": "Why incomplete tasks stick in memory."
+    },
+    {
+     "t": null,
+     "anchor": "Endowed progress effect",
+     "title": "LinkedIn's profile widget",
+     "summary": "Real head-start progress drives completion."
+    },
+    {
+     "t": null,
+     "anchor": "Reduce churn",
+     "title": "Turo and progress bars",
+     "summary": "Checkout abandonment data and showing the finish line."
+    },
+    {
+     "t": null,
+     "anchor": "Time hostage",
+     "title": "The ethics line",
+     "summary": "Clash of Clans shows when the effect turns into addiction."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Endowed progress effect",
+    "why": "It shows the exact pattern for OnCourse's setup and Today's plan progress, plus the warning about faked progress."
+   },
+   "id": "zeigarnik-effect-why-it-s-hard-to-leave-things-incomplete"
+  },
+  {
+   "Title": "Labor Perception Bias: Why faster isn't always better",
+   "Creator": "Growth.Design",
+   "Type": "Article",
+   "Link": "https://growth.design/case-studies/labor-perception-bias",
+   "Apps": [
+    "HubSpot",
+    "Wise",
+    "The New York Times"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Motion",
+    "Visual design"
+   ],
+   "Goal": [
+    "Activation",
+    "Craft"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "When users expect heavy work, show the work happening; an instant result can feel broken, while an honest progress animation builds trust and perceived value.",
+   "What they did": "The piece compares a restaurant serving a complex dish in 15 seconds with HubSpot importing 287,539 contacts in 0.01 seconds, both of which feel suspicious. It shows Wise's animation of money being processed as a good example. It then uses the New York Times 2016 election needle, which jittered 10 times a second though data came every 15 seconds, as an unethical use.",
+   "Results": "Cited research, not a test: \"A well-designed effect can increase your app's perceived value by up to 15%\" (Harvard, 2011). The NYT needle: data fed \"every 15 seconds\" while the needle jittered \"10 times per second\".",
+   "Takeaways": "Instant results on big tasks feel suspicious; Show the work after a key action; Labor screens can lift perceived value up to 15%; Reassure, don't manipulate",
+   "Ideas for OnCourse": "Onboarding: when building the first study plan, show a short labor screen listing what is being considered (exam date, subjects, daily time) before revealing the plan. Practice: after a mock test, show a brief analysis step (\"Comparing with 12,000 aspirants... finding weak topics\") that reflects real work, not a fake delay",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cl652hnel000r0tlo41742fo7.png",
+   "Key points": [
+    {
+     "title": "Instant results on big tasks feel suspicious",
+     "detail": "HubSpot imports 287,539 contacts \"in just 0.01 seconds\" and the user wonders \"Did it work?\" Like a complex dish arriving in 15 seconds, speed can create doubt. When expectations are high (money, migration, analysis, reporting), users get skeptical if the wait is too short.",
+     "t": null
+    },
+    {
+     "title": "Show the work after a key action",
+     "detail": "\"People trust and value things more when they see the underlying work.\" Wise doesn't drop you into an activity log after a transfer; it shows a reassuring animation of your money being processed. For OnCourse, a plan or test analysis screen can show what the app is doing for the aspirant.",
+     "t": null
+    },
+    {
+     "title": "Labor screens can lift perceived value up to 15%",
+     "detail": "\"A well-designed effect can increase your app's perceived value by up to 15%.\" The net lift on activation, retention and revenue depends on context (waiting duration, audience, product), so it's worth testing. The concept applies to almost every product.",
+     "t": null
+    },
+    {
+     "title": "Reassure, don't manipulate",
+     "detail": "The NYT election needle got new data every 15 seconds but jittered 10 times a second, amplifying uncertainty to maximize engagement and page views. \"You should use Labor Perception to reassure users, not to manipulate them.\" Fake waits (\"benevolent deceptions\") need clear ethical rules.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Imagine going to a fancy",
+     "title": "The restaurant and HubSpot",
+     "summary": "Why an instant import feels like something went wrong."
+    },
+    {
+     "t": null,
+     "anchor": "Labor Perception Bias",
+     "title": "The principle",
+     "summary": "When showing work builds trust, and when it doesn't."
+    },
+    {
+     "t": null,
+     "anchor": "The ROI of Labor Perception",
+     "title": "Business impact",
+     "summary": "Wise's transfer animation and the up to 15% perceived value lift."
+    },
+    {
+     "t": null,
+     "anchor": "Information vs Fear",
+     "title": "The NYT needle",
+     "summary": "An amplified labor effect that crossed the ethical line."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Labor Perception Bias",
+    "why": "Two minutes that explain when OnCourse should show its plan-building or analysis work instead of jumping straight to the result."
+   },
+   "id": "labor-perception-bias-why-faster-isn-t-always-better"
+  },
+  {
+   "Title": "One simple way Apple could improve your sleep habits",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/apple-sleep-notification",
+   "Apps": [
+    "Apple"
+   ],
+   "Topics": [
+    "Notifications",
+    "Progress & streaks",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A habit reminder that looks like every other notification gets ignored; make it stand out, state the benefit, ask for a tiny commitment, then show progress and reward completion.",
+   "What they did": "The author ignores Apple's bedtime reminder while watching YouTube. Growth.Design redesigns it step by step: a harder-to-ignore format, a test of added friction (rejected because people would turn it off), a reminder of the wind-down benefit, a swipe to commit, a progress view, a loss-aversion message if you keep scrolling, and positive reinforcement at the end.",
+   "Results": null,
+   "Takeaways": "Same-format reminders fall into banner blindness; More friction can make users turn reminders off; State the benefit of the habit; A tiny action creates commitment; Use only real losses, then reward completion",
+   "Ideas for OnCourse": "Notifications: vary the format and content of the daily study reminder so it doesn't become wallpaper, and lead with the benefit (\"20 questions now keeps Pharmacology fresh\"). Today's plan: when opened from a reminder, ask for a one-tap \"I'm starting\" commitment, then show progress through the plan. Progress & streaks: celebrate completion with a clear positive end screen",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/clvmef6tt000h0tlf50xb9uhk.png",
+   "Key points": [
+    {
+     "title": "Same-format reminders fall into banner blindness",
+     "detail": "\"We tune out things we get repeatedly exposed to.\" Notifications always share the same format, so when attention is already captured, they get ignored. Design for novelty when you want a new behavior.",
+     "t": null
+    },
+    {
+     "title": "More friction can make users turn reminders off",
+     "detail": "The redesign first made the reminder harder to dismiss with added friction, then rejected it: \"more friction isn't better because people will probably just turn it off.\" Friction is good only when it is positive, and you need to understand how users think to balance it.",
+     "t": null
+    },
+    {
+     "title": "State the benefit of the habit",
+     "detail": "The improved reminder recalls why a wind-down period matters: \"Just like a Tesla, your body needs to be pre-conditioned for optimal 'charging.'\" A reminder that explains its benefit gives a reason to act, not just a nudge.",
+     "t": null
+    },
+    {
+     "title": "A tiny action creates commitment",
+     "detail": "A simple swipe confirms the user is starting the wind-down. This is the Spark Effect: \"We are more likely to take action when the effort is small.\" After committing, the user sees progress toward optimal sleep.",
+     "t": null
+    },
+    {
+     "title": "Use only real losses, then reward completion",
+     "detail": "If the user opens one more reel, they see a reminder that they'll lose their \"relaxed\" state (loss aversion). It \"needs to be a real loss\" or people will reject and ignore it (reactance). When the wind-down ends, the user gets positive reinforcement.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Banner Blindness",
+     "title": "The ignored reminder",
+     "summary": "Why the default sleep notification gets tuned out."
+    },
+    {
+     "t": null,
+     "anchor": "Friction or No Friction?",
+     "title": "The friction trap",
+     "summary": "Why making it harder to dismiss backfires."
+    },
+    {
+     "t": null,
+     "anchor": "Spark effect",
+     "title": "Benefit and commitment",
+     "summary": "A benefit reminder plus a swipe to commit."
+    },
+    {
+     "t": null,
+     "anchor": "Loss aversion",
+     "title": "Real loss and reward",
+     "summary": "A trade-off reminder and positive reinforcement at the end."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Friction or No Friction?",
+    "why": "It shows the redesign sequence for a habit reminder, directly useful for OnCourse's daily study notification."
+   },
+   "id": "one-simple-way-apple-could-improve-your-sleep-habits"
+  },
+  {
+   "Title": "Strava: When good UX intentions fail without psychology",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/strava-premium-preview",
+   "Apps": [
+    "Strava"
+   ],
+   "Topics": [
+    "Paywall",
+    "Renewal",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A free gift that looks like a paywall gets read as an upsell; give it a clear title, a CTA that matches the offer and no decline option.",
+   "What they did": "Returning to Strava after months away, the author sees a screen offering a free 30-day subscription preview but assumes it is an upsell. Growth.Design lists the cues that caused this: an \"Upgrade\" label, a 25% Off banner in the background, the word \"Subscription\", and a classic paywall layout with clever copy, a feature list and a decline option. It proposes a redesign with a clear title and a CTA aligned with the offer.",
+   "Results": null,
+   "Takeaways": "Users judge screens by pattern, not by reading; Context around a prompt changes its meaning; Words like Subscription and Upgrade signal payment; Be clear, not clever, with gifts",
+   "Ideas for OnCourse": "Renewal: when giving a lapsed aspirant free premium days, use a gift layout (\"7 days of Premium, on us\") with one \"Start\" button and no plan list, price or \"No thanks\". Notifications: make sure win-back screens don't share the paywall's header, banners or layout",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cmf2xuogn000b0ul93xwg4ra1.png",
+   "Key points": [
+    {
+     "title": "Users judge screens by pattern, not by reading",
+     "detail": "Strava was giving a free 30-day subscription, yet the author's brain read it as \"It's been a while, but—let's upsell you anyway.\" This is System 1 thinking: \"We make rapid judgment calls based on previous patterns and experiences.\" The overall paywall look (clever copy, feature list, decline option) screamed upsell.",
+     "t": null
+    },
+    {
+     "title": "Context around a prompt changes its meaning",
+     "detail": "An \"Upgrade\" label at the top and a 25% Off banner in the background framed the gift as a sale. \"Always design something with consideration for its larger context. A chair in a room, a room in a house... A prompt in an app.\"",
+     "t": null
+    },
+    {
+     "title": "Words like Subscription and Upgrade signal payment",
+     "detail": "The copy \"Subscription\" sounded like something to pay for, even though the screen said preview. For OnCourse, gift and trial screens should avoid paywall vocabulary.",
+     "t": null
+    },
+    {
+     "title": "Be clear, not clever, with gifts",
+     "detail": "The redesign uses a clear title and \"A CTA aligned with the offer and without 'decline' options.\" \"It's always better to be clear than clever.\" A gift should look and read like a gift.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Contextual Design",
+     "title": "The background upsell",
+     "summary": "The Upgrade label and 25% Off banner behind the gift."
+    },
+    {
+     "t": null,
+     "anchor": "System 1 Thinking",
+     "title": "Why it looked like a paywall",
+     "summary": "Copy, layout and decline option trigger a pattern match."
+    },
+    {
+     "t": null,
+     "anchor": "It's always better to be clear than clever",
+     "title": "The redesign",
+     "summary": "A clear title and an offer-matched CTA."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "System 1 Thinking",
+    "why": "A two-minute lesson on why OnCourse's win-back offers must not reuse the paywall pattern."
+   },
+   "id": "strava-when-good-ux-intentions-fail-without-psychology"
+  },
+  {
+   "Title": "Why Granola's Lack of Onboarding Backfires When You Test It",
+   "Creator": "Built for Mars (Peter Ramsey)",
+   "Type": "Case study",
+   "Link": "https://builtformars.com/case-studies/granola",
+   "Apps": [
+    "Granola",
+    "Whereby",
+    "Google Earth"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Design process"
+   ],
+   "Goal": [
+    "Activation"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A new user's first session is usually a test, so design a one-time test mode that makes that test feel great, rather than fighting it.",
+   "What they did": "Peter Ramsey tried Granola, an AI note-taking app, on iOS. He argues that a new user's first recording is \"probably isn't a real meeting, it's a test\", and Granola has no onboarding for that moment. The iOS app hides the live transcript (the desktop app shows it), so a tester can't tell if it is working. He proposes leaning into the test behaviour with a one-time \"try me\" mode, like Whereby's QR code to join your own meeting from your phone.",
+   "Results": null,
+   "Takeaways": "Cater to instinctive behaviour instead of fighting it; New users want reassurance, not the everyday experience; A one-time test mode is worth building; The first session decides how the product feels",
+   "Ideas for OnCourse": "Onboarding: let a new user try 3 sample MCQs before sign-up, with instant answers and explanations, so their natural 'let me test this' moment is a good one. Practice: in a user's first set only, show the explanation and the topic tag right after each answer, then switch to the normal layout from the second session. Design process: when a feature only shows once (first-session screens), judge it by its effect on first-week retention, not by how often it is seen.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.craft.cloud/983dd56a-1291-4f1f-ba2b-57c60e14c22a/assets/images/rootOG.jpg?width=1200&height=630&quality=82&fit=cover&s=DGS9CoDLhq7iSuiqtyE9DU6vnX8780QMAMJ2KaZp6cg",
+   "Key points": [
+    {
+     "title": "Cater to instinctive behaviour instead of fighting it",
+     "detail": "Ramsey's rule of thumb is that \"it's more effective to cater to people's instinctive behaviour, rather than to try and outright change it.\" In Google Earth, people first search for their own house. The product could steer them to a landmark, or just make finding your old bedroom easier. For OnCourse, find what a new aspirant does first (for example, trying a hard question from a subject they fear) and make that path smooth.",
+     "t": null
+    },
+    {
+     "title": "Whereby lets new users test both sides first",
+     "detail": "Whereby knows that after creating a meeting, new users want to test it. So it shows a QR code that lets you join the meeting from your phone. You see the experience from both sides before you invite anyone. The test is built into the flow, not left to chance.",
+     "t": null
+    },
+    {
+     "title": "New users want reassurance, not the everyday experience",
+     "detail": "Granola's desktop app shows a live transcript, but the iOS app leaves it out. That is a fair trade-off for daily use, because a live transcript in the middle of a table would be distracting. But a new user is \"seeking reassurance\". So the first-use experience can differ from the everyday one.",
+     "t": null
+    },
+    {
+     "title": "A one-time 'try me' mode bridges the gap",
+     "detail": "Ramsey compares this to toy pull tabs, like on an Elmo toy. They hold the toy in a \"try me\" mode so children can hear it without going through every function. An app can show a lite version just to satisfy the first-use behaviour. The quiz in the case study gives the reason: it \"lowers the cost of getting things wrong\".",
+     "t": null
+    },
+    {
+     "title": "The first session shapes how the whole product feels",
+     "detail": "Teams find it hard to fund a feature only seen once. But \"the first session in an app is disproportionately influential\" in how it feels, especially with many competitors. Granola also grows by word of mouth, since meetings have several people. Someone \"fumbling around awkwardly, making noises into the microphone\" and getting a meaningless summary hurts that growth.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. Go with the flow",
+     "title": "Go with the flow",
+     "summary": "Lean into what users do instinctively, with Google Earth and Whereby as examples."
+    },
+    {
+     "t": null,
+     "anchor": "2. Give it a test mode",
+     "title": "Give it a test mode",
+     "summary": "Why Granola hides the live transcript on iOS, and how a one-time test mode could reassure new users."
+    },
+    {
+     "t": null,
+     "anchor": "3. But, it'll only be seen once?",
+     "title": "Worth building even if seen once",
+     "summary": "The case for spending on first-session features, including the word-of-mouth benefit."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "2. Give it a test mode",
+    "why": "It shows why a first-use experience can and should differ from the everyday screen, which applies to OnCourse's first practice session."
+   },
+   "id": "why-granola-s-lack-of-onboarding-backfires-when-you-test-it"
+  },
+  {
+   "Title": "Twitch Celebrates the Wrong Thing (and Misses the Aha Moment)",
+   "Creator": "Built for Mars (Peter Ramsey)",
+   "Type": "Case study",
+   "Link": "https://builtformars.com/case-studies/twitch-streaming",
+   "Apps": [
+    "Twitch"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Gamification",
+    "Progress & streaks"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "An aha moment is not praise; it is the moment a user sees what they could get next, so show a route to the next level instead of celebrating a small number.",
+   "What they did": "Peter Ramsey streamed on Twitch himself (and, in the UX Planet write-up, paid a bot farm to boost his streams). After his first stream, Twitch showed a badge-like card: \"Good job! Your last stream hit a record 7 unique viewers.\" He argues this is a celebration, not an aha moment, because it does not change what the user expects to get in the future. He also shows how unlabelled controls and costly mistakes stop new users from exploring features.",
+   "Results": "No test results. Observed: after a 1h 4m first stream, Twitch said \"Your last stream hit a record 7 unique viewers\". The analytics compared the debut to a previous stream that did not exist (\"+0s from last stream\", \"+0 from last stream\"). The Quick Actions grid has \"eleven controls\"; each chat message has \"five moderation icons\" that are unlabelled, and he deleted his own messages by mistake.",
+   "Takeaways": "An aha moment changes what users expect next; Celebrating a small number is a vanity metric; Users muddle and stop at the first workaround; Lower the cost of failure to get people exploring; Explain locked features in the moment",
+   "Ideas for OnCourse": "Practice: after a user's first set, replace generic praise with a forward-looking line like 'You got 6/10 in Anatomy. Users who practise 20 Anatomy MCQs a day reach 75% in 3 weeks,' with a button to start that plan. Progress & streaks: never compare a new user to a previous session that does not exist; show a first-time state instead of '+0 from last time'. Practice: let users try features like bookmarking or 'mark for review' in a safe sample question so a mistake costs nothing.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.craft.cloud/983dd56a-1291-4f1f-ba2b-57c60e14c22a/assets/images/rootOG.jpg?width=1200&height=630&quality=82&fit=cover&s=DGS9CoDLhq7iSuiqtyE9DU6vnX8780QMAMJ2KaZp6cg",
+   "Key points": [
+    {
+     "title": "An aha moment changes what users expect next",
+     "detail": "Ramsey defines the aha moment as \"suddenly rewriting the future expected value of a product\", the moment someone thinks \"if I do this, I will get that\". Badges and praise are celebrations, not aha moments. A badge only raises expected value \"if the user believes that it will happen again\". OnCourse's post-practice screen should show what the user can reach next, not only a score.",
+     "t": null
+    },
+    {
+     "title": "Celebrating a small number misses the point",
+     "detail": "After his first stream Twitch said: \"Good job! Your last stream hit a record 7 unique viewers.\" Most first streams are poor, so this gives no evidence that 70 or 100 viewers is possible. The real aha would be \"that was a start, but here's how we can help you get to 100 viewers\". Twitch \"celebrates the wrong thing, and so the future expected value doesn't change.\"",
+     "t": null
+    },
+    {
+     "title": "Comparing a first session to nothing wastes the ending",
+     "detail": "In the UX Planet write-up, the analytics after the debut read \"+0s from last stream\" and \"+0 from last stream\". Every card compares the first stream to one that does not exist. Under the Peak-End Rule, the last moment shapes how the whole experience is remembered. A first-time summary needs its own design.",
+     "t": null
+    },
+    {
+     "title": "Users muddle and stop at the first workaround",
+     "detail": "Citing Steve Krug, Ramsey says people \"muddle through\" products: they find a way that works and stop looking. Workarounds \"feel the same as mastery\", so better features stay unused. Twitch assumes users will learn advanced features by trial and error. \"They won't, especially if they find a workaround first.\"",
+     "t": null
+    },
+    {
+     "title": "Lower the cost of failure to get exploration",
+     "detail": "Ramsey deleted his own messages in his first livestream because the moderation icons are tiny and unlabelled. One deletes a message and another blocks a person for 10 minutes. When a mistake can't be undone, people stop exploring. He suggests a sandbox that simulates a busy stream, or empty states that explain a feature (like a raid) in the moment, instead of just saying you can't use it.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. A common misunderstanding",
+     "title": "Praise is not an aha moment",
+     "summary": "Why the '7 viewers' badge feels nice but doesn't change what the user expects to get."
+    },
+    {
+     "t": null,
+     "anchor": "2. We muddle",
+     "title": "We muddle",
+     "summary": "Steve Krug's idea that users stop at the first workaround, with a TV remote example."
+    },
+    {
+     "t": null,
+     "anchor": "3. Reducing the cost of failure",
+     "title": "Reducing the cost of failure",
+     "summary": "Tiny unlabelled controls, accidental deletes, and the case for sandboxes and in-context explanations."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "1. A common misunderstanding",
+    "why": "It gives a sharp definition of an aha moment that OnCourse can use to judge its post-practice and streak celebrations."
+   },
+   "id": "twitch-celebrates-the-wrong-thing-and-misses-the-aha-moment"
+  },
+  {
+   "Title": "Why Confetti Celebrations Backfire (and How to Make Them Work)",
+   "Creator": "Built for Mars (Peter Ramsey)",
+   "Type": "Article",
+   "Link": "https://uxplanet.org/why-confetti-celebrations-backfire-and-how-to-make-them-work-be838a6e7b8b",
+   "Apps": [
+    "Chase",
+    "Duolingo"
+   ],
+   "Topics": [
+    "Gamification",
+    "Progress & streaks",
+    "Onboarding",
+    "Motion"
+   ],
+   "Goal": [
+    "Activation",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Celebrate the user's real milestone at the moment the goal is actually reached, not the company's milestone, and add useful next-step value rather than just confetti.",
+   "What they did": "A short summary of Built for Mars' Chase Bank teardown. Ramsey looks at celebrations that fire on account creation or sign-up, when the user has not yet got what they came for. He explains why early celebrations feel cheap and gives four rules for celebrations that work, especially in \"serious\" products.",
+   "Results": null,
+   "Takeaways": "Celebrate the user's milestone, not yours; Celebrating too early breaks expectations; Close the loop on what you promise; Add useful context instead of balloons; Tone matters more for serious products",
+   "Ideas for OnCourse": "Onboarding: drop any celebration on account creation; save it for the first finished practice set. Today's plan: when the plan is complete, pair a small celebration with real value, such as accuracy by subject and what tomorrow's plan covers. Progress & streaks: keep celebration tone calm and exam-focused for medical students, using micro-celebrations on top of real progress rather than full-screen confetti.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://miro.medium.com/v2/resize:fit:1200/1*3_Wv-dtuX9u9mMHeznbtoQ.jpeg",
+   "Key points": [
+    {
+     "title": "Celebrate the user's milestone, not the company's",
+     "detail": "\"Celebrations only work when they align with what the user wanted to do.\" If you buy a printer, you want to print, but you are forced to make an account and then get a little celebration. That celebrates the company's milestone, not yours. For OnCourse, signing up is not the user's goal; answering questions and improving is.",
+     "t": null
+    },
+    {
+     "title": "Celebrating too early breaks the user's expectations",
+     "detail": "People crave completion, and a clear outcome gives a sense of closure. That is the point where a celebration amplifies the feeling. If you celebrate too early, users think the flow is finished when it is not. \"The result? Frustration, not delight.\"",
+     "t": null
+    },
+    {
+     "title": "Celebrate first use, not sign-up",
+     "detail": "Ramsey's first rule: \"Don't celebrate account creation; celebrate the moment the account is usable. Don't celebrate sign-up; celebrate first use.\" His second rule: close the loop. If you promise motivation such as \"unlock everything\", follow through with something meaningful.",
+     "t": null
+    },
+    {
+     "title": "Add useful context instead of balloons",
+     "detail": "Instead of balloons, Chase could have reassured users that their card was on the way, or prompted them to deposit funds. \"Confetti works best when layered on top of real progress — not as a substitute for it.\" OnCourse's completion screens can carry the useful next step.",
+     "t": null
+    },
+    {
+     "title": "Tone matters more in serious products",
+     "detail": "\"Nobody wants their bank to behave like Duolingo.\" In banking, healthcare and B2B, a misplaced celebration \"risks looking childish or out of touch\". Serious products should still celebrate, but only when it adds real value. Medical exam prep sits closer to the serious end, so OnCourse should keep celebrations meaningful and restrained.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The Problem With Confetti Moments",
+     "title": "The problem with confetti",
+     "summary": "Celebrating sign-up instead of the user's goal, with Chase as the example."
+    },
+    {
+     "t": null,
+     "anchor": "The Psychology of Missed Moments",
+     "title": "Why early celebrations fail",
+     "summary": "The need for completion, and how early celebrations distort what users expect next."
+    },
+    {
+     "t": null,
+     "anchor": "How to Create Real Celebration Moments",
+     "title": "Rules for real celebrations",
+     "summary": "Four rules: right milestone, close the loop, add value in context, micro-celebrations not gimmicks."
+    },
+    {
+     "t": null,
+     "anchor": "For “Normal” Businesses, This Matters Even More",
+     "title": "Serious products",
+     "summary": "Why tone matters more for banks, insurers and B2B tools."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "How to Create Real Celebration Moments",
+    "why": "Four short rules that OnCourse can apply straight away to its streak, plan-complete and onboarding celebrations."
+   },
+   "id": "why-confetti-celebrations-backfire-and-how-to-make-them-work"
+  },
+  {
+   "Title": "The 3 boring secrets to writing great UX copy (that converts)",
+   "Creator": "Built for Mars (Peter Ramsey)",
+   "Type": "Article",
+   "Link": "https://uxplanet.org/the-3-boring-secrets-to-writing-great-ux-copy-that-converts-0283ac14c350",
+   "Apps": [],
+   "Topics": [
+    "Copy",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Usability",
+    "Conversion"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Good UX copy is predictable, specific and short: use one title pattern across steps, write buttons that say what happens next, and cut until it stops making sense.",
+   "What they did": "A short summary of Built for Mars' UX copy cheatsheet. Ramsey shows a multi-step onboarding flow with mixed title styles and a checkout with generic vs specific buttons. He lists what users care about in copy and what they ignore.",
+   "Results": null,
+   "Takeaways": "Use a predictable title pattern across steps; Make CTA labels say what happens next; Users care about the next action, benefit and impact; Cut copy, then cut again",
+   "Ideas for OnCourse": "Onboarding: give every step the same title pattern (for example 'Choose your exam', 'Choose your exam date', 'Choose your daily goal') so users can scan. Paywall: replace 'Continue' with a specific label such as 'Start 7-day free trial' or 'Pay ₹X for 12 months'. Notifications: cut 'We're excited to announce' style openers and lead with the action and benefit.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://miro.medium.com/v2/resize:fit:1200/1*1ScD4ajoYhFsunUfwv1vDg.jpeg",
+   "Key points": [
+    {
+     "title": "Use one predictable title pattern across steps",
+     "detail": "In a multi-step onboarding flow with mixed title styles, users must read each title carefully because there is no pattern. A standard format like \"Enter your ____\" makes scanning effortless and removes cognitive load. Design systems keep fonts and spacing consistent but often forget title structure. \"When in doubt, go for clarity over creativity.\"",
+     "t": null
+    },
+    {
+     "title": "Make buttons say exactly what happens next",
+     "detail": "Generic buttons like \"Continue\" or \"Submit\" leave users unsure. In a checkout example, the most specific button label is \"the safest bet\" because it confirms what you are doing and removes second-guessing. On OnCourse's paywall, the button should name the plan or trial being started.",
+     "t": null
+    },
+    {
+     "title": "Users care about action, benefit and impact",
+     "detail": "Users care about what action they can take next, what benefit they get, and how it affects their experience. They don't care about \"Overly enthusiastic company messaging\" like \"we're so excited\", generic claims about a \"new\" feature (\"new doesn't mean good\"), or unnecessary explanations.",
+     "t": null
+    },
+    {
+     "title": "Write, then cut as much as you can",
+     "detail": "Too much text and users tune out; too little and they get confused. Ramsey's trick: write the copy, cut as much as you can, and if it still makes sense, keep trimming. \"The best copy goes unnoticed because it feels natural.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. Predictable titles win",
+     "title": "Predictable titles",
+     "summary": "Use a consistent title format across multi-step flows."
+    },
+    {
+     "t": null,
+     "anchor": "2. Specific CTA labels are better",
+     "title": "Specific CTAs",
+     "summary": "Buttons should say what happens next, not 'Continue'."
+    },
+    {
+     "t": null,
+     "anchor": "3. Be concise, always",
+     "title": "Be concise",
+     "summary": "What users care about in copy, what they ignore, and the cut-and-cut-again trick."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "2. Specific CTA labels are better",
+    "why": "The quickest win for OnCourse's paywall and onboarding buttons."
+   },
+   "id": "the-3-boring-secrets-to-writing-great-ux-copy-that-converts"
+  },
+  {
+   "Title": "The 10 Best Moments of UX (2024)",
+   "Creator": "Built for Mars (Peter Ramsey)",
+   "Type": "Article",
+   "Link": "https://uxplanet.org/the-10-best-moments-of-ux-2024-a9a2f450e836",
+   "Apps": [
+    "Arc",
+    "Rise",
+    "Etsy",
+    "Statamic",
+    "Uber",
+    "Focus Traveller",
+    "Lego",
+    "Canva",
+    "Too Good To Go",
+    "Air New Zealand"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Paywall",
+    "Renewal",
+    "Gamification",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation",
+    "Conversion",
+    "Renewal",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Ten small, copyable UX moments from Built for Mars' 2024 UX Bites, several of which map directly to trial reminders, value framing, cancellation and gamified focus in a learning app.",
+   "What they did": "Ramsey picked the most popular UX Bite from each of 10 categories in 2024, from Built for Mars' library of short real-world examples (posted daily and emailed to \"38,000 product teams\"). Each is one screen or interaction, with a one-line explanation of why it works.",
+   "Results": null,
+   "Takeaways": "Let users feel the value during onboarding; Offer a trial-end reminder at sign-up; Show subscribers when they've saved more than they pay; Turn focus time into visible progress; Remind cancelling users what they'd lose; Make the final CTA specific",
+   "Ideas for OnCourse": "Paywall: add a 'Remind me before my trial ends' toggle on the trial screen, like Rise, to reduce the fear of being charged. Renewal: show a moment like 'You've solved 2,140 MCQs and 38 mock tests this year with Pro' before renewal, framing value against the price, as Uber One does. Renewal: on the cancel screen, list the features the user actually used (for example saved flashcards and mock test history) that they would lose, as Canva does.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://miro.medium.com/v2/resize:fit:1200/1*3WNAnS6IvCn0Dxcfle6Twg.jpeg",
+   "Key points": [
+    {
+     "title": "Let users feel the value during onboarding",
+     "detail": "Arc's onboarding (Best Onboarding Idea) asks you to toggle adverts on a web page on and off. You see the difference and the value Arc adds for yourself. It shows rather than tells. OnCourse could let users feel its value in onboarding, for example by showing one question with and without a high-yield explanation.",
+     "t": null
+    },
+    {
+     "title": "A trial-end reminder toggle at sign-up",
+     "detail": "Rise (Best Conversion Trick) lets users opt in during sign-up to be reminded before the trial ends, \"reassuring them that they won't forget.\" This removes a common reason not to start a trial. It fits directly on OnCourse's trial paywall.",
+     "t": null
+    },
+    {
+     "title": "Frame the subscription's value against its price",
+     "detail": "Uber (Best use of Framing) celebrates when you've saved more money through Uber One than the monthly cost of the subscription. It makes the value concrete just before people think about whether to keep paying. OnCourse can frame Pro value in exam terms ahead of renewal.",
+     "t": null
+    },
+    {
+     "title": "Turn focus time into visible progress",
+     "detail": "Focus Traveller (Gamification) has a hero who hikes a trail: the longer you focus, the further they walk. When paused, they rest by a bonfire, and longer focus unlocks \"gear\". It's a calm, non-competitive way to show effort, which suits long study sessions.",
+     "t": null
+    },
+    {
+     "title": "Use loss aversion on the cancellation screen",
+     "detail": "Canva (Avoiding Churn) frames how good your current deal is when you try to cancel. It also lists the features your team uses but would lose. The list is personal, not a generic feature list.",
+     "t": null
+    },
+    {
+     "title": "Specific, live details make CTAs stronger",
+     "detail": "Etsy's final checkout CTA shows where you are sending the item. Too Good To Go shows exactly when a surprise bag sold out, which motivates users to come earlier. Air New Zealand lets you hold a fare price for a small fee, a lower-commitment way to go ahead.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Arc’s DIY Toggle",
+     "title": "Best onboarding idea",
+     "summary": "Arc lets you toggle ads on and off to feel its value."
+    },
+    {
+     "t": null,
+     "anchor": "Rise’s “remind me” toggle",
+     "title": "Best conversion trick",
+     "summary": "Opt in to a reminder before the trial ends."
+    },
+    {
+     "t": null,
+     "anchor": "Uber framing your value",
+     "title": "Best use of framing",
+     "summary": "Uber celebrates when your savings beat the Uber One price."
+    },
+    {
+     "t": null,
+     "anchor": "Focus Traveller’s hiking",
+     "title": "Gamification",
+     "summary": "A hiker walks further the longer you focus."
+    },
+    {
+     "t": null,
+     "anchor": "Canva’s cancellation screen",
+     "title": "Avoiding churn",
+     "summary": "Framing the deal and listing features you'd lose."
+    },
+    {
+     "t": null,
+     "anchor": "Air New Zealand’s “lock in”",
+     "title": "Nudging purchases",
+     "summary": "Hold a fare for a small fee to lower commitment."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Rise’s “remind me” toggle",
+    "why": "The single most copyable idea for OnCourse's trial paywall, and it sits right next to the Uber value framing and Canva cancellation examples."
+   },
+   "id": "the-10-best-moments-of-ux-2024"
+  },
+  {
+   "Title": "12 simple UX changes Audible should make to sell more stuff",
+   "Creator": "Built for Mars (Peter Ramsey)",
+   "Type": "Article",
+   "Link": "https://uxplanet.org/12-simple-ux-changes-audible-should-make-to-sell-more-stuff-4a79b02ea7a5",
+   "Apps": [
+    "Audible",
+    "Amazon"
+   ],
+   "Topics": [
+    "Home",
+    "Gamification",
+    "Progress & streaks",
+    "Renewal",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Small fixes add up: keep recommendations fresh, mark things done automatically, state time in days not dates, and make badges clear with visible progress.",
+   "What they did": "A summary of Built for Mars' Audible case study (which is 93 slides long). Ramsey lists 12 changes to nudge repeat purchases, from refreshing \"for you\" carousels to auto-finishing books with only credits left. Several are about making progress and badges clear.",
+   "Results": null,
+   "Takeaways": "Keep recommendation carousels fresh; Mark items finished automatically; Show time as 'days until', not a date; Make price per unit obvious; Badges must say how to unlock them; Show progress towards each badge",
+   "Ideas for OnCourse": "Progress & streaks: replace any vague badge with a clear rule ('Solve 500 Pharmacology MCQs') and a progress bar showing how close the user is. Renewal: show '7 days until your plan renews' instead of a date. Lessons: mark a lesson complete automatically when only the summary or closing seconds are left, so the library doesn't fill with 'almost done' items.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://miro.medium.com/v2/resize:fit:1200/1*aI1JpJvV-VvvAsC9TleaAA.jpeg",
+   "Key points": [
+    {
+     "title": "Keep recommendations fresh on every visit",
+     "detail": "Audible's \"for you\" carousels and featured book stay the same. Ramsey wants them to refresh and reorder, to fetch more results at the end of a carousel \"like Amazon do\", and to show new featured books on refresh. \"I'm sick of looking at the same one all day.\" OnCourse's Home suggestions should change as the user progresses.",
+     "t": null
+    },
+    {
+     "title": "Mark items finished automatically",
+     "detail": "When a listener reaches the final chapter (acknowledgments), Audible should mark the book \"finished\". His library is \"full of books with seconds or minutes left.\" Lessons and videos in OnCourse can do the same to avoid fake 'in progress' items.",
+     "t": null
+    },
+    {
+     "title": "Say 'in 7 days', not a date",
+     "detail": "Show \"days until your next credit\" in days, not as a date. \"'7 days until your next credit' is more useful than printing a date.\" The same rule applies to trial ends, renewals and exam countdowns.",
+     "t": null
+    },
+    {
+     "title": "Make the real price obvious",
+     "detail": "Audible says \"3 credits for £28.99\" and makes users work out the price per credit. Ramsey wants the price per credit shown, and the cheapest purchase option marked when a deal beats credits. OnCourse's paywall should show the per-month or per-day price clearly.",
+     "t": null
+    },
+    {
+     "title": "Badges need clear rules and visible progress",
+     "detail": "Audible's \"riddle\" badges \"are nonsense, just tell me what I need to do to unlock them.\" Then let users track progress with a bar: \"I've got no idea how close I am.\" He also says the listening-time bar charts are broken. Clear goals with progress are what make badges motivating.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Nudging repeat purchases",
+     "title": "The 12 changes",
+     "summary": "The full list, from refreshing carousels to clear badges."
+    },
+    {
+     "t": null,
+     "anchor": "Show “days until your next credit” in days",
+     "title": "Days, not dates",
+     "summary": "Put time in context for the user."
+    },
+    {
+     "t": null,
+     "anchor": "The “riddle” badges are nonsense",
+     "title": "Clear badges and progress",
+     "summary": "Say how to unlock badges and show progress towards them."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The “riddle” badges are nonsense",
+    "why": "Two lines that sum up how OnCourse's badges and streak milestones should work: clear rule, visible progress."
+   },
+   "id": "12-simple-ux-changes-audible-should-make-to-sell-more-stuff"
+  },
+  {
+   "Title": "How Khan Academy Is Building a Better AI Tutor: Our Most Recent Learnings",
+   "Creator": "Khan Academy Blog",
+   "Type": "Case study",
+   "Link": "https://blog.khanacademy.org/how-khan-academy-is-building-a-better-ai-tutor-our-most-recent-learnings/",
+   "Apps": [
+    "Khan Academy"
+   ],
+   "Topics": [
+    "Practice",
+    "AI tools",
+    "Research methods"
+   ],
+   "Goal": [
+    "Usability",
+    "Retention"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "An AI tutor teaches better when it knows the student's recent answers and weak prerequisites, and every change should be judged on whether the student gets the next question right alone.",
+   "What they did": "Over six months (October 2025 to April 2026) Khan Academy ran about 20 A/B tests on Khanmigo across more than 15 million tutoring threads. They tracked three core metrics: response latency, next-item correctness (does the student answer the next problem on the same skill correctly without help) and cognitive engagement quality. They shipped a change only if its \"chance to win\" was above 0.95 with no harm to guardrails such as giving the answer away or math errors.",
+   "Results": "Giving Khanmigo a summary of the student's recent problem history \"improved next-item correctness by +3.4% across 608,000 tutoring threads.\" Surfacing unmastered prerequisite skills with a brief review \"improved next-item correctness by 2.7% across 1.36 million tutoring threads,\" for \"a 6.1 percent improvement in next-item correctness\" in total. Asking the math agent for more concise output \"reduced mean response time by three seconds across 352,000 tutoring threads\"; limiting it to the student's own work cut latency by another 400 ms and \"reduced giving away the answer by 50%.\" Passing 24 hours of conversation as plain text instead of JSON gave \"a 5.09% increase in cognitive engagement.\" Adding example problems to the prompt \"showed no effect.\"",
+   "Takeaways": "Measure the next question answered alone, not help used; Feed the tutor the student's recent history; Offer a prerequisite review before the hard question; Speed is part of the teaching; Raw data does not help until it is readable; Ship only what wins, and publish what failed",
+   "Ideas for OnCourse": "Practice: after a wrong answer, track whether the student gets the next MCQ on the same topic right without help, and use that as the main success metric for explanations and any AI help. Practice: when a student misses a hard question, offer a short review of the underlying basic concept (for example, a related flashcard set) before the next hard one. Design process: set guardrail metrics (time to load an explanation, answer give-aways) for every Practice experiment, not just one goal metric",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://blog.khanacademy.org/wp-content/uploads/2026/05/1024-x-617-1.png",
+   "Key points": [
+    {
+     "title": "Measure the next question answered alone, not help used",
+     "detail": "Khan's main learning metric is next-item correctness: did the student answer the very next problem on the same skill, in the same session, without help from Khanmigo. They call it \"a direct measure of independent learning transfer, not just of performance with AI assistance.\" It is paired with latency and a passive/active/constructive engagement rating. For OnCourse, this is a cleaner success metric for explanations than time spent or taps on 'explain'.",
+     "t": null
+    },
+    {
+     "title": "Feed the tutor the student's recent history",
+     "detail": "Before the tests, Khanmigo saw the current problem but not how the student had been doing. Adding a summary of how many problems they attempted recently and which they got right or wrong lifted next-item correctness by 3.4% across 608,000 threads, with a 97.5% chance of being better. All guardrails held. Context about the learner beat clever prompting.",
+     "t": null
+    },
+    {
+     "title": "Offer a prerequisite review before the hard question",
+     "detail": "Surfacing prerequisite skills the student has not mastered, and offering a brief review before the harder problem, improved next-item correctness by 2.7% across 1.36 million threads. Together with the history summary that makes 6.1%. For OnCourse, a wrong answer on a high-yield clinical MCQ could link back to the basic concept it depends on.",
+     "t": null
+    },
+    {
+     "title": "Speed is part of the teaching",
+     "detail": "Khan treats wait time as a learning issue: \"Faster responses keep students focused.\" A faster model saved 0.3 seconds over 1.35 million threads, concise outputs saved 3 seconds, and a pre-check that skips unneeded math verification saved about 0.3 seconds, all with math accuracy steady. Focusing the math agent only on the student's own work also cut answer give-aways by 50%.",
+     "t": null
+    },
+    {
+     "title": "Raw data does not help until it is readable",
+     "detail": "Passing the full in-session conversation log as JSON did not help at first. When they switched to plain text and included all threads on that skill from the previous 24 hours, cognitive engagement rose 5.09%. Adding example problems to the prompt showed no effect, and better follow-up links did not move correctness but shipped because they did no harm and were slightly faster.",
+     "t": null
+    },
+    {
+     "title": "Ship only what wins, and publish what failed",
+     "detail": "Each test ran against the current product, and a change shipped only if the platform's \"chance to win\" was above 0.95 with no guardrail harm. The post reports neutral results alongside wins. \"No single improvement on its own produced a dramatic leap forward,\" but small wins added up across millions of daily sessions.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "How We Measure Success",
+     "title": "The three core metrics",
+     "summary": "Latency, next-item correctness and engagement quality, plus guardrails and the 0.95 chance-to-win rule."
+    },
+    {
+     "t": null,
+     "anchor": "Making the math agent faster without sacrificing accuracy",
+     "title": "Making responses faster",
+     "summary": "Faster model, shorter outputs and a pre-check cut wait time without hurting accuracy."
+    },
+    {
+     "t": null,
+     "anchor": "Using a student’s Khan Academy learning history to improve tutoring",
+     "title": "Using the learning record",
+     "summary": "Recent history and prerequisite gaps lift next-item correctness; what didn't move the needle."
+    },
+    {
+     "t": null,
+     "anchor": "Our commitment to principled progress",
+     "title": "Summary table",
+     "summary": "About 20 tests over 15 million threads, with wins and neutral results side by side."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Using a student’s Khan Academy learning history to improve tutoring",
+    "why": "It has the two winning changes with exact numbers, and they map directly to how OnCourse could respond to wrong MCQ answers."
+   },
+   "id": "how-khan-academy-is-building-a-better-ai-tutor-our-most-recent-learnin"
+  },
+  {
+   "Title": "Four Things to Look for in Edtech, and How Khan Academy Measures Up",
+   "Creator": "Khan Academy Blog",
+   "Type": "Article",
+   "Link": "https://blog.khanacademy.org/four-things-to-look-for-in-edtech-and-how-khan-academy-measures-up/",
+   "Apps": [
+    "Khan Academy"
+   ],
+   "Topics": [
+    "Practice",
+    "Home",
+    "Progress & streaks",
+    "AI tools"
+   ],
+   "Goal": [
+    "Retention",
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Learning gains come from a steady weekly dose of practice, so the product's job is to set a concrete weekly target and protect the time to hit it.",
+   "What they did": "Khan Academy summarises four independent randomized trials of its math product and a 2026 PNAS study of more than 200,000 students. From these it sets a concrete practice target: about two skills to Proficient or Mastered each week, roughly 60 a year. It also explains a product change from classroom testing: Khanmigo used to never give the answer, and now it can become more direct after an incorrect attempt.",
+   "Results": "\"Three RCTs found gains\": 0.06 SD over two years in Hamilton County, 0.12 SD in Arlington ISD grades 3 to 6, and 0.09 to 0.11 SD in El Salvador; \"In grades 7 and 8, where practice averaged about 4 minutes a week, there was no effect.\" The PNAS study found \"about 0.0031 SD per Khan Academy skill brought to Proficient, or roughly 0.18 SD for 60 skills.\" In Uttar Pradesh, schools with facilitators practiced \"about 47 minutes a week and scored 0.44 to 0.47 SD higher in math after seven months.\" With implementation support, \"more than 20% of learners reach our recommended goals, compared with about 10% overall.\" Benchmark: the median education RCT effect is 0.10 SD.",
+   "Takeaways": "Too little practice has no effect at all; Give a concrete weekly practice target; Protected time and support drive results; A never-give-the-answer rule was too rigid; Be explicit about what the product can't do",
+   "Ideas for OnCourse": "Today's plan: express the plan as a weekly target in concrete units (for example, topics brought to a set accuracy) and show progress toward it, not only a daily streak. Home: warn gently when weekly practice drops toward a very low level, since a few minutes a week showed no effect. Practice: let explanations get more direct after a wrong attempt rather than always holding back the answer",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://blog.khanacademy.org/wp-content/uploads/2026/08/1024-x-685-1.png",
+   "Key points": [
+    {
+     "title": "Too little practice has no effect at all",
+     "detail": "In the Arlington ISD trial, grades 3 to 6 gained 0.12 SD. But in grades 7 and 8, where practice averaged about 4 minutes a week, there was no effect. Access to the product is not the same as learning. For OnCourse, a user who opens the app but practices a few minutes a week is not really being served.",
+     "t": null
+    },
+    {
+     "title": "Give a concrete weekly practice target",
+     "detail": "Khan recommends about two skills reaching Proficient or Mastered each week, roughly 60 skills a year. A 2026 PNAS study of more than 200,000 students found about 0.0031 SD per skill brought to Proficient, or about 0.18 SD for 60 skills. A target in countable units turns 'study more' into something a learner can track.",
+     "t": null
+    },
+    {
+     "title": "Protected time and support drive results",
+     "detail": "The three trials with gains shared \"strong implementation,\" with protected practice time and support. In Uttar Pradesh, 24 of 74 schools got facilitators who visited twice a week; those students practiced about 47 minutes a week and scored 0.44 to 0.47 SD higher after seven months. With support, more than 20% of learners reach the goals, versus about 10% overall.",
+     "t": null
+    },
+    {
+     "title": "A never-give-the-answer rule was too rigid",
+     "detail": "Khanmigo was first built never to give students the answer. Testing with about 5,100 students across five districts showed the rule was too rigid. Now it still asks students to try first, but after an incorrect attempt it can become more direct and explain what went wrong.",
+     "t": null
+    },
+    {
+     "title": "Be explicit about what the product can't do",
+     "detail": "The post says making the product available is not enough, and that AI can be wrong, misleading or inappropriate. Khan links to its own write-ups of past math accuracy problems. Honest limits build trust with people choosing a study tool.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "District leaders should be able to review",
+     "title": "What the trials found",
+     "summary": "Four independent RCTs: three gains, one null, and why practice time explains the difference."
+    },
+    {
+     "t": null,
+     "anchor": "2. Share implementation guidance grounded in real classrooms",
+     "title": "The weekly practice target",
+     "summary": "Two skills a week, the PNAS dose-response numbers and the Uttar Pradesh facilitator trial."
+    },
+    {
+     "t": null,
+     "anchor": "3. Clarity about what the edtech product can and can’t do",
+     "title": "Honest limits",
+     "summary": "What Khan Academy and Khanmigo can and can't do, including AI accuracy and data use."
+    },
+    {
+     "t": null,
+     "anchor": "4. Keep improving based on evidence from students and educators",
+     "title": "Changing the AI tutor",
+     "summary": "Why Khanmigo now gets more direct after a wrong attempt."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "2. Share implementation guidance grounded in real classrooms",
+    "why": "It turns learning research into a concrete weekly target, the same kind of number OnCourse's Today's plan could set."
+   },
+   "id": "four-things-to-look-for-in-edtech-and-how-khan-academy-measures-up"
+  },
+  {
+   "Title": "Hand-crafted, machine-made: How we make learning games with AI",
+   "Creator": "Brilliant (Brilliant Staff)",
+   "Type": "Article",
+   "Link": "https://blog.brilliant.org/hand-crafted-machine-made/",
+   "Apps": [
+    "Brilliant",
+    "Super Mario Bros"
+   ],
+   "Topics": [
+    "Lessons",
+    "Practice",
+    "AI tools",
+    "Design process"
+   ],
+   "Goal": [
+    "Speed",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Brilliant skipped AI chatbot tutors and instead uses AI to build many interactive problem variants fast, while human designers own the learning goal, the difficulty curve and the final review.",
+   "What they did": "Brilliant decided against an AI tutoring chatbot after internal testing, because text explanations are not how they want people to learn. Instead they built prompt chains and LLM-friendly game APIs so designers can describe a problem and get a playable puzzle and solution in seconds, plus a second tool that makes practice variants with the same learning objective. Every generated problem gets multiple rounds of human review.",
+   "Results": "A pre-algebra course has \"50+ core concepts\" and needs \"20+ problems per concept,\" so \"a course like this requires 1,000+ individual problems.\" For gear train puzzles, \"we went from a 0% to 93% success rate in generating creative and correct puzzles\" in 48 hours by making game representations more LLM-friendly, not by changing models. Asset setup \"that took hours per lesson now happens in minutes.\"",
+   "Takeaways": "Learn by doing, not by reading explanations; Each concept needs 20+ problems on a difficulty ramp; Make your content format easy for AI to read; Humans own the aha moment, AI owns the busywork; One wrong question can damage trust",
+   "Ideas for OnCourse": "Practice: plan each high-yield topic as a ramp of 20+ MCQs from easy to edge cases, not a flat list. Design process: store questions in a clean structured format so AI can draft variants, with a doctor reviewing every one before it ships. Lessons: prefer a question or interactive step over another paragraph of explanation",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/76/92/7692747c-e18b-4db4-9f84-385d77c55a1e/content/images/size/w1200/2025/02/AI-Painting-1.png",
+   "Key points": [
+    {
+     "title": "Learn by doing, not by reading explanations",
+     "detail": "Brilliant compares learning to Super Mario: you don't get a text box saying you jumped too early, you fall into the pit and try again. After ChatGPT launched they chose not to build a tutoring chatbot, because \"Text explanations, no matter how perfect, just aren't our goal.\" They want learners to build intuition through interaction.",
+     "t": null
+    },
+    {
+     "title": "Each concept needs 20+ problems on a difficulty ramp",
+     "detail": "You can't explain a concept once and move on. Learners need variations, a difficulty ramp and edge cases that test understanding, which means 20+ problems per concept. A pre-algebra course with 50+ concepts therefore needs 1,000+ problems. This is the real cost of good practice content.",
+     "t": null
+    },
+    {
+     "title": "Make your content format easy for AI to read",
+     "detail": "Early GPT-3.5 outputs were \"janky\" and often unsolvable. For gear train puzzles, success went from 0% to 93% in 48 hours, and \"The breakthrough didn't come from upgrading to r1 or o3; it came from making the representations in our game engine more LLM-friendly.\" The structure of your content matters more than the model.",
+     "t": null
+    },
+    {
+     "title": "Humans own the aha moment, AI owns the busywork",
+     "detail": "Course authors stay responsible for the learning objective, the progression and the aha moment. AI handles technical setup, which took hours per lesson and now takes minutes. A second tool generates more practice sets like a level the team already likes, so learners can master an idea before moving on.",
+     "t": null
+    },
+    {
+     "title": "One wrong question can damage trust",
+     "detail": "Every generated problem goes through multiple rounds of human review for design and correctness. \"A single wrong problem can shake a learner's confidence or reinforce misconceptions.\" For a medical exam app, this bar is even more important.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Falling into the pit and dying, but for math",
+     "title": "Why not a chatbot",
+     "summary": "The Mario idea and why Brilliant chose interaction over AI text explanations."
+    },
+    {
+     "t": null,
+     "anchor": "Creating tactile learning for 10,000 concepts",
+     "title": "The content math",
+     "summary": "50+ concepts, 20+ problems each, 1,000+ problems per course."
+    },
+    {
+     "t": null,
+     "anchor": "90% design, 10% technical implementation",
+     "title": "The AI pipeline",
+     "summary": "From janky GPT-3.5 output to 93% correct puzzles, with humans in charge and reviewing everything."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "90% design, 10% technical implementation",
+    "why": "It shows how to split work between designers and AI when making large question banks, and why the content format matters most."
+   },
+   "id": "hand-crafted-machine-made-how-we-make-learning-games-with-ai"
+  },
+  {
+   "Title": "Spaced Repetition for All: Cognitive Science Meets Big Data in a Procrastinating World",
+   "Creator": "Quizlet Engineering (Shane Mooney)",
+   "Type": "Case study",
+   "Link": "https://quizlet.com/blog/spaced-repetition-for-all-cognitive-science-meets-big-data-in-a-procrastinating-world",
+   "Apps": [
+    "Quizlet",
+    "Anki",
+    "SuperMemo"
+   ],
+   "Topics": [
+    "Practice",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention",
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Most students cram, so Quizlet stopped scheduling cards by calendar and instead always shows the cards a student is most likely to get wrong right now, which works for one night or many weeks.",
+   "What they did": "Quizlet found classic spaced repetition did not fit how students actually study, since most study a set over only a few days. They built a model from about 1.5 million answers that predicts recall probability from four features: answer history, time since the last answer, time between previous answers and study direction. The new Learn always asks about the terms with the lowest predicted recall.",
+   "Results": "After getting a term right on the first try, \"there's only about an 87% chance they'll get it right\" the next time, and if it took a few tries, \"below 70%.\" \"95% study a set over four days at most,\" too few for classic spaced repetition. The logistic regression model had an \"AUROC was 0.815.\" (Note added later by Quizlet: Long-Term Learning was replaced by Memory Score and Scheduled Review.)",
+   "Takeaways": "Design for the cramming students actually do; One correct answer does not mean learned; Order by what the student is closest to forgetting; Recent answers matter more than old ones; Test both directions of a fact; A simple model can run offline",
+   "Ideas for OnCourse": "Flashcards: order each session by predicted weakest cards (recent wrong answers, longest gap) rather than a fixed due-date queue, so a pre-exam cram still targets weak spots. Flashcards: show a card again later in the session even after one correct answer if it took several tries. Practice: for drug and disease pairs, test both directions (drug to indication and indication to drug)",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": null,
+   "Key points": [
+    {
+     "title": "Design for the cramming students actually do",
+     "detail": "Quizlet's earlier Long-Term Learning used a standard schedule (1 day, 3, 7, 16, reset on a miss). It works without a deadline, but 95% of users study a set over four days at most. \"Cramming is a reality for many students,\" so the algorithm had to work for any time scale. OnCourse users near NEET-PG are in the same spot.",
+     "t": null
+    },
+    {
+     "title": "One correct answer does not mean learned",
+     "detail": "The old Learn repeated wrong questions until each was correct once, then stopped. But after one correct first try, the chance of getting it right next time was only about 87%, and below 70% if it took a few tries. Students who restarted spent time on terms they already knew.",
+     "t": null
+    },
+    {
+     "title": "Order by what the student is closest to forgetting",
+     "detail": "Classic spaced repetition waits until recall is about 80%, but Quizlet did not want students walking into a test at 81%. So it prioritises the terms with the lowest predicted chance of a correct answer. Every question is then on one of the few terms that need the most work, whatever the deadline.",
+     "t": null
+    },
+    {
+     "title": "Recent answers matter more than old ones",
+     "detail": "The strongest predictor of the next answer is whether the most recent one was correct, but older answers count too, with less weight. \"Two wrong answers followed by a correct answer is very different from a correct answer followed by two wrong answers.\" Time since last seen (forgetting curve) and gaps between reviews (spacing effect) are also features.",
+     "t": null
+    },
+    {
+     "title": "Test both directions of a fact",
+     "detail": "Knowing the English meaning of a Spanish word does not mean you can produce the Spanish word. Quizlet treats each direction as a separate but related fact and asks the side the student has gotten right less often. The same applies to medical facts learned only one way round.",
+     "t": null
+    },
+    {
+     "title": "A simple model can run offline",
+     "detail": "They chose logistic regression over fancier models because it is easy to interpret and portable. It becomes a simple equation in a JavaScript module that runs on web, iOS and Android offline, for students with poor networks. This matters for OnCourse users on patchy hostel or hospital Wi-Fi.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Classic Quizlet Learn",
+     "title": "Why the old Learn fell short",
+     "summary": "One correct answer was not enough: 87% and below-70% recall on the next try."
+    },
+    {
+     "t": null,
+     "anchor": "Long-Term Learning",
+     "title": "Why classic spaced repetition fell short",
+     "summary": "Great without deadlines, but 95% study a set over four days at most."
+    },
+    {
+     "t": null,
+     "anchor": "Our Approach",
+     "title": "Always show the weakest terms",
+     "summary": "Predict recall and prioritise the lowest, for any time scale."
+    },
+    {
+     "t": null,
+     "anchor": "Identifying the Features",
+     "title": "What predicts forgetting",
+     "summary": "Answer history, time since last answer, spacing and direction of study."
+    },
+    {
+     "t": null,
+     "anchor": "The Model",
+     "title": "The model",
+     "summary": "Logistic regression with AUROC 0.815, chosen for simplicity and offline use."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Long-Term Learning",
+    "why": "It explains in a few paragraphs why textbook spaced repetition fails exam crammers, which is OnCourse's core flashcard problem."
+   },
+   "id": "spaced-repetition-for-all-cognitive-science-meets-big-data-in-a-procra"
+  },
+  {
+   "Title": "Selecting Question Formats to Maximize the Testing Effect",
+   "Creator": "Quizlet Engineering (Shane Mooney)",
+   "Type": "Case study",
+   "Link": "https://quizlet.com/blog/selecting-question-formats-to-maximize-the-testing-effect",
+   "Apps": [
+    "Quizlet"
+   ],
+   "Topics": [
+    "Practice",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention",
+    "Usability"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Start unfamiliar material with multiple choice and move to recall as the learner improves, and drop formats like true/false and 'none of the above' that are easy to guess and make people quit.",
+   "What they did": "Quizlet's Learn used five question formats: typed response, self-graded flashcards, true/false, multiple choice, and multiple choice with 'none of the above'. They compared them on guessability, difficulty, learning benefit, time and fun, and ran a test where each recognition format was used alone versus a random mix, measuring how far students got before finishing or quitting. They removed true/false and 'none of the above', and set a fixed path from multiple choice to typed recall (with self-graded flashcards as fallback).",
+   "Results": "Chance of guessing: multiple choice \"1 in 4,\" with none of the above \"1 in 5,\" true/false \"1 in 2.\" \"Even the hardest question format is answered correctly on the first try over 60% of the time.\" 'None of the above' helped later recall, but when used more, \"students were more likely to stop studying early.\" True/false \"lead to higher study abandonment rates.\" (Charts in the post give the exact per-format numbers.)",
+   "Takeaways": "Recall beats recognition, but only if answered correctly; Guessable formats give weak learning and weak signal; Measure fun as how far people get before quitting; True/false and none-of-the-above cost more than they give; Optimise learning per minute, not per question",
+   "Ideas for OnCourse": "Flashcards: for a new card, start with a recognition step and move to self-graded recall once the student gets it right, rather than one fixed format. Practice: avoid true/false and 'none of the above' style items in OnCourse-written practice sets unless they mirror the real exam format. Design process: when testing a new Practice format, measure the share of a set completed before quitting as the engagement metric",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://img.quizlet.com/JWhSj-700.jpg",
+   "Key points": [
+    {
+     "title": "Recall beats recognition, but only if answered correctly",
+     "detail": "The testing effect says active retrieval is better than re-reading, and harder questions help more, but only if they can still be answered. Correct recalls teach more than failed ones. So Quizlet starts with easier formats on new material and moves to harder ones as the student learns, a technique called guidance fading.",
+     "t": null
+    },
+    {
+     "title": "Guessable formats give weak learning and weak signal",
+     "detail": "Multiple choice can be guessed 1 in 4, with none of the above 1 in 5, and true/false 1 in 2. A lucky guess skips the benefit of recall, and also hides which terms the student really knows. Process of elimination lets students pick the right option without knowing the answer.",
+     "t": null
+    },
+    {
+     "title": "Measure fun as how far people get before quitting",
+     "detail": "To estimate enjoyment, Quizlet compared a random mix of recognition formats against variants that used only one format each. They measured how much of the set students answered before completing or abandoning. Formats that led to more of the set completed were read as more fun and motivating.",
+     "t": null
+    },
+    {
+     "title": "True/false and none-of-the-above cost more than they give",
+     "detail": "'None of the above' made questions harder and improved later recall, but took longer and led more students to stop early. True/false was fast but highly guessable, hard to give clear feedback on when the answer is false, and led to higher abandonment. Both were removed in favour of standard multiple choice.",
+     "t": null
+    },
+    {
+     "title": "Optimise learning per minute, not per question",
+     "detail": "Students have limited time, so the goal is learning per minute. \"It might be better to ask two fast questions than one slower but more effective question.\" Typed answers are the main recall format, but Learn falls back to self-graded flashcards when the answer is too long to type or is an image.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Question Formats",
+     "title": "The five formats",
+     "summary": "Typed, self-graded flashcard, true/false, multiple choice and none of the above; recall versus recognition."
+    },
+    {
+     "t": null,
+     "anchor": "Guessability",
+     "title": "Guessability",
+     "summary": "Why guessable formats weaken learning and the data about what a student knows."
+    },
+    {
+     "t": null,
+     "anchor": "Learning Benefit",
+     "title": "Learning benefit",
+     "summary": "Desirable difficulty and guidance fading."
+    },
+    {
+     "t": null,
+     "anchor": "Fun",
+     "title": "Fun, measured",
+     "summary": "The test comparing single formats against a mix, using set completion."
+    },
+    {
+     "t": null,
+     "anchor": "Which question formats are the best?",
+     "title": "The decision",
+     "summary": "Typed recall with flashcard fallback; true/false and none of the above dropped."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Which question formats are the best?",
+    "why": "It gives the final format decisions and the reasons for each, which apply directly to OnCourse Practice and Flashcards."
+   },
+   "id": "selecting-question-formats-to-maximize-the-testing-effect"
+  },
+  {
+   "Title": "Spaced Repetition Systems Have Gotten Way Better",
+   "Creator": "Domenic Denicola",
+   "Type": "Article",
+   "Link": "https://domenic.me/fsrs/",
+   "Apps": [
+    "Anki",
+    "WaniKani",
+    "Bunpro",
+    "SuperMemo"
+   ],
+   "Topics": [
+    "Practice",
+    "Progress & streaks"
+   ],
+   "Goal": [
+    "Retention",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A modern scheduler (FSRS) that predicts each card's recall and lets you choose a target retention gives far lighter daily reviews than fixed interval ladders, and missing a card no longer sends you back to day 1.",
+   "What they did": "The author explains how the old SuperMemo-2 rule (1 day, 6 days, then multiply by 2.5, reset on a miss) works and why it is arbitrary. He describes FSRS, which fits difficulty, stability and retrievability per card from your own review history and schedules each card for when recall drops to a chosen target. He compares simulations of 90% and 70% target retention on his own Japanese deck and criticises the fixed ladders used by WaniKani and Bunpro.",
+   "Results": "With spaced repetition you can \"learn 10 new second-language words a day (3,650 per year!) with only 20 minutes of daily review time.\" The SuperMemo-2 rule \"was developed by a college student in 1987 based on his personal experiments.\" Simulating 365 days with 10 new cards a day, the 70% target retention FSRS suggested gave \"dramatically fewer reviews per day, in less time, while ending with many more cards memorized\" than the 90% default.",
+   "Takeaways": "Old schedules are arbitrary and punish a single miss; Predict recall per card instead of using a fixed ladder; Let users trade retention for workload; Fixed ladders make review feel like daily failure; Algorithm quality beats a pretty UI",
+   "Ideas for OnCourse": "Flashcards: when a user misses a mature card, shorten its interval rather than resetting it to tomorrow, so missed cards don't pile up. Flashcards: offer a simple 'review load' setting (lighter vs. stronger memory) and show the estimated daily minutes for each choice. Progress & streaks: report cards retained, not only cards due, so review feels like progress rather than debt",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": null,
+   "Key points": [
+    {
+     "title": "Old schedules are arbitrary and punish a single miss",
+     "detail": "SuperMemo-2 shows a card after 1 day, then 6 days, then multiplies by an ease factor of 2.5. A miss resets the card to day 1, so cards \"ping-pong\" between long and short intervals. The rule came from one college student's experiments in 1987.",
+     "t": null
+    },
+    {
+     "title": "Predict recall per card instead of using a fixed ladder",
+     "detail": "FSRS turns 'review just before you forget' into a prediction problem: when does recall probability drop to the target? It fits three things per card: difficulty (1 to 10), stability and retrievability, using 21 parameters tuned on your own review history. Anki has supported it since version 23.10, but it is not on by default.",
+     "t": null
+    },
+    {
+     "title": "Let users trade retention for workload",
+     "detail": "FSRS lets you pick a desired retention, default 90%, and can simulate your workload for any value. For the author's Japanese deck, the suggested 70% gave far fewer reviews and less time per day, and more cards memorised after a year, because he never hit the 200-review cap that blocks new cards. A visible trade-off gives users control over burnout.",
+     "t": null
+    },
+    {
+     "title": "Fixed ladders make review feel like daily failure",
+     "detail": "WaniKani and Bunpro use fixed intervals that never adapt to the user or card, and stop showing cards after the last step. A miss drops a card one or two steps. The author says this \"transforms these sites into a daily ritual of feeling bad about what you've forgotten, instead of feeling good about what you've retained,\" and he quit Bunpro for Anki.",
+     "t": null
+    },
+    {
+     "title": "Algorithm quality beats a pretty UI",
+     "detail": "The author admits Anki's UI is \"created by developers instead of designers.\" Still, with FSRS \"The review load is much lighter\" and \"The feeling of despair when missing a card is significantly minimized.\" For OnCourse Flashcards, the schedule itself is part of the experience design.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Spaced repetition recap",
+     "title": "Spaced repetition recap",
+     "summary": "What spaced repetition is and why it works for fact-heavy subjects like medicine."
+    },
+    {
+     "t": null,
+     "anchor": "Improving the scheduling algorithm",
+     "title": "Why the old algorithm frustrates",
+     "summary": "The SuperMemo-2 rule, resets on a miss, and the forgetting curve as a prediction problem."
+    },
+    {
+     "t": null,
+     "anchor": "Some neat facts about how FSRS works",
+     "title": "How FSRS works",
+     "summary": "Difficulty, stability, retrievability, and choosing a target retention."
+    },
+    {
+     "t": null,
+     "anchor": "FSRS in practice",
+     "title": "In practice",
+     "summary": "Using it in Anki, and why WaniKani's and Bunpro's ladders feel bad."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "FSRS in practice",
+    "why": "It shows how scheduling choices change how reviews feel, which is a design decision for OnCourse Flashcards, not just an engineering one."
+   },
+   "id": "spaced-repetition-systems-have-gotten-way-better"
+  },
+  {
+   "Title": "Re-designing busuu. One year as a Product Designer",
+   "Creator": "Caylee Farndon Taylor (busuu)",
+   "Type": "Case study",
+   "Link": "https://cayleeft.medium.com/re-designing-busuu-f130a1de6473",
+   "Apps": [
+    "Busuu"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Home",
+    "Lessons",
+    "Visual design",
+    "Design process"
+   ],
+   "Goal": [
+    "Activation",
+    "Conversion",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Cutting steps between opening the app and starting a lesson, and simplifying sign-up, moved Busuu's numbers more than any visual polish.",
+   "What they did": "Busuu's first in-house designers redesigned web and mobile after five years of work by four agencies. They cut the palette and fonts, built a style guide, replaced photos with icons for activities, removed the activity menu screen so lesson parts start straight from the dashboard, added a friends leaderboard and cut form fields from sign-up.",
+   "Results": "Removing the activity menu screen \"saw an immediate 27% rise in learning unit completion rates.\" \"Our recent redesign of the sign up flow resulted in a 70% increase in sign ups.\" The switch to a lighter, brighter blue (#3190d0 to #61bcf9) was \"one of the most successful design changes that we did in the last year; increasing conversion.\" No test setup or time window is given for these numbers.",
+   "Takeaways": "Remove the menu between Home and the lesson; Fewer sign-up fields brought many more sign-ups; A lighter palette lifted conversion; Icons travel across languages better than words; Don't reskin bad flows; Build a style guide from day one",
+   "Ideas for OnCourse": "Home: let each Today's plan item start the MCQ set directly from its card, with no in-between selection screen. Onboarding: count the fields before the first question and cut every one that isn't needed to personalise the first session. Design process: fix flow and navigation problems before or with a visual refresh, not after",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://miro.medium.com/v2/resize:fit:1200/1*FZnsxeka20ateC2u-Gec2Q.png",
+   "Key points": [
+    {
+     "title": "Remove the menu between Home and the lesson",
+     "detail": "Busuu removed the activity menu screen that sat between the user and a learning unit. That \"saw an immediate 27% rise in learning unit completion rates.\" They split units into smaller sections reachable straight from the dashboard, since some users prefer speaking and others writing. OnCourse should check every screen between Home and the first question.",
+     "t": null
+    },
+    {
+     "title": "Fewer sign-up fields brought many more sign-ups",
+     "detail": "Under the principle \"Less steps good, more steps bad,\" the team cut the forms users had to fill, mainly in sign-up. The sign-up redesign \"resulted in a 70% increase in sign ups.\" The post gives no test details, so treat it as a strong signal rather than a clean A/B result.",
+     "t": null
+    },
+    {
+     "title": "A lighter palette lifted conversion",
+     "detail": "Changing the main blue from #3190d0 to #61bcf9 was hard to justify internally, but was one of the year's most successful changes, \"increasing conversion and massively improving busuu's appearance of being fun and accessible.\" Colour can change how approachable a study app feels.",
+     "t": null
+    },
+    {
+     "title": "Icons travel across languages better than words",
+     "detail": "Busuu supports many interface languages with very different text lengths (English vs Russian). They replaced activity photos with consistent icons to support or replace text. This is useful for OnCourse if it adds Hindi or Hinglish labels.",
+     "t": null
+    },
+    {
+     "title": "Don't reskin bad flows",
+     "detail": "\"Don't ignore obvious navigation, user flow and UX issues in favour of a re-skin unless you are going to be able to complete that re-skin VERY quickly; otherwise you'll end up re-building bad designs with a new colour scheme.\" Break a big redesign into parts.",
+     "t": null
+    },
+    {
+     "title": "Build a style guide from day one",
+     "detail": "The author's main regret was not pushing for a style guide from the start. Style guides let developers reuse code, keep the product consistent without hours of design QA, and make live design changes faster and safer.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "When in doubt — reduce",
+     "title": "When in doubt, reduce",
+     "summary": "Fewer colours and fonts, a style guide, and the brighter blue that lifted conversion."
+    },
+    {
+     "t": null,
+     "anchor": "Pictures are better than words (and icons are better than pictures)",
+     "title": "Icons over words",
+     "summary": "Handling many interface languages with icons and SVGs."
+    },
+    {
+     "t": null,
+     "anchor": "Less steps good, more steps bad",
+     "title": "Fewer steps",
+     "summary": "Removing the activity menu (+27% completion), the leaderboard, and the sign-up redesign (+70%)."
+    },
+    {
+     "t": null,
+     "anchor": "Work fast",
+     "title": "Work fast",
+     "summary": "Prioritising and saying no as a small design team."
+    },
+    {
+     "t": null,
+     "anchor": "Redesign your culture, not just your product",
+     "title": "Design culture",
+     "summary": "Treating design as ongoing, not a finished project."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Less steps good, more steps bad",
+    "why": "It holds both big numbers and maps directly to OnCourse's path from Home to the first question and the onboarding form."
+   },
+   "id": "re-designing-busuu-one-year-as-a-product-designer"
+  },
+  {
+   "Title": "Unacademy Rewrites the Book",
+   "Creator": "The Hard Copy (Unacademy design team)",
+   "Type": "Case study",
+   "Link": "https://thehardcopy.co/unacademy-rewrites-the-book/",
+   "Apps": [
+    "Unacademy"
+   ],
+   "Topics": [
+    "Navigation",
+    "Home",
+    "Onboarding",
+    "Gamification",
+    "Design process"
+   ],
+   "Goal": [
+    "Usability",
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Unacademy rebuilt its exam-prep app around what learners do (plan the day, study on their own, check progress) instead of around features, and a calendar planner that showed free time nudged more self-study.",
+   "What they did": "After research showed users struggled to find content and educators, Unacademy built a new app from scratch between January and April 2021. They cut five tabs (Schedule, Syllabus, Tests, Updates, Profile) to three (Planner, Self study, Profile), removed the hamburger menu, turned the schedule list into a calendar that shows free time, set up content during onboarding, added Groups with leaderboards and built a new design system.",
+   "Results": "No numbers. The app had \"600,000+ paying subscribers, who typically spend 2-3 hours a day on it.\" The team says the calendar Planner \"nudged them to increase their learning productivity by undertaking practice tests and other self-study activity in the open gaps during their day,\" and that with Groups learners became \"more competitive and study more to collect points and climb the leaderboard.\" A reader comment notes Play Store complaints about finding older recordings after the change.",
+   "Takeaways": "Organise the app by learner needs, not features; Three tabs: Planner, Self study, Profile; Show free time, not just scheduled time; Set up the library during onboarding; Groups and leaderboards raised effort; A rebuild is a reset for the design system",
+   "Ideas for OnCourse": "Today's plan: show the day as a timeline that includes free gaps and suggests a short MCQ set or flashcard review to fill them. Onboarding: right after subscribing, ask the target exam and attempt year and set up the plan, with a skip for self-directed users. Navigation: check whether OnCourse tabs follow learner jobs (today, self-study, progress) rather than content types",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://thehardcopy.co/wp-content/uploads/THC-unacademy-thumbnail-image-1.png",
+   "Key points": [
+    {
+     "title": "Organise the app by learner needs, not features",
+     "detail": "Unacademy's structure had grown complex and users struggled to discover content and educators. Instead of patching it, the team built a new information architecture \"based on a user-based view, rather than a feature-based one.\" Needs fell into three buckets: daily tasks, self-study and tracking progress.",
+     "t": null
+    },
+    {
+     "title": "Three tabs: Planner, Self study, Profile",
+     "detail": "Navigation went from Schedule, Syllabus, Tests, Updates and Profile to Planner, Self study and Profile. They also removed the hamburger menu, since users can't see what it holds. The personas ranged from learners who need hand-holding to independent learners; the app gives the first smart defaults and \"gets out of the way\" of the second.",
+     "t": null
+    },
+    {
+     "title": "Show free time, not just scheduled time",
+     "detail": "The schedule moved from a list to a calendar that also shows the learner's free time. The team says this nudged learners to take practice tests and other self-study in the open gaps of their day, which drove more use of the Self study tab. A small layout change reframed how learners saw their day.",
+     "t": null
+    },
+    {
+     "title": "Set up the library during onboarding",
+     "detail": "The team pictured a first day at college, when your schedule and directions are handed to you. Before, the user had to start content discovery alone. Now onboarding learns their goals right after they subscribe and sets up their content library, with an option to skip for self-motivated users.",
+     "t": null
+    },
+    {
+     "title": "Groups and leaderboards raised effort",
+     "detail": "Groups let learners see other members' activity and progress. The VP of Design says learners became more competitive and studied more to collect points and climb the leaderboard. This was early reception, not a measured result.",
+     "t": null
+    },
+    {
+     "title": "A rebuild is a reset for the design system",
+     "detail": "Starting fresh made it easier to set up a design system than to clean up the old one, reducing time-to-design and time-to-build. Post-launch fixes were mostly UI and labels, plus several rounds on the popular dark mode. Hardik Pandya's advice: no amount of prior data prepares you, so work closely with users throughout.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "A Fresh Slate",
+     "title": "Why rebuild",
+     "summary": "Discovery problems and a complex structure led to a new app rather than a patch."
+    },
+    {
+     "t": null,
+     "anchor": "The New Information Architecture",
+     "title": "New structure",
+     "summary": "Planner, Self study and Profile replace five feature tabs; no hamburger menu."
+    },
+    {
+     "t": null,
+     "anchor": "Small Change. Big Results",
+     "title": "Calendar planner",
+     "summary": "Showing free time nudged more self-study."
+    },
+    {
+     "t": null,
+     "anchor": "Smoother Onboarding",
+     "title": "Onboarding",
+     "summary": "Setting up the content library right after subscribing, with a skip."
+    },
+    {
+     "t": null,
+     "anchor": "Learning Together",
+     "title": "Groups",
+     "summary": "Social learning and leaderboards for motivation."
+    },
+    {
+     "t": null,
+     "anchor": "Were there any unpleasant surprises?",
+     "title": "Surprises",
+     "summary": "Mostly UI and label fixes, plus dark mode tweaks; advice on big redesigns."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Small Change. Big Results",
+    "why": "A short, concrete example from an Indian exam-prep app of how a planner layout changed study behaviour, directly relevant to Today's plan."
+   },
+   "id": "unacademy-rewrites-the-book"
+  },
+  {
+   "Title": "Testing, testing — how we created an assessment tool for Babbel users",
+   "Creator": "Babbel Design (Carina de Magalhães)",
+   "Type": "Case study",
+   "Link": "https://medium.com/babbeldesign/testing-testing-how-we-created-an-assessment-tool-for-babbel-users-9051407ca3be",
+   "Apps": [
+    "Babbel"
+   ],
+   "Topics": [
+    "Practice",
+    "Progress & streaks",
+    "Research methods",
+    "Design process"
+   ],
+   "Goal": [
+    "Retention",
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Babbel shipped a minimal, low-stakes level test, then fixed what eight user tests showed: a clear results screen and an easy way to review every answer at the end.",
+   "What they did": "Babbel built a CEFR-based assessment as a low-stakes test, not an official certificate. The MVP tested only grammar and vocabulary, with an intro screen giving the duration and skills, a look distinct from lessons, and no instant right/wrong feedback. Eight unmoderated tests found a confusing results screen and a wish to check answers, so they added a list view of all answers and later a listening section.",
+   "Results": "\"~ 1900 users completing the Assessment in the first 2 weeks (organic)\", \"~ Average completion rate 80%\", and \"~90% of the users check their answers in the end of the test.\" Research was \"eight unmoderated tests with non-Babbel users.\"",
+   "Takeaways": "Learners want tests that do not feel like school; Set expectations before the test starts; Turn off instant feedback in test mode; Let people review all answers in one list; Ship the smallest version, then add",
+   "Ideas for OnCourse": "Practice: in mock test mode, hide per-question feedback, then end with a results screen that lists every question with the user's answer and the correct one in a single scrollable list. Practice: open each mock test with a short screen stating duration, number of questions and subjects covered. Progress & streaks: frame periodic tests as low-stakes check-ins on readiness, not grades",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://miro.medium.com/v2/resize:fit:1200/1*_qy99_fuKNNbaZl9S0bDPw.png",
+   "Key points": [
+    {
+     "title": "Learners want tests that do not feel like school",
+     "detail": "User research kept showing that learners want to be tested and challenged, and that this motivates them. But Babbel's adult users are not in school, so the team was careful not to make them feel they were. They chose a low-stakes test that gives a CEFR level, not an official certificate.",
+     "t": null
+    },
+    {
+     "title": "Set expectations before the test starts",
+     "detail": "The first prototype began with an onboarding screen for the test that stated its duration and which skills would be tested. The content design lead worked on the copy and content structure. The test also got a look different from regular lessons, still within Babbel's style.",
+     "t": null
+    },
+    {
+     "title": "Turn off instant feedback in test mode",
+     "detail": "In lessons, users get immediate right/wrong feedback. In the assessment, the team changed this behaviour because it is a test. That makes the results screen carry all the feedback, so it has to be clear.",
+     "t": null
+    },
+    {
+     "title": "Let people review all answers in one list",
+     "detail": "Eight unmoderated tests found the results screen confusing (grammar and vocabulary were hard to tell apart), the intro info felt irrelevant, and people wanted to see correct and incorrect answers. The team added a way to check answers in a list rather than one by one. After launch, about 90% of users checked their answers at the end.",
+     "t": null
+    },
+    {
+     "title": "Ship the smallest version, then add",
+     "detail": "The MVP tested only grammar and vocabulary. Once data showed users wanted assessments (about 1,900 organic completions in two weeks, 80% completion), the team invested in listening questions. Next they planned placement tests and small recaps between lessons.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The 1st challenge",
+     "title": "Why an assessment",
+     "summary": "Learners want testing but shouldn't feel back in school; deciding on a low-stakes CEFR test."
+    },
+    {
+     "t": null,
+     "anchor": "MVP approach",
+     "title": "The MVP",
+     "summary": "Grammar and vocabulary only, an intro screen, a distinct look and no instant feedback."
+    },
+    {
+     "t": null,
+     "anchor": "Insights after testing",
+     "title": "What user tests found",
+     "summary": "Confusing results, irrelevant intro info, and a wish to see answers."
+    },
+    {
+     "t": null,
+     "anchor": "Solutions after first iteration",
+     "title": "Fixes",
+     "summary": "A list view for checking answers and a new listening section."
+    },
+    {
+     "t": null,
+     "anchor": "Results",
+     "title": "Results",
+     "summary": "1,900 completions in two weeks, 80% completion, 90% check their answers."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Insights after testing",
+    "why": "The four user-test findings and the fix are a ready checklist for OnCourse's mock test results screen."
+   },
+   "id": "testing-testing-how-we-created-an-assessment-tool-for-babbel-users"
+  },
+  {
+   "Title": "Mobile Tutorials: Wasted Effort or Efficiency Boost?",
+   "Creator": "Nielsen Norman Group (Alita Kendrick)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/mobile-tutorials/",
+   "Apps": [
+    "Movesum",
+    "Brainsparker",
+    "LaunchCenter Pro",
+    "Sketch.Book"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Research methods"
+   ],
+   "Goal": [
+    "Activation",
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "In a 70-person test, people who read a deck-of-cards tutorial were no more successful and no faster than people who skipped it, and they rated the app as harder to use.",
+   "What they did": "NN/g ran a remote, unmoderated quantitative test with 70 iPhone users on 4 little-known apps that had swipe-through tutorials. Half the users always read the tutorial and half always skipped it. Each then did a task the tutorial had taught, such as \"Set a target of 6500 steps\" in Movesum. They measured task success, a 1–7 ease rating (SEQ) and task time.",
+   "Results": "Task success was \"91% for the those who read the tutorial (n=35) and 94% for those who skipped the tutorial (n=35)\", not significant (p=0.443). Ease rating was 4.92 for tutorial readers vs. 5.49 for skippers, significant (p=0.047); \"Half a point is a fairly substantial difference on a 1–7 rating scale.\" Mean task time was 93.49 seconds with the tutorial vs. 85.17 seconds without (p > 0.1), and that excludes the time spent reading the tutorial.",
+   "Takeaways": "Tutorials did not raise task success; Tutorials made tasks feel harder; Tutorials did not make people faster; Spend the effort on the UI instead; Prefer contextual help to a manual",
+   "Ideas for OnCourse": "Onboarding: cut any swipe-through feature tour and drop new users straight into a short first MCQ set. Practice: teach controls like bookmark or report-question with a one-time tip the first time the user reaches them, not upfront. Design process: before adding an onboarding tour, test the flow without it and only add one if people fail",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/Mobile-Tutorials-Social-Media-Posts_2020.png",
+   "Key points": [
+    {
+     "title": "Tutorials did not raise task success",
+     "detail": "Readers succeeded 91% of the time and skippers 94%, a gap that was not statistically significant (p=0.443). The tasks were simple, and one reader said \"I didn't even have to watch the tutorial.\" A tour adds a step without making people more able to use the app.",
+     "t": null
+    },
+    {
+     "title": "Tutorials made tasks feel harder",
+     "detail": "People who read the tutorial rated the task 4.92 out of 7 for ease, against 5.49 for people who skipped it (p=0.047). NN/g thinks a tutorial signals that the app is complicated, and they saw the same effect with coach marks and overlays. For OnCourse, a tour at install could make a simple practice flow seem heavy.",
+     "t": null
+    },
+    {
+     "title": "Tutorials did not make people faster",
+     "detail": "Mean task time was 93.49 seconds for readers and 85.17 seconds for skippers, with no significant difference. That number leaves out the time spent reading the tutorial itself, so total effort was clearly higher for readers.",
+     "t": null
+    },
+    {
+     "title": "Spend the effort on the UI instead",
+     "detail": "The conclusion is to \"think twice about creating a tutorial for simple applications.\" Design and build time is better spent making the interface easy enough that no tutorial is needed. Many users skip tutorials anyway.",
+     "t": null
+    },
+    {
+     "title": "Prefer contextual help to a manual",
+     "detail": "If some onboarding is needed, NN/g suggests interactive methods such as contextual help rather than \"a polished manual\". The study only covered 4 iOS apps, which the authors list as a limitation.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Methodology",
+     "title": "How the study was run",
+     "summary": "70 users, 4 iPhone apps, half read the tutorial and half skipped it."
+    },
+    {
+     "t": null,
+     "anchor": "Comparable Success Rates",
+     "title": "Success rates",
+     "summary": "91% vs. 94%, no meaningful difference."
+    },
+    {
+     "t": null,
+     "anchor": "Easier Tasks When Participants Skipped Tutorials",
+     "title": "Perceived difficulty",
+     "summary": "Tutorial readers rated tasks harder, 4.92 vs. 5.49."
+    },
+    {
+     "t": null,
+     "anchor": "No Difference in Task-Completion Times",
+     "title": "Task time",
+     "summary": "93.49 vs. 85.17 seconds, not significant, before counting reading time."
+    },
+    {
+     "t": null,
+     "anchor": "Study Limitations",
+     "title": "Limitations",
+     "summary": "Only 4 iOS apps, though NN/g expects Android to behave the same."
+    },
+    {
+     "t": null,
+     "anchor": "Conclusion",
+     "title": "Conclusion",
+     "summary": "Fix the UI first, and use contextual help if onboarding is needed."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Easier Tasks When Participants Skipped Tutorials",
+    "why": "It is the surprising result: tutorials made the app feel harder, which is the strongest argument against a tour in OnCourse onboarding."
+   },
+   "id": "mobile-tutorials-wasted-effort-or-efficiency-boost"
+  },
+  {
+   "Title": "Mobile-App Onboarding: An Analysis of Components and Techniques",
+   "Creator": "Nielsen Norman Group (Alita Kendrick)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/mobile-app-onboarding/",
+   "Apps": [
+    "Productive",
+    "Chase",
+    "Reflectly",
+    "Any.do",
+    "Fitplan",
+    "What the Forecast?!!",
+    "NOAA Weather",
+    "Checklist",
+    "Fabulous",
+    "Temple Run 2",
+    "MindNode"
+   ],
+   "Topics": [
+    "Onboarding"
+   ],
+   "Goal": [
+    "Activation",
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Skip onboarding when you can; keep only short content customization that the app truly needs, and teach by doing rather than by slides.",
+   "What they did": "NN/g splits mobile onboarding into three parts: feature promotion, customization and instructions. It reviews real apps for each part and says which are worth keeping. It builds on their own tutorial study, which found tutorials \"didn't improve task performance\", and lists the few cases where onboarding helps.",
+   "Results": null,
+   "Takeaways": "Skip onboarding whenever possible; Onboarding earns its place in only three cases; Feature promotion belongs on the store page; Ask only content questions you can explain; Teach by doing, not by slides",
+   "Ideas for OnCourse": "Onboarding: keep only the questions that shape the plan (exam, exam date, daily time), say why each one is asked, show a progress bar and allow Skip. Onboarding: move theme or appearance choices out of onboarding and into Settings. Home: introduce features like stats only when they become useful, for example after 7 days of practice data",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/Mobile-App-Onboarding_Social-Media-Posts_2020-compressor.png",
+   "Key points": [
+    {
+     "title": "Skip onboarding whenever possible",
+     "detail": "Onboarding adds interaction cost even when skipped, strains memory, and may not help: NN/g's own tutorial study found no performance gain. Their advice is to avoid app onboarding \"whenever possible\" and spend the resources making the UI more usable. Test the app with no onboarding first, and add a flow only if a prototype of it actually helps.",
+     "t": null
+    },
+    {
+     "title": "Onboarding earns its place in only three cases",
+     "detail": "It helps when you need user information to start, when the app is \"highly tailored to the user's context and preferences\", or when a key feature is new and unfamiliar. An exam-prep app fits the second case: the exam and date really change the plan.",
+     "t": null
+    },
+    {
+     "title": "Feature promotion belongs on the store page",
+     "detail": "Promo screens at first launch feel like marketing and are usually skipped, because people already chose to download the app. Show features in the App Store preview, or in context when they become useful. For example, a habit app could highlight its statistics after 7 days of data. Feature tours are fine for existing users when something is truly new, like Chase's short, skippable intro to its budgeting feature.",
+     "t": null
+    },
+    {
+     "title": "Ask only content questions you can explain",
+     "detail": "Visual customization like picking a colour scheme (as Reflectly forced) does not belong in onboarding, because people can't judge it before using the app and usually stick with defaults. Content customization can belong there. Fitplan's short survey explained why it needed each answer, showed a progress indicator and offered Skip. If you can't explain why you need data at launch, ask later.",
+     "t": null
+    },
+    {
+     "title": "Teach by doing, not by slides",
+     "detail": "Deck-of-cards tutorials make simple apps look complicated, and overlays like NOAA Weather's that highlight every control overwhelm people. Interactive walkthroughs, such as Temple Run 2's practice level or MindNode's guided first mind map, work when the interaction is truly new. They should be short and skippable. For OnCourse, a first practice question works as the tutorial.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Skip Onboarding Whenever Possible",
+     "title": "Why to avoid onboarding",
+     "summary": "Interaction cost, memory strain and no proven performance gain."
+    },
+    {
+     "t": null,
+     "anchor": "When Does a Mobile App Need Onboarding?",
+     "title": "When it is needed",
+     "summary": "Three cases: required info, highly tailored apps, truly novel features."
+    },
+    {
+     "t": null,
+     "anchor": "Feature Promotion",
+     "title": "Feature promotion",
+     "summary": "Move it to the store page or show it in context; use it for new features for existing users."
+    },
+    {
+     "t": null,
+     "anchor": "Customization",
+     "title": "Customization",
+     "summary": "Content questions yes, visual choices no; explain why you ask."
+    },
+    {
+     "t": null,
+     "anchor": "Instructions",
+     "title": "Instructions",
+     "summary": "Decks of cards, overlays and interactive walkthroughs compared."
+    },
+    {
+     "t": null,
+     "anchor": "Conclusion",
+     "title": "Conclusion",
+     "summary": "Put users into the interface and keep any instruction brief."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Customization",
+    "why": "OnCourse onboarding is mostly customization questions, and this section says which ones to keep and how to ask them."
+   },
+   "id": "mobile-app-onboarding-an-analysis-of-components-and-techniques"
+  },
+  {
+   "Title": "Progress Indicators Make a Slow System Less Insufferable",
+   "Creator": "Nielsen Norman Group (Katie Sherwin)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/progress-indicators/",
+   "Apps": [
+    "United Airlines",
+    "Evernote",
+    "Facebook",
+    "Expensify",
+    "WeTransfer",
+    "California DMV"
+   ],
+   "Topics": [
+    "Visual design",
+    "Motion",
+    "Practice"
+   ],
+   "Goal": [
+    "Usability",
+    "Craft"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Show feedback right away, use a spinner only for 2–10 second waits and a percent-done bar for longer ones; people with a moving indicator waited about 3 times longer.",
+   "What they did": "The article explains why progress feedback matters and gives timing rules for each type of indicator. It cites a University of Nebraska-Lincoln study where one group saw an animated progress bar while a page loaded and a control group saw nothing. It also covers how to pace a percent-done bar and which indicators to avoid.",
+   "Results": "People who saw the moving feedback bar \"experienced higher satisfaction and were willing to wait on average 3 times longer than those who did not see any progress indicators\" (Nah, 2004). Timing rules: immediate feedback on every tap, an indicator for anything over \"about 1.0 second\", looped animation for \"2-10 seconds\", percent-done for \"10 seconds or more\".",
+   "Takeaways": "Moving feedback makes people wait 3 times longer; Give feedback on every tap immediately; Spinners only for 2–10 second waits; Use percent-done bars for long waits; Start slow and finish fast; Never use static or threatening messages",
+   "Ideas for OnCourse": "Practice: when an answer is submitted, change the option state instantly before the server replies, so no one taps twice. Today's plan: while a personalised plan or test is generated, show a percent-done bar or step count (\"Building your plan, step 2 of 3\"), not an endless spinner. Lessons: for video or PDF downloads, show a percent-done bar with a rough time estimate and a Cancel option",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/Slide16articlesprogress-indicators.png",
+   "Key points": [
+    {
+     "title": "Moving feedback makes people wait 3 times longer",
+     "detail": "In a University of Nebraska-Lincoln study, people who saw a looping progress bar while a page loaded were more satisfied and waited \"on average 3 times longer\" than people who saw nothing. Indicators reassure, give people something to look at, give a reason to wait and shrink perceived time.",
+     "t": null
+    },
+    {
+     "title": "Give feedback on every tap immediately",
+     "detail": "The wait starts the moment the user taps. The button should look pressed or the screen should start to change right away. Without a visible change, \"most users will assume the action was not registered and they will try again.\"",
+     "t": null
+    },
+    {
+     "title": "Spinners only for 2–10 second waits",
+     "detail": "Under 1 second, a flashing spinner is distracting. Over 10 seconds, a spinner makes people unsure if the app is stuck, and they may abandon the task. Add text like \"Loading comments…\" to say why they are waiting, and remember network delays can turn 2 seconds into 15.",
+     "t": null
+    },
+    {
+     "title": "Use percent-done bars for long waits",
+     "detail": "For waits of 10 seconds or more, show how much is done and how much is left, a rough estimate like \"About 3 minutes remaining\", or a step count such as \"Updating address 3 of 50.\" Give a way to stop long processes. Lower the cutoff when your time estimates vary a lot.",
+     "t": null
+    },
+    {
+     "title": "Start slow and finish fast",
+     "detail": "A bar that races ahead and then hangs at the end wipes out the benefit. Start slower and speed up near the end, so you beat expectations. NN/g notes that for surveys the opposite holds: indicators that start fast and end slow reduce drop-off. That matters for OnCourse's onboarding questions.",
+     "t": null
+    },
+    {
+     "title": "Never use static or threatening messages",
+     "detail": "A static \"Loading…\" or \"Please wait\" can't show if the system is stuck. Warnings like \"clicking again may create an extra order\" threaten users and go unread. The fix is to show that the first tap was accepted.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The Power of Feedback: Make Users Feel You’re Listening",
+     "title": "Why feedback matters",
+     "summary": "The DMV hold example, the 4 benefits of indicators and the 3x waiting study."
+    },
+    {
+     "t": null,
+     "anchor": "Always give some type of immediate feedback.",
+     "title": "Immediate feedback",
+     "summary": "Every tap needs a visible response."
+    },
+    {
+     "t": null,
+     "anchor": "1. Looped animation: Use only for fast actions.",
+     "title": "Spinners",
+     "summary": "Only for 2–10 second waits, with a text label."
+    },
+    {
+     "t": null,
+     "anchor": "2. Percent-done animation: Use for actions that take 10 seconds or more.",
+     "title": "Percent-done bars",
+     "summary": "Pacing, time estimates and step counts."
+    },
+    {
+     "t": null,
+     "anchor": "3. Static progress indicators: Don’t use them.",
+     "title": "What not to use",
+     "summary": "Static text and don't-click-again warnings."
+    },
+    {
+     "t": null,
+     "anchor": "A Note About Kids, Games, and Progress Indicators",
+     "title": "Games while loading",
+     "summary": "Mini-games during loading confused children; keep the progress bar prominent."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "2. Percent-done animation: Use for actions that take 10 seconds or more.",
+    "why": "It gives concrete rules for long waits like plan generation or downloads, including how to pace the bar."
+   },
+   "id": "progress-indicators-make-a-slow-system-less-insufferable"
+  },
+  {
+   "Title": "Five Mistakes in Designing Mobile Push Notifications",
+   "Creator": "Nielsen Norman Group (Alita Kendrick)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/push-notification/",
+   "Apps": [
+    "FreePrints",
+    "Conquest",
+    "Tasty",
+    "Night Sky",
+    "Wunderlist",
+    "Instagram",
+    "Venmo",
+    "Reddit",
+    "The Economic Times",
+    "Elevate"
+   ],
+   "Topics": [
+    "Notifications",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Retention",
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Ask for notification permission only after the user has felt value, say what you'll send, bundle bursts, stay relevant, and let people turn notifications off inside the app.",
+   "What they did": "NN/g lists five common push-notification mistakes, with a do and a don't app example for each. It draws on what they saw in their own studies, where people often tap Don't Allow straight away, and on a Telefonica Research study of notification volume.",
+   "Results": "\"In 2016, the average mobile phone user received 56 notifications per day\" (Pielot 2018). On first-launch permission prompts: \"In many of our studies, the immediate response is to click Don't Allow.\" Rule of thumb: \"If you have more than five notifications that you need to send at once, combine them into a single message.\"",
+   "Takeaways": "Ask for permission after the first win; Say what the notifications will contain; Bundle notifications instead of sending bursts; Only send what concerns this user; Let users turn them off inside the app",
+   "Ideas for OnCourse": "Onboarding: remove the notification prompt from first launch and ask right after the first completed practice set, with a pre-prompt that names what you'll send (daily plan reminder, streak at risk, exam countdown). Notifications: combine same-day items like new test, plan reminder and streak into one message. Notifications: add an in-app settings page with a toggle for each notification type",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/push-notifcation.png",
+   "Key points": [
+    {
+     "title": "Ask for permission after the first win",
+     "detail": "New users don't yet know what the app is worth, and in NN/g's studies the usual response to a first-launch prompt is Don't Allow. FreePrints asked before users could even read the Getting Started page. The Conquest game asked only after the player's first level-up. Use reciprocity: give value first.",
+     "t": null
+    },
+    {
+     "title": "Say what the notifications will contain",
+     "detail": "The default iOS text says what the company wants, not what the user gets. Night Sky explains its notifications (stargazing conditions, object rise times) before asking, while Tasty gives no reason. Being specific helps people decide and makes the app seem more trustworthy.",
+     "t": null
+    },
+    {
+     "title": "Bundle notifications instead of sending bursts",
+     "detail": "Many notifications in a short time feel like someone ringing the doorbell over and over, and push people to turn them off or delete the app. Wunderlist sent one per due task. Instagram combines many likes into one message with two names and a count. Don't rely on iOS grouping to do this for you.",
+     "t": null
+    },
+    {
+     "title": "Only send what concerns this user",
+     "detail": "Venmo notified people about friends' transactions that had nothing to do with them. Reddit sends trending posts only from subreddits the user follows. \"They can turn them off in settings\" is no excuse, because most users never change defaults.",
+     "t": null
+    },
+    {
+     "title": "Let users turn them off inside the app",
+     "detail": "The Economic Times had a Notifications Hub and a Settings page, and neither let users change notifications. Elevate, a brain-training app, has a Push Notifications page in Settings with a toggle per type. Hiding the off switch is deceptive and gives people a reason to delete the app.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Mistake #1: Asking Users to Enable Notifications Immediately After Launching an App for the First Time",
+     "title": "Asking too early",
+     "summary": "Give value first; Conquest asks after the first level-up."
+    },
+    {
+     "t": null,
+     "anchor": "Mistake #2: Neglecting to Tell Users What Information Notifications Will Contain",
+     "title": "Explaining the content",
+     "summary": "Night Sky names what it will send before asking."
+    },
+    {
+     "t": null,
+     "anchor": "Mistake #3: Sending Notifications in Bursts",
+     "title": "Bursts",
+     "summary": "Combine more than five into one, like Instagram."
+    },
+    {
+     "t": null,
+     "anchor": "Mistake #4: Sharing Irrelevant Content",
+     "title": "Relevance",
+     "summary": "Venmo vs. Reddit, and why defaults matter."
+    },
+    {
+     "t": null,
+     "anchor": "Mistake #5: Making it Difficult to Turn Off Notifications",
+     "title": "Turning them off",
+     "summary": "Elevate's in-app toggles per notification type."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Mistake #1: Asking Users to Enable Notifications Immediately After Launching an App for the First Time",
+    "why": "Where OnCourse asks for notification permission decides how many users it can ever remind, and this section shows when to ask."
+   },
+   "id": "five-mistakes-in-designing-mobile-push-notifications"
+  },
+  {
+   "Title": "Hamburger Menus and Hidden Navigation Hurt UX Metrics",
+   "Creator": "Nielsen Norman Group (Kara Pernice, Raluca Budiu)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/hamburger-menus/",
+   "Apps": [
+    "BBC"
+   ],
+   "Topics": [
+    "Navigation",
+    "Research methods"
+   ],
+   "Goal": [
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Navigation hidden behind a menu icon gets used less and later, and makes tasks slower and feel harder, so keep the main destinations visible when there are 4 or fewer.",
+   "What they did": "NN/g and WhatUsersDo ran a quantitative study with 179 participants on 6 live websites, on phones and desktops. They compared hidden navigation (hamburger), visible navigation, and combo navigation (some visible, some hidden). They measured navigation use, time to first use, content discoverability, rated difficulty and task time. Fully visible navigation was not tested on phones.",
+   "Results": "On mobile, people \"used the hidden navigation in 57% of the cases, and the combo navigation in 86% of the cases — 1.5 times more.\" Content discoverability showed \"a more than 20% drop\" with hidden navigation. Difficulty ratings rose 21% vs. visible and 11% vs. combo. \"On mobile people were 15% slower when the navigation was hidden (compared with the combo condition)\"; on desktop at least 39% slower. Mobile users took about 2 seconds longer to first use hidden navigation.",
+   "Takeaways": "Visible navigation gets used far more; Hidden navigation cuts discoverability by over 20%; Hiding navigation makes tasks slower and harder; Low salience, low scent and extra taps explain it; Show 4 or fewer items as visible links",
+   "Ideas for OnCourse": "Navigation: keep Home, Practice, Lessons and Flashcards as a visible bottom tab bar and avoid tucking a main destination under a More or hamburger menu. Home: add direct links to features that live outside the tab bar, such as Streaks or Notifications, from cards on Home. Design process: when adding a fifth tab, test whether discoverability of the other tabs drops",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/SocialMediaPosts_20-30_jpw_04.png",
+   "Key points": [
+    {
+     "title": "Visible navigation gets used far more",
+     "detail": "On phones, people used hidden navigation in 57% of tasks and combo navigation in 86%, 1.5 times more. On desktop the gap was larger: 27% for hidden vs. 48% visible and 50% combo. When options are on screen, people notice them and act on them.",
+     "t": null
+    },
+    {
+     "title": "Hidden navigation cuts discoverability by over 20%",
+     "detail": "Content discoverability measured whether people found content through navigation when it wasn't linked from the homepage. It dropped by more than 20% with hidden navigation, on both mobile and desktop. Content that is only reachable through the menu suffers most.",
+     "t": null
+    },
+    {
+     "title": "Hiding navigation makes tasks slower and harder",
+     "detail": "Rated difficulty rose 21% compared with visible navigation and 11% compared with combo. On mobile, tasks took 15% longer with hidden navigation than with combo, and people reached for the menu about 2 seconds later. A few seconds can start frustration and self-doubt.",
+     "t": null
+    },
+    {
+     "title": "Low salience, low scent and extra taps explain it",
+     "detail": "A small icon is easy to miss, it doesn't say what is inside, and people must open it to find out. Patterns also vary across apps. NN/g expects only familiarity to improve over time; the other problems are built into hiding.",
+     "t": null
+    },
+    {
+     "title": "Show 4 or fewer items as visible links",
+     "detail": "For phones, NN/g recommends visible links when there are 4 or fewer top-level items. With more, hide some, since a menu still beats the alternatives on mobile. Back up any hidden menu with in-page links to important content.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Why Study Hidden and Visible Navigation",
+     "title": "Why and how",
+     "summary": "179 participants, 6 sites, phones and desktops."
+    },
+    {
+     "t": null,
+     "anchor": "Navigation Usage: Hidden Navigation Used Less and Later in the Task",
+     "title": "Usage",
+     "summary": "Hidden menus are used less often and later."
+    },
+    {
+     "t": null,
+     "anchor": "Hidden Navigation Leads to Worse User Experience",
+     "title": "UX metrics",
+     "summary": "Lower discoverability, higher difficulty, longer task times."
+    },
+    {
+     "t": null,
+     "anchor": "Why Hidden Navigation Is Less Effective",
+     "title": "Why it fails",
+     "summary": "Five reasons, from low salience to lack of standards."
+    },
+    {
+     "t": null,
+     "anchor": "Navigation Recommendations",
+     "title": "Recommendations",
+     "summary": "Visible links for 4 or fewer items; support menus with in-page links."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Hidden Navigation Leads to Worse User Experience",
+    "why": "It has the core numbers to bring to any debate about moving a tab into a More menu."
+   },
+   "id": "hamburger-menus-and-hidden-navigation-hurt-ux-metrics"
+  },
+  {
+   "Title": "The Peak–End Rule: How Impressions Become Memories",
+   "Creator": "Nielsen Norman Group (Lexie Kane)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/peak-end-rule/",
+   "Apps": [
+    "Duolingo",
+    "TurboTax",
+    "Maytag",
+    "Ann Taylor",
+    "Spotify"
+   ],
+   "Topics": [
+    "Progress & streaks",
+    "Practice",
+    "Copy",
+    "Gamification"
+   ],
+   "Goal": [
+    "Retention",
+    "Craft"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "People judge an experience by its most intense moment and its ending, so design the high points and the last screen with care, and handle errors so they don't become the memory.",
+   "What they did": "The article explains the peak–end rule using Kahneman and Fredrickson's 1993 cold-water study. It then applies it to UX: positive peaks (Duolingo's encouragement), negative peaks (a frustrating Maytag menu seen in an NN/g usability session), endings (TurboTax's relief screen vs. exit pop-ups), and edge cases like Spotify's outage error.",
+   "Results": "In the cold-water study, Round 2 added 30 seconds at a slightly warmer 15°C after 60 seconds at 14°C. \"80% of the study participants preferred Round 2 and chose to repeat that condition,\" even though it meant more total discomfort. HCI research also shows that \"if a progress indicator speeds up towards the end, the process is judged to have been faster.\"",
+   "Takeaways": "A better ending changes the whole memory; Amplify the moments that already reward; Frustrating moments become peaks too; End on a high note, not a pop-up; Plan for errors and outages",
+   "Ideas for OnCourse": "Practice: end every MCQ set on a win, for example close with an easier question or a summary that leads with what improved before what went wrong. Today's plan: give plan completion a clear celebratory end screen with no upsell on it. Renewal: avoid \"please don't go\" pop-ups when a user cancels; make the cancel flow calm and respectful so the last memory is good",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/peak-end-rule2.png",
+   "Key points": [
+    {
+     "title": "A better ending changes the whole memory",
+     "detail": "Participants held a hand in 14°C water for 60 seconds, and in another round for 60 seconds plus 30 more at 15°C. 80% chose to repeat the longer round, because it ended slightly better. People remember snapshots, weighted toward peaks and endings, not the total.",
+     "t": null
+    },
+    {
+     "title": "Amplify the moments that already reward",
+     "detail": "Duolingo's mascot congratulates users after 10 correct answers, adding to the pleasure of learning. NN/g suggests finding the moments where the product is most helpful or valuable and making them better with colour, an icon or an illustration. For OnCourse, that is a correct streak of answers or a finished plan.",
+     "t": null
+    },
+    {
+     "title": "Frustrating moments become peaks too",
+     "detail": "In an NN/g usability session, a participant fought a Maytag menu that closed whenever the cursor moved off it. At the end she still talked about that menu and said she might look at other brands. People remember negative moments more vividly than positive ones.",
+     "t": null
+    },
+    {
+     "title": "End on a high note, not a pop-up",
+     "detail": "TurboTax ends tax filing with an illustration of relief and no upsell. In contrast, \"please-don't-go\" exit pop-ups, like Ann Taylor's surprise discount, irritate users and leave a bad last impression. Let the experience end when the user's task ends.",
+     "t": null
+    },
+    {
+     "title": "Plan for errors and outages",
+     "detail": "During an outage, Spotify showed a red box saying \"This feature is currently unavailable,\" with no explanation and no action. Sudden dead ends make strong memories. Explain the problem, estimate when it will be fixed, and never blame the user.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Psychological Foundations",
+     "title": "The cold-water study",
+     "summary": "80% chose the longer round that ended slightly better."
+    },
+    {
+     "t": null,
+     "anchor": "Creating Positive Peaks",
+     "title": "Positive peaks",
+     "summary": "Duolingo's encouragement after correct answers."
+    },
+    {
+     "t": null,
+     "anchor": "The Impact of Negative Peaks",
+     "title": "Negative peaks",
+     "summary": "A frustrating menu that coloured a whole session."
+    },
+    {
+     "t": null,
+     "anchor": "The Last Impressions",
+     "title": "Endings",
+     "summary": "TurboTax's relief screen vs. exit-intent pop-ups."
+    },
+    {
+     "t": null,
+     "anchor": "Consider Edge Cases",
+     "title": "Edge cases",
+     "summary": "Outages and dead ends as unwanted peaks."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The Last Impressions",
+    "why": "It shows how to design the end of a session, which maps to OnCourse's practice summary and plan-complete screens."
+   },
+   "id": "the-peak-end-rule-how-impressions-become-memories"
+  },
+  {
+   "Title": "Reading Content on Mobile Devices",
+   "Creator": "Nielsen Norman Group (Kate Moran)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/mobile-content/",
+   "Apps": [],
+   "Topics": [
+    "Lessons",
+    "Copy",
+    "Research methods"
+   ],
+   "Goal": [
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "People understand easy text just as well on a phone as on a computer, but they slow down on hard text on mobile, so keep dense content short and well-structured.",
+   "What they did": "NN/g asked 276 people across four studies to read easy and hard articles on a phone and on a computer, then answer multiple-choice comprehension questions. Easy articles averaged 404 words at an 8th-grade level; hard ones averaged 988 words at a 12th-grade level. In the in-person study they also timed reading speed. The analysis covered 1,629 article-plus-quiz cases.",
+   "Results": "\"Comprehension on mobile was about 3 percentage points higher than on a computer, with a 95% confidence interval of 1% to 5%\", not practically significant. For hard passages, participants \"spent about 30 milliseconds more on each word when reading on mobile\" (device by difficulty interaction p=0.01). A marginal interaction (p=.10) hints that very difficult content may lower comprehension on mobile.",
+   "Takeaways": "Comprehension on mobile matched the computer; Hard text is slower on mobile; Mobile readers trade speed for understanding; Medical content needs its own testing; Brevity still matters on mobile",
+   "Ideas for OnCourse": "Lessons: break dense topics into short chunks with clear headings, since medical text is the hard content that slows mobile reading. Practice: keep MCQ explanations short up front, lead with the key fact, and put the long discussion behind \"Read more\". Design process: test a hard lesson with real NEET-PG students on a phone and time how long they take",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/Slide36articlesmobile-content.png",
+   "Key points": [
+    {
+     "title": "Comprehension on mobile matched the computer",
+     "detail": "A 2010 study had found worse comprehension on small screens. Across 276 participants and 1,629 reading cases, NN/g found mobile scores were about 3 points higher, which they call not practically significant. Bigger, sharper screens and easy thumb scrolling likely closed the gap.",
+     "t": null
+    },
+    {
+     "title": "Hard text is slower on mobile",
+     "detail": "Easy passages were read at the same speed on both devices. Hard passages took about 30 milliseconds more per word on a phone (p=0.01). Hard articles were long (988 words) and written at a 12th-grade level.",
+     "t": null
+    },
+    {
+     "title": "Mobile readers trade speed for understanding",
+     "detail": "To reach the same comprehension, people slowed down, read more carefully or re-read passages. That is a speed–accuracy tradeoff caused by higher working-memory load on a small screen. With very complex text, NN/g expects comprehension may drop on mobile too.",
+     "t": null
+    },
+    {
+     "title": "Medical content needs its own testing",
+     "detail": "NN/g names medical and scientific sites as cases with \"extremely challenging content\" and recommends running your own usability studies on mobile. OnCourse's lessons and explanations are exactly this kind of content.",
+     "t": null
+    },
+    {
+     "title": "Brevity still matters on mobile",
+     "detail": "Short, easy passages were faster to read on any device. Most mobile reading also happens on the go with fragmented attention. NN/g's rule stands: prioritise and keep mobile content brief.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Methodology and Analysis",
+     "title": "Method",
+     "summary": "Four studies, 276 people, easy vs. hard articles on phone and computer."
+    },
+    {
+     "t": null,
+     "anchor": "Comprehension Scores: Slightly Higher on Mobile",
+     "title": "Comprehension",
+     "summary": "About 3 points higher on mobile, not a practical difference."
+    },
+    {
+     "t": null,
+     "anchor": "Reading Speeds: Readers Slow Down for Difficult Articles on Mobile",
+     "title": "Reading speed",
+     "summary": "About 30 ms more per word for hard text on mobile."
+    },
+    {
+     "t": null,
+     "anchor": "Speed-Accuracy Tradeoff on Mobile",
+     "title": "Why the results differ",
+     "summary": "People slow down to keep comprehension up."
+    },
+    {
+     "t": null,
+     "anchor": "Recommendations for Mobile Content",
+     "title": "Recommendations",
+     "summary": "Keep it brief, and test complex content such as medical text."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Speed-Accuracy Tradeoff on Mobile",
+    "why": "It explains why dense medical lessons cost more effort on a phone even when understanding holds up."
+   },
+   "id": "reading-content-on-mobile-devices"
+  },
+  {
+   "Title": "Autonomy, Relatedness, and Competence in UX Design",
+   "Creator": "Nielsen Norman Group (Tanner Kohler)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/autonomy-relatedness-competence/",
+   "Apps": [
+    "Duolingo",
+    "Mimo",
+    "Justanswer.com",
+    "Apple",
+    "Peel",
+    "Otter",
+    "FileZilla",
+    "TurboTax",
+    "Minecraft",
+    "Figma"
+   ],
+   "Topics": [
+    "Gamification",
+    "Notifications",
+    "Onboarding",
+    "Lessons"
+   ],
+   "Goal": [
+    "Retention",
+    "Activation"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "People stay motivated by products that give them choice, make them feel understood, and help them feel capable, so good gamification lets learners choose their path and pace.",
+   "What they did": "The article applies Ryan and Deci's self-determination theory to UX. It explains each of the three needs (autonomy, relatedness, competence) with good and bad product examples. It also covers when the needs conflict, as in TurboTax's wizard, and shows how Minecraft and Figma meet all three.",
+   "Results": null,
+   "Takeaways": "Motivation comes from three basic needs; Good gamification gives a choice of path and pace; Well-timed, relevant messages build relatedness; Build competence with help pulled at the right moment; The needs can conflict, so test",
+   "Ideas for OnCourse": "Lessons: let students pick the subject order and pace within the plan, as Duolingo and Mimo do, instead of a single forced path. Notifications: send fewer, better-timed messages that show you understand the student's day, like an evening nudge sized to what they can still finish. Practice: show a tip for a feature the first time the student opens it (a pull tip), not in an upfront tour",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/Autonomy-Relatedness-Competence_Social-Media-Posts_2022-55.png",
+   "Key points": [
+    {
+     "title": "Motivation comes from three basic needs",
+     "detail": "Self-determination theory says people are driven by autonomy, relatedness and competence, and are happier when these are met. NN/g's framing is that users \"aren't lazy, they're efficient\" and only do what they are motivated to do. Products that meet these needs are used because people want to, not because they have to.",
+     "t": null
+    },
+    {
+     "title": "Good gamification gives a choice of path and pace",
+     "detail": "\"Properly designed gamification offers users varying degrees of freedom in choosing their path through the experience.\" Duolingo and Mimo let learners pick the order, pace and mastery level. Justanswer.com is the counter-example: it forces every user into a chat box with no categories or FAQ.",
+     "t": null
+    },
+    {
+     "title": "Well-timed, relevant messages build relatedness",
+     "detail": "An Apple Watch nudge in the early evening uses an encouraging tone and a goal the user can still reach, so it feels understood. Peel sent four texts in one week trying to sell more phone cases right after a purchase. One tone-deaf message, like calling someone by the wrong name, is hard to recover from.",
+     "t": null
+    },
+    {
+     "title": "Build competence with help pulled at the right moment",
+     "detail": "Otter's first-launch tutorial is \"good\", a single later tip is \"better\", and showing calendar help only when the user first opens My Agenda is \"best\". If testing shows orientation makes no difference, improve the design rather than writing instructions.",
+     "t": null
+    },
+    {
+     "title": "The needs can conflict, so test",
+     "detail": "Wizards like TurboTax's raise competence by taking away autonomy. NN/g says to test with users to see which need matters more for the task. Minecraft and Figma show it is possible to meet all three at once.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The Three Fundamental Human Needs",
+     "title": "The three needs",
+     "summary": "Autonomy, relatedness and competence from self-determination theory."
+    },
+    {
+     "t": null,
+     "anchor": "Autonomy",
+     "title": "Autonomy",
+     "summary": "Duolingo and Mimo let learners choose; Justanswer.com forces one path."
+    },
+    {
+     "t": null,
+     "anchor": "Relatedness",
+     "title": "Relatedness",
+     "summary": "Apple Watch's well-timed nudge vs. Peel's repeated sales texts."
+    },
+    {
+     "t": null,
+     "anchor": "Competence",
+     "title": "Competence",
+     "summary": "Otter's good, better and best ways to teach a feature."
+    },
+    {
+     "t": null,
+     "anchor": "The Three Needs Can Conflict on Occasion",
+     "title": "Conflicts",
+     "summary": "Wizards trade autonomy for competence."
+    },
+    {
+     "t": null,
+     "anchor": "Meeting All Three Needs",
+     "title": "Meeting all three",
+     "summary": "Minecraft and Figma as examples."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Competence",
+    "why": "Its good, better, best Otter example is a ready pattern for teaching OnCourse features at the moment they are needed."
+   },
+   "id": "autonomy-relatedness-and-competence-in-ux-design"
+  },
+  {
+   "Title": "Designing Empty States in Complex Applications: 3 Guidelines",
+   "Creator": "Nielsen Norman Group (Kate Kaplan)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/empty-state-interface-design/",
+   "Apps": [
+    "DataDog",
+    "Microsoft Power BI",
+    "Loggly"
+   ],
+   "Topics": [
+    "Home",
+    "Onboarding",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Never leave an empty screen blank: say what state the system is in, explain what will appear there, and give a direct button to fill it.",
+   "What they did": "NN/g gives three guidelines for screens and panels that have no content yet, drawn from complex enterprise apps. Empty states should communicate system status, teach the feature in context, and link straight to the task that fills them. Each guideline has bad and good examples.",
+   "Results": null,
+   "Takeaways": "Blank screens make users doubt the system; A false \"no records\" is worse than nothing; Use the empty state to teach the feature; Link directly to the first action",
+   "Ideas for OnCourse": "Flashcards: when a student has no saved cards, explain how cards get added and offer a \"Make cards from my mistakes\" button. Practice: when a filter gives no questions, say so in plain words and offer to clear filters, instead of showing a blank list. Home: never show \"No progress yet\" while data is still loading; show a loading state until the real answer is known",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/DesigningEmptyStatesComplexApps_Social-Media-Posts_2021-01.png",
+   "Key points": [
+    {
+     "title": "Blank screens make users doubt the system",
+     "detail": "When a panel is simply empty, people wonder if it is still loading, if an error occurred or if they set the wrong filters. They may refresh several times. A short message like \"There are no records to display for the selected date range\" fixes this.",
+     "t": null
+    },
+    {
+     "title": "A false \"no records\" is worse than nothing",
+     "detail": "Some apps show \"No records\" while still loading, then replace it with content a few seconds later. At best users learn to distrust the app; at worst \"trigger-happy users (that is, most users)\" leave and never see the content. Show a progress indicator while loading and the empty message only when truly empty.",
+     "t": null
+    },
+    {
+     "title": "Use the empty state to teach the feature",
+     "detail": "Empty states are a natural place for pull revelations, help that appears only when the user reaches that spot. DataDog's empty favourites panel says \"Star your favorites to list them here.\" This in-context help is usually more memorable than a forced tutorial.",
+     "t": null
+    },
+    {
+     "title": "Link directly to the first action",
+     "detail": "\"Send a request to view details\" tells users what to do but not how or where. Better empty states include a Create button and a Learn more link. Loggly offers two paths: add real data or load demo data to explore safely.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Use Empty States to Communicate System Status",
+     "title": "System status",
+     "summary": "Say what happened, and never show a false empty message while loading."
+    },
+    {
+     "t": null,
+     "anchor": "Use Empty States to Provide Learning Cues",
+     "title": "Learning cues",
+     "summary": "DataDog and Power BI explain how the area gets filled."
+    },
+    {
+     "t": null,
+     "anchor": "Use Empty States to Provide Direct Pathways for Key Tasks",
+     "title": "Direct pathways",
+     "summary": "Create buttons, Learn more links and demo data."
+    },
+    {
+     "t": null,
+     "anchor": "Conclusion",
+     "title": "Summary",
+     "summary": "Five rules for empty states."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Use Empty States to Provide Learning Cues",
+    "why": "It shows how an empty Flashcards or Bookmarks screen can teach the feature instead of looking broken."
+   },
+   "id": "designing-empty-states-in-complex-applications-3-guidelines"
+  },
+  {
+   "Title": "Error-Message Guidelines",
+   "Creator": "Nielsen Norman Group (Tim Neusesser, Evan Sunwall)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/error-message-guidelines/",
+   "Apps": [
+    "Instagram",
+    "Amazon",
+    "CafePress",
+    "Kohl's",
+    "CLEAR",
+    "Disneyworld",
+    "Target",
+    "National Geographic Kids",
+    "Vistaprint",
+    "Zazzle",
+    "ChatGPT",
+    "Twitter"
+   ],
+   "Topics": [
+    "Copy",
+    "Visual design",
+    "Accessibility"
+   ],
+   "Goal": [
+    "Usability",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Make errors visible next to the problem, explain them in plain, blame-free words with a fix, and protect the user's input and effort.",
+   "What they did": "NN/g expands usability heuristic #9 into guidelines in three groups: visibility, communication and efficiency. Each guideline has good and bad examples from real products. A final guideline covers total outages, where a bit of novelty can soften the failure.",
+   "Results": null,
+   "Takeaways": "Put the error next to its cause; Match the error's weight to its impact; Don't show errors too early; Say what happened and how to fix it, without blame; Keep the user's input and suggest the fix; Use novelty only for total failures",
+   "Ideas for OnCourse": "Paywall: when a payment fails, explain why in plain words, keep the chosen plan selected and offer another payment method (UPI, card) in one tap. Onboarding: validate the phone number or OTP inline only after the user finishes typing, not while they are still typing. Practice: if a test fails to submit offline, keep all answers saved locally and say they'll sync, instead of a generic \"Something went wrong\"",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/ErrorMessages_81.jpg",
+   "Key points": [
+    {
+     "title": "Put the error next to its cause",
+     "detail": "Show the error message beside the field or element that caused it. Instagram's URL error was subtle and far from the field. Amazon uses a border highlight, an icon and red text together. Never rely on colour or animation alone, because about 350 million people have a colour-vision deficiency.",
+     "t": null
+    },
+    {
+     "title": "Match the error's weight to its impact",
+     "detail": "Warnings that don't block progress can be a label, toast or banner, like Kohl's neutral shipping-delay note. Save modal dialogs for severe errors that must be resolved before continuing.",
+     "t": null
+    },
+    {
+     "title": "Don't show errors too early",
+     "detail": "Showing an error before the user has finished is \"like grading a test before the student has had a chance to answer.\" A Texas form flagged an empty email field just because focus moved away. Use real-time inline checks only for error-prone inputs, such as CLEAR's password rules.",
+     "t": null
+    },
+    {
+     "title": "Say what happened and how to fix it, without blame",
+     "detail": "Use plain language, not codes or jargon, and avoid generic text like \"An error occurred.\" Offer a remedy, such as a restock alert for an out-of-stock item. Avoid words like invalid, illegal or incorrect, and avoid humour that goes stale with repetition. Target frames a shipping threshold around the goal, not the user's mistake.",
+     "t": null
+    },
+    {
+     "title": "Keep the user's input and suggest the fix",
+     "detail": "Let people edit what they typed instead of starting over. Instagram offers to save a story draft when you back out. Where possible, guess the fix and offer it as a button, like choosing the city that matches the ZIP code entered.",
+     "t": null
+    },
+    {
+     "title": "Use novelty only for total failures",
+     "detail": "When the whole system is down and users can only wait, an apology plus something surprising can soften a moment they'll remember because of negativity bias and the peak–end rule. Twitter's Fail Whale is the classic example. This is for rare outages, not everyday errors.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Visibility Guidelines",
+     "title": "Visibility",
+     "summary": "Placement, redundant indicators, severity and timing."
+    },
+    {
+     "t": null,
+     "anchor": "Communication Guidelines",
+     "title": "Communication",
+     "summary": "Plain language, precise description, constructive advice, no blame."
+    },
+    {
+     "t": null,
+     "anchor": "Efficiency Guidelines",
+     "title": "Efficiency",
+     "summary": "Prevent likely mistakes, preserve input, suggest fixes, explain briefly."
+    },
+    {
+     "t": null,
+     "anchor": "Mitigate Failure with Novelty in Dire Situations",
+     "title": "Total failures",
+     "summary": "When an apology plus novelty can help."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Communication Guidelines",
+    "why": "It gives the copy rules Sainath can apply directly to OnCourse's payment, login and sync errors."
+   },
+   "id": "error-message-guidelines"
+  },
+  {
+   "Title": "7 Practical Animation Tips",
+   "Creator": "Emil Kowalski",
+   "Type": "Article",
+   "Link": "https://emilkowal.ski/ui/7-practical-animation-tips",
+   "Apps": [],
+   "Topics": [
+    "Motion",
+    "Visual design"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Small, exact motion rules (a 0.97 press scale, starting from 0.9+ not 0, ease-out, under 300ms, scaling from the trigger) make an interface feel faster and more responsive.",
+   "What they did": "Emil lists seven tricks you can apply without any special talent for animation. Each comes with exact values: scale buttons to 0.97 when pressed, never animate from scale(0), skip the delay on tooltips after the first one, and use ease-out for things entering or leaving. He also says popovers should grow out of the button that opened them, animations should stay fast, and a 2px blur can hide a rough crossfade.",
+   "Results": "These are rules of thumb from practice, not test results. \"A scale of 0.97 on the :active pseudo-class should do the job.\" Start from \"a higher initial scale instead (0.9+)\"; his demo uses 0.93. Two dropdowns both last \"300ms\", but \"the ease-in one feels slower.\" \"A 180ms select animation feels more responsive than a 400ms one.\" \"UI animations should generally stay under 300ms.\" The blur trick adds \"2px of blur\" to a crossfade.",
+   "Takeaways": "Scale buttons down to 0.97 on press; Never animate in from scale(0); Ease-out for anything entering or leaving; Grow popovers from their trigger; Keep UI motion under 300ms; Blur hides a clumsy crossfade",
+   "Ideas for OnCourse": "Practice: scale each MCQ option to 0.97 while it is pressed, so a tap feels heard before the answer is checked. Practice: show the correct/wrong state with an ease-out transition under 300ms, never ease-in. Home: any menu or sheet opened from a button should scale in from that button (from about 0.93), not from the screen centre",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://emilkowal.ski/ui/7-practical-animation-tips/opengraph-image.png?910911cbec986125",
+   "Key points": [
+    {
+     "title": "Scale buttons down to 0.97 on press",
+     "detail": "The interface should feel like it is listening, so give feedback on every action as soon as possible. The cheapest way is a subtle scale down when a button is pressed: \"A scale of 0.97 on the :active pseudo-class should do the job.\" For OnCourse, MCQ options, the Start button and flashcard buttons should all shrink slightly while the finger is down.",
+     "t": null
+    },
+    {
+     "title": "Never animate in from scale(0)",
+     "detail": "Things that grow from scale(0) look like they come out of nowhere. Start from 0.9 or higher (his demo uses 0.93), like a balloon that still has a shape when deflated. The motion then feels gentler and more natural.",
+     "t": null
+    },
+    {
+     "title": "Ease-out for anything entering or leaving",
+     "detail": "Easing is \"the most important part of any animation.\" Two dropdowns both run for 300ms, but the ease-in one feels slower because it starts slow; ease-out starts fast and feels responsive. Built-in CSS curves are often too weak, so he uses stronger custom ease-out curves (he recommends easings.co).",
+     "t": null
+    },
+    {
+     "title": "Grow popovers from their trigger",
+     "detail": "A popover should scale in from the button that opened it, not from its own centre (the default transform-origin). Radix and Base UI expose a CSS variable that sets this origin for you. Users may not consciously notice it, but \"in the aggregate, unseen details become visible, they compound.\"",
+     "t": null
+    },
+    {
+     "title": "Keep UI motion under 300ms",
+     "detail": "A faster-spinning spinner makes loading feel quicker even when the load time is the same. A 180ms select feels more responsive than a 400ms one, and UI animations should generally stay under 300ms. Things people see tens or hundreds of times a day should often have no animation at all.",
+     "t": null
+    },
+    {
+     "title": "Blur hides a clumsy crossfade",
+     "detail": "If easing and duration are tuned and a state change still feels off, add a little filter: blur(), about 2px. Blur bridges the gap between old and new states, so the eye sees one object changing instead of two objects swapping. It is a good fix for a button label changing from \"Submit\" to a result.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. Scale your buttons",
+     "title": "Press feedback",
+     "summary": "Scale buttons to 0.97 when pressed so the interface feels like it is listening."
+    },
+    {
+     "t": null,
+     "anchor": "2. Don’t animate from scale(0)",
+     "title": "Start scale",
+     "summary": "Start entering elements at 0.9+ so they do not appear from nowhere."
+    },
+    {
+     "t": null,
+     "anchor": "3. Don’t delay subsequent tooltips",
+     "title": "Tooltip timing",
+     "summary": "Delay the first tooltip, then open its neighbours instantly with no animation."
+    },
+    {
+     "t": null,
+     "anchor": "4. Choose the right easing",
+     "title": "Easing",
+     "summary": "Ease-out for entering and exiting; the same 300ms feels slower with ease-in."
+    },
+    {
+     "t": null,
+     "anchor": "5. Make your animations origin-aware",
+     "title": "Origin",
+     "summary": "Popovers should scale from the trigger, not the centre."
+    },
+    {
+     "t": null,
+     "anchor": "6. Keep your animations fast",
+     "title": "Speed",
+     "summary": "180ms beats 400ms; keep UI motion under 300ms and drop it for very frequent actions."
+    },
+    {
+     "t": null,
+     "anchor": "7. Use blur when nothing else works",
+     "title": "Blur",
+     "summary": "A 2px blur blends two states into one smooth change."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "4. Choose the right easing",
+    "why": "Easing is the single setting that most changes how a transition feels, and the 300ms ease-in vs ease-out demo makes the point in a minute."
+   },
+   "Tools": [
+    "Radix UI",
+    "Base UI"
+   ],
+   "id": "7-practical-animation-tips"
+  },
+  {
+   "Title": "Great Animations",
+   "Creator": "Emil Kowalski",
+   "Type": "Article",
+   "Link": "https://emilkowal.ski/ui/great-animations",
+   "Apps": [
+    "Apple",
+    "Family",
+    "Raycast",
+    "Vercel",
+    "Apple App Store"
+   ],
+   "Topics": [
+    "Motion",
+    "Accessibility"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Great animations feel natural, are fast, have a purpose, run smoothly, can be interrupted, respect reduced motion, and match the feel of the product.",
+   "What they did": "Emil lists the principles he thinks make animations great, each with a live demo. He covers springs for natural motion, ease-out and under-300ms timing, never animating keyboard actions, animating only transform and opacity for smoothness, using interruptible transitions, and swapping movement for a fade when the user prefers reduced motion. He ends by saying easing and duration must fit the product's personality, and that you should review motion again the next day.",
+   "Results": "Rules of thumb, not test results. Animations \"should also usually be shorter than 300ms.\" \"If our animations won't run at 60 frames per second, everything else we've talked about becomes useless.\" On Raycast: he \"can't imagine how frustrating it would be if every time I opened it, I was greeted with a 500ms enter animation.\"",
+   "Takeaways": "Natural motion comes from springs; Fast ease-out motion feels responsive; Animate only where it adds meaning; Animate transform and opacity only; Let users interrupt any animation; Reduced motion means fade, not move; Easing must match the product's personality",
+   "Ideas for OnCourse": "Practice: animate answer feedback, sheets and cards with transform and opacity only, so they hold 60fps on low-end Android phones. Flashcards: make flips and swipes interruptible, so a fast user can tap through mid-animation without waiting. Design process: for every custom animation, define a reduced-motion version that fades instead of moving",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://emilkowal.ski/ui/great-animations/opengraph-image.png?27e55da94c3d85c3",
+   "Key points": [
+    {
+     "title": "Natural motion comes from springs",
+     "detail": "The Dynamic Island feels \"almost like a living organism\", and this natural motion is a major reason mobile apps feel better than web apps. Nothing in the real world appears or disappears instantly. He suggests trying spring animations, tuned by stiffness, damping and mass.",
+     "t": null
+    },
+    {
+     "title": "Fast ease-out motion feels responsive",
+     "detail": "A spinner that spins faster looks like it is working harder, even with the same load time. Ease-out starts fast and slows at the end, so it feels like a quick response. Keep animations shorter than 300ms; he points to Family's iOS app as a model of a snappy interface.",
+     "t": null
+    },
+    {
+     "title": "Animate only where it adds meaning",
+     "detail": "Too many animations overwhelm users and lose impact. Good uses explain something (his v0 animation for Vercel) or show a change of state (App Store cards, a modal entering). Never animate keyboard actions, which can repeat hundreds of times a day; Raycast has no animation and \"it feels right.\"",
+     "t": null
+    },
+    {
+     "title": "Animate transform and opacity only",
+     "detail": "If animations don't run at 60fps, nothing else matters. Transform and opacity only trigger the compositing step, while padding or margin trigger layout, paint and composite. At Vercel the active-tab animation dropped frames while the new page loaded, and moving it to CSS fixed it.",
+     "t": null
+    },
+    {
+     "title": "Let users interrupt any animation",
+     "detail": "Users should be able to change their mind mid-animation and get a smooth change to the new state. CSS keyframes cannot be retargeted, but transitions can, so toasts added quickly still slide smoothly. For OnCourse, a sheet or card closed halfway through opening should reverse smoothly, not finish first.",
+     "t": null
+    },
+    {
+     "title": "Easing must match the product's personality",
+     "detail": "Sonner's toast is a bit slower than usual and uses ease rather than ease-out, to feel more elegant and match its design and name. Getting Family's drawer right was trial and error. He reviews his work the next day with fresh eyes to spot flaws.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Great animations feel natural",
+     "title": "Natural",
+     "summary": "Springs and the Dynamic Island; why instant changes feel artificial."
+    },
+    {
+     "t": null,
+     "anchor": "Great animations are fast",
+     "title": "Fast",
+     "summary": "Ease-out, under 300ms, and the faster-spinner illusion."
+    },
+    {
+     "t": null,
+     "anchor": "Great animations have a purpose",
+     "title": "Purpose",
+     "summary": "Animate to explain or show state change; never animate keyboard actions."
+    },
+    {
+     "t": null,
+     "anchor": "Great animations are performant",
+     "title": "Performance",
+     "summary": "Stick to transform and opacity; the Vercel tab-animation fix."
+    },
+    {
+     "t": null,
+     "anchor": "Great animations are interruptible",
+     "title": "Interruptible",
+     "summary": "Transitions can be retargeted mid-way; keyframes cannot."
+    },
+    {
+     "t": null,
+     "anchor": "Great animations are accessible",
+     "title": "Accessible",
+     "summary": "Use a fade-only version when the user prefers reduced motion."
+    },
+    {
+     "t": null,
+     "anchor": "Great animations feel right",
+     "title": "Feel right",
+     "summary": "Match easing and duration to the product's vibe; review the next day."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Great animations are interruptible",
+    "why": "Interruptibility is the detail most prototypes miss, and it decides whether fast-moving students feel blocked by OnCourse's animations."
+   },
+   "Tools": [
+    "Sonner"
+   ],
+   "id": "great-animations"
+  },
+  {
+   "Title": "Building a drawer component",
+   "Creator": "Emil Kowalski",
+   "Type": "Case study",
+   "Link": "https://emilkowal.ski/ui/building-a-drawer-component",
+   "Apps": [
+    "Vercel",
+    "Apple",
+    "Family"
+   ],
+   "Topics": [
+    "Motion",
+    "Navigation"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A bottom sheet feels native only when it copies iOS's hidden rules: flick to dismiss, damped over-drag, scroll-then-drag, snap points, the iOS curve and 500ms.",
+   "What they did": "Emil built Vaul, an open-source drawer (bottom sheet) for the web, to match how Apple's Sheet feels on iOS. He describes each detail he had to get right: momentum-based flick to close, damping when you drag past the top, only letting the sheet drag when its content is scrolled to the top, ignoring a second finger, snap points, and the background scaling into a card. He also shares the exact easing curve and duration copied from iOS.",
+   "Results": "Implementation values, not test results. Dragging got laggy once content \"got bigger than ~20 list items\" because a CSS variable forced style recalculation on all children. After reaching the top of scrolled content, \"a timeout of 100ms\" blocks dragging so fast scrolls don't close the sheet. \"Dragging the drawer down by 40% will change the border radius to 60% of its max value.\" Motion: \"transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1)\", with a \"Duration of 500ms\" to mimic iOS's Sheet.",
+   "Takeaways": "Use a drawer, not a modal, on mobile; A flick should close it, not just distance; Over-dragging should slow down, not stop; Only drag when content is scrolled to top; Copy iOS's sheet curve and 500ms; Snap points should respect momentum",
+   "Ideas for OnCourse": "Practice: open the explanation and \"report question\" panels as bottom sheets that close on a quick downward flick, with the iOS curve cubic-bezier(0.32, 0.72, 0, 1) at 500ms. Lessons: for a long sheet with scrolling content, only let it drag closed when the content is scrolled to the top. Flashcards: give the deck options sheet snap points (half and full) that a hard flick can skip past",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://emilkowal.ski/ui/building-a-drawer-component/opengraph-image.png?008a3c01c77b4d05",
+   "Key points": [
+    {
+     "title": "A flick should close it, not just distance",
+     "detail": "Vaul uses momentum-based dragging: you don't need to drag past a set point, a quick flick is enough. Snap points work the same way, so a hard flick can skip points or close the sheet entirely. This matches what iPhone users already expect from system sheets.",
+     "t": null
+    },
+    {
+     "title": "Over-dragging should slow down, not stop",
+     "detail": "Dragging up past the top is damped: the more you drag, the less the sheet moves. Things in real life slow down before they stop, so this feels natural. A hard stop would feel broken.",
+     "t": null
+    },
+    {
+     "title": "Only drag when content is scrolled to top",
+     "detail": "A sheet that both scrolls and drags is tricky, so dragging is only allowed once the content is at the top, like iOS. Because people scroll fast, they can fly past the top and close the sheet by accident; a 100ms pause before dragging is allowed fixes this. Long explanation sheets in OnCourse need the same rule.",
+     "t": null
+    },
+    {
+     "title": "Copy iOS's sheet curve and 500ms",
+     "detail": "The curve closely matches iOS and comes from the Ionic Framework: cubic-bezier(0.32, 0.72, 0, 1). The 500ms duration mimics iOS's Sheet. \"Using the right easing and duration makes a big difference in terms of how this, and any other component, feels.\"",
+     "t": null
+    },
+    {
+     "title": "Invisible details meet unspoken expectations",
+     "detail": "If you drag with one finger and add a second, the sheet would jump, so Vaul ignores extra touches until release. The background can scale and round its corners as the sheet opens, tracking drag progress (40% down gives 60% of the max radius). These details are \"invisible\" because they match what people already expect.",
+     "t": null
+    },
+    {
+     "title": "Test motion on a real phone",
+     "detail": "You can't test a drawer by shrinking a desktop window. Emil tested on his phone connected by cable to Safari dev tools, visiting his local server by IP on the same Wi-Fi. The Xcode Simulator is an alternative.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Why a drawer?",
+     "title": "Why a drawer",
+     "summary": "Drawers feel more native than modals on mobile."
+    },
+    {
+     "t": null,
+     "anchor": "Drag gesture",
+     "title": "Drag gesture",
+     "summary": "Fixing lag past ~20 items, momentum flicks, and damped over-drag."
+    },
+    {
+     "t": null,
+     "anchor": "Scrolling",
+     "title": "Scrolling",
+     "summary": "Only drag when scrolled to top; a 100ms guard against accidental closes."
+    },
+    {
+     "t": null,
+     "anchor": "Background animation",
+     "title": "Background",
+     "summary": "The page behind scales into a card as the sheet opens."
+    },
+    {
+     "t": null,
+     "anchor": "Motion",
+     "title": "Motion",
+     "summary": "The iOS sheet curve and 500ms duration."
+    },
+    {
+     "t": null,
+     "anchor": "Multi touch",
+     "title": "Multi touch",
+     "summary": "Ignore extra fingers so the sheet never jumps."
+    },
+    {
+     "t": null,
+     "anchor": "Snap points",
+     "title": "Snap points",
+     "summary": "Momentum-aware checkpoints, as in Apple Maps."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Scrolling",
+    "why": "It is the short section that explains the most common bottom-sheet bug, a sheet closing when you meant to scroll, and the exact fix."
+   },
+   "Tools": [
+    "Vaul",
+    "Radix UI",
+    "Ionic"
+   ],
+   "id": "building-a-drawer-component"
+  },
+  {
+   "Title": "Building a toast component",
+   "Creator": "Emil Kowalski",
+   "Type": "Case study",
+   "Link": "https://emilkowal.ski/ui/building-a-toast-component",
+   "Apps": [
+    "Cursor",
+    "X",
+    "OpenAI"
+   ],
+   "Topics": [
+    "Motion",
+    "Notifications",
+    "Visual design"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Sonner stood out in a crowded market because of a satisfying stacking animation and many small details, like velocity-based swipe, pausing when hidden and gap-free hover.",
+   "What they did": "Emil explains how he built Sonner, a toast library. Toasts stack with a fixed offset and shrink by 5% per step, all toasts take the height of the front one, and the stack fans out on hover. He switched from keyframes to transitions so toasts can be interrupted, made swipe-to-dismiss work on speed as well as distance, and added small details like pausing the timer when the tab is hidden.",
+   "Results": "Sonner \"is now downloaded over 40,000,000 times per week from npm and used by companies like Cursor, X, and OpenAI.\" Stacked toasts scale down by \"0.05 * index\" (e.g. \"Y(-14px) scale(0.95)\", \"Y(-28px) scale(0.9)\"). A swipe dismisses if past the threshold or if \"velocity is higher than in this case 0.11\" (found \"through trial and error\"). Toasts disappear \"after 4 seconds unless you hover over it.\"",
+   "Takeaways": "The stacking animation is what people fell for; Use interruptible transitions, not keyframes; Stack with offset and 5% shrink for depth; Dismiss on swipe speed as well as distance; Pause timers when the user can't see them; Unseen details add up to 'feels right'",
+   "Ideas for OnCourse": "Flashcards: when a card is saved or bookmarked, confirm with a small toast that can be flicked away and stacks neatly if several fire in a row. Practice: pause any auto-dismissing feedback (like \"streak saved\") while the app is in the background, so the student actually sees it. Design process: when specifying a swipe, define both a distance threshold and a speed threshold",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://emilkowal.ski/ui/building-a-toast-component/opengraph-image.png?7c4ec38342a7708e",
+   "Key points": [
+    {
+     "title": "The stacking animation is what people fell for",
+     "detail": "The toast market was already crowded in 2023. Emil believes Sonner took off because of its stacking animation, which some companies had done but never open-sourced. He built the launch video around that one motion. Sonner now gets over 40,000,000 npm downloads a week.",
+     "t": null
+    },
+    {
+     "title": "Use interruptible transitions, not keyframes",
+     "detail": "With CSS keyframes, older toasts jumped into place when new ones arrived quickly, because keyframes can't change their end point mid-run. Transitions can be retargeted, so he switched. Any OnCourse animation that can be triggered again before it finishes needs the same property.",
+     "t": null
+    },
+    {
+     "title": "Stack with offset and 5% shrink for depth",
+     "detail": "Each toast behind the front one moves up by a fixed gap times its index and shrinks by 0.05 times its index (1, 0.95, 0.9). Toasts of different heights didn't stick out evenly, so in the stack every toast takes the height of the front one. On hover the stack expands to show all toasts.",
+     "t": null
+    },
+    {
+     "title": "Dismiss on swipe speed as well as distance",
+     "detail": "Swipe-down-to-dismiss works if the toast passes a distance threshold or if the swipe is fast enough. Velocity is drag distance divided by time; above 0.11 it dismisses, a number found by trial and error. Dragging the wrong way is allowed but slows with friction instead of stopping dead.",
+     "t": null
+    },
+    {
+     "title": "Pause timers when the user can't see them",
+     "detail": "Toasts vanish after 4 seconds unless hovered. If the tab is hidden, the timer pauses, so the message isn't missed. A pseudo-element fills gaps between toasts so hover doesn't flicker, and pointer capture keeps a drag going even when the finger leaves the toast.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Naming",
+     "title": "Naming",
+     "summary": "Why a distinct French name beat a functional one."
+    },
+    {
+     "t": null,
+     "anchor": "Animations",
+     "title": "Animations",
+     "summary": "The stacking motion and switching to interruptible transitions."
+    },
+    {
+     "t": null,
+     "anchor": "Stacking toasts",
+     "title": "Stacking",
+     "summary": "Offset and 0.05 scale per index; equal heights in the stack."
+    },
+    {
+     "t": null,
+     "anchor": "Swiping",
+     "title": "Swiping",
+     "summary": "Momentum-based dismiss with a 0.11 velocity threshold."
+    },
+    {
+     "t": null,
+     "anchor": "The big little details",
+     "title": "Small details",
+     "summary": "Pause when hidden, gap-free hover, pointer capture, friction."
+    },
+    {
+     "t": null,
+     "anchor": "Why is Sonner successful?",
+     "title": "Why it worked",
+     "summary": "Easy to use and good-looking; beauty is an underused lever."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The big little details",
+    "why": "It shows four tiny behaviours users never notice but would miss, which is the mindset Sainath can bring to every OnCourse feedback state."
+   },
+   "Tools": [
+    "Sonner",
+    "react-hot-toast"
+   ],
+   "id": "building-a-toast-component"
+  },
+  {
+   "Title": "Invisible Details of Interaction Design",
+   "Creator": "Rauno Freiberg",
+   "Type": "Article",
+   "Link": "https://rauno.me/craft/interaction-design",
+   "Apps": [
+    "Apple",
+    "Spotify",
+    "bmrks",
+    "Bluesky"
+   ],
+   "Topics": [
+    "Motion",
+    "Navigation",
+    "Design process"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Interactions feel right when they borrow real-world physics and metaphors, respond during the gesture, keep spatial logic consistent, and skip animation for frequent actions.",
+   "What they did": "Rauno replays iOS and macOS interactions in slow motion and explains why each one feels right. He covers when a swipe should fire (during the gesture for light actions, only on release for destructive ones), why gestures should respond right away before any threshold, how motion shows where things come from, and why frequent actions should not animate. He backs this with his own prototypes, like removing motion from his bookmarking tool after it began to feel slow.",
+   "Results": null,
+   "Takeaways": "Reuse metaphors so one gesture teaches many; Light actions fire mid-swipe, destructive ones on release; Respond to the gesture immediately, before thresholds; Motion should show where things come from; High-frequency, low-novelty actions shouldn't animate; Show what's under the finger",
+   "Ideas for OnCourse": "Flashcards: let the card follow the finger from the first pixel of a swipe, and only commit \"Again\"/\"Good\" when the finger lifts. Practice: animate the answer reveal once per question but drop motion from things tapped all session, like next-question and bookmark. Lessons: open a lesson from the card that was tapped, so the motion shows where it came from and where Back will return",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://rauno.me/static/craft/og-interaction-design2.png",
+   "Key points": [
+    {
+     "title": "Reuse metaphors so one gesture teaches many",
+     "detail": "iOS only explicitly teaches swiping up to open, which tells you the interface is stacked layers like a deck of cards. That one lesson unlocks swiping down for controls and swiping up to dismiss an app. Horizontal swipes navigate because that is how we have turned book pages for thousands of years.",
+     "t": null
+    },
+    {
+     "title": "Light actions fire mid-swipe, destructive ones on release",
+     "detail": "Lightweight actions like showing an overlay feel right when they trigger during the swipe, once elements reach their final position. Destructive actions wait: the iOS App Switcher never dismisses an app before the gesture ends, whatever the distance, so you can change your mind. For OnCourse, a flashcard rating should commit only on release.",
+     "t": null
+    },
+    {
+     "title": "Respond to the gesture immediately, before thresholds",
+     "detail": "A naive pinch that only zooms after a threshold gives no sign the card is pinchable. It feels better to apply the scale change immediately and then animate past the threshold. He notes iOS Settings feels less responsive than the App Switcher because a mistaken tap can't be interrupted by swiping back.",
+     "t": null
+    },
+    {
+     "title": "Motion should show where things come from",
+     "detail": "When the Dynamic Island is expanded, Spotify opens from its app icon so it is clear which app is playing; otherwise it slides in from the right, its place in the App Switcher. The Clock app always opens from the Island, because only one app can own that timer. Spatial consistency tells users where things live.",
+     "t": null
+    },
+    {
+     "title": "High-frequency, low-novelty actions shouldn't animate",
+     "detail": "On his bookmarking tool (bmrks.com) he animated the active indicator and list changes, but after a few days they felt sluggish even when made snappier. Removing motion from core interactions made him feel faster. macOS context menus appear with no motion, yet the chosen item blinks and the menu fades out to confirm the choice.",
+     "t": null
+    },
+    {
+     "title": "Show what's under the finger",
+     "detail": "Fingers hide content, so iOS shows a loupe above the text caret and an enlarged key when typing. For small sliders, the drag should not cancel when the thumb drifts off the track. Where a finger covers key content, show it somewhere visible.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Metaphors",
+     "title": "Metaphors",
+     "summary": "Swipes, page turns and pinches borrow from the physical world."
+    },
+    {
+     "t": null,
+     "anchor": "Kinetic Physics",
+     "title": "Kinetic physics",
+     "summary": "Dismissed apps keep the momentum and angle of the throw."
+    },
+    {
+     "t": null,
+     "anchor": "Swipe Gestures",
+     "title": "Swipe gestures",
+     "summary": "When to trigger during a swipe versus on release."
+    },
+    {
+     "t": null,
+     "anchor": "Responsive Gestures",
+     "title": "Responsive gestures",
+     "summary": "Apply the change immediately, then animate past the threshold."
+    },
+    {
+     "t": null,
+     "anchor": "Spatial Consistency",
+     "title": "Spatial consistency",
+     "summary": "Where an app animates from tells you where it lives."
+    },
+    {
+     "t": null,
+     "anchor": "Frequency & Novelty",
+     "title": "Frequency and novelty",
+     "summary": "Why frequent actions should skip animation."
+    },
+    {
+     "t": null,
+     "anchor": "Touch Content Visiblity",
+     "title": "Touch visibility",
+     "summary": "Loupes, enlarged keys and sliders that tolerate drift."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Swipe Gestures",
+    "why": "It gives a clear rule for when a swipe should commit, which applies directly to OnCourse's flashcard swipes."
+   },
+   "id": "invisible-details-of-interaction-design"
+  },
+  {
+   "Title": "Quality Wednesdays: How we trained our team to see what doesn’t work",
+   "Creator": "Linear (Tuomas Artman)",
+   "Type": "Case study",
+   "Link": "https://linear.app/now/quality-wednesdays",
+   "Apps": [
+    "Linear"
+   ],
+   "Topics": [
+    "Design process",
+    "Motion"
+   ],
+   "Goal": [
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Make polish a weekly habit: everyone fixes one small flaw (30 minutes or less) and shows it at a standup, and over time the team learns to see flaws before they ship.",
+   "What they did": "At a 2023 offsite, Linear's CTO showed engineers a screen recording of three hover buttons, and nobody could spot the flaw. A group review then found that each person noticed different small flaws. So Linear made every Wednesday standup a show-and-tell where each engineer presents a small polish fix, not a bug fix, tracked with a \"quality\" label.",
+   "Results": "\"Over the last two years we've completed more than 1,000 small acts of polish.\" \"Many of these quality fixes take 30 minutes or less. None should take more than an hour or so.\" The flaw nobody saw: one button \"darkened instantly when the mouse moved away, rather than fading out over 150 milliseconds as it should have.\" An engineer: \"you start noticing patterns and common pitfalls while building stuff, so fewer of these papercuts ship.\"",
+   "Takeaways": "People can't see flaws in what they built; Quality is a team sport; Make polish a small, weekly habit; Cap each fix at about an hour; Polish fixes are not bug fixes; Training the eye prevents future papercuts",
+   "Ideas for OnCourse": "Design process: run a weekly 'quality' slot where each designer and engineer shows one small OnCourse fix under an hour, tagged in the tracker. Design process: run a group review of one screen (say Practice) where each person lists everything slightly off, and compare lists. Practice: audit that every pressed and released state uses the same duration, since an inconsistent timing was the flaw no one could see",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://webassets.linear.app/images/ornj730p/production/c928b3a2df7e7c909d9f03514f732589afec6e8d-2400x1350.png?q=95&auto=format&dpr=2",
+   "Key points": [
+    {
+     "title": "People can't see flaws in what they built",
+     "detail": "Tuomas showed the team a short recording of three buttons lighting up on hover; after several viewings nobody could see what was wrong. The flaw was that one button went dark instantly instead of fading out over 150ms like the others. Inconsistent motion timing is easy to ship and hard to notice.",
+     "t": null
+    },
+    {
+     "title": "Quality is a team sport",
+     "detail": "In a group review of parts like display options and issue lists, each person noticed different small flaws that were invisible to everyone else. It is hard to see subtle problems in a UI you built yourself. Reviewing as a group gives a much fuller picture.",
+     "t": null
+    },
+    {
+     "title": "Make polish a small, weekly habit",
+     "detail": "Quality should be like brushing your teeth: nobody says they have no time for it. One of three weekly standups became a show-and-tell of quality fixes. Miss a week and the joke is \"just bring two next week.\"",
+     "t": null
+    },
+    {
+     "title": "Polish fixes are not bug fixes",
+     "detail": "The ask was to fix small imperfections that \"degrade the overall experience\", not \"bugs per se.\" Examples include making adjacent button sizes match and stopping the issue composer from changing height when you add a line. Some engineers keep a running note of things that feel off; others work by theme, like menus, keyboard navigation or accessibility.",
+     "t": null
+    },
+    {
+     "title": "Training the eye prevents future papercuts",
+     "detail": "Over two years the team shipped more than 1,000 small fixes. The bigger effect is that engineers now spot common pitfalls while building, so fewer papercuts ship at all. For OnCourse, a weekly polish ritual would train designers and engineers to catch issues in review.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "In early 2023 at an offsite",
+     "title": "The offsite test",
+     "summary": "Nobody could spot the flaw in three hover buttons; a group review found many small flaws."
+    },
+    {
+     "t": null,
+     "anchor": "Making quality a habit",
+     "title": "Making it a habit",
+     "summary": "How engineers find fixes, with examples, and the 30-minute size limit."
+    },
+    {
+     "t": null,
+     "anchor": "Catching mistakes before they happen",
+     "title": "The payoff",
+     "summary": "1,000+ fixes and a team that now sees the 150ms inconsistency."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Making quality a habit",
+    "why": "It describes exactly how to run the ritual, with fix sizes and example fixes, so it can be copied at OnCourse."
+   },
+   "id": "quality-wednesdays-how-we-trained-our-team-to-see-what-doesn-t-work"
+  },
+  {
+   "Title": "A Linear spin on Liquid Glass",
+   "Creator": "Linear (Robb Böhnke)",
+   "Type": "Case study",
+   "Link": "https://linear.app/now/linear-liquid-glass",
+   "Apps": [
+    "Linear",
+    "Apple"
+   ],
+   "Topics": [
+    "Visual design",
+    "Navigation",
+    "Motion",
+    "Accessibility"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Linear rebuilt Liquid Glass itself so it could own its tab bar, keep the tactile details (touch lift, edge stretch, edge blur, Increase Contrast outlines), and drop refraction for readability.",
+   "What they did": "For a mobile redesign that needed more flexible navigation, Linear chose not to use Apple's Liquid Glass APIs and built its own material in SwiftUI. It has a blur layer, a gradient, and a shader-made highlight lit by a light source that moves as you scroll and tap. They built a custom tab bar that can hold more than five items. They also added tactile details and matched Apple's accessibility behaviour, but left out refraction to keep dense screens readable.",
+   "Results": "No metrics. Team size: \"just two engineers\" on iOS. Doing it themselves let them ship the new navigation \"to all of our users, including those on iOS 18.\" On tab bars: \"Five items is a sensible limit for apps for a general audience, but Linear users often need more.\"",
+   "Takeaways": "Own the material if you need to own the navigation; Take the aesthetic with a ProKit discipline; Touch lift and edge stretch give tactile feedback; Variable blur at scroll edges; Match system accessibility settings exactly; Skip effects that hurt readability",
+   "Ideas for OnCourse": "Home: on press, lift tappable cards slightly with a quick pulse, and let lists stretch a little past their edge instead of stopping hard. Practice: keep glass or blur effects off the question and options; reserve them for chrome like the tab bar, so dense text stays readable. Design process: for any custom material or colour treatment, define how it looks with Increase Contrast turned on",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://webassets.linear.app/images/ornj730p/production/8f212d1d66717342cd9e35f619c0fcab5019b4fe-2400x1350.png?q=95&auto=format&dpr=2",
+   "Key points": [
+    {
+     "title": "Own the material if you need to own the navigation",
+     "detail": "The redesign's real goal was navigation that adapts to different roles, like managers needing an overview. Apple's stock iOS 26 tab bar can't meaningfully change shape or behaviour, so Linear rebuilt the glass and its own tab bar. It can grow past the usual five items, similar to how an iPad tab bar becomes a sidebar.",
+     "t": null
+    },
+    {
+     "title": "Take the aesthetic with a ProKit discipline",
+     "detail": "Apple once had Aqua for consumer apps and ProKit, flatter and sharper, for pro tools like Final Cut. Linear treated Liquid Glass as the new Aqua and applied its translucency, depth and physicality with a ProKit attitude: focused and disciplined. An exam-prep app used for long focused sessions sits closer to ProKit too.",
+     "t": null
+    },
+    {
+     "title": "Touch lift and edge stretch give tactile feedback",
+     "detail": "When you touch an element it lifts slightly, giving \"a quick pulse of feedback.\" Dragging past the edge of a view distorts it a little, which releases the physical tension. The highlight shifts as you scroll and tap because it is lit by a light source modelled in real time on the GPU.",
+     "t": null
+    },
+    {
+     "title": "Variable blur at scroll edges",
+     "detail": "At the top and bottom of scroll views, a blur gets stronger as content nears the screen edge, with a subtle colour mask to match Apple's soft edge. Apple uses this internally but doesn't offer it through public APIs, so Linear recreated it. It helps a custom app feel at home on iOS.",
+     "t": null
+    },
+    {
+     "title": "Skip effects that hurt readability",
+     "detail": "When Increase Contrast is on, iOS draws solid outlines around glass, and Linear's material copies this exactly. They chose not to copy refraction: it needs pixel data third parties can't access, and it \"can make dense professional interfaces harder to read.\" Precise blur, masking and lighting give depth without losing clarity.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Aqua versus ProKit",
+     "title": "Aqua versus ProKit",
+     "summary": "Why a pro tool can take Liquid Glass's look with more restraint."
+    },
+    {
+     "t": null,
+     "anchor": "Owning our materials",
+     "title": "Building the material",
+     "summary": "Blur, gradient, shader highlight and a moving light source."
+    },
+    {
+     "t": null,
+     "anchor": "Implementing a customizable tab bar",
+     "title": "Custom tab bar",
+     "summary": "A bar that can grow past five items."
+    },
+    {
+     "t": null,
+     "anchor": "Sweating the details",
+     "title": "Details",
+     "summary": "Touch lift, edge stretch, edge blur, Increase Contrast, no refraction."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Sweating the details",
+    "why": "It is a short list of the tactile and accessibility details that make a custom mobile UI feel native."
+   },
+   "id": "a-linear-spin-on-liquid-glass"
+  },
+  {
+   "Title": "Playing haptics",
+   "Creator": "Apple Human Interface Guidelines",
+   "Type": "Article",
+   "Link": "https://developer.apple.com/design/human-interface-guidelines/playing-haptics",
+   "Apps": [
+    "Apple"
+   ],
+   "Topics": [
+    "Motion",
+    "Accessibility",
+    "Practice"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Use haptics sparingly and consistently: one pattern per meaning, matched to the animation's intensity, short for discrete events, and always optional.",
+   "What they did": "Apple's guidelines explain when and how to play haptics. They say to use system patterns only for their documented meaning, keep each haptic tied to one cause, match haptic sharpness and intensity to the animation, avoid overuse, prefer short haptics, and let people turn them off. On iOS there are three families of feedback: notification (outcome of a task), impact (something snaps or collides) and selection (a value changing). Custom haptics are built from short transient taps and continuous vibrations, tuned by sharpness and intensity.",
+   "Results": null,
+   "Takeaways": "Use system patterns only for their documented meaning; One haptic, one cause; Match haptic to the animation it accompanies; Less is more, the best haptic goes unnoticed; Prefer short haptics for discrete events; Haptics must be optional",
+   "Ideas for OnCourse": "Practice: play a notification-success haptic on a correct answer and a different notification-error haptic on a wrong one, and never swap their meanings anywhere else in the app. Flashcards: use a light impact haptic when a card snaps into place, and selection haptics while scrolling a picker such as the daily goal. Design process: add a haptics toggle in settings, and make sure every haptic has a matching visual cue",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://developer.apple.com/tutorials/developer-og.jpg",
+   "Key points": [
+    {
+     "title": "One haptic, one cause",
+     "detail": "Build a clear cause-and-effect link between each haptic and the action that causes it, so people learn what it means. If a pattern plays when a mission fails, using it again for a level completion will confuse people. Use system patterns only for their documented meaning; otherwise use a generic or custom one.",
+     "t": null
+    },
+    {
+     "title": "Match haptic to the animation it accompanies",
+     "detail": "Visual, audio and touch feedback should agree, as they do in the physical world. Match the haptic's intensity and sharpness to the intensity and sharpness of its animation. A soft card settle should feel soft; a crisp snap should feel crisp.",
+     "t": null
+    },
+    {
+     "title": "Less is more, the best haptic goes unnoticed",
+     "detail": "A haptic can feel right occasionally but tiring when frequent. User testing helps find the balance. \"Often, the best haptic experience is one that people may not be conscious of, but miss when it's turned off.\" In most apps, prefer short haptics for discrete events, since long ones dilute meaning.",
+     "t": null
+    },
+    {
+     "title": "Three iOS families: notification, impact, selection",
+     "detail": "Notification haptics report the outcome of a task, like depositing a check. Impact haptics give a physical metaphor, like a tap when a view snaps into place. Selection haptics play while a control's value changes, and standard toggles, sliders and pickers already play them.",
+     "t": null
+    },
+    {
+     "title": "Custom haptics: transient vs continuous, sharpness and intensity",
+     "detail": "Transient events are brief taps, like the Flashlight button. Continuous events are sustained vibrations. Sharpness sets the feel, from soft and organic to crisp and mechanical, and intensity sets strength.",
+     "t": null
+    },
+    {
+     "title": "Haptics must be optional",
+     "detail": "Let people turn haptics off and make sure the app still works without them. Haptics also shouldn't disturb the camera, gyroscope or microphone. The related Feedback page adds that feedback should use colour, text, sound and haptics together so it reaches everyone.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Best practices",
+     "title": "Best practices",
+     "summary": "Consistency, matching animation, avoiding overuse, short haptics, optional."
+    },
+    {
+     "t": null,
+     "anchor": "Custom haptics",
+     "title": "Custom haptics",
+     "summary": "Transient and continuous events, sharpness and intensity."
+    },
+    {
+     "t": null,
+     "anchor": "Notification",
+     "title": "Notification",
+     "summary": "Haptics for the outcome of a task or action."
+    },
+    {
+     "t": null,
+     "anchor": "Impact",
+     "title": "Impact",
+     "summary": "A tap when something snaps, a thud when heavy things collide."
+    },
+    {
+     "t": null,
+     "anchor": "Selection",
+     "title": "Selection",
+     "summary": "Feedback while a control's value changes."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Best practices",
+    "why": "The six best-practice rules are all Sainath needs to spec haptics for answer feedback in Practice."
+   },
+   "id": "playing-haptics"
+  },
+  {
+   "Title": "Web Interface Guidelines",
+   "Creator": "Vercel",
+   "Type": "Article",
+   "Link": "https://vercel.com/design/guidelines",
+   "Apps": [
+    "Vercel"
+   ],
+   "Topics": [
+    "Motion",
+    "Accessibility",
+    "Copy",
+    "Visual design"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A checklist of hundreds of small interface decisions, with exact numbers for hit targets, loading-state timing, optimistic updates, motion rules and error copy.",
+   "What they did": "Vercel keeps a living checklist of interface details, grouped into Interactions, Animations, Layout, Content, Forms, Performance, Design and Copywriting. Most rules are one line with a concrete value. Examples: 44px touch targets on mobile, a delay and a minimum display time for spinners to avoid flicker, optimistic updates with undo, and error messages that say how to fix the problem. It also offers an AGENTS.md file so AI coding agents follow the rules.",
+   "Results": "Guidelines, not results. Hit targets: \"if the visual target is < 24px, expand its hit target to ≥ 24px. On mobile, the minimum size is 44px.\" Loading: \"add a short show-delay (~150–300 ms) & a minimum visible time (~300–500 ms) to avoid flicker on fast responses.\" Inputs: font size \"≥ 16px on mobile to prevent iOS Safari auto-zoom.\" Performance: \"POST/PATCH/DELETE complete in <500ms.\"",
+   "Takeaways": "Make hit targets 44px on mobile; Delay spinners and hold them on screen; Update optimistically, offer Undo; Only animate to clarify cause and effect; Skeletons must mirror final content; Error messages should guide the exit",
+   "Ideas for OnCourse": "Practice: when submitting an answer, update the UI at once and reconcile with the server, and only show a spinner if the request takes more than about 150–300ms, then hold it for at least 300–500ms. Home: make skeletons for Today's plan match the final card layout exactly, so nothing jumps when content loads. Paywall: rewrite payment errors to say what to do next, not only what went wrong",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/design/guidelines-og.png",
+   "Key points": [
+    {
+     "title": "Make hit targets 44px on mobile",
+     "detail": "Visual and hit targets should match, but if a visual target is under 24px, expand its hit area to at least 24px; on mobile the minimum is 44px. Checkboxes and their labels share one generous target with no dead zones. If part of a control looks tappable, it should be tappable.",
+     "t": null
+    },
+    {
+     "title": "Delay spinners and hold them on screen",
+     "detail": "To avoid flicker on fast responses, wait about 150–300ms before showing a spinner or skeleton, then keep it visible for at least 300–500ms. Loading buttons keep their label and add an indicator. Skeletons mirror the final content exactly, so there is no layout shift.",
+     "t": null
+    },
+    {
+     "title": "Update optimistically, offer Undo",
+     "detail": "When success is likely, update the UI immediately and reconcile when the server responds. On failure, show an error and roll back, or offer Undo. Destructive actions need a confirmation or an Undo window.",
+     "t": null
+    },
+    {
+     "title": "Only animate to clarify cause and effect",
+     "detail": "Animate only when it clarifies cause and effect or adds deliberate delight. Animations must respect reduced motion, be interruptible by user input, use transform and opacity, and start from where the motion \"physically\" begins. Never use transition: all.",
+     "t": null
+    },
+    {
+     "title": "Error messages should guide the exit",
+     "detail": "Don't just say what went wrong; say how to fix it. Instead of \"Invalid API key\", say the key is wrong or expired and where to make a new one. Buttons should be specific: \"Save API Key\" rather than \"Continue\". Every screen offers a next step, and empty, sparse, dense and error states are all designed.",
+     "t": null
+    },
+    {
+     "title": "Gestures need tap alternatives",
+     "detail": "Every drag, swipe or pinch also works with a tap and keyboard, unless the gesture is essential. Rarely autofocus on mobile, because the keyboard opening shifts the layout. Use overscroll-behavior: contain in modals and drawers so scrolling doesn't leak to the page behind.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Interactions",
+     "title": "Interactions",
+     "summary": "Hit targets, loading timing, optimistic updates, gestures, scroll."
+    },
+    {
+     "t": null,
+     "anchor": "Animations",
+     "title": "Animations",
+     "summary": "Reduced motion, compositor-friendly, interruptible, correct origin."
+    },
+    {
+     "t": null,
+     "anchor": "Layout",
+     "title": "Layout",
+     "summary": "Optical alignment, safe areas, deliberate alignment."
+    },
+    {
+     "t": null,
+     "anchor": "Content",
+     "title": "Content",
+     "summary": "Stable skeletons, all states designed, no dead ends, tabular numbers."
+    },
+    {
+     "t": null,
+     "anchor": "Forms",
+     "title": "Forms",
+     "summary": "Don't pre-disable submit, errors beside fields, right keyboards."
+    },
+    {
+     "t": null,
+     "anchor": "Design",
+     "title": "Design",
+     "summary": "Layered shadows, nested radii, more contrast on press."
+    },
+    {
+     "t": null,
+     "anchor": "Copywriting",
+     "title": "Copywriting",
+     "summary": "Active voice, specific labels, errors that guide the fix."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Interactions",
+    "why": "It packs the most mobile-relevant rules (44px targets, spinner timing, optimistic updates, gesture alternatives) into a two-minute read."
+   },
+   "id": "web-interface-guidelines"
+  },
+  {
+   "Title": "Principles in motion",
+   "Creator": "Figma (Anja Laubscher with Chad Colby, Ben Hill, Gilles Desmadrille)",
+   "Type": "Article",
+   "Link": "https://www.figma.com/blog/principles-in-motion/",
+   "Apps": [
+    "Figma"
+   ],
+   "Topics": [
+    "Motion",
+    "Design process",
+    "AI tools"
+   ],
+   "Goal": [
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Learn the shared words for motion (anticipation, overshoot, settle, 'floaty', 'too linear') and look to real-world physics and film, so you can give and get precise motion feedback.",
+   "What they did": "Figma's three brand motion designers explain how they think about motion. They describe looking to physics, nature and film for reference, and how they use transitions and cuts to keep momentum. The piece includes two short glossaries: core principles, and the shorthand the team uses in critique. They also explain how AI motion prompting changes the craft.",
+   "Results": null,
+   "Takeaways": "Motion is designing with time; Real-world physics is the reference; Name the principles: anticipation, overshoot, follow-through, hold, settle; Use shared shorthand in critique; Sound effects sell a motion idea; AI makes good motion easy, great motion still needs principles",
+   "Ideas for OnCourse": "Design process: add the core and shorthand glossaries to OnCourse's critique template, so feedback on motion says \"feels floaty\" or \"needs a hold\" instead of \"feels off\". Progress & streaks: when a streak milestone animates, use anticipation, a small overshoot and a short hold so the moment registers before the screen moves on",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/599r6htc/regionalized/6df8f3511a02117aa9abeac52e3236c6e13f5111-4000x2250.jpg?w=1200&q=70&fit=max&auto=format",
+   "Key points": [
+    {
+     "title": "Motion is designing with time",
+     "detail": "Graphic design communicates through frozen moments; motion adds rhythm, pacing, transformation and character. Instead of cramming everything into one image, you break it up: first this, then that. The main question is how easing and timing create a feeling.",
+     "t": null
+    },
+    {
+     "title": "Real-world physics is the reference",
+     "detail": "A bouncing ball starts fast, slows near the top, falls again, and each bounce is lower. People recognise good motion even if they can't say why, because of its link to the real world. If you only copy other motion work, you fall into trends (\"bouncy balls and rectangles only go so far\").",
+     "t": null
+    },
+    {
+     "title": "Name the principles: anticipation, overshoot, settle",
+     "detail": "The core glossary: ease in/ease out (acceleration over time), anticipation (a preparatory move), overshoot (going slightly past and settling back), follow-through (secondary motion after the main move), hold (a pause so the viewer can register), and settle (the final subtle motion at rest).",
+     "t": null
+    },
+    {
+     "title": "Use shared shorthand in critique",
+     "detail": "The team's shorthand includes \"Zippy\", \"Make it dreamy\", \"Chunky\", \"Make it snappier\" (quicker timing, sharper easing), \"Feels floaty\" (lacks weight), \"Too linear\" (constant speed, mechanical) and \"Dead on arrival\" (no energy or intent). Shared words make motion feedback faster and more precise. They also use sound effects to sell an idea: it doesn't click until someone says \"It'll go, 'Whoop!'\"",
+     "t": null
+    },
+    {
+     "title": "Great motion still needs the principles",
+     "detail": "Motion prompting lets you sketch slow, fast or bouncy ideas without scripting expressions. But \"It's going to be very easy to create good motion, but if you don't understand the basic motion principles, it's going to be hard to create great motion.\" Skill, intention and restraint will set work apart.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Mini motion glossary: Core principles",
+     "title": "Core principles",
+     "summary": "Ease, anticipation, overshoot, follow-through, hold, settle; plus physics and match cuts."
+    },
+    {
+     "t": null,
+     "anchor": "Mini motion glossary: Team shorthand",
+     "title": "Team shorthand",
+     "summary": "Zippy, floaty, too linear, dead on arrival; and how AI changes motion work."
+    },
+    {
+     "t": null,
+     "anchor": "Where do you find references to determine how something should move?",
+     "title": "References",
+     "summary": "Look to physics, nature and film rather than other motion work."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Mini motion glossary: Team shorthand",
+    "why": "The shorthand list gives Sainath ready-made words for motion critique."
+   },
+   "id": "principles-in-motion"
+  },
+  {
+   "Title": "New data shows losing 80% of mobile users is normal, and why the best apps do better",
+   "Creator": "Andrew Chen",
+   "Type": "Article",
+   "Link": "https://andrewchen.com/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/",
+   "Apps": [
+    "Quettra",
+    "Google Play"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Notifications"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Most users decide to drop an app in the first 3 to 7 days, so the best way to lift retention is a stronger first session and first week, not more reminder messages.",
+   "What they did": "Andrew Chen worked with Quettra, which had usage data from over 125M Android phones, to plot day-by-day retention curves for Google Play apps (January to May 2015, apps with over 10,000 installs). He compared the average app with the top 10, next 50, next 100 and next 5000 apps by ranking. He then argued that the curve is bent through activation in the first days, not through notification volume.",
+   "Results": "\"the average app loses 77% of its DAUs within the first 3 days after the install. Within 30 days, it's lost 90% of DAUs. Within 90 days, it's over 95%.\" From the tabular data, Day-1 active users: Top 10 apps 74.67%, Next 50 64.85%, Next 100 48.72%, Next 5000 34.31%, Average 29.17%. Day-30: Top 10 59.80%, Next 5000 13.62%, Average 9.55%. Day-90: Top 10 50.87%, Average 3.97%.",
+   "Takeaways": "Users decide in the first 3 to 7 days; Top apps win on day 1, not on the slope; Bend the curve with activation, not reminders; A lost daily user is not always a lost user; Long-term numbers are hard to move later",
+   "Ideas for OnCourse": "Onboarding: end the first session with a finished mini-set (for example 10 MCQs with explanations) so every new aspirant gets a real result on day 1, before any setup screens. Today's plan: design a fixed first-7-days plan with one short, clear task per day, because this window decides who stays. Notifications: drop generic \"We miss you\" pushes and spend that effort on day 1 to day 7 nudges tied to the user's next plan task.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": null,
+   "Key points": [
+    {
+     "title": "Users decide to quit within 3 to 7 days",
+     "detail": "Quettra's founder Ankit Jain says users try many apps but decide which ones to \"stop using\" within the first 3 to 7 days. For decent apps, most users still active at day 7 stay much longer. So the first week is the window that matters most. For OnCourse, the first seven days of Today's plan deserve more design attention than any later screen.",
+     "t": null
+    },
+    {
+     "title": "Average apps lose 77% of daily users in 3 days",
+     "detail": "On average, only 29.17% of installers are active on day 1, 23.42% on day 3 and 9.55% on day 30. By day 90 it is 3.97%. Chen says this is why, of over 1.5 million Play Store apps, only a few thousand keep meaningful traffic. A steep early drop is normal, so OnCourse should compare itself with these curves before panicking.",
+     "t": null
+    },
+    {
+     "title": "Top apps win on day 1, then decay the same",
+     "detail": "The top 10 apps keep 74.67% of users on day 1 and 59.80% on day 30, far above average. But Chen notes the fall from D1 to D30 is about the same speed as for other apps. The gap is created by being useful immediately and being used repeatedly in week one. The lesson is to raise the starting point, not to hope to flatten the slope later.",
+     "t": null
+    },
+    {
+     "title": "Bend the curve with activation, not notification spam",
+     "detail": "Chen says most leverage is in how the product is described, the onboarding flow and the triggers set up in the first days. Long-term numbers are \"hard to budge, no matter how many reminder emails you send.\" He gives examples of activation goals, like a blogger picking a theme and writing a first post. Spammy \"We Miss You\" emails are \"unlikely to bend the curve significantly.\"",
+     "t": null
+    },
+    {
+     "title": "A lost daily user is not always lost",
+     "detail": "Losing a daily active user can mean the person now uses the app weekly or monthly, not that they left. But daily and monthly use correlate, so you cannot keep monthly users without daily ones. For a daily-study app like OnCourse, daily activity is the right number to watch.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Average retention for Google Play apps",
+     "title": "The average retention curve",
+     "summary": "Day-by-day share of installers still active, from 125M Android phones: 77% gone in 3 days, 95% in 90 days."
+    },
+    {
+     "t": null,
+     "anchor": "How do the best apps perform? Much better.",
+     "title": "How top-ranked apps compare",
+     "summary": "Top apps start much higher on day 1 but lose users at a similar rate afterwards."
+    },
+    {
+     "t": null,
+     "anchor": "Bending the curve happens via activation, not notification spam",
+     "title": "Activation over notifications",
+     "summary": "Why the first visit and first days are where retention is won, with example activation goals."
+    },
+    {
+     "t": null,
+     "anchor": "Methodology",
+     "title": "Methodology",
+     "summary": "How Quettra collected the data, which apps were excluded and the 10,000-install cut-off."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Bending the curve happens via activation, not notification spam",
+    "why": "It is short and gives the core argument: put design effort into the first visit and first days, not into win-back messages."
+   },
+   "id": "new-data-shows-losing-80-of-mobile-users-is-normal-and-why-the-best-ap"
+  },
+  {
+   "Title": "New data on push notifications show up to 40% CTRs, the best perform 4X better than the worst (Guest post)",
+   "Creator": "Andrew Chen (guest post by Alli Brian, Kahuna)",
+   "Type": "Article",
+   "Link": "https://andrewchen.com/new-data-on-push-notification-ctrs-shows-the-best-apps-perform-4x-better-than-the-worst-heres-why-guest-post/",
+   "Apps": [
+    "Kahuna",
+    "Waze",
+    "Level Money",
+    "Netflix",
+    "Crunchyroll",
+    "SportsCenter",
+    "United Airlines"
+   ],
+   "Topics": [
+    "Notifications",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Push works best when it supports something the user already does as a routine, sent at that user's own best time and about their own content.",
+   "What they did": "Kahuna shared push engagement rates by app category and explained why utility and finance apps do so much better than retail and social. It then gave three fixes for weaker apps: find a cadence per user, personalize to the person (not the device), and time each send to when that user is most likely to engage. Each fix is shown with real notification examples and user reactions.",
+   "Results": "\"push engagement rates for utility and financial services notifications (40%) are nearly four times higher than for e-commerce & retail notifications (12%).\" Well-timed utility notifications can reach engagement \"as high as 80%.\" \"Kahuna data reveals that customizing delivery time based on user preference results in an average conversion uplift of 384%.\" Chen's intro also cites earlier Kahuna data that \"up to 60% of users opt-out of push notifications.\"",
+   "Takeaways": "Push works best for routine, high-frequency apps; Find each user's cadence and know when not to send; Personalize to the person's own context; A wrongly personalized push is worse than none; Send at each user's own best time",
+   "Ideas for OnCourse": "Notifications: send the daily study reminder at the time each aspirant usually studies (learned from their recent sessions) instead of one fixed time for everyone. Notifications: write reminders about the user's own work, such as \"18 Pharmacology cards due from yesterday\", not generic motivation. Onboarding: ask \"When do you usually study?\" and use it as the starting send time.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": null,
+   "Key points": [
+    {
+     "title": "Routine apps get four times the push engagement",
+     "detail": "Utility and financial services pushes see 40% engagement, against 12% for e-commerce and retail. The winners are apps people already use daily or weekly, like directions, budgets and taxis. Push nudges a routine that already exists. A daily-study app is in the routine group, so OnCourse should tie pushes to the study routine itself.",
+     "t": null
+    },
+    {
+     "title": "Find each user's cadence, and know when to stop",
+     "detail": "Tolerance for notifications differs by app type and by user, and engaged users tolerate far more than new or dormant users. The post says not every app should send daily, and \"the elegance is in knowing when not to send a message.\" Netflix sends one push about the exact show you watch instead of one per new episode of any show. Automation that caps and prioritizes pushes per user is the recommended way to manage this.",
+     "t": null
+    },
+    {
+     "title": "Personal context makes the same push welcome",
+     "detail": "Two sports apps got opposite reactions: a FIFA World Cup push felt like spam to users not interested in that match, while a SportsCenter push about the user's own fantasy league felt delightful. The difference was relevance to that person. For OnCourse, a push naming the subject or deck the user is working on should beat a generic \"Time to study!\".",
+     "t": null
+    },
+    {
+     "title": "Wrong personalization is worse than none",
+     "detail": "Tracking devices instead of people sends the wrong content when someone else uses the phone. The post calls the mis-personalized push the worst case of all. Use a stable user ID so even anonymous users get accurate messages. OnCourse should make sure reminders follow the logged-in account and its real progress.",
+     "t": null
+    },
+    {
+     "title": "Send at each user's own best time",
+     "detail": "Non-urgent pushes should arrive when each user is most likely to engage, since everyone keeps a different schedule. Kahuna reports an average conversion uplift of 384% from customizing delivery time to user preference. Mis-timed pushes, such as one that wakes someone up, draw angry reactions. Students preparing for NEET-PG keep very different hours, so per-user timing matters a lot.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Push notification click-through rates via Alli Brian @ Kahuna",
+     "title": "Push engagement by category",
+     "summary": "The category data: utility and finance at 40%, retail at 12%."
+    },
+    {
+     "t": null,
+     "anchor": "Apps That Are Winning",
+     "title": "Why routine apps win",
+     "summary": "Waze and Level Money examples of pushes that fit an existing daily routine."
+    },
+    {
+     "t": null,
+     "anchor": "1. Find your Cadence:",
+     "title": "Find your cadence",
+     "summary": "Different users tolerate different volumes; Netflix sends one personal push instead of many."
+    },
+    {
+     "t": null,
+     "anchor": "2. Make it personal",
+     "title": "Make it personal",
+     "summary": "FIFA vs SportsCenter, and why device-based tracking backfires."
+    },
+    {
+     "t": null,
+     "anchor": "3. Timing is everything",
+     "title": "Timing",
+     "summary": "Urgent pushes go out in context; non-urgent ones go at each user's best time, with a 384% uplift."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "3. Timing is everything",
+    "why": "It has the strongest number (384% uplift from per-user send time) and applies directly to OnCourse's daily reminder."
+   },
+   "id": "new-data-on-push-notifications-show-up-to-40-ctrs-the-best-perform-4x-"
+  },
+  {
+   "Title": "RRF: A Framework for Building Impactful Notifications",
+   "Creator": "Phiture (Andy Carvell)",
+   "Type": "Article",
+   "Link": "https://phiture.com/mobilegrowthstack/rrf-a-framework-for-building-impactful-notifications-73c7b91c45a7/",
+   "Apps": [
+    "SoundCloud",
+    "Medium",
+    "Facebook",
+    "Instagram",
+    "WhatsApp",
+    "WorldMate"
+   ],
+   "Topics": [
+    "Notifications",
+    "Design process"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Rank notification ideas by Reach x Relevance x Frequency, and build the ones that can reach every user often (including new users) before niche ones.",
+   "What they did": "Andy Carvell, who built SoundCloud's activity notification service, proposes scoring each notification idea on how many users it can reach, how relevant it is, and how often its trigger happens. He sorts notifications into four types (Stars, Northern Lights, Full Moons, Eclipses) and shows how to move one type into another, for example by Facebook treating a like or comment as implicit permission to notify. He insists on measuring against a control group that gets no notifications, including opt-outs and uninstalls.",
+   "Results": "A worked example, not a measured result: a daily alert \"sent to the entire user base of 10m active users, with 0.5% CTR\" drives \"50,000 clicks (re-engagements with the app) every single day.\" A one-to-one message with 100% CTR \"would need to be generated at least 50,000 times per day\" to match it.",
+   "Takeaways": "Impact = Reach x Relevance x Frequency; Build full-reach notifications first; Scheduled daily notifications are the frequency you control; Use a portfolio of Stars, Northern Lights, Full Moons and Eclipses; Measure against a no-notification control",
+   "Ideas for OnCourse": "Notifications: build one daily \"Your plan for today is ready\" push that every user qualifies for, including day-1 users, before building niche alerts for power users. Design process: score each proposed notification on reach, relevance and frequency in the spec before design starts. Notifications: keep a holdout group that gets no growth notifications and track opt-outs and uninstalls, not just taps.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://phiture.com/wp-content/uploads/2020/02/rff-framework-for-building-impactful-notifications.jpeg",
+   "Key points": [
+    {
+     "title": "Impact equals reach times relevance times frequency",
+     "detail": "Reach is the share of users who can qualify for a notification. Relevance is how interesting it is, proxied by click rate once live. Frequency is how often the trigger event happens. A notification weak on any one of the three has little total impact, however good it is on the others.",
+     "t": null
+    },
+    {
+     "title": "Build full-reach notifications before power-user ones",
+     "detail": "Notifications that only fire after deep engagement (\"Northern Lights\") never reach the users who churned early. The highest-impact ones can reach the whole base, \"ideally including new users, who are particularly prone to churn.\" Carvell says to build these first even if their open rates are much lower. For OnCourse, a reminder every new user gets beats a clever alert only streak-holders see.",
+     "t": null
+    },
+    {
+     "title": "Daily scheduled pushes are the frequency you control",
+     "detail": "Most trigger events depend on the outside world or other users, so teams can't make them happen more often. Scheduled \"CronJob\" events like daily recommendations or weekly summaries are the exception. Carvell says they \"should be enthusiastically tested once relevance is established.\" A daily plan or due-cards reminder is exactly this kind of lever for OnCourse.",
+     "t": null
+    },
+    {
+     "title": "Relevance raises tolerance for more notifications",
+     "detail": "Users' tolerance for frequency is \"directly proportional to the relevancy of the notifications,\" and the reverse also holds. Personalized and timely content is more relevant, as is sending when the user is awake or usually active. Before building, you can fake a programmatic notification by sending it manually to a test segment and checking click rate, watching for novelty inflating the result.",
+     "t": null
+    },
+    {
+     "title": "Use a mix of the four notification types",
+     "detail": "Stars are high reach and high frequency (Medium's personalized new-post pushes). Full Moons are high reach but rare, Northern Lights are frequent but only for power users, and Eclipses are rare and narrow but very relevant (a flight time change). Too many Stars cause fatigue, so mix in occasional Eclipses and reward engaged users with Northern Lights. Facebook turned a narrow notification into a Star by treating a past like or comment as permission to notify on new replies.",
+     "t": null
+    },
+    {
+     "title": "Measure against a group that gets nothing",
+     "detail": "The fear that users hate notifications is a hypothesis, not a fact. Carvell says to measure click rates, longer-term engagement and retention, plus push opt-outs, email unsubscribes and uninstalls, all against a control group that receives no notifications. This settles the \"too spammy\" debate with data.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Impact = Reach x Relevance x Frequency",
+     "title": "The formula and its risks",
+     "summary": "Why notifications are powerful but dangerous, and why they need a no-notification control group."
+    },
+    {
+     "t": null,
+     "anchor": "Optimizing for Reach",
+     "title": "Reach",
+     "summary": "One-to-one vs one-to-many, and why Northern Lights notifications reach too few users."
+    },
+    {
+     "t": null,
+     "anchor": "Optimizing for Relevance",
+     "title": "Relevance",
+     "summary": "Personalization, local time, language and timeliness as ways to raise relevance."
+    },
+    {
+     "t": null,
+     "anchor": "Using RRF to prioritize development",
+     "title": "Prioritizing with RRF",
+     "summary": "The worked example: a 0.5% CTR daily alert to 10m users beats a 100% CTR direct message."
+    },
+    {
+     "t": null,
+     "anchor": "Real World Examples",
+     "title": "Stars, Northern Lights, Full Moons, Eclipses",
+     "summary": "Examples from Medium, Facebook, SoundCloud and WorldMate for each quadrant."
+    },
+    {
+     "t": null,
+     "anchor": "Evolving existing notifications for higher impact",
+     "title": "Moving notifications between quadrants",
+     "summary": "How Facebook used implicit permission to raise reach and frequency."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Using RRF to prioritize development",
+    "why": "The worked example shows in one minute why a daily, all-user reminder matters more than a perfect niche alert."
+   },
+   "id": "rrf-a-framework-for-building-impactful-notifications"
+  },
+  {
+   "Title": "Increasing Retention with Push, In-App and Email Part 3: Implementing the Strategy",
+   "Creator": "Phiture (Andy Carvell)",
+   "Type": "Article",
+   "Link": "https://phiture.com/mobilegrowthstack/increasing-retention-with-push-in-app-and-email-part-3-implementing-the-strategy-b91e734cf99/",
+   "Apps": [
+    "SoundCloud",
+    "Headspace",
+    "Grabble",
+    "Burner",
+    "Fishbrain",
+    "Lyft",
+    "Whistle",
+    "Superhuman"
+   ],
+   "Topics": [
+    "Notifications",
+    "Onboarding",
+    "Progress & streaks",
+    "Gamification"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Win push permission early with a pre-permission screen, nudge new users back to the exact step they dropped, use reminders to protect streaks and goals, and personalize win-back messages with what the user liked before.",
+   "What they did": "Andy Carvell turns four retention strategies (activation, frequency, feature adoption and re-engagement) into concrete push, in-app and email tactics. He covers push pre-permission and \"push win-back\" prompts, onboarding drop-off reminders, intent-based nudges, gamification reminders and stats summaries, and segmented reactivation. He closes with how to measure the whole program with a long-term holdout group.",
+   "Results": "At SoundCloud, \"we were able to increase re-activation rates 5x (albeit from a low base) by personalizing re-activation pushes with information about the last track a user had 'liked' in the app.\" In an example meditation-app funnel (fake data), \"around 60% of users complete the app onboarding flow within 2 minutes.\" On realistic goals: for monthly retention, \"a 1 or 2 percentage point increase over a year should be considered a significant win in most cases.\"",
+   "Takeaways": "Ask for push permission before users churn, with a primer; Win back users who declined push via Settings; Remind onboarding drop-offs within minutes and deep-link back; Use onboarding intent to time nudges; Use push to protect streaks and goals; Personalize reactivation with past favorites; Measure with a long-term holdout",
+   "Ideas for OnCourse": "Onboarding: show an in-app primer (\"Get your daily plan and streak reminders\") before the iOS/Android permission dialog, and only show the system dialog to users who tap yes. Notifications: if a user leaves onboarding or a practice set midway, send one push a few minutes later that deep-links back to the same question. Streaks: send a \"your streak ends at midnight\" push only to users who have not studied today, and a weekly stats summary of questions done and accuracy.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://phiture.com/wp-content/uploads/2020/03/Increasing-Retention-with-Push-In-App-and-Email-Part-3-Implementing-the-Strategy-.png",
+   "Key points": [
+    {
+     "title": "Get push permission before most new users churn",
+     "detail": "Often more than half of a new cohort fails to activate and leaves after the first session. Without push or email there is no way to bring them back. So ask early, but warm users up first with an in-app \"pre-permission\" message, and only show the one-time system prompt to those who say yes. Users who say \"Not Now\" can be asked again later with a different benefit.",
+     "t": null
+    },
+    {
+     "title": "Win back users who declined push",
+     "detail": "Users who tapped \"Don't Allow\" can still be shown an in-app message asking them to enable push, with a deep link to the Settings app. Carvell calls this a \"Push Win-Back\" and says it \"typically yields strong results,\" because people reconsider once they see the app's value. Doing both prompts as in-app messages lets you A/B test timing and copy.",
+     "t": null
+    },
+    {
+     "title": "Remind onboarding drop-offs within minutes",
+     "detail": "Map each activation step as an event and look for steps with large drop-offs or long gaps. In the example, about 60% finish onboarding within 2 minutes, so a reminder push a few minutes after someone stalls is safe and catches them while intent is fresh. The push or email must deep-link back to the exact step they left. Headspace shows a stronger version: nudges built from the time and reason the user chose in onboarding.",
+     "t": null
+    },
+    {
+     "title": "Use push to protect streaks and goals",
+     "detail": "Gamification covers goals with progress, streaks of regular use, and congratulations on personal bests and milestones. Messaging supports it by reminding users \"when a streak is about to expire or a goal is in danger of being missed,\" congratulating achievements and sending regular stats summaries (Whistle's weekly pet-fitness email). Teams can even prototype goals and streaks with in-app messages before building them natively.",
+     "t": null
+    },
+    {
+     "title": "Personalize win-back with what users liked before",
+     "detail": "SoundCloud raised reactivation 5x by naming the last track a lapsed user had liked. They split lapsed users into those who liked a track, those who only played one, and those who never did either. Formerly active users respond to a reminder of past value; never-activated users need more education or social proof. Carvell warns that \"We miss you!\" messages and vouchers alone won't work at scale.",
+     "t": null
+    },
+    {
+     "title": "Judge the whole program with a long-term holdout",
+     "detail": "Keep a holdout group that never receives CRM messages to see the true effect on slow metrics like monthly retention. Campaign tests only show short-term effects. Low opt-in rates mean messaging may reach under half of users, so set modest goals: 1 to 2 percentage points of monthly retention in a year is a big win.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Reach: Nurturing Opt-In Rates for Push and Email",
+     "title": "Push permission: priming and win-back",
+     "summary": "Pre-permission messages before the system prompt, and Settings deep links for users who declined."
+    },
+    {
+     "t": null,
+     "anchor": "Analyze funnel drop-offs and create win-back campaigns",
+     "title": "Onboarding drop-off reminders",
+     "summary": "Find where new users stall and send a quick, deep-linked reminder."
+    },
+    {
+     "t": null,
+     "anchor": "Experiment to uncover the right ‘Nudge Moments’",
+     "title": "Nudge moments",
+     "summary": "Time nudges with intent data from onboarding, as Headspace does with chosen meditation time."
+    },
+    {
+     "t": null,
+     "anchor": "The concept of gamification comes from",
+     "title": "Gamification with messaging",
+     "summary": "Goals, streaks, milestones, expiry reminders and weekly stats summaries."
+    },
+    {
+     "t": null,
+     "anchor": "Re-engagement is typically hard to do",
+     "title": "Re-engaging lapsed users",
+     "summary": "SoundCloud's 5x reactivation lift and segmenting lapsed vs never-activated users."
+    },
+    {
+     "t": null,
+     "anchor": "A word about measurement",
+     "title": "Measurement",
+     "summary": "Use a long-term holdout and expect 1 to 2 points of monthly retention per year."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The concept of gamification comes from",
+    "why": "It lists exactly the streak, goal and reminder tactics a daily-study app needs, then the re-engagement section right after shows the SoundCloud 5x result."
+   },
+   "id": "increasing-retention-with-push-in-app-and-email-part-3-implementing-th"
+  },
+  {
+   "Title": "Managing Retention Rate Benchmarks & Expectations",
+   "Creator": "Phiture (Anastasia Karpikhina)",
+   "Type": "Article",
+   "Link": "https://phiture.com/mobilegrowthstack/managing-retention-rate-benchmarks-and-expectations/",
+   "Apps": [],
+   "Topics": [
+    "Research methods",
+    "Onboarding",
+    "Notifications"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Education apps have some of the lowest Day 30 retention of any category, so OnCourse should judge itself against education benchmarks and focus first on a first-session win and early activation.",
+   "What they did": "Phiture explains what Day 1, Day 7 and Day 30 retention each tell you, then gives a 2025 to 2026 table of retention by app category compiled from Statista, AppsFlyer, Adjust, Business of Apps and Sendbird (updated March 2026). It adds the Lenny Rachitsky and Casey Winters six-month benchmarks, a DAU/MAU guide, and advice on product-market fit, traffic quality and how long retention tests take.",
+   "Results": "Cross-industry averages are \"roughly 25–26% on Day 1, 11–13% on Day 7, and 5–7% on Day 30.\" Education: \"~14–15%\" on Day 1, \"~6%\" on Day 7 and \"~2–3%\" on Day 30, one of the lowest rows in the table. iOS averages about 24% on Day 1 and 3.7% by Day 30; Android about 21% and 2.1%. For DAU/MAU, \"around 20% is generally considered good, while above 25% is considered excellent.\" In-app messages and personalized experiences \"have been shown to boost retention by as much as 30%\" (source not named).",
+   "Takeaways": "Education apps drop off steeply by Day 30; Day 1, Day 7 and Day 30 each test something different; Good retention depends on business model; Track DAU/MAU for stickiness; A first win in the first session lifts D1 and D7; Work on one or two things at a time; Day 30 tests take one to two months",
+   "Ideas for OnCourse": "Design process: set OnCourse retention targets against the education row (about 14–15% D1, 6% D7, 2–3% D30) rather than all-app averages, and track DAU/MAU against the 20% good / 25% excellent bar. Onboarding: make sure the first session ends with a finished lesson or practice set, the \"first win\" Phiture links to better D1 and D7. Today's plan: because learning \"happens in structured bursts,\" give users a steady small daily task that bridges the gaps between their study bursts.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://phiture.com/wp-content/uploads/2022/03/Managing-retention-rate-benchmarks-expectations-scaled.jpg",
+   "Key points": [
+    {
+     "title": "Education apps lose users fastest by Day 30",
+     "detail": "In the category table, education apps keep about 14–15% on Day 1, 6% on Day 7 and 2–3% on Day 30. News reaches 11–13% on Day 30 and banking 6–11%. Phiture says education and travel drop most because \"learning tends to happen in structured bursts\" and travel is episodic. OnCourse is fighting the hardest category curve, so small gains matter.",
+     "t": null
+    },
+    {
+     "title": "Each checkpoint tests a different stage",
+     "detail": "Day 1 shows users did not delete the app and that onboarding gave enough value to return within 24 hours. Day 7 shows activation is working and a habit is starting. Day 30 suggests a strong habit and is \"widely regarded as a proxy for product-market fit.\" Reading the three together tells you which stage to fix.",
+     "t": null
+    },
+    {
+     "title": "Good retention depends on the business model",
+     "detail": "Phiture cites the Lenny Rachitsky and Casey Winters six-month benchmarks: consumer SaaS such as Netflix or Spotify is good at 40% and great at 70%, while consumer social is good at 25%. A number that is excellent for one model can be worrying for another. iOS also retains better than Android, and region matters.",
+     "t": null
+    },
+    {
+     "title": "DAU/MAU shows how often retained users return",
+     "detail": "Retention only says whether users came back. DAU/MAU (\"stickiness\") shows how often. About 20% is good and above 25% is excellent. For a daily-study product, this is a useful second number next to D30.",
+     "t": null
+    },
+    {
+     "title": "A first win lifts Day 1 and Day 7",
+     "detail": "Phiture names three levers working in 2025 and 2026: personalized onboarding and messaging, push strategy (users who get even one push in their first 90 days are \"significantly more likely to remain active\"), and a meaningful \"first win\" in the first session, such as \"finishing a lesson.\" It also advises working on one or two initiatives at a time, starting with onboarding and activation.",
+     "t": null
+    },
+    {
+     "title": "Retention tests take one to two months",
+     "detail": "To read D30 after a new onboarding flow, you must wait for old users to finish the old flow and new users to complete the new one. This alone can take one to two months, depending on onboarding length and sample size. Plan OnCourse experiment timelines with this in mind.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Understanding retention rates",
+     "title": "What D1, D7 and D30 mean",
+     "summary": "How each checkpoint reflects onboarding, activation and habit."
+    },
+    {
+     "t": null,
+     "anchor": "Retention rate benchmarks by app category (2025–2026)",
+     "title": "Benchmarks by category",
+     "summary": "D1, D7 and D30 table for 11 categories, with education near the bottom, plus iOS vs Android."
+    },
+    {
+     "t": null,
+     "anchor": "What counts as “good” retention?",
+     "title": "What counts as good",
+     "summary": "Six-month benchmarks by business model, and DAU/MAU guidance."
+    },
+    {
+     "t": null,
+     "anchor": "Managing challenges, expectations & results",
+     "title": "Challenges and tactics",
+     "summary": "Product-market fit, traffic quality, focus, and the levers working in 2025 and 2026."
+    },
+    {
+     "t": null,
+     "anchor": "The long game",
+     "title": "The long game",
+     "summary": "Why measuring a D30 change after an onboarding test takes one to two months."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Retention rate benchmarks by app category (2025–2026)",
+    "why": "The table and the paragraph under it give OnCourse a realistic education baseline in two minutes."
+   },
+   "id": "managing-retention-rate-benchmarks-expectations"
+  },
+  {
+   "Title": "What is good retention",
+   "Creator": "Lenny's Newsletter (Lenny Rachitsky, with Casey Winters)",
+   "Type": "Article",
+   "Link": "https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29",
+   "Apps": [
+    "Netflix",
+    "Spotify",
+    "Hulu",
+    "Amazon",
+    "Dropbox",
+    "Facebook",
+    "Instagram",
+    "Snapchat",
+    "Twitter",
+    "Slack",
+    "Atlassian"
+   ],
+   "Topics": [
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention",
+    "Renewal"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "For a consumer subscription product, about 40% of paying users still active after 6 months is good and about 70% is great, but the bar should be read alongside your acquisition costs and stage.",
+   "What they did": "Lenny Rachitsky and Casey Winters asked 20 experienced growth leaders what they consider GOOD and GREAT user retention at 6 months and net revenue retention at 12 months. They combined the answers with public company figures to set benchmarks for five business types. Each type lists every expert's answer, the denominator to use, and public comps.",
+   "Results": "Six-month user retention: \"Consumer SaaS: ~40% is GOOD, ~70% is GREAT\" (denominator: users who started a paid subscription); \"Consumer social: ~25% is GOOD, ~45% is GREAT.\" Public comps: Spotify \"72% 6-month customer retention\", Netflix \"66% 12-month customer retention\", Hulu \"53% 12-month customer retention\", Amazon Prime \"93% 12-month customer retention.\" Twelve-month net revenue retention for consumer SaaS: \"~55% is GOOD, ~80% is GREAT.\"",
+   "Takeaways": "Measure six-month retention with the right denominator; Consumer subscriptions: 40% good, 70% great; Experts disagree a lot; Public comps give a reality check; Low retention can be OK early or with cheap acquisition; Startups rarely raise retention significantly",
+   "Ideas for OnCourse": "Design process: report six-month retention of paid subscribers by cohort and compare it with the ~40% good / ~70% great consumer-subscription bar. Renewal: judge Renewal screen experiments by their effect on paid cohort retention, using net revenue retention (~55% good, ~80% great for consumer SaaS) as the second check. Design process: because exam prep ends at the exam, also track retention up to each user's exam date, since a fixed six-month window may not fit OnCourse (our interpretation, not the article's).",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://substackcdn.com/image/fetch/$s_!0OV-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F56c42120-3472-426c-bc68-6498d214944a_2550x2944.png",
+   "Key points": [
+    {
+     "title": "Define retention at six months, with clear denominators",
+     "detail": "User retention here means the share of users who signed up and are still active six months later. The denominator changes by type: registered users for social, users with at least one transaction for transactional, and users who started a paid subscription for consumer SaaS. Using the wrong denominator makes comparisons meaningless.",
+     "t": null
+    },
+    {
+     "title": "Consumer subscriptions: 40% good, 70% great",
+     "detail": "Consumer SaaS covers products like Netflix, Spotify and Hulu that sell monthly or yearly plans. The consensus is about 40% of paying users still active at six months as good and about 70% as great. This is the closest category to OnCourse's paid plans.",
+     "t": null
+    },
+    {
+     "title": "Experts disagree widely on the bar",
+     "detail": "For consumer SaaS, Dan Hockenmaier says over 40% is good and over 60% great, while Elena Verna says over 70% is good and over 80% great. For consumer social, Andrew Chen sets the bar at over 50% good and over 75% great, double some others. The ranges show these are rough guides, not targets.",
+     "t": null
+    },
+    {
+     "title": "Public companies give a reality check",
+     "detail": "Spotify has 72% six-month customer retention and Netflix 66% at twelve months. Hulu is at 53% and Amazon Prime at 93% at twelve months. These are some of the most-used subscriptions in the world, which shows how high the \"great\" bar is.",
+     "t": null
+    },
+    {
+     "title": "Low retention can be OK in some cases",
+     "detail": "The authors say lower retention is acceptable if you are just starting out, if your acquisition and marginal costs are low, or if you are not building a venture-scale business. Fareed Mosavat: \"what matters is that your retention supports sustained growth.\" They also warn that \"startups rarely increase retention significantly.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Q: What do you consider GOOD and GREAT retention?",
+     "title": "The question and method",
+     "summary": "Why they surveyed 20 growth leaders and the two questions asked."
+    },
+    {
+     "t": null,
+     "anchor": "Disclaimer: Why it may be OK for your retention to be low",
+     "title": "When low retention is OK",
+     "summary": "Early stage, cheap acquisition, or a non-venture business."
+    },
+    {
+     "t": null,
+     "anchor": "1. What is good user retention?",
+     "title": "User retention by business type",
+     "summary": "Each expert's answer and public comps for five business types."
+    },
+    {
+     "t": null,
+     "anchor": "This includes companies such as Netflix, Spotify, and Hulu",
+     "title": "Consumer subscriptions",
+     "summary": "The 40% / 70% bar and comps from Amazon Prime, Dropbox, Spotify, Netflix and Hulu."
+    },
+    {
+     "t": null,
+     "anchor": "2. What is good net revenue retention?",
+     "title": "Net revenue retention",
+     "summary": "How much revenue a cohort keeps after a year, by business type."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "This includes companies such as Netflix, Spotify, and Hulu",
+    "why": "It is the consumer subscription benchmark that fits OnCourse's paid plans, with expert ranges and public comps."
+   },
+   "id": "what-is-good-retention"
+  },
+  {
+   "Title": "What is a good activation rate",
+   "Creator": "Lenny's Newsletter (Lenny Rachitsky and Yuriy Timen)",
+   "Type": "Article",
+   "Link": "https://www.lennysnewsletter.com/p/what-is-a-good-activation-rate",
+   "Apps": [
+    "Duolingo",
+    "Calm",
+    "Figma",
+    "Slack",
+    "Airbnb",
+    "Facebook"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Research methods"
+   ],
+   "Goal": [
+    "Activation"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Pick an early activation milestone that predicts at least 2x better retention, then raise it mainly by cutting onboarding steps and showing value sooner.",
+   "What they did": "Lenny Rachitsky and Yuriy Timen surveyed over 500 products about their activation rate and what most improved it. They define activation rate, list example milestones, give averages and GOOD (60th percentile) and GREAT (80th percentile) rates by product type, and group hundreds of reader answers into eight common tactics. They close with the common mistakes in choosing a milestone.",
+   "Results": "\"the average activation rate is 34%, and the median activation rate is 25%.\" For SaaS only, \"the average activation rate is 36%, and the median is 30%.\" A good milestone means activated users \"retain at a rate at least 2x better\" than others. About 6% of respondents had a time-bound activation definition, \"with a median of 10 days and a mode of 7 days.\" B2C freemium products such as Duolingo and Calm have the highest activation rates because their milestone is low-friction. The per-type numbers are in a chart image that we could not read as text.",
+   "Takeaways": "Activation is the earliest point that predicts retention; B2C freemium activates best with low-friction milestones; Fewer onboarding steps is the most common win; Smart defaults and earlier value reduce friction; Don't set the milestone too early or too late; Pick a milestone, then prove it with experiments",
+   "Ideas for OnCourse": "Onboarding: define activation as an early, concrete action such as \"answered 10 MCQs and read one explanation on day 1\" and check that activated users retain at least 2x better. Onboarding: remove steps between sign-up and the first question, and pre-fill exam and subjects with smart defaults. Home: hide secondary buttons for brand-new users so the only clear action is starting today's first set.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://substackcdn.com/image/fetch/$s_!g0Lt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42297308-812a-496b-97c4-9b58ce6a2af5_2792x3166.png",
+   "Key points": [
+    {
+     "title": "Activation is the earliest point that predicts retention",
+     "detail": "Activation rate is users who hit the milestone divided by users who finished sign-up. The milestone (the \"aha moment\") is the earliest step that shows the product's value and predicts long-term retention. It must be predictive, with activated users retaining at least 2x better, and actionable by the team. Good examples include \"First day of food and weight logged\" and \"First listen to 3+ sessions in the first week.\"",
+     "t": null
+    },
+    {
+     "title": "B2C freemium activates best with easy milestones",
+     "detail": "Across 500+ products, the average activation rate is 34% and the median 25%. Most of the variance comes from how the milestone is defined. B2C freemium products like Duolingo and Calm have the highest rates because their milestone is low-friction, such as starting a meditation session. Marketplaces and e-commerce are lowest because their milestone is a first purchase.",
+     "t": null
+    },
+    {
+     "title": "Fewer onboarding steps is the most common win",
+     "detail": "\"Simpler onboarding UI/UX\" tops the eight most-cited tactics. Answers include \"Changed the flow to have fewer steps and improved it 20%,\" \"Removing distracting CTAs between sign-up event and activation event,\" and \"Hiding a confusing button on home page for new users.\" Another: \"Driving all attention into one seeded task for guided completion.\"",
+     "t": null
+    },
+    {
+     "title": "Defaults and earlier value reduce friction",
+     "detail": "Other common wins are smart recommendations and defaults, templates, removing login gates from first interactions, and showing core value as early as possible. Readers also credit personalized emails and push for new users, and checklists that limit early actions. For OnCourse, a pre-built first set based on the chosen exam is the template equivalent.",
+     "t": null
+    },
+    {
+     "title": "Avoid milestones that are too early or late",
+     "detail": "The most common mistake is setting the milestone at sign-up (too early) or at several purchases (too late). The milestone should be \"a leading indicator of having built a habit, not having proven the habit.\" Other mistakes: weak prediction, not actionable, or too complicated. About 10% use two-part milestones like \"2+ bookings within 7-day time frame.\"",
+     "t": null
+    },
+    {
+     "title": "Pick a milestone, then prove it causes retention",
+     "detail": "At first, the milestone is a hypothesis that only correlates with retention. Run experiments that raise activation and watch whether later retention also rises; if it does, causality is shown. The advice is to \"not overthink it\": choose an early milestone that strongly correlates with retention and start.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. What is activation rate?",
+     "title": "Definition",
+     "summary": "The formula and what makes a milestone predictive and actionable."
+    },
+    {
+     "t": null,
+     "anchor": "2. What are examples of activation milestones?",
+     "title": "Example milestones",
+     "summary": "Eight product types and real milestones like first food logged or first 3+ sessions in week one."
+    },
+    {
+     "t": null,
+     "anchor": "3. What is a good activation rate?",
+     "title": "Benchmarks",
+     "summary": "Average 34%, median 25%, and why rates vary by product type."
+    },
+    {
+     "t": null,
+     "anchor": "4. What are the most common ways to increase activation?",
+     "title": "Ways to increase activation",
+     "summary": "Eight tactic groups with hundreds of short reader quotes."
+    },
+    {
+     "t": null,
+     "anchor": "5. What are the most common mistakes people make when setting their activation milestone?",
+     "title": "Common mistakes",
+     "summary": "Too early, too late, not predictive, not actionable, too complicated."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "4. What are the most common ways to increase activation?",
+    "why": "The first two tactic lists read like a checklist for simplifying OnCourse onboarding."
+   },
+   "id": "what-is-a-good-activation-rate"
+  },
+  {
+   "Title": "Why Retention Is The Silent Killer",
+   "Creator": "Reforge (Brian Balfour)",
+   "Type": "Article",
+   "Link": "https://www.reforge.com/blog/retention-engagement-growth-silent-killer",
+   "Apps": [
+    "Viddy",
+    "Pinterest",
+    "Jira",
+    "HubSpot",
+    "Slack",
+    "Zapier"
+   ],
+   "Topics": [
+    "Research methods",
+    "Design process"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Measure retention at the product's natural frequency and on one real core action, and track how often people use it, not just whether they are still around.",
+   "What they did": "Brian Balfour shows with a simple growth model why higher retention beats double the acquisition over three years. He then walks through three ways teams mis-define retention: wrong unit (revenue instead of usage), wrong frequency (monthly instead of daily, as with Viddy) and wrong core action (Pinterest's blended WARC metric). Finally he argues that retention (breadth) must be paired with engagement depth.",
+   "Results": "Modelled example: Company A gets 1M new users a month with 85% monthly retention; Company B gets 2M with 65%. \"After 6 months, Company A has approximately 4.2M MAUs. Company B has approximately 5.3M MAUs.\" After 3 years, \"Company A has approximately 6.6M MAUs and Company B has approximately 5.7M MAUs.\" Viddy looked healthy at \"35M MAU's and 5M DAU's\" before collapsing.",
+   "Takeaways": "Retention beats acquisition over time; Measure at your product's natural frequency; Pick one real core action; Revenue retention hides usage problems; Retention is breadth, engagement is depth; The wrong metric makes teams build the wrong things",
+   "Ideas for OnCourse": "Design process: define the core action as \"answered at least one question or reviewed one flashcard,\" and track it daily, not app opens or monthly actives. Renewal: flag paid users whose weekly study days drop well before renewal and show them a progress recap in the app, since revenue retention hides that they will churn at renewal. Progress & streaks: report study days per week as a depth measure next to the streak count.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://framerusercontent.com/images/1evFqQua2XZvUtAv7DCqXijwnzo.jpg?width=960&height=540",
+   "Key points": [
+    {
+     "title": "Higher retention beats double the acquisition",
+     "detail": "In the model, Company B gets twice the new users but has 65% monthly retention against Company A's 85%. B leads at six months with about 5.3M vs 4.2M MAU. After three years, A leads with about 6.6M vs 5.7M. Balfour adds that higher retention also improves acquisition, monetization and payback, so the real gap would be even bigger.",
+     "t": null
+    },
+    {
+     "title": "Measure at your product's natural frequency",
+     "detail": "Ask whether a user needs to engage daily, weekly or monthly to count as active. Viddy's MAU looked like a hockey stick, but its DAU told the real story, and the app collapsed. For most habit products, measuring monthly hides problems. A daily-study app like OnCourse should measure daily.",
+     "t": null
+    },
+    {
+     "title": "Pick one real core action",
+     "detail": "Pinterest once used WARC, a weekly active repinner or clicker. Combining two actions let experiments trade one for the other while the metric rose, and could even reward clickbait. It also ignored new content supply. Choose a single action that truly means the user got value.",
+     "t": null
+    },
+    {
+     "title": "Revenue retention hides usage problems",
+     "detail": "Revenue is the output of engaged users; usage is the input. A subscriber who has stopped using the product still pays until renewal, then churns. Once a paying subscriber has churned, \"winning them back is almost impossible.\" So watch usage retention first, especially before renewals.",
+     "t": null
+    },
+    {
+     "title": "Retention is breadth, engagement is depth",
+     "detail": "Retention only says whether a user is active in a period, not how active. Shaun Clowes says that at Atlassian, Jira installs where most users were engaged \"would practically never churn.\" More visits per user also drive revenue, like 4 visits a day vs 1. For OnCourse, study days per week is a good depth measure.",
+     "t": null
+    },
+    {
+     "title": "The wrong metric makes teams build the wrong things",
+     "detail": "A wrong definition both hides problems and points the team at the wrong goals. If you measure monthly when the product should be daily, the team will build \"features, notifications, and solutions to encourage monthly engagement.\" Balfour calls hidden problems plus wrong incentives \"silent death.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "How Retention Ends Up Getting Deprioritized",
+     "title": "Why retention gets ignored",
+     "summary": "A two-company model where better retention wins over three years despite half the acquisition."
+    },
+    {
+     "t": null,
+     "anchor": "Choosing the wrong unit of measurement.",
+     "title": "Wrong unit",
+     "summary": "Why revenue retention hides what is happening with usage."
+    },
+    {
+     "t": null,
+     "anchor": "Choosing the wrong frequency.",
+     "title": "Wrong frequency",
+     "summary": "Viddy's MAU vs DAU story."
+    },
+    {
+     "t": null,
+     "anchor": "Choosing the wrong core action.",
+     "title": "Wrong core action",
+     "summary": "Casey Winters on Pinterest's WARC metric and its side effects."
+    },
+    {
+     "t": null,
+     "anchor": "You Might Have Breadth, But No Depth",
+     "title": "Breadth vs depth",
+     "summary": "Why engagement depth drives revenue and defensibility."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Choosing the wrong frequency.",
+    "why": "The Viddy example shows in two minutes why a daily-study app must measure daily activity."
+   },
+   "id": "why-retention-is-the-silent-killer"
+  },
+  {
+   "Title": "Mobile App Push Notification Benchmarks for 2025",
+   "Creator": "Airship",
+   "Type": "Article",
+   "Link": "https://growth.airship.com/rs/313-QPJ-195/images/Airship-2025-Push-Notification-Benchmarks-EN.pdf",
+   "Apps": [
+    "Hawaiian Airlines",
+    "ASDA",
+    "TNT Sports"
+   ],
+   "Topics": [
+    "Notifications",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Education app users opt in to push more than almost any other category, and even the busiest education apps send only about one push a day, so OnCourse should prime the opt-in well and spend its budget on relevant daily reminders.",
+   "What they did": "Airship analysed 2024 data from apps with at least 1,000 active users across 13 verticals (more than 9 billion app users) to benchmark push opt-in rates, direct open rates and monthly pushes per user at the 90th, 50th and 10th percentiles. Each benchmark has Android and iOS charts by vertical, a year-over-year comparison and three practical tips. Customer spotlights cover Hawaiian Airlines, ASDA and TNT Sports.",
+   "Results": "Education, 90th percentile: Android direct open rate 12.3%, iOS 9.5%; top education apps send 28 pushes per user per month on Android and 24.5 on iOS. On the opt-in chart, Education has the highest iOS bars of any vertical (about 90% at the 90th percentile and about 75% at the median, read from the chart, not printed). Android median opt-in fell from 71.3% (2023) to 59.5% (2024); iOS median held at 49.1% and 49.4%. Apps running onboarding campaigns see opt-in rates \"as high as 40% above their category average.\" \"in-app messages drive a 14% average increase in opt-in rates among opted-out users.\" Personalization gives \"a 37% increase on average\" in open rates; rich push gives \"+22% average lift in direct open rates.\" Hawaiian Airlines \"increased push notification opt-ins by 23%.\"",
+   "Takeaways": "Education users opt in to push more than most; Use a soft prompt before the system dialog; Explain push value during onboarding; Re-ask opted-out users with in-app messages; Top education apps send about one push a day; Personalization is the biggest lever on opens; iOS open rates trail Android",
+   "Ideas for OnCourse": "Onboarding: add a soft prompt that explains what OnCourse will send (daily plan, streak reminder, revision due) before the system permission dialog, and let users explore before asking. Notifications: cap growth pushes near one a day, the level of top education apps (24.5 to 28 per month), and personalize each one with the user's subject or due cards. Today's plan: after a user finishes the plan, show an in-app card to users who declined push, explaining the reminder they are missing, with a link to turn it on.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": null,
+   "Key points": [
+    {
+     "title": "Education users opt in more than most",
+     "detail": "On the iOS opt-in chart, Education has the longest bars of all 14 verticals, around 90% for top apps and around 75% at the median (read from the chart; the report does not print these values). Android Education is also high, around 87% for top apps. Students accept reminders if the value is clear. OnCourse should aim for top-percentile opt-in, not settle for the cross-app median of about 49% on iOS.",
+     "t": null
+    },
+    {
+     "title": "Use a soft prompt, then explain value in onboarding",
+     "detail": "Airship's first tip is \"Don’t Jump the Gun with a Generic Prompt\" on first open. Show a soft prompt first and let new users explore so they feel confident when the real prompt comes. Apps running onboarding campaigns that explain push benefits see opt-in rates \"as high as 40% above their category average.\" Hawaiian Airlines raised opt-ins 23% by explaining its new \"Ready to Board\" alerts.",
+     "t": null
+    },
+    {
+     "title": "Re-ask opted-out users inside the app",
+     "detail": "A declined prompt is not final. In-app messages drive a 14% average increase in opt-in among opted-out users. The tip is to show contextual prompts when users are most engaged. Android 13 now requires consent too, and Android median opt-in dropped from 71.3% to 59.5% in a year, so re-asking matters more on both platforms.",
+     "t": null
+    },
+    {
+     "title": "Top education apps send about one push a day",
+     "detail": "At the 90th percentile, education apps send 28 pushes per user per month on Android and 24.5 on iOS, about one a day. Media sends about 293 and sports 221 at the top end. Airship notes the top reasons people opt out are messages that are too frequent or not relevant. A daily study reminder fits the norm for education; more than that needs strong relevance.",
+     "t": null
+    },
+    {
+     "title": "Personalization is the biggest lever on opens",
+     "detail": "Tailored messages are \"the single most important driver\" of opens, at a 37% average increase. Segmenting sends lifts direct open rates by 18% to 65%, and rich push adds +22%. Top education apps reach 12.3% direct opens on Android and 9.5% on iOS. Collect preferences like exam date, weak subjects and study time and use them in each push.",
+     "t": null
+    },
+    {
+     "title": "iOS open rates trail Android",
+     "detail": "Android notifications stay on the lock screen until swiped, while on iOS they vanish from the lock screen as soon as the phone is unlocked. So iOS direct open rates are lower in every vertical. Compare OnCourse's iOS and Android open rates separately, not as one number.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Push Notification Opt-In Rates",
+     "title": "Opt-in rates",
+     "summary": "Android and iOS opt-in by vertical, and the 2023 to 2024 change."
+    },
+    {
+     "t": null,
+     "anchor": "3 Tips for Securing the Opt-In",
+     "title": "Getting the opt-in",
+     "summary": "Soft prompts, onboarding campaigns and in-app re-asks, with the Hawaiian Airlines case."
+    },
+    {
+     "t": null,
+     "anchor": "Push Notification Direct Open Rates",
+     "title": "Direct open rates",
+     "summary": "Open rates by vertical and why iOS trails Android."
+    },
+    {
+     "t": null,
+     "anchor": "3 Best Practices for Boosting Direct Open Rates",
+     "title": "Boosting opens",
+     "summary": "Personalization, segmentation and rich push, with the ASDA case."
+    },
+    {
+     "t": null,
+     "anchor": "Average Monthly Push Notifications Per User",
+     "title": "How many pushes",
+     "summary": "Monthly sends per user by vertical, and why too many drives opt-outs."
+    },
+    {
+     "t": null,
+     "anchor": "Methodology",
+     "title": "Methodology",
+     "summary": "2024 data, apps with at least 1,000 active users, 13 verticals."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "3 Tips for Securing the Opt-In",
+    "why": "Two short pages on how to ask for push permission, which OnCourse onboarding can apply directly."
+   },
+   "id": "mobile-app-push-notification-benchmarks-for-2025"
+  },
+  {
+   "Title": "Getting Your Product Into the Habit Zone",
+   "Creator": "Nir Eyal (Nir and Far)",
+   "Type": "Article",
+   "Link": "https://www.nirandfar.com/habit-zone/",
+   "Apps": [
+    "Google",
+    "Bing",
+    "Amazon",
+    "Progressive",
+    "Pinterest",
+    "Reddit"
+   ],
+   "Topics": [
+    "Progress & streaks",
+    "Home",
+    "Design process"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A product becomes a habit when an action happens often enough and feels useful enough, so make the core action frequent, familiar and clearly valuable.",
+   "What they did": "Nir Eyal explains habits as actions the brain does without deliberating, and argues that frequency is the main driver, citing a University College London flossing study. He uses Google vs Bing to show habits as a switching cost, and Amazon's in-site price comparison to show how high perceived utility can build a habit for less frequent actions. He ends with the \"Habit Zone\": plot frequency against perceived utility.",
+   "Results": "Eyal says Progressive used the price-comparison tactic \"to drive over $15 billion of annual insurance sales, up from just $3.4 billion before the tactic was implemented.\" The UCL flossing study \"concluded that the more frequently the new behavior occurred, the stronger the habit.\" A 2003 study by Trifts and Hubl \"demonstrated that consumer's preference for an online retailer increases when they are offered competitive price information.\"",
+   "Takeaways": "Habits are actions without deliberation; Frequency builds habit strength; Familiarity is a switching cost; Infrequent actions need high perceived utility; Plot frequency against perceived utility",
+   "Ideas for OnCourse": "Today's plan: keep the daily task small enough to do every single day, since frequency is what builds the habit, and let extra study be optional. Home: keep the start button and layout in the same place every day so the routine stays automatic, and avoid moving it in redesigns without reason. Practice: show why each set is worth it (for example \"high-yield for NEET-PG\" or \"your weakest topic\") to raise perceived utility on days motivation is low.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://www.nirandfar.com/wp-content/uploads/2012/09/zone.jpeg",
+   "Key points": [
+    {
+     "title": "Habits are actions done without deliberation",
+     "detail": "Neuroscientists believe habitual behaviours move to the basal ganglia, which handles actions needing little thought. A habit forms when the brain stops deliberating and repeats what worked before. Nail biting is the example: a stress trigger, a quick relief, and a strong loop. For a study app, the goal is that opening OnCourse each day stops being a decision.",
+     "t": null
+    },
+    {
+     "title": "Frequency builds habit strength",
+     "detail": "A University College London study followed people trying to start flossing and found that the more often the behaviour happened, the stronger the habit. The same applies to apps: frequent use raises the chance of a habit forming. Daily study is a strong fit if each session is easy enough to repeat.",
+     "t": null
+    },
+    {
+     "title": "Familiarity is a switching cost",
+     "detail": "Eyal argues Google and Bing give nearly identical results, yet switching feels slower because even small changes in \"pixel placement\" force users to relearn. Habit, not speed, keeps users loyal. Google's results also improve with use, creating a cycle. For OnCourse, a stable Home layout protects the habit.",
+     "t": null
+    },
+    {
+     "title": "Infrequent actions need high perceived utility",
+     "detail": "When a behaviour is less frequent, it can still become a habit if users see high value, from gaining pleasure or avoiding pain. Amazon shows competitors' lower prices on its own pages, which costs some sales but makes Amazon the default place to compare. Progressive used the same idea in insurance.",
+     "t": null
+    },
+    {
+     "title": "Plot frequency against perceived utility",
+     "detail": "The \"Habit Zone\" is where an action has enough frequency and perceived utility to become the default behaviour. Teams can estimate their product's habit potential by plotting the two. OnCourse's daily practice is high frequency; making its value obvious each day (progress toward the exam) moves it further into the zone.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Action Without Cognition",
+     "title": "What a habit is",
+     "summary": "Habits as behaviours the brain runs without deciding, with the nail-biting example."
+    },
+    {
+     "t": null,
+     "anchor": "The Mind Monopoly",
+     "title": "Frequency and Google",
+     "summary": "The flossing study and why Google's habit beats Bing's similar product."
+    },
+    {
+     "t": null,
+     "anchor": "Habits as Strategy",
+     "title": "Utility and Amazon",
+     "summary": "How high perceived utility builds habits for less frequent actions."
+    },
+    {
+     "t": null,
+     "anchor": "In the Zone",
+     "title": "The Habit Zone",
+     "summary": "Plotting frequency against perceived utility to judge habit potential."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "In the Zone",
+    "why": "It is two paragraphs and gives the frequency vs utility frame to judge any OnCourse habit feature."
+   },
+   "id": "getting-your-product-into-the-habit-zone"
   }
  ],
  "experiments": [],
@@ -14577,6 +19804,42 @@ window.LIBRARY = {
       "mastering-onboarding-lauryn-isford",
       "unorthodox-frameworks-for-growing-your-product-career-and-impact-banga"
      ]
+    },
+    {
+     "heading": "Skip the tutorial and teach by doing",
+     "body": "In NN/g's 70-person test, people who read a swipe-through tutorial were no more successful (91% vs 94%) and rated the app harder to use (4.92 vs 5.49 out of 7). Keep only setup the app truly needs.",
+     "sources": [
+      "Mobile Tutorials: Wasted Effort or Efficiency Boost?",
+      "Mobile-App Onboarding: An Analysis of Components and Techniques"
+     ],
+     "sourceIds": [
+      "mobile-tutorials-wasted-effort-or-efficiency-boost",
+      "mobile-app-onboarding-an-analysis-of-components-and-techniques"
+     ]
+    },
+    {
+     "heading": "Use the answers you asked for",
+     "body": "Grammarly's paywall reflected the goals people chose in onboarding and upgrades rose 10%+. Asking 'why are you here' only helps if the answer visibly changes the plan, home and paywall.",
+     "sources": [
+      "How to Craft Onboarding Surveys Users Love: 5 Do's and Don'ts",
+      "How To Properly Apply Jobs-To-Be-Done To User Onboarding"
+     ],
+     "sourceIds": [
+      "how-to-craft-onboarding-surveys-users-love-5-do-s-and-don-ts",
+      "how-to-properly-apply-jobs-to-be-done-to-user-onboarding"
+     ]
+    },
+    {
+     "heading": "The first week decides, especially for education",
+     "body": "The average app loses 77% of daily users within 3 days. Education apps keep only about 14–15% on day 1, 6% on day 7 and 2–3% on day 30, so a first-session win matters more than later reminders.",
+     "sources": [
+      "New data shows losing 80% of mobile users is normal, and why the best apps do better",
+      "Managing Retention Rate Benchmarks & Expectations"
+     ],
+     "sourceIds": [
+      "new-data-shows-losing-80-of-mobile-users-is-normal-and-why-the-best-ap",
+      "managing-retention-rate-benchmarks-expectations"
+     ]
     }
    ],
    "try": [
@@ -14586,6 +19849,23 @@ window.LIBRARY = {
     "Rename anything that sounds like an exam in onboarding ('Quick check of what you know', not 'Test').",
     "Replace open-text onboarding questions with tap choices about the learner's goal.",
     "Log every onboarding step in PostHog, and carry the promise from the ad or store page into the first screen."
+   ],
+   "examples": [
+    {
+     "app": "Brilliant",
+     "note": "'What motivates you to learn?' as four big picture cards, one tap each.",
+     "url": "https://mobbin.com/screens/a4620b17-54f6-4ec4-810f-cc65b243b59e"
+    },
+    {
+     "app": "Ahead",
+     "note": "'What do you most hope to improve?' with short emoji options and a progress bar.",
+     "url": "https://mobbin.com/screens/d0399d4e-86e1-4024-b0bb-2d77b0089531"
+    },
+    {
+     "app": "Wealthfront",
+     "note": "A goal question with a 'Why is this important?' link for people who hesitate.",
+     "url": "https://mobbin.com/screens/dbff49cb-97c6-4fbf-9158-9e7f0c77011c"
+    }
    ]
   },
   {
@@ -14686,6 +19966,95 @@ window.LIBRARY = {
     "A 'Tough one' label on hard questions and a short growth-mindset line after wrong answers.",
     "Start new learners on easier questions so the first session ends with a win.",
     "A one-tap 'Repeat yesterday's set' or 'Redo my wrong answers' on Home."
+   ]
+  },
+  {
+   "id": "practice-memory",
+   "title": "Practice that makes it stick",
+   "topics": [
+    "Practice",
+    "Lessons"
+   ],
+   "summary": "What the learning apps found about review, question formats and study time. This is the closest evidence to OnCourse's Practice and Flashcards screens.",
+   "ideas": [
+    {
+     "heading": "Show the questions they're about to forget",
+     "body": "Most students cram: Quizlet found 95% study a set over four days at most, too short for classic spacing. So Quizlet stopped scheduling by calendar and always shows the cards a student is most likely to get wrong right now. Even after a first-try correct answer, the chance of getting it right next time is only about 87%.",
+     "sources": [
+      "Spaced Repetition for All: Cognitive Science Meets Big Data in a Procrastinating World"
+     ],
+     "sourceIds": [
+      "spaced-repetition-for-all-cognitive-science-meets-big-data-in-a-procra"
+     ]
+    },
+    {
+     "heading": "A miss shouldn't send a card back to day 1",
+     "body": "Anki's newer scheduler, FSRS, predicts recall for each card and lets the learner pick a target retention. A 70% target gave far fewer daily reviews while ending with more cards learned than the 90% default. Missing a card no longer resets it to the start.",
+     "sources": [
+      "Spaced Repetition Systems Have Gotten Way Better"
+     ],
+     "sourceIds": [
+      "spaced-repetition-systems-have-gotten-way-better"
+     ]
+    },
+    {
+     "heading": "Start with choices, move to recall",
+     "body": "Quizlet tested question formats. Multiple choice works for new material, then typed recall as the learner improves. True/false led to more people quitting, and 'none of the above' made students stop early even though it helped recall.",
+     "sources": [
+      "Selecting Question Formats to Maximize the Testing Effect"
+     ],
+     "sourceIds": [
+      "selecting-question-formats-to-maximize-the-testing-effect"
+     ]
+    },
+    {
+     "heading": "A steady weekly dose is what moves scores",
+     "body": "Khan Academy's trials found gains only when practice was regular: at about 4 minutes a week there was no effect, and schools practising about 47 minutes a week scored 0.44–0.47 SD higher. With support, over 20% of learners hit the weekly goal, against about 10% without.",
+     "sources": [
+      "Four Things to Look for in Edtech, and How Khan Academy Measures Up"
+     ],
+     "sourceIds": [
+      "four-things-to-look-for-in-edtech-and-how-khan-academy-measures-up"
+     ]
+    },
+    {
+     "heading": "A tutor needs to know the learner's last answers",
+     "body": "Khan Academy ran about 20 A/B tests on its AI tutor. Giving it the student's recent answers and missing basics raised next-question correctness by 6.1% in total, and limiting it to the student's own work cut answer give-aways by 50%.",
+     "sources": [
+      "How Khan Academy Is Building a Better AI Tutor: Our Most Recent Learnings"
+     ],
+     "sourceIds": [
+      "how-khan-academy-is-building-a-better-ai-tutor-our-most-recent-learnin"
+     ]
+    },
+    {
+     "heading": "Low-stakes tests, with every answer reviewable",
+     "body": "Babbel's level test was framed as low-stakes and ended with a clear result and a review of every answer. 80% finished it, and about 90% reviewed their answers at the end.",
+     "sources": [
+      "Testing, testing — how we created an assessment tool for Babbel users"
+     ],
+     "sourceIds": [
+      "testing-testing-how-we-created-an-assessment-tool-for-babbel-users"
+     ]
+    },
+    {
+     "heading": "Remove steps between opening the app and the first question",
+     "body": "Busuu removed one activity menu screen and saw a 27% rise in unit completion. Unacademy rebuilt its exam-prep app around plan, self-study and progress, with a planner that shows free time in the day.",
+     "sources": [
+      "Re-designing busuu. One year as a Product Designer",
+      "Unacademy Rewrites the Book"
+     ],
+     "sourceIds": [
+      "re-designing-busuu-one-year-as-a-product-designer",
+      "unacademy-rewrites-the-book"
+     ]
+    }
+   ],
+   "try": [
+    "Practice: order a session's questions by how likely the learner is to get each wrong now, not by topic order.",
+    "Flashcards: when a card is missed, shorten its interval instead of resetting it to day 1, and show 'due today' as one number.",
+    "Practice: start a new topic with MCQs, then mix in recall-style questions once accuracy passes a set level.",
+    "Today's plan: set a weekly practice target (questions or minutes) and show progress toward it, not just a daily streak."
    ]
   },
   {
@@ -14848,6 +20217,18 @@ window.LIBRARY = {
       "designing-snapchat-and-the-future-of-music-jack-brody",
       "inside-etsy-s-product-growth-and-marketplace-evolution-tim-holley"
      ]
+    },
+    {
+     "heading": "Frequent and useful makes a habit",
+     "body": "Nir Eyal: habits form when an action is both frequent and clearly useful. Unfinished progress pulls people back (the Zeigarnik effect), but don't build a compulsive loop.",
+     "sources": [
+      "Getting Your Product Into the Habit Zone",
+      "Zeigarnik Effect: Why it's hard to leave things incomplete"
+     ],
+     "sourceIds": [
+      "getting-your-product-into-the-habit-zone",
+      "zeigarnik-effect-why-it-s-hard-to-leave-things-incomplete"
+     ]
     }
    ],
    "try": [
@@ -14856,6 +20237,28 @@ window.LIBRARY = {
     "Two free freezes on a new streak; 'Do 2 sessions today to earn it back' after a miss.",
     "A streak animation after the day's first study, bigger at 3, 7, 14 and 30 days.",
     "After a missed day, show 'Repair your streak' with one easy session, never a big broken counter."
+   ],
+   "examples": [
+    {
+     "app": "WHOOP",
+     "note": "Explains the streak rule in three lines under a week strip: when it starts, how to keep it, when it resets.",
+     "url": "https://mobbin.com/screens/8c343843-48fe-456f-8ecc-980625ba676d"
+    },
+    {
+     "app": "BitePal",
+     "note": "Big streak count and a month calendar, with two streak savers that apply automatically.",
+     "url": "https://mobbin.com/screens/c6961180-60fb-450b-88af-27755cdfd567"
+    },
+    {
+     "app": "LinkedIn",
+     "note": "Wend puzzle: streak freezes ready to use, milestone badges at 3, 5, 7 and 31 days, and a reminder toggle right on the result.",
+     "url": "https://mobbin.com/screens/ac97796a-bc39-417a-a3ec-b92d96040c1d"
+    },
+    {
+     "app": "Insight Timer",
+     "note": "The zero-day state: '0 consecutive days' with one line telling you to practise now.",
+     "url": "https://mobbin.com/screens/a3da0692-68e9-4a08-b6c1-daa8acd4a810"
+    }
    ]
   },
   {
@@ -14939,6 +20342,50 @@ window.LIBRARY = {
      "sourceIds": [
       "inside-etsy-s-product-growth-and-marketplace-evolution-tim-holley"
      ]
+    },
+    {
+     "heading": "Ask for push when it's clearly useful",
+     "body": "LinkedIn asks right after an action that makes alerts useful and names what you'll hear about: 5–10% opt in, against 1–2% for random prompts. NN/g found first-launch prompts mostly get 'Don't Allow'.",
+     "sources": [
+      "How Linkedin Increased Notification Opt-in Rates by 500%",
+      "Five Mistakes in Designing Mobile Push Notifications"
+     ],
+     "sourceIds": [
+      "how-linkedin-increased-notification-opt-in-rates-by-500",
+      "five-mistakes-in-designing-mobile-push-notifications"
+     ]
+    },
+    {
+     "heading": "Build the reminder that reaches everyone, often",
+     "body": "Phiture's RRF framework ranks ideas by reach, relevance and frequency. A daily message to every user at 0.5% CTR beats a perfect message that fires rarely.",
+     "sources": [
+      "RRF: A Framework for Building Impactful Notifications"
+     ],
+     "sourceIds": [
+      "rrf-a-framework-for-building-impactful-notifications"
+     ]
+    },
+    {
+     "heading": "Send at each learner's own time",
+     "body": "Kahuna data shows timing delivery to each user's habits lifted conversion by 384% on average. Utility-style pushes about the user's own routine got up to 40% engagement.",
+     "sources": [
+      "New data on push notifications show up to 40% CTRs, the best perform 4X better than the worst (Guest post)"
+     ],
+     "sourceIds": [
+      "new-data-on-push-notifications-show-up-to-40-ctrs-the-best-perform-4x-"
+     ]
+    },
+    {
+     "heading": "Education users opt in, so don't waste it",
+     "body": "Education has some of the highest push opt-in rates, and even top education apps send only about one push a day. Personalised win-backs work: SoundCloud got 5x more reactivations by naming the last track a user liked.",
+     "sources": [
+      "Mobile App Push Notification Benchmarks for 2025",
+      "Increasing Retention with Push, In-App and Email Part 3: Implementing the Strategy"
+     ],
+     "sourceIds": [
+      "mobile-app-push-notification-benchmarks-for-2025",
+      "increasing-retention-with-push-in-app-and-email-part-3-implementing-th"
+     ]
     }
    ],
    "try": [
@@ -14946,6 +20393,23 @@ window.LIBRARY = {
     "10–15 reminder versions rotated without repeats, judged by sessions started.",
     "A 10 PM streak saver only when today's plan isn't done.",
     "A lapsed-learner sequence: day 1–3 personal reminders, then weekly, then a 'start fresh' plan."
+   ],
+   "examples": [
+    {
+     "app": "Brilliant",
+     "note": "A pre-permission screen that previews a real reminder ('You're about to level up!') before the system prompt.",
+     "url": "https://mobbin.com/screens/c33921fd-b1a6-4f0e-8c59-70b4121a18c7"
+    },
+    {
+     "app": "ChatGPT",
+     "note": "Names the exact thing you'll be told about ('when tasks are done') above the system prompt.",
+     "url": "https://mobbin.com/screens/0fb5a49b-e98f-4f8f-803d-6571324fc342"
+    },
+    {
+     "app": "Cal AI",
+     "note": "Asks inside onboarding with one goal line and a pointing hand at Allow.",
+     "url": "https://mobbin.com/screens/021dbea1-92b5-4b3a-bed8-b1d677491e66"
+    }
    ]
   },
   {
@@ -15109,6 +20573,18 @@ window.LIBRARY = {
       "pricing-your-ai-product-lessons-from-400-companies-and-50-unicorns-mad",
       "mastering-onboarding-lauryn-isford"
      ]
+    },
+    {
+     "heading": "Show their result before the price",
+     "body": "Growth.Design's trial teardown argues for showing the user's own urgent result and letting them do the core action once before the paywall. A free gift that looks like a paywall gets read as an upsell.",
+     "sources": [
+      "The \"almost\" perfect trial conversion",
+      "Strava: When good UX intentions fail without psychology"
+     ],
+     "sourceIds": [
+      "the-almost-perfect-trial-conversion",
+      "strava-when-good-ux-intentions-fail-without-psychology"
+     ]
     }
    ],
    "try": [
@@ -15118,6 +20594,28 @@ window.LIBRARY = {
     "A second paywall after the first completed plan session for those who skipped. (The trial timeline is already in the app.)",
     "Check India pricing against conversion: if India converts 5x worse than the US, test a lower price.",
     "Judge every paywall test on revenue after refunds, on a matured cohort."
+   ],
+   "examples": [
+    {
+     "app": "Brilliant",
+     "note": "Trial timeline: today full access, a reminder on day 5, charged on day 7 with the exact date.",
+     "url": "https://mobbin.com/screens/c5954cee-b3b0-4d32-a959-bbd9907c5785"
+    },
+    {
+     "app": "5 Minute Journal",
+     "note": "Timeline plus an annual plan shown per month, and 'No payment now' under the button.",
+     "url": "https://mobbin.com/screens/0b03c06a-63c8-43dd-87ed-58fecc57f0a1"
+    },
+    {
+     "app": "pillowtalk",
+     "note": "Timeline with a user quote and the price per week under it.",
+     "url": "https://mobbin.com/screens/2f9bcce8-e4bd-4cf1-9027-3b8f44eb4ca6"
+    },
+    {
+     "app": "Cal AI",
+     "note": "Yearly as the default with 'save 75%', and the renewal terms in plain words.",
+     "url": "https://mobbin.com/screens/e145982d-dec3-4809-9325-816c72f9db32"
+    }
    ]
   },
   {
@@ -15187,6 +20685,28 @@ window.LIBRARY = {
     "A cancel survey: 'Exam done or postponed' → pause until the next cycle; 'Too expensive' → a cheaper Qbank-only plan.",
     "Before renewal, a recap: questions done, accuracy gained, by subject.",
     "Set up App Store retention messaging: 'Exam postponed? Pause instead of cancelling.'"
+   ],
+   "examples": [
+    {
+     "app": "Shopify",
+     "note": "Cancel shows cheaper options next to it: pause for less, or start again for $1.",
+     "url": "https://mobbin.com/screens/62e7fa56-6733-41c3-b1cf-60370165418f"
+    },
+    {
+     "app": "Glovo",
+     "note": "Names the money you'd lose ('Keep on saving 2,80 € on every order') with keep as the main button.",
+     "url": "https://mobbin.com/screens/9d295f34-a687-4b57-acfa-68c06a4692cc"
+    },
+    {
+     "app": "Lifesum",
+     "note": "Asks why you're leaving before sending you to the App Store.",
+     "url": "https://mobbin.com/screens/1c9bdd40-86bb-4859-88c0-485b4ca57a74"
+    },
+    {
+     "app": "Cash App",
+     "note": "After cancelling: what you still have until the end date, with 'Keep your service' one tap away.",
+     "url": "https://mobbin.com/screens/4a2ce607-549c-45a1-b03b-fb5d159504b6"
+    }
    ]
   },
   {
@@ -15395,6 +20915,64 @@ window.LIBRARY = {
       "how-swiggy-designs-0-1-products-ft-swiggy-designer",
       "12-senior-designers-show-their-engineering-handoff-process-figma-firef"
      ]
+    },
+    {
+     "heading": "Fast motion, under 300ms",
+     "body": "Emil Kowalski's rules: press scale about 0.97, start from 0.9+ not 0, ease-out, and keep UI animation under 300ms. Animations must be interruptible and respect reduced motion.",
+     "sources": [
+      "7 Practical Animation Tips",
+      "Great Animations"
+     ],
+     "sourceIds": [
+      "7-practical-animation-tips",
+      "great-animations"
+     ]
+    },
+    {
+     "heading": "Copy the platform's hidden rules for sheets",
+     "body": "A bottom sheet feels native only with flick-to-dismiss, damped over-drag and iOS's curve at 500ms. Haptics should mean one thing each and match the animation.",
+     "sources": [
+      "Building a drawer component",
+      "Playing haptics"
+     ],
+     "sourceIds": [
+      "building-a-drawer-component",
+      "playing-haptics"
+     ]
+    },
+    {
+     "heading": "Keep the main tabs visible",
+     "body": "NN/g found visible navigation was used 86% of the time on phones against 57% when hidden, and hidden menus made people 15% slower.",
+     "sources": [
+      "Hamburger Menus and Hidden Navigation Hurt UX Metrics"
+     ],
+     "sourceIds": [
+      "hamburger-menus-and-hidden-navigation-hurt-ux-metrics"
+     ]
+    },
+    {
+     "heading": "Show progress on every wait",
+     "body": "With a moving progress bar, people waited about 3 times longer. When work should look heavy, showing it happen raises trust.",
+     "sources": [
+      "Progress Indicators Make a Slow System Less Insufferable",
+      "Labor Perception Bias: Why faster isn't always better"
+     ],
+     "sourceIds": [
+      "progress-indicators-make-a-slow-system-less-insufferable",
+      "labor-perception-bias-why-faster-isn-t-always-better"
+     ]
+    },
+    {
+     "heading": "Design the peak and the ending",
+     "body": "People remember the most intense moment and the end: 80% chose to repeat a longer but better-ending cold-water trial. Celebrate the learner's real milestone, not the app's.",
+     "sources": [
+      "The Peak–End Rule: How Impressions Become Memories",
+      "Why Confetti Celebrations Backfire (and How to Make Them Work)"
+     ],
+     "sourceIds": [
+      "the-peak-end-rule-how-impressions-become-memories",
+      "why-confetti-celebrations-backfire-and-how-to-make-them-work"
+     ]
     }
    ],
    "try": [
@@ -15560,6 +21138,16 @@ window.LIBRARY = {
       "defining-the-visual-language-for-doordash-kathryn-gonzalez",
       "lessons-from-the-founding-designer-at-linear-adrien-griveau",
       "how-airbnb-innovates-with-design-teo-connor"
+     ]
+    },
+    {
+     "heading": "Make polish a weekly habit",
+     "body": "Linear's Quality Wednesdays: everyone fixes one small flaw a week, usually 30 minutes or less. Over 1,000 fixes later, the team spots flaws before they ship.",
+     "sources": [
+      "Quality Wednesdays: How we trained our team to see what doesn’t work"
+     ],
+     "sourceIds": [
+      "quality-wednesdays-how-we-trained-our-team-to-see-what-doesn-t-work"
      ]
     }
    ],
@@ -15744,29 +21332,50 @@ window.LIBRARY = {
  ],
  "icons": [
   "24-hour-fitness",
+  "5-minute-journal",
   "8fit",
   "abbyy-finereader",
   "adobe",
+  "ahead",
+  "air-new-zealand",
   "airbnb-experiences",
   "airbnb",
   "airtable",
   "amazon",
   "amo",
+  "anki",
+  "any-do",
   "apartment-list",
   "apple-app-store",
   "apple",
   "arc",
   "atlassian",
+  "audible",
+  "babbel",
+  "bbc",
   "beyond-identity",
+  "bitepal",
   "blade-razorpay-design-system",
   "blinkist",
+  "bluesky",
   "boldvoice",
+  "brainsparker",
+  "brilliant",
+  "bunpro",
+  "burner",
+  "busuu",
+  "cal-ai",
   "calm",
   "canva",
+  "cash-app",
   "character",
   "chargeflow",
+  "chase",
+  "chatgpt",
+  "checklist",
   "chess-com",
   "citizen",
+  "clash-of-clans",
   "clay",
   "clearful",
   "clout-monster",
@@ -15776,7 +21385,9 @@ window.LIBRARY = {
   "comet",
   "cosmos",
   "craft",
+  "crunchyroll",
   "cursor",
+  "datadog",
   "deel",
   "delphi",
   "descript",
@@ -15786,9 +21397,13 @@ window.LIBRARY = {
   "dropbox",
   "duckduckgo",
   "duolingo",
+  "elevate",
   "elevenlabs",
   "etsy",
   "eventbrite",
+  "evernote",
+  "expensify",
+  "fabulous",
   "facebook",
   "family",
   "figjam",
@@ -15796,34 +21411,49 @@ window.LIBRARY = {
   "figma",
   "find-my",
   "firefox",
+  "fishbrain",
   "fitnessai",
+  "fitplan",
   "flighty",
   "flipkart",
   "flo",
+  "focus-traveller",
+  "freeprints",
   "github",
   "givebutter",
+  "glovo",
   "gmail",
+  "google-earth",
   "google-meet",
+  "google",
   "grammarly",
   "granola",
   "habitica",
   "hand-mirror",
   "headspace",
   "hinge",
+  "hopper",
+  "hubspot",
   "huckleberry",
+  "hulu",
   "imperfect-foods",
   "impulse",
+  "insight-timer",
   "instacart",
   "instagram",
   "intercom-fin",
   "intercom",
   "invideo",
+  "jira",
   "jupiter-money",
+  "kayak",
   "khan-academy",
   "laika",
   "lattice",
+  "lego",
   "lemonade",
   "life360",
+  "lifesum",
   "limitless",
   "linear",
   "linkedin",
@@ -15831,28 +21461,44 @@ window.LIBRARY = {
   "lyft",
   "mailchimp",
   "mailman",
+  "maytag",
+  "medium",
   "mercury",
+  "microsoft-power-bi",
   "midjourney",
   "mimo",
+  "mindnode",
+  "minecraft",
   "miro",
   "mojo",
   "nara-baby",
   "natal",
   "netflix",
   "nextdoor",
+  "night-sky",
+  "noaa-weather",
   "noom",
   "one-medical",
+  "openai",
+  "otter",
   "outlook",
   "outpace",
   "patreon",
   "pepper",
+  "pillowtalk",
   "pinterest",
   "plaid",
   "pocket-fm",
+  "productive",
+  "progressive",
+  "quizlet",
   "ramp",
   "rapidapi",
+  "raycast",
   "razorpay",
   "reclaim",
+  "reddit",
+  "reflectly",
   "reliance-jio",
   "retro",
   "rise",
@@ -15860,12 +21506,15 @@ window.LIBRARY = {
   "runway",
   "shopify",
   "sierra",
+  "sketch-book",
   "skyscanner",
   "slack",
   "slopes",
   "snapchat",
   "snapdeal",
+  "soundcloud",
   "speak4me",
+  "sportscenter",
   "spotify",
   "strava",
   "stripe-checkout",
@@ -15873,24 +21522,46 @@ window.LIBRARY = {
   "sundial",
   "suno",
   "superhuman",
+  "supermemo",
   "sweatcoin",
   "swiggy",
   "tableau",
+  "target",
+  "temple-run-2",
+  "the-economic-times",
+  "the-new-york-times",
   "thoughtspot",
   "tinder",
   "tolan",
+  "too-good-to-go",
   "tripadvisor",
+  "turbotax",
+  "turo",
   "twilio",
+  "twitch",
   "twitter",
   "tytocare",
+  "uber",
+  "unacademy",
+  "united-airlines",
+  "venmo",
+  "vercel",
   "warp",
+  "waze",
   "wealthfront",
   "wealthsimple",
   "webflow",
+  "wetransfer",
+  "what-the-forecast",
   "whatsapp",
+  "whereby",
+  "whoop",
+  "wise",
   "wyzant",
   "x",
   "youtube",
+  "zapier",
+  "zazzle",
   "zoom"
  ],
  "built": "2026-11-11"
