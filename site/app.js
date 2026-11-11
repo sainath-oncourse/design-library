@@ -64,6 +64,8 @@
     trial: ["paywall", "trial"], price: ["paywall", "pricing", "plan"], pricing: ["paywall", "plan"], subscribe: ["paywall", "conversion"], conversion: ["paywall"], buy: ["paywall", "conversion"],
     new: ["onboarding", "activation", "first"], week: ["activation", "first"], first: ["onboarding", "activation"], signup: ["sign-up", "onboarding"], activation: ["onboarding", "first"], onboard: ["onboarding"],
     streak: ["streak", "streaks", "freeze"], streaks: ["streak", "freeze"], habit: ["streak", "retention", "daily"], retention: ["streak", "retain"], daily: ["streak", "habit"], study: ["lesson", "session"],
+    ai: ["claude", "cursor", "prototype", "prototyping"], claude: ["ai", "prototype"], cursor: ["ai", "prototype"], prototype: ["prototyping", "prototypes"], prototyping: ["prototype"],
+    crit: ["crits", "critique", "feedback"], crits: ["crit", "critique"], critique: ["crit", "crits"], handoff: ["engineers", "handoff"], delight: ["delight", "playful", "motion"],
     learners: ["users", "learner"], users: ["learner"], freeze: ["freezes", "streak"], freezes: ["freeze", "streak"],
   };
   const words = (q) => q.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").split(/\s+/).filter((w) => w.length > 1 && !STOP.has(w));
@@ -96,6 +98,9 @@
     "What makes a free trial feel safe to start?",
     "How should tabs and navigation work?",
     "How do we make screens accessible?",
+    "How do designers prototype with Claude Code?",
+    "How should we run design crits?",
+    "How do we add delight without clutter?",
   ];
 
   function renderAnswer(q) {
@@ -139,7 +144,7 @@
     app.innerHTML = `
       <section class="hero">
         <h1>We read the design talks<br/>so you don't have to</h1>
-        <p class="lede">What apps like Duolingo, Headspace and Calm changed in onboarding, practice, streaks, reminders, paywalls and renewal, and how teams like Apple and Linear design screens. Every point links to its source, with ideas for OnCourse.</p>
+        <p class="lede">What apps like Duolingo, Headspace and Calm changed in onboarding, practice, streaks, reminders, paywalls and renewal, and how design teams at Apple, Linear, Airbnb, Swiggy and Razorpay work, including with AI tools. Every point links to its source, with ideas for OnCourse.</p>
         <div class="stats">
           <div><strong>${sources.length}</strong><span>videos, talks and case studies</span></div>
           <div><strong>${testedCount}</strong><span>with tested results</span></div>
