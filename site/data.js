@@ -19621,6 +19621,6598 @@ window.LIBRARY = {
     "why": "It is two paragraphs and gives the frequency vs utility frame to judge any OnCourse habit feature."
    },
    "id": "getting-your-product-into-the-habit-zone"
+  },
+  {
+   "Title": "Google: How can we reduce customer churn?",
+   "Creator": "Irrational Labs",
+   "Type": "Case study",
+   "Link": "https://irrationallabs.com/case-studies/google-how-can-we-reduce-customer-churn/",
+   "Apps": [
+    "Google AdWords"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Progress & streaks",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "When results come slowly, frame the start as a fixed multi-month plan and get users to pre-commit to future dates, so early weak results don't feel like failure.",
+   "What they did": "New AdWords customers who called Google's call centre for the first time were randomly split into two groups. The control got the usual call. The treatment group was told they were in \"My 3 Month AdWord Expert Access Plan\": reps repeated \"three months\" often, asked about long-term goals, and booked five future free optimisation calls that the customer pre-committed to on the first call.",
+   "Results": "\"Retention rates for AdWords users in the '3-Month Expert Access Program' group increased by 14 percent.\"",
+   "Takeaways": "Slow results cause early churn; Set a long time frame from day one; Pre-commit to future sessions on the first call; Repeat the time frame so it sticks",
+   "Ideas for OnCourse": "Onboarding: frame the start as \"your 90-day NEET-PG plan\" with week markers, and say that early mock scores are expected to be low. Today's plan: on day 1, ask the user to pick their next three study slots and show them as booked sessions. Notifications: remind users of the session they committed to, in their own words, not a generic nudge",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://irrationallabs.com/content/uploads/2020/10/IL-Logo.jpg",
+   "Key points": [
+    {
+     "title": "Slow results cause early churn",
+     "detail": "New AdWords users design an ad and then wait to see if it works. Their first ad is often weak, and \"without seeing immediate, positive ad results, some new AdWords users were churning in their first two months.\" Irrational Labs compares this to dieting, where effort does not show up right away. Exam prep is the same: the first mock scores are low, and progress is hard to see for weeks.",
+     "t": null
+    },
+    {
+     "title": "Set a long time frame from day one",
+     "detail": "The team wanted to move users from a short-term mindset (\"I need to see results ASAP!\") to a long-term one (\"I am investing to get a great return in the future\"). They picked three months on purpose, to give a \"mental benchmark that advertising requires time to learn.\" A clear time frame changes what a bad early result means. For OnCourse, a named multi-month plan can make a low first score feel normal, not like proof the app doesn't work.",
+     "t": null
+    },
+    {
+     "title": "Pre-commit to future sessions on the first call",
+     "detail": "The expert set up a series of five future calls to help optimise the account for free. \"On the first call, the customer pre-committed to these future dates.\" Booking the dates made the long-term approach concrete. OnCourse could ask new users to book their next few study sessions during onboarding.",
+     "t": null
+    },
+    {
+     "title": "Repeat the time frame so it sticks",
+     "detail": "Reps \"repeated the 'three months' phrase often\" and asked customers about their long-term advertising goals. The plan had a name and a number, not just a promise of help. That framing, plus the booked calls, lifted retention by 14% against a randomly assigned control group.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The Challenge",
+     "title": "Why new users churned",
+     "summary": "AdWords users don't see fast results, so they give up in the first two months."
+    },
+    {
+     "t": null,
+     "anchor": "Hypothesis",
+     "title": "Short-term vs long-term mindset",
+     "summary": "Closing the intention-action gap by giving users a long-term frame."
+    },
+    {
+     "t": null,
+     "anchor": "Process",
+     "title": "The 3-month plan experiment",
+     "summary": "Random split of first-time callers; treatment got a named 3-month plan and five pre-committed calls."
+    },
+    {
+     "t": null,
+     "anchor": "Results",
+     "title": "Results",
+     "summary": "Retention rose 14% in the 3-month plan group."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Process",
+    "why": "One short section shows the whole intervention: a named time frame, repetition and pre-committed future sessions."
+   },
+   "id": "google-how-can-we-reduce-customer-churn"
+  },
+  {
+   "Title": "Livongo: How can we get people with chronic conditions to better take care of their health?",
+   "Creator": "Irrational Labs",
+   "Type": "Case study",
+   "Link": "https://irrationallabs.com/case-studies/livongo/",
+   "Apps": [
+    "Livongo"
+   ],
+   "Topics": [
+    "Copy",
+    "Notifications",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Activation",
+    "Conversion"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Framing a free benefit as something the user already owns and only has to claim (\"Claim Your Welcome Kit\") more than doubled sign-ups compared with \"Join the Program\".",
+   "What they did": "Livongo emailed people with diabetes who were eligible for its free program through their employer. The control email said \"Join the Program.\" The test email used \"Claim Your Welcome Kit\" in the subject line, headline, button and body, using the endowment effect and a hint that others are claiming a limited resource.",
+   "Results": "Over 15,000 people were emailed. \"The 'Claim Your Welcome Kit' condition increased open rates by 25% and click-through rates by 88%.\" \"The experiment increased registration rate within 1 week of the email outreach by more than 120%.\"",
+   "Takeaways": "Many people skip benefits they already have for free; Claim framing beats join framing; Change the frame everywhere, not just the button; Small copy changes can double sign-ups",
+   "Ideas for OnCourse": "Notifications: for lapsed users, write \"Your plan for today is ready. Claim it\" instead of \"Come back and study.\" Renewal: frame the win-back offer as \"your saved progress and 1,200 solved MCQs are waiting\", things they already own. Onboarding: after the diagnostic, show a \"Your personal study plan\" card to claim, not a generic \"Start learning\" button",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://irrationallabs.com/content/uploads/2020/07/16iVyw38SJpn4-lZR1D_DEA.jpeg",
+   "Key points": [
+    {
+     "title": "Many people skip benefits they already have for free",
+     "detail": "Many eligible people get the Livongo program, with a connected glucose meter, unlimited strips and a diabetes educator, at no cost through their employer. Yet \"many eligible people fail to sign up, forfeiting potentially life-saving resources.\" Free is not enough to get people to act. That gap is the same for a free trial or a free daily plan in OnCourse.",
+     "t": null
+    },
+    {
+     "title": "Claim framing beats join framing",
+     "detail": "The test changed \"Join the Program\" to \"Claim Your Welcome Kit.\" Irrational Labs based this on the endowment effect (the new framing \"creates a sense of ownership\") and social proof and scarcity (it implies \"other people are claiming this limited resource\"). Joining feels like a new commitment, while claiming feels like taking what is already yours.",
+     "t": null
+    },
+    {
+     "title": "Change the frame everywhere, not just the button",
+     "detail": "The \"Claim Your Welcome Kit\" framing was used \"in the subject line, headline, call-to-action button, and email body.\" A single consistent message did the work, not just a button label change. When OnCourse tests framing in a notification or win-back email, the headline, body and button should all carry the same idea.",
+     "t": null
+    },
+    {
+     "title": "Small copy changes can double sign-ups",
+     "detail": "With over 15,000 recipients, the claim email lifted open rates by 25%, click-through by 88% and one-week registration by more than 120%. People in the treatment \"signed up ... at more than double the rate of the control group.\" Livongo then planned to use the theme in direct mail, landing pages and other emails.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The Challenge",
+     "title": "The challenge",
+     "summary": "Eligible people with diabetes don't sign up for a free program."
+    },
+    {
+     "t": null,
+     "anchor": "Hypothesis",
+     "title": "Join vs claim",
+     "summary": "Why \"Claim Your Welcome Kit\" should work: endowment effect and social proof."
+    },
+    {
+     "t": null,
+     "anchor": "Experiment",
+     "title": "The email test",
+     "summary": "Control vs claim framing across subject, headline, button and body."
+    },
+    {
+     "t": null,
+     "anchor": "Results",
+     "title": "Results",
+     "summary": "Opens +25%, clicks +88%, one-week registration +120%."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Hypothesis",
+    "why": "It explains in a few lines why claim framing works, which you can reuse in any OnCourse notification or win-back copy."
+   },
+   "id": "livongo-how-can-we-get-people-with-chronic-conditions-to-better-take-c"
+  },
+  {
+   "Title": "How to Boost Product Engagement with the Endowment Effect: A Case Study in Bitcoin",
+   "Creator": "Irrational Labs",
+   "Type": "Case study",
+   "Link": "https://irrationallabs.com/case-studies/how-to-boost-product-engagement-with-the-endowment-effect-a-case-study-in-bitcoin/",
+   "Apps": [
+    "Livongo",
+    "One Medical",
+    "Warby Parker",
+    "Salesforce",
+    "Tinder",
+    "Wayfair"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Paywall",
+    "Gamification"
+   ],
+   "Goal": [
+    "Activation",
+    "Conversion"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Giving people something tiny that is already theirs (a fraction of a cent of Bitcoin) beat education by 700%, because the feeling of ownership, not the money, drove action.",
+   "What they did": "Irrational Labs recruited 1,200 Americans who had never owned crypto and split them into groups. One group got 1 Satoshi ($0.0003) placed in a free wallet they only had to open; another was just told about the free wallet; a third got about $1 of Bitcoin. They then measured how many created the wallet, which takes several steps and verifications.",
+   "Results": "Endowing participants \"vastly increased wallet creation (700%!).\" \"There was no statistical difference between the small and large endowment conditions.\" The piece also cites Livongo's claim framing increasing registration \"by 120%\" and One Medical's streamlined sign-up increasing \"conversion to bookings by 20%.\"",
+   "Takeaways": "When friction can't drop, raise motivation; A near-worthless gift still worked; Ownership feeling, not value, drives action; Free trials, samples and gifts all create endowment; Tell users the product is already theirs to activate",
+   "Ideas for OnCourse": "Onboarding: put a pre-built \"Your Day 1 plan\" with the user's name on Home before sign-up finishes, so it already feels theirs. Paywall: give free users one premium mock test already unlocked in their account (\"1 Grand Test is yours\") rather than a locked preview. Renewal: remind lapsing users of what is theirs (notes, bookmarks, streak history) instead of listing features",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://irrationallabs.com/content/uploads/2024/03/Design-of-Bitcoin-Experiment.png",
+   "Key points": [
+    {
+     "title": "When friction can't drop, raise motivation",
+     "detail": "The team listed four barriers to crypto adoption: negative mental models, ambiguity aversion, cognitive overload and logistical friction. They say \"reducing friction is usually the simplest way to drive behavior change,\" but opening a wallet was \"just hard and hard to change.\" So the only lever left was motivation. Some OnCourse steps, like a long mock test, can't be made much shorter, so motivation has to carry them.",
+     "t": null
+    },
+    {
+     "title": "A near-worthless gift still worked",
+     "detail": "One group got 1 Satoshi, about $0.0003, put into a free wallet. Another only learned about the wallet. The endowed group created wallets at a much higher rate, a 700% increase. The team \"was skeptical going in\" because the amount was \"less than 1 cent for some people.\"",
+     "t": null
+    },
+    {
+     "title": "Ownership feeling, not value, drives action",
+     "detail": "A third group got about $1 instead of a fraction of a cent, and there was \"no statistical difference\" between the two. So \"people weren't just after the money.\" The intervention \"made people feel like they already owned Bitcoin, even before they had opened a wallet.\" The article says perceived ownership is what matters, so a small, personal thing given early can be enough.",
+     "t": null
+    },
+    {
+     "title": "Free trials, samples and gifts all create endowment",
+     "detail": "The piece lists examples: Warby Parker's home try-on, Salesforce's 30-day trial with no card, Tinder's one free Super Like a day, and AR try-ons. It sums up four ways to use the effect: free trials, samples, mental models and gifts (\"Hi, here's a $5 credit you can use\"). For OnCourse, one unlocked premium test or a personal plan are cheap forms of endowment.",
+     "t": null
+    },
+    {
+     "title": "Tell users the product is already theirs to activate",
+     "detail": "One of the four tactics is to \"remind users that the product is already theirs and they just need to activate, or 'claim ownership'.\" Livongo did this and saw registrations rise by 120%. In OnCourse, activation copy can say \"your plan is ready\" rather than \"create a plan.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Overcoming Bitcoin’s Hurdles: The 4 Major Barriers to Adoption",
+     "title": "Four barriers",
+     "summary": "Negative mental models, ambiguity aversion, cognitive overload and logistical friction."
+    },
+    {
+     "t": null,
+     "anchor": "How We Increased Adoption",
+     "title": "Why endowment",
+     "summary": "With friction fixed, motivation via the endowment effect was the only lever."
+    },
+    {
+     "t": null,
+     "anchor": "The Satoshi Experiment: Sparking Wallet Creation With Micro-Endowments",
+     "title": "The experiment",
+     "summary": "1,200 people; tiny endowment vs education vs ~$1 endowment."
+    },
+    {
+     "t": null,
+     "anchor": "The Big Insight: Endow People with Your Product",
+     "title": "Result",
+     "summary": "700% more wallets; amount didn't matter."
+    },
+    {
+     "t": null,
+     "anchor": "You Don’t Have to Give it Away",
+     "title": "Examples from other products",
+     "summary": "Free try-ons, trials, daily free features and gifts."
+    },
+    {
+     "t": null,
+     "anchor": "4 Ways Your Product Can Use the Endowment Effect",
+     "title": "Four ways to apply it",
+     "summary": "Free trials, samples, mental models and gifts."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The Big Insight: Endow People with Your Product",
+    "why": "It gives the result and the surprising finding that the size of the gift didn't matter."
+   },
+   "id": "how-to-boost-product-engagement-with-the-endowment-effect-a-case-study"
+  },
+  {
+   "Title": "Merit America: Doubling Career Track Course Completion Rates",
+   "Creator": "Irrational Labs",
+   "Type": "Case study",
+   "Link": "https://irrationallabs.com/case-studies/merit-america-doubling-career-track-completion/",
+   "Apps": [
+    "Merit America"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Paywall",
+    "Progress & streaks",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Learners drop out when a scary payment step is vague and badly timed; tell them early, show a clear timeline, break the task into a checklist and set an early deadline.",
+   "What they did": "Merit America's training programs cost $0 upfront but need students to sign up for a loan they repay after getting a job. Students froze at the loan details. Irrational Labs changed when payment was introduced (at application, with a pre-commitment), drew a repayment timeline, turned the paperwork into a checklist, cut the information to three key questions and set a deadline before the real one.",
+   "Results": "\"Course completions for the September Data Analytics cohort doubling (100% increase, with 42% completion vs. 21% before).\" This is a before/after comparison of cohorts, not a randomised test.",
+   "Takeaways": "Vague payment info causes decision paralysis; Tell people early and ask them to pre-commit; Show a timeline to make the future concrete; Chunk big tasks into a checklist; Set a deadline before the real deadline",
+   "Ideas for OnCourse": "Paywall: add a simple timeline showing what is paid today, when the plan renews and when the exam is, so cost feels concrete. Today's plan: break a long Grand Test or revision block into a checklist of small steps with visible ticks. Design process: for any scary step (payment, mock test), show only three things: what it costs, when, and who it's for",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://irrationallabs.com/content/uploads/2024/11/Merit-Screen-e1730993187397.png",
+   "Key points": [
+    {
+     "title": "Vague payment info causes decision paralysis",
+     "detail": "Students were excited about the program, \"then they froze\" when they saw the loan. They didn't know when they would repay, if they owed anything now, or what happened if they didn't get a job. The team names the barriers as ambiguity, cost salience, cognitive scarcity and present bias. Loan options were framed as \"payment\" decisions, which made people think they had to pay upfront.",
+     "t": null
+    },
+    {
+     "title": "Tell people early and ask them to pre-commit",
+     "detail": "The team moved payment information to the time of application \"to prevent situations of distrust in the future.\" They asked people to \"pre-commit to completing the loan application at the time of application.\" They also gave a dedicated time during the program to do the paperwork and ask questions. For OnCourse, renewal and price details should appear early and clearly, not as a surprise.",
+     "t": null
+    },
+    {
+     "title": "Show a timeline to make the future concrete",
+     "detail": "They \"revisualized the repayment timeline for students at the time of application.\" The picture made it clear \"that actual loan repayment would not begin until after the course was completed.\" Making the future concrete reduced fear. A paywall timeline (today, trial end, renewal, exam date) can do the same.",
+     "t": null
+    },
+    {
+     "title": "Chunk big tasks into a checklist",
+     "detail": "People handle information better when it is \"chunked\" into small pieces. The team built a checklist for the loan application so people could \"check off each completed item to make progress salient.\" They advise asking people \"to complete one small step at a time.\" OnCourse can split big study tasks the same way.",
+     "t": null
+    },
+    {
+     "title": "Set a deadline before the real deadline",
+     "detail": "They enforced \"a deadline that is prior to the actual deadline to encourage early action.\" They also cut the information down to three questions: how much it costs, when repayment starts and who qualifies. Course completion went from 21% to 42% for the September Data Analytics cohort.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Step 1: Behavioral Diagnosis",
+     "title": "Diagnosis",
+     "summary": "Ambiguity and salient cost made students defer the loan decision."
+    },
+    {
+     "t": null,
+     "anchor": "Step 2: Identify the Psychologies at Play",
+     "title": "Psychology",
+     "summary": "Cognitive scarcity and present bias."
+    },
+    {
+     "t": null,
+     "anchor": "Redesigned Timing",
+     "title": "Timing",
+     "summary": "Tell at application, pre-commit, give a time slot, and use an early deadline."
+    },
+    {
+     "t": null,
+     "anchor": "Simplified the Process",
+     "title": "Simplify",
+     "summary": "Repayment timeline, checklist chunking and only three salient questions."
+    },
+    {
+     "t": null,
+     "anchor": "The Impact",
+     "title": "Impact",
+     "summary": "Completion rose from 21% to 42%."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Simplified the Process",
+    "why": "It lists the concrete design moves (timeline, checklist, three questions) you can copy into OnCourse's paywall and study plan."
+   },
+   "id": "merit-america-doubling-career-track-course-completion-rates"
+  },
+  {
+   "Title": "Doubling New Engagement With Lyft’s Women+ Connect Feature",
+   "Creator": "Irrational Labs",
+   "Type": "Case study",
+   "Link": "https://irrationallabs.com/case-studies/doubling-engagement-lyft-women-connect/",
+   "Apps": [
+    "Lyft"
+   ],
+   "Topics": [
+    "Notifications",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Follow-up reminders more than doubled feature opt-ins, but the message that got the most taps was not the one that drove the most usage, so pick the message for the behaviour you actually want.",
+   "What they did": "About half of eligible Lyft drivers had not opted in to Women+ Connect. Irrational Labs randomly assigned them to three push message styles (Neutral, Confirm Settings, Concreteness) or a no-message control, and each driver got a series of notifications in their assigned style. They measured opt-ins, taps, driver hours and shift starts.",
+   "Results": "\"The messages increased opt-ins between 83-173% relative to the no message control group.\" \"The Confirm Settings message led to 173% more opt-ins.\" The Concreteness message had the fewest opt-ins but drivers \"started around one additional driving shift per week relative to control.\" \"The average tap rate on the first push was approximately 10%, while the second push got around 7%.\"",
+   "Takeaways": "One announcement is not enough; Ask users to check their settings; Concrete when-and-why messages drive real usage; Decide the goal before picking the winner; The second push still works",
+   "Ideas for OnCourse": "Notifications: test a concrete \"when and why\" reminder (\"Before your 7 pm revision, do 10 Pharmacology MCQs you got wrong\") against a generic one, and measure sessions, not just taps. Notifications: send a second reminder to users who ignored a new feature like Flashcards, then stop once they act. Design process: for each message test, pick the success metric (opens vs. study minutes) before choosing the winner",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://irrationallabs.com/content/uploads/2024/09/Kirsten-Quote.png",
+   "Key points": [
+    {
+     "title": "One announcement is not enough",
+     "detail": "Women+ Connect was highly requested, yet about half of eligible drivers had not opted in. People get a flood of notifications (\"an average of 376 daily notifications\"), and drivers also track incentives and demand. All three follow-up messages raised opt-ins by 83–173% over no message. A single launch notice is easy to miss.",
+     "t": null
+    },
+    {
+     "title": "Ask users to check their settings",
+     "detail": "The Confirm Settings message asked drivers to double-check their settings, to make them \"pause and reflect on their choices.\" The team avoided words like \"verify\" or \"attention!\", which feel like fraud warnings. It had the highest tap rate and 173% more opt-ins than control.",
+     "t": null
+    },
+    {
+     "title": "Concrete when-and-why messages drive real usage",
+     "detail": "The Concreteness message gave \"a specific example of the 'when and why' of the feature.\" It got the fewest taps and opt-ins, but drivers who got it \"drove more hours and started around one additional driving shift per week relative to control.\" The authors think it made drivers \"think more concretely about their next ride.\" For OnCourse, a specific reminder about the next study session may build more habit than a catchy one.",
+     "t": null
+    },
+    {
+     "title": "Decide the goal before picking the winner",
+     "detail": "There may be \"a trade off between attracting attention to a new feature, and getting people to use the feature (and the product overall) in the long term.\" The best tactic \"depends on the overall goal of the messaging campaign.\" Lyft now sends both the Concreteness and Confirm Settings messages as automated campaigns.",
+     "t": null
+    },
+    {
+     "title": "The second push still works",
+     "detail": "The first push had a tap rate of about 10% and the second about 7%. The authors recommend sending a follow-up \"only to eligible users who haven't acted, and stop once they do,\" and tracking opt-outs alongside opt-ins. That gives a clear rule for OnCourse reminder cadence.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The Opportunity",
+     "title": "The opportunity",
+     "summary": "Half of eligible drivers hadn't opted in to a requested feature."
+    },
+    {
+     "t": null,
+     "anchor": "The Challenge",
+     "title": "Capturing attention",
+     "summary": "Notification overload and competing priorities hide new features."
+    },
+    {
+     "t": null,
+     "anchor": "The Solution",
+     "title": "Three messages",
+     "summary": "Neutral, Confirm Settings and Concreteness vs a no-message control."
+    },
+    {
+     "t": null,
+     "anchor": "The Impact",
+     "title": "Impact",
+     "summary": "Opt-ins up 83–173%; Concreteness drove the most driving."
+    },
+    {
+     "t": null,
+     "anchor": "Lessons Learned",
+     "title": "Lessons",
+     "summary": "Capture attention, use concreteness for usage, be clear on the goal, and remind again."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The Impact",
+    "why": "It shows the trade-off between taps and real usage, which matters for every OnCourse reminder test."
+   },
+   "id": "doubling-new-engagement-with-lyft-s-women-connect-feature"
+  },
+  {
+   "Title": "Creating Habits in Healthcare: How We Helped a Large Pharma Partner Design Better Symptom Tracking for Cancer Patients",
+   "Creator": "Irrational Labs",
+   "Type": "Case study",
+   "Link": "https://irrationallabs.com/case-studies/creating-habits-in-healthcare-digital-patient-monitoring/",
+   "Apps": [],
+   "Topics": [
+    "Home",
+    "Notifications",
+    "Progress & streaks",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Instead of relying on a fixed weekly routine people forget, tie the habit to a natural cue, make the in-the-moment action two questions long, and reward it right away with useful help.",
+   "What they did": "Irrational Labs redesigned a symptom-tracking app for patients with liver, kidney and breast cancer. Research showed patients forgot symptoms by the weekly report, so they built a two-tier system: a two-question report when a symptom happens, plus a short weekly review that shows recent symptoms up front. Each report returns tips voted on by similar patients, and reminders come from trusted messengers like family or the doctor.",
+   "Results": null,
+   "Takeaways": "Fixed weekly routines fail when memory fails; Use the natural cue as the reminder; Cut the in-the-moment task to two questions; Reward the action immediately with useful help; Pick a trusted messenger for reminders",
+   "Ideas for OnCourse": "Practice: when a user gets a question wrong, offer a one-tap \"add to revision\" in the moment, so the weekly review starts pre-filled. Today's plan: show recently weak topics first so the user doesn't have to remember what to revise. Notifications: test reminders framed from a mentor or topper (\"Dr. X's tip for today\") against app-voice reminders",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://irrationallabs.com/content/uploads/2024/07/Screenshot-2024-07-16-at-09.29.33.png",
+   "Key points": [
+    {
+     "title": "Fixed weekly routines fail when memory fails",
+     "detail": "A routine at the same time each week is often a good strategy, but the diagnosis \"highlighted the shortcomings of that approach\" for cancer symptoms. Patients suffer \"prospective memory failure\": they intend to report and then forget, made worse by treatment and stress. By Friday a patient feels fine and only vaguely remembers Tuesday's pain. Busy exam aspirants have the same problem remembering what they got wrong.",
+     "t": null
+    },
+    {
+     "title": "Use the natural cue as the reminder",
+     "detail": "The team found that \"the symptoms themselves are a natural reminder – salient and immediate.\" They changed the mental model to \"Report When You Don’t Feel Well.\" The habit is tied to a moment that already happens, not to a calendar slot.",
+     "t": null
+    },
+    {
+     "title": "Cut the in-the-moment task to two questions",
+     "detail": "In-the-moment reporting went \"from five or more questions to just two.\" Patients are often unwell when they notice a symptom, and \"a short survey is more likely to get completed when energy is low.\" The weekly review then shows \"previously reported symptoms ... as low-friction selections.\"",
+     "t": null
+    },
+    {
+     "title": "Reward the action immediately with useful help",
+     "detail": "\"Immediate, positive reinforcement is key to fostering consistent product engagement.\" After logging a sudden headache, the app quickly suggests relief, like drinking water or a specific medicine. Tips \"proposed and voted on by similar others\" were more trusted. The advice also changes each time, so it stays useful.",
+     "t": null
+    },
+    {
+     "title": "Pick a trusted messenger for reminders",
+     "detail": "Using the messenger effect, reminders were designed to come \"from someone close to the patient, like a family member, or their doctor.\" The source makes the task feel more important. The piece reports no numbers, so treat this as a design pattern to test.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Step 1: Behavioral Diagnosis",
+     "title": "Diagnosis",
+     "summary": "Why a weekly routine doesn't work for symptom reporting."
+    },
+    {
+     "t": null,
+     "anchor": "Step 2: Identify the Psychologies at Play",
+     "title": "Memory failure",
+     "summary": "Prospective memory failure, scarcity and stress cause forgetting."
+    },
+    {
+     "t": null,
+     "anchor": "Building a Clear Mental Model: Report When You Don’t Feel Well",
+     "title": "Natural cue",
+     "summary": "Use the symptom itself as the reminder."
+    },
+    {
+     "t": null,
+     "anchor": "Social Norms + Timely Feedback: Highly Relevant Ways to Feel Better Now",
+     "title": "Immediate reward",
+     "summary": "Tips from similar patients right after logging."
+    },
+    {
+     "t": null,
+     "anchor": "Choosing the Right Messenger",
+     "title": "Messenger",
+     "summary": "Reminders from family or doctors."
+    },
+    {
+     "t": null,
+     "anchor": "A Two-Tiered Approach to Symptom Reporting",
+     "title": "Two tiers",
+     "summary": "Two-question in-the-moment report plus a pre-filled weekly review."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "A Two-Tiered Approach to Symptom Reporting",
+    "why": "It shows how to pair a tiny in-the-moment action with a pre-filled weekly review, which maps to wrong-answer capture and weekly revision in OnCourse."
+   },
+   "id": "creating-habits-in-healthcare-how-we-helped-a-large-pharma-partner-des"
+  },
+  {
+   "Title": "Activation metric or motivation detector?",
+   "Creator": "Retention.Blog (Daphne Tideman, guest post for Jacob Rushfinn)",
+   "Type": "Article",
+   "Link": "https://www.retention.blog/p/activation-metric-or-motivation-detector",
+   "Apps": [
+    "Duolingo",
+    "Ladder",
+    "Finch",
+    "Heights"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Progress & streaks",
+    "Notifications",
+    "Research methods"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "A good activation metric is the behaviour that splits retention curves for good and that enough users can reach, at the right frequency, and you must check it isn't just spotting people who were already motivated.",
+   "What they did": "Daphne Tideman, a growth lead for wellness subscription apps, shares a five-step method from her workshop: interview recent subscribers, cohort only the last 13–17 weeks of sign-ups, compare 3–5 candidate behaviours on D7/D30/D90 retention, check the right frequency, and check if timing matters. She then lists checks for survivorship bias and three causes of drop-off: trust, context and value.",
+   "Results": "\"Duolingo: learners who reach a 7-day streak are 3.6x more likely to complete their course.\" One audited app had \"90%+ onboarding completion\" but \"most users still churned by day two.\" At one wellness app \"the metric that predicted retention was 2 pieces of content in the first 14 days,\" which beat weekly opens. At one fitness app \"four workouts was the sweet spot,\" but whether by day 7, 8 or 15 \"barely mattered.\"",
+   "Takeaways": "Onboarding completion is activity, not activation; Use only recent cohorts; Pick the behaviour with lift and volume; Daily isn't always the right frequency; Your magic number may just detect motivation; Drop-off is trust, context or value",
+   "Ideas for OnCourse": "Design process: compare D30 retention for users who did 1, 2, 3 or 5 Today's plan completions in week one, using only the last 13–17 weeks of sign-ups, and keep a holdout for reminders. Today's plan: like Finch, start day 1 with a task the user can tick off at once (e.g. \"set your exam date\") before the first new MCQ set. Notifications: if timing doesn't matter, nudge gently after two missed days instead of pushing a week-one target",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://substackcdn.com/image/fetch/$s_!7EFx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66bedb8c-fc8e-47e5-ad8e-4005b3c39eb8_949x537.png",
+   "Key points": [
+    {
+     "title": "Onboarding completion is activity, not activation",
+     "detail": "One app had 90%+ onboarding completion on iOS and Android, but most users still churned by day two. \"Activation is the moment value clicks, not the steps completed.\" A strong metric points to something downstream, like Duolingo's 7-day streak (3.6x more likely to finish a course). For OnCourse, finishing onboarding says little; finishing a first real study session may say more.",
+     "t": null
+    },
+    {
+     "title": "Use only recent cohorts",
+     "detail": "Old users joined a different product, from different channels, at different prices. At one meditation app, long-time customers used it about once a month, unlike newer subscribers. Tideman cohorts \"the last 13 to 17 weeks of signups\" and warns against \"averaging everyone since launch.\"",
+     "t": null
+    },
+    {
+     "title": "Pick the behaviour with lift and volume",
+     "detail": "Split users into did vs didn't for 3–5 behaviours and compare D7, D30 and D90. Look for the one that \"splits the curve, and the gap never closes,\" because some gaps close later. It also needs volume: for a friendship app, more friends was always better, but \"five friends in a week\" was where lift was real and enough people could reach it.",
+     "t": null
+    },
+    {
+     "title": "Daily isn't always the right frequency",
+     "detail": "\"Most apps are not daily-habit apps, and that's okay.\" At one wellness app, 2 pieces of content in the first 14 days predicted retention better than weekly opens. At a fitness app, four workouts mattered but the day didn't, so they stopped pushing a week-one target and instead \"nudg[ed] them back, gently\" after two days without a workout. Also check which days people act: Monday was the top day to log a workout.",
+     "t": null
+    },
+    {
+     "title": "Your magic number may just detect motivation",
+     "detail": "Motivated users do everything more, so \"your magic number might just be a motivation detector.\" Keep a holdout group for lifecycle emails, ask if the metric is gameable, and sometimes test removing something. One founder changed \"completes 2 coaching sessions\" to \"starts 1 session with personal context set, within 7 days.\"",
+     "t": null
+    },
+    {
+     "title": "Drop-off is trust, context or value",
+     "detail": "Drop-off before activation is usually trust (asking for data or payment before any win), context (users don't get what it is) or value (they never felt it). Finch's starter plan is mostly things you've already done, like brushing your teeth, so you get an \"oh, I'm already doing this\" win first. Ask: \"what's the version of 'a goal you've already achieved' in session one?\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "But first: Activity isn’t activation",
+     "title": "Activity isn't activation",
+     "summary": "Onboarding completion vs real value; Duolingo and Ladder examples."
+    },
+    {
+     "t": null,
+     "anchor": "Step 2: Pull recent users, because old cohorts lie",
+     "title": "Recent cohorts",
+     "summary": "Use the last 13–17 weeks of sign-ups."
+    },
+    {
+     "t": null,
+     "anchor": "Step 3: Compare behaviors (and check the volume)",
+     "title": "Lift and volume",
+     "summary": "Find the behaviour that splits the curve and enough users reach."
+    },
+    {
+     "t": null,
+     "anchor": "Step 4: Compare frequency",
+     "title": "Frequency",
+     "summary": "Daily isn't always right; 2 pieces in 14 days example."
+    },
+    {
+     "t": null,
+     "anchor": "Step 5: Check timing",
+     "title": "Timing",
+     "summary": "When timing doesn't matter, nudge gently instead of pressuring."
+    },
+    {
+     "t": null,
+     "anchor": "Now assume it’s a motivation detector",
+     "title": "Motivation detector",
+     "summary": "Holdouts, gameability and survivorship bias checks."
+    },
+    {
+     "t": null,
+     "anchor": "Then fix the drop-off: trust, context, or value",
+     "title": "Fix the drop-off",
+     "summary": "Three causes of drop-off, with Finch's easy first win."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Step 4: Compare frequency",
+    "why": "It challenges the idea that every app must be daily, which matters for how hard OnCourse pushes streaks."
+   },
+   "id": "activation-metric-or-motivation-detector"
+  },
+  {
+   "Title": "Life of a birb",
+   "Creator": "Retention.Blog (Jacob Rushfinn)",
+   "Type": "Case study",
+   "Link": "https://www.retention.blog/p/life-of-a-birb",
+   "Apps": [
+    "Finch"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Home",
+    "Paywall",
+    "Progress & streaks",
+    "Gamification"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Finch hooks users on screen one with play instead of forms, pre-fills easy goals so everyone reaches the reward loop on day one, and uses a real-time 8-hour adventure to pull users back the same day.",
+   "What they did": "Jacob Rushfinn walks through Finch's onboarding from January 2024 to January 2026. Finch starts by having you pick a colour and hatch a bird, lets you earn points while answering questions, adds a 'Starter plan' after a loading screen, splits its paywall into several screens, and adds streaks. It now auto-fills goals on Home so a few taps earn enough energy to send the bird on an adventure.",
+   "Results": "Finch made \"$30M+ last year\" (context, not a test result). The bird is \"gone for 8 hours of real time,\" which builds \"an instant habit loop.\"",
+   "Takeaways": "Hook on screen one with play, not forms; Personalise the pet, not the person; Let users earn rewards during onboarding; Close the loop with a generated plan; Pre-fill easy goals to solve cold start; A real-time timer pulls users back the same day",
+   "Ideas for OnCourse": "Home: never land a new user on an empty plan; pre-fill Today's plan with 3 short, easy tasks so they hit the first reward in minutes. Onboarding: give a small reward (XP or a badge) for answering setup questions, so the first minutes feel like the real app. Today's plan: after the first set, start a timed unlock (e.g. \"your revision set unlocks in 4 hours\") to create a second visit on day one",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://substackcdn.com/image/fetch/$s_!IWAo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc85091c-d154-4a57-9b6f-4ea79129426e_2263x1500.png",
+   "Key points": [
+    {
+     "title": "Hook on screen one with play, not forms",
+     "detail": "\"You have some of the highest drop off rates on your first screen.\" Finch's first screens are pick a colour and hatch a bird, with a hatching animation. It asks for no user info, just \"a fun and easy interaction, that inserts a bit of personalization.\" OnCourse's first screen could be a single fun choice instead of a form.",
+     "t": null
+    },
+    {
+     "title": "Personalise the pet, not the person",
+     "detail": "You then pick your bird's gender, name and trait. Finch is \"building investment in the product, but without you sharing any information on yourself.\" A \"Shuffle\" button gives preset names so nobody gets stuck on a text field.",
+     "t": null
+    },
+    {
+     "title": "Let users earn rewards during onboarding",
+     "detail": "Answering a question earns points and rainbow stones. \"Your onboarding should give people a feeling of what the real product will be like,\" and this simulates earning things just like the real app. Later versions added questions about the user; Jacob thinks the sunk cost of answering \"make[s] people more committed once they see the paywall.\"",
+     "t": null
+    },
+    {
+     "title": "Close the loop with a generated plan",
+     "detail": "Finch added a loading screen and a \"Starter plan.\" It \"makes you feel like they took into account everything you shared,\" though the plans are \"pretty much the same for everyone.\" The paywall became multi-screen to repeat \"FREE\", the trial reminder and the discount: \"If it's important, don't be afraid to say it twice.\"",
+     "t": null
+    },
+    {
+     "title": "Pre-fill easy goals to solve cold start",
+     "detail": "Before, users picked their own goals. If they picked too few, they couldn't earn enough energy and might never reach the \"Send your Finch on an adventure\" moment. Now Finch auto-fills many goals, so \"you tap a few times, and you're pretty much guaranteed to reach that 'Aha' moment.\" OnCourse's Today's plan should never start empty.",
+     "t": null
+    },
+    {
+     "title": "A real-time timer pulls users back the same day",
+     "detail": "The bird goes on an adventure for 8 hours of real time, and \"you have to come back into the app to see what they got.\" This forces several opens on day one and builds \"an instant habit loop.\" Finch also added streaks after the paywall.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "What can we learn?",
+     "title": "The 2024 flow",
+     "summary": "Hatch a bird, name it, earn points, pick a goal, see the paywall."
+    },
+    {
+     "t": null,
+     "anchor": "Now let’s look at what’s changed over the years!",
+     "title": "What changed",
+     "summary": "Added user questions, a loading screen, a Starter plan and a multi-screen paywall."
+    },
+    {
+     "t": null,
+     "anchor": "Learnings summarized:",
+     "title": "Summary list",
+     "summary": "Thirteen learnings, from screen-one hooks to habit loops."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Learnings summarized:",
+    "why": "The list gives every tactic in one place, including the cold-start fix and the 8-hour habit loop."
+   },
+   "id": "life-of-a-birb"
+  },
+  {
+   "Title": "One question to increase retention",
+   "Creator": "Retention.Blog (Jacob Rushfinn)",
+   "Type": "Article",
+   "Link": "https://www.retention.blog/p/one-question-to-increase-retention",
+   "Apps": [
+    "Rise",
+    "AllTrails",
+    "Impulse",
+    "Headway",
+    "Imprint",
+    "Flo",
+    "Opal",
+    "JustFit"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Notifications",
+    "Progress & streaks",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Ask for notifications right after the user commits to a goal or streak and frame the choice as which reminders to get, because saying no would contradict what they just committed to.",
+   "What they did": "Jacob Rushfinn compares how 8 top apps ask for push and other permissions. Headway asks for a daily goal, then an X-day streak commitment, then a preferred time, then shows toggles for notification types. Flo frames the prompt as better predictions, Opal builds excitement first, RISE explains all data use in one flow, and Impulse and JustFit just show the system prompt right away.",
+   "Results": "Jacob \"recently saw\" showing the push prompt immediately \"increase the opt-in rate by 44%. It was low initially.\" His benchmarks for opt-in: \"Good: 40-50%\", \"Great: 50-65%\", \"Wonderful: 65%+\", measured on all new installs, not just users who reach the prompt.",
+   "Takeaways": "Commit first, then ask for notifications; Ask which reminders, not whether; Sell the value, not the notification; Build excitement before a big ask; Showing the prompt right away can work too; Measure opt-in on all installs",
+   "Ideas for OnCourse": "Onboarding: ask for daily question goal, then \"commit to a 7-day streak\", then \"what time do you study?\", then show toggles for reminder types (daily plan, streak saver, weekly mock) before the system prompt. Notifications: frame the permission as \"so we can save your streak and tell you when your mock results are ready.\" Design process: track opt-in as a share of all new installs",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb03e8c9e-c0e1-4f9f-ac7f-4b5de8a3d60d_1824x1788.png",
+   "Key points": [
+    {
+     "title": "Commit first, then ask for notifications",
+     "detail": "Headway's opt-in is tied to choosing a daily goal in minutes, then committing \"to growing with an X-day streak.\" Only then does it ask about notifications. This uses cognitive dissonance: \"If you said you wanted to commit to your goal, but you don't want notifications to stay on track, then do you really want to commit?\" Imprint uses a simpler version of the same order.",
+     "t": null
+    },
+    {
+     "title": "Ask which reminders, not whether",
+     "detail": "Headway asks \"When do you like to find out about new ideas\" instead of picking a time. It then shows toggles for different notification types. This \"switches the choice away from, 'Should I turn on notifications?' to 'Which notifications should I turn on?'\"",
+     "t": null
+    },
+    {
+     "title": "Sell the value, not the notification",
+     "detail": "Flo's request \"is not about the notifications. It's about making better predictions for you.\" Flo starts calculating cycle predictions, builds suspense, then says it needs more data. This leans on reciprocity: Flo promises to do something for you first.",
+     "t": null
+    },
+    {
+     "title": "Build excitement before a big ask",
+     "detail": "Opal asks for Screen Time access right after showing how much time it can give back. It also reassures that data won't leave the phone. RISE explains all its data needs in one flow and asks for push last, because it's the lowest-friction request.",
+     "t": null
+    },
+    {
+     "title": "Showing the prompt right away can work too",
+     "detail": "Impulse and JustFit show the system prompt immediately, and Jacob calls this \"an underrated tactic\": people are used to tapping Allow. He saw it lift opt-in by 44% from a low base. Measure opt-in across all new installs, with 40–50% good and 65%+ wonderful.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Most apps lose the majority of their new users in the first few days.",
+     "title": "Why opt-in matters",
+     "summary": "Notifications are the main way to re-engage users who don't come back."
+    },
+    {
+     "t": null,
+     "anchor": "Headway uses a progressive approach and leverages cognitive dissonance",
+     "title": "Headway: commit, then ask",
+     "summary": "Goal, streak commitment, preferred time, then notification toggles."
+    },
+    {
+     "t": null,
+     "anchor": "Flo shifts the focus away from the notification to the value they’ll provide",
+     "title": "Flo: value and reciprocity",
+     "summary": "Frame the prompt as better predictions."
+    },
+    {
+     "t": null,
+     "anchor": "Opal builds up emotional excitement before asking for the permissions",
+     "title": "Opal: excitement first",
+     "summary": "Ask right after showing the core value."
+    },
+    {
+     "t": null,
+     "anchor": "JustFit ignores all the best practices",
+     "title": "Ask immediately",
+     "summary": "The plain system prompt on first open can work."
+    },
+    {
+     "t": null,
+     "anchor": "Ok, so what did we learn?",
+     "title": "Lessons and benchmarks",
+     "summary": "Five lessons and opt-in benchmarks."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Headway uses a progressive approach and leverages cognitive dissonance",
+    "why": "It's the sequence that maps straight onto an OnCourse onboarding: goal, streak commitment, study time, reminder toggles."
+   },
+   "id": "one-question-to-increase-retention"
+  },
+  {
+   "Title": "2nd Offers and Re-engagement",
+   "Creator": "Retention.Blog (Jacob Rushfinn)",
+   "Type": "Article",
+   "Link": "https://www.retention.blog/p/2nd-offers-and-re-engagement",
+   "Apps": [
+    "Waterllama",
+    "Headway",
+    "Flo",
+    "Zing AI",
+    "Impulse",
+    "MyFitnessPal",
+    "Ahead",
+    "Fabulous",
+    "Ladder",
+    "Finch",
+    "Elevate",
+    "LingoKids",
+    "Calm",
+    "Strava",
+    "Deepstash"
+   ],
+   "Topics": [
+    "Paywall",
+    "Renewal",
+    "Notifications",
+    "Home",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Returning users show intent, so greet them with a 'welcome back' flow, a 'why didn't you buy?' survey or a more detailed paywall, and use discounts as one option, not the only one.",
+   "What they did": "Jacob Rushfinn reopened 16 apps after not paying or after a period of inactivity and recorded what each showed. Examples: Headway's \"Why?\" survey after a declined paywall, Flo's detailed value paywall and 365-day celebration, Zing's staged tooltips, Fabulous and Finch's welcome-back flows, Elevate's widget push, and Calm's \"special gift\" spinner.",
+   "Results": "No test results. The post notes the opportunity is \"the 90%+ of users who don't convert immediately.\"",
+   "Takeaways": "Most users don't buy at the first paywall; Ask why before you discount; Returning users want more detail, not less; Welcome them back and ask what path they want; Stage tooltips instead of stacking them; Keep offers fresh with in-app messages",
+   "Ideas for OnCourse": "Renewal: after a declined renewal, ask \"What stopped you?\" (price, exam date passed, not enough time) and answer each reason before showing any discount. Home: for users back after 7+ days, show a welcome-back card that asks which exam and date they're aiming for now, then rebuilds Today's plan. Home: show one tooltip at a time, and only show the next if the user doesn't engage",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22178cad-44b1-450e-b299-a97eac97edf2_2635x2572.png",
+   "Key points": [
+    {
+     "title": "Most users don't buy at the first paywall",
+     "detail": "The first paywall matters most, but there is \"still an opportunity to get the 90%+ of users who don't convert immediately.\" The goal is a product good enough that people \"who don't pay immediately have a reason to come back.\" Jacob looked at 16 apps to see what they do next.",
+     "t": null
+    },
+    {
+     "title": "Ask why before you discount",
+     "detail": "If you don't convert at the first paywall, Headway shows \"a mini-survey that asks you 'Why?' and then tries to address those needs.\" It is \"an attempt to convert more users without a discount.\" Only then does it fall back to discount offers. MyFitnessPal rarely discounts and reframes its 30-day trial as a \"free premium pass.\"",
+     "t": null
+    },
+    {
+     "title": "Returning users want more detail, not less",
+     "detail": "After inactivity, Flo shows a paywall that explains each value prop \"in decent detail.\" Returning users \"are likely more familiar with the product, and coming back is a decent signal of intent, so don't be afraid to give more detail.\" Flo also celebrates \"365 days since I first opened the app.\"",
+     "t": null
+    },
+    {
+     "title": "Welcome them back and ask what path they want",
+     "detail": "\"Fabulous welcomes me back into the app after a period of inactivity to ask me what path I want to take.\" Finch acknowledges you've been gone and runs a mini re-engagement flow, plus monthly live-ops themes. Ahead puts expired-trial users through a simplified onboarding with goal-personalised paywall titles.",
+     "t": null
+    },
+    {
+     "title": "Stage tooltips instead of stacking them",
+     "detail": "Zing shows a \"What's new\" message, then tooltips one at a time. \"The 2nd tooltip only appeared after Zing saw I wasn't engaging.\" Jacob's rule: \"Don't overwhelm users with messages, but also don't let them get lost.\" Zing also shows a \"Retry\" modal if a purchase fails.",
+     "t": null
+    },
+    {
+     "title": "Keep offers fresh with in-app messages",
+     "detail": "LingoKids and Ladder use in-app messages from their CRM to link to the paywall or App Store offer codes. This lets them change \"the creative and copy so users can see the same offer many times without feeling 'stale'.\" Elevate skips discounts and pushes its widget instead, and Calm uses a \"special gift\" spinner that lands on a free premium piece.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Win them back with 2nd offers and contextual re-engagement",
+     "title": "Intro",
+     "summary": "Why the 90%+ who don't convert are still an opportunity."
+    },
+    {
+     "t": null,
+     "anchor": "If you don’t convert on the first paywall, Headway has a mini-survey",
+     "title": "Headway's why-survey",
+     "summary": "Ask the reason, then discount only if needed."
+    },
+    {
+     "t": null,
+     "anchor": "After a period of inactivity, Flo shows a paywall",
+     "title": "Flo's detailed paywall",
+     "summary": "More detail for returning users, plus an anniversary celebration."
+    },
+    {
+     "t": null,
+     "anchor": "After I open the app again, they show a one-time offer",
+     "title": "Zing's staged re-engagement",
+     "summary": "One-time offer, retry modal, then staged tooltips."
+    },
+    {
+     "t": null,
+     "anchor": "Fabulous welcomes me back into the app",
+     "title": "Fabulous and Finch",
+     "summary": "Welcome-back flows that ask what path to take."
+    },
+    {
+     "t": null,
+     "anchor": "LingoKids go to re-engagement offer",
+     "title": "In-app message offers",
+     "summary": "Keep offers fresh by changing creative in the CRM."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "If you don’t convert on the first paywall, Headway has a mini-survey",
+    "why": "Asking why before discounting is the most reusable idea for OnCourse's paywall and renewal screens."
+   },
+   "id": "2nd-offers-and-re-engagement"
+  },
+  {
+   "Title": "Win back more users with re-onboarding",
+   "Creator": "Retention.Blog (Jacob Rushfinn)",
+   "Type": "Article",
+   "Link": "https://www.retention.blog/p/win-back-more-users-with-re-onboarding",
+   "Apps": [
+    "Fabulous",
+    "Duolingo"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Home",
+    "Notifications"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Treat a returning user like a friend you haven't seen in a while: acknowledge the gap, show what's new, and for the biggest win, run a short re-onboarding that asks why they stopped and points them to one feature.",
+   "What they did": "Jacob Rushfinn lays out three levels of re-onboarding. Level one is a \"Welcome back!\" in-app message after 20–30+ days away (and on reinstall). Level two adds what's new, level two and a half is a video of new features (as Duolingo did after a redesign), and level three is a full returning-user flow, like Fabulous's.",
+   "Results": null,
+   "Takeaways": "Acknowledge the gap; Start with a simple welcome-back message; Show what's new to signal progress; Run a full returning-user flow; Ask why they stopped and recommend one feature",
+   "Ideas for OnCourse": "Home: after 20+ days away (or a reinstall), show \"Welcome back\" with the days left to their exam and a one-tap \"Restart with an easy set.\" Onboarding: build a returning-user flow that asks \"What got in the way?\" (time, motivation, exam moved), then suggests one feature, like a shorter daily plan. Notifications: send an email on the first app open after a long gap",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://substackcdn.com/image/fetch/$s_!mcBk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17af1021-8d29-447f-89d7-ca8c88c4b271_373x375.png",
+   "Key points": [
+    {
+     "title": "Acknowledge the gap",
+     "detail": "\"If you haven't seen a friend in a year, do you act like you saw them yesterday? No, you acknowledge it's been a while.\" Users who return after a long time won't remember everything from onboarding. Jacob calls the return \"a strong positive signal\" of an unmet need, and a \"second chance.\"",
+     "t": null
+    },
+    {
+     "title": "Start with a simple welcome-back message",
+     "detail": "Level one: show a \"Welcome back!\" in-app message if users \"haven't used your app in 20-30+ days.\" You can also trigger an email on the app open event, and \"make sure to do this for reinstalls too.\" It's \"fast and easy to get live if you have a decent CRM tool.\"",
+     "t": null
+    },
+    {
+     "title": "Show what's new to signal progress",
+     "detail": "Level two adds new features or tooltips, which \"conveys value since it shows you're constantly improving.\" Level two and a half is a video of new features. Duolingo did this after a redesign so returning users \"aren't confused which in turn helps retention.\"",
+     "t": null
+    },
+    {
+     "title": "Run a full returning-user flow",
+     "detail": "Level three is \"a full returning user flow that asks questions about their goals and experience similar to onboarding.\" Contextualise it for a returning user, and lead them to features that \"lead to better retention.\"",
+     "t": null
+    },
+    {
+     "title": "Ask why they stopped and recommend one feature",
+     "detail": "Fabulous has \"one of the best\" re-onboarding flows. It opens with \"Your story isn't finished…\", asks why they stopped their habit, asks questions to understand how to help, and \"recommends a specific feature based on the responses.\" For OnCourse, a lapsed aspirant could get a reason-based restart.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Level one:",
+     "title": "Level one",
+     "summary": "A welcome-back message after 20–30+ days, plus on reinstall."
+    },
+    {
+     "t": null,
+     "anchor": "Level two:",
+     "title": "Level two",
+     "summary": "Welcome back plus what's new and tooltips."
+    },
+    {
+     "t": null,
+     "anchor": "Level three:",
+     "title": "Level three",
+     "summary": "A full returning-user flow, with Fabulous as the example."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Level three:",
+    "why": "The Fabulous flow is a ready template for an OnCourse lapsed-user restart."
+   },
+   "id": "win-back-more-users-with-re-onboarding"
+  },
+  {
+   "Title": "Why retention is so hard for new tech products",
+   "Creator": "Andrew Chen",
+   "Type": "Article",
+   "Link": "https://andrewchen.substack.com/p/lessons-learned-from-staring-at-thousands",
+   "Apps": [
+    "Slack",
+    "Amazon",
+    "Uber",
+    "Facebook",
+    "ChatGPT",
+    "Instagram"
+   ],
+   "Topics": [
+    "Home",
+    "Notifications",
+    "Research methods",
+    "Design process"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Retention decays at a predictable rate and is very hard to win back, so the first days matter most, and notifications or small A/B tests can't rescue a product people don't value.",
+   "What they did": "Andrew Chen, a16z partner and former Uber growth lead, shares nine patterns from 15+ years of looking at retention curves. They include: you can't fix bad retention with notifications, retention halves from D1 to D7 and again to D30, retention depends on the category's natural frequency, churn is asymmetric, and early users are the best users.",
+   "Results": "Typical curve: \"Whatever the D1, it drops by 50% on D7. Whatever the D7, it drops by another 50% at D30.\" \"Most products churn 90% or more in the first 30 days.\" D1 of 40% aiming for 50% \"is great and potentially workable\"; D1 of 10% means \"you probably just have built something that nobody wants.\" He sees \"a 50% D30\" about \"once every couple years.\"",
+   "Takeaways": "Notifications won't fix bad retention; Retention halves at a predictable rate; Fixing retention takes a big home-screen change; Category sets the natural frequency; Churn is asymmetric; Later users retain worse",
+   "Ideas for OnCourse": "Home: if D1 is weak, test a big change (e.g. a structured step-by-step Today's plan instead of a library of content), not small copy tweaks. Notifications: don't use more reminders to fix weak early retention; spend the effort on the first session and first week. Design process: track retention by acquisition channel and region, since later and paid users will look worse than early organic ones",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://substackcdn.com/image/fetch/$s_!jrZh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b40adca-b837-46e5-8edd-af0b78cd563a_1536x1024.png",
+   "Key points": [
+    {
+     "title": "Notifications won't fix bad retention",
+     "detail": "\"No, adding more notifications will not fix your retention curve. You can't A/B test your way to good retention.\" Going from 40% to 50% D1 is workable, but at 10% D1 \"all the local optimizations around A/B tests and notifications aren't actually enough.\" Reminders help a product people already value, but can't replace it.",
+     "t": null
+    },
+    {
+     "title": "Retention halves at a predictable rate",
+     "detail": "Many curves look like this: D1 drops by 50% at D7, and D7 drops by another 50% at D30. \"What you never see is a curve that starts high, then goes low, then becomes high again.\" So \"you need to start strong in order to end strong.\" For OnCourse, the first day and first week deserve most of the design effort.",
+     "t": null
+    },
+    {
+     "title": "Fixing retention takes a big home-screen change",
+     "detail": "\"The type of pivot that fixes retention involves a complete new redesign of the app's home screen.\" His example: \"If it looks like a feed, maybe it needs to be a structured step-by-step flow.\" The bigger the change, \"the better, in order to have a chance at changing retention.\"",
+     "t": null
+    },
+    {
+     "title": "Category sets the natural frequency",
+     "detail": "\"There's nature, and there's nurture.\" Some products are naturally daily, others weekly or rare, and \"it's just hard to fight nature.\" Exam prep has a natural daily rhythm in the months before the exam, which helps OnCourse, but also a natural end when the exam is over.",
+     "t": null
+    },
+    {
+     "title": "Churn is asymmetric",
+     "detail": "\"It's incredibly easy to churn users,\" and \"most products churn 90% or more in the first 30 days.\" Winning back a user who quit is so hard it's \"often easier to simply try to acquire a new user.\" Discount-led resurrection \"tends to be extremely painful and expensive\"; what works better is existing users bringing others back through normal use, like a coworker inviting you.",
+     "t": null
+    },
+    {
+     "title": "Later users retain worse",
+     "detail": "\"The best users show up early,\" often by word of mouth. As you add Android, international and paid users, \"all of your metrics get worse.\" The question becomes whether these users are still valuable and whether you keep the early \"Golden Cohort.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "You can’t fix bad retention.",
+     "title": "You can't fix bad retention",
+     "summary": "Notifications and small tests can't rescue a weak D1; big pivots might."
+    },
+    {
+     "t": null,
+     "anchor": "Retention goes down, it doesn’t go up.",
+     "title": "Predictable decay",
+     "summary": "D1 halves by D7, D7 halves by D30."
+    },
+    {
+     "t": null,
+     "anchor": "Retention is relative to your product category.",
+     "title": "Nature vs nurture",
+     "summary": "Each category has a natural use frequency."
+    },
+    {
+     "t": null,
+     "anchor": "Retention gets worse as users expand and grow.",
+     "title": "Later users are worse",
+     "summary": "Early organic users retain best; the Golden Cohort."
+    },
+    {
+     "t": null,
+     "anchor": "Churn is asymmetric.",
+     "title": "Churn is asymmetric",
+     "summary": "Easy to lose, very hard to win back."
+    },
+    {
+     "t": null,
+     "anchor": "Great retention is magic.",
+     "title": "Great retention",
+     "summary": "Rare 50% D30 products come from a fresh insight."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Retention goes down, it doesn’t go up.",
+    "why": "The halving rule gives a quick way to judge OnCourse's D1, D7 and D30 numbers and shows why the first day matters most."
+   },
+   "id": "why-retention-is-so-hard-for-new-tech-products"
+  },
+  {
+   "Title": "Family Values",
+   "Creator": "Benji Taylor",
+   "Type": "Case study",
+   "Link": "https://benji.org/family-values",
+   "Apps": [
+    "Family",
+    "Honk",
+    "Cash App",
+    "Things",
+    "Craft"
+   ],
+   "Topics": [
+    "Motion",
+    "Visual design",
+    "Navigation",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Family feels simple and calm because it shows one thing at a time in trays, connects every screen with motion, and saves its biggest delight for the features people use least.",
+   "What they did": "Benji Taylor explains the three principles behind the Family crypto wallet: simplicity, fluidity and delight. Simplicity comes from a \"dynamic tray system\" that shows one piece of content or one action per tray. Fluidity comes from linking every screen with motion, down to chevrons and button labels that morph. Delight is placed on purpose, with more of it on rare features and only small touches on daily ones.",
+   "Results": null,
+   "Takeaways": "Show one piece of content per tray; Vary tray height so each step is clearly new; Motion should map where you came from; Morph labels to flag an important step; Removing motion makes flows feel like whiplash; Delight goes up as feature use goes down",
+   "Ideas for OnCourse": "Practice: when the user taps \"Submit\", morph the button label into \"Next question\" instead of swapping it, so the change of step is visible. Today's plan: open plan details, streak freezes and warnings in a tray from the bottom, one item per tray, each tray a different height. Progress & streaks: save the big celebration for rare moments (finishing a full mock test, a 30-day streak), and keep daily MCQ feedback small and quick",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://benji.org/family-values/opengraph-image-tyvd56.png?da5a95b5261dfdd5",
+   "Key points": [
+    {
+     "title": "Show one piece of content per tray",
+     "detail": "Family's trays are small sheets that \"expand, contract, and adapt\" to the user's actions. Each tray holds \"a singular piece of content\" or \"a primary action\", has a title and an icon that closes it or goes back. Trays are used for short, transient steps like confirmations and warnings, and they keep the screen behind them in view. For OnCourse, short steps like \"Use a streak freeze?\" or \"Why this answer?\" can live in a tray instead of a new screen.",
+     "t": null
+    },
+    {
+     "title": "Vary tray height so each step is clearly new",
+     "detail": "\"Each subsequent tray is designed to vary in height\" so that moving to the next step is unmistakable. The team sometimes rewrote content or tweaked a design just to make the height change visible. This is a cheap trick that tells users something changed without any extra text.",
+     "t": null
+    },
+    {
+     "title": "Motion should map where you came from",
+     "detail": "Switching tabs in Family slides left or right in the direction of the tab you tapped: \"We fly instead of teleport.\" A chevron morphs into a different icon as you move through steps, and wallet cards travel between screens instead of being duplicated. Benji's rule is that if a component stays on screen in the next step, it should stay the same object and not re-appear.",
+     "t": null
+    },
+    {
+     "title": "Morph labels to flag an important step",
+     "detail": "Family animates \"Continue\" into \"Confirm\" by keeping the shared letters (\"Con\") and morphing the rest. A static swap \"could leave the user unaware of the significant step they're about to take\". The same approach updates numbers and counts on buttons as the user adds wallets. OnCourse could use this when a button moves from \"Next\" to \"Submit test\".",
+     "t": null
+    },
+    {
+     "title": "Removing motion makes flows feel like whiplash",
+     "detail": "Benji built versions of Family with the motion removed to compare. Without the animation, the swap approval tray \"loses\" its connection to the swap screen, and wallet grouping makes the outcome \"much less clear\". He calls the static version \"digital whiplash\". After a send, a spinner moves into the bottom tab to show where the pending transaction now lives.",
+     "t": null
+    },
+    {
+     "title": "Delight goes up as feature use goes down",
+     "detail": "Benji's \"Delight-Impact Curve\" says \"the potential for delight increases as the frequency of feature usage decreases.\" Rare moments like creating a wallet get a full interactive animation, and backing up a wallet ends with confetti. The daily send flow only gets small touches, like commas that shift as you type. He also says every part of the app must get the same polish, or it is like \"a fancy restaurant\" with \"a dirty bathroom\".",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "What makes Family, Family",
+     "title": "The three principles",
+     "summary": "Simplicity, fluidity and delight, and why a static product feels uncared for."
+    },
+    {
+     "t": null,
+     "anchor": "Simplicity through gradual revelation",
+     "title": "The tray system",
+     "summary": "Rules for trays: one item each, varying height, title and icon, themed to the context, used for transient steps."
+    },
+    {
+     "t": null,
+     "anchor": "Fluidity through seamless transitions",
+     "title": "Fluid transitions",
+     "summary": "Directional tabs, morphing chevrons and labels, travelling components, and side-by-side videos with motion removed."
+    },
+    {
+     "t": null,
+     "anchor": "Delight through selective emphasis",
+     "title": "Where to put delight",
+     "summary": "The Delight-Impact Curve, easter eggs on the QR screen, and small touches on frequent flows."
+    },
+    {
+     "t": null,
+     "anchor": "Family comes first",
+     "title": "Trade-offs",
+     "summary": "Why the team accepted a slower launch to reach this level of craft."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Fluidity through seamless transitions",
+    "why": "It has the most concrete motion rules (directional tabs, label morphs, no duplicated components) and the with/without comparisons."
+   },
+   "id": "family-values"
+  },
+  {
+   "Title": "Honkish",
+   "Creator": "Benji Taylor",
+   "Type": "Case study",
+   "Link": "https://benji.org/honkish",
+   "Apps": [
+    "Honk"
+   ],
+   "Topics": [
+    "Motion",
+    "Visual design",
+    "Gamification",
+    "Copy"
+   ],
+   "Goal": [
+    "Craft",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Honk shows how presence, sound, haptics, colour and small physical details can make simple actions feel alive, and when deliberate friction is worth adding.",
+   "What they did": "Benji Taylor looks back at Honk, a real-time messaging app with no send button and no chat history. The team built features around showing that a friend is present: avatar borders that fill when they arrive, a dashed outline when they look away, and reactions placed exactly where you tap with a shared haptic. They also added custom sounds and typefaces, colour-coded trays and deliberate pauses like signing your name before chatting with strangers.",
+   "Results": "Before it was shut down, Honk \"facilitated over 2.6 billion characters typed, 170 million Honks sent, and hundreds of millions of images, audio, and videos exchanged.\" Asking users to sign their name before random chats \"noticeably reduced bad behaviour\" (no number given).",
+   "Takeaways": "Make presence visible with motion and sound; Put feedback exactly where the finger landed; Small physical details make actions feel like toys; Use background colour to signal how serious an action is; Add friction on purpose where it builds accountability; Custom sound and type give an app its voice",
+   "Ideas for OnCourse": "Practice: show the correct-answer feedback right where the user tapped (a small ring and a light haptic on the chosen option) instead of a generic banner. Renewal: tint the cancel or downgrade tray background red, the way Honk did for destructive actions. Progress & streaks: when the user writes a daily commitment on the streak screen, ask them to type or sign their name to add a sense of commitment",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://benji.org/honkish/opengraph-image-pn3oin.png?f18e0dd477d170c2",
+   "Key points": [
+    {
+     "title": "Make presence visible with motion and sound",
+     "detail": "When a friend entered a chat, \"a border around their avatar filled up\" with a sound. When they left, a burst of waving emojis appeared. If they looked elsewhere in the app, their avatar became a dashed outline to show partial attention. These details created a \"snap-to-attention\" effect and made the friend feel present.",
+     "t": null
+    },
+    {
+     "title": "Put feedback exactly where the finger landed",
+     "detail": "Double-tapping a bubble placed a heart \"exactly where you tapped\", with a faint animated circle and \"a simultaneous haptic felt by both users.\" The team stored the spot as relative coordinates (for example \"10% X, 20% Y\") so it matched on every screen size. For OnCourse, feedback on an answer should start from the option the user tapped.",
+     "t": null
+    },
+    {
+     "title": "Small physical details make actions feel like toys",
+     "detail": "As you typed, a tiny trash can slowly filled, \"shaking when the chat bubble was full, and emptying when cleared.\" Emojis flew across the screen and collided using \"a tiny physics engine\", which users turned into \"emoji battles\". In-app notifications had animated borders counting down how long they would stay visible.",
+     "t": null
+    },
+    {
+     "title": "Use background colour to signal how serious an action is",
+     "detail": "\"Destructive actions, like deleting your account, turned the background red, emphasising the seriousness of the action.\" The colour coding carried through to chat themes too. This is a simple way to make risky steps feel different from normal steps.",
+     "t": null
+    },
+    {
+     "title": "Add friction on purpose where it builds accountability",
+     "detail": "Before chatting with strangers, users signed their name on screen. \"It wasn't legally binding\", but it \"noticeably reduced bad behaviour in random chats by making users pause.\" Finding new people used a slot-machine animation to create anticipation. Not every moment needs to be fast.",
+     "t": null
+    },
+    {
+     "title": "Custom sound and type give an app its voice",
+     "detail": "Honk had two custom typefaces: Honk Sans for UI and Honk Chat only for message bubbles. A sound designer composed audio \"to precisely match the timing of each interaction\", often after the feature was designed. Benji's footnote also warns to record high-quality videos of features while they are live, as it is hard to do later.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Making presence feel real",
+     "title": "Presence",
+     "summary": "Avatar borders, dashed outlines, split screens when both type, and shared haptic reactions."
+    },
+    {
+     "t": null,
+     "anchor": "Messaging as play",
+     "title": "Play",
+     "summary": "The Honk button, emoji physics, emoji battles and Magic Words."
+    },
+    {
+     "t": null,
+     "anchor": "Little big details",
+     "title": "Details",
+     "summary": "Countdown borders, red trays for destructive actions, deliberate friction, custom fonts and sounds."
+    },
+    {
+     "t": null,
+     "anchor": "Embracing honkishness",
+     "title": "Wrap-up",
+     "summary": "Usage numbers and why playful details still matter even though the app shut down."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Little big details",
+    "why": "It packs the most reusable ideas: countdown borders, colour for risky actions, deliberate friction and custom sound."
+   },
+   "id": "honkish"
+  },
+  {
+   "Title": "Designing Depth",
+   "Creator": "Rauno Freiberg",
+   "Type": "Article",
+   "Link": "https://rauno.me/craft/depth",
+   "Apps": [
+    "Vercel",
+    "OpenAI"
+   ],
+   "Topics": [
+    "Motion",
+    "Visual design"
+   ],
+   "Goal": [
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Interfaces feel deeper and clearer when you blur what is behind, sequence motion in steps near the trigger, and stagger similar items instead of moving everything at once.",
+   "What they did": "Rauno Freiberg takes the film idea of \"dirtying the frame\" and applies it to UI. He breaks down iOS interactions frame by frame: the Home Screen swipe-down to Search in four states, the tap version where the order is reversed, staggered app icons on unlock, and the iPad Dock sliding away. He shows how blur, delays and stagger signal which layer is active and where the user's input landed.",
+   "Results": null,
+   "Takeaways": "Blur the backdrop to show only the overlay is active; Choreograph motion as a sequence of states; Start the motion near where the user acted; Stagger similar items so updates feel natural; What moves vs what blurs tells you what stays usable",
+   "Ideas for OnCourse": "Practice: when the explanation sheet opens after an answer, blur and dim the question behind it so only the sheet looks tappable. Home: when today's plan cards load, fade them in with a small stagger instead of all at once. Flashcards: when a card flips or a new deck opens, start the motion near the user's finger and delay secondary elements (counts, buttons) slightly",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://rauno.me/static/craft/og-depth.png",
+   "Key points": [
+    {
+     "title": "Blur the backdrop to show only the overlay is active",
+     "detail": "Dimming or blurring the backdrop when an overlay opens simulates depth of field. On the iOS Home Screen, a context menu \"would feel fairly awkward\" without de-emphasis, and it would wrongly suggest the apps behind are still tappable. Only the menu is actionable, and tapping the backdrop closes it.",
+     "t": null
+    },
+    {
+     "title": "Choreograph motion as a sequence of states",
+     "detail": "Rauno splits the Home Screen swipe-down into 4 states. The Home Screen blurs first, then Siri suggestions appear, then the Search field turns into an input while the keyboard peeks in, and the keyboard fully expands on release. The suggestions are \"intentionally delayed\" so layers don't overlap oddly, and the keyboard is delayed so it doesn't compete with them.",
+     "t": null
+    },
+    {
+     "title": "Start the motion near where the user acted",
+     "detail": "When Search opens by tapping the button at the bottom, the order flips. The button turns into an input immediately, and the suggestions follow after a slight delay. Prioritising the transition near the trigger \"promptly communicate[s] that the interface understood you.\" For a swipe from the top, feedback starts at the top.",
+     "t": null
+    },
+    {
+     "title": "Stagger similar items so updates feel natural",
+     "detail": "OpenAI \"staggers the fade in of loaded content in a grid layout.\" The interface does not feel slower, and users are not left wondering how many items changed. iOS also staggers app icons on unlock, and Control Centre rows use \"slightly staggered spring\" settings for rubber banding.",
+     "t": null
+    },
+    {
+     "title": "What moves vs what blurs tells you what stays usable",
+     "detail": "On iPad, swiping to Today View blurs the Home Screen but the Dock slides off at full opacity. This says the Dock \"retains interactivity and can be brought back with a swipe.\" When Control Centre opens, the Dock is blurred with the Home Screen instead, because it is no longer usable.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Blurred Backdrops",
+     "title": "Blurred backdrops",
+     "summary": "Why overlays dim or blur what is behind them, using the iOS context menu."
+    },
+    {
+     "t": null,
+     "anchor": "Choreographing Motion",
+     "title": "Choreography",
+     "summary": "The four states of the iOS Search swipe, and the reversed order when tapped."
+    },
+    {
+     "t": null,
+     "anchor": "Staggering Motion",
+     "title": "Stagger",
+     "summary": "Fish, birds, OpenAI's grid, iOS unlock and Control Centre springs."
+    },
+    {
+     "t": null,
+     "anchor": "Indicating Affordance",
+     "title": "Affordance",
+     "summary": "How the iPad Dock's motion tells you whether it is still interactive."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Choreographing Motion",
+    "why": "The step-by-step breakdown of one iOS gesture teaches how to sequence any sheet or overlay."
+   },
+   "Tools": [
+    "iOS",
+    "iPadOS"
+   ],
+   "id": "designing-depth"
+  },
+  {
+   "Title": "Animate with springs (WWDC23)",
+   "Creator": "Apple (Jacob)",
+   "Type": "Talk",
+   "Link": "https://developer.apple.com/videos/play/wwdc2023/10158/",
+   "Apps": [],
+   "Topics": [
+    "Motion"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Use springs with a duration and a bounce of 0 by default, add up to about 15–30% bounce for playful or gesture-driven moments, and avoid going above about 0.4.",
+   "What they did": "Jacob from Apple explains why springs are the best default for UI animation. He compares ease-in-out, linear and spring curves on a toggle knob, shows how springs keep the finger's velocity when a gesture ends, and introduces a simpler way to set springs with two values: duration and bounce. He ends with practical guidance on picking values.",
+   "Results": null,
+   "Takeaways": "Avoid linear motion except for spinners; Springs keep the finger's speed after a gesture; Set springs with duration and bounce, not physics; A spring doesn't need to bounce; Pick duration first, then add bounce carefully; Different properties can finish at different times",
+   "Ideas for OnCourse": "Design process: write motion specs for OnCourse as spring duration and bounce (for example 0.35s, bounce 0) instead of bezier curves, and use the same values in React Native Reanimated. Flashcards: when the user lets go of a swiped card, use a spring that keeps the swipe's speed so the card flies off naturally. Progress & streaks: allow a small bounce (around 15%) only on celebratory elements like the streak flame, and keep everyday transitions at bounce 0",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/8215/8215_wide_250x141_2x.jpg",
+   "Duration": 1370,
+   "Times": "exact",
+   "Key points": [
+    {
+     "title": "Avoid linear motion except for spinners",
+     "detail": "Linear animation has \"a sharp corner and a jump in velocity\" at start and end. Apple says it can be useful for \"a repeating spinning indicator\", but be cautious with it elsewhere, \"especially for movement\". Good animation keeps both position and velocity continuous.",
+     "t": 242
+    },
+    {
+     "title": "Springs keep the finger's speed after a gesture",
+     "detail": "When you throw a toggle knob, an ease-in-out animation \"jerks to a halt as the gesture ends\" because a fixed curve can't take an initial velocity. A spring \"can start with any initial velocity\", so the animation \"picks up right where the gesture ends.\" Springs also stay smooth when an animation is interrupted and retargeted mid-way.",
+     "t": 291
+    },
+    {
+     "title": "Set springs with duration and bounce, not physics",
+     "detail": "Mass, stiffness and damping are hard to reason about. Apple now uses \"just 2 parameters: duration and bounce\" across its design and engineering. Bounce above 0 overshoots (bouncy), 0 gives a smooth long tail (smooth), and negative values are \"flattened\".",
+     "t": 594
+    },
+    {
+     "title": "A spring doesn't need to bounce",
+     "detail": "\"A spring animation doesn't only mean a bouncy animation.\" Non-bouncy springs \"are used in animations all over iOS.\" What makes them feel natural is the way they \"very slowly and gradually\" come to rest, with no single moment where the object abruptly stops.",
+     "t": 388
+    },
+    {
+     "title": "Pick duration first, then add bounce carefully",
+     "detail": "Start with a duration that gives the pacing you want, then tune bounce. \"A small bounce, like around 15%\" feels brisk, around 30% feels noticeably bouncy, and you \"should be cautious about using values higher than around 0.4\" for UI. When unsure, \"use a spring with bounce 0\". Add bounce for playful moments or the end of a gesture, and keep values consistent with the app's character.",
+     "t": 1232
+    },
+    {
+     "title": "Different properties can finish at different times",
+     "detail": "With springs, properties don't all stop together, and that is fine because real objects slow down at their own pace. Apple's app launch animation uses \"different springs, different start times, and different end times\" to feel natural.",
+     "t": 449
+    }
+   ],
+   "Chapters": [
+    {
+     "t": 91,
+     "anchor": "So why are springs useful for animations?",
+     "title": "Why springs",
+     "summary": "Continuity of position and velocity, gestures, and the natural end of a spring."
+    },
+    {
+     "t": 594,
+     "anchor": "It uses just 2 parameters: duration and bounce.",
+     "title": "Duration and bounce",
+     "summary": "The new way to set springs, and bouncy, smooth and flattened shapes."
+    },
+    {
+     "t": 900,
+     "anchor": "When that happens, a spring animation uses the velocity it had",
+     "title": "Interruptions",
+     "summary": "How springs stay smooth when a new target arrives mid-animation."
+    },
+    {
+     "t": 1232,
+     "anchor": "One last thing I want to discuss",
+     "title": "Choosing values",
+     "summary": "Practical bounce values and when to use them."
+    }
+   ],
+   "Start here": {
+    "t": 1232,
+    "anchor": "One last thing I want to discuss",
+    "why": "Two minutes of clear numbers on which bounce to use and when."
+   },
+   "Tools": [
+    "iOS",
+    "SwiftUI",
+    "UIKit"
+   ],
+   "id": "animate-with-springs-wwdc23"
+  },
+  {
+   "Title": "The details of UI typography (WWDC20)",
+   "Creator": "Apple (Loïc Sander and Jiang)",
+   "Type": "Talk",
+   "Link": "https://developer.apple.com/videos/play/wwdc2020/10175/",
+   "Apps": [
+    "Apple Fitness",
+    "Apple Maps",
+    "Apple Calendar",
+    "Apple Reminders",
+    "Things"
+   ],
+   "Topics": [
+    "Visual design",
+    "Accessibility"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Small text needs more letter spacing and big text needs less, line height should change with the context, and custom fonts should still scale with the user's text size.",
+   "What they did": "An Apple type designer explains optical sizes, tracking and leading, and why SF Pro's spacing changes with point size. A second speaker shows text styles, emphasized (bolder) variants, tight and loose leading, rounded and serif designs, and how to make custom fonts and spacing scale with Dynamic Type.",
+   "Results": "Tight leading takes the 22 pt body line height down to 20 pt; loose leading takes it up to 24 pt. In iOS and macOS the change is 2 points; on watchOS it is 1 point. SF Pro now \"transitions from Text to Display between 17 and 28 points.\"",
+   "Takeaways": "Small text needs more space between letters; Use size-specific tracking, never one value; Let strings tighten before you truncate; Change leading to match how much text there is; Use a bolder weight of the same style for emphasis; Custom fonts and spacing should scale with text size",
+   "Ideas for OnCourse": "Practice: give long explanation text loose leading (body 17/24) and keep tight leading only for short, one- or two-line option labels. Design process: add a tracking value to each OnCourse text style token (tighter for large headings, looser for captions) instead of one letter-spacing for all sizes. Lessons: make custom fonts and the padding around paragraphs scale with the phone's text size setting",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://devimages-cdn.apple.com/wwdc-services/images/49/3823/3823_wide_250x141_2x.jpg",
+   "Duration": 1830,
+   "Times": "exact",
+   "Key points": [
+    {
+     "title": "Small text needs more space between letters",
+     "detail": "\"When type becomes smaller, letters tend to need more space between them, so that the eye can more easily tell them apart.\" SF was first split into SF Text (below 20 points) and SF Display (20 points and above). Now the variable SF Pro moves smoothly from Text to Display \"between 17 and 28 points\".",
+     "t": 250
+    },
+    {
+     "title": "Use size-specific tracking, never one value",
+     "detail": "Apple publishes tracking tables because \"if you want to accurately reproduce a system font's behavior, you need to know how much tracking to apply for each point size.\" If you add custom tracking, \"it should be size specific\", or what works for small sizes \"may not look good on large sizes.\"",
+     "t": 1801
+    },
+    {
+     "title": "Let strings tighten before you truncate",
+     "detail": "For a string that doesn't fit, the best fix is to let the system tighten it using a tight tracking table, within a range \"reasonable for legibility.\" Use the tracking API, not kerning, since tracking also breaks apart ligatures. \"There is such a thing as too much tracking\", and then it is better to truncate.",
+     "t": 766
+    },
+    {
+     "title": "Change leading to match how much text there is",
+     "detail": "Tight leading suits dense areas like the Fitness app. Loose leading suits long reading, like Maps. In the demo, a long body paragraph went from 22 pt to 20 pt line height, which was \"too tight for such a long paragraph\", then to 24 pt, which looked \"much better\". Apple also adds leading for Arabic and other tall scripts.",
+     "t": 1136
+    },
+    {
+     "title": "Use a bolder weight of the same style for emphasis",
+     "detail": "\"Emphasized text styles\" keep the size of a text style but use a heavier weight. Calendar uses them for year and month headers, and Mail for its large title. The actual weight can be medium, semibold, bold or heavy, depending on the style.",
+     "t": 1028
+    },
+    {
+     "title": "Custom fonts and spacing should scale with text size",
+     "detail": "Custom fonts can follow Dynamic Type by scaling \"relative to\" a text style, and spacing can scale too. The demo set a 20-point padding around body text that grows with the text size \"instead of a fixed size.\"",
+     "t": 1510
+    }
+   ],
+   "Chapters": [
+    {
+     "t": 93,
+     "anchor": "To describe what optical sizes are,",
+     "title": "Optical sizes",
+     "summary": "Why small and large type need different designs, from 18th-century type to SF Text and Display."
+    },
+    {
+     "t": 577,
+     "anchor": "But first, what do I mean by tracking?",
+     "title": "Tracking",
+     "summary": "Tracking vs kerning, tracking tables and tightening strings."
+    },
+    {
+     "t": 827,
+     "anchor": "but let's now consider another kind of typographic space: between lines.",
+     "title": "Leading",
+     "summary": "Line height, leading, and when Apple adds or removes it."
+    },
+    {
+     "t": 971,
+     "anchor": "Text styles are at the core of how we build great UIs at Apple.",
+     "title": "Text styles",
+     "summary": "Emphasized styles, tight and loose leading, rounded and serif designs."
+    },
+    {
+     "t": 1510,
+     "anchor": "Since iOS 11, we introduced a new UIFontMetrics class",
+     "title": "Dynamic Type with custom fonts",
+     "summary": "Scaling custom fonts and spacing with the user's text size."
+    }
+   ],
+   "Start here": {
+    "t": 1142,
+    "anchor": "In iOS and macOS, tight leading decreases the line height by two points,",
+    "why": "A one-minute before/after on line height that applies straight to OnCourse's explanation text."
+   },
+   "Tools": [
+    "iOS"
+   ],
+   "id": "the-details-of-ui-typography-wwdc20"
+  },
+  {
+   "Title": "Typography",
+   "Creator": "Apple Human Interface Guidelines",
+   "Type": "Article",
+   "Link": "https://developer.apple.com/design/human-interface-guidelines/typography",
+   "Apps": [
+    "Apple Mail"
+   ],
+   "Topics": [
+    "Visual design",
+    "Accessibility"
+   ],
+   "Goal": [
+    "Usability",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "On iPhone, use 17 pt as the default text size and 11 pt as the minimum, avoid light weights, build hierarchy from a few text styles, and test every screen at the largest text sizes.",
+   "What they did": "Apple's typography guidelines give default and minimum sizes for each platform, the full table of iOS text styles at every Dynamic Type size, and tracking values for SF Pro. They explain how to show hierarchy with weight, size and colour, when to change leading, and how layouts should adapt when people turn text size up.",
+   "Results": "iOS and iPadOS: default size \"17 pt\", minimum \"11 pt\". Default (Large) iOS text styles: Large Title 34/41, Title 1 28/34, Title 2 22/28, Title 3 20/25, Headline 17/22 semibold, Body 17/22, Callout 16/21, Subhead 15/20, Footnote 13/18, Caption 1 12/16, Caption 2 11/13 (size/leading in points).",
+   "Takeaways": "Default 17 pt, minimum 11 pt on iPhone; Avoid Ultralight, Thin and Light weights; Build hierarchy from few typefaces and set styles; Use loose leading for long text, never tight for 3+ lines; Adapt the layout at large text sizes; Spacing between letters changes with size",
+   "Ideas for OnCourse": "Practice: set question and option text at 17 pt or more, and make sure no label (timers, tags, counts) drops below 11 pt. Lessons: at the largest accessibility text sizes, stack secondary items (time, tags) under the title instead of beside it, and avoid truncating explanation text. Design process: map OnCourse's type tokens to the iOS text styles so size, weight and line height stay consistent",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://developer.apple.com/tutorials/developer-og.jpg",
+   "Key points": [
+    {
+     "title": "Default 17 pt, minimum 11 pt on iPhone",
+     "detail": "Apple's table gives iOS and iPadOS a default size of 17 pt and a minimum of 11 pt. If a custom font is thin, \"aim for larger than the recommended sizes\". For OnCourse, MCQ text and options should sit at body size or above.",
+     "t": null
+    },
+    {
+     "title": "Avoid Ultralight, Thin and Light weights",
+     "detail": "\"In general, avoid light font weights.\" Prefer Regular, Medium, Semibold or Bold, because thin weights \"can be difficult to see, especially when text is small.\"",
+     "t": null
+    },
+    {
+     "title": "Build hierarchy from few typefaces and set styles",
+     "detail": "Use weight, size and colour to show what matters, and \"minimize the number of typefaces you use.\" Text styles bundle weight, size and leading, and they scale together when people change text size. Body is 17/22 and Headline is 17/22 semibold, so headline and body differ by weight, not size.",
+     "t": null
+    },
+    {
+     "title": "Use loose leading for long text, never tight for 3+ lines",
+     "detail": "Loose leading in wide columns or long passages helps people \"keep their place while moving from one line to the next.\" Tight leading can fit text in constrained rows, but \"if you need to display three or more lines of text, avoid tight leading even in areas where height is limited.\"",
+     "t": null
+    },
+    {
+     "title": "Adapt the layout at large text sizes",
+     "detail": "Test at the largest accessibility sizes. Keep truncation to a minimum, and \"consider using a stacked layout where text appears above secondary items\" when inline items crowd text. Keep primary elements at the top so people don't lose them. Only grow the content people care about, not every label.",
+     "t": null
+    },
+    {
+     "title": "Spacing between letters changes with size",
+     "detail": "Apple publishes tracking values for SF Pro at every size. For example, 11 pt uses +6 (1/1000 em), 17 pt uses -26, and 28 pt uses +14. Mockups with the system font may need these values to match the real app.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Ensuring legibility",
+     "title": "Legibility",
+     "summary": "Default and minimum sizes per platform, and avoiding light weights."
+    },
+    {
+     "t": null,
+     "anchor": "Conveying hierarchy",
+     "title": "Hierarchy",
+     "summary": "Weight, size and colour, few typefaces, and prioritising content when text grows."
+    },
+    {
+     "t": null,
+     "anchor": "Supporting Dynamic Type",
+     "title": "Dynamic Type",
+     "summary": "Layouts that adapt to large text, less truncation, stacked layouts."
+    },
+    {
+     "t": null,
+     "anchor": "Tracking values",
+     "title": "Tracking tables",
+     "summary": "Exact tracking for SF Pro and SF Pro Rounded at each point size."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Supporting Dynamic Type",
+    "why": "Short rules for making screens hold up when users raise their text size, which many aspirants on budget phones do."
+   },
+   "Tools": [
+    "iOS"
+   ],
+   "id": "typography"
+  },
+  {
+   "Title": "Practice audio haptic design (WWDC21)",
+   "Creator": "Apple (Camille Moussette)",
+   "Type": "Talk",
+   "Link": "https://developer.apple.com/videos/play/wwdc2021/10278/",
+   "Apps": [
+    "HapticRicochet"
+   ],
+   "Topics": [
+    "Motion",
+    "Visual design"
+   ],
+   "Goal": [
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Haptics and sound work when the cause is obvious, the haptic matches the look and sound, and they are saved for moments that matter.",
+   "What they did": "An Apple designer walks through adding haptics and sound to a small demo game, HapticRicochet. She sets out three principles (causality, harmony and utility), then fixes a 500 ms shield animation whose haptic and sound did not match by combining the continuous haptic from one asset with the sound from another. She also makes a rolling texture loop and matches the visual dot pattern to the haptic density.",
+   "Results": null,
+   "Takeaways": "Causality: make it obvious what caused the feedback; Harmony: it should feel the way it looks and sounds; Utility: don't add feedback just because you can; Match the haptic's shape to the sound's shape; Match visual detail to haptic detail",
+   "Ideas for OnCourse": "Practice: play one light haptic on a correct answer and a different, firmer one on a wrong answer, each tied exactly to the option's colour change. Progress & streaks: let the streak-extended animation, sound and haptic share the same rhythm (for example one rising haptic with a rising sound), not three separate effects. Design process: list every haptic in the app and remove any that does not mark a meaningful moment",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://devimages-cdn.apple.com/wwdc-services/images/119/5210/5210_wide_250x141_2x.jpg",
+   "Duration": 960,
+   "Times": "exact",
+   "Key points": [
+    {
+     "title": "Causality: make it obvious what caused the feedback",
+     "detail": "\"For feedback to be useful, it must be obvious what caused it.\" The ball's haptic plays as it hits the wall. The rolling texture haptic only plays when the dotted background is visible, so people understand the grid caused it.",
+     "t": 198
+    },
+    {
+     "title": "Harmony: it should feel the way it looks and sounds",
+     "detail": "Senses work best together. \"A small ball should feel small and sound small. A large ball ought to sound and feel heavier.\" The iOS Flashlight button is the example: animation, sound and haptic in one \"clear, precise, and succinct\" moment.",
+     "t": 234
+    },
+    {
+     "title": "Utility: don't add feedback just because you can",
+     "detail": "\"Don't add feedback just because you can. It can quickly become overwhelming and unpleasant.\" Reserve haptics and audio \"for significant moments in your app\", like the ball growing.",
+     "t": 260
+    },
+    {
+     "title": "Match the haptic's shape to the sound's shape",
+     "detail": "The first shield asset had a haptic of three sharp taps but a sound that was \"continuous and progressive\", so \"there's no harmony.\" The fix kept the continuous haptic from the second asset and swapped in the preferred sound. The visual animation was 500 ms, and the final haptic and sound \"support and reinforce each other.\"",
+     "t": 554
+    },
+    {
+     "title": "Match visual detail to haptic detail",
+     "detail": "The texture haptic had \"nearly 100 entries over 2 seconds\", but the background had only a few dots. Switching to a denser dot pattern made the experience feel more realistic, because what you see now matches what you feel.",
+     "t": 844
+    }
+   ],
+   "Chapters": [
+    {
+     "t": 198,
+     "anchor": "They are causality,",
+     "title": "Three principles",
+     "summary": "Causality, harmony and utility, with the Flashlight button as the model."
+    },
+    {
+     "t": 284,
+     "anchor": "Core Haptics is the technology on iPhone and iOS",
+     "title": "Core Haptics basics",
+     "summary": "Engine, player, pattern and event; transient vs continuous."
+    },
+    {
+     "t": 554,
+     "anchor": "The problem is the haptic and the sound",
+     "title": "Fixing the shield",
+     "summary": "Combining assets so the haptic and sound share one shape."
+    },
+    {
+     "t": 844,
+     "anchor": "The second issue I want to address is related to",
+     "title": "Texture density",
+     "summary": "Matching the visual dot pattern to the haptic density."
+    }
+   ],
+   "Start here": {
+    "t": 198,
+    "anchor": "They are causality,",
+    "why": "One minute on the three principles you can use to review any haptic in OnCourse."
+   },
+   "Tools": [
+    "iOS"
+   ],
+   "id": "practice-audio-haptic-design-wwdc21"
+  },
+  {
+   "Title": "A calmer interface for a product in motion",
+   "Creator": "Linear (Charlie Aufmann and Maxime Heckel)",
+   "Type": "Case study",
+   "Link": "https://linear.app/now/behind-the-latest-design-refresh",
+   "Apps": [
+    "Linear",
+    "Figma",
+    "Cursor"
+   ],
+   "Topics": [
+    "Visual design",
+    "Navigation",
+    "Design process",
+    "AI tools"
+   ],
+   "Goal": [
+    "Craft",
+    "Speed"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Linear's 2026 refresh calmed a dense product by dimming navigation, cutting icons and borders, and warming the greys, using in-app tools to compare and tune changes quickly.",
+   "What they did": "Linear's two-person team refreshed the interface by following two rules: \"Don't compete for attention you haven't earned\" and \"Structure should be felt not seen\". They dimmed the sidebar, made tabs smaller, cut and shrank icons, removed coloured icon backgrounds, and softened borders. They shipped behind feature flags with a dev toolbar to flip between old and new, and built an in-app colour tool with coding agents to tune hue, chroma and lightness of tokens.",
+   "Results": null,
+   "Takeaways": "Navigation should recede once you have arrived; Cut icons that don't earn their place; Structure should be felt, not seen; Warm greys, but not too warm; Build tools to compare and tune in the real app; Good refreshes go mostly unnoticed",
+   "Ideas for OnCourse": "Home: dim the bottom tab bar and secondary labels a step so today's plan and the start button carry the most weight. Practice: remove dividers between options and rely on spacing and soft card backgrounds instead. Design process: build a hidden in-app panel (behind a flag) to tweak OnCourse colour tokens on a real phone and copy the values back into Figma",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://webassets.linear.app/images/ornj730p/production/c73728cacaf62bdb046a38d4fd474ae85b98913b-1200x675.png?q=95&auto=format&dpr=2",
+   "Key points": [
+    {
+     "title": "Navigation should recede once you have arrived",
+     "detail": "The sidebar \"used to appear bright enough that it remained visually prominent even after a user had reached their destination.\" Now it is \"a few notches dimmer\" so the main content takes precedence. Tabs were made more compact with smaller icons and text.",
+     "t": null
+    },
+    {
+     "title": "Cut icons that don't earn their place",
+     "detail": "Icons help people recognise projects and statuses, but \"in some views their presence had grown excessive.\" The refresh reduced icon use, scaled sizes down and removed \"colored team icon backgrounds\".",
+     "t": null
+    },
+    {
+     "title": "Structure should be felt, not seen",
+     "detail": "Borders and separators \"had quietly proliferated across the platform, sometimes appearing without clear reason.\" The team used fewer separators, rounded their edges and softened their contrast so the page still has structure without clutter.",
+     "t": null
+    },
+    {
+     "title": "Warm greys, but not too warm",
+     "detail": "The old palette was \"a cool, blue-ish hue\". The aim was \"a warmer gray that still feels crisp, but less saturated.\" \"Go too warm, though, and the interface risks looking muddy\", so it took many rounds to get right.",
+     "t": null
+    },
+    {
+     "title": "Build tools to compare and tune in the real app",
+     "detail": "A dev toolbar toggles the refresh flag so \"it took us just one click to compare it with the previous version.\" A colour tool, built with Claude Code \"in a couple of hours\", exposes hue, chroma and lightness of each token, and the values are imported into Figma as JSON. Feature flags let them ship small changes instead of one big release.",
+     "t": null
+    },
+    {
+     "title": "Good refreshes go mostly unnoticed",
+     "detail": "\"If most people don't immediately notice what changed, that's probably a good sign.\" Most of what makes software feel good \"is what you aren't likely to see\".",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Don’t compete for attention you haven’t earned",
+     "title": "Lower the noise",
+     "summary": "Dimmer sidebar, compact tabs and fewer, smaller icons."
+    },
+    {
+     "t": null,
+     "anchor": "Structure should be felt not seen",
+     "title": "Softer structure",
+     "summary": "Fewer, softer separators and borders."
+    },
+    {
+     "t": null,
+     "anchor": "The tools that helped us move faster",
+     "title": "Tools",
+     "summary": "Dev toolbar, in-app colour picker, and coding agents."
+    },
+    {
+     "t": null,
+     "anchor": "Approximating the future, by design",
+     "title": "Why it matters",
+     "summary": "Small details compound, and good changes are hard to spot."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Don’t compete for attention you haven’t earned",
+    "why": "It is the clearest rule for calming a busy screen like OnCourse Home."
+   },
+   "Tools": [
+    "Claude Code",
+    "Codex"
+   ],
+   "id": "a-calmer-interface-for-a-product-in-motion"
+  },
+  {
+   "Title": "Get to know the new design system (WWDC25)",
+   "Creator": "Apple (Maria)",
+   "Type": "Talk",
+   "Link": "https://developer.apple.com/videos/play/wwdc2025/356/",
+   "Apps": [
+    "Safari"
+   ],
+   "Topics": [
+    "Visual design",
+    "Navigation",
+    "Motion"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Apple's Liquid Glass design system asks for concentric corners, sheets that grow out of the control that opened them, hierarchy from grouping instead of decoration, and text labels where an icon is unclear.",
+   "What they did": "An Apple designer explains the new design system across visual design, structure and continuity. She covers updated colours and bolder, left-aligned type, three shape types for concentric layouts, action sheets that spring from their source, dimming for modal tasks, bar grouping rules, scroll edge effects instead of dividers, and when to use text labels instead of symbols.",
+   "Results": null,
+   "Takeaways": "Nest shapes concentrically to avoid pinched corners; Sheets should grow from the thing you tapped; Dim for interruptions, not for parallel tasks; Show hierarchy through grouping, not decoration; Replace hard dividers with a soft scroll edge; Use a text label when an icon is ambiguous",
+   "Ideas for OnCourse": "Practice: make the \"Report question\" or \"More\" menu grow out of the button that opened it, not slide up from the bottom of the screen. Paywall: give the plan cards and the inner price chips concentric corners (inner radius = outer radius minus padding) and use a capsule button with extra margin from the screen edge. Home: replace hard dividers under the sticky header with a soft fade, and use text labels like \"Edit plan\" where an icon could be misread",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/10044/10044_wide_250x141_2x.jpg",
+   "Duration": 1090,
+   "Times": "exact",
+   "Key points": [
+    {
+     "title": "Nest shapes concentrically to avoid pinched corners",
+     "detail": "Apple uses three shapes: fixed (constant radius), capsules (\"half the height of the container\"), and concentric shapes that take \"their radius by subtracting padding from the parent's.\" Watch for corners \"that feel too pinched— or flared\", often in \"artwork in a card\". On phones, use \"a capsule with extra margin\" for buttons near the screen edge.",
+     "t": 222
+    },
+    {
+     "title": "Sheets should grow from the thing you tapped",
+     "detail": "\"Take the Action Sheet. It used to appear at the bottom of the screen, no matter where the action came from. Now, it springs from the action itself.\" This keeps the link between a surface and its source clear.",
+     "t": 414
+    },
+    {
+     "title": "Dim for interruptions, not for parallel tasks",
+     "detail": "\"When a task interrupts the main flow, pair Liquid Glass with a dimming layer\" to centre attention. When a task happens in parallel, no dim is needed. As a sheet is dragged up, it becomes more opaque and grows to show deeper engagement.",
+     "t": 463
+    },
+    {
+     "title": "Show hierarchy through grouping, not decoration",
+     "detail": "Extra backgrounds and borders on bar buttons are now unnecessary. \"Instead of relying on decoration, hierarchy should be expressed through layout and grouping.\" Group by function and frequency, move secondary actions to a menu, and \"not group symbols with text\", since they could read as one button. The primary action stays separate and tinted.",
+     "t": 535
+    },
+    {
+     "title": "Replace hard dividers with a soft scroll edge",
+     "detail": "\"Scroll edge effects reinforce that boundary, replacing hard dividers with subtle blur\". They are \"not decorative\" and should only appear where floating UI meets content. Soft is the default on iOS; use only one per view.",
+     "t": 678
+    },
+    {
+     "title": "Use a text label when an icon is ambiguous",
+     "detail": "\"A pencil might suggest annotate, and a checkmark can look like confirm\", so actions like Select or Edit are easy to misread. \"When there's no clear shorthand, a text label is always the better choice.\" Typography is also now \"bolder and left-aligned\" in alerts and onboarding.",
+     "t": 932
+    }
+   ],
+   "Chapters": [
+    {
+     "t": 155,
+     "anchor": "Our family of system colors has been adjusted in subtle but meaningful ways",
+     "title": "Colour and type",
+     "summary": "Updated system colours and bolder, left-aligned typography."
+    },
+    {
+     "t": 201,
+     "anchor": "There’s a quiet geometry to how our shapes fit together, driven by concentricity.",
+     "title": "Concentric shapes",
+     "summary": "Fixed, capsule and concentric shapes, and how to fix pinched corners."
+    },
+    {
+     "t": 414,
+     "anchor": "Take the Action Sheet.",
+     "title": "Structure and focus",
+     "summary": "Sheets from their source, dimming and Liquid Glass focus."
+    },
+    {
+     "t": 535,
+     "anchor": "Instead of relying on decoration,",
+     "title": "Bars and grouping",
+     "summary": "Grouping rules for toolbars, tab bars and primary actions."
+    },
+    {
+     "t": 678,
+     "anchor": "Scroll edge effects reinforce that boundary, replacing hard dividers",
+     "title": "Scroll edge effects",
+     "summary": "Soft vs hard edges and when to use them."
+    },
+    {
+     "t": 814,
+     "anchor": "Where design language builds cohesion and structure shapes action,",
+     "title": "Continuity",
+     "summary": "Consistent symbols, text labels and shared component anatomy across devices."
+    }
+   ],
+   "Start here": {
+    "t": 201,
+    "anchor": "There’s a quiet geometry to how our shapes fit together, driven by concentricity.",
+    "why": "Concrete corner-radius rules you can apply to OnCourse cards and buttons today."
+   },
+   "Tools": [
+    "iOS",
+    "iPadOS",
+    "macOS"
+   ],
+   "id": "get-to-know-the-new-design-system-wwdc25"
+  },
+  {
+   "Title": "Color",
+   "Creator": "Apple Human Interface Guidelines",
+   "Type": "Article",
+   "Link": "https://developer.apple.com/design/human-interface-guidelines/color",
+   "Apps": [
+    "Apple Stocks",
+    "Apple Maps",
+    "Apple Mail"
+   ],
+   "Topics": [
+    "Visual design",
+    "Accessibility"
+   ],
+   "Goal": [
+    "Usability",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Give each colour one meaning, never rely on colour alone, provide light, dark and high-contrast versions, and remember colour meanings differ by culture.",
+   "What they did": "Apple's colour guidelines cover using colour consistently, supporting light, dark and Increased Contrast modes, testing in different lighting, inclusive colour, semantic system colours, and how to use colour on Liquid Glass. For iOS they define layered background colours (primary, secondary, tertiary) and label colours by role.",
+   "Results": null,
+   "Takeaways": "One colour, one meaning; Never rely on colour alone; Colour meaning changes across cultures; Supply light, dark and high-contrast versions; Test colours in real light; Use colour by role, and sparingly on controls",
+   "Ideas for OnCourse": "Practice: show correct and wrong answers with an icon (tick or cross) and a text label as well as green and red, so colour-blind users can tell them apart. Design process: give every OnCourse colour token a light, dark and high-contrast value, and test the Practice screen outdoors in bright light. Paywall: use the accent colour only on the main subscribe button, not on secondary links or plan tags",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://developer.apple.com/tutorials/developer-og.jpg",
+   "Key points": [
+    {
+     "title": "One colour, one meaning",
+     "detail": "\"Avoid using the same color to mean different things.\" If the brand colour marks a tappable button, using it on text that is not tappable is confusing. For OnCourse, the accent colour should only mean \"you can tap this\".",
+     "t": null
+    },
+    {
+     "title": "Never rely on colour alone",
+     "detail": "\"Avoid relying solely on color to differentiate between objects, indicate interactivity, or communicate essential information.\" Use text labels or glyph shapes too, so people with colour blindness can understand. This matters for green/red correct and wrong states in MCQs.",
+     "t": null
+    },
+    {
+     "title": "Colour meaning changes across cultures",
+     "detail": "\"Red communicates danger in some cultures, but has positive connotations in other cultures.\" Apple's Stocks app shows a positive trend in green in English and in red in Chinese.",
+     "t": null
+    },
+    {
+     "title": "Supply light, dark and high-contrast versions",
+     "detail": "Every custom colour needs light and dark variants, plus \"an increased contrast option for each variant\" with much more difference. Apple adds: \"Even if your app ships in a single appearance mode, provide both light and dark colors\" for Liquid Glass.",
+     "t": null
+    },
+    {
+     "title": "Test colours in real light",
+     "detail": "\"In bright surroundings, colors look darker and more muted. In dark environments, colors appear bright and saturated.\" Test on different devices too, since True Tone shifts the white point.",
+     "t": null
+    },
+    {
+     "title": "Use colour by role, and sparingly on controls",
+     "detail": "iOS defines background colours by level (primary for the view, secondary for groups, tertiary for groups inside groups) and label colours by importance. Don't reuse a role, like using separator colour for text. On Liquid Glass, \"apply color sparingly\" and \"refrain from adding color to the background of multiple controls.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Best practices",
+     "title": "Best practices",
+     "summary": "Consistent meaning, light/dark/high-contrast variants, lighting and device testing."
+    },
+    {
+     "t": null,
+     "anchor": "Inclusive color",
+     "title": "Inclusive colour",
+     "summary": "Not relying on colour alone, contrast, and cultural meaning."
+    },
+    {
+     "t": null,
+     "anchor": "System colors",
+     "title": "System colours",
+     "summary": "Semantic, dynamic colours and not redefining their roles."
+    },
+    {
+     "t": null,
+     "anchor": "Liquid Glass color",
+     "title": "Colour on Liquid Glass",
+     "summary": "Tinting only primary actions and keeping labels legible over colourful content."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Inclusive color",
+    "why": "Three short rules that directly affect how OnCourse shows right and wrong answers."
+   },
+   "Tools": [
+    "iOS"
+   ],
+   "id": "color"
+  },
+  {
+   "Title": "Gestures",
+   "Creator": "Apple Human Interface Guidelines",
+   "Type": "Article",
+   "Link": "https://developer.apple.com/design/human-interface-guidelines/gestures",
+   "Apps": [],
+   "Topics": [
+    "Navigation",
+    "Accessibility",
+    "Motion"
+   ],
+   "Goal": [
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Keep standard gestures doing standard things, give feedback during the gesture, show when a gesture isn't available, and always offer a button alongside any custom gesture.",
+   "What they did": "Apple's gesture guidelines explain how to use familiar touch gestures, when custom gestures are worth adding, and what makes them learnable. They list iOS gestures people already expect (three-finger swipe to undo, shake to undo) and warn against clashing with system gestures.",
+   "Results": null,
+   "Takeaways": "Standard gestures should do standard things; Give feedback while the gesture is happening; Show clearly when a gesture won't work; Custom gestures need four qualities; Shortcut gestures supplement buttons, never replace them; Offer more than one way to act",
+   "Ideas for OnCourse": "Flashcards: if swipe left/right rates a card, also show visible \"Again\" and \"Good\" buttons, and tilt or tint the card during the swipe so users can predict the result. Practice: when an option can't be changed after submit, give a small shake or haptic on tap so it doesn't look frozen. Lessons: keep a visible back button even if edge-swipe back works",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://developer.apple.com/tutorials/developer-og.jpg",
+   "Key points": [
+    {
+     "title": "Standard gestures should do standard things",
+     "detail": "\"People expect tap to activate or select an object.\" Avoid using a familiar gesture like tap or swipe \"to perform an action that's unique to your app\", and avoid inventing a gesture for a standard action like scrolling.",
+     "t": null
+    },
+    {
+     "title": "Give feedback while the gesture is happening",
+     "detail": "\"Handle gestures as responsively as possible.\" As people perform a gesture, give feedback \"that helps them predict its results\" and shows \"the extent and type of movement required to complete the action.\"",
+     "t": null
+    },
+    {
+     "title": "Show clearly when a gesture won't work",
+     "detail": "If you don't explain why a gesture doesn't work, \"people might think your app has frozen.\" A locked object that can't be dragged, or a disabled button that looks like an enabled one, both cause confusion.",
+     "t": null
+    },
+    {
+     "title": "Custom gestures need four qualities",
+     "detail": "Add custom gestures \"only when necessary\". They must be \"Discoverable\", \"Straightforward to perform\", \"Distinct from other gestures\", and \"Not the only way to perform an important action\". If it is hard to explain the gesture in simple words, it will be hard to learn.",
+     "t": null
+    },
+    {
+     "title": "Shortcut gestures supplement buttons, never replace them",
+     "detail": "Many apps let people swipe from the edge to go back, but they still keep the Back button. People \"need simple, familiar ways to navigate and perform actions, even if it means an extra tap or two.\"",
+     "t": null
+    },
+    {
+     "title": "Offer more than one way to act",
+     "detail": "\"Don't assume that people can use a specific gesture to perform a given task.\" Some people use voice, a keyboard or Switch Control. Also avoid clashing with system gestures.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Best practices",
+     "title": "Best practices",
+     "summary": "Multiple inputs, consistent gestures, responsive feedback, and unavailable gestures."
+    },
+    {
+     "t": null,
+     "anchor": "Custom gestures",
+     "title": "Custom gestures",
+     "summary": "When to add them, the four qualities, shortcuts and system conflicts."
+    },
+    {
+     "t": null,
+     "anchor": "iOS, iPadOS",
+     "title": "iOS gestures people expect",
+     "summary": "Three-finger swipe and pinch, shake to undo, and simultaneous gestures."
+    },
+    {
+     "t": null,
+     "anchor": "Standard gestures",
+     "title": "Standard gestures table",
+     "summary": "What tap, swipe, drag and other gestures are expected to do on each platform."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Custom gestures",
+    "why": "A short checklist to run before adding any swipe interaction to Flashcards or Practice."
+   },
+   "Tools": [
+    "iOS",
+    "iPadOS"
+   ],
+   "id": "gestures"
+  },
+  {
+   "Title": "How we learn how you learn",
+   "Creator": "Duolingo Blog (Burr Settles)",
+   "Type": "Article",
+   "Link": "https://blog.duolingo.com/how-we-learn-how-you-learn/",
+   "Apps": [
+    "Duolingo",
+    "Anki",
+    "Pimsleur"
+   ],
+   "Topics": [
+    "Practice",
+    "Progress & streaks",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "A per-item memory model that predicts when each fact will be forgotten made Duolingo's practice sessions and strength meters work better, and lifted daily retention.",
+   "What they did": "Duolingo replaced its Leitner-style strength meters with half-life regression (HLR), a model that estimates how long each word stays in a learner's memory. It uses each learner's history with a word (times seen, times correct, time since last practice) plus traits of the word itself. The model picks each learner's weakest words for a custom practice session and drives the strength meter on each skill. They compared it with older methods on 12 million practice sessions, then A/B tested it with users.",
+   "Results": "HLR had the lowest prediction error; \"the HLR error rate is nearly half that of the Leitner system method.\" In the A/B test, \"We saw a 9.5% increase in retention for practice sessions, a 1.7% increase for lessons, and a whopping 12% increase for overall activity.\" Mean absolute error for HLR was 0.13. The student model is updated \"3,000 times per second.\"",
+   "Takeaways": "Show memory strength per skill so learners know when to review; The best time to review is right before forgetting; Model each item, not a fixed schedule; Item difficulty is learnable from data; Better review scheduling lifted daily retention",
+   "Ideas for OnCourse": "Practice: build a \"Weak topics\" session that picks the questions a student is most likely to get wrong today, based on their history with each topic. Lessons: show a strength meter on each topic that decays over time, so students can see when a topic needs review. Today's plan: fill part of the plan with topics that are due for review, not only new ones",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2024/07/cover_How-we-learn-how-you-learn.png",
+   "Key points": [
+    {
+     "title": "Strength meters tell learners when to review",
+     "detail": "Each Duolingo skill had a strength meter. It is full right after a skill is finished, and \"once the meter slips to half-full, though, you know it's time to practice.\" Tapping a skill showed the words that most needed practice, with a custom session built from them. For OnCourse, a decaying meter per topic turns a hidden algorithm into something a student can see and act on.",
+     "t": null
+    },
+    {
+     "title": "Review right before you would forget",
+     "detail": "The model treats memory as a forgetting curve: recall probability is p = 2^(-Δ/h), where Δ is time since last practice and h is the item's half-life. When Δ equals h, there is only a 50% chance of recall. \"The best time to practice is when you are on the verge of forgetting.\" Each correct answer makes h longer and each mistake makes it shorter.",
+     "t": null
+    },
+    {
+     "title": "Fixed schedules lose to models learned from data",
+     "detail": "Pimsleur used a fixed schedule for every word (5 seconds, then 25 seconds, then 2 minutes, then 10 minutes, and so on). Leitner doubles the interval after a correct answer and halves it after a mistake, and that is what Duolingo shipped in 2012. HLR learns weights from millions of learners instead. Its prediction error was \"nearly half that of the Leitner system.\"",
+     "t": null
+    },
+    {
+     "title": "The model also learns which items are hard",
+     "detail": "HLR can use the word itself as an input, so it learns which words fade fast. Easy words tended to be cognates or short, common, regular words. Hard words were rare or irregular, or used complex grammar. The same idea could flag MCQ topics that most students forget quickly and schedule them more often.",
+     "t": null
+    },
+    {
+     "title": "Better scheduling lifted retention in A/B tests",
+     "detail": "Duolingo \"secretly ran A/B tests\" of HLR against the old algorithm. Daily retention rose 9.5% for practice sessions, 1.7% for lessons and 12% for overall activity. After that they moved everyone to HLR. Good review scheduling helps learning and also brings people back the next day.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Strength meters",
+     "title": "Strength meters",
+     "summary": "How the per-skill meter works and how it leads into a custom practice session of weak words."
+    },
+    {
+     "t": null,
+     "anchor": "The student model and forgetting curves",
+     "title": "Forgetting curves",
+     "summary": "The spacing and lag effects, the half-life formula, and the older Pimsleur and Leitner schedules."
+    },
+    {
+     "t": null,
+     "anchor": "Half-life regression (HLR)",
+     "title": "Half-life regression",
+     "summary": "How the model learns each word's half-life from learner history, and which words turn out easy or hard."
+    },
+    {
+     "t": null,
+     "anchor": "Experimental results",
+     "title": "Results",
+     "summary": "Prediction error compared with other methods on 12 million sessions, then the A/B test retention gains."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Experimental results",
+    "why": "It is short and shows the retention gains from better review scheduling, which is the main case for a smart review mode in OnCourse."
+   },
+   "id": "how-we-learn-how-you-learn"
+  },
+  {
+   "Title": "How we adjust in-app messaging for learners in different languages",
+   "Creator": "Duolingo Blog (Eva Raimondi)",
+   "Type": "Case study",
+   "Link": "https://blog.duolingo.com/copy-testing-experiments/",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Topics": [
+    "Copy",
+    "Notifications",
+    "Practice",
+    "Paywall"
+   ],
+   "Goal": [
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Small copy changes on high-traffic, high-friction screens can cut lesson quits and raise opt-ins, but a winning line in one language may not win in another.",
+   "What they did": "Duolingo built Expurrimenter, a tool that lets the localization team A/B test 2–3 versions of interface copy without engineering time. They target the screens people use most, especially where a learner might feel stuck or need motivation. Tests included a warmer quit-lesson message in Spanish, a notification opt-in prompt in German, and more descriptive subscription feature names in Chinese.",
+   "Results": "\"Within the first three months with Expurrimenter, we more than doubled our all-time volume of copy tests.\" The German opt-in copy \"yielded an 8% increase in opt-in to notifications for German learners\"; the same test in Spanish \"had no significant impact.\" The Spanish quit message reduced \"the number of people that quit sessions\" and increased time spent learning (no figure given). The Chinese feature names \"increased free trial sign-ups for Plus\" (no figure given).",
+   "Takeaways": "Make copy testable without engineers; Test copy where learners feel stuck; A warm quit message keeps people in the session; Tie the notification ask to the learner's goal; Winning copy does not always travel; Spell out what premium actually does",
+   "Ideas for OnCourse": "Practice: when a student tries to leave a test midway, test a warmer message such as \"Only 4 questions left. Leave anyway?\" against the plain confirm. Notifications: in the permission pre-prompt, link reminders to the exam goal (for example, \"Students who get reminders keep their NEET-PG plan on track\") instead of asking for permission plainly. Paywall: describe each premium feature by what it does for the student, for example \"See why every option is wrong\" instead of \"Detailed explanations\"",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2024/06/cover_How-we-adjust-in-app-messaging-for-learners-in-different-languages.png",
+   "Key points": [
+    {
+     "title": "Make copy testable without engineering time",
+     "detail": "Copy A/B tests used to need engineers, so \"just changing the localized text was a small step that took outsized effort.\" Expurrimenter plugs into Duolingo's analytics so writers can set up tests for one language or for all languages. In the first three months, Duolingo more than doubled its all-time number of copy tests. For OnCourse, keeping key strings behind a remote-config or experiment flag would let copy change without a release.",
+     "t": null
+    },
+    {
+     "title": "Test copy on screens where learners stall",
+     "detail": "The team picks \"the screens that people interact with the most, particularly those where a learner might feel stuck, or need extra motivation or instruction to continue.\" Then they write a hypothesis about tone or clarity. This keeps tests on moments that matter rather than random strings.",
+     "t": null
+    },
+    {
+     "title": "A warmer quit message kept people learning",
+     "detail": "The Spanish quit-lesson prompt was a plain \"Do you want to end this session?\" They tested \"Don't give up! Do you really want to end this session?\", which speaks to the learner and admits they may feel discouraged. Fewer people quit sessions and time spent learning went up. OnCourse's leave-test confirm is a similar moment.",
+     "t": null
+    },
+    {
+     "title": "Tie the notification ask to the goal",
+     "detail": "German learners opted into notifications less often. The old copy said \"Duolingo needs to send you notifications.\" The winner said \"notifications are proven to foster learning success!\" Opt-in rose 8% for German learners, but the same test in Spanish had no significant effect. Explain the benefit, and retest in each market or language rather than assuming a win carries over.",
+     "t": null
+    },
+    {
+     "title": "Spell out what premium actually does",
+     "detail": "Chinese has room for more description, so the team expanded \"Unlimited Hearts\" to \"No heart loss on errors\" and \"Mastery quiz\" to \"Test your knowledge anytime.\" This \"increased free trial sign-ups for Plus by giving learners a much clearer idea of how to make the most of their subscription.\" Feature names that describe the benefit can beat short labels on a paywall.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Enter… Expurrimenter!",
+     "title": "The tool",
+     "summary": "What Expurrimenter is and how it tests 2–3 versions of a string per language or globally."
+    },
+    {
+     "t": null,
+     "anchor": "Why we built a copy testing tool",
+     "title": "Why build it",
+     "summary": "Copy tests needed engineering time; the tool doubled test volume in three months."
+    },
+    {
+     "t": null,
+     "anchor": "Expurrimentation in action",
+     "title": "Three experiments",
+     "summary": "The Spanish quit message, the German notification opt-in (+8%), and Chinese subscription feature names."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Expurrimentation in action",
+    "why": "It has all three concrete before/after copy tests, and each one maps to an OnCourse screen: leaving a test, notification opt-in and the paywall."
+   },
+   "id": "how-we-adjust-in-app-messaging-for-learners-in-different-languages"
+  },
+  {
+   "Title": "Two simple tricks for remembering what you’ve learned on Duolingo",
+   "Creator": "Duolingo Blog (Lucy Portnoff)",
+   "Type": "Article",
+   "Link": "https://blog.duolingo.com/review-exercises-help-measure-learner-recall/",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Topics": [
+    "Practice",
+    "Lessons",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Slipping one old question into a new lesson is a cheap way to measure real recall, and it showed that studying a topic at a harder level and moving forward both help memory.",
+   "What they did": "Duolingo adds a Review Exercise from an earlier skill into lessons from a later skill, and uses the answer as a measure of whether the learner still remembers it. Learners answer about 300,000 of these a day. The assessment team compared learners who got them right with those who got them wrong, using a regression discontinuity design to isolate the effect of doing one extra, harder level.",
+   "Results": "\"Together, learners answer around 300,000 Review Exercises every single day!\" Learners who completed the additional level \"were significantly more likely to answer the Review Exercise for that content correctly later.\" Learners who answered correctly \"had completed more lessons in the next skills\"; there was \"no significant difference\" for time spent on previous skills. No exact percentages are given.",
+   "Takeaways": "Embed one old item in new lessons to measure recall; Harder levels of the same content improve later recall; Moving forward reinforces what came before; Use careful methods to separate effect from habit",
+   "Ideas for OnCourse": "Practice: mix one or two questions from topics the student finished weeks ago into each new set, and track how often they get them right as a retention metric. Lessons: after the basic quiz on a topic, offer a harder \"level 2\" set of clinical-vignette questions and nudge students to do it before moving on. Design process: use the recall rate on these embedded questions as a north-star learning metric next to engagement",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2024/06/cover_Two-simple-tricks-for-remembering-what-youve-learned-on-Duolingo.png",
+   "Key points": [
+    {
+     "title": "One old question in a new lesson measures recall",
+     "detail": "A Review Exercise is randomly sampled from an earlier skill (for example Animals) and shown inside a later lesson (for example Places). Right means remembered and wrong means forgotten. Across the app this gives about 300,000 recall measurements a day without a separate test. OnCourse could measure retention the same way inside normal practice sets.",
+     "t": null
+    },
+    {
+     "title": "Harder levels of the same topic boost recall",
+     "detail": "Each skill has levels that teach the same material in harder contexts, from matching a picture to translating a sentence. Only the first level is required, so some learners never try harder ones. Learners who did the next level were \"significantly more likely\" to get the later Review Exercise right. Depth on a topic, not just finishing it once, helps memory.",
+     "t": null
+    },
+    {
+     "title": "Moving forward reinforces what came before",
+     "detail": "Learners who got Review Exercises right had done more lessons in the next skills, because later skills reuse earlier concepts. Time spent going back to earlier skills showed no significant difference. A well-sequenced curriculum does part of the review for you.",
+     "t": null
+    },
+    {
+     "title": "Separate the effect from the type of learner",
+     "detail": "Keen learners do more of everything, so a plain comparison would mislead. The team used regression discontinuity: they compared learners who usually complete the extra level and did, with similar learners who usually do but didn't this time. Any difference can then be put down to that one extra level. This is a useful model for reading OnCourse's own analytics.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "How we design our Review Exercises",
+     "title": "Review Exercises",
+     "summary": "How an earlier skill's question is slipped into a later lesson to measure recall at scale."
+    },
+    {
+     "t": null,
+     "anchor": "1. They “level up” for mastery",
+     "title": "Level up for mastery",
+     "summary": "Doing the harder level of a skill makes later recall more likely; the method used to show it."
+    },
+    {
+     "t": null,
+     "anchor": "2. They “move forward” for reinforcement",
+     "title": "Move forward",
+     "summary": "Learning the next skills reinforces the current one; going back does not show the same link."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "How we design our Review Exercises",
+    "why": "It explains the embedded-recall-question idea, which OnCourse could copy almost directly in Practice."
+   },
+   "id": "two-simple-tricks-for-remembering-what-you-ve-learned-on-duolingo"
+  },
+  {
+   "Title": "How we developed our addictive and delightful widget",
+   "Creator": "Duolingo Blog (Osman Mansur, Jackson Shuttleworth)",
+   "Type": "Case study",
+   "Link": "https://blog.duolingo.com/widget-feature/",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Topics": [
+    "Progress & streaks",
+    "Notifications",
+    "Home",
+    "Visual design"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "A home-screen widget that shows only today's status and the streak worked as a habit reminder, but it only took off once Duolingo taught people how to install it right after a lesson.",
+   "What they did": "The widget started as a hackathon project and took over a year to ship. Testing showed that the only data worth showing was whether today's lesson was done and the current streak. Installs were the main problem, so they tested an in-app promo with an animated install guide after a lesson. Later they made Duo's illustration change through the day and get more desperate near midnight, so the widget would not feel like just another notification.",
+   "Results": "\"Half of the learners with the widget installed have a streak of at least 6 months!\" After the post-lesson promo with an animated explainer, \"we saw widget installs skyrocket.\" Widget users had \"far better retention on Duolingo, even when controlling for the fact that learners who add the widget tend to be more committed to begin with.\" No exact lift is given.",
+   "Takeaways": "Show only what drives action: done today and streak; Installation, not building, was the hard part; Promote the widget right after a lesson, with an animated guide; Make the widget feel different from a notification; Widget users retained better even after controls",
+   "Ideas for OnCourse": "Home: ship a home-screen widget that shows only \"Today's plan: done / not done\" and the streak, with a tap that opens straight into the next question. Today's plan: after a student finishes the plan, show a one-time promo with a short animated guide to adding the widget. Streaks: change the widget's illustration and tone through the day as the streak gets closer to breaking",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2024/05/cover_widget.png",
+   "Key points": [
+    {
+     "title": "Show only what makes people act",
+     "detail": "Most widgets are passive, but Duolingo's had to get people to tap and do a lesson. So it shows just whether today's lesson is done and the current streak. Research and feature tests found that \"simply reminding a learner of their current streak, and whether or not it's at risk, is hugely valuable.\" Extra stats were not needed.",
+     "t": null
+    },
+    {
+     "title": "Getting installs was the real challenge",
+     "detail": "After the iOS launch in July 2022, some early adopters installed it on their own. The team soon saw that awareness and knowing how to install it were the main problem. If people didn't install it, months of engineering would be wasted. Any OnCourse widget needs a plan for getting it installed, not just a design.",
+     "t": null
+    },
+    {
+     "title": "Promote it after a lesson with an animated guide",
+     "detail": "They tested an in-app promo shown after learners finished a lesson, with an animated explainer of how to add the widget. \"We saw widget installs skyrocket.\" The team now keeps working on the content, placement and frequency of these promos. Right after a finished session is a good moment to ask.",
+     "t": null
+    },
+    {
+     "title": "Make it feel unlike a notification",
+     "detail": "Learners said the widget worked as well as push notifications, which worried the team: why keep something that feels like extra notifications? They used the larger space for illustrations of Duo's mood across the day, and he \"gets more and more desperate as it nears midnight.\" Personality gives people a reason to keep it installed.",
+     "t": null
+    },
+    {
+     "title": "Widget users retain better, even with controls",
+     "detail": "Half of learners with the widget have a streak of at least 6 months. Duolingo says widget users had far better retention \"even when controlling for\" the fact that committed learners are more likely to add it. They later added Android and an iOS lock-screen streak widget.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Making the widget worth it",
+     "title": "What to show",
+     "summary": "Why the widget shows only today's status and the streak."
+    },
+    {
+     "t": null,
+     "anchor": "If you make it, will they download?",
+     "title": "Getting installs",
+     "summary": "Testing a post-lesson promo with an animated install guide."
+    },
+    {
+     "t": null,
+     "anchor": "Keeping the widget distinct",
+     "title": "Keeping it distinct",
+     "summary": "Retention results, and Duo's changing moods so the widget isn't just another notification."
+    },
+    {
+     "t": null,
+     "anchor": "What comes next?",
+     "title": "What's next",
+     "summary": "Android launch, the lock-screen streak widget and more interactive designs."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "If you make it, will they download?",
+    "why": "It shows that the install prompt, not the widget design, decided whether the feature worked."
+   },
+   "id": "how-we-developed-our-addictive-and-delightful-widget"
+  },
+  {
+   "Title": "Elevating craft: How we refreshed our core tabs",
+   "Creator": "Duolingo Blog (Leah Lee, Lokesh Fulfagar)",
+   "Type": "Case study",
+   "Link": "https://blog.duolingo.com/core-tabs-redesign/",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Topics": [
+    "Visual design",
+    "Navigation",
+    "Design process"
+   ],
+   "Goal": [
+    "Craft",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Duolingo made its tabs feel like one family by exploring four extreme directions, then building a small system that balances consistency with purpose and simplicity with clarity.",
+   "What they did": "Duolingo's tabs had been built one at a time and had different header sizes, weak type hierarchy and uneven spacing. The team ran a quick divergent sprint, then pushed four directions to extremes (Punchy, Soft, Modular, Flat) and tested scrappy prototypes on phones. They then built tiered header sizes by tab purpose, a smaller type scale and spacing rules, and ran QA with engineers using design overlays.",
+   "Results": "\"We see higher engagement across tabs while maintaining our core learning metrics.\" No figures are given. It was live on iOS, with Android to follow.",
+   "Takeaways": "Small inconsistencies add up to an unpolished app; Explore extreme directions before converging; Consistency must serve each tab's purpose; Simplicity must not cost clarity; Tier headers by purpose, keep titles in one place; Use whitespace instead of forced containers; QA with design overlays",
+   "Ideas for OnCourse": "Design process: audit Home, Practice, Lessons and Flashcards side by side for header size, title position, type styles and spacing, then write a small tiered header system. Design process: before polishing one direction, mock all main tabs in three or four extreme styles and compare them on a real phone. Lessons: remove container cards that only add boxes, and group content with spacing instead",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2026/01/cover_growth-tab-refresh.png",
+   "Key points": [
+    {
+     "title": "Small inconsistencies add up to an unpolished app",
+     "detail": "Each tab \"worked fine on their own, but together they didn't feel like part of the same family.\" Headers varied in size, typography lacked hierarchy and spacing was uneven. These small details added up to an experience that didn't feel polished. Apps that grow tab by tab, like OnCourse, drift the same way.",
+     "t": null
+    },
+    {
+     "title": "Push four directions to extremes first",
+     "detail": "The team first suspended assumptions and \"went wild\" with divergent ideas for each tab. Then they scaled the best into four extremes: Punchy (solid bright headers), Soft (gradients), Modular (cards) and Flat (heavy white space). Quick prototypes on phones and early feedback showed what worked before they committed.",
+     "t": null
+    },
+    {
+     "title": "Balance consistency with each tab's purpose",
+     "detail": "Putting artwork in every tab header is consistent, \"but it can also feel forced, especially if it occupies significant space without signaling anything useful.\" Likewise, \"simplicity is good but not at the expense of clarity.\" Good design means knowing what to remove and what to keep.",
+     "t": null
+    },
+    {
+     "title": "Build a system: tiered headers, fewer type styles",
+     "detail": "Headers come in tiered sizes based on each tab's purpose, with titles always in the same position. The type system was cut to a minimal number of styles. Spacing was cleaned up by \"purposefully using the whitespace around the components instead of forcing containers around them.\"",
+     "t": null
+    },
+    {
+     "title": "Polish needs engineering partners and overlays",
+     "detail": "A cross-functional team built QA processes, including self-QA with design overlays, on top of dogfooding across languages and devices. The result was higher engagement across tabs with core learning metrics unchanged. Craft work can be shipped and measured, not just admired.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The craft of making it better",
+     "title": "The problem",
+     "summary": "Tabs built over years had mismatched headers, type and spacing."
+    },
+    {
+     "t": null,
+     "anchor": "Exploring bold ideas",
+     "title": "Four extreme directions",
+     "summary": "A divergent sprint, then Punchy, Soft, Modular and Flat prototypes."
+    },
+    {
+     "t": null,
+     "anchor": "Bringing our vision to life",
+     "title": "Tensions",
+     "summary": "Consistency versus purpose, and simplicity versus clarity."
+    },
+    {
+     "t": null,
+     "anchor": "Building a system",
+     "title": "The system",
+     "summary": "Tiered headers, a smaller type scale and whitespace instead of containers."
+    },
+    {
+     "t": null,
+     "anchor": "Sweating the details",
+     "title": "QA and results",
+     "summary": "Design-overlay QA with engineers, and higher engagement after launch."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Bringing our vision to life",
+    "why": "The two tensions (consistency vs purpose, simplicity vs clarity) are a quick test Sainath can apply to any OnCourse tab review."
+   },
+   "id": "elevating-craft-how-we-refreshed-our-core-tabs"
+  },
+  {
+   "Title": "Why Duolingo switched to Energy and how it helps you learn",
+   "Creator": "Duolingo Blog (Duolingo Team)",
+   "Type": "Case study",
+   "Link": "https://blog.duolingo.com/duolingo-energy/",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Topics": [
+    "Practice",
+    "Gamification",
+    "Paywall"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Duolingo replaced Hearts, which charged free users for each mistake, with Energy, which is spent per lesson and earned back by answering correctly, because punishing mistakes stalled beginners.",
+   "What they did": "Under Hearts, every mistake cost a free learner one heart. Under Energy, each lesson uses a little energy, streaks of correct answers earn it back, and reviewing mistakes at the end of a lesson is free. It refills in about a day, and learners can refill with a rewarded ad or gems. Bonus energy rewards small wins such as perfect lessons or adding a friend. At the time of writing it was being tested with a small number of users.",
+   "Results": "Beginners were \"2X more likely to run out of hearts mid-lesson.\" \"Our data shows it helps more learners complete lessons,\" especially \"newer users and less engaged users who previously got stuck on mistakes.\" No exact figures are given.",
+   "Takeaways": "Charging for mistakes stalls beginners; Spend per session, not per error; Earn energy back with correct streaks; Never charge for reviewing mistakes; Reward small wins with bonus energy; The free-tier limit still supports the business",
+   "Ideas for OnCourse": "Practice: if free users have a daily limit, count it in questions or sets attempted, never in wrong answers, so a struggling student is not locked out mid-test. Practice: always let students review their wrong answers and explanations for free, even after the free limit is reached. Paywall: when a free user hits the limit, offer an ad- or streak-based refill next to the upgrade, so the limit feels like a pause rather than a wall",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/size/w1200/2025/07/cover_DuolingoEnergy.png",
+   "Key points": [
+    {
+     "title": "Charging for mistakes stalled beginners",
+     "detail": "With Hearts, each mistake cost a free learner one heart. Beginners, \"who were still figuring things out,\" were \"2X more likely to run out of hearts mid-lesson.\" Duolingo calls this discouraging, \"especially since mistakes are a natural part of learning.\" A mistake-based limit hits hardest the people who most need practice.",
+     "t": null
+    },
+    {
+     "title": "Spend per lesson, earn back with right answers",
+     "detail": "Energy works like a battery: each lesson uses a little and it fully recharges in about a day. Getting multiple answers right in a row earns energy back. This rewards effort and success instead of punishing errors. Duolingo says its data shows more learners complete lessons with Energy.",
+     "t": null
+    },
+    {
+     "title": "Reviewing mistakes is always free",
+     "detail": "\"Reviewing your mistakes at the end of a lesson doesn't use energy.\" The most valuable learning moment is not taxed. For an MCQ app, reading explanations of wrong answers should stay open even when free practice runs out.",
+     "t": null
+    },
+    {
+     "title": "Small wins earn bonus energy",
+     "detail": "Learners get bonus energy for things like perfect lessons, adding a friend and reward chests. Running low can be fixed with a rewarded ad or gems. The limit becomes part of the game loop, not just a paywall. It still \"helps us sustain\" the free model.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Why did we switch to Energy?",
+     "title": "Why switch",
+     "summary": "Hearts punished mistakes and beginners ran out twice as often."
+    },
+    {
+     "t": null,
+     "anchor": "So how does the battery work?",
+     "title": "How Energy works",
+     "summary": "Spend per lesson, earn with correct streaks, free mistake review, daily recharge, ads or gems to refill."
+    },
+    {
+     "t": null,
+     "anchor": "How does Energy impact learners?",
+     "title": "Impact",
+     "summary": "More newer and less engaged learners make progress; small wins earn bonus energy."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Why did we switch to Energy?",
+    "why": "Two paragraphs that explain why a free-tier limit based on mistakes backfires, which matters for how OnCourse gates free practice."
+   },
+   "id": "why-duolingo-switched-to-energy-and-how-it-helps-you-learn"
+  },
+  {
+   "Title": "Improving Duolingo, one experiment at a time",
+   "Creator": "Duolingo Blog (Lavanya Aprameya)",
+   "Type": "Article",
+   "Link": "https://blog.duolingo.com/improving-duolingo-one-experiment-at-a-time/",
+   "Apps": [
+    "Duolingo"
+   ],
+   "Topics": [
+    "Research methods",
+    "Design process",
+    "Paywall",
+    "Gamification"
+   ],
+   "Goal": [
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Duolingo runs hundreds of A/B tests at once, writes a hypothesis first, always checks learning and engagement guardrails, and kills changes that raise revenue but hurt retention.",
+   "What they did": "Duolingo built a company-wide experiments service. Each test sets out what it does, how many arms it has, who sees it and what results are expected. Rollouts ramp up over a few days, and nightly reports compute a curated list of metrics per experiment plus universal metrics. The post shows two outcomes: Leaderboards on iOS, which shipped, and an offline-lesson upsell for Duolingo Plus, which was killed.",
+   "Results": "\"A few hundred experiments running simultaneously\" in a given week; \"over 2,000 experiments in total\" in three years. The iOS Leaderboards test increased \"the number of lessons that learners started\" and \"the number of lessons they completed.\" The offline Plus promotion: the experiment group \"signed up for Plus at a much higher rate\" and there was \"a slight increase in revenue,\" but \"a decrease in user retention\" and \"a slight decrease in daily active users,\" so it was shut down.",
+   "Takeaways": "Write the expected result before running the test; Some tests need more than two arms; Ramp rollouts and watch for breakage; Curate metrics per test, plus universal guardrails; Never ship a revenue win that hurts learning habits",
+   "Ideas for OnCourse": "Paywall: for every paywall or upsell test, add Day-7 retention and questions answered as guardrail metrics, and do not ship a winner that lowers them. Design process: write a one-line hypothesis and the expected metric change before each experiment goes live in PostHog. Practice: when testing a leaderboard or social feature, measure tests completed, not just tests started",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2024/06/cover_Improving-Duolingo-one-experiment-at-a-time-1.png",
+   "Key points": [
+    {
+     "title": "Every change is tested, big or small",
+     "detail": "\"Test everything\" is a Duolingo operating principle. Animated skill icons, five extra leagues and how many tears Duo cries in emails were all experiments. In a given week there are a few hundred running at once, and over 2,000 ran in three years.",
+     "t": null
+    },
+    {
+     "title": "Hypothesis first, and sometimes more than two arms",
+     "detail": "Each experiment answers four questions: what it does, how many arms, who sees it and what results are expected. \"Before running an experiment, we always come up with a hypothesis.\" Adding Leaderboards on desktop clashed with Friends, so the test had two branches: Friends kept in the sidebar, or moved to the profile.",
+     "t": null
+    },
+    {
+     "title": "Curated metrics plus universal guardrails",
+     "detail": "Showing every metric in every report \"creates unnecessary clutter,\" so each report template lists the relevant metrics. Universal metrics are always included, because \"we never want to launch experiments that negatively impact the learning experience or cause lower engagement.\" Rollouts ramp over a few days and broken tests are paused.",
+     "t": null
+    },
+    {
+     "title": "Leaderboards won on both starts and completions",
+     "detail": "The iOS Leaderboards test raised lessons started and lessons completed. Duolingo saw this as wins \"for both engagement and learning,\" so it launched to everyone. Completions matter more than starts for a learning product.",
+     "t": null
+    },
+    {
+     "title": "A revenue win was killed for hurting retention",
+     "detail": "An experiment let users tap skills while offline, then showed an ad for Plus when they tried to start a lesson. Plus sign-ups were \"much higher\" and revenue rose slightly, but retention and daily active users dropped because some users were discouraged from using the app offline. Duolingo shut it down and iterated. OnCourse should judge paywall tests on retention too.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Why and how do we run experiments?",
+     "title": "Why experiment",
+     "summary": "A/B testing as a core principle and how control and experiment groups work."
+    },
+    {
+     "t": null,
+     "anchor": "What do our experiments look like?",
+     "title": "Setting up a test",
+     "summary": "Four decisions per experiment, multi-arm tests, hypotheses and gradual rollout."
+    },
+    {
+     "t": null,
+     "anchor": "How do we know if an experiment has succeeded?",
+     "title": "Judging success",
+     "summary": "Report templates, guardrails, the Leaderboards win and the Plus offline upsell that was killed."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "How do we know if an experiment has succeeded?",
+    "why": "The Plus offline story is a clear example of turning down a revenue win that hurt retention, which applies directly to OnCourse paywall tests."
+   },
+   "id": "improving-duolingo-one-experiment-at-a-time"
+  },
+  {
+   "Title": "Why Khan Academy will be using “skills to proficient” to measure learning outcomes (and you should too!)",
+   "Creator": "Khan Academy Blog (Bogdan Yamkovenko)",
+   "Type": "Article",
+   "Link": "https://blog.khanacademy.org/why-khan-academy-will-be-using-skills-to-proficient-to-measure-learning-outcomes/",
+   "Apps": [
+    "Khan Academy"
+   ],
+   "Topics": [
+    "Practice",
+    "Progress & streaks",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Reaching a high mastery level on fewer skills tracks real test scores better than touching many skills lightly, so Khan Academy now measures learning by skills brought to proficient.",
+   "What they did": "Khan Academy compared mastery progress on its platform with students' scores on the nationally normed MAP Growth maths test. Skills move through four levels: attempted, familiar, proficient and mastered. They found that the share of skills reaching proficient or mastered correlated with MAP scores, whatever the number of skills worked on or time spent. They made \"skills to proficient+\" their internal learning metric.",
+   "Results": "Prior studies suggest \"spending 30+ minutes per week on Khan is associated with better learning outcomes.\" \"The proportion of math skills completed at a proficient/mastered level correlated with MAP Growth mathematics scores,\" and \"this pattern held regardless of the overall number of skills a learner worked on or the amount of time spent.\" \"In a typical 30-minute session, a learner can work on two exercises and level up to proficient on two skills.\" These are correlations, not experiments.",
+   "Takeaways": "Measure mastery, not just time spent; Use visible mastery levels per skill; Depth beats breadth; Retry to reach proficient before moving on; Pick a learning metric that matches an outside test",
+   "Ideas for OnCourse": "Lessons: give each topic visible mastery levels (for example Attempted, Familiar, Proficient, Mastered) based on accuracy across sets. Practice: when a student finishes a topic set below proficient, suggest \"Try this topic again\" as the main button and \"Next topic\" as secondary. Design process: track \"topics brought to proficient\" each week as a learning metric, and check that it matches students' mock-test scores",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://blog.khanacademy.org/wp-content/uploads/2023/09/1024-x-579.png",
+   "Key points": [
+    {
+     "title": "Measure learning, not only time spent",
+     "detail": "Edtech should be judged \"not only by time spent on a platform but also by learning.\" Khan Academy earlier found 30+ minutes a week was associated with better outcomes. The newer finding is that skill mastery adds a stronger signal on top of time. Minutes or questions answered alone can hide shallow learning.",
+     "t": null
+    },
+    {
+     "title": "Four visible mastery levels per skill",
+     "detail": "Skills move from attempted to familiar to proficient to mastered. Learners level up by getting more questions right on exercises, quizzes, unit tests and course challenges. Mastery learning research says working until a high score is reached gives better long-term retention.",
+     "t": null
+    },
+    {
+     "title": "Proficiency matched an outside test",
+     "detail": "Khan Academy compared its data with MAP Growth, a valid external maths test. The share of skills at proficient or above correlated with MAP scores, regardless of how many skills or how much time. This held across grades. Researchers call this convergent validity: the in-app metric matches a trusted outside measure.",
+     "t": null
+    },
+    {
+     "title": "Depth beats breadth, so retry first",
+     "detail": "\"It is better to focus on fewer skills but reach at least proficient levels on those skills than to try and work on multiple skills but only reach a familiar level.\" Stopping at familiar may be the difference between shallow and deep learning. A typical 30-minute session covers two exercises and two skills to proficient. If the first try falls short, Khan Academy recommends trying again rather than moving on.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Mastery learning",
+     "title": "Mastery learning",
+     "summary": "Why learning, not just time, should be the measure."
+    },
+    {
+     "t": null,
+     "anchor": "Focusing on proficiency: a better way to measure learning outcomes on Khan Academy",
+     "title": "Proficiency vs MAP scores",
+     "summary": "The four mastery levels and the correlation with an external maths test."
+    },
+    {
+     "t": null,
+     "anchor": "Breadth versus depth: How should learners approach practice on Khan Academy",
+     "title": "Breadth vs depth",
+     "summary": "Fewer skills to proficient beat many skills to familiar; retry before moving on."
+    },
+    {
+     "t": null,
+     "anchor": "Khan Academy’s five-year goal",
+     "title": "Five-year goal",
+     "summary": "Skills to proficient+ as the internal metric behind a goal to speed up learning for 10% of U.S. students."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Breadth versus depth: How should learners approach practice on Khan Academy",
+    "why": "It gives a clear rule for what Practice should nudge students to do after a weak set: try again before moving on."
+   },
+   "id": "why-khan-academy-will-be-using-skills-to-proficient-to-measure-learnin"
+  },
+  {
+   "Title": "Spacing Retrieval is More Important than Extra Retrieval",
+   "Creator": "The Learning Scientists (Cindy Nebel)",
+   "Type": "Article",
+   "Link": "https://www.learningscientists.org/blog/2022/9/7-1",
+   "Apps": [],
+   "Topics": [
+    "Practice",
+    "Progress & streaks"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Spreading the same quiz questions across several weeks helped long-term memory, while doubling the number of questions helped only in the short term.",
+   "What they did": "The post reviews a study of pre-engineering students in a precalculus course who were followed into calculus the next semester. Each topic was quizzed in one of four ways: baseline (3 questions in one weekly quiz), extra spacing (3 questions spread over 4 weekly quizzes), extra quizzing (6 questions in one quiz), or both (6 questions spread over 4 quizzes). Every student got all four conditions on different topics.",
+   "Results": "On the final exam, \"spacing and retrieval practice were both equally good and adding them together provided an extra punch.\" Four weeks into the next semester, \"the positive effects of spacing stayed the same\" but \"the benefits of increased quizzing disappeared\": \"Students were no better having been quizzed with three items vs. six items.\" Also, \"increased spacing reduced quiz performance\" at first. Only about half the class took all quizzes and was analysed.",
+   "Takeaways": "Spacing beat extra volume for long-term memory; Same effort, better spread, better results; Spaced practice feels harder and scores lower at first; Keep spaced quizzes low-stakes; Retrieve old material, not just this week's",
+   "Ideas for OnCourse": "Today's plan: instead of adding more questions on today's topic, spread a few questions from topics studied 1, 2 and 4 weeks ago through the plan. Practice: when spaced review questions lower a student's score, label them \"Review\" and do not count them against accuracy streaks, so a dip doesn't feel like failure. Lessons: end each lesson with 2–3 questions from earlier lessons rather than only the lesson just finished",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "http://static1.squarespace.com/static/56acc1138a65e2a286012c54/56ad05dfb09f9505c22897ef/631aa5ce65a53433ba44a509/1662727111594/quality-g633a83027_1280.png?format=1500w",
+   "Key points": [
+    {
+     "title": "Four ways of quizzing the same topics",
+     "detail": "Topics in a precalculus course were quizzed as baseline (3 items in one week), extra spacing (3 items over 4 weeks), extra quizzing (6 items in one week) or both. It was a within-subjects design, so each student experienced all four on different topics. This made it possible to compare methods within the same person.",
+     "t": null
+    },
+    {
+     "title": "Spacing lasted, extra quizzing faded",
+     "detail": "On the final exam, spacing and extra quizzing helped equally, and both together helped most. Four weeks into calculus, the spacing benefit remained but the extra-quizzing benefit was gone. Three items spread out did as well as six items bunched together. \"It isn't about how much you study, but about how you study.\"",
+     "t": null
+    },
+    {
+     "title": "Same effort, just spread out",
+     "detail": "Taking the questions from one normal quiz and spreading them across a few quizzes beat writing and answering more questions. Students don't need to double their study time if they space their retrieval. For OnCourse, a review set can stay short as long as it pulls from older topics.",
+     "t": null
+    },
+    {
+     "title": "Spaced practice scores lower at first",
+     "detail": "\"Increased spacing reduced quiz performance.\" Students remember more later but don't like it at the time because it is harder. The author says quizzes should be low or no stakes, and learners need to understand why it is harder. OnCourse should explain review questions and not punish a lower score on them.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The Experiment",
+     "title": "The experiment",
+     "summary": "Four quizzing conditions in a precalculus course, followed into calculus."
+    },
+    {
+     "t": null,
+     "anchor": "The Results",
+     "title": "Results",
+     "summary": "Both helped on the final; only spacing still helped a semester later."
+    },
+    {
+     "t": null,
+     "anchor": "So what?",
+     "title": "So what",
+     "summary": "Spread existing questions out instead of adding more."
+    },
+    {
+     "t": null,
+     "anchor": "Caveats",
+     "title": "Caveats",
+     "summary": "Limited sample, and spaced quizzes lower early scores, so keep them low-stakes."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The Results",
+    "why": "It shows in a few lines why OnCourse's review should spread questions over weeks rather than pile on more questions."
+   },
+   "id": "spacing-retrieval-is-more-important-than-extra-retrieval"
+  },
+  {
+   "Title": "GUEST POST: The Dark Side of Interleaving",
+   "Creator": "The Learning Scientists (Miko M. Wilford)",
+   "Type": "Article",
+   "Link": "https://www.learningscientists.org/blog/2017/11/1-8",
+   "Apps": [],
+   "Topics": [
+    "Lessons",
+    "Practice"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Switching back and forth between quizzing old material and learning new material on every item hurts the new learning, so finish the quiz block, review, then teach the new part.",
+   "What they did": "A 2013 paper found that retrieval practice on face–name pairs hurt learning of new related facts (face–profession pairs) when the two were alternated item by item. The author's lab then tested how often learners switched between retrieving old information and studying new information: 0 switches, then switching every 10, 5 or 2 faces, up to every face (39 switches across 40 faces).",
+   "Results": "\"As task-switch frequency between retrieval practice of original learning and studying new information increased, new learning would decrease\" (the prediction, which the results supported). With 0 switches, retrieval practice \"actually helps students learn the new information\"; with 39 switches, \"retrieving original learning hurt new learning, compared to restudying.\" The restudy group did not show this effect.",
+   "Takeaways": "Retrieval practice still beats restudying; Constant switching between quiz and new content hurts new learning; With no switching, quizzing helps new learning; Review after a quiz before teaching new material; Feedback alone is not enough review",
+   "Ideas for OnCourse": "Lessons: put the recall questions on earlier material in one block at the start or end of a lesson, not between every new concept card. Lessons: after a recall block, show a short summary of the answers before starting the new concept. Practice: keep review sets and new-topic sets as separate blocks in Today's plan rather than alternating question by question",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "http://static1.squarespace.com/static/56acc1138a65e2a286012c54/56ad05dfb09f9505c22897ef/5a030cdfe2c48322bccf9db2/1510153909779/Screen+Shot+2017-11-08+at+6.38.19+AM.png?format=1500w",
+   "Key points": [
+    {
+     "title": "Item-by-item switching hurt new learning",
+     "detail": "In a 2013 seven-study paper, students learned face–name pairs, then either restudied or tried to recall the names. Between each, they were shown new related facts: the same face with a profession. Recalling names helped remember names, but it hurt learning of the professions compared with restudying. This was replicated in all their studies.",
+     "t": null
+    },
+    {
+     "title": "The cost grows with how often you switch",
+     "detail": "The author's follow-up varied how often learners switched between retrieval and new learning: 0, every 10, 5 or 2 faces, or every face (39 switches). New learning dropped as switching increased in the retrieval group. The restudy group did not show this drop. The problem is the switching, not retrieval itself.",
+     "t": null
+    },
+    {
+     "title": "With no switching, quizzing helps new learning",
+     "detail": "When all retrieval practice came first and new learning came after (0 switches), retrieval practice actually helped students learn the new information. So the same activities in a different order give the opposite result. Lesson structure matters as much as the activities in it.",
+     "t": null
+    },
+    {
+     "title": "Review after the quiz, before new material",
+     "detail": "\"The benefits of retrieval practice still far outweigh the costs.\" The advice is to include some review of earlier material right after a quiz and before new material. This needs to be more than feedback on answers, because participants already got feedback. For OnCourse, a short recap screen between a recall block and a new concept fits this.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "In 2013, a 7-study paper",
+     "title": "The surprising finding",
+     "summary": "Retrieval practice hurt learning of new related facts when alternated item by item."
+    },
+    {
+     "t": null,
+     "anchor": "In our study, students also",
+     "title": "The follow-up study",
+     "summary": "Varying switch frequency from 0 to 39 switches."
+    },
+    {
+     "t": null,
+     "anchor": "The results supported my original",
+     "title": "Results",
+     "summary": "New learning fell as switching rose; with no switching, retrieval helped."
+    },
+    {
+     "t": null,
+     "anchor": "Practical Applications",
+     "title": "Practical applications",
+     "summary": "Keep retrieval, but review fully after a quiz before introducing new material."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Practical Applications",
+    "why": "One paragraph that tells you how to order recall questions and new content inside an OnCourse lesson."
+   },
+   "id": "guest-post-the-dark-side-of-interleaving"
+  },
+  {
+   "Title": "Exam Wrappers with Resources Enhance Metacognition",
+   "Creator": "The Learning Scientists (Cindy Nebel)",
+   "Type": "Article",
+   "Link": "https://www.learningscientists.org/blog/2024/8/15-1",
+   "Apps": [],
+   "Topics": [
+    "Practice",
+    "Progress & streaks",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Asking students to reflect right after a test and pointing them to evidence on better study methods shifted them away from re-reading toward retrieval practice.",
+   "What they did": "The post reviews a study in an intro college biology course. After four exams, students could earn extra credit for an exam wrapper, a short reflection on how they did and how they studied. On the first and last wrappers, students ranked the strategies they had used. On the middle ones, they were sent to a Learning Scientists blog post and a podcast about retrieval practice and metacognition, and answered questions about them.",
+   "Results": "\"There was a large decrease in the number of students who reported re-reading.\" Students \"reported more 'forced recall' demonstrating an increased use of retrieval practice.\" They also reported more summarising in their own words, group work and drawing. No exact figures are given; results are self-reported.",
+   "Takeaways": "Students default to weak strategies like re-reading; Reflect right after a test, when it stings; Show the evidence, not just the advice; Reflection plus resources changed study habits",
+   "Ideas for OnCourse": "Practice: after a mock test, show a short \"How did you prepare?\" check with 3–4 options, then a one-line, evidence-backed tip based on the answer (for example, swap re-reading notes for a flashcard review). Practice: on the test result screen, link the weakest topics straight to a retrieval set rather than to re-reading the lesson. Flashcards: show a small chart from research comparing re-reading with self-testing the first time a student opens flashcards",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "http://static1.squarespace.com/static/56acc1138a65e2a286012c54/56ad05dfb09f9505c22897ef/66be3475826c4819e40eb6a6/1723747052536/boy-3653385_1280.jpg?format=1500w",
+   "Key points": [
+    {
+     "title": "Students pick weak strategies by default",
+     "detail": "\"Left to their own devices students most often choose less than desirable strategies, like re-reading instead of retrieval.\" Reasons include not knowing better, what has \"always worked in the past,\" and the easy feeling re-reading gives. An exam-prep app can't assume students will choose testing over reading.",
+     "t": null
+    },
+    {
+     "title": "Exam wrappers ask students to reflect",
+     "detail": "An exam wrapper asks students to reflect on their score, what they did well and badly on, and what strategies they used or could change. In this study they were worth extra credit after four exams. Students ranked the strategies they had used on the first and last wrappers.",
+     "t": null
+    },
+    {
+     "title": "Pointing to evidence shifted habits",
+     "detail": "On the middle wrappers, students read a blog post with a chart on retrieval practice and listened to a podcast, then answered questions. Afterwards, far fewer reported re-reading and more reported \"forced recall.\" They also did more summarising, group work and drawing.",
+     "t": null
+    },
+    {
+     "title": "Teach the alternative at the moment of failure",
+     "detail": "Students \"don't always know what the alternatives could be.\" Sharing better strategies \"while they are realizing their strategy didn't work well may increase\" adoption. For OnCourse, the mock-test result screen is that moment.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Many educators use exam wrappers",
+     "title": "What exam wrappers are",
+     "summary": "Short reflections after a test on performance and study strategies."
+    },
+    {
+     "t": null,
+     "anchor": "In this study, the researchers",
+     "title": "The study",
+     "summary": "Intro biology, four wrappers, with blog and podcast resources in the middle ones."
+    },
+    {
+     "t": null,
+     "anchor": "The results showed that the",
+     "title": "Results",
+     "summary": "Less re-reading, more forced recall, plus more summarising, group work and drawing."
+    },
+    {
+     "t": null,
+     "anchor": "What does this mean for you?",
+     "title": "What it means",
+     "summary": "Write reflection questions carefully and share alternatives when students see their strategy failed."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "What does this mean for you?",
+    "why": "Two short points that translate directly into a post-test reflection step on OnCourse's result screen."
+   },
+   "id": "exam-wrappers-with-resources-enhance-metacognition"
+  },
+  {
+   "Title": "When “almost right” is catastrophically wrong: Evals for AI learning games",
+   "Creator": "Brilliant (Blake Farrow)",
+   "Type": "Article",
+   "Link": "https://blog.brilliant.org/when-almost-right-is-catastrophically-wrong-evals-for-ai-learning-games/",
+   "Apps": [
+    "Brilliant"
+   ],
+   "Topics": [
+    "Practice",
+    "AI tools",
+    "Design process"
+   ],
+   "Goal": [
+    "Craft",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "When AI writes practice problems, one broken problem can teach the wrong idea and shake confidence, so Brilliant runs automated checks for correctness, solvability and clarity before any human review.",
+   "What they did": "Brilliant uses LLMs to generate thousands of interactive STEM puzzles. It built an evals framework that tests each puzzle for mathematical correctness, unique solvability, visual clarity, state consistency, impossible states and physical plausibility. For balance-mobile puzzles, early AI output compiled but was often unsolvable or visually unclear. Changing the puzzle representation the LLM generated improved pass rates a lot. Puzzles that fail never reach human reviewers.",
+   "Results": "\"Today, our success rate sits in the 80-90% range across all dimensions for foundational problems.\" \"What once took weeks of careful handcrafting and testing now happens in hours, with higher quality results.\" Harder multi-layer problems \"remain difficult even for frontier models.\"",
+   "Takeaways": "An unsolvable problem is the worst problem; Compiling is not the same as correct; Check several quality dimensions automatically; Changing the representation improved AI output; Filter before human review; Humans still own the final call",
+   "Ideas for OnCourse": "Practice: if MCQs or explanations are drafted with AI, run automatic checks before review: exactly one defensible correct option, the explanation agrees with the key, no option overlaps another, and figures match the stem. Practice: add a one-tap \"Report a problem with this question\" on every question and explanation, and pull flagged items quickly. Design process: track the share of AI-drafted questions that pass checks and human review, by subject, to see where AI drafts are reliable",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.ghost.io/c/76/92/7692747c-e18b-4db4-9f84-385d77c55a1e/content/images/2025/02/cueball_koji.png",
+   "Key points": [
+    {
+     "title": "An unsolvable problem is the worst kind",
+     "detail": "The post opens with a pool-shot momentum puzzle that can never be solved, however well you reason. \"An unsolvable problem is about as bad a problem as you can have in a learning environment.\" The learner may build the wrong mental model, \"or even worse, lose confidence in their ability to learn.\" A wrong answer key on an MCQ does the same harm.",
+     "t": null
+    },
+    {
+     "title": "At scale, small error rates mean many broken items",
+     "detail": "With thousands of puzzles across dozens of concepts, \"even a small percentage of errors means multiple broken puzzles in every course.\" Checking every puzzle by hand would make scaling impossible. That is why automated evals come before human review.",
+     "t": null
+    },
+    {
+     "title": "Test many dimensions, not just 'does it run'",
+     "detail": "The evals check mathematical correctness, unique solvability, visual clarity, state consistency, impossible states and physical plausibility. For logic puzzles they check that every puzzle has exactly one solution. Code that compiles can still give a bad learning item. MCQs have their own versions: one correct answer, clear wording and a matching explanation.",
+     "t": null
+    },
+    {
+     "title": "Changing what the AI generates fixed quality",
+     "detail": "Early mobile puzzles \"compiled correctly. But, the puzzles still sucked\": they were unclear or unsolvable. Changing the puzzle representation the LLM produced \"dramatically improved the metrics,\" to 80–90% success on foundational problems. Harder puzzles still challenge frontier models, but they are also too hard for most users.",
+     "t": null
+    },
+    {
+     "title": "Filter automatically, then humans review",
+     "detail": "Puzzles that fail evals \"never even make it to the human review process,\" so learning designers spend time refining the best candidates. Work that took weeks now takes hours. Brilliant says human experts are still essential to its quality standards.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The 100% correctness challenge",
+     "title": "Why 100% matters",
+     "summary": "Thousands of AI puzzles mean even small error rates break every course."
+    },
+    {
+     "t": null,
+     "anchor": "Beyond “Does it compile?”",
+     "title": "Quality dimensions",
+     "summary": "The six things every puzzle is tested for."
+    },
+    {
+     "t": null,
+     "anchor": "Case study: The evolution of mobile puzzles",
+     "title": "Mobile puzzles case",
+     "summary": "From compiling-but-broken to 80–90% pass rates by changing the representation."
+    },
+    {
+     "t": null,
+     "anchor": "Scaling evals across game types",
+     "title": "Other game types",
+     "summary": "Equation, logic and coding puzzles, and how evals free up designers."
+    },
+    {
+     "t": null,
+     "anchor": "The hardest evals yet",
+     "title": "Hardest cases",
+     "summary": "Optics, circuits, everyday maths and recursive puzzles that are still hard to check."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Beyond “Does it compile?”",
+    "why": "The list of quality checks is easy to adapt into a checklist for AI-drafted MCQs and explanations."
+   },
+   "id": "when-almost-right-is-catastrophically-wrong-evals-for-ai-learning-game"
+  },
+  {
+   "Title": "Flat UI Elements Attract Less Attention and Cause Uncertainty",
+   "Creator": "Nielsen Norman Group (Kate Moran)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/",
+   "Apps": [
+    "Brilliant Earth",
+    "Ally Bank"
+   ],
+   "Topics": [
+    "Visual design",
+    "Research methods"
+   ],
+   "Goal": [
+    "Usability",
+    "Craft"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Buttons and links that look like plain text or ghost outlines make people look longer and doubt more, so tappable things need clear, strong signifiers, especially on busy screens.",
+   "What they did": "NN/g took 9 web pages, made two near-identical versions of each (strong vs weak clickability signifiers), and gave 71 participants a find-the-target task while tracking their eyes. Each person saw one version of each page. They measured fixations, time and heatmaps.",
+   "Results": "On weak-signifier pages, participants spent \"22% more time\" and had \"25% more fixations\" (p < 0.05). 6 of 9 page pairs showed different gaze patterns. On the jewelry page, 86% (25 of 29) went from heading to the \"Shop Pearl\" link on the strong version vs \"only 50% (12 out of 24)\" on the weak one (p < 0.005); 9 of 24 stopped at the subheading.",
+   "Takeaways": "Weak signifiers cost 22% more time to find targets; Users see weak buttons but don't trust them; Links styled as plain text get skipped; Flat works with low density, standard layout, contrast; Strong signifiers matter most for discovery",
+   "Ideas for OnCourse": "Practice: make answer options and \"Next\" look unmistakably tappable (filled container, clear contrast), never like plain text. Home: keep the main \"Start today's plan\" button solid and high-contrast; reserve ghost or text styles for low-priority actions. Design process: audit dense screens (Lessons, Flashcards) for text-styled links and give them a contrasting colour",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/Flat_UI.png",
+   "Key points": [
+    {
+     "title": "Weak signifiers cost 22% more time to find targets",
+     "detail": "71 participants looked for one element on each page while eyetracking recorded them. On pages with weak signifiers they spent \"22% more time\" and made \"25% more fixations\", both statistically significant. NN/g notes this is extra effort, not engagement: people struggled to find the target or weren't sure when they saw it.",
+     "t": null
+    },
+    {
+     "title": "Users see weak buttons but don't trust them",
+     "detail": "Heatmaps on weak versions spread across more of the page in 6 of 9 pairs. Often participants looked right at the target but moved on, because it didn't look clickable. NN/g calls this \"click uncertainty\": the problem is not that users never see the element, but that they don't feel confident it's the one.",
+     "t": null
+    },
+    {
+     "title": "Links styled as plain text get skipped",
+     "detail": "On a jewelry page, the \"Shop Pearl\" link was either blue and underlined or styled like body text. With the strong link, 86% (25 of 29) moved from the heading to the link; with the weak one only 50% (12 of 24) did, and 9 of 24 stopped at the subheading, thinking it was clickable. For OnCourse, text-only links under lesson cards risk being missed.",
+     "t": null
+    },
+    {
+     "title": "Flat works with low density, standard layout, contrast",
+     "detail": "3 of 9 pairs showed no gaze difference. Those pages had little content and lots of white space, elements in standard positions, and high-contrast targets with room around them. NN/g says all three should be met, not just one or two. In-line links in a contrasting colour worked even without an underline.",
+     "t": null
+    },
+    {
+     "title": "Strong signifiers matter most for discovery",
+     "detail": "The tasks were short, focused findability tasks, so real-world slowdown may be smaller. But NN/g stresses that strong signifiers are \"absolutely crucial\" when you want users to discover a feature they didn't know existed. New OnCourse features need obvious affordances, not subtle ones.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Methodology",
+     "title": "How the study worked",
+     "summary": "71 people, 9 page pairs, a between-subjects eyetracking test with find-the-target tasks."
+    },
+    {
+     "t": null,
+     "anchor": "Number of Fixations and Time on Page",
+     "title": "22% more time, 25% more fixations",
+     "summary": "Weak signifiers measurably slowed people down."
+    },
+    {
+     "t": null,
+     "anchor": "Page Pairs with Different User Gaze Patterns",
+     "title": "Scattered gaze on weak pages",
+     "summary": "The Shop Pearl example shows text-styled links being missed."
+    },
+    {
+     "t": null,
+     "anchor": "Page Pairs with Nearly Identical User Gaze Patterns",
+     "title": "When there was no difference",
+     "summary": "Low density, standard layout and contrast protected flat pages."
+    },
+    {
+     "t": null,
+     "anchor": "When Flat Designs Can Work",
+     "title": "When flat works",
+     "summary": "All three conditions together reduce the risk."
+    },
+    {
+     "t": null,
+     "anchor": "Limitations of the Study",
+     "title": "Limits",
+     "summary": "Short tasks; signifiers matter even more for discovery."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Page Pairs with Different User Gaze Patterns",
+    "why": "The Shop Pearl example shows in one picture how a text-styled link loses users."
+   },
+   "id": "flat-ui-elements-attract-less-attention-and-cause-uncertainty"
+  },
+  {
+   "Title": "Scrolling and Attention",
+   "Creator": "Nielsen Norman Group (Therese Fessenden)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/scrolling-and-attention/",
+   "Apps": [],
+   "Topics": [
+    "Visual design",
+    "Home",
+    "Research methods"
+   ],
+   "Goal": [
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "People scroll more than they used to, but most attention still goes to the top of the page, so put the most important content and action first.",
+   "What they did": "NN/g analysed over 130,000 eye fixations from 120 participants in an eyetracking study across news, ecommerce, blog, FAQ and encyclopedia pages on 1920×1080 screens. They compared where viewing time fell with their 2010 study on 1024×768 screens.",
+   "Results": "\"Users spent about 57% of their page-viewing time above the fold\" (vs 80% in 2010). \"74% of the viewing time was spent in the first two screenfuls.\" The second screenful got \"17%\"; \"81% of the viewing time is spent in the first three screenfuls.\" On general sites, \"more than 42% of the viewing time fell within the top 20% of the page.\" Above the fold, \"more than 65%\" of time went to the top half of the viewport.",
+   "Takeaways": "Above-the-fold content still gets 57% of attention; Attention drops sharply after the first screen; People scroll only when they have a reason; Put high-priority content and CTAs at the top; Beware false floors in airy layouts",
+   "Ideas for OnCourse": "Home: put today's plan and its start button in the first screenful; push secondary cards (articles, offers) lower. Lessons: start each lesson with its key points in the first screen, since later screenfuls get far less attention. Home: avoid big decorative headers or spacing that create a false floor; let the next card peek in so users know to scroll",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/scrolling-and-attention-2018-eyetracking.png",
+   "Key points": [
+    {
+     "title": "Above-the-fold content still gets 57% of attention",
+     "detail": "Across 120 participants and over 130,000 fixations, users spent about 57% of viewing time above the fold. That's down from 80% in 2010, likely because long pages taught people to scroll. But the sharp drop in attention after the fold is the same as in 2010.",
+     "t": null
+    },
+    {
+     "title": "Attention drops sharply after the first screen",
+     "detail": "The second screenful got about 17% of viewing time, and the remaining 26% spread thinly below. 74% of time fell in the first two screenfuls and 81% in the first three. NN/g says the fold as a barrier has moved down to the third screenful. On a phone, screenfuls are short, so this matters even more.",
+     "t": null
+    },
+    {
+     "title": "People scroll only when they have a reason",
+     "detail": "\"People will scroll if they have a reason to do it,\" but the interaction cost of scrolling lowers the chance lower content is seen. Even within the first screen, more than 65% of above-fold time went to the top half. Bigger screens didn't reduce scrolling, because designers spread content further apart; NN/g says designs now tend to be \"too sparse.\"",
+     "t": null
+    },
+    {
+     "title": "Put high-priority content and CTAs at the top",
+     "detail": "Reserve the top for key business and user goals and keep major calls to action above the fold. Use distinct, consistent headings and bold text so people can find new sections. For OnCourse Home, the one daily action belongs in the first screen.",
+     "t": null
+    },
+    {
+     "title": "Beware false floors in airy layouts",
+     "detail": "Minimal designs with lots of white space can create an \"illusion of completeness\", so people think the page has ended. Add signifiers such as cut-off text to show there's more below. Then test with real users to find the right page length.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "About the Study",
+     "title": "The study",
+     "summary": "120 participants, over 130,000 fixations, many site types."
+    },
+    {
+     "t": null,
+     "anchor": "Study Results",
+     "title": "57% above the fold",
+     "summary": "Where viewing time falls by screenful and by fifth of the page."
+    },
+    {
+     "t": null,
+     "anchor": "Scanning & Reading Patterns",
+     "title": "Scanning patterns",
+     "summary": "Even structured pages get most gazes at the top."
+    },
+    {
+     "t": null,
+     "anchor": "2010 vs. Present",
+     "title": "What changed since 2010",
+     "summary": "The fold moved down to the third screenful; pages got too sparse."
+    },
+    {
+     "t": null,
+     "anchor": "Implications",
+     "title": "What to do",
+     "summary": "Top for priorities, clear headings, avoid false floors, test page length."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Scanning & Reading Patterns",
+    "why": "It gives the 57% / 17% / 26% split that tells you how much a card loses by moving one screen down."
+   },
+   "id": "scrolling-and-attention"
+  },
+  {
+   "Title": "F-Shaped Pattern of Reading on the Web: Misunderstood, But Still Relevant (Even on Mobile)",
+   "Creator": "Nielsen Norman Group (Kara Pernice)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/",
+   "Apps": [],
+   "Topics": [
+    "Copy",
+    "Lessons",
+    "Visual design"
+   ],
+   "Goal": [
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "When text has no formatting, people scan the top and left edge and miss the rest; headings, bold keywords, bullets and front-loaded words steer their eyes to what matters.",
+   "What they did": "NN/g revisited the F-shaped reading pattern it found in 2006 with new eyetracking research on desktop and mobile. The article explains the F-pattern, lists other scanning patterns (layer-cake, spotted, marking, bypassing, commitment), when the F appears, why it hurts, and how formatting prevents it.",
+   "Results": "The article states the F-pattern \"is alive and well in today's world — both on desktop and on mobile,\" and that right-to-left readers scan in a flipped F. It gives no numeric results.",
+   "Takeaways": "The F-pattern still happens on desktop and mobile; F-scanning appears when text has no formatting; Users miss content just because of where it falls; Other patterns: layer-cake, spotted, marking, bypassing, commitment; Front-load headings and bold key words",
+   "Ideas for OnCourse": "Lessons: break each lesson into short sections with information-bearing subheadings so students scan in a layer-cake pattern, not an F. Practice: put the key point first in each MCQ explanation and bold the one fact to remember. Design process: when a list's items start with the same words (\"Anatomy – …\"), move the distinct part first, since readers skip repeated starts",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/f-shaped_pattern_for_reading_web_content.jpg",
+   "Key points": [
+    {
+     "title": "The F-pattern still happens on desktop and mobile",
+     "detail": "People read across the top of the content, then a shorter line lower down, then scan down the left side. NN/g's recent eyetracking shows the pattern \"is alive and well\" on both desktop and mobile. First lines and the first words of each line get the most fixations.",
+     "t": null
+    },
+    {
+     "title": "F-scanning appears when text has no formatting",
+     "detail": "It happens when three things are true: a wall of text with no bolding, bullets or subheadings; a user trying to be efficient; and a user not committed enough to read every word. NN/g says the F is the default pattern \"when there are no strong cues to attract the eyes.\"",
+     "t": null
+    },
+    {
+     "title": "Users miss content just because of where it falls",
+     "detail": "With F-scanning, people skip big chunks that may be the most important, simply because they sit on the right. In responsive layouts text reflows, so a phone user fixates on different words than a desktop user. NN/g calls the F-pattern \"bad for users and businesses.\"",
+     "t": null
+    },
+    {
+     "title": "Other patterns: layer-cake, spotted, marking, bypassing, commitment",
+     "detail": "Layer-cake means scanning headings and skipping body text; spotted means hunting for links, digits or a keyword. Marking (eyes fixed while the finger scrolls) happens more on mobile. Bypassing skips list items that start with the same words, and commitment is reading almost everything when highly motivated.",
+     "t": null
+    },
+    {
+     "title": "Front-load headings and bold key words",
+     "detail": "NN/g's fixes: put the most important points in the first two paragraphs; use visible headings that start with the words carrying the most information; group related content; bold key phrases; use descriptive link text; use bullets and numbers; cut unneeded content. These apply directly to OnCourse lesson and explanation text.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The F-Shaped Pattern",
+     "title": "What the F-pattern is",
+     "summary": "Two horizontal sweeps and a vertical scan down the left."
+    },
+    {
+     "t": null,
+     "anchor": "The F-Shaped Pattern Is Not the Only Scanning Pattern",
+     "title": "Other scanning patterns",
+     "summary": "Layer-cake, spotted, marking, bypassing and commitment."
+    },
+    {
+     "t": null,
+     "anchor": "Why People Scan in an F-Shaped Pattern",
+     "title": "Why it happens",
+     "summary": "Unformatted text plus users minimising effort."
+    },
+    {
+     "t": null,
+     "anchor": "The F-Shape Is Bad for Users and Businesses",
+     "title": "Why it hurts",
+     "summary": "Important words get skipped based on layout alone."
+    },
+    {
+     "t": null,
+     "anchor": "The Best Antidotes to the F-Shaped Pattern",
+     "title": "How to prevent it",
+     "summary": "Eight formatting tips to guide the eye."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The Best Antidotes to the F-Shaped Pattern",
+    "why": "It's a ready checklist for formatting OnCourse lessons and answer explanations."
+   },
+   "id": "f-shaped-pattern-of-reading-on-the-web-misunderstood-but-still-relevan"
+  },
+  {
+   "Title": "Banner Blindness Revisited: Users Dodge Ads on Mobile and Desktop",
+   "Creator": "Nielsen Norman Group (Kara Pernice)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/",
+   "Apps": [
+    "Google"
+   ],
+   "Topics": [
+    "Visual design",
+    "Home",
+    "Paywall"
+   ],
+   "Goal": [
+    "Usability",
+    "Conversion"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "People ignore anything that looks like an ad, sits where ads usually go, or sits next to an ad; making a promo card look different to stand out often makes it invisible.",
+   "What they did": "NN/g ran a new eyetracking study on desktop and mobile and compared it with findings from 1997 and 2007. It shows three triggers of banner blindness (location, ad-like visual treatment, proximity to ads), the \"hot potato\" pattern, and how mobile users treat inline ads and ad-like content.",
+   "Results": "In one session, of 132 fixations in the content area \"only one is within the right rail: that's 0.8% of the user's attention within 25% of the content area\", \"33 times smaller than its size might have warranted.\" 26 participants on two task pages looked very little at ads or ad-styled promotions.",
+   "Takeaways": "People ignore anything in ad positions; Looking different can make content look like an ad; Ads poison the content next to them; One glance can make users avoid an area for good; On mobile, standout images get mistaken for ads",
+   "Ideas for OnCourse": "Home: style important cards (today's plan, streak, mock test reminder) like the rest of the content, not as colourful banners, so they don't read as ads. Home: keep upgrade or offer cards in their own section, away from study content, so they don't poison nearby cards. Design process: test whether students actually notice any promo or announcement card before relying on it",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/banner-blindness-users-dodge-ads-eyetracking.jpg",
+   "Key points": [
+    {
+     "title": "People ignore anything in ad positions",
+     "detail": "Ignoring ads is learned: users skip the top banner and right rail, and some even skipped the ad at the top of Google results. In NN/g's study, 26 participants on a how-to page read the text but barely looked at the ads. Banner blindness has now been documented across 3 decades.",
+     "t": null
+    },
+    {
+     "title": "Looking different can make content look like an ad",
+     "detail": "An inline promotion in an article was ignored by 26 participants because it was a small rectangle, fancily formatted, with a blue background and text in the image. NN/g warns that making content look different to raise its salience \"often has the opposite effect.\" For OnCourse, a bright promo card on Home may be skipped.",
+     "t": null
+    },
+    {
+     "title": "Ads poison the content next to them",
+     "detail": "By the Gestalt law of proximity, items close together are seen as one group. One participant glanced at a right rail once, saw sponsored stories, and never saw the useful craft videos next to them. Mixing offers and real content in one section hides the content.",
+     "t": null
+    },
+    {
+     "title": "One glance can make users avoid an area for good",
+     "detail": "NN/g's \"hot potato\" pattern: users glance at something irrelevant, look away, and avoid that area on this page and others. One user's right rail held 25% of the content area but got 0.8% of her attention, \"33 times smaller than its size might have warranted.\"",
+     "t": null
+    },
+    {
+     "title": "On mobile, standout images get mistaken for ads",
+     "detail": "Mobile inline ads are hard to avoid because they fill the screen. But people also scroll past big images or graphics before looking, assuming they're ads, a behaviour NN/g first saw on mobile in this study. Anything that stands out from what's around it on a small screen risks being skipped.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. Location",
+     "title": "Location",
+     "summary": "Top banners and right rails are ignored by habit."
+    },
+    {
+     "t": null,
+     "anchor": "2. Visual Treatment",
+     "title": "Visual treatment",
+     "summary": "Ad-like styling gets content skipped anywhere on the page."
+    },
+    {
+     "t": null,
+     "anchor": "3. Proximity to Ads: Ads Poison Adjacent Items",
+     "title": "Proximity",
+     "summary": "Content near ads gets treated as ads."
+    },
+    {
+     "t": null,
+     "anchor": "Hot Potato",
+     "title": "Hot potato",
+     "summary": "One irrelevant glance makes users avoid a whole area."
+    },
+    {
+     "t": null,
+     "anchor": "Faux Ads: Easy to Mistake Visual Elements for Ads on Mobile",
+     "title": "Faux ads on mobile",
+     "summary": "Standout images are scrolled past as if they were ads."
+    },
+    {
+     "t": null,
+     "anchor": "How to Prevent Ads from Poisoning Your Content",
+     "title": "What to do",
+     "summary": "Don't style content like ads, test visibility, separate ads from content."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Faux Ads: Easy to Mistake Visual Elements for Ads on Mobile",
+    "why": "It's the mobile finding most relevant to colourful cards on OnCourse's Home screen."
+   },
+   "id": "banner-blindness-revisited-users-dodge-ads-on-mobile-and-desktop"
+  },
+  {
+   "Title": "Placeholders in Form Fields Are Harmful",
+   "Creator": "Nielsen Norman Group (Katie Sherwin)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/form-design-placeholders/",
+   "Apps": [],
+   "Topics": [
+    "Onboarding",
+    "Accessibility",
+    "Copy"
+   ],
+   "Goal": [
+    "Usability",
+    "Conversion"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Don't use placeholder text as a field's label; keep labels and hints visible outside the field, because placeholders vanish, hide errors, look like filled data and hurt accessibility.",
+   "What they did": "Drawing on NN/g's user testing and eyetracking, the article lists 7 problems when placeholders replace labels, problems that remain when placeholders are used with labels, accessibility issues, and how floating labels fix some but not all of them.",
+   "Results": "No numbers. NN/g says \"user testing continually shows that placeholders in form fields often hurt usability more than help it,\" and \"eyetracking studies show that users' eyes are drawn to empty fields.\"",
+   "Takeaways": "Disappearing hints strain short-term memory; Without labels, users can't check or fix answers; Filled-looking fields get skipped or mistaken for defaults; Light grey placeholders fail accessibility; Floating labels help but don't solve everything",
+   "Ideas for OnCourse": "Onboarding: give every field (name, college, exam attempt, target year) a visible label above it; use placeholders only for an example, never the label. Onboarding: show format hints (e.g. phone number format, OTP length) as persistent helper text under the field. Paywall: keep labels visible on any billing or coupon field so users can check before paying",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/Placeholders-Social-Posts_2019.png",
+   "Key points": [
+    {
+     "title": "Disappearing hints strain short-term memory",
+     "detail": "Once the user types, the placeholder is gone, so they must delete their text to see the hint again. NN/g's mobile research shows people are often distracted and interrupted, so they lose their place. Even a simple login without labels leaves people unsure whether to enter a username or an email.",
+     "t": null
+    },
+    {
+     "title": "Without labels, users can't check or fix answers",
+     "detail": "A filled form with no labels can't be reviewed at a glance, and autofill mistakes go unnoticed. When an error message appears, users must go back into each field to recall what it wanted. Keyboard users tabbing quickly also never see hints that vanish on focus.",
+     "t": null
+    },
+    {
+     "title": "Filled-looking fields get skipped or mistaken for defaults",
+     "detail": "\"Eyetracking studies show that users' eyes are drawn to empty fields,\" so fields with text in them are less noticeable and can be overlooked. Some users think the placeholder is a default value and skip the field. Others try to delete placeholder text by hand, adding effort.",
+     "t": null
+    },
+    {
+     "title": "Light grey placeholders fail accessibility",
+     "detail": "Default light grey placeholder text has poor contrast. Not all screen readers read placeholders aloud. People with cognitive or motor impairments bear the extra memory and interaction load most.",
+     "t": null
+    },
+    {
+     "title": "Floating labels help but don't solve everything",
+     "detail": "Floating labels (used in Material Design) move the label above the field on focus, which saves space on mobile and fixes the memory problems. But fields still look filled and less noticeable, and accessibility issues may remain. NN/g's conclusion: \"if you have the screen space, placing the label and hint outside the field is still the best way to go.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Placeholders that Replace Labels",
+     "title": "7 problems with label-less fields",
+     "summary": "Memory strain, no review, unclear errors, skipped fields and more."
+    },
+    {
+     "t": null,
+     "anchor": "Placeholder Text in Addition to Labels",
+     "title": "Placeholders plus labels",
+     "summary": "Better, but essential hints should still sit outside the field."
+    },
+    {
+     "t": null,
+     "anchor": "Placeholders and Accessibility",
+     "title": "Accessibility",
+     "summary": "Low contrast, screen readers and cognitive load."
+    },
+    {
+     "t": null,
+     "anchor": "Floating Labels",
+     "title": "Floating labels",
+     "summary": "A partial fix that saves space on mobile."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Placeholders that Replace Labels",
+    "why": "The 7-item list is the quickest way to check OnCourse's onboarding and profile forms."
+   },
+   "id": "placeholders-in-form-fields-are-harmful"
+  },
+  {
+   "Title": "Touch Targets on Touchscreens",
+   "Creator": "Nielsen Norman Group (Aurora Harley)",
+   "Type": "Article",
+   "Link": "https://www.nngroup.com/articles/touch-target-size/",
+   "Apps": [
+    "Glow Baby",
+    "Instagram",
+    "Kate Spade",
+    "White House Black Market",
+    "David Yurman",
+    "Target"
+   ],
+   "Topics": [
+    "Visual design",
+    "Accessibility",
+    "Practice"
+   ],
+   "Goal": [
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Make every tappable element at least 1cm × 1cm on screen, space competing targets apart, and make primary actions bigger still.",
+   "What they did": "The article sets a minimum touch target size from published research (Parhi, Karlson and Bederson; MIT Touch Lab) and illustrates problems with examples from NN/g's usability testing: crowded stacked buttons, tiny dismiss buttons, view–tap asymmetry and well-sized targets in apps used on the move.",
+   "Results": "Minimum target \"1cm × 1cm (0.4in x 0.4in)\" (Parhi et al.). Average fingertip \"1.6–2cm (0.6–0.8 in)\" wide; thumb impact area \"an average of 2.5cm (1 inch).\" Instagram's dismiss button was \"only 2mm — 0.08in — wide\"; David Yurman's swatches were \"only 1mm.\" Target's in-store buttons are about \"2cm × 2cm\"; Glow Baby's nursing timers \"2.3cm\" wide.",
+   "Takeaways": "Minimum touch target is 1cm × 1cm; Small targets are slower to hit; Crowded targets cause wrong taps; Visible but untappable is view–tap asymmetry; Primary and on-the-move actions need bigger targets",
+   "Ideas for OnCourse": "Practice: make each MCQ option a full-width row, well over 1cm tall, with clear gaps so students don't tap the wrong answer. Flashcards: keep \"Again/Hard/Good/Easy\" buttons large and spaced, since students often study one-handed on the move. Design process: replace tiny carousel dots or small icon-only buttons with targets of at least 1cm, and check them on a real phone",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://media.nngroup.com/media/articles/opengraph_images/touch-targets.png",
+   "Key points": [
+    {
+     "title": "Minimum touch target is 1cm × 1cm",
+     "detail": "Based on a study by Parhi, Karlson and Bederson, targets should be at least 1cm × 1cm (0.4in) for quick, accurate taps. This is a physical size, so pixel values are misleading across screen densities. MIT Touch Lab found fingertips are 1.6–2cm wide and the thumb's impact area about 2.5cm.",
+     "t": null
+    },
+    {
+     "title": "Small targets are slower to hit",
+     "detail": "Fitts' law says the time to reach a target depends on its distance and size, so small targets take longer. In Glow Baby, short sleep or feeding events were drawn as thin bars, so their tap targets became too small. The same risk applies to any chart where size encodes data.",
+     "t": null
+    },
+    {
+     "title": "Crowded targets cause wrong taps",
+     "detail": "Kate Spade's stacked thin buttons were too close together, while White House Black Market's links were spaced well. Instagram's dismiss button was 2mm wide, so people ignored bad suggestions rather than risk following an account by mistake. Targets must be big enough first, then spaced; side-by-side pairs give more room than stacked ones.",
+     "t": null
+    },
+    {
+     "title": "Visible but untappable is view–tap asymmetry",
+     "detail": "Elements big enough to see can still be too small to tap, like iOS carousel dots. David Yurman's 1mm colour swatches worked with a mouse but on tablets often opened the product page instead. Desktop patterns need resizing for touch.",
+     "t": null
+    },
+    {
+     "title": "Primary and on-the-move actions need bigger targets",
+     "detail": "1cm is the minimum. Target's app gives in-store search and scan buttons about 2cm × 2cm for people walking. Glow Baby gives most of the screen to two 2.3cm-wide nursing timers with lots of space. Children, older users and busy one-handed users also need larger targets.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Size Matters",
+     "title": "Size matters",
+     "summary": "The 1cm minimum and why physical size is what counts."
+    },
+    {
+     "t": null,
+     "anchor": "Mind the Gap — Crowding Causes Errors",
+     "title": "Crowding",
+     "summary": "Too-close targets cause slips; examples from Instagram and retailers."
+    },
+    {
+     "t": null,
+     "anchor": "View–Tap Asymmetry",
+     "title": "View–tap asymmetry",
+     "summary": "Seeable but not tappable, like carousel dots."
+    },
+    {
+     "t": null,
+     "anchor": "When Bigger Is Better",
+     "title": "When bigger is better",
+     "summary": "Primary actions, on-the-move use and special audiences."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Mind the Gap — Crowding Causes Errors",
+    "why": "It applies directly to MCQ options and flashcard rating buttons, where a wrong tap costs a student an answer."
+   },
+   "id": "touch-targets-on-touchscreens"
+  },
+  {
+   "Title": "Trello User Onboarding: 7 Tactics To Inspire You",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/trello-user-onboarding",
+   "Apps": [
+    "Trello",
+    "Appcues",
+    "Gmail"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Visual design",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Let new users build something real in the first minutes, using their own input, and push every unavoidable chore (like email confirmation) until after they have seen value.",
+   "What they did": "The comic walks through Trello's sign-up while the author builds a content calendar. Trello strips header links from the landing page, skips forced email confirmation, asks one use-case question, then has the user type their own tasks into form fields that appear live as cards on a board. A one-tap background makes the board feel owned, and a link opens Gmail straight away for the confirmation email.",
+   "Results": "Removing header navigation on critical pages \"may increase your conversion rate by 28%.\" Deferring email confirmation \"can increase your 'Signup' to 'First Key Action' rate by up to 100%.\" \"Trello later reported a +36% lift in activation through a mix of personalization experiments.\" Appcues reported persona-based onboarding \"improved their users' activation time by 74%.\" (These are cited figures from other sources, not tests run by Growth.Design.) Overall experience score: A.",
+   "Takeaways": "Fewer links on the path means fewer leaks; Let people use the product before confirming email; One self-segment question beats a long quiz; Teach new concepts by building from the user's own input; A small customisation makes the app feel like theirs; Send people straight to the confirmation email",
+   "Ideas for OnCourse": "Onboarding: ask one question (target exam and date) and then drop the user into a real first question, not a feature tour. Onboarding: build the user's first Today's plan live on screen from their answers, so they see their own plan take shape. Onboarding: defer account verification (OTP or email) until after the first practice set, and watch activation, not just sign-up rate",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cktj61ov300030ull97tafqlp.png",
+   "Key points": [
+    {
+     "title": "Fewer links on the path means fewer leaks",
+     "detail": "Trello's landing page removed nearly all menu links except Log in and Sign up. Growth.Design cites that removing header navigation on critical pages \"may increase your conversion rate by 28%\", because each link is a reason to leave (Hick's Law). OnCourse's onboarding and paywall screens should show one path forward, not tabs or extra links.",
+     "t": null
+    },
+    {
+     "title": "Let people use the product before confirming email",
+     "detail": "Trello did not force an email confirmation step, so the author could start building right away. Deferred account creation \"can increase your 'Signup' to 'First Key Action' rate by up to 100%.\" The comic warns to check activation and revenue too, because a lift at the top of the funnel has to carry through.",
+     "t": null
+    },
+    {
+     "title": "One self-segment question beats a long quiz",
+     "detail": "Trello asks what you want to use it for, then tailors the setup. Trello \"later reported a +36% lift in activation\" from personalisation experiments, and Appcues saw activation time improve \"by 74%.\" But Trello offered 15 options and two vague buttons (\"Dive right in\" vs \"Help me get started\"), which caused doubt. Keep the question short and the choices few.",
+     "t": null
+    },
+    {
+     "title": "Teach new concepts by building from the user's own input",
+     "detail": "The user types tasks into plain form fields, and each one appears live as a card on a board preview. This moves them from a familiar mental model (a to-do list) to Trello's new one (boards, lists, cards). A later step that only showed a video of dragging cards felt like watching a friend play a game. For OnCourse, show a plan or a deck forming from the user's own answers instead of a demo.",
+     "t": null
+    },
+    {
+     "title": "A small customisation makes the app feel like theirs",
+     "detail": "One tap set a calm photo as the board background, and the board suddenly felt like the author's own \"zen hub.\" This is the Endowment Effect: a tiny investment of effort makes people value the thing more. The first board also kept the user's earlier input, which felt less scary than an empty board.",
+     "t": null
+    },
+    {
+     "title": "Send people straight to the confirmation email",
+     "detail": "Trello linked directly to Gmail, but the author still got lost in the inbox for ten minutes. The \"Sniper Link\" fix pre-fills the inbox search (from:@trello.com, in:anywhere) so only the app's email shows, even if it is in spam. Any OnCourse flow that needs an email step can use the same trick.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Less Links, Less Leaks.",
+     "title": "Landing page with no exits",
+     "summary": "Removing header links keeps people on the sign-up path."
+    },
+    {
+     "t": null,
+     "anchor": "Deferred Account Creation",
+     "title": "No forced email confirmation",
+     "summary": "Users explore first and confirm later, which can double the first-key-action rate."
+    },
+    {
+     "t": null,
+     "anchor": "Persona-Based Onboarding",
+     "title": "One use-case question",
+     "summary": "Self-segmenting lifts activation, but 15 options and vague buttons cause doubt."
+    },
+    {
+     "t": null,
+     "anchor": "Mental Model Migration",
+     "title": "Live preview of your own board",
+     "summary": "Form fields turn into cards as you type, teaching Trello's concepts."
+    },
+    {
+     "t": null,
+     "anchor": "Endowment Effect",
+     "title": "One-tap background",
+     "summary": "A tiny customisation makes the board feel owned."
+    },
+    {
+     "t": null,
+     "anchor": "The \"Sniper Link\" Technique",
+     "title": "Sniper links",
+     "summary": "Pre-filled inbox search gets users to the confirmation email without distraction."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Mental Model Migration",
+    "why": "The live preview idea maps directly to building a student's first Today's plan from their own onboarding answers."
+   },
+   "id": "trello-user-onboarding-7-tactics-to-inspire-you"
+  },
+  {
+   "Title": "How small UI delighters have a huge impact on UX",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/been-onboarding",
+   "Apps": [
+    "Been"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Progress & streaks",
+    "Motion",
+    "Visual design"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Start new users on one easy action, and make the first bit of progress feel big, instead of showing it as 0% of a huge goal.",
+   "What they did": "The comic tests Been, a travel-tracking app. Its intro lists features, then drops the user on an empty map with only a subtle hint of what to do. Adding a first country takes a complex, cold form, and the reward is a stat that still reads 0% of 195 countries. Growth.Design redesigns it with an easy first question, a photo in the form, and a delightful animation when a country is added.",
+   "Results": null,
+   "Takeaways": "Prime people with the value, not a feature list; Make the first action obvious and easy; Small touches make data entry feel warmer; A far-away goal at 0% kills motivation; Make the first progress moment a peak",
+   "Ideas for OnCourse": "Progress & streaks: never show a new user \"0% of 2,000 MCQs\"; show a near goal (today's 20 questions, or this week's topic) and how close they are to it. Practice: give the first correct answer of a new user's first session a short, satisfying animation so the first progress moment is a peak. Onboarding: open with why tracking prep matters (exam date, rank goal) instead of listing features like widgets or premium",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cly3qvyof000d0tmsbz1ybuhl.png",
+   "Key points": [
+    {
+     "title": "Prime people with the value, not a feature list",
+     "detail": "Been's intro scrolls through features like widgets, zoom and premium mode. Growth.Design asks: \"Have you ever been excited about widgets?\" Priming says earlier information shapes how people react to what comes next, so the intro should set up the meaning of tracking trips. For OnCourse, the first screens should talk about the exam and rank, not features.",
+     "t": null
+    },
+    {
+     "title": "Make the first action obvious and easy",
+     "detail": "After the intro the user lands on a map and asks, \"That's it? What do I do now?\" The only cue is a very subtle animation. The redesign asks one easy question to start, using the Spark Effect: people act when the effort is small. OnCourse's first Home screen for a new user should have one clear, easy first step.",
+     "t": null
+    },
+    {
+     "title": "Small touches make data entry feel warmer",
+     "detail": "Adding a trip to Italy meant an \"overly complex form\" that felt cold. The author suggests a simple image that brings back memories of the trip. Aesthetic Usability means people believe things that look better work better, so a little warmth makes a chore feel lighter.",
+     "t": null
+    },
+    {
+     "title": "A far-away goal at 0% kills motivation",
+     "detail": "After adding a country the stat still showed 0% out of 195 countries. The Goal-Gradient Effect says people speed up near a goal, but a goal that seems too far has the opposite effect. Growth.Design suggests Shaping: reward small steps toward the target. OnCourse should frame early progress against a near goal, not the whole syllabus.",
+     "t": null
+    },
+    {
+     "title": "Make the first progress moment a peak",
+     "detail": "The redesign drops the far-away goal and adds a fun animation when a country is added, to boost the user's \"psych\" and nudge them to fill the rest of the map. The Peak-End Rule says people remember peaks and endings. The case study gives no numbers; it is a redesign proposal, and Been scores a C.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Priming",
+     "title": "Feature-list intro",
+     "summary": "The intro lists features instead of priming the value of tracking trips."
+    },
+    {
+     "t": null,
+     "anchor": "Spark Effect",
+     "title": "An easy first step",
+     "summary": "One easy question makes it a no-brainer to start."
+    },
+    {
+     "t": null,
+     "anchor": "Aesthetic Usability",
+     "title": "Warmer screens",
+     "summary": "Colour and imagery make the experience feel better and seem to work better."
+    },
+    {
+     "t": null,
+     "anchor": "Goal-Gradient Effect",
+     "title": "0% of 195 countries",
+     "summary": "A goal that is too far away discourages instead of motivates."
+    },
+    {
+     "t": null,
+     "anchor": "Peak-End Rule",
+     "title": "A delightful first win",
+     "summary": "An animation turns adding a country into a memorable peak."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Goal-Gradient Effect",
+    "why": "It directly warns against the \"0% of the syllabus\" progress bars that exam-prep apps tend to show new users."
+   },
+   "id": "how-small-ui-delighters-have-a-huge-impact-on-ux"
+  },
+  {
+   "Title": "Adobe: The growing issue with “Free” trials UX",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/adobe-trial-ux",
+   "Apps": [
+    "Adobe Photoshop",
+    "Adobe Lightroom",
+    "Adobe Acrobat",
+    "Rows"
+   ],
+   "Topics": [
+    "Paywall",
+    "Onboarding",
+    "Copy"
+   ],
+   "Goal": [
+    "Conversion",
+    "Activation"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Give people a taste of the product before any plan picker or card form; a trial wrapped in upsells, contracts and hidden fees burns the excitement that brought them in.",
+   "What they did": "The author tries Photoshop's generative AI and hits a confusing three-plan upsell first, then a second plan picker where monthly and yearly cost the same and are both annual contracts. A \"curated just for you\" Acrobat upsell follows, then a card form whose fine print shows a cancellation fee of half a year's price. Growth.Design proposes a quick AI demo first and points to Rows, which drops visitors straight into a working file.",
+   "Results": "Growth.Design cites that \"~25-40%\" of people \"cancel their trial on day one to avoid this trap.\" Rows: after turning their product into a homepage, \"conversion rate to sign-up rose 72%\" and \"the activation rate of people who converted from a 'sandbox account' is 30% higher\" than other channels. Adobe's trial score: F.",
+   "Takeaways": "A complex plan picker first drains excitement; Show the magic before asking for anything; Same price, different fine print, is fake choice; Fake personalisation feels exploitative; Many users cancel on day one to dodge trial traps; Product-first beats form-first",
+   "Ideas for OnCourse": "Onboarding: let a new user answer a few real MCQs with explanations before the paywall appears. Paywall: keep plans few and plainly different; state the real total, renewal date and cancellation terms on the same screen. Renewal: send a clear trial-ending reminder so users don't feel they must cancel on day one to stay safe",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cls9kc8ss001t0tmvgj55e5ek.png",
+   "Key points": [
+    {
+     "title": "A complex plan picker first drains excitement",
+     "detail": "Clicking to try Photoshop's AI opened a three-plan upsell where Photoshop plus Lightroom was cheaper than Photoshop alone, because it had less cloud storage and fewer \"generative credits.\" The user could not tell how much they needed, or why Lightroom was there. That is Cognitive Load at the worst moment. An OnCourse paywall shown before any value should have very few, clearly different choices.",
+     "t": null
+    },
+    {
+     "title": "Show the magic before asking for anything",
+     "detail": "The redesign lets the user type \"a tiny elephant\" and watch the AI add it to a photo. After that, the author is \"super excited to jump into the real thing.\" For OnCourse, a few real questions with good explanations can be the taste before the trial.",
+     "t": null
+    },
+    {
+     "title": "Same price, different fine print, is fake choice",
+     "detail": "The second picker offered monthly and yearly at the same price (£9.98 x 12 = £119.76), and both were annual contracts. The only difference was the cancellation fee: \"Some fees\" vs \"No refund.\" Growth.Design calls complex plans that hide real costs unethical, and says they lead to frustrated customers, more support and a worse reputation.",
+     "t": null
+    },
+    {
+     "title": "Fake personalisation feels exploitative",
+     "detail": "A \"Step 1 of 3\" screen offered Acrobat Pro as \"curated just for me,\" which had nothing to do with the AI feature. Real curation signals care, but unrelated deals can leave people \"feeling exploited.\" Any \"recommended for you\" label in OnCourse must be based on the user's actual data.",
+     "t": null
+    },
+    {
+     "title": "Many users cancel on day one to dodge trial traps",
+     "detail": "To get the trial, the user had to pass upsells, decode fees, sign an annual contract and enter a card. The fine print showed a late cancel costs half a year's subscription. Growth.Design cites that \"~25-40%\" of people cancel their trial on day one to avoid such traps.",
+     "t": null
+    },
+    {
+     "title": "Product-first beats form-first",
+     "detail": "Rows dropped visitors straight into a new spreadsheet. Its sign-up conversion \"rose 72%,\" and people who came from a sandbox account had a \"30% higher\" activation rate than other channels. These are cited figures, not Growth.Design's own test.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Cognitive Load",
+     "title": "Upsell before anything",
+     "summary": "A confusing three-plan picker greets a user who just wanted to try one feature."
+    },
+    {
+     "t": null,
+     "anchor": "Pricing Complexity",
+     "title": "Monthly vs yearly, both annual",
+     "summary": "Same price, both contracts; only the cancellation fee differs."
+    },
+    {
+     "t": null,
+     "anchor": "Fabricated personalization",
+     "title": "\"Curated just for me\"",
+     "summary": "An unrelated Acrobat upsell pretends to be personal."
+    },
+    {
+     "t": null,
+     "anchor": "The \"Free\" Trial Paradox",
+     "title": "Trial traps",
+     "summary": "Card, contract and steep fees push people to cancel on day one."
+    },
+    {
+     "t": null,
+     "anchor": "Value First business Impact",
+     "title": "Rows: product as homepage",
+     "summary": "Letting people use the product first lifted sign-ups 72%."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Value First business Impact",
+    "why": "It has the only hard numbers and makes the case for letting OnCourse users practise before the paywall."
+   },
+   "id": "adobe-the-growing-issue-with-free-trials-ux"
+  },
+  {
+   "Title": "Adobe: The Psychology of User Offboarding",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/adobe-cancel-subscription",
+   "Apps": [
+    "Adobe",
+    "Peloton"
+   ],
+   "Topics": [
+    "Renewal",
+    "Copy",
+    "Notifications"
+   ],
+   "Goal": [
+    "Renewal",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Make renewal and cancellation honest and easy: clear renewal emails, offers that match the reason someone gave, and a calm goodbye, because the last moment is what people remember.",
+   "What they did": "The author gets a renewal email with the key word hidden, then tries to cancel a Photoshop plan unused for 6 months. Adobe asks for a fresh login, forces a feedback survey, warns about losing \"favorite apps\" never used, shows untailored discount offers (many pricier than the current plan), repeats warnings, and ends with a confusing confirmation and cross-sell. Growth.Design redesigns the email, the offers and the goodbye screen.",
+   "Results": "Growth.Design's own LinkedIn poll: \"n=328 people indicated that 97% of them did not think that Adobe's approach could be considered 'Ethical'.\" Offboarding score: E. No product metrics are given.",
+   "Takeaways": "Renewal emails should state date, plan and cost plainly; Annual-paid-monthly plans confuse and anger; Don't warn people about losing what they never used; Tailor the save offer to the stated reason; Unjustified discounts train people to wait for deals; End with a clear, calm goodbye",
+   "Ideas for OnCourse": "Renewal: send a renewal reminder whose subject line says \"renewal\", with the date, plan and price up front and one clear button. Renewal: if a user picks \"exam is over\" or \"too expensive\" as the reason, show an offer that fits it (pause until next attempt, a cheaper plan), not a generic discount. Renewal: end cancellation with a plain confirmation, an undo option and a kind goodbye, with no cross-sell",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cktlxdx0u00030umw209x06c4.png",
+   "Key points": [
+    {
+     "title": "Renewal emails should state date, plan and cost plainly",
+     "detail": "Adobe's email hid \"renewal\" at the end of the subject, used an all-caps preview, buried the deadline and link in paragraphs, and never said what the plan cost. The redesign shows a clear preview, an obvious date, plan and cost, and an easy button. Growth.Design ties hidden costs to Status Quo Bias, which keeps \"Zombie Customers\" paying for things they don't use.",
+     "t": null
+    },
+    {
+     "title": "Annual-paid-monthly plans confuse and anger",
+     "detail": "The account page showed $9.99 per month, and the author was left \"always confused by these 'annual paid monthly' plans.\" This lets Adobe charge penalty fees for early cancellation. Growth.Design says the revenue boost also hurts the brand, a reminder to weigh long-term costs of short-term tactics.",
+     "t": null
+    },
+    {
+     "title": "Don't warn people about losing what they never used",
+     "detail": "Adobe warned the user they would lose their \"favorite apps,\" though they had not opened them in 6 months, which Adobe tracks. The comic compares it to a gym owner warning about losing your \"favorite weights.\" Loss warnings only work when they are true for that user.",
+     "t": null
+    },
+    {
+     "title": "Tailor the save offer to the stated reason",
+     "detail": "Adobe forced a reason for leaving (the confirm button was disabled until you answered) and then showed generic offers, most \"even more expensive\" than the current plan. Growth.Design says forcing feedback and then not showing you listened \"can be worse than not asking for any feedback at all.\" The redesign personalises options to the stated reason, using the Noble Edge Effect: visible care builds loyalty.",
+     "t": null
+    },
+    {
+     "title": "Unjustified discounts train people to wait for deals",
+     "detail": "A wall of last-minute discounts felt like a TV infomercial. Reasonable discounts can help short-term sales, but \"unjustified discounts lower brand perception over the long-term,\" which Growth.Design calls the \"Sleazy Salesmen Effect.\" Extra screens repeating the same warnings were unreasonable friction, unlike Adobe's quick checkout.",
+     "t": null
+    },
+    {
+     "title": "End with a clear, calm goodbye",
+     "detail": "After cancelling, Adobe said the user was \"still part of their community\" and showed more plans, hiding the confirmation. Growth.Design suggests a clear message that you can leave in peace, plus an \"Undo\" button for mistakes. Per the Peak-End Rule, \"How you say goodbye is as important as how you say hello.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Status Quo Bias",
+     "title": "The renewal email",
+     "summary": "Hidden keyword, hidden cost and a buried link keep people paying by default."
+    },
+    {
+     "t": null,
+     "anchor": "The Impact of Revenue Hacks",
+     "title": "Annual paid monthly",
+     "summary": "A pricing tactic that enables penalty fees but hurts the brand."
+    },
+    {
+     "t": null,
+     "anchor": "The Dark Side of Discounts",
+     "title": "The offer-fest",
+     "summary": "Untailored discounts make the brand look desperate."
+    },
+    {
+     "t": null,
+     "anchor": "Offboarding Empathy",
+     "title": "Forced feedback, ignored",
+     "summary": "Asking why and then not listening is worse than not asking."
+    },
+    {
+     "t": null,
+     "anchor": "Dark Pattern: Friction",
+     "title": "Unreasonable friction",
+     "summary": "Repeated screens make leaving much harder than joining."
+    },
+    {
+     "t": null,
+     "anchor": "Peak-End Rule & Exit-Points",
+     "title": "The goodbye",
+     "summary": "A clear confirmation and calm exit shape what people remember."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Offboarding Empathy",
+    "why": "It shows how to make a cancel flow's offer match the user's reason, which is the core design choice for OnCourse's renewal and cancel screens."
+   },
+   "id": "adobe-the-psychology-of-user-offboarding"
+  },
+  {
+   "Title": "Spotify Wrapped: 6 psychology principles that make it go viral every year",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/spotify-wrapped-psychology",
+   "Apps": [
+    "Spotify"
+   ],
+   "Topics": [
+    "Progress & streaks",
+    "Notifications",
+    "Motion",
+    "Copy",
+    "Gamification"
+   ],
+   "Goal": [
+    "Retention",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A personal recap works when it builds suspense, tells the user's own story with fresh visuals, frames their time as value, and ends with one clear next thing to do.",
+   "What they did": "The case study walks through Spotify Wrapped from the teaser notification a week before release to the final screen. It names six principles: curiosity gap, anticipation (with variable reward), storytelling, delighters, positively framed numbers, and social value. It then redesigns the anti-climactic ending into a single personalised song you missed, hidden until you tap.",
+   "Results": null,
+   "Takeaways": "Tease the recap with the most emotional hook; Not knowing the result is part of the reward; Tell a story, not a summary table; New animations each year keep it memorable; Frame time spent as value gained; End on one personal next step, not a dead end",
+   "Ideas for OnCourse": "Progress & streaks: build a weekly or post-mock \"prep recap\" in story format (top subject, toughest topic conquered, hours studied framed as progress toward the exam) with a shareable card. Notifications: tease the recap with a personal hook such as \"Your strongest subject this month is…\" rather than a raw question count. Progress & streaks: end the recap with one suggested next step (a single weak-topic set), not a list",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/clqchwh8t000f0tmqg5v26gdh.png",
+   "Key points": [
+    {
+     "title": "Tease the recap with the most emotional hook",
+     "detail": "Spotify's notification a week before release uses the curiosity gap to prime users. Growth.Design asks whether the total number of songs is the best hook, and suggests your favourite song would be more emotional. For OnCourse, a teaser about a student's strongest subject beats a count of questions answered.",
+     "t": null
+    },
+    {
+     "title": "Not knowing the result is part of the reward",
+     "detail": "People wait all year, and some even change what they listen to midway through. The author had \"no idea\" who their top artist would be, so the reveal felt like a variable reward. Unexpected rewards are one of the \"key ingredients\" of Wrapped's success.",
+     "t": null
+    },
+    {
+     "title": "Tell a story, not a summary table",
+     "detail": "Spotify could send a list or graph, but instead uses crafted copy to introduce each section and a timeline of when you listened to each artist. Stories engage more of the brain and are \"more memorable than simple facts and statistics alone.\" A recap that tells a student how their prep unfolded will stick better than a stats page.",
+     "t": null
+    },
+    {
+     "title": "New animations each year keep it memorable",
+     "detail": "Wrapped comes in new graphic styles and animated stories each year, because people remember playful pleasures better. The animations are what make the stories memorable. OnCourse recaps can keep the format but refresh the visual style each season.",
+     "t": null
+    },
+    {
+     "title": "Frame time spent as value gained",
+     "detail": "Spotify ties minutes listened to memories and to how your taste grew. Growth.Design contrasts this with Screen Time, where big numbers feel bad. OnCourse can frame hours studied as questions mastered and progress toward the exam, never as time spent on a phone.",
+     "t": null
+    },
+    {
+     "title": "End on one personal next step, not a dead end",
+     "detail": "Wrapped ends by priming next year's edition, which the author found anti-climactic. The redesign ends with one curated song you missed, hidden until tapped, using personalisation, FOMO, the Singularity Effect (one item is less effort than a playlist) and the curiosity gap. Sharing grows each year through the Bandwagon Effect, since music reflects identity.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Curiosity Gap",
+     "title": "The teaser notification",
+     "summary": "A week-early notification primes curiosity; the hook could be more emotional."
+    },
+    {
+     "t": null,
+     "anchor": "Variable Reward",
+     "title": "Anticipation and the reveal",
+     "summary": "Not knowing your top artist makes the reveal rewarding."
+    },
+    {
+     "t": null,
+     "anchor": "The impact of storytelling",
+     "title": "Storytelling",
+     "summary": "Copy and a listening timeline turn data into a personal story."
+    },
+    {
+     "t": null,
+     "anchor": "Delighters",
+     "title": "Fresh animations",
+     "summary": "New visual styles each year make it memorable."
+    },
+    {
+     "t": null,
+     "anchor": "Framing",
+     "title": "Numbers framed as value",
+     "summary": "Time spent is tied to memories, unlike Screen Time."
+    },
+    {
+     "t": null,
+     "anchor": "Bandwagon Effect",
+     "title": "Social sharing",
+     "summary": "Everyone posting makes others want to join in."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Framing",
+    "why": "It shows how to present study time as progress rather than effort, the key choice in any OnCourse progress recap."
+   },
+   "id": "spotify-wrapped-6-psychology-principles-that-make-it-go-viral-every-ye"
+  },
+  {
+   "Title": "5 Deadly Onboarding Mistakes You Should Avoid",
+   "Creator": "Growth.Design",
+   "Type": "Case study",
+   "Link": "https://growth.design/case-studies/5-product-onboarding-mistakes-to-avoid",
+   "Apps": [],
+   "Topics": [
+    "Onboarding",
+    "Notifications",
+    "Paywall",
+    "Copy"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "In the first minute, deliver the promise the user came for; don't ask for notifications, push a fake-urgent sale, or punish a \"no\" before they've seen any value.",
+   "What they did": "The comic follows a user who downloads a sleep-cycle alarm clock app with high hopes. In the first seconds it asks for notification permission with vague copy, hides how the promised optimal wake-up works, shows a full-screen discount with a countdown, then a \"gift\" offer and ads after the user says no. The user deletes the app, and the comic lists five mistakes.",
+   "Results": "Growth.Design cites Localytics: \"Almost 1 out of 4 people will delete your app after the first use\" (\"21% churn on the 1st use\").",
+   "Takeaways": "Ask for notifications after the first aha moment; Name exactly which notifications they'll get; Show the promised land in the first session; Fake scarcity in the first seconds destroys trust; Pushing again after a no triggers reactance",
+   "Ideas for OnCourse": "Notifications: move the permission ask to right after the first completed practice set, and list the exact reminders (daily plan at a set time, streak at risk) instead of \"relevant notifications\". Onboarding: show the user's exam countdown and first plan before any paywall. Paywall: never open with a countdown discount in the first session, and don't re-show the offer as a \"gift\" right after a dismissal",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://s3.amazonaws.com/files.growth.design/cms/cktkhodro000f0tmrcz19a393.png",
+   "Key points": [
+    {
+     "title": "Ask for notifications after the first aha moment",
+     "detail": "The app asked for notification permission on the very first screen. Growth.Design: \"Never ask for reciprocity if you haven't given anything.\" Ask after users have their first aha moment, when they trust you most with their attention. For OnCourse, that is after the first finished practice set.",
+     "t": null
+    },
+    {
+     "title": "Name exactly which notifications they'll get",
+     "detail": "The prompt promised \"relevant notifications,\" which made the user worry instead. Specific copy builds trust, so list each kind of notification instead of leaving people guessing. OnCourse can say exactly what it will send and when.",
+     "t": null
+    },
+    {
+     "title": "Show the promised land in the first session",
+     "detail": "The user came to wake up refreshed, but nothing on the first screen explained the optimal wake-up time. Users arrive with a specific intent, so remind them in the first experience why they came. An OnCourse new user should see their exam, their date and a path to it right away.",
+     "t": null
+    },
+    {
+     "title": "Fake scarcity in the first seconds destroys trust",
+     "detail": "Within about 10 seconds a full-screen pop-up showed a big discount, \"limited time offer\" and a countdown, with a sleeping child and cat. Scarcity drives purchases, but \"nothing here justifies the sudden urgency.\" Faking it is a dark pattern.",
+     "t": null
+    },
+    {
+     "title": "Pushing again after a no triggers reactance",
+     "detail": "After declining, the user saw a \"gift\" that looked like the same urgent offer, then ads that felt like punishment for not buying. When people feel their freedom is threatened, it can \"trigger an angry motivation to regain it.\" The user deleted the app; Growth.Design cites that almost 1 in 4 people delete an app after the first use.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Earn Trust first",
+     "title": "Notifications too early",
+     "summary": "Asking before giving value breaks trust."
+    },
+    {
+     "t": null,
+     "anchor": "Be Specific in your Copy",
+     "title": "Vague copy",
+     "summary": "\"Relevant notifications\" makes users suspicious."
+    },
+    {
+     "t": null,
+     "anchor": "the promised land",
+     "title": "Missing the promised land",
+     "summary": "The first screen doesn't show why the user came."
+    },
+    {
+     "t": null,
+     "anchor": "Scarcity - Dark Patterns",
+     "title": "Fake urgency",
+     "summary": "A countdown sale in the first seconds has no real reason."
+    },
+    {
+     "t": null,
+     "anchor": "Reactance",
+     "title": "Pushing too hard",
+     "summary": "A second offer and ads after a no drive the user away."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Earn Trust first",
+    "why": "It sets the rule for when OnCourse should ask for notification permission, a decision every onboarding has to make."
+   },
+   "id": "5-deadly-onboarding-mistakes-you-should-avoid"
+  },
+  {
+   "Title": "Obsessing Over Onboarding for 10+ Years — The Architect of Superhuman's Onboarding Shares His Playbook",
+   "Creator": "First Round Review (Gaurav Vohra)",
+   "Type": "Case study",
+   "Link": "https://review.firstround.com/superhuman-onboarding-playbook/",
+   "Apps": [
+    "Superhuman",
+    "Clay",
+    "Readwise Reader",
+    "Headspace",
+    "Simply Piano",
+    "Super Mario Bros",
+    "The Legend of Zelda"
+   ],
+   "Topics": [
+    "Onboarding",
+    "Research methods",
+    "Design process",
+    "Gamification"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Onboard early users by hand to learn what they need, then build self-serve onboarding that is opinionated, interruptive and interactive, not a corner checklist.",
+   "What they did": "Superhuman ran 30-minute human onboarding calls for every new customer for five years, then spent three years turning those lessons into in-product onboarding. The self-serve version was modelled on video games: a Mario 1-1 style demo, full-screen setup steps that could not be skipped, and a fake inbox where users practise safely. They cut the first demo down to the one goal that mattered, Inbox Zero, and taught features like Undo Send at the moment they are useful.",
+   "Results": "\"Over 65% of new customers fully transitioned their email to Superhuman after their human-led onboarding\", \"more than double\" what they saw with no onboarding. When the call was made optional, attendance was \"15% — down from 100%\". Focusing the demo on Inbox Zero: \"'e' and 'h' usage increased by 50%, and self-serve activation rates improved by 25%, from 40% to 50%.\" A tucked-away checklist: \"Only 50% of users completed each task, and only 30% of users completed all tasks\", with \"no change in activation rates\". Rebuilt as full-screen steps: completion went \"from 30% to over 98%\" and feature opt-in \"from 45% to nearly 80%\". \"57% of new users opt in to 'Get Me To Zero'.\"",
+   "Takeaways": "Onboard users by hand before you automate it; Teach one opinionated goal, not every control; Hidden checklists did nothing; full-screen steps worked; Let users try a feature at the right moment; Pick one main user and job, then branch",
+   "Ideas for OnCourse": "Onboarding: replace any skippable tips or checklist with 3-4 full-screen setup steps (exam, exam date, daily time) that have smart defaults so aspirants can tap through fast. Practice: make the first session a real 5-question set where the app teaches one thing at a time at the moment it matters, like the explanation after the first wrong answer. Design process: run 10 live onboarding calls with new aspirants and log every point of friction before redesigning onboarding.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://review.firstround.com/content/images/size/w1200/2025/04/Gaurav-Vohra_BlogImage_1.8_1248x832--3-.png",
+   "Key points": [
+    {
+     "title": "Onboard users by hand before you automate it",
+     "detail": "Early calls ran 90 minutes: 30 minutes of discovery, then 60 minutes of onboarding. Each call produced \"10 pages of notes, 5-10 feature requests, and 5-10 bugs\". Human-led onboarding gave nearly 2x the activation of self-serve, though the author notes selection bias. For OnCourse, a few live onboarding calls with new aspirants would show where the first session breaks.",
+     "t": null
+    },
+    {
+     "title": "Teach one opinionated goal, not every control",
+     "detail": "The first self-serve demo taught navigation keys like \"j\" and \"k\", which felt like making users \"eat their vegetables\". The next version taught only the controls for Inbox Zero: \"e\" (done) and \"h\" (remind). Activation rose from 40% to 50%. OnCourse's first session should teach the one action that matters most, such as answering a question and seeing the explanation.",
+     "t": null
+    },
+    {
+     "title": "Hidden checklists did nothing; full-screen steps worked",
+     "detail": "Checklists, tooltips and timed nudges \"yielded zero impact\" at Superhuman. Moving the same steps into full-screen panels before the main product, with smart defaults so users could zip through, raised completion from 30% to over 98%. The golden rule: only interrupt for something extremely valuable, which filters out 90% of ideas.",
+     "t": null
+    },
+    {
+     "title": "Let users try a feature at the right moment",
+     "detail": "Undo Send is taught in the split second after sending, and pressing \"Z\" in the alert really undoes the send. The core of onboarding is a synthetic inbox that is \"fully interactive and entirely safe\". The rule is do > show > tell. OnCourse could teach features like bookmarking a question or flagging a doubt right after a wrong answer, inside a real question.",
+     "t": null
+    },
+    {
+     "title": "Pick one main user and job, then branch",
+     "detail": "Onboarding can only be opinionated if the product is. Teams fail when they lack conviction about who the main user is, fear backlash, or reach for drop-in widgets. Pick the main user and their main job, build the best flow for them, then branch by persona (like Netflix or Notion asking for interests or use case). Rapid tests make bold steps, like removing Skip, less risky.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Part 1: Do things that don't scale",
+     "title": "Why onboard by hand",
+     "summary": "Five reasons for human-led onboarding, including activation, learning and loyalty."
+    },
+    {
+     "t": null,
+     "anchor": "Mandatory vs. optional",
+     "title": "Mandatory or optional calls",
+     "summary": "Making the call optional dropped attendance from 100% to 15%."
+    },
+    {
+     "t": null,
+     "anchor": "Cost-benefit analysis",
+     "title": "The economics",
+     "summary": "Each onboarding specialist added up to $650k ARR a year, with 15% no-shows."
+    },
+    {
+     "t": null,
+     "anchor": "How long to practice human-led onboarding",
+     "title": "When to stop",
+     "summary": "A 2x2 of price point and product complexity decides how long to keep onboarding by hand."
+    },
+    {
+     "t": null,
+     "anchor": "Part 2: Unconventional wisdom for productizing onboarding",
+     "title": "Opinionated, interruptive, interactive",
+     "summary": "Game-inspired rules for in-product onboarding, with case studies and numbers."
+    },
+    {
+     "t": null,
+     "anchor": "Why is this hard?",
+     "title": "Why teams avoid it",
+     "summary": "Lack of conviction, fear of backlash and the checklist-widget ecosystem."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Part 2: Unconventional wisdom for productizing onboarding",
+    "why": "It has the checklist versus full-screen result and the Inbox Zero focus result, which apply directly to OnCourse onboarding."
+   },
+   "id": "obsessing-over-onboarding-for-10-years-the-architect-of-superhuman-s-o"
+  },
+  {
+   "Title": "Defining Growth Design: The Guide to the Role Most Startups are Missing",
+   "Creator": "First Round Review (Angel Steger)",
+   "Type": "Article",
+   "Link": "https://review.firstround.com/defining-growth-design-the-guide-to-the-role-most-startups-are-missing/",
+   "Apps": [
+    "Pinterest",
+    "Dropbox"
+   ],
+   "Topics": [
+    "Design process",
+    "Onboarding",
+    "Research methods"
+   ],
+   "Goal": [
+    "Activation",
+    "Retention"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Growth design is half design and half growth: cut choices, protect user intent, and judge experiments by the outcome that brings people back, not raw volume.",
+   "What they did": "Angel Steger, who led growth design at Pinterest and Dropbox, explains what growth designers do differently. At Pinterest her team cut the send flow from about 11 actions to three, then added a personal-message step that slowed sending but raised responses. She also lists the questions she asks designers about any growth screen and how to staff the role.",
+   "Results": "Pinterest's mobile send flow had \"about 11 different sending actions\". Cutting it to \"just three categories of sending\" \"increased the original sending rate almost seven-fold\". Adding a personal-message step \"decreased the overall volume of sends slightly ... but it increased the response rate.\" Her growth design teams grew \"from three to eight\" at Pinterest and \"from six to more than 20\" at Dropbox.",
+   "Takeaways": "Clear design makes experiments finish faster; Cutting 11 send options to 3 raised sending sevenfold; Keep friction that creates ownership; Measure the outcome that matters, not volume; Never replace the user's action with an upsell; Chainsaw first, then chisel",
+   "Ideas for OnCourse": "Paywall: when a free user taps a locked item, open the item's preview first and show the upgrade inside it, so the upsell never replaces what they meant to do. Practice: judge any end-of-session experiment by next-day return and questions completed, not by taps on the share or extra-practice buttons. Design process: use Steger's five questions (problem, who and how often, emotional context, main action, why they care) as the opening checklist in every crit.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://review.firstround.com/content/images/size/w1200/2056/firstround-2fqamzwh4yse6nxvt46zyp_2018-11-09-20angel-20steger-20--20brandon-20smith-20photo-20--2046.jpg",
+   "Key points": [
+    {
+     "title": "Clear design makes experiments finish faster",
+     "detail": "Teams often trim design details to ship experiments sooner. Steger argues clearer screens let users act quickly, so tests reach statistical significance faster, and skipping design \"can add weeks\". For OnCourse, a rough paywall test may need longer to read than a clean one.",
+     "t": null
+    },
+    {
+     "title": "Cutting 11 send options to 3 raised sending sevenfold",
+     "detail": "Pinterest found people \"send\" pins to a person rather than \"share\" them to many. The mobile flow had about 11 send actions. Cutting to three categories raised the sending rate almost seven-fold. Fewer decisions means more people decide.",
+     "t": null
+    },
+    {
+     "title": "Keep friction that creates ownership",
+     "detail": "Not all friction is bad. Research showed that naming your own Pinterest board mattered, and auto-naming it made the product \"less sticky\". The job is to reduce cognitive load, not to remove every choice. An OnCourse aspirant choosing their own exam date may work the same way.",
+     "t": null
+    },
+    {
+     "title": "Measure the outcome that matters, not volume",
+     "detail": "Adding a personal message to sends lowered send volume slightly but raised the response rate, which was the real value: \"No one wants to share to a void.\" She also warns about wins where users in the lab showed a \"bad hookup face\". Judge OnCourse tests on things like next-day return, not taps.",
+     "t": null
+    },
+    {
+     "title": "Never replace the user's action with an upsell",
+     "detail": "In an interview, a candidate showed an upsell where the share flow should be. Steger asked how that served the user's intent: \"when someone is in the middle of something, they have very explicit intent.\" Her five review questions cover the core problem, who sees it, their emotional context, the most important action, and why they would care.",
+     "t": null
+    },
+    {
+     "title": "Chainsaw first, then chisel",
+     "detail": "Like carving ice into a dolphin, start rough to find where the problem is, then refine. Sometimes the right tool is no design at all: pull data, talk to a user, or show a paper sketch. Speed means velocity with crisp execution, not haste.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "TALES FROM THE FRONTLINES OF GROWTH DESIGN",
+     "title": "Five strengths of growth design",
+     "summary": "Pinterest examples on friction, sending and experiment results."
+    },
+    {
+     "t": null,
+     "anchor": "4. Rooting out what to look for in an experiment",
+     "title": "What counts as success",
+     "summary": "Why a lower send volume with higher responses was the real win."
+    },
+    {
+     "t": null,
+     "anchor": "5. Opting for velocity",
+     "title": "Chainsaws and chisels",
+     "summary": "Matching design fidelity to the stage of the problem."
+    },
+    {
+     "t": null,
+     "anchor": "HOW TO SPOT GROWTH DESIGNERS IN THE WILD",
+     "title": "Hiring and review questions",
+     "summary": "Five questions to ask about any growth screen."
+    },
+    {
+     "t": null,
+     "anchor": "SCOPING OUT THE TEAM AND STRUCTURING IT FOR SUCCESS",
+     "title": "Team setup",
+     "summary": "Where growth designers sit and the 1 PM to 2 designers to 3-6 engineers ratio."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "TALES FROM THE FRONTLINES OF GROWTH DESIGN",
+    "why": "The Pinterest send-flow story shows both the 7x win and why the team then slowed it down on purpose."
+   },
+   "id": "defining-growth-design-the-guide-to-the-role-most-startups-are-missing"
+  },
+  {
+   "Title": "From Figma's design team: How to run a design critique",
+   "Creator": "Figma (Noah Levin)",
+   "Type": "Article",
+   "Link": "https://www.figma.com/blog/design-critiques-at-figma/",
+   "Apps": [
+    "Figma"
+   ],
+   "Topics": [
+    "Design process"
+   ],
+   "Goal": [
+    "Craft",
+    "Speed"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Agree what crits are for, then pick from six named formats (standard, jam, pair, silent, print-out, FYI) to fit the problem.",
+   "What they did": "Figma's design team ran a \"critique of critiques\" after finding crits crowded, shallow and too nice. They set four goals for crit and ruled out roadmap decisions. They then wrote six named crit methods, each with when to use it and how to run it, plus ten tips such as two topics per hour and a timer.",
+   "Results": null,
+   "Takeaways": "Crits exist to unblock, not to decide roadmaps; Say what feedback you want, and what you don't; Round-the-room beats popcorn for quiet voices; Pair design gives a lone designer a copilot; Silent crits get the most feedback, fast; Two topics per hour, and plan 30 minutes ahead",
+   "Ideas for OnCourse": "Design process: open every OnCourse crit with one slide on the screen's goal, the feedback wanted and the feedback not wanted. Design process: for async review with PM and engineers, run a 20-minute silent crit where everyone comments in the Figma file at the same time. Design process: name a standing copilot (PM or engineer) for each big project such as the Paywall redesign, and pair with them weekly.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/599r6htc/regionalized/82da97f2dad2e60cab257c741cf9cdd27fef6b3f-2784x1566.png?w=1200&q=70&fit=max&auto=format",
+   "Key points": [
+    {
+     "title": "Crits exist to unblock, not to decide roadmaps",
+     "detail": "The four goals are unblocking problems and generating ideas, raising quality, encouraging consistency, and sharing context. \"Making major product decisions\" is deliberately not a goal, so crit stays a safe space. The presenter owns the format because crit exists to help them.",
+     "t": null
+    },
+    {
+     "title": "Say what feedback you want, and what you don't",
+     "detail": "A standard crit runs about 10-15 minutes of context, 2-5 minutes of clarifying questions, then 10+ minutes of feedback. The presenter includes a slide on \"Here's the feedback I am looking for\" and \"Here's what I'm NOT looking for\". If the goals are missed, \"their feedback will be misdirected.\"",
+     "t": null
+    },
+    {
+     "title": "Round-the-room beats popcorn for quiet voices",
+     "detail": "Round-the-room gives each person about two minutes with no interruptions, and people may pass. Popcorn is freeform and faster but \"can reward the 'loudest voice'\". The presenter should thank people rather than defend each point.",
+     "t": null
+    },
+    {
+     "title": "Pair design gives a lone designer a copilot",
+     "detail": "Pair design in groups of two or three was the team's most popular alternative format. Because a small startup can't put several designers on one problem, they assign a part-time \"copilot\" so the lead feels \"less alone while solving a problem.\" On a small team like OnCourse, a PM or engineer can play that role.",
+     "t": null
+    },
+    {
+     "title": "Silent crits get the most feedback, fast",
+     "detail": "In a silent crit everyone reviews a file and comments in writing at the same time, so many threads run in parallel. It needs more prep because all context must live in the document. A scheduled slot makes sure people actually review the work.",
+     "t": null
+    },
+    {
+     "title": "Two topics per hour, and plan 30 minutes ahead",
+     "detail": "Topics \"always take at least 10 minutes more than people think\", so Figma caps crits at two topics per hour and uses a timer. Presenters spend 30 minutes beforehand deciding what they need. A note-taker's summary worked better than raw transcripts.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Critiquing critiques",
+     "title": "What was broken",
+     "summary": "The list of problems: crowded rooms, shallow feedback, group think, too much politeness."
+    },
+    {
+     "t": null,
+     "anchor": "Aligning on goals",
+     "title": "Four goals of crit",
+     "summary": "Unblock, raise quality, keep consistency, share context; not roadmap decisions."
+    },
+    {
+     "t": null,
+     "anchor": "1. Standard critiques",
+     "title": "Standard crit step by step",
+     "summary": "Timed steps from context to follow-ups, with round-the-room and popcorn formats."
+    },
+    {
+     "t": null,
+     "anchor": "3. Pair design critique",
+     "title": "Pair design and copilots",
+     "summary": "Small-group design sessions and assigning a copilot on a small team."
+    },
+    {
+     "t": null,
+     "anchor": "4. Silent critiques",
+     "title": "Silent crit",
+     "summary": "Everyone comments in the file at once for a high volume of feedback."
+    },
+    {
+     "t": null,
+     "anchor": "Ten tips for running effective critiques",
+     "title": "Ten tips",
+     "summary": "Match method to problem, schedule early, use a timer, take notes, be vulnerable."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "1. Standard critiques",
+    "why": "It gives a timed script Sainath can use in the next crit, including the feedback-wanted slide."
+   },
+   "id": "from-figma-s-design-team-how-to-run-a-design-critique"
+  },
+  {
+   "Title": "Figma on Figma: Our approach to designing UI3",
+   "Creator": "Figma (Jenny Xie)",
+   "Type": "Case study",
+   "Link": "https://www.figma.com/blog/our-approach-to-designing-ui3/",
+   "Apps": [
+    "Figma"
+   ],
+   "Topics": [
+    "Design process",
+    "Visual design",
+    "Navigation",
+    "Accessibility"
+   ],
+   "Goal": [
+    "Usability",
+    "Craft"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "A redesign needs a clear vision, but beta metrics and feedback should be allowed to reverse even core decisions, and users need a way back while they adjust.",
+   "What they did": "Figma spent over two years redesigning its interface (UI3) around keeping work at the centre. In open beta, feature adoption, performance data and feedback showed the new floating panels slowed heavy users, so the team re-docked them before full launch. They also reverted a dropdown to a checkbox, ran 60-minute \"speed round\" crits for two months, rebuilt labels for accessibility, and let users opt out during the beta.",
+   "Results": null,
+   "Takeaways": "Beta data reversed a headline design decision; An extra tap is a reason to revert; Speed-round crits for a large redesign; Accessibility can be a dealbreaker for a minimal idea; Give users a way back during a redesign",
+   "Ideas for OnCourse": "Home: ship any big Home redesign behind a flag with a way back to the old layout for a few weeks, and track time to start the first question, not only opinions. Practice: in any new layout, count taps to answer and review a question; if the new version adds a tap, revert that control. Design process: for a multi-screen refresh, run 60-minute speed-round crits where everyone comments on all screens at once.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/599r6htc/regionalized/3225dab2b34419e6bc17bf52633ed13b4e86cd6d-3262x1836.jpg?w=1200&q=70&fit=max&auto=format",
+   "Key points": [
+    {
+     "title": "Beta data reversed a headline design decision",
+     "detail": "Floating panels looked friendly but cramped the canvas on small screens and moved rulers away from designs. \"The nail in the coffin was learning that they slowed people down,\" said PM KC Oh. The team re-docked the panels, still resizable, for the full launch. Speed counted as a feature.",
+     "t": null
+    },
+    {
+     "title": "An extra tap is a reason to revert",
+     "detail": "Blend mode was hidden behind an icon, which forced users to wait for a tooltip. Clip content became a dropdown in beta but \"caused an extra click\", so it went back to a checkbox. \"Better to have riffed and lost, than to never have riffed at all.\"",
+     "t": null
+    },
+    {
+     "title": "Speed-round crits for a large redesign",
+     "detail": "Instead of the usual 30-minute crits, the team ran 60-minute \"speed rounds\" where everyone commented on each other's work at once, for two months. People self-selected into visual details or flows. It surfaced every context the slider component had to support.",
+     "t": null
+    },
+    {
+     "title": "Accessibility can be a dealbreaker for a minimal idea",
+     "detail": "A minimal label and tooltip system looked promising but would have hurt accessibility, which UX writer Hoi Fung Ho called \"a deal breaker\". Visible labels now match screen reader labels. Having a clear reason, \"This is what we're doing, and here's why\", removed the team's doubts.",
+     "t": null
+    },
+    {
+     "title": "Give users a way back during a redesign",
+     "detail": "Users could opt out of UI3 during the beta, so a Friday deadline didn't clash with a new interface. The gradual rollout also gave time to process feedback and write tutorials. When weighing criticism, ask if it is just a reaction to change, and if positive feedback balances it.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Docked panels: Embracing the opportunity to explore",
+     "title": "Floating panels reversed",
+     "summary": "How beta data led the team to re-dock the main panels."
+    },
+    {
+     "t": null,
+     "anchor": "Properties panel: Building with your users",
+     "title": "Iterating in public",
+     "summary": "Clip content's trip from checkbox to dropdown and back."
+    },
+    {
+     "t": null,
+     "anchor": "Sliders: Mobilizing the whole team",
+     "title": "Speed-round crits",
+     "summary": "Two months of 60-minute group crits to cover many surfaces."
+    },
+    {
+     "t": null,
+     "anchor": "Labels: Grounding decisions in solid reasoning",
+     "title": "Labels and accessibility",
+     "summary": "Why the minimal label idea was dropped."
+    },
+    {
+     "t": null,
+     "anchor": "Change management: Giving users time to adapt",
+     "title": "Rolling out a redesign",
+     "summary": "An opt-out beta and tutorials before making UI3 the default."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Docked panels: Embracing the opportunity to explore",
+    "why": "It shows how to let real usage data overrule a design you love."
+   },
+   "id": "figma-on-figma-our-approach-to-designing-ui3"
+  },
+  {
+   "Title": "4 new ways to go from idea to product with AI tools",
+   "Creator": "Figma (Emma Webster)",
+   "Type": "Article",
+   "Link": "https://www.figma.com/blog/4-new-ways-to-go-from-idea-to-product-with-ai-tools/",
+   "Apps": [
+    "Figma Make",
+    "Cursor",
+    "FloQast",
+    "Merkle",
+    "Accor",
+    "Affirm"
+   ],
+   "Topics": [
+    "AI tools",
+    "Design process"
+   ],
+   "Goal": [
+    "Speed"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Choose where to start by the question you need answered: code for logic-heavy flows, an AI agent on the canvas for wide exploration, a prototype instead of a PRD, and MCP to carry the design system into code.",
+   "What they did": "Figma talked to four teams about AI workflows. FloQast tested a multi-step accounting flow as a coded prototype with simulated data. Merkle used Figma's agent to generate about 50 layout variations. Accor built a working Make prototype to align leadership. Affirm prototyped payment-plan badges in Make and passed components and tokens through MCP into Cursor for production code.",
+   "Results": "At Affirm, a PM went \"from idea to working prototype in two days instead of the usual six weeks\". At Merkle, the designer started with seven layouts and asked the agent for 10 variations at a time \"until he'd generated about 50\"; \"production work that would have taken days was compressed into hours.\"",
+   "Takeaways": "Prototype in code when the logic is the design; Use an AI agent to exhaust the options; A working prototype aligns people better than a deck; Pass the design system into code with MCP",
+   "Ideas for OnCourse": "Today's plan: prototype the plan in code with realistic simulated students (missed days, weak subjects, exam in 30 days) before polishing mockups, to see where the logic breaks. Paywall: ask an AI agent for 30+ layout and copy variations of the Paywall header, then pick 3 to test. Design process: connect OnCourse's React Native components and tokens to the coding agent through MCP so prototypes use real components from the first prompt.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/599r6htc/regionalized/b3ceaf989a29668277a27dcd295e695ed82c7de8-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+   "Key points": [
+    {
+     "title": "Prototype in code when the logic is the design",
+     "detail": "FloQast's new page had steps where finishing one triggered the next, which a mockup couldn't show. A UX manager built a coded prototype with a simulated backend and data based on a real customer's workflow. The team found flows \"that looked right on the surface but fell apart in practice\". Use this when screens change with conditions you can't judge in a mockup.",
+     "t": null
+    },
+    {
+     "title": "Use an AI agent to exhaust the options",
+     "detail": "Merkle's designer sketched seven loose directions, then asked the agent for 10 variations at a time until about 50 existed and it ran out of new combinations. He then used it for realistic placeholder copy, spec annotations, and a review that flagged missed screen reader issues. The win was depth of exploration, not just speed.",
+     "t": null
+    },
+    {
+     "title": "A working prototype aligns people better than a deck",
+     "detail": "Accor's brand designer built a page that reshapes itself around what the user types, such as \"golf\". Within days it was concrete enough to start a real conversation with leadership. Use this when an idea is too nuanced for a document.",
+     "t": null
+    },
+    {
+     "title": "Pass the design system into code with MCP",
+     "detail": "Affirm needed badges on payment plans across desktop, mobile web, Android and iOS. After designers refined the winner, the MCP server passed components, tokens and layout into Cursor, where an agent generated front-end code. Developers started from code that already matched the design, so \"What shipped matched what the designers intended.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. Testing constraints in code",
+     "title": "Testing logic in code",
+     "summary": "FloQast's coded prototype with simulated data."
+    },
+    {
+     "t": null,
+     "anchor": "2. Exploring with AI on the canvas",
+     "title": "Going wide with an agent",
+     "summary": "Merkle's 50 variations and agent-written specs."
+    },
+    {
+     "t": null,
+     "anchor": "3. Starting with a prototype",
+     "title": "Prototype before PRD",
+     "summary": "Accor's adaptive page used to align leadership."
+    },
+    {
+     "t": null,
+     "anchor": "4. Doubling down on your design system",
+     "title": "Design system to code",
+     "summary": "Affirm's two-day prototype and MCP handoff."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "1. Testing constraints in code",
+    "why": "OnCourse's Today's plan depends on real data and rules, which is exactly this case."
+   },
+   "Tools": [
+    "Figma MCP",
+    "Codex"
+   ],
+   "id": "4-new-ways-to-go-from-idea-to-product-with-ai-tools"
+  },
+  {
+   "Title": "Creating coherence: How Spotify’s design system goes beyond platforms",
+   "Creator": "Figma (Juli Sombat, Spotify)",
+   "Type": "Case study",
+   "Link": "https://www.figma.com/blog/creating-coherence-how-spotifys-design-system-goes-beyond-platforms/",
+   "Apps": [
+    "Spotify"
+   ],
+   "Topics": [
+    "Design process",
+    "Visual design"
+   ],
+   "Goal": [
+    "Craft",
+    "Speed"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Spotify's design system moved from too much flexibility to shared cross-platform components, each started with a written outline of terms, anatomy, states and variants.",
+   "What they did": "Spotify's Encore design system had a very flexible mobile catalogue, and by 2022 \"the pendulum had swung too far towards flexibility\". A new team built reusable cross-platform components. Each starts with platform audits, then a shared \"component outline\" before detailed design. Buttons were unified into primary, secondary and tertiary with a size framework built on Figma variables.",
+   "Results": null,
+   "Takeaways": "Too much flexibility breaks consistency; Write a component outline before you design it; One button hierarchy, one size framework; Aim for cohesion, not identical screens; One lead per component, few active projects",
+   "Ideas for OnCourse": "Design process: before redesigning a shared component like the MCQ option card, write a one-page outline with its anatomy, states (default, selected, correct, wrong, disabled) and variants. Design process: define primary, secondary and tertiary buttons with a size scale as tokens, and audit Home, Practice and Paywall against it.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/599r6htc/regionalized/f9647816e8517c5da05d0fa3006f653a9b16a802-3264x1836.jpg?w=1200&q=70&fit=max&auto=format",
+   "Key points": [
+    {
+     "title": "Too much flexibility breaks consistency",
+     "detail": "Encore Consumer Mobile was a \"vast catalog of ever-growing and evolving UI components\". By 2022 teams wanted more refined, reusable parts, so Spotify built a layer between the foundation and the mobile catalogue. Components were designed cross-platform from the start, not as an afterthought.",
+     "t": null
+    },
+    {
+     "title": "Write a component outline before you design it",
+     "detail": "Each platform rep audits the component and diagrams what is unique to their surface. The group then agrees on naming, specs and accessibility needs. The outline \"might include a glossary of terms, the anatomy of the component, or any variants we need to support\", and it lays the foundation for detailed design.",
+     "t": null
+    },
+    {
+     "title": "One button hierarchy, one size framework",
+     "detail": "Buttons used to differ in sizes, interactions, padding and type steps. Encore unified them into primary, secondary and tertiary, with a size framework and naming built on variables. The result was a family of buttons \"right in the sweet spot between consistency and chaos\".",
+     "t": null
+    },
+    {
+     "title": "Aim for cohesion, not identical screens",
+     "detail": "Spotify treats cohesion as \"the middle path between perfect consistency and total platform independence\". Start from a shared foundation, then let platforms adjust for screen size or input. The advice: define what is non-negotiable.",
+     "t": null
+    },
+    {
+     "title": "One lead per component, few active projects",
+     "detail": "Many platforms and teams make coordination hard. Encore picks one project lead per component who pulls in platform experts as needed. They also limit the number of active projects and communicate early.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Spotting the discrepancies: the birth of Encore",
+     "title": "Why the system changed",
+     "summary": "How flexibility went too far and a new layer was added."
+    },
+    {
+     "t": null,
+     "anchor": "The mechanics of cross-platform design",
+     "title": "How a component is made",
+     "summary": "Audits, the component outline, and the button example."
+    },
+    {
+     "t": null,
+     "anchor": "Why cross-platform?",
+     "title": "Benefits",
+     "summary": "Shared essence, time saved and easier updates."
+    },
+    {
+     "t": null,
+     "anchor": "Emerging challenges",
+     "title": "Hard parts",
+     "summary": "Many requirements and release schedules; one lead per component."
+    },
+    {
+     "t": null,
+     "anchor": "Unity is invaluable",
+     "title": "Closing advice",
+     "summary": "Define what is non-negotiable to keep things coherent."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The mechanics of cross-platform design",
+    "why": "It describes the component outline step, which a small team can copy right away."
+   },
+   "id": "creating-coherence-how-spotify-s-design-system-goes-beyond-platforms"
+  },
+  {
+   "Title": "Sketch, Scroll, or Swipe?",
+   "Creator": "Google Design (Garen Checkley, Phil Madeley, Aysha Siddique, Peter Finlan)",
+   "Type": "Article",
+   "Link": "https://design.google/library/sketch-scroll-or-swipe",
+   "Apps": [
+    "Google"
+   ],
+   "Topics": [
+    "Research methods",
+    "Design process",
+    "Copy",
+    "Motion"
+   ],
+   "Goal": [
+    "Usability"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "When testing in the field, choose paper, a printed scroll, an offline swipe-through or a motion prototype based on location, bandwidth and how people relate to technology.",
+   "What they did": "Google's Next Billion Users researchers explain how to pick a prototype for field testing, starting from a research trip in India. They compare paper prototypes, printed \"scrolls\", digital prototypes and offline swipe-throughs, with pros and cons of each. They also describe a study where a static prototype confused people until motion was added.",
+   "Results": null,
+   "Takeaways": "The test device can distract from the design; Test copy on paper; A scroll walks people through a journey; Swipe-throughs work offline on common phones; Static prototypes can fail where motion succeeds",
+   "Ideas for OnCourse": "Design process: test new screens with aspirants on budget Android phones like the ones they use, with the prototype saved offline, since hostel Wi-Fi is often weak. Paywall: test Paywall and Renewal copy as paper printouts first, so students read the words instead of tapping through. Flashcards: prototype swipe gestures with real motion before testing, since a static mockup may confuse people about how to swipe.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.googleapis.com/gd-prod/images/b554a515-e789-4b05-b9ba-5f56528625d4.0db06b6b53a87fb0.png",
+   "Key points": [
+    {
+     "title": "The test device can distract from the design",
+     "detail": "In India, a Google designer showed a prototype to a fruit vendor, who was distracted by the phone's bright screen because he had used a second-hand phone with a broken screen for years. Context changes responses. Start with paper, or test on the kind of phone people actually use.",
+     "t": null
+    },
+    {
+     "title": "Test copy on paper",
+     "detail": "People with digital prototypes tend to press buttons instead of reading. Paper slows them down \"long enough to read the text\", so it is best for testing UI copy. Paper may also reduce polite, positive feedback, and cutting it to phone size helps.",
+     "t": null
+    },
+    {
+     "title": "A scroll walks people through a journey",
+     "detail": "Print one page per step, number them, tape them end to end and roll them up. The participant unrolls it at their own pace and narrates what they think is happening. It is cheap feedback on several concepts before building any of them.",
+     "t": null
+    },
+    {
+     "title": "Swipe-throughs work offline on common phones",
+     "detail": "Load screenshots onto a real phone or SD card and let people swipe through as if tapping. It works with weak internet and before the backend exists. Test on the phones common in that community, and always bring a paper backup.",
+     "t": null
+    },
+    {
+     "title": "Static prototypes can fail where motion succeeds",
+     "detail": "In one study, a static stack of cards confused most people, who didn't know to swipe. A high-fidelity version with motion got most people swiping straight away. The confusion came from the prototype, not the design.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Bandwidth, community, and location",
+     "title": "Three factors",
+     "summary": "The India story and the three questions to ask before testing."
+    },
+    {
+     "t": null,
+     "anchor": "Choosing the right prototyping method",
+     "title": "Paper prototypes",
+     "summary": "Why paper suits discovery and copy tests."
+    },
+    {
+     "t": null,
+     "anchor": "Scrolls",
+     "title": "Scrolls",
+     "summary": "How to make and run a printed scroll."
+    },
+    {
+     "t": null,
+     "anchor": "Swipe-through",
+     "title": "Swipe-through prototypes",
+     "summary": "Offline testing with screenshots on local devices."
+    },
+    {
+     "t": null,
+     "anchor": "In one study, designers tested",
+     "title": "Motion matters",
+     "summary": "How adding motion fixed a confusing static prototype."
+    },
+    {
+     "t": null,
+     "anchor": "Summary",
+     "title": "Summary",
+     "summary": "Pick by study goal, audience, design phase and timeline."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Choosing the right prototyping method",
+    "why": "It covers paper and copy testing, which is the cheapest way to test OnCourse screens with aspirants."
+   },
+   "id": "sketch-scroll-or-swipe"
+  },
+  {
+   "Title": "Simulating Intelligence",
+   "Creator": "Google Design (Mike Dory, Mindy DelliCarpini)",
+   "Type": "Article",
+   "Link": "https://design.google/library/simulating-intelligence",
+   "Apps": [
+    "Google"
+   ],
+   "Topics": [
+    "AI tools",
+    "Research methods",
+    "Design process"
+   ],
+   "Goal": [
+    "Speed",
+    "Usability"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Before building an AI feature, fake it: match prototype fidelity to the question, use humans behind the curtain (Wizard of Oz), and later test how the real model fails.",
+   "What they did": "Google UX engineers describe how they prototype machine learning features. Early on they answer \"Should we do this?\" with simulated, low-fidelity prototypes, often with humans standing in for the model. Later they answer \"Could we do this?\" with prototypes close to production, to find errors, bias and recovery needs, as with the AIY Vision Kit's odd guesses.",
+   "Results": null,
+   "Takeaways": "Match prototype fidelity to the problem; Fake the AI with a human (Wizard of Oz); Only build the part you are testing; Later, test how the real model fails",
+   "Ideas for OnCourse": "Practice: Wizard-of-Oz test an AI \"explain my mistake\" feature, with a doctor on the team writing replies live while 5 aspirants use the prototype. Today's plan: hand-build personalised plans for a few students from their mock test scores before building any algorithm, and see if they follow them. Practice: design a clear \"This explanation seems wrong\" path for any AI answer, since the model will sometimes be wrong.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://storage.googleapis.com/gd-prod/images/248cae84-968d-4f69-876e-c1016e3e0284.0db06b6b53a87fb0.png",
+   "Key points": [
+    {
+     "title": "Match prototype fidelity to the problem",
+     "detail": "First name the question, from \"Does anyone find this useful?\" to a tactical one. If a feature takes six months to build, that's \"five-and-a-half months too late\" to learn it was flawed. Broad questions get wireframes or paper; fidelity rises as ideas firm up.",
+     "t": null
+    },
+    {
+     "title": "Fake the AI with a human (Wizard of Oz)",
+     "detail": "Build a real-looking experience and have people play the system. In personalisation studies, participants share preferences, then assistants quickly customise the screens in real time while participants do scripted tasks. You get feedback on \"personalized\" results without building the model.",
+     "t": null
+    },
+    {
+     "title": "Only build the part you are testing",
+     "detail": "Simulate or skip parts of the UI that aren't being tested. Use ready-made design systems like Material and simple storage like Firebase or a spreadsheet. Spend nothing on things unrelated to the one workflow under test.",
+     "t": null
+    },
+    {
+     "title": "Later, test how the real model fails",
+     "detail": "Later prototypes use real models to check accuracy, bias in training data, and typical errors. The Vision Kit classifier listed things users didn't mean and things that weren't there, like \"a bobsled in a meeting room\". The team had to guide users through these errors in the documentation. Design ways to recover when the AI is wrong.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "What to prototype, and when?",
+     "title": "Fidelity matches the problem",
+     "summary": "Name the question first, then choose fidelity and tools."
+    },
+    {
+     "t": null,
+     "anchor": "Should we do this? Early-stage prototyping",
+     "title": "Early prototypes and Wizard of Oz",
+     "summary": "Minimum build, humans in place of the model."
+    },
+    {
+     "t": null,
+     "anchor": "Could we do this? Later-stage prototyping",
+     "title": "Testing the real model",
+     "summary": "Accuracy, bias, errors and the bobsled example."
+    },
+    {
+     "t": null,
+     "anchor": "What have we learned?",
+     "title": "Wrap-up",
+     "summary": "Simulate, test, and raise fidelity step by step."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Should we do this? Early-stage prototyping",
+    "why": "It explains Wizard of Oz testing, which OnCourse can use for any AI tutor or plan idea this week."
+   },
+   "Tools": [
+    "AIY Projects Vision Kit",
+    "Teachable Machine"
+   ],
+   "id": "simulating-intelligence"
+  },
+  {
+   "Title": "Creating the Airbnb Design System",
+   "Creator": "Airbnb Design (Karri Saarinen)",
+   "Type": "Case study",
+   "Link": "https://karrisaarinen.com/posts/building-airbnb-design-system/",
+   "Apps": [
+    "Airbnb",
+    "Sketch"
+   ],
+   "Topics": [
+    "Design process",
+    "Visual design"
+   ],
+   "Goal": [
+    "Speed",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A small team printed every screen to find where the app broke, set a loose foundation, then built a component library that let them make about 50 screens in a few hours.",
+   "What they did": "A small group of Airbnb designers and engineers cleared their calendars and worked from a studio outside HQ to build the Design Language System, starting with iOS and Android. They printed old and new flows side by side to audit them, set four principles, and reviewed work daily to spot patterns. Components were defined with required and optional elements in both Sketch and code, and kept in one master library.",
+   "Results": "With the library, the team \"was able to create nearly 50 screens within just a few hours\" for a last-minute prototype. Features can now ship \"on all native platforms at roughly the same time\".",
+   "Takeaways": "Print every screen to see where things break; A loose foundation keeps everyone aligned; Components are organisms, not loose atoms; A library makes high-fidelity prototyping cheap; Get rows right and document as you go",
+   "Ideas for OnCourse": "Design process: lay out every OnCourse screen side by side (Home, Today's plan, Practice, Lessons, Flashcards, Paywall) and mark each place where headers, cards or rows don't match. Practice: give the row components (question row, lesson row, flashcard deck row) a strict set of required and optional elements, since rows repeat most.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://karrisaarinen.com/static/images/posts/dls-header.png",
+   "Key points": [
+    {
+     "title": "Print every screen to see where things break",
+     "detail": "The team audited by printing many designs, old and new, and laying the flows side by side on a board. That showed \"where and how the experiences were breaking\". Each person then took a screen or area to redesign.",
+     "t": null
+    },
+    {
+     "title": "A loose foundation keeps everyone aligned",
+     "detail": "A basic style guide covered typography, colours, icons, spacing and information architecture. It guided everyone in one direction while leaving room to explore. Reviewing the day's work together each evening revealed patterns that became standard components.",
+     "t": null
+    },
+    {
+     "title": "Components are organisms, not loose atoms",
+     "detail": "Reusable atoms tend to be combined in endless ways, which leads to disjointed experiences. Airbnb defined each component by required and optional elements. For example, every component has a built-in divider that view logic shows or hides, instead of designers adding loose divider lines.",
+     "t": null
+    },
+    {
+     "title": "A library makes high-fidelity prototyping cheap",
+     "detail": "After a week or two, using the master library brought \"huge leaps in productivity\", including nearly 50 screens in a few hours. Product reviews could then focus on concepts instead of \"padding, colors and type choices\".",
+     "t": null
+    },
+    {
+     "title": "Get rows right and document as you go",
+     "detail": "Saarinen wishes they had spent more time on rows, the most repeated component, because they ended up with many inconsistent kinds. A tight timeline also meant skipped documentation, which caused confusion. Document while you build, just like code.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Getting to work",
+     "title": "Audit and principles",
+     "summary": "Printing flows and the four principles: unified, universal, iconic, conversational."
+    },
+    {
+     "t": null,
+     "anchor": "Laying the foundation",
+     "title": "Foundation first",
+     "summary": "A loose style guide and daily reviews."
+    },
+    {
+     "t": null,
+     "anchor": "Creating the Components",
+     "title": "Components as organisms",
+     "summary": "Required elements and built-in dividers."
+    },
+    {
+     "t": null,
+     "anchor": "Compiling the library",
+     "title": "The library",
+     "summary": "The master file and 50 screens in a few hours."
+    },
+    {
+     "t": null,
+     "anchor": "Lessons Learned",
+     "title": "Lessons",
+     "summary": "Rows, Sketch symbols and documentation."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Lessons Learned",
+    "why": "It is short and names the mistakes to avoid, such as underinvesting in rows."
+   },
+   "id": "creating-the-airbnb-design-system"
+  },
+  {
+   "Title": "Running productive design critiques",
+   "Creator": "Intercom (Gustavs Cirulis)",
+   "Type": "Article",
+   "Link": "https://www.intercom.com/blog/running-productive-design-critiques",
+   "Apps": [
+    "Intercom"
+   ],
+   "Topics": [
+    "Design process"
+   ],
+   "Goal": [
+    "Craft",
+    "Speed"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Before showing any design, name the problem in one plain paragraph, then show several named, separate options and say which one you'd pick.",
+   "What they did": "Intercom's design team runs crits with 1-5 people from different roles. The designer defines the goal and the problem, shows several clearly named options (often printed on the wall), and diagrams how each works as a system before showing UI. Notes and next steps go to a #design-notes Slack channel.",
+   "Results": null,
+   "Takeaways": "Invite 1-5 people with different views; Name the problem in one plain paragraph; Keep options separate and named; Diagram the system before the UI; Open the discussion with your own pick",
+   "Ideas for OnCourse": "Design process: start every OnCourse crit doc with a one-paragraph problem that includes a PostHog number, such as the share of new users who finish their first Today's plan. Design process: present 2-3 named options (for example \"Plan-first Home\" vs \"Streak-first Home\") separately, then state which one you'd pick and why.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/4bgok82s/production/d2c0a88a06c6a2f55138644b892ebee96bfdb5ca-1968x932.jpg",
+   "Key points": [
+    {
+     "title": "Invite 1-5 people with different views",
+     "detail": "Bring designers, engineers, support reps and others. The designer leading the crit defines the goal, the problem, the possible solutions and the kind of feedback needed. Printing posters of the problem and options avoids \"Can you scroll back to that design?\"",
+     "t": null
+    },
+    {
+     "title": "Name the problem in one plain paragraph",
+     "detail": "Give the problem a simple name and describe it in plain English, for example: \"Only 5% of new sign ups invite their colleagues in the first 7 days.\" Show it with a diagram or screenshots, and include Job Stories for motivation. Without this, people can't judge the designs.",
+     "t": null
+    },
+    {
+     "title": "Keep options separate and named",
+     "detail": "Show several radically different options, each with a name and a one-paragraph description. Don't mix ideas, \"Otherwise you might dismiss a good solution just because it was coupled with a bad one.\" Be brutally honest about the good and bad in each.",
+     "t": null
+    },
+    {
+     "title": "Diagram the system before the UI",
+     "detail": "For connected products, draw a high-level map of how the design behaves as a system before diving into interface detail. If people focus on interaction details while the system is still open, say it is too early and steer them back.",
+     "t": null
+    },
+    {
+     "title": "Open the discussion with your own pick",
+     "detail": "Start by saying which option you think works best and why. Others will quickly push back, improve it or argue for options you didn't show. If someone asks why you're solving this at all, treat it as a useful sanity check.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. Define your goal",
+     "title": "Define your goal",
+     "summary": "Who to invite and what feedback you need."
+    },
+    {
+     "t": null,
+     "anchor": "2. Set the scene",
+     "title": "Set the scene",
+     "summary": "One plain paragraph and a number for the problem."
+    },
+    {
+     "t": null,
+     "anchor": "3. Bring the team through your proposal",
+     "title": "Show named options",
+     "summary": "Separate options, system diagrams, honest pros and cons."
+    },
+    {
+     "t": null,
+     "anchor": "4. Have some productive discussions",
+     "title": "Discuss",
+     "summary": "Lead with your pick and keep to the meeting's goal."
+    },
+    {
+     "t": null,
+     "anchor": "Critiques don’t stop when the session is over",
+     "title": "After the crit",
+     "summary": "Write up next steps and share them in Slack."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "2. Set the scene",
+    "why": "The one-paragraph problem with a number is the fastest habit to adopt."
+   },
+   "id": "running-productive-design-critiques"
+  },
+  {
+   "Title": "Intercom's product principles: How connected, modular systems help us to focus on important decisions",
+   "Creator": "Intercom (Gustavs Cirulis)",
+   "Type": "Article",
+   "Link": "https://www.intercom.com/blog/intercoms-product-principles-connected-modular-systems",
+   "Apps": [
+    "Intercom",
+    "Apple"
+   ],
+   "Topics": [
+    "Design process"
+   ],
+   "Goal": [
+    "Speed",
+    "Craft"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Design the system first (objects and how data flows between them), then interaction, then visuals, so feedback lands on the most important decisions first.",
+   "What they did": "Intercom designer Gustavs Cirulis used to share high-fidelity mockups and get stuck on small interaction debates while people had different mental models of the product. He now starts with a system design diagram. Intercom also merged separate message types into one modular system, and connected Product Tours to its support tools so one feature served many uses.",
+   "Results": null,
+   "Takeaways": "Hi-fi mockups hide different mental models; Draw the system before any screen; Layer feedback: system, interaction, then visual; Build once, reuse everywhere; Connected systems create unique value",
+   "Ideas for OnCourse": "Design process: before mockups for Streaks or Today's plan, draw a system diagram of the objects (plan, session, streak, reminder) and how data flows between them, and crit that first. Notifications: design one modular reminder system (timing, copy slot, deep link, quiet hours) that streak, plan and renewal reminders all reuse.",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/4bgok82s/production/6b78770c1ea059dc7ea7ffd6172a0fc29e9c49ce-1800x842.jpg",
+   "Key points": [
+    {
+     "title": "Hi-fi mockups hide different mental models",
+     "detail": "When Cirulis shared polished mockups, the team argued about small interaction details when \"we just had different mental models of how the system should work.\" Months after shipping they'd find a fundamental mistake. The problem was designing at the UI level, not the system level.",
+     "t": null
+    },
+    {
+     "title": "Draw the system before any screen",
+     "detail": "A system design shows the objects in your solution and how data flows between them. For the Articles product, a diagram showed how teammates manage content, how users read it, how it gets sent in replies, and how feedback improves it. They aligned without a screen to distract them.",
+     "t": null
+    },
+    {
+     "title": "Layer feedback: system, interaction, then visual",
+     "detail": "The same system can be built many ways in interaction and visual design. Working through the layers in order means \"the right feedback is given at the right time.\" There is no use sweating visual details before the system is agreed.",
+     "t": null
+    },
+    {
+     "title": "Build once, reuse everywhere",
+     "detail": "In-app messages, email, SMS, Product Tours and Banners each had slightly different targeting, A/B testing and goals. That made every improvement a separate job. Intercom merged them into one modular system so improvements reach all message types at once.",
+     "t": null
+    },
+    {
+     "title": "Connected systems create unique value",
+     "detail": "Product Tours were built for onboarding but connected to bots, the support inbox, banners, help articles and email. Building them only for support wouldn't have been worth it, but connecting them made it cheap and different from competitors.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Focus on the most important decisions with system design",
+     "title": "System design first",
+     "summary": "The Articles diagram and the three layers of design."
+    },
+    {
+     "t": null,
+     "anchor": "Increase efficiency with modular system",
+     "title": "Modular systems",
+     "summary": "Create once, reuse in many contexts."
+    },
+    {
+     "t": null,
+     "anchor": "Modularity can be applied in multiple contexts",
+     "title": "Merging message types",
+     "summary": "One system for all outbound message types."
+    },
+    {
+     "t": null,
+     "anchor": "Differentiate with connected systems",
+     "title": "Connected systems",
+     "summary": "Product Tours reused across support tools."
+    },
+    {
+     "t": null,
+     "anchor": "Start with the system",
+     "title": "Closing",
+     "summary": "Start every project with the system, not mockups."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Focus on the most important decisions with system design",
+    "why": "It explains the core habit in a few paragraphs with a real diagram example."
+   },
+   "id": "intercom-s-product-principles-how-connected-modular-systems-help-us-to"
+  },
+  {
+   "Title": "Stardust Increases Revenue by 4x in Just Six Weeks",
+   "Creator": "Superwall (Nick Godwin)",
+   "Type": "Case study",
+   "Link": "https://superwall.com/blog/how-stardust-increased-ios-app-revenue-by-4x-in-six-weeks",
+   "Apps": [
+    "Stardust"
+   ],
+   "Topics": [
+    "Paywall",
+    "Design process"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Fix the price and how it is shown first, run tests in overlapping layers, and test the paywall's look only after that.",
+   "What they did": "Stardust, a cycle and pregnancy tracking app with 1.5M+ downloads, had not changed its paywall in over a year. In about six weeks it ran four layered A/B tests: free trial and price, price presentation (a discount badge and weekly equivalent price), a combined-winners test that included a video background, and a trial timeline design. Each winner became the control for the next test.",
+   "Results": "Adding a free trial to the $24.99 yearly price gave \"a stunning 131% increase in paywall conversion rate\"; once trials ended, the trial \"increased average proceeds per user by 78% and 45% more paying subscribers.\" Showing a discount percentage and weekly equivalent price \"increased the conversion rate by 50%\" and proceeds per user \"increased by 62.5% due to a 30% increase in the share of new yearly subscriptions.\" The combined winners with a video background gave \"a 67% paywall conversion increase and a 12.5% proceeds per user increase.\" The trial timeline added a \"13.6% conversion rate increase\" without hurting trial-to-paid. In total, conversion rate \"had grown by 465%\", install-to-paying subscriber rate \"increased by 252%\" and average proceeds per user \"increased by 408%.\"",
+   "Takeaways": "Start with price and packaging, not visuals; Wait for trials to end before calling a price test; Show the saving and a per-week price; Run tests in layers to learn faster; Combine winners, then test the design; A trial timeline lifts trial starts without hurting retention",
+   "Ideas for OnCourse": "Paywall: show the annual plan's saving as a percentage badge and its per-week price in rupees next to it. Paywall: test a free trial on the annual plan and only read the result after every trial in the test has ended. Design process: start a paywall design test while a price test's trials are still maturing, so two questions get answered at once",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://superwall.com/assets/og/blog/how-stardust-increased-ios-app-revenue-by-4x-in-six-weeks.png",
+   "Key points": [
+    {
+     "title": "Start with price and packaging, not visuals",
+     "detail": "Stardust had never tested prices, and its two plans showed only price and duration, with no saving or equivalent price. Superwall says value perception depends \"as much to do with price presentation design as the actual prices.\" So the first two tests were about the offer and how it was shown, not colours or images. For OnCourse, the first paywall tests should be about plans, trial and price display.",
+     "t": null
+    },
+    {
+     "title": "Wait for trials to end before calling a price test",
+     "detail": "The first test compared a control and five price variants, with and without free trials. Every trial variant raised conversion, but the team paused the test until all trials ended so trial-to-paid data could mature. Only then could they confirm the trial raised proceeds per user by 78% and paying subscribers by 45%. Higher prices without a trial converted worse and earned about the same per user.",
+     "t": null
+    },
+    {
+     "title": "Show the saving and a per-week price",
+     "detail": "Keeping the same prices ($24.99 a year, $2.99 a week), the team tested three layouts. Adding a discount percentage on the yearly plan plus a weekly equivalent price won, with 50% more conversions and 62.5% more proceeds per user. Leading with yearly behind a 'More Pricing' drawer, and showing only the yearly plan, both lost on conversion and proceeds. OnCourse could show the annual plan as a per-week or per-day amount.",
+     "t": null
+    },
+    {
+     "title": "Run tests in layers to learn faster",
+     "detail": "The second test started while the first test's trials were still running. Superwall calls this experimentation layering: start a new test while the last one waits for trial or retention data. The key is that the second test must answer a question that does not depend on the first test's result. This doubled how fast a lean team could learn.",
+     "t": null
+    },
+    {
+     "title": "Combine winners, then test the design",
+     "detail": "Test three combined the trial pricing and the new price layout, and added variants like a monthly plan and a video background. The combined winners beat the new control by 55.7%, but the version with a video background won outright with 67% more conversions. Only then did the team test a trial timeline, which added 13.6% more trial starts without lowering trial-to-paid. Design changes paid off once the offer was right.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Where this story begins",
+     "title": "The starting point",
+     "summary": "A well-liked app whose paywall and prices had not changed in over a year."
+    },
+    {
+     "t": null,
+     "anchor": "1. Start with pricing and packaging",
+     "title": "Price and packaging first",
+     "summary": "Why the offer and its display are the first lever, and the two questions the team set out to answer."
+    },
+    {
+     "t": null,
+     "anchor": "Free trial and higher price test",
+     "title": "Trial and price test",
+     "summary": "Five price variants; the 7-day trial on the $24.99 yearly plan won after trials matured."
+    },
+    {
+     "t": null,
+     "anchor": "Price packaging design test",
+     "title": "Price layout test",
+     "summary": "A discount badge and weekly equivalent price beat a pricing drawer and a yearly-only paywall."
+    },
+    {
+     "t": null,
+     "anchor": "2. Layer experiments and combine winners",
+     "title": "Layering tests",
+     "summary": "Running tests in overlap and stacking winners; the video background variant won."
+    },
+    {
+     "t": null,
+     "anchor": "3. Test paywall designs when you've optimized pricing and packaging",
+     "title": "Trial timeline",
+     "summary": "A trial timeline design added more trial starts without hurting trial-to-paid."
+    },
+    {
+     "t": null,
+     "anchor": "Total results",
+     "title": "Total results",
+     "summary": "Conversion up 465%, install-to-paid up 252%, proceeds per user up 408%."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Price packaging design test",
+    "why": "It shows how much the same prices can earn when the saving and per-week amount are shown, which OnCourse can test on its plan cards right away."
+   },
+   "id": "stardust-increases-revenue-by-4x-in-just-six-weeks"
+  },
+  {
+   "Title": "Multi-page onboarding paywalls convert 37% better than single-page. Here's why.",
+   "Creator": "Superwall (Michal Parizek)",
+   "Type": "Article",
+   "Link": "https://superwall.com/blog/new-postmulti-page-onboarding-paywalls-convert-37-better-than-single-page-heres-why",
+   "Apps": [],
+   "Topics": [
+    "Paywall",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "At the end of onboarding, a short paywall flow of two or three focused screens converts better than one screen that tries to do everything.",
+   "What they did": "Superwall looked at just over 40 million onboarding paywall opens from February to May 2026. It compared single-page paywalls with multi-page flows of two or more screens, after removing paywalls with zero transactions and requiring at least 50 opens. It then explained why splitting the job across screens helps.",
+   "Results": "\"Single-page paywalls achieved a 9.07% conversion rate, while multi-page paywalls converted at 12.41% — a 37% improvement.\" Multi-page paywalls accounted \"for just 24% of onboarding paywall opens.\" Conversion is trial starts or direct purchases divided by users who viewed the paywall at onboarding placements.",
+   "Takeaways": "Multi-page paywalls converted 37% better; One screen has too many jobs; Give each screen one purpose; Start with two or three screens; This is a benchmark, not a controlled test",
+   "Ideas for OnCourse": "Paywall: at the end of onboarding, split the paywall into three screens: what OnCourse will do for the aspirant's exam, how the trial and reminder work, then plans and price. Onboarding: make the paywall screens look like the onboarding screens before them, so the extra steps feel like part of setup",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://superwall.com/assets/og/blog/new-postmulti-page-onboarding-paywalls-convert-37-better-than-single-page-heres-why.png",
+   "Key points": [
+    {
+     "title": "Multi-page paywalls converted 37% better",
+     "detail": "Across 40M+ onboarding paywall opens, multi-page flows converted at 12.41% against 9.07% for single-page. Multi-page was still the rarer format, at just 24% of opens. Superwall says that if you only run a single-page onboarding paywall, multi-page is \"the test to run next.\"",
+     "t": null
+    },
+    {
+     "title": "One screen has too many jobs",
+     "detail": "A single-page paywall must show value, answer worries, show prices and ask for payment all at once. Superwall says this \"creates an overwhelming experience on one screen.\" Onboarding is the peak of motivation, so it is a waste to overload the user right then.",
+     "t": null
+    },
+    {
+     "title": "Give each screen one purpose",
+     "detail": "A multi-page flow spreads the work: first the value, then what to expect, then pricing once the user knows why it matters, then payment. Because users are already moving through setup screens, extra screens feel natural rather than like friction. For OnCourse, each paywall screen should have one clear message.",
+     "t": null
+    },
+    {
+     "title": "Start with two or three screens",
+     "detail": "The advice is not to add screens for the sake of it. Start with \"two to three screens that establish value before requesting payment\" and let real data guide the next change. Superwall links templates such as a 'Design your trial' flow and a flow with a carousel page.",
+     "t": null
+    },
+    {
+     "title": "This is a benchmark, not a controlled test",
+     "detail": "The numbers compare different apps' paywalls, not the same app's users split at random. Apps that bother to build multi-page flows may also be better at other things. Treat 37% as a reason to run your own test, not as the lift you will get.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The data",
+     "title": "The data",
+     "summary": "40M+ onboarding paywall opens; multi-page 12.41% vs single-page 9.07%."
+    },
+    {
+     "t": null,
+     "anchor": "Why a multi-page paywall beats a single-page one",
+     "title": "Why it works",
+     "summary": "One screen has too many jobs; a flow gives each screen one purpose."
+    },
+    {
+     "t": null,
+     "anchor": "What to do with this",
+     "title": "What to do",
+     "summary": "Test two or three value screens before the ask, and use templates to start."
+    },
+    {
+     "t": null,
+     "anchor": "Measurement methodology",
+     "title": "Method",
+     "summary": "How conversion was counted and which paywalls were excluded."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Why a multi-page paywall beats a single-page one",
+    "why": "It is the short reasoning OnCourse can use to split its onboarding paywall into focused screens."
+   },
+   "id": "multi-page-onboarding-paywalls-convert-37-better-than-single-page-here"
+  },
+  {
+   "Title": "How many products should you offer on your paywall?",
+   "Creator": "Superwall (Jake Mor)",
+   "Type": "Article",
+   "Link": "https://superwall.com/blog/how-many-products-should-you-offer-on-your-paywall",
+   "Apps": [],
+   "Topics": [
+    "Paywall"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Paywalls that offer two or three plans convert more than one-plan paywalls, as long as each plan is worth about the same over a user's lifetime.",
+   "What they did": "Superwall pulled conversion data from 32M+ paywall opens and grouped it by how many products each paywall showed. It only used apps that had run at least two tests with a different number of products, and took the 15 largest apps, each with more than 10,000 views. The post is from November 2022.",
+   "Results": "\"Conversions: 383,889\"; \"Paywall Opens: 32,303,995\"; \"Conversion Rate: 3.77%\". 2 products beat 1 product by a \"61%\" lift; 3 products beat 2 products by a \"44%\" lift.",
+   "Takeaways": "Two plans beat one by 61%; Three plans beat two by 44%; One annual plan only if you need cash now; Keep lifetime value equal across plans; The data leaves out price, default and trial",
+   "Ideas for OnCourse": "Paywall: if the paywall shows a single plan, test two or three plans (for example monthly, 6-month and till-exam) with one pre-selected. Paywall: check that each plan earns about the same per user over its life, so a cheaper short plan does not drain long-term revenue",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://superwall.com/assets/og/blog/how-many-products-should-you-offer-on-your-paywall.png",
+   "Key points": [
+    {
+     "title": "Two plans beat one by 61%",
+     "detail": "Across 32,303,995 paywall opens and 383,889 conversions, paywalls with two products converted 61% better than paywalls with one. The average conversion rate across the set was 3.77%. Giving people a choice seems to turn 'buy or not' into 'which one'.",
+     "t": null
+    },
+    {
+     "title": "Three plans beat two by 44%",
+     "detail": "Adding a third product lifted conversion a further 44% over two. Superwall says \"in most cases, offering more than two products will result in a higher conversion rate than offering just two.\" A third option can also act as an anchor that makes the main plan look better.",
+     "t": null
+    },
+    {
+     "title": "One annual plan only if you need cash now",
+     "detail": "If you need money up front to fund ads or running costs, Superwall says to \"stick to one annual product to get money up front.\" If deferring some revenue will not hurt you, offer more options. This is a cash-flow choice, not just a design choice.",
+     "t": null
+    },
+    {
+     "title": "Keep lifetime value equal across plans",
+     "detail": "The main warning is to make sure \"your LTV for all three products is the same.\" Otherwise a cheap short plan can win conversions while losing long-term revenue. For OnCourse, compare what a monthly user pays over their whole stay with a till-exam plan.",
+     "t": null
+    },
+    {
+     "title": "The data leaves out price, default and trial",
+     "detail": "Superwall notes the numbers do not account for how visible the extra plans were (some hide them behind 'More Pricing'), each plan's price and duration, which plan was selected by default, or whether a trial was attached. Those can change results a lot. Use it as a reason to test, not as a rule.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Key statistics",
+     "title": "Key statistics",
+     "summary": "The dataset, the 61% and 44% lifts, the caveats and the cash-flow advice."
+    },
+    {
+     "t": null,
+     "anchor": "Superwall makes testing incredibly easy",
+     "title": "Testing setup",
+     "summary": "Using price templates so a price test is just a duplicated paywall."
+    },
+    {
+     "t": null,
+     "anchor": "FAQ",
+     "title": "FAQ",
+     "summary": "Short answers on how many plans, when to show one, and what to watch."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Key statistics",
+    "why": "The whole finding and its caveats fit in this one section."
+   },
+   "id": "how-many-products-should-you-offer-on-your-paywall"
+  },
+  {
+   "Title": "How to know if your free tier is generous enough",
+   "Creator": "RevenueCat Sub Club (David Barnard)",
+   "Type": "Case study",
+   "Link": "https://www.revenuecat.com/blog/growth/recommendation-test-opal",
+   "Apps": [
+    "Opal"
+   ],
+   "Topics": [
+    "Paywall",
+    "Practice"
+   ],
+   "Goal": [
+    "Conversion",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "A free tier only works if non-paying users would recommend the app, so size it by watching install LTV and overall retention together, not paid conversion alone.",
+   "What they did": "Opal, a screen-time app, moved from a hard paywall to a generous free tier. It tested how many 'blocks' (scheduled app restrictions) free users get, from one up to several, and watched LTV of installs and retention across free and paid users at each step. Its CEO Kenneth Schlenker uses one question as a compass: would a non-paying user recommend the app?",
+   "Results": "Three blocks was the point where both metrics improved: \"Turns out that three [blocks] is enough for free users to get a great experience.\" After the switch, pay penetration \"dropped from 20% to 9%.\" High school and college students \"now make up two-thirds of Opal's DAUs\", students led to a B2B line, Opal for Schools, and the shift \"pushed Opal past one million daily active users.\"",
+   "Takeaways": "Ask if a free user would recommend the app; Paid metrics say nothing about free users; Track install LTV and overall retention together; Opal found the line at three blocks; A lower pay rate can still mean a bigger business",
+   "Ideas for OnCourse": "Practice: test different free daily MCQ limits and pick the one where install LTV and overall retention both rise, not the one with the highest paid conversion. Paywall: make sure the free tier lets an aspirant build a real daily habit, and keep the upgrade for heavy users who want more. Design process: ask free users in a survey if they would recommend OnCourse to a batchmate",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/c3qnx9b0/production/7613a47229f811947c25a8718b8096641ec9fd86-1600x850.png?w=1200&fit=max",
+   "Key points": [
+    {
+     "title": "Ask if a free user would recommend the app",
+     "detail": "Kenneth's test is simple: would a non-paying user recommend the app to a friend? \"If you want the freemium dynamic to really pay out, you need to make sure that the free users are recommending the app.\" If the answer is no, give more away. A free tier that only demos the product is \"a trial in disguise.\"",
+     "t": null
+    },
+    {
+     "title": "Paid metrics say nothing about free users",
+     "detail": "Conversion rate, paid penetration and LTV all measure what paying users do. None of them tell you whether non-payers are an asset or dead weight. A free tier that is too tight leads to churn before a habit forms and no word of mouth.",
+     "t": null
+    },
+    {
+     "title": "Track install LTV and overall retention together",
+     "detail": "The recommendation question is a heuristic, so Opal watched two numbers in parallel: LTV of installs and retention across free and paid users. The goal was the point where both rise. If only one improves, you are helping one group at the other's expense.",
+     "t": null
+    },
+    {
+     "title": "Opal found the line at three blocks",
+     "detail": "Opal tested free allowances from one block up to several. Three blocks let free users \"really use the app, try out a few different things\", while power users still paid for more. For OnCourse, the same idea applies to a daily free question limit or free flashcard decks.",
+     "t": null
+    },
+    {
+     "title": "A lower pay rate can still mean a bigger business",
+     "detail": "Pay penetration fell from 20% to 9%, which looked scary. But students, now two-thirds of daily users, told classmates and then their schools, which created Opal for Schools. Kenneth says it is \"a short-term, scary drop\" that \"pays back tenfold.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Why this question matters more than conversion rate",
+     "title": "Why recommendation matters",
+     "summary": "Freemium only compounds if free users stay, build a habit and tell friends."
+    },
+    {
+     "t": null,
+     "anchor": "How to actually answer the question",
+     "title": "How Opal sized the free tier",
+     "summary": "Testing one to several blocks while tracking install LTV and overall retention."
+    },
+    {
+     "t": null,
+     "anchor": "What ‘yes’ actually unlocks",
+     "title": "What it unlocked",
+     "summary": "Pay penetration fell from 20% to 9%, but students drove a B2B line and 1M+ DAU."
+    },
+    {
+     "t": null,
+     "anchor": "The takeaway",
+     "title": "The takeaway",
+     "summary": "Three questions to check whether a free tier is a product or a teaser."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "How to actually answer the question",
+    "why": "It shows the exact method for sizing a free allowance, which maps to OnCourse's free MCQ limit."
+   },
+   "id": "how-to-know-if-your-free-tier-is-generous-enough"
+  },
+  {
+   "Title": "How a switch from hard paywall to freemium led to a 75% LTV lift and a 50% conversion drop",
+   "Creator": "RevenueCat Sub Club (David Barnard)",
+   "Type": "Article",
+   "Link": "https://www.revenuecat.com/blog/growth/hard-paywall-vs-freemium",
+   "Apps": [
+    "Spotify",
+    "Duolingo",
+    "Strava"
+   ],
+   "Topics": [
+    "Paywall",
+    "Onboarding"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Hard paywalls convert about five times better than freemium, so only move to freemium with strong retention and the runway to absorb a dip, and frame the free version carefully.",
+   "What they did": "Growth advisor Phil Carter made the same hard-paywall-to-freemium move for two apps. One used a multistep paywall that said the product is free forever but invited users to try the best version for seven days; the other saw conversion collapse and pulled back within weeks. The post sets this against RevenueCat's benchmark data and gives a checklist for when to switch.",
+   "Results": "Hard paywalls \"convert downloads to paid at a median of 10.7% — five times better than the 2.1% median for freemium apps.\" The hard paywall floor (4.2%) \"is actually double the median for freemium.\" The win: \"We saw a 75% increase in LTV per user through the implementation of this multistep paywall along with some other pricing and packaging optimizations.\" The fail: \"more than a 50% reduction in subscriber conversion.\" Also: \"55% of all 3-day trial cancellations happen on Day 0.\"",
+   "Takeaways": "Hard paywalls convert five times better; Frame free as forever, with a 7-day taste of the best version; The same move halved conversion elsewhere; Free must be useful but not enough; Freemium is a product strategy, not a paywall style",
+   "Ideas for OnCourse": "Onboarding: if OnCourse keeps a free tier, end onboarding with a multistep paywall that says 'OnCourse is free, try Pro free for 7 days' instead of a gate. Paywall: before loosening any gate, check retention of core users and plan for a few weeks of lower conversion. Design process: treat a free-tier change as a test with a clear stop rule, like Phil's team pulling back after a couple of weeks",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/c3qnx9b0/production/16274b447fa44ad9a70485b46989fb2c4bd48e6d-1600x800.png?w=1200&fit=max",
+   "Key points": [
+    {
+     "title": "Hard paywalls convert five times better",
+     "detail": "RevenueCat's State of Subscription Apps data shows hard paywalls convert downloads to paid at a median of 10.7%, against 2.1% for freemium. Even the hard paywall floor of 4.2% is double the freemium median. For bootstrapped teams, Phil calls the hard paywall \"a much more reliable and low-risk way\" to grow.",
+     "t": null
+    },
+    {
+     "title": "Frame free as forever, with a 7-day taste",
+     "detail": "The winning app did not just open up. Its multistep paywall said: this product is free and will always be free, but try the best version for seven days, then keep paying for maximum value. Along with pricing and packaging changes, this gave a 75% increase in LTV per user and widened the top of the funnel.",
+     "t": null
+    },
+    {
+     "title": "The same move halved conversion elsewhere",
+     "detail": "With a different client, the same shift cut subscriber conversion by more than 50%, and the team pulled it after a couple of weeks. Without the paywall's push, conversion depends fully on the product showing ongoing value. Phil compares the move to going \"from playing checkers to playing chess.\"",
+     "t": null
+    },
+    {
+     "title": "Free must be useful but not enough",
+     "detail": "If the free experience is too generous, nobody upgrades. If it is too tight, people churn before a habit forms. With 55% of 3-day trial cancellations on Day 0, the first session decides a lot either way.",
+     "t": null
+    },
+    {
+     "title": "Freemium is a product strategy, not a paywall style",
+     "detail": "Stay hard if you are cash-constrained, need cash for paid ads, solve an acute one-off problem, or lack analytics to test gating. Consider freemium if you have strong retention, runway for a dip, network effects, or a ceiling on paid growth. Treating freemium as just a different paywall display risks halving conversion.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The win: a 75% increase in LTV",
+     "title": "The win",
+     "summary": "A multistep paywall framed as 'free forever, try the best version for 7 days' lifted LTV per user 75%."
+    },
+    {
+     "t": null,
+     "anchor": "The fail: a 50% drop in conversion",
+     "title": "The fail",
+     "summary": "The same move cut conversion by over half for another app and was pulled in weeks."
+    },
+    {
+     "t": null,
+     "anchor": "When should you make the switch?",
+     "title": "When to switch",
+     "summary": "A decision framework built from the data and Phil's experience."
+    },
+    {
+     "t": null,
+     "anchor": "1. Stay with a hard paywall if:",
+     "title": "Stay hard if",
+     "summary": "Cash constraints, paid acquisition, acute problems, weak analytics."
+    },
+    {
+     "t": null,
+     "anchor": "2. Consider testing freemium if:",
+     "title": "Test freemium if",
+     "summary": "Strong retention, runway, network effects, a paid-growth ceiling."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "The win: a 75% increase in LTV",
+    "why": "The 'free forever, try the best version' framing is a concrete paywall pattern OnCourse can borrow."
+   },
+   "id": "how-a-switch-from-hard-paywall-to-freemium-led-to-a-75-ltv-lift-and-a-"
+  },
+  {
+   "Title": "The post-purchase screen: how to stop Day 0 cancellations",
+   "Creator": "RevenueCat Sub Club (Daphne Tideman)",
+   "Type": "Article",
+   "Link": "https://www.revenuecat.com/blog/growth/post-purchase-screen",
+   "Apps": [
+    "Zero",
+    "MasterClass",
+    "Pillow Talk",
+    "Lifesum",
+    "Duolingo",
+    "Kitchen Stories",
+    "AllTrails",
+    "Beside",
+    "Headway",
+    "Greg",
+    "Picnic",
+    "Alan Mind",
+    "Calm",
+    "Flo"
+   ],
+   "Topics": [
+    "Paywall",
+    "Onboarding",
+    "Notifications",
+    "Copy"
+   ],
+   "Goal": [
+    "Retention",
+    "Conversion"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Most trial cancellations happen on Day 0, so the screen right after purchase should confirm, celebrate, remind users what they got and give one clear next step.",
+   "What they did": "Daphne Tideman starts from RevenueCat's data on how early trials are cancelled, then reviews post-purchase screens from many apps (mostly via Mobbin). She ranks them in six levels, from dropping users straight into the app to giving one clear next step. She also covers two alternatives, asking for an account and offering an upsell, and how to measure a new screen.",
+   "Results": "\"A staggering 55.4% of 3-day trials are cancelled on Day 0.\" \"Combine Day 0 and Day 1, and you're looking at 84% of 3-day trial cancellations happening in that first 24 hours. For 7-day trials, it's still 64%.\" Even with a 30-day trial \"nearly a third of users cancel on the very first day\", and annual subscriptions see \"almost 35% of cancellations within the first month.\" The screens themselves are not A/B tested in the post.",
+   "Takeaways": "Over half of 3-day trials die on Day 0; A confirmation screen should be the minimum; Remind users what they now have; Ask for notifications with the trial reminder reason; Give one clear first step, not a menu; Upsell only after the basics",
+   "Ideas for OnCourse": "Paywall: after purchase, show a 'Welcome to OnCourse Pro' screen that restates what is now unlocked and the exam goal the user gave in onboarding. Notifications: on that screen ask for notification permission with the reason 'We'll remind you before your trial ends'. Today's plan: end the post-purchase flow with one button that starts the first question of today's plan",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/c3qnx9b0/production/d7231ab61a615bfa74d125fb0dbfd6ef7173b205-1600x800.png?w=1200&fit=max",
+   "Key points": [
+    {
+     "title": "Over half of 3-day trials die on Day 0",
+     "detail": "55.4% of 3-day trials are cancelled on Day 0, and 84% of cancellations happen within the first 24 hours; for 7-day trials it is 64%. People hand over payment details and then something goes wrong right after. Daphne argues the missing piece is 'aftercare': what users see the moment after they convert.",
+     "t": null
+    },
+    {
+     "title": "A confirmation screen should be the minimum",
+     "detail": "Many apps rely on Apple's 'You're all set' sheet and drop users into the app (Zero, MasterClass). Level 2 adds your own screen that confirms the purchase and warmly points ahead, like Pillow Talk or Lifesum's \"Your journey has begun\". It is one screen and a sprint of work, and it also catches users who tapped past Apple's pop-up. Reminding them of their original reason for signing up makes it stronger.",
+     "t": null
+    },
+    {
+     "title": "Remind users what they now have",
+     "detail": "Users forget what is in the plan, especially if they came through a feature-specific paywall. AllTrails welcomes Peak users with an animation, then lists everything included. Beside and Headway go further and restate the outcome: Headway says \"Now you are a member of Headway Premium, together with 1.7 million learners\" and \"It's Day 1 of your self-growth journey\".",
+     "t": null
+    },
+    {
+     "title": "Ask for notifications with the trial reminder reason",
+     "detail": "AllTrails asks for push permission with \"We'll remind you before your trial ends.\" That gets permission and calms the fear of forgetting to cancel, which drives pre-emptive cancellations. Daphne notes a reminder promise does not land if notifications are off, so the post-purchase screen is the right moment to ask.",
+     "t": null
+    },
+    {
+     "title": "Give one clear first step, not a menu",
+     "detail": "For content-heavy apps, the barrier after paying is often paralysis, not doubt. Greg gives one job: add your plants with a photo. Picnic drops users straight into swiping through their 2017 photos, so they feel progress before thinking about price. Duolingo shows a short set of steps after the celebratory owl.",
+     "t": null
+    },
+    {
+     "title": "Upsell only after the basics",
+     "detail": "Flo offers a 'gift' of 44% off annual right after a trial starts, and Headway offers a discounted ebook. These can work in a 'yes' mindset, but sequencing matters: make users feel good about their choice first. Track Day 0 and Day 1 cancellations before and after any change, and judge upsells on realised LTV and retention.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Why 55% of free trials cancel on day zero",
+     "title": "Why Day 0 matters",
+     "summary": "Cancellation timing data by trial length and for annual plans."
+    },
+    {
+     "t": null,
+     "anchor": "Level 2: a clear confirmation screen",
+     "title": "Confirmation screen",
+     "summary": "The minimum standard: your own screen confirming the purchase and pointing ahead."
+    },
+    {
+     "t": null,
+     "anchor": "Level 3: celebrate the moment",
+     "title": "Celebrate",
+     "summary": "Duolingo's owl and Kitchen Stories' confetti make the decision feel good."
+    },
+    {
+     "t": null,
+     "anchor": "Level 4: remind them what they’re actually getting",
+     "title": "Remind them what they got",
+     "summary": "AllTrails lists the plan and asks for push permission with a trial-reminder reason."
+    },
+    {
+     "t": null,
+     "anchor": "Level 5: highlight what you’ll help them achieve",
+     "title": "Highlight the outcome",
+     "summary": "Beside and Headway restate outcomes and use social proof."
+    },
+    {
+     "t": null,
+     "anchor": "Level 6: give them a clear next step",
+     "title": "One clear next step",
+     "summary": "Greg and Picnic give a single first action; Duolingo shows short steps."
+    },
+    {
+     "t": null,
+     "anchor": "2. Go for the upsell",
+     "title": "Upsell",
+     "summary": "Flo's 'gift' discount and Headway's ebook, and why to use them carefully."
+    },
+    {
+     "t": null,
+     "anchor": "How to build your first post-purchase screen",
+     "title": "How to start",
+     "summary": "Ship Level 2 first, then layer; watch Day 0 and Day 1 cancellations."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Level 4: remind them what they’re actually getting",
+    "why": "It combines the plan reminder with the notification ask, the two cheapest fixes for Day 0 cancels."
+   },
+   "id": "the-post-purchase-screen-how-to-stop-day-0-cancellations"
+  },
+  {
+   "Title": "Curse of the first renewal: how to cure churn for each subscription duration",
+   "Creator": "RevenueCat Sub Club (Daphne Tideman)",
+   "Type": "Article",
+   "Link": "https://www.revenuecat.com/blog/growth/first-renewal-churn",
+   "Apps": [
+    "Duolingo",
+    "Greg",
+    "Loom",
+    "Peloton",
+    "Ladder"
+   ],
+   "Topics": [
+    "Renewal",
+    "Notifications",
+    "Progress & streaks"
+   ],
+   "Goal": [
+    "Renewal",
+    "Retention"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Most subscribers are lost at the first renewal, and that is decided in a short activation window early on, so fix activation rather than the renewal moment.",
+   "What they did": "Using RevenueCat's State of Subscription Apps 2026 data, Daphne Tideman shows first-renewal drop-off for weekly, monthly and annual plans. She proposes an activation window for each (five days, two weeks, one month) and lays out what to do day by day or month by month. She ends with how to find a 'First Renewal Predictor' behaviour from your own data.",
+   "Results": "First-renewal drop-off: \"Weekly subscriptions: 42–65%\", \"Monthly subscriptions: 39–58%\", \"Annual subscriptions: 60–77%\". For weekly subscribers who reach the second renewal, \"74–91% will still be paying by their third.\" \"23–50% of annual subscribers who cancel do so in the first month.\" By price, \"low-priced annual plans see first renewal rates around 36%, while high-priced ones manage just 23%.\" Annual reactivation is \"averaging around 5%.\" Duolingo found emails \"23.5 hours after a user's last lesson worked best.\" Airship: relevant pushes in the first 90 days give retention \"around 3x higher\". Greg's monthly retention \"sits at 21% after 12 months\", then it loses \"just 3% more\" over nine months.",
+   "Takeaways": "The first renewal is where most subscribers leave; Each plan length has its own activation window; Weekly plans need a win on Day 0; Do not go quiet in weeks two and three; Annual plans are decided in the first 90 days; Find the one early behaviour that predicts renewal",
+   "Ideas for OnCourse": "Renewal: before a plan renews, show a progress summary (questions solved, accuracy gains, topics covered) so the renew decision already feels good. Notifications: keep value messages going in weeks 2–3 and months 2–3 of a plan, tapering but never stopping. Design process: compare the first 30 days of aspirants who renewed with those who did not and pick one quality behaviour (for example a 7-day practice streak) as the activation target",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/c3qnx9b0/production/3043aad3426ba01f7b031284a9766900c9af3310-1600x850.png?w=1200&fit=max",
+   "Key points": [
+    {
+     "title": "The first renewal is where most subscribers leave",
+     "detail": "Retention falls 42–65% at the first weekly renewal, 39–58% for monthly and 60–77% for annual. After that, drop-off slows a lot: 74–91% of weekly subscribers who reach the second renewal are still paying at the third. Daphne calls the first renewal \"the ultimate test of survival.\"",
+     "t": null
+    },
+    {
+     "title": "Each plan length has its own activation window",
+     "detail": "Daphne's windows are the first five days for weekly, the first two weeks for monthly and the first month for annual. For short plans the window closes when users start worrying about the next charge. Users who do not reach value in that window rarely renew, whatever the paywall says.",
+     "t": null
+    },
+    {
+     "title": "Weekly plans need a win on Day 0",
+     "detail": "With 84% of 3-day trial cancellations on Day 0 or 1, the first session must give a win and the post-purchase screen must push one small action. Days 1–3 deepen value, and Days 4–7 build the first signs of a habit. Messages should celebrate progress and show what is next, not say \"Don't forget today's session.\"",
+     "t": null
+    },
+    {
+     "title": "Do not go quiet in weeks two and three",
+     "detail": "Most apps \"love bomb\" for seven days, then go silent. For monthly plans, Daphne says Days 8–21 are for habit reinforcement, with flows that move users from their first session to their second and then to consistency. Days 22–30 should reinforce the decision with progress reports, like Loom showing hours saved, never by hiding the charge.",
+     "t": null
+    },
+    {
+     "title": "Annual plans are decided in the first 90 days",
+     "detail": "About 30% of annual subscribers cancel in the first month, and starting a save effort in month 11 is too late. Expectations rise with price: cheap annual plans renew around 36%, expensive ones 23%. After 90 days, keep lower-frequency, high-quality check-ins so the product does not feel stale, as Ladder did with new travel workouts.",
+     "t": null
+    },
+    {
+     "title": "Find the one early behaviour that predicts renewal",
+     "detail": "Map where the renewal curve flattens, compare early behaviour of survivors and churners, and pick what separates them. Good predictors are quality signals, like a core action done X times or coming back on Day 3 and Day 7. Session counts, onboarding completion and trial starts are not. For Duolingo it is a 7-day streak.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "The first renewal drop-off in numbers",
+     "title": "The drop-off",
+     "summary": "First renewal drop-off by plan length, and how churn slows after."
+    },
+    {
+     "t": null,
+     "anchor": "You only have the activation window to convince subscribers to renew",
+     "title": "Activation windows",
+     "summary": "Five days, two weeks or one month to reach value, by plan length."
+    },
+    {
+     "t": null,
+     "anchor": "The weekly subscriber: fast-tracking a habit",
+     "title": "Weekly plans",
+     "summary": "Day 0 win, deeper value by Day 3, early habit by Day 7; Duolingo's 23.5-hour timing."
+    },
+    {
+     "t": null,
+     "anchor": "The monthly subscriber: 30 days to routine",
+     "title": "Monthly plans",
+     "summary": "A meaningful outcome in week 1, reinforcement in weeks 2–3, progress before renewal."
+    },
+    {
+     "t": null,
+     "anchor": "The annual subscriber: 90 days to embed",
+     "title": "Annual plans",
+     "summary": "Why the first 90 days decide annual renewal and how to stay present."
+    },
+    {
+     "t": null,
+     "anchor": "How to find your first renewal predictor",
+     "title": "Find your predictor",
+     "summary": "A three-step method to find the behaviour that predicts renewal."
+    },
+    {
+     "t": null,
+     "anchor": "What first renewal predictors are not",
+     "title": "What predictors are not",
+     "summary": "Volume signals versus quality signals, and how to pick a realistic target."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "How to find your first renewal predictor",
+    "why": "It gives OnCourse a concrete way to choose the one early behaviour its plan and nudges should drive."
+   },
+   "id": "curse-of-the-first-renewal-how-to-cure-churn-for-each-subscription-dur"
+  },
+  {
+   "Title": "‘Not enough usage’: your biggest churn reason is a broken habit loop",
+   "Creator": "RevenueCat Sub Club (Daphne Tideman)",
+   "Type": "Article",
+   "Link": "https://www.revenuecat.com/blog/growth/not-enough-usage-churn",
+   "Apps": [
+    "Duolingo",
+    "Peloton",
+    "Finch",
+    "Loom",
+    "Granola",
+    "Wispr Flow",
+    "PhotoRoom",
+    "Welltory"
+   ],
+   "Topics": [
+    "Renewal",
+    "Notifications",
+    "Progress & streaks",
+    "Research methods"
+   ],
+   "Goal": [
+    "Retention",
+    "Renewal"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "'Not enough usage' churn is a broken habit loop, not a price problem, so find where the loop broke and fix that instead of offering a discount.",
+   "What they did": "Daphne Tideman shows how to tell usage churn from price churn using pre-cancellation usage, churner segments and price tiers. She maps usage churn to four breaks in Nir Eyal's habit loop: the trigger never fired, the action never stuck, the reward went flat, or the value never landed. Each break gets its own fix and its own shape on the usage curve.",
+   "Results": "\"‘not enough usage’ is the number one reason people cancel subscription apps, accounting for 37% of cancellations — ahead of 'price' at 35%\" (2025); in 2026 it ranges \"from 26%–40%, depending on the category.\" A SaaS study found stated exit reasons \"matched the actual churn driver only 27.4% of the time\"; price was given by 34.2% but was the real driver \"in just 11.7% of those cases.\" A client cohort on a 50% discount \"had a £50 lower lifetime value (LTV) and higher churn.\" Targeted emails to users inactive for five days \"drove a 100%+ lift in people completing a workout within three days, versus the control group who received no emails.\"",
+   "Takeaways": "Cancel surveys often hide the real reason; Define what enough usage means for your app; Discounts do not fix usage churn; A trigger that never fired needs timely nudges; An action that never stuck needs a quicker win and an anchor; A flat reward needs variety and visible progress",
+   "Ideas for OnCourse": "Notifications: for aspirants who have not practised in a few days, send a small number of targeted messages that pick up their plan where they left off, tested against a no-message control. Renewal: when a cancel reason is 'not using it enough', offer a short catch-up plan instead of a discount. Design process: before acting on cancel reasons, check each churner's practice in the 30 days before cancelling and plot where activity stopped",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/c3qnx9b0/production/1f5cc2f6f6afd5523589e910b410e4a0186d5e29-1600x800.png?w=1200&fit=max",
+   "Key points": [
+    {
+     "title": "Cancel surveys often hide the real reason",
+     "detail": "In a SaaS study of 723 people, stated exit reasons matched the real cause only 27.4% of the time, and 'price' was the true driver in just 11.7% of cases where it was given. \"Too expensive\" can mean \"I wasn't getting enough value.\" So check usage in the 30 days before cancelling, and see whether price complaints come from light or heavy users.",
+     "t": null
+    },
+    {
+     "title": "Define what enough usage means for your app",
+     "detail": "Enough is set by how often the user meets the problem, not by daily active use. One meditation app had users who opened it once every month or two and happily paid annually. Look at what long-term subscribers repeat in their first billing cycle; that is your 'enough'. For exam prep, daily practice may fit, but the right cadence should come from OnCourse's renewing users.",
+     "t": null
+    },
+    {
+     "title": "Discounts do not fix usage churn",
+     "detail": "If someone is not using the app, the price is not what is wrong. A client's 50%-off cohort had £50 lower LTV and higher churn than full-price sign-ups. A discount does not create a trigger, make an action stick or refresh a reward.",
+     "t": null
+    },
+    {
+     "title": "A trigger that never fired needs timely nudges",
+     "detail": "Users who barely used the app and vanished after a session or two never built a reason to return. The fix is a well-timed, relevant re-engagement sequence where usage usually drops. For users with no workout in five days, a few targeted emails gave a 100%+ lift in workouts within three days versus no emails.",
+     "t": null
+    },
+    {
+     "title": "An action that never stuck needs a quicker win and an anchor",
+     "detail": "Users who tried a few times then tailed off found the effort high and results unseen. Get them to the core action faster, and tie it to an existing routine, like 'after your morning coffee' or 'before you sleep'. Daphne's sister keeps her French going because it is welded to bedtime.",
+     "t": null
+    },
+    {
+     "title": "A flat reward needs variety and visible progress",
+     "detail": "Users who were steady and then slowly faded once the novelty wore off had a reward that stopped surprising them. Vary rewards, show progress and build investment early, like Finch's rotating shop or the history users build up in Granola. If users kept showing up but nothing changed, surface outcomes, like Loom's monthly recap.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "How to diagnose price vs. usage churn",
+     "title": "Price or usage?",
+     "summary": "Four checks: define enough, pre-cancel usage, churner segments, price tiers."
+    },
+    {
+     "t": null,
+     "anchor": "Why the discount reflex is the wrong response to churn",
+     "title": "Why not discount",
+     "summary": "A 50%-off cohort had lower LTV and higher churn."
+    },
+    {
+     "t": null,
+     "anchor": "‘Not enough usage’ is actually just a broken habit",
+     "title": "The habit loop",
+     "summary": "Trigger, action, reward and investment, and where they break."
+    },
+    {
+     "t": null,
+     "anchor": "The trigger never fired",
+     "title": "Trigger break",
+     "summary": "Users forget the app; targeted emails doubled workouts versus control."
+    },
+    {
+     "t": null,
+     "anchor": "The action never stuck",
+     "title": "Action break",
+     "summary": "Faster time to core action and anchoring to an existing routine."
+    },
+    {
+     "t": null,
+     "anchor": "The reward went flat",
+     "title": "Reward break",
+     "summary": "Variable rewards, visible progress and early investment."
+    },
+    {
+     "t": null,
+     "anchor": "The value never landed, or never fit",
+     "title": "Value break",
+     "summary": "Show outcomes and progress; accept churn when the product does not fit."
+    },
+    {
+     "t": null,
+     "anchor": "How to know which part of the habit loop is broken",
+     "title": "Read the usage curve",
+     "summary": "A table matching drop-off shapes to each break, plus how to interview churners."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "How to know which part of the habit loop is broken",
+    "why": "The drop-off table turns OnCourse's churn data into a clear next fix."
+   },
+   "id": "not-enough-usage-your-biggest-churn-reason-is-a-broken-habit-loop"
+  },
+  {
+   "Title": "How to build a reactivation strategy that actually works",
+   "Creator": "RevenueCat Sub Club (Alice Muir Kocourková)",
+   "Type": "Article",
+   "Link": "https://www.revenuecat.com/blog/growth/app-reactivation-strategy-how-to",
+   "Apps": [],
+   "Topics": [
+    "Renewal",
+    "Notifications",
+    "Copy"
+   ],
+   "Goal": [
+    "Renewal",
+    "Retention"
+   ],
+   "Evidence type": "Experience",
+   "Bottom line": "Win-back starts at the cancel screen: tag why people leave, time messages to plan type and reason, use offers that fit that reason, and let people pick up where they left off.",
+   "What they did": "Alice Muir Kocourková lays out a six-part reactivation system for subscription apps. It begins with a one-question cancel survey whose answers map to follow-up paths, then covers post-churn messages, timing by plan type and churn reason, offers other than discounts, an easy return, and why product quality sets the ceiling.",
+   "Results": "From the State of Subscription Apps 2026: \"Monthly subscribers come back at ~18–24% within a year\", \"Even weekly plans see ~7–10% reactivation\", and \"Only annual plans behave like “true churn” (~4–6%).\" Suggested (not tested) timing: about 7, 21 and 45 days after churn for monthly users; about 30 days, 90 days and 6 months for annual users.",
+   "Takeaways": "The cancel flow is step zero of win-back; Map each churn reason to its own path; Time outreach to plan type and reason; Lead with value, not discounts; Make returning feel like continuing; Product quality sets the ceiling",
+   "Ideas for OnCourse": "Renewal: add a one-question cancel survey with options like 'My exam is done or not needed right now', 'Too expensive', 'Didn't get value' and 'Technical issues', each leading to its own path (pause, cheaper plan, guided restart, support). Home: when a lapsed subscriber returns, keep their progress and plan, show what changed, and offer one quick-win practice set instead of onboarding again. Notifications: for users who left after an exam, time the win-back to the next exam cycle rather than a fixed 30 days",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://cdn.sanity.io/images/c3qnx9b0/production/f050222e4c88f1ba36e4cd8f0eca716cb0cc746f-1600x850.png?w=1200&fit=max",
+   "Key points": [
+    {
+     "title": "The cancel flow is step zero of win-back",
+     "detail": "Instead of 'Sorry to see you go', ask one clear question about why they are leaving, with an 'other' box for bugs you do not know about. Capture churn reason, plan type, tenure, usage before churn and last meaningful action. Without this data, every later message is generic.",
+     "t": null
+    },
+    {
+     "title": "Map each churn reason to its own path",
+     "detail": "\"Not needed right now\" leads to a pause instead of a cancel. \"Too expensive\" leads to a lower tier or an annual reframing. \"Didn't get value\" leads to guided setup, and \"Technical issues\" to support. Alice says most apps throw discounts here, which trains users to churn for a deal.",
+     "t": null
+    },
+    {
+     "title": "Time outreach to plan type and reason",
+     "detail": "Monthly users forget fast, so test touches around 7, 21 and 45 days. Annual users get around 30 days, 90 days and 6 months. Reason matters too: wait until the need returns for 'not needed now', move fast for 'didn't get value', and say nothing about bugs until they are fixed.",
+     "t": null
+    },
+    {
+     "title": "Lead with value, not discounts",
+     "detail": "Use messages like \"Here's what's new since you left\" or \"Quick win you can get in 2 minutes\", matched to the churn reason. Better offers tie to the reason (\"You canceled because X. Here's a solution\"), give small unlocks or credits, or use time framing like \"Restart when you need it.\" Space messages across email, push and retargeting so it never feels like a chase.",
+     "t": null
+    },
+    {
+     "title": "Make returning feel like continuing",
+     "detail": "Many teams win the click, then lose the user by treating them like a new one. Skip re-onboarding, keep preferences, history and progress, default to their previous plan, and show what changed. Pause, easy plan switching and grace periods lower the barrier to coming back.",
+     "t": null
+    },
+    {
+     "title": "Product quality sets the ceiling",
+     "detail": "If users left because they never understood the product or never got value, no win-back message will fix it. Reactivation only works when onboarding, activation and value delivery are solid. Apple's Retention Messaging API is a new place to show a pause or value reminder inside the App Store cancel flow.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "1. Start at the moment of churn: Your cancellation flow is step zero",
+     "title": "Cancel flow",
+     "summary": "One question, reason-based paths, the data to capture, and Apple's Retention Messaging API."
+    },
+    {
+     "t": null,
+     "anchor": "What to offer",
+     "title": "What to offer",
+     "summary": "Pause, lower tier, guided setup or support, matched to each reason."
+    },
+    {
+     "t": null,
+     "anchor": "2. The post-churn relationship: how to stay present without being annoying",
+     "title": "Staying present",
+     "summary": "Value reminders and layered channels without chasing."
+    },
+    {
+     "t": null,
+     "anchor": "3. Timing matters more than what you say",
+     "title": "Timing",
+     "summary": "Windows by plan type, churn reason and pre-churn engagement."
+    },
+    {
+     "t": null,
+     "anchor": "4. Offer strategy: what works vs what feels desperate",
+     "title": "Offers",
+     "summary": "Contextual, usage-based, time-framed and product-led offers."
+    },
+    {
+     "t": null,
+     "anchor": "5. Make it frictionless to return",
+     "title": "Easy return",
+     "summary": "Keep progress, default to the old plan, show what changed, offer a quick win."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "3. Timing matters more than what you say",
+    "why": "It shows how to time win-back by plan and reason, which suits OnCourse users who leave after an exam and may return for the next."
+   },
+   "id": "how-to-build-a-reactivation-strategy-that-actually-works"
+  },
+  {
+   "Title": "How Philips’ Pregnancy+ grew weekly subscription revenue by 300%",
+   "Creator": "Adapty",
+   "Type": "Case study",
+   "Link": "https://adapty.io/case-studies/pregnancy-plus/",
+   "Apps": [
+    "Pregnancy+"
+   ],
+   "Topics": [
+    "Paywall",
+    "Design process"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "A freemium content app grew revenue by testing much more often, and found that a free trial beat an intro discount, a trial timeline helped, and a day-5 offer beat a day-1 offer.",
+   "What they did": "Pregnancy+, a freemium app with 80 million downloads, used to run about one paywall test per quarter because each needed engineering and an app release. After moving to Adapty in November 2024, one person owned each test end to end, with a written hypothesis and success criteria. Over 12 months the team tested 42 paywall variants; four tests gave the clearest signal.",
+   "Results": "\"The free trial variant generated 140% more revenue than the discounted control.\" A trial timeline (today, day 3, charge after day 3, when to cancel) raised \"Revenue increased 27% against the control.\" Showing the offer on day five: \"Revenue was 17% higher than showing the same offer on day one.\" Seasonal campaigns: \"Black Friday / Cyber Monday (+113% vs prior period), New Year (+53.5%), and Mother's Day UK (+52%).\" Overall: \"Weekly subscription revenue grew 300% over the 12 months\", \"Premium conversion grew from 0.4% to approximately 2% in top-performing markets\", and \"Monthly retention reached 65% at the second renewal.\" Test cadence went from \"1 test per quarter to 3+ per month.\"",
+   "Takeaways": "A free trial beat an intro discount by 140%; A trial timeline added 27% revenue; An offer on day 5 beat day 1 by 17%; Match seasonal offers to the moment; More tests, faster, drove most of the growth",
+   "Ideas for OnCourse": "Paywall: test a free trial against an intro discount and judge it on revenue and second-renewal retention, not first conversion. Paywall: add a trial timeline that shows what you get today, when the reminder comes, when you are charged and when you can cancel. Notifications: test showing the main upgrade offer on day five, after the aspirant has done some practice, instead of only on day one",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://adapty.io/uploads/cases/opengraph-case-pregnancy.webp",
+   "Key points": [
+    {
+     "title": "A free trial beat an intro discount by 140%",
+     "detail": "The team expected a lower intro price to win, but the free trial variant made 140% more revenue. Users who tried the product at full value converted and stayed at higher rates than users won by discounting. The team links this to the 65% monthly retention at second renewal.",
+     "t": null
+    },
+    {
+     "title": "A trial timeline added 27% revenue",
+     "detail": "The paywall gained a visual breakdown: what you get today, what happens on day 3, what you are charged after day 3, and when you can cancel. Revenue rose 27%. Adapty's point is that unsure users leave before converting, so remove the doubt on the paywall itself, not in later emails.",
+     "t": null
+    },
+    {
+     "title": "An offer on day 5 beat day 1 by 17%",
+     "detail": "Instead of a promo right at install, the team showed it on day five, after users had explored and used core content. Revenue was 17% higher. On day one users are still deciding if the app is worth their time; by day five the offer \"confirms a decision they are already moving toward.\"",
+     "t": null
+    },
+    {
+     "title": "Match seasonal offers to the moment",
+     "detail": "Time-limited campaigns ran at Black Friday/Cyber Monday (+113%), New Year (+53.5%) and Mother's Day UK (+52%) without cannibalising baseline conversion. Core messaging stayed the same, but the frame matched each moment's emotion. For OnCourse, the moments might be result day, a new exam date or the start of a prep season.",
+     "t": null
+    },
+    {
+     "title": "More tests, faster, drove most of the growth",
+     "detail": "Test cadence went from one every two to three months to three or more a month. Each test started with a written hypothesis and success criteria, simple tests first. The PM says the growth \"was not one big win. It was dozens of small ones compounding.\"",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "One experiment every two to three months",
+     "title": "The old pace",
+     "summary": "Every test waited on engineering and an App Store release."
+    },
+    {
+     "t": null,
+     "anchor": "Removing engineering from the experiment loop",
+     "title": "New testing setup",
+     "summary": "One owner per test, written hypotheses, self-serve analytics."
+    },
+    {
+     "t": null,
+     "anchor": "Free trial vs. intro discount: +140% revenue",
+     "title": "Trial vs discount",
+     "summary": "A free trial beat a discounted intro price on revenue and retention."
+    },
+    {
+     "t": null,
+     "anchor": "Transparent trial timeline: +27% revenue",
+     "title": "Trial timeline",
+     "summary": "Showing today, day 3, the charge and the cancel window lifted revenue."
+    },
+    {
+     "t": null,
+     "anchor": "Day 5 promotion: +17% revenue",
+     "title": "Day 5 offer",
+     "summary": "An offer after users had explored the app beat a day-one offer."
+    },
+    {
+     "t": null,
+     "anchor": "Seasonal campaigns: up to +110% revenue uplift",
+     "title": "Seasonal campaigns",
+     "summary": "Black Friday, New Year and Mother's Day offers framed for each moment."
+    },
+    {
+     "t": null,
+     "anchor": "The results",
+     "title": "Results",
+     "summary": "300% weekly revenue growth, conversion from 0.4% to ~2%, 65% second-renewal retention."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Free trial vs. intro discount: +140% revenue",
+    "why": "It is the clearest test result, and it answers whether OnCourse should lead with a trial or a discount."
+   },
+   "id": "how-philips-pregnancy-grew-weekly-subscription-revenue-by-300"
+  },
+  {
+   "Title": "What State of Paywalls taught me about the tests subscription apps skip",
+   "Creator": "Adapty (Victoria Kharlan)",
+   "Type": "Article",
+   "Link": "https://adapty.io/blog/paywall-optimization-tests/",
+   "Apps": [
+    "Cal AI",
+    "Liven",
+    "Yazio",
+    "BitePal",
+    "Runna",
+    "Vocabulary",
+    "TIDE",
+    "Sunlitt",
+    "Beside",
+    "Fabric"
+   ],
+   "Topics": [
+    "Paywall",
+    "Onboarding",
+    "Copy",
+    "Design process"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "Evidence type": "Research",
+   "Bottom line": "Paywall offer, timing and personalization tests win far more often than visual or copy tests, so spend most of your tests there and only one on looks.",
+   "What they did": "Adapty's Victoria Kharlan went through State of Paywalls 2026 data (78,000+ paywalls from 30,000+ App Store apps) plus 100 top-app paywalls taken apart via Mobbin. She describes the default paywall, compares win rates by test type, and lists five tests few apps run, each with live examples. She ends with how many tests to run a year.",
+   "Results": "\"35% of visual or copy tests increased LTV\", while \"62% of localization tests increased LTV, followed by trial tests at 60% and plan-duration tests at 59%.\" \"93% of first purchases happen on the day of install\"; onboarding paywalls convert \"0.85% of views against 0.23%.\" Pre-selecting annual with the trial on it \"raised ARPU by 25–40%\" in winning tests; personalized onboarding \"raised ARPU by 13–35%\"; explaining the trial \"raised ARPU by 12–36%.\" Only \"2% of paywall headlines\" use onboarding answers and \"24% of trial paywalls show a timeline.\" A second offer after close converts \"at 0.88× the rate of the main paywall\" and beats it in 45% of the apps using it. \"32% of trials are canceled within an hour and 44% within 24 hours.\" Education ranks \"#3 in the US at 3.28% and drops to #7 in APAC (0.89%).\"",
+   "Takeaways": "Most top paywalls look the same; Visual and copy tests win least often; Test timing and the offer first; Pre-select annual and put the trial on it; Put the onboarding answer in the headline; Show the trial as a timeline; A second offer after close often pays",
+   "Ideas for OnCourse": "Paywall: put the onboarding answers in the headline, for example the target exam and date ('Your plan for NEET-PG, starting today'). Paywall: test a one-time second offer after the paywall is closed, keeping the discount at or under 30% so those subscribers stay valuable. Design process: plan the year's paywall tests so most go to timing, plans, trial and personalization, and only one goes to visuals",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://adapty.io/uploads/og-paywall-optimization-tests.png",
+   "Key points": [
+    {
+     "title": "Most top paywalls look the same",
+     "detail": "In 100 top iOS paywalls, 62% show two plans, 73% use cards, 67% pre-select annual, and 36% say \"Start free trial\" word for word. Only 27% show social proof, 54% have no image, and 2% personalize the headline. That is the market default, a starting line for tests rather than proof of what converts.",
+     "t": null
+    },
+    {
+     "title": "Visual and copy tests win least often",
+     "detail": "Only 35% of visual or copy tests raised LTV, the lowest of any test type, against 59–62% for localization, trial and plan-duration tests. A redesign changes how the offer looks, but the user still decides on the same price, plan and trial. When visual tests do win, the lift is real: animation and stronger visuals raised ARPU 16–34%.",
+     "t": null
+    },
+    {
+     "title": "Test timing and the offer first",
+     "detail": "93% of first purchases happen on install day and 60% of buyers subscribe on the first paywall view. Onboarding paywalls convert almost 4× better than later ones ($170 vs $40 per 1,000 views). Later paywalls still bring 38% of revenue. Education and Health & Fitness are the only categories where most trials run 4–7 days, with the fewest early cancellations.",
+     "t": null
+    },
+    {
+     "title": "Pre-select annual and put the trial on it",
+     "detail": "This layout change gave the biggest lift in winning tests: 25–40% more ARPU. Cal AI pre-selects annual under a '3 DAYS FREE' banner while monthly has no trial. Buyers mostly keep the default: 90% keep weekly when it is pre-selected, 46% keep annual. Judge price tests on LTV, since 46% of them raise LTV but only 28% raise conversion.",
+     "t": null
+    },
+    {
+     "title": "Put the onboarding answer in the headline",
+     "detail": "Yazio opens with \"We'll help you lose weight to hit 70.0 kg by April 7!\" using the goal and date from onboarding; Runna greets the runner by name. Only 2% of headlines do this, yet personalized onboarding raised ARPU 13–35% in winning tests. For OnCourse, the exam, attempt year and weak subjects from onboarding can go straight into the paywall.",
+     "t": null
+    },
+    {
+     "title": "Show the trial as a timeline",
+     "detail": "Vocabulary gives the trial its own screen: trial starts today, a reminder on March 26, membership on March 27, with a reminder toggle above the button. Only 24% of trial paywalls do this, yet trial explainers raised ARPU 12–36%. It targets the first hour, when 32% of trials are cancelled.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "What does almost every top-app paywall look like?",
+     "title": "The default paywall",
+     "summary": "Two plan cards, annual pre-selected, 'Start free trial', little personalization."
+    },
+    {
+     "t": null,
+     "anchor": "Why do so many paywall redesigns lose?",
+     "title": "Why redesigns lose",
+     "summary": "Visual and copy tests raise LTV in 35% of cases versus 59–62% for offer tests."
+    },
+    {
+     "t": null,
+     "anchor": "Test when the paywall shows up",
+     "title": "Timing",
+     "summary": "Install-day purchases, onboarding vs later paywalls, revenue by placement."
+    },
+    {
+     "t": null,
+     "anchor": "Match trial length to the plan",
+     "title": "Trial length",
+     "summary": "3 days for weekly, 7 days for monthly and annual; Education runs longer trials."
+    },
+    {
+     "t": null,
+     "anchor": "Pre-select annual and put the trial on it",
+     "title": "Annual-first layout",
+     "summary": "The biggest lift in winning tests: +25–40% ARPU."
+    },
+    {
+     "t": null,
+     "anchor": "1. Put the onboarding answer in the headline",
+     "title": "Personalized headline",
+     "summary": "Yazio, BitePal and Runna reuse onboarding answers; only 2% do this."
+    },
+    {
+     "t": null,
+     "anchor": "4. Make a second offer after the close",
+     "title": "Second offer",
+     "summary": "Converts at 0.88× the main paywall; discount depth decides whether it pays."
+    },
+    {
+     "t": null,
+     "anchor": "How many paywall tests should you run a year?",
+     "title": "Test volume",
+     "summary": "Top apps run 21–55+ tests a year; a sample ten-test plan."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "Which paywall tests does almost nobody run?",
+    "why": "The five underused tests are the most direct list of paywall changes OnCourse can try next."
+   },
+   "Tools": [
+    "Copilot"
+   ],
+   "id": "what-state-of-paywalls-taught-me-about-the-tests-subscription-apps-ski"
+  },
+  {
+   "Title": "How Quiet scales new apps faster with built-in analytics and A/B testing",
+   "Creator": "Adapty",
+   "Type": "Case study",
+   "Link": "https://adapty.io/case-studies/quiet/",
+   "Apps": [
+    "Quiet"
+   ],
+   "Topics": [
+    "Paywall",
+    "Visual design",
+    "Design process"
+   ],
+   "Goal": [
+    "Conversion"
+   ],
+   "Evidence type": "A/B test",
+   "Bottom line": "Judge a paywall design test by the cost of each paying user against their lifetime value, because a small conversion gap can decide whether an app makes or loses money.",
+   "What they did": "Quiet, a Paris app studio, keeps or kills each new app within weeks based on whether a cohort pays back its install cost. It runs paywall tests and reads LTV, churn and cohort revenue in one dashboard. In one test it split traffic evenly between a white and a purple main paywall button and turned the result into cost per paying subscriber.",
+   "Results": "\"The white button won, lifting trial conversion from 19% to 23.64%\" (purple at 19.05%). At a $2 install cost, trials cost \"$8.46 each\" for white and \"$10.49\" for purple; per paying subscriber, \"white came out at $25.38 and purple at $31.47.\" With an app \"worth roughly $28 per subscriber\", white makes a profit on each and purple loses money. Portfolio: \"99 A/B tests\", \"$16.4M in ARR, from 8M installs and 71k+ subscribers.\"",
+   "Takeaways": "A button colour test lifted trials from 19% to 23.64%; Turn conversion into cost per paying user; Compare that cost with lifetime value; Read tests past the first conversion; Same-day tests make small checks cheap",
+   "Ideas for OnCourse": "Design process: report every paywall test result as cost per paying user and compare it with that user's expected lifetime value, not just conversion percentage. Paywall: test the main button's colour and contrast against the background as a cheap first visual test. Design process: keep a shared readout that follows each test's cohort through renewals, not just first purchase",
+   "Status": "Read",
+   "Added": "2026-11-11",
+   "Image": "https://adapty.io/uploads/cases/og-case-quiet.webp",
+   "Key points": [
+    {
+     "title": "A button colour test lifted trials from 19% to 23.64%",
+     "detail": "Quiet split traffic evenly between a white and a purple main paywall button on an app it was scaling. White won, with trial conversion of 23.64% against 19.05%. The case study does not say why white won or show the paywall's other colours, so treat it as one app's result.",
+     "t": null
+    },
+    {
+     "title": "Turn conversion into cost per paying user",
+     "detail": "At a $2 install cost, $200 buys 100 users. White turned them into trials at $8.46 each and purple at $10.49. Carried through to paying subscribers, white cost $25.38 and purple $31.47 each.",
+     "t": null
+    },
+    {
+     "title": "Compare that cost with lifetime value",
+     "detail": "The app earns roughly $28 per subscriber over its life. At $25.38, the white button makes money on each subscriber; at $31.47, purple loses money. A gap that looks minor as a conversion rate is the difference between profit and loss, and Quiet \"might have scaled the losing version by default.\"",
+     "t": null
+    },
+    {
+     "title": "Read tests past the first conversion",
+     "detail": "Quiet's CEO says they read \"LTV, churn, expired users, and cohort revenue in one place.\" The team follows a paywall test's cohort months later, after renewals and churn. Installs and trials come earlier but do not show whether an app makes money.",
+     "t": null
+    },
+    {
+     "title": "Same-day tests make small checks cheap",
+     "detail": "Tests launch from a dashboard without an app release, so an idea can go live the day it comes up. That is why a small team ran 99 tests across its apps on iOS and Android. This is a vendor case study, so the tool claims are promotional, but the unit-economics reading applies anywhere.",
+     "t": null
+    }
+   ],
+   "Chapters": [
+    {
+     "t": null,
+     "anchor": "Every new app needs a fast verdict",
+     "title": "Fast verdicts",
+     "summary": "Each app has weeks to show it pays back its install cost."
+    },
+    {
+     "t": null,
+     "anchor": "Adapty as Quiet's BI layer",
+     "title": "One dashboard",
+     "summary": "Following a paywall test through LTV, churn and cohort revenue."
+    },
+    {
+     "t": null,
+     "anchor": "How Quiet tests paywalls",
+     "title": "The button test",
+     "summary": "White vs purple button, and the cost-per-subscriber maths that decided it."
+    },
+    {
+     "t": null,
+     "anchor": "Where Quiet stands now",
+     "title": "Results",
+     "summary": "99 tests, $16.4M ARR, 8M installs, 71k+ subscribers."
+    }
+   ],
+   "Start here": {
+    "t": null,
+    "anchor": "How Quiet tests paywalls",
+    "why": "It shows in a few lines how to turn a visual test result into money, which OnCourse can use to read its own paywall tests."
+   },
+   "id": "how-quiet-scales-new-apps-faster-with-built-in-analytics-and-a-b-testi"
   }
  ],
  "experiments": [],
@@ -21335,17 +27927,23 @@ window.LIBRARY = {
   "5-minute-journal",
   "8fit",
   "abbyy-finereader",
+  "adobe-acrobat",
+  "adobe-photoshop",
   "adobe",
+  "affirm",
   "ahead",
   "air-new-zealand",
   "airbnb-experiences",
   "airbnb",
   "airtable",
+  "alltrails",
+  "ally-bank",
   "amazon",
   "amo",
   "anki",
   "any-do",
   "apartment-list",
+  "appcues",
   "apple-app-store",
   "apple",
   "arc",
@@ -21361,6 +27959,7 @@ window.LIBRARY = {
   "boldvoice",
   "brainsparker",
   "brilliant",
+  "bump",
   "bunpro",
   "burner",
   "busuu",
@@ -21389,6 +27988,7 @@ window.LIBRARY = {
   "cursor",
   "datadog",
   "deel",
+  "deepstash",
   "delphi",
   "descript",
   "dia",
@@ -21409,6 +28009,7 @@ window.LIBRARY = {
   "figjam",
   "figma-make",
   "figma",
+  "finch",
   "find-my",
   "firefox",
   "fishbrain",
@@ -21422,6 +28023,7 @@ window.LIBRARY = {
   "github",
   "givebutter",
   "glovo",
+  "glow-baby",
   "gmail",
   "google-earth",
   "google-meet",
@@ -21431,6 +28033,7 @@ window.LIBRARY = {
   "habitica",
   "hand-mirror",
   "headspace",
+  "headway",
   "hinge",
   "hopper",
   "hubspot",
@@ -21446,8 +28049,10 @@ window.LIBRARY = {
   "invideo",
   "jira",
   "jupiter-money",
+  "justfit",
   "kayak",
   "khan-academy",
+  "kitchen-stories",
   "laika",
   "lattice",
   "lego",
@@ -21456,11 +28061,14 @@ window.LIBRARY = {
   "lifesum",
   "limitless",
   "linear",
+  "lingokids",
   "linkedin",
+  "loom",
   "lose-it",
   "lyft",
   "mailchimp",
   "mailman",
+  "masterclass",
   "maytag",
   "medium",
   "mercury",
@@ -21471,6 +28079,7 @@ window.LIBRARY = {
   "minecraft",
   "miro",
   "mojo",
+  "myfitnesspal",
   "nara-baby",
   "natal",
   "netflix",
@@ -21484,8 +28093,11 @@ window.LIBRARY = {
   "outlook",
   "outpace",
   "patreon",
+  "peloton",
   "pepper",
+  "photoroom",
   "pillowtalk",
+  "pimsleur",
   "pinterest",
   "plaid",
   "pocket-fm",
@@ -21496,6 +28108,7 @@ window.LIBRARY = {
   "rapidapi",
   "raycast",
   "razorpay",
+  "readwise-reader",
   "reclaim",
   "reddit",
   "reflectly",
@@ -21503,13 +28116,16 @@ window.LIBRARY = {
   "retro",
   "rise",
   "rootd",
+  "runna",
   "runway",
   "shopify",
   "sierra",
+  "simply-piano",
   "sketch-book",
   "skyscanner",
   "slack",
   "slopes",
+  "snacc",
   "snapchat",
   "snapdeal",
   "soundcloud",
@@ -21520,6 +28136,7 @@ window.LIBRARY = {
   "stripe-checkout",
   "stripe",
   "sundial",
+  "sunlitt",
   "suno",
   "superhuman",
   "supermemo",
@@ -21532,8 +28149,10 @@ window.LIBRARY = {
   "the-new-york-times",
   "thoughtspot",
   "tinder",
+  "toing",
   "tolan",
   "too-good-to-go",
+  "trello",
   "tripadvisor",
   "turbotax",
   "turo",
@@ -21547,56 +28166,61 @@ window.LIBRARY = {
   "venmo",
   "vercel",
   "warp",
+  "wayfair",
   "waze",
   "wealthfront",
   "wealthsimple",
   "webflow",
+  "welltory",
   "wetransfer",
   "what-the-forecast",
   "whatsapp",
   "whereby",
   "whoop",
   "wise",
+  "wispr-flow",
   "wyzant",
   "x",
   "youtube",
   "zapier",
   "zazzle",
+  "zing-ai",
   "zoom"
  ],
- "chIcons": [
-  "adapty",
-  "airship",
-  "apple-wwdc",
-  "brilliant",
-  "built-for-mars",
-  "dive-club",
-  "duolingo",
-  "emil-kowalski",
-  "figma",
-  "first-round-review",
-  "google-design",
-  "growth-design",
-  "intercom",
-  "irrational-labs",
-  "khan-academy",
-  "lenny-s-newsletter",
-  "lenny-s-podcast",
-  "linear",
-  "nielsen-norman-group",
-  "nir-eyal",
-  "phiture",
-  "quizlet",
-  "rauno-freiberg",
-  "reforge",
-  "retention-blog",
-  "revenuecat",
-  "sneak-peek",
-  "spotify-design",
-  "sub-club",
-  "superwall",
-  "the-learning-scientists",
-  "vercel"
- ],
+ "chIcons": {
+  "adapty": "data:image/png;base64,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",
+  "airship": "data:image/png;base64,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",
+  "apple-wwdc": "data:image/png;base64,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",
+  "benji-taylor": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAYKADAAQAAAABAAAAYAAAAACpM19OAAAEPklEQVR4Ae2bTWsTQRjHZzapTTa0kjXSgvUkXuypXlRQ69tBEERveu0n0B48evAL1IPfoF4FEQQFtbQfwAoaP4Ct0mq6AUOT2CY7/sesIKEp2c1OZtX/wLJkd+Z5+T3ztjMTIZhIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIYGACcmAJQxZQKBQmMxl3bGQkKAaBc0Crd5xgZ3fXqbbb9dr29vbGkE0aSN1fEYBSqTTWaqnLjiPPC6GmhZBH4fUErmzofQv3Tbxbw7tyEKiVbFa+rlQqtfB9am+pDoDneeNSyotBIO9KKU6C4lifJGtKibeOoxaUUku+73/vs9zQs6U2AJ43eUKI9gPU6uugMhKTzC5axDMhMvd9f+NjTBlGi2WMSo8pvFgs3ZIyWETtPwURg9iYgQwEMriRy7lfms36h5gmGSs2iHMmjJKed3gO3c1DCNd9fFIJXZm4lM8XKo1G/V1SQpOQk6oAoObfRo1dgGOHknCuS0Ye3dFZtIS1NLWE1IwBGHAxu3FeANpUF7ikf66jS7qKgbmctOA48lLRAorF4kEpnQVcp+M4EaUMWtg48k/kcrmXzWbzR5SyJvI6JoRGlalUZhbwr2HKGLVo5PxaR0dXZjZyYQMFrLcA/ZEFvx7hOmbAv14isxiUjxQK7pN6vb7TK9MwnltvAaiRV+DozDCc7dIxE+ruejzcnykIgF5e6PsLN0k6Y0r90p2kzMiyrAZAL6xhaojZj60kpzs22NKPeZ891UK4rov+X5medu7joprq2LBPFsOvrAYgCAIP/iX5xRsV10RoQ9RyieW3HABHL7L9XlJOzKkIgrLYU4i70BdBTe+sVgPQ26z/543VAGAnC8vFQm+m2Eqt0AZb+u0Owo7j+PAcO1nW0mZogzUDrLYAfIViy1BiccxWkusdG2zptzwN7WygK4urkqpsexPfagvQ9U5KtYKbjc3zWqjbXvWH5hQEQL6CHasWKKxiaVrrtpqsr4bq1cjRUdfHkZObIDGUbwKAbwaBmPf9ynur9KHcegvQAKRsLysVPAcY4zy0jo6u9rJxZX0oMO9xH0boLNyS7BOUqWyNRuMbNsw3UEMvQIdrRo/cwobYfLW69caM/OhSrY8Bf5qM0wplfXQEz87hwimGRBM++uS9arXyOFGpAwpLVQC0Lzi3s4qW8Ald9Rm0Br2BPlAKx5XPqPl3AH9xIGEGCqcuANpHfW4nnx/HERWFDRtxHFdcO/XRxKeYXM1Vq1+XtOy0pdQMwnuB4eHcvahYeMbj6Rag91L5r/1Bo5effE4CJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACJEACEQj8BEuAK4AWdzPoAAAAAElFTkSuQmCC",
+  "brilliant": "data:image/png;base64,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",
+  "built-for-mars": "data:image/png;base64,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",
+  "dive-club": "data:image/png;base64,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",
+  "duolingo": "data:image/png;base64,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",
+  "emil-kowalski": "data:image/png;base64,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",
+  "figma": "data:image/png;base64,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",
+  "first-round-review": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAARGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAABgoAMABAAAAAEAAABgAAAAAKkzX04AAAHLaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4xMjg8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+MTI4PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CtiXIw8AAAK+SURBVHgB7Zy9Sh1RFEY1ahOw8Q9MIwkGRBAbe0WIL5N3yWvkbWxTW6Ww0TRW/uwNDgxyRz4J39lzOWvg4Djzsfc5a907XufCrKywQQACEIAABCAAAQhAAAIQgAAEIAABCEAAAhDogcBq4SKz95cY2zGeG8wj+/2Ncdugl9yiUsB+zPJ3jFN5tv8fzH4/Y7QQLs12XUp5QntR9txTerLq5uSZohOfivpm228FvWfzyh/WXingYphEzz+rBKwF9KuewQ9rrxKQ1+L8BNT9ViXgKMjnu6D7rUpAXn4+d08/AFQJOIvelf+DzMZ9hYCtWP3BbAgUT6RCQP7x3S1e92zaVwg4jtXvzIZA8UQqBCT8jeJ1z6Z9awEJvuXNt9mAnppIawF5B/RyajI9Hm8tID8BHfYIemrNrQV8nZpIr8dbfh+Qva5j/BBh/4rciZhd2lhLAY9B6eZ1KMDuldCyZ1pegj76ZUgXN+taClj2F6tl/giwYNWLIkBnZUkiwIJVL4oAnZUliQALVr0oAnRWliQCLFj1ogjQWVmSCLBg1YsiQGdlSSLAglUvigCdlSWJAAtWvSgCdFaWJAIsWPWiCNBZWZIIsGDViyJAZ2VJIsCCVS+KAJ2VJYkAC1a9KAJ0VpYkAixY9aII0FlZkgiwYNWLIkBnZUkiwIJVL4oAnZUliQALVr0oAnRWliQCLFj1ogjQWVmSCLBg1YsiQGdlSSLAglUvigCdlSWJAAtWvSgCdFaWJAIsWPWiCNBZWZIIsGDViyJAZ2VJIsCCVS86ZwGO54o6auq0FyRbPq5mQft3D/2Ls3ejRD5tZQA43h9FFu6Osw8LE4UHhwUVTmGy9fc4k483ToA58t36FCO38f6whszk9vb3cTafWfQnxpDNPBsEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQjYCbwAZA8hbevgEFoAAAAASUVORK5CYII=",
+  "google-design": "data:image/png;base64,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",
+  "growth-design": "data:image/png;base64,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",
+  "intercom": "data:image/png;base64,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",
+  "irrational-labs": "data:image/png;base64,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",
+  "khan-academy": "data:image/png;base64,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",
+  "lenny-s-newsletter": "data:image/png;base64,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",
+  "lenny-s-podcast": "data:image/png;base64,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",
+  "linear": "data:image/png;base64,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",
+  "nielsen-norman-group": "data:image/png;base64,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",
+  "nir-eyal": "data:image/png;base64,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",
+  "phiture": "data:image/png;base64,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",
+  "quizlet": "data:image/png;base64,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",
+  "rauno-freiberg": "data:image/png;base64,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",
+  "reforge": "data:image/png;base64,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",
+  "retention-blog": "data:image/png;base64,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",
+  "revenuecat": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAARGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAABgoAMABAAAAAEAAABgAAAAAKkzX04AAAHLaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4xMjg8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+MTI4PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CtiXIw8AABcNSURBVHgB7V1plBzVdb7vVXVPjza0IwmxCQRis8EsZhMW2IAAQRyE4nAcEuHYLImdnIRfyck5wUlOcnKO4fgcstixOcGObQIyjjESW+ywKBDFYAkkxCYkEBLaJaQZLTPdXVX5vltdPTU91dUz0zXN4PSFUlXX8t6r795337333VdjZAjUvWTJNGsKF3pBMF/84BpjzFSRYEYwhDJ+nW41+jJmRxAEe8SaJxxjVvpBz6rxy5btHux7hmWk3P3wkiXO1Tb/KdeXRZ4vix1rzwgE/wX8t01EgCBCGLE34vn+esfKI2Uryyc89MOXcS0VpvoMCMR033jLPOP4S3F461jXmdbjeVIG8G2qj4ALRhQcR3p8f3fZ838qkrt3wo8feAu8SQQukQEBpH5/0LnIDfx7xARzHGNNOfDr19q+MgCBnLWKeNkLNnrG3jXRHFluli3zam90ak88s2CBO3381NtN4H3DWnMs2Gb8ZObVPtr+HUPAh6bg5loz2Yh/ednJH7py2qQ133vvvX6S3K8HUPIPBvnbAfrfuMZOakt9DNEmDoElVLf/IcD+i3Gm+O14T6gyIFQ7uUWumG9D5RzdBr8JxBMeJRO8wN9ZDswdE23vYxETbHRvt+/OtYG519o2+BEmWe4p0MQWY/Ff75GOk6OylQHB3XdD8O2tjjUn+H4/FRXd195ngACx7XTsCTk/uIvmPYtUBnS9seEcK2YpNptoK2VQebuI0CGAST/ONbL4CvhWygC1cjy5YYzrTG/r/ZEXk6LvSafrTnaAObE3XTffPFVK9lkXHm65rX5GngOoAVgLsF4vOX8BjpyLEcNog98S6MNKKOjEnNhb8WV+W++3EP1KVYo5sOcgvJAeW5tai0AF84UwfIJpra26XVsVAWBv4QofXT3RPmgpAsS+bfe3FPL+lVHxu/1PZfCL44nPorFFYwv30XG8CsTOlbiHaaZb/Horjml6c0tqI9sVbYjxjwRlx4BiMXyJXE4EjTVscA7Fj+kUTBOJ6ejQ87gpfA8wKejpCY+xD3p7JSiVEPsGGBbPutgiBmX55iyzXEabEJon011EYTrRxkJBTD6vv8M2Impz5IgI23YE7UT7tOl5vB+fy4iaZwDBLXSIc9YZYmfOFDNpotgpkwH8GDETxmGbEALZkUegg1IUYwBfCoAEe/Zi2yf+3r3ib9kq3jsbxd+2I5RMMiKLF6aEg7kBBMVOnSLOCceLmTVLnOOPEzub7Z4kAnCNQ0jYRrSL4O/fj+2AeO9vDdu2br0EH+4XwftkQc0xgODxhY6bLYU//kMx48eh3ZCOimZp1MDqbTNn9N2KXuCDId7rb0p59Rrx1qwVv7sbTC703TOUI0p8saTtdI49RtzLLxP3rLPEzpguZuJRlV6ZXKC2r9I296JPixw+LN7bG6W44gkpr/qlCHtOkmpNLi7xbHMMiIqkhFIispBUqDCLl+aWu/QiKb+yVnq+/yPxN78vBr1qSC9MAYEUmzFjJX/VFZL//PVij56eCnr0Sol71O+cfZZ0TJsi5bWviZSgyjAD3wxlwwC2oElJSHwJjBvup8+XMXNPkt5v3S+lF1YBTEjdICk4dFick+dI4c4vizPv1EE+1fg2O2um5D4zX4qPrUCvH9/UuzfHvsZtzeQOO3mydP7JVyV/w3WQaIwbgyHcl//cAhlz959nCr5WjZ7lXnQBDqGkMAY2Qx8LBugLQt92fGGxuPNOCbt+vbem2oHV4lx4gXR86ffCwbXevcM9DwvKTpkSjiG0qJqgljKAZl1w6FDfRtN1CMRBM/+b16u1kvgYwYfacT9xpnT+0R1ijoIFNkRSyyfeRhyryRovB2OdGdspdtw4CWg2N0HZjQEpjQh27Zbenz0ucgAmHQDSrovBS60mmKnOMceorrYnHp9SSnjJnnwSVMop4r2yboApSPCcE0+Qwu1fCnVzw9JwA6TZ37ZNvDc3qLnpb9+he30UgRozdqwIrDsHJradPUsszFZtNy0g+gRN5ku1hAH+zp1Seuo/RQg+HJ9+BEaUMNjaaVMlf+3VkrviMwAWTlsdstOnqU731r3e/46KEZC/4VoFqf/F5F+0rEq/eBbm7qvi794jQscriVB2Cf6IgcRb+A/OSSeKe/65ocndpOVXg0ZS7Rmcg2qgd6ymai0DWDz0KB2wI/f9s3ib3lOrJc2kVSdq3FhVZVouy4Ct78w9uTI48kQKob7eHz0sxSchFAcPhkDSa2/gXAX0A15dK97adVL6+TPw3ouh95xSVaNLrWFAo1aQQbD/meBafm6llM44TXIL5td9iqqKaiCAg6YMoPSDsfnfWNRY9Rw8JIf//l4p/+9LoUmb0tsGNED9nbB3khkqJGx7E9TSQbhhOwEipar80q8GDnzxh6F/NXTAoB8BgPdsTzhOnNNgIaURGNX7w4fg3L2KEAnsd8athkvs0U2Cz6pHFwMqYASICamE1QHHUB/TIaPkcwMQLnoN/YU0otT3PvoYAoP02puT3LR6hnJt9DGAVgX0+aA8a2JY9mBuHiUOTM/qeJCEAAbY4qPwXBlsY7wKfBsNNPoYwG7NjZJdj2h7qw8R3seIq4kH9BKeo9rx390MtQPpH0U06hhAx8YgnK32dx2gfISH/b37KmokEDt9qliGvesRmFl+FWFk+AnIB6l310dyfnQxAOahwUCcu+Sigf5CDJ6ApiPVFHqKDgHwDXRSJXZP/DDoPgjpfw+9qjmvNV5mVsejhwGwZDiVmbvmKnERx0kjH3MF/ocfqs6ntuJEkM6+1XvIQ7yGTlaKVqv36Eifb40fQFubSGHAVBBUvxMNSDByJQ30sj3uWHHnXyL5RQtTHSLGk7wtW8MpQk4hYlC1UzCblULB4SPid8FnaNJrTali2JdawgA7+xjp/Opt4u9DLAjqQE1MqpCOnDjTMTOF63bG0ZgsQYqSTlvWf59gx054ouv7LB6qdE7UpBADgKmDesqzI32pJQygfnYvuVgdJn0h9oaI2BsG6xAhcFZa+aIE+6B+GAijNRQvKyrzY7RvCQOqeAwW6OoD/Q88TIgXlz85KlVJ/5YO/ld2gzAlucnYeFqzvbc2SA+CdWpKMlMiTo16QUZhg3iVWR1nwgBVKGBAABWROaFcb9O70vMP3xIP8wpMgelHZDrt+xQykycilIy4/ggKSEr1qZcyUUFq3XGWqEkVM6ClKLj03AvS8537Jeg6GNr67GkRUfLxM0CEM42Mg0grB+pMxC2tpqFfG4VNir0EuxYtGILPAFocfN6mDECy1e69A6/Fi0HommauBLHBP3b9ozzMpAc0eoGgq0tKz78ICUb63+TQZucxpZd5OtG5pHLc+ReJffrn4r+3GZbPwDhOAN/C37499AvqJW+BUUweUwaSiY3GjKSGjNC51jAAtn/xoR9DjXRVgmFYK8jYP3Q3pyALf3Bb3dADA20dv32THPnbbyjDarPuDKY0OZ3oY7rT1mMAwMstuExnsTjzNmBadITAHUyxLVFBAVM3ovg74zGQwqASyymteknKv1qT2lb3gvPEOeeT0PWcPqxRIxh7/A+2ib9hY2oZnIBhWgtTKUcTtYQBmnVM0SV4DAdwY0ofBm2CWoJtrwmv9ZCBGVn4ylJNqB2QmIVr9K49BtsakHvxhZj4XxhmZtSOJw2eHanLLWHAgMEzehuAQOYwz7L07MrobOLeHjtbctdfE2qgWvDQw7y3kVayB5kNaQQB6PidL4h73jkYM9AT2DM/YmoJA5j3X6u7q+8NUBiQKz3xVBhiqF4YeJCbf4k4p5wcBvXil+EbMJvae2dT/GziMWfPCnd+RXJXXqHjkcalNPe/Mjizl6ZtZD79ncHO2iW2ou+k82enf+Luvp9DPGJDkSHM9QC5zy6o6wdw8C0/8zwcJuR10iutIQ7IPuI7ppBH6jimFlluAukiD6iv8qvITNZxJSY/1O37uyTHNHKmmKQQMyrcsz+J7SysUcSQxHx/1B8U0T6WQ4EhwDxmT+F57tF+w3OM7o7F+geOa8wNTW5uSgv6LqW3tO++po4MdT5eNI3o4RZ/ukJy8y9FYhVs9jqkKeu/fDnMz48zE+GJ8vo3MKCvFvfSi+s8HTsNv8I57VRNsvJ3wYp6623xtm0XH962LhiB/6HecwdMZyQAWKQ56gIUDOacsePaAIZG/I3vDvTOY9U0OmwJAzRE0UhKOJhiQC7+5FEpfO2O+qYiTM389deKt3GTBHsRFY2kHRPtgV+Unu8+IJ0IbTtIYRwUYQzSlEOkHSoYVDEMWXBfq4pqCnROmQvGbcDZmvBIzX1pP2N9OO225q6pFdSgB/CFTecYTZjSvKCUKp3T50l+4ZVh1ydQFaKK4uqannvuE84bDIsIOnsW1KLu2XvrqEQ7a0Z4T6wNQ62zJQyoawXVthY6lc4ZUwZpWtYlAMQFEkwR72fJKBM7xcd6riP/9J2Gg3rd8gd5gZaZMDg42hmQagXVvizAZei5/PLq2iv9fhtMxOcwfcnVlQPGl05YRUhD0VzTN97s91yWPyxn80bNCpk0HV+nCyeCwS6PBRbFx59uKMEcC9zzzwvnCOJ18Bi63VsDJtx7n/T+O8Ig+5DGkjFxkFbLjHPdw6TmVRBfloMWzbZ6FA1q9a7XnoeH7G94J8xA1vUEtTdUfqO3dNz0+dAKqQWB7aKnjUhp8aFH5PDX/w6ZccvV3B2w4ALFaS+N7bWGRo4aVQ+Dik2Q6brpi32j2HALgmNCq8OBDc9FcfgikaoFzcfBggd6upqXM5Ty+XKwsaln3XPPFi6M0xUvPM9egrHC+2C7eDA7vfc/wL3wauO9IF4Xn4G/wjgQc/zd8z8lHMgZorZYdaNqhDY9o610sgB8FKuyEyf2WVrxMnHMuekj3/xHqLu1qZkcNY/1+5mNGQpJLMMTLb+GRRM41oGRL413UnIxIcJ4fgQQr0UUnYt+R3ueh23PMHQveoP2Mp7jo2QwCydYMENNHgNhFOyLno/v+RwXYbMNcLIY9ig981yY208zdCoGc7abDpaCHzpdHFydM06Xwm1LNf80XmRWx9kwAK2pLh8luEFFkriOlsAwGVYJxwzC8WUjouqIujpUlX6ugNdZDlUX7g/nDiq/I7Mw2lcZyHqjQuvsWSYZBtWkxHrRK7wt6EF8mM+jifoPy0WIJMB6Be+yi3W5LK8MIJbZBGXGgKopRhAxiFp4jwY5+/Z4LOmZe5Lm49uj0J1rJRXt9w8cCAGHI8ZFF5pIhfxPQQiDx7qwD4lVDGsbSLCqhzL3kFQCRWagXIY01H6vMgXI1AKkeFVAI6OxKea1ILIMqqwCvOBp6CFJhHvS0uiTHqk9lx0DKg0mIPlrr9L8TgtPUaWNWQwEqQ7F+kMIWFQWcNK5BACh2RDIiqOjFR7jOw6I4fg7d+mm33Q40IWkXXjHAXoV6jNQfdrbIm+5Tv2Jp9l7Ef/JL71F7Jw5ibfoqk/OUbBXD5OyYwClERPfhd/9ouQ+tyCUxOE0iuCTOCCCVG8z8KW/gOucEytHlR11NnocA2bc8yMfZIqHcYMTNcGOXTiPvFAM0tqDdH0ASmOB7AjskVGv4J4/ATwDjB13fBnvcnmlooE7rq7UJLEU4Rr4VP8z2TCA3RzSVrj99+GhXtq/hpH+BbWjy0YFX2ZBXUyDrJKqQ6gwpLL7YIS/ebNOxmgvYnIvGKZpixWmUIXRwbNz54SeNr8rkULllzGTxwgvB/dhUvMMgMTq3C6A17TyYTZkRB6jGsI6X26aFXHBuX3VcADmhD7GH1WTlGL0uqox0Xdn4pEH66z836tU1VWtu8Q70082zwCWD3Mwf+Vn0Qv6afOwZvSOALpZpZBxd1gWYZevNIxiC9llOJo2uhKPqXYQnNNBtXbgDu9q7t/KgG0LkZSjF3PR32AI71ta8SScun3azsE8Uu+e5hkAKTKImXMFeS2xZ5RWPKXran18kEkHSsZu4joTaiL8DA3YwMAWpZDgYxOWy+/6YGwx/DbDOOwZj+d3fuhb0Jwks1KyIWrbVP83JGEQjNZ3euwJKT39i6bBZ1uaYwDVD7qyQ70b2daxN6TDw2/9GI4RBJ0DrA56MUljD+GaW+4PdscGxMo9fIbPs3zqaICt5iZmzwQ9xE6aDDMRG+YABKskueKejlW9XCP1hisDfKypyYdsE8zeMKkAHWTzFun9wYNhoJDjRgbUfCl0lii5CdLDRXGGupbSTBCTiCZcdIlg438uutB9dJ7P8XnEmwhIPAfVj3+hC7do78G8rz1+toar+W0JhjHsVMxiwaavCgDrakTKfAAPa6r0/Av6WQN+90KFIeF9GxWXdL15BkCyNeEqQX/y+3EaLqBNHY0PESMYRuAztFSIOxZm6ACIvVomyojYmEIwogV2cRUWvRXLxaa2OXoUvwMRzsThOdzPL5sYqrNpsHJg3Tg8hsWjH+ujGmNYmXVARVLNsFcGHyCOte41SPwa/a3ta8LiiZoa3zfHALwwuycHWC6uVr0dKz1/3UJ8A2KL+G/DJueqRr4g4y0gHXThGVMy7Qx8ogypgzoXDInmtxiKGDvUxh6sE8WyuUXUCYbGfgelIuZvN4loXIldJbw3tIBgBHCVJc7p/AKFA3PCTHtUT5lqDxP5dXtxVOcw9s0xgBWiKwaHepCpsE7yTICNERtd+Nqd4iNdxN+CeAvVDQDmeY2lQ19T8tTZisWHGLoQmI69D/xATUVVR7FyB30Y9TY+gF7QbyVlpcdoD2XPoV9AUsaEgmLGsgfiOLpXb8j2n+YZgMZxUoITKPxQUq01xEHTOfN03YbSdPfcc8TDZ2T064RZdXsCGSeCTXO0HuntNc/Uu3eY5yGSGRAslABuec93v6ff/sygRA0F2GNmjki3z6J9WZWRDQPYGjDBw8RL7/3fD9PFeY4W0DCJulhT0iu6epjFjPrHUvrfENtOoDDpUWL8HIvp8ktuFBeuv36nc6ggQlWUV/4PLJD1OggOsSUfq9tNN6YkM9VyBJvhY0g/wXdPPVUsvuPDbDJ+G06/01NbI55R64PhZlhL5dWvSPm/nsc5RDnTdPTHCuqBjQVSwjnhHdjDjcyQWDK4SlANfICAHiwGUibGqieroYTQxueEi+ZXkmndlQkZHBuuA45ZRhm2bjQVtRPLVAyWHgbZMqDSpTRlAxaShiIg9TT11LbesjUZBDpr6A0aExqq2koucXSfBfYcA560xpw5on9HhmBGgP76S/WgmA7MGQh4Ej66rKTGaFNrEVDMgb0V13sRfyN+Pf+4WJtagwCxJubE3o5/8MG9iHj8R6HNgNagj1qINTEn9hqdRwDyZ4fL3i7+zds2jSwCxJhYE3OooUARn3Da3DUICj+AzW+PByPHAGJLjIk1MWdNVby7Ft88D5+/W+E6do7HSZY2ZY6AA9VT9vxNsH+um/DIg5o3X9U54215g2+CP8UfHd7ZVkWZYy/ElNgSY2Id1VBlAP/G+URTWo4Lf8U/QN9mQgRR83tiSUyJLTGO/p48Sw7jAZU6vv7668FV06esOXb8pAPg1nn4k6uVPJHKDe3dkBCgfgeGcLiCnY7j/OVLu7f+y4mPPw4DqI+qY0DfKQzN+Hvn+4PORW7g34M4whwHC2Lbf207jlDjY0q9F8DXDcymsrF3TTRH+kl+VEIiA/QiJrq6b7xlnnH8pTi8dazrTOvBXGm5NpIZldTeKwIuJL6AcMuhsrcbMd5/DTz7wPif/NubMHcSg871GVAB9GH0hqvxB+hdXxZhwcpijORngK2YJuW/bSICBJEJAPwPFuR6TH0/Uray/Cm/uPq3MLamodSQAfGHu5cswd+/LVwIN3o+FNs1qHQqFNaM/6+MCMEzOyCMe5Cc8AT0/Uo/6Fk1ftkyJA8Njv4Pm/7FtIVWl/4AAAAASUVORK5CYII=",
+  "sneak-peek": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAIAAABt+uBvAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAARGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAABgoAMABAAAAAEAAABgAAAAAKkzX04AAAHLaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4xMjg8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+MTI4PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CtiXIw8AACKeSURBVHgB7Xt3YFTF2v6ZU7elEhLSSYEkkNASCEGR3kQQUAFF7xVQ7A0B9YJeRf1+V69dL34qiIUiAkoRBARElBZKAgHS6GmEJLAJydZTvmd2k2wSNgS5/v7LsGTPmZkz85xn3nnfd96ZJbZjPkx7ap0BtvWi9hLKQDtBbchBO0HtBLXBQBvF7RLUTlAbDLRR3C5B7QS1wUAbxe0S1E5QGwy0UdwuQe0EtcFAG8XtEtROUBsMtFHcLkHtBLXBQBvF7RLUTlAbDLRR3C5B7QS1wUAbxXwb5a0Ua0RjGaKoGiEMz3Aqy7Cs6q6raYyqaBruCOEJ/dYY0koz/202YQCDkTV8awQYOHSkNcDgWFWTNRX3HEtUBpBvBsZNEkRUVgMjIsOKhFdURWbszvq3lXgi6DWZ52Sb6nRyPEBSYDcDri3+8M6aE6MgqryO42VFcRC7Ut+ZyGmcXlVZVnFQngCYIfXctdVss/KbIYjjGJVRWI3ff1Tem2UvyNNKK2WbrX7sJB3pFMAmpXCDU/l+iRhgOq6q0jCyzXq/+RvQwHHghwgMk3lC2XXYnpujXLyi2q31LOh1TFgw2zWBH9BbGJDMa7wMCVOUP90juZF9MUJYjZEZhfACw4nMhRJt6x/qdxsd+7MUWQFQvU5n8PM36XSi3e4wm6/abRanbGMJ0zOJf+x+dni6EBFGnA5GxpSk8o4ZeFPGgcqtoDBOkedYXj1fqv2Wqf7nG0dOvqKoDM/rJArDRyeJNpuj2lxrtwOGleeZjN7C1Du4kbfy0WFEAQxFY1kMGK9pbRN2QwTRicxyvKTWWdW1m+QPvlJyCmWTQZ+entGzV4/evXpHRESFR0UajUarxXrh/JnS0pLDSNnZR49kV9fUpHQlj9wn/m2CqNND4DEHgO5mpB0gCFE5kVgszNfrHIuW2/NOaQG+vsm9eqX16ZWamhoWFh4VHas36OvqLCUXLhSVXDiSdfhYds6BAwfqLJbu8dzs6fyksbxJBxiYBTLaa1OibogghqiijttxQH79A/vvh5SgoKCHZ84cP/HO5OQeIKW1Pq7W1ebn5q5YvvLTzxY57fZb+7ALntEPzeCcFqrAW3uq1Xw8AaVn0HYcUF9737o/SxMl6fHHH58ydWpCYjcfk6m1B+vqanNyctav/3HJF0sqqi4PTGVfni0N7ys47SpmaGtPNeZflyACvYaZK4sSu2K9/PQbVnM1GTJ08NvvvNurZy8CA+ZKmksc6m81iC6VjsZSVVWzs7NffWXBT5t+Dg1iFjylf+xeCk5WMdmo8WmE0toFIRqdQSwRJPbTlfY3P7aVVjJ3jB3z6sI3evXqxWK2uFI9DFDvatJ124gCHWlZ2dkvzp2zc+evfr7aJ6/o771TcticjMpDgV9HQXILHpNaQwYB1DgVM+KL75xPvmln2cCX57/0/ocfR0VFeXp2ceG5BTxXamwTd6GhoWPvGKfXibv3Hl23rS7In+nXm5Mx/zVqlttM8BI0ThEFFnPq6ddlVvB76cV5b7/zXufOnT39NsJoaLE5CooKMCZOutto0O/Ze/THX2oDTVqf7jxsMQtj2DqI6xGEVnmeXbjItuBde1h49LfffPv36dN5HrqN9td6my1LMHo8LwwZOjQ1LXXf3v2rN16C2R2aLl5n3Jo2gXHieW7hIscr79ujY+KXfvX1jBkzOY53UfAnYECWBYG/bdDgtNS+O3ft/n5jJdTh0AwRFvY6yQtBcPQYeF0MA4O9coPzxX/bg0PDF3/xxYgRI5H5Z2G5H3FPhLjYuD6pvdf/tGnbrhqDgdyWwSsy2kNf3oeQFhFGMpB3v3D88yN7YMeOK1esHDJ4MNpEg39qkBqQ0/eKjYvp1i1px6+/bt9tjo3kenej5t816IDRknEvBBECH1SB3tl3zPHgXFnUBS5atGjs2HHwjv8sJqBpmiBKUVHRERHR23fszDxivTWNiQolKpxt71Yf/CiCwMDbemohYPh//NEnt99++18BQ42Li4+Nidm2dceW32pvTWdjQnkNAubt9bwQhBkkCGxRufz32daSSv7zLz6/5+578G6uoW76vjd3raakpHSOil61dl1mtmPScMlgwHDQJUuLBBgcz1ZVMdNmWy5WcJ9/vnjq1KkuGKh6Te0WD1/3FjygnaSkpMjo6NVrNhzMso8Zwvn5sPC7oXVbPEpFrkWiTpSgvbfYmZXP3DVxwpTJU1DBG7ktnmv7Fo1APFFv4t2THpr5cFautvBzGyOBipawKAOYXzpUsKPa9BmzJk66qwHGf8WOG6X7daZMnjxpwp1Zedo7S+xEoKu5a5MXMy+KzKFc9Y4ZVr1P6Nat27omJDUgu/bxm8uhU/3s2TPDhg6prrqw8iPTiFsZh4UOQtPmJAO77Q/l3qdq/YKidmz/NSY2tmnpf38NIUIjBfm5I0eNtNSUbPpKn5bIOh0tSWp5DxZtTvLJV45LV9T5C16GD9bK3PxvEFIJj4mJnTPvhRoL+/5XdqvNvRD3tAkptli1D5barlq5ufNeADuA4Sn+K64gRGgTL7hgwcuVZuaDLxWbw4sWaUIQxg+KhiXH8uUftjmHDh48dep9QMJhbfpXJ7eEz5w+o29a2p5D8vFcuvqgAoT/KMOCTdNycuU/Dsv9+vadMX0G+m90CP9CLO5Xm3rvtGFDh6392ZGd5xoDGI0mouwhiPLDcAKjrdhor7ORWY887OPz//d8p6TTzZ4zz2ZnV/7sgC9CRYSGj6isyIRZ9TMiBNwzs5+XJN1fSMq1TWGZ8tDM6Q6ZfL/ZKXKwqlimeaTVQxB443i1sFRbtVFJ7tZ98JDh17aFHMwOWZYdrqQoWJdfo1+9PtZK5i0DBvRN67d8naPiMovBYeC3qwQXuF22wZmW1ueWARleH/1rYQwZOiylW/fv1jsLiuFM0pV5Y6eeeBACbkSnrt1ur7rCjJ+UHhISjEpYz8Ehw4W5ujo/7+TBg0dOnDh5+nT+mTNnOJaNj0+I6Ryd0qNPekbf+Lg4k2vF6KbMPYkau2ntIjQs9I7x4+b/Y9/KrbbZj0jqZfTIiCbm+xX2qirtuecnYoGOBpHcU+yK2ZyXm3v0aE529pHTZ06dO3eeJWxsXFxM5869+/Tum9YX3o2vnx8VRRrtpKm1rpvmh3Tq1D8jfemS4z9ud8x9WKdasfhoGHjEg9wfR46PnOczcSQvCfrvv/8emFQaOtUqKy+tXrNmwoSJPr4GNCoJrK+e8fdhAnwILiSBIgjq4Dd1ytQf1q6WnbLrQUwTcHtDaefOHSa9/s7hrFLgY8vxteX4yfmm8UNZZKLI1RqFUV1tXr129fg7JxiMdPGo17F+BhLgSygMI6MX6VToEOR/18S71/+4wemwUQQ3hsFdC6+MF580kpfzTI7j9ZyAGY+Zx7LrXKU8+v46TuyyL/NQQIAvuty3b+9zs585evgIlr0RAaRzR87PwBoFjeOpQgeDdXZy2cKcLpMraxheYEeNGvviS/PT09PxSjc4elWVlUMHDb5qPrHuS1O3KKqjj59Tx0+v8w/svvO3XR2CggBj+y9bF77x6qHMTLtTjQ0m0SG8n44ARoM2JVYHqbTI58u0kiqVF/nhw0e98NJLAwbccuMwrlyp6d8vTXUUbllmxGvKznoJ8kwxjtWKi9VLVcyI0T3BDsrXrl39/HNPl5VdDOvAJkfrIv0VxBxQDY4o7A394ErVIlQ2KUwouazmXFA2/bQxK/vIh+8vunPieAgp/l2fJrwAKIhL6Lrj5xN5p9XkWOrLFpxWq6uZfrd0dbPz4w8/PDpr1pXqquhgLjVOCjSogAEb7TJ4VHBcKNQQf5IYTMpr2cNn1E2bN+WePPafT5eMGDkCFdpM0Kp45eSePbZvKSwu1uJCED+tTx4lDdNacIqprWOSk6ln+M1XS2fNnF5VUZ6RyI5I5roGa74GTRS4Wht74bJ2slTLK5OLzYzZzggShFzrFsWNSRO7R7MVZSVPPTlr27ZfXARSl6ehLy/fLjWvJnVLsCtM3kkFYUvC8nn5mk1mEpK64YHvV6x4dNZMp71qYHd+eBIX6qv66KBD1WorKTJrx8vU3BL1/GWn2aZKPGs0MfGdmLFpUr+ufGlp8cwZ0zdt/tlLr9dkASTmY0pyd7x+wSkoaQ/megmCLkNQqvAC/jB33DFu16+7nn36MaLa+ydgn0CyBQ4yW2uK8w5evGy12FmHBuUENUjgzgks42PUekSyXcOYIF9tVG8+NFDdfbL8oRnTPlv89ZjRY64v5JAEVEjtk6powpkyhZGdkIfTxYh0C7feesvyZcueeGIWr1n7J7J2xaCEDS+tvlRyKrP4khMwnBqNukFJQ5h5onbw0xIj2C7hJMCkDE7hwgK0rdmlsx6evmTJ0tEUBpaiTaShOUdwiGAEhg4d+tprCwuLEOFGLAU6hFaqfwZ9wJ0tvKAhzgKZ/ce8F6xWe2IkY+rQ/e0lu774dsM3q3c+//pK3hRpc6oGljVxjI+gGTDXVObyVfX3k+r2Y0qtXTPo2L5d2YwE7lJ5xcJXX66qqEJYojmYZneAxbJcnz6pvCCWXWIcTgayU1KhGnT6oMAOb//rbYfNmhzFBEQM/PeXuz9evGrpd9tnL/yOGCPxEnqO+AvEl9cABn2Um9VdJ5VtWXCIEY3VUmL5W5K4iovlr/5z/uWqquvPdIAArOhoGggsOM9Y7Zi/9clDqiKrFiuJjY3/6qsvDx/OTI7jAjv4Pz5vUUa/fjrod5109913/fvtD/Ss5ENYRIDx8WFJIMf6stiaUgvKlE371VonjZMM6M50DmEPHcr64MP3QbdHXht6bfx24w4MDOQ5cqmC1Dk4i42pqOR4UVi7bt2xEzm940lYWPBzr3zcp1dPSeQRlpw0aeJ7735kEAxGhhgJMRBiBAyB9eGJxJGzF9UNmcpVG0aaDEhhk6LJwcysVatWXXeiU+cOkAwGY1RklKVOUxv2+JDZQBBhnE6mpkY2X7m48pvFvv7MoB5qYET/kaMGUo/C9Tz+DhwyOD4p2YJRxoYgNAEmCKvqOGLiiK8ABclszFSciuzjI4xO5w2CumLF8vPnzzeORiMvLS5EUQwMDHIqRHaqmGROp6Laa5d8+lFUCNu/m2YI7pnWOwW9I7mnZMYt/YPD45wO6qRRk0E1tqojGDPNVyIXzdrmA5rMaEYdGd2fgyvwwQfvFhUXt+i06a17nPR6fZeuiXV18IRhAOrLGwjCBq5C6qyMpdbskJ1JEVxERwHMoBb+N4oAxYctDpc/DbgQDlcpcDJGjjXxakmVdiBfkwQ1ohPbK5E/c/bcvj17mkLxeg0VgDi3A9tmKt2MARKnbLfY6tIT2eAAqgwaAeDx+tUadTMQzMeigAbcUAPhf8DQgyaBKbms7M9TBVEL9ifp3fiCwjN79+yl7+JKXjEgExNNr9fVWlS7w9Ohh6DGx/QSSe3O6SRNMR/esm0XHnPzCXZ+3bmrIPeYTs/BA6K9uaC5e4WgiYSF23j0tFpVzfjqSWoXXpSYTZs3OyGc101Qn37U/UWqHzgYAZOOdItjTQZWq83JzjqB3pHQF6rs2bOnvOgMx3N077l5AmHwGXEm4PhZpc7K+/qyKXGsQSLLVy6jrbuSqyMvf1CINlGpAQWt44UgHxMbE8IKPKeoVc8/+9Shwwed8Ezt9rU/rP3n/OdEqkkFRfSxKQjBUcCQM3xAGNQ7CLpqYfKLVZ1OCwthIoLItl8219bVeoHTJAutWCxWwKLNuRK+A/yY8EBOpxPqasuffObRnJxsJ+TK4Vi3bt38uc+pTouT5RXBZFPgr3pgQEoEQrDmrK7TTpfLEsd26sAE+WuHMzOrzWbUo1VbSSjCTjGt0KSKhyC4IDoRckA6+muBfiwrMmWV5PSp42NGDJwwftyYYUMemz61sui8f8fQxSvXHyssfuCxORanCEF3DTs2p7EOhmqE56gVV6kwhn4mraMvqTFfvXTxIiBdB5mqKEUXzlEXFB8cOuCoQe7oxxmMFGnZFS7r4B+jh9w69Z7J40aOePTBKeaSC0GR0V+sWJ+dX3LPg4/aZIHuadNxJwohTk2DEGEdXXYZelILMLGdAgl2Vk/m5l4fBhBiDW6QGAFD3ZA8BAmc5mOEh6QF+jAGnYot7XMXodgZnWrP2rM9/+gBA1HsNmbQiDEjRo709fV9ft4LnRMTrHY6z+iHhcWn3ENAay10DHxNbHAQr2hqSWlZa8jcrMmKfKmiXOTgJ7KCSCQAJFyHQPilGieQqhpGxJkA1fLH9h9PZv0uMQ67zPz94adHjx7l7+e74NXXo7p2deCcS70yQpPoHNTAGiJTNRhVo5FVZOvRo0dbg+Fmw2a1nj59yseHEzERGoSogSAaIWcMRmwzYnJhKcjjlkoE5IKwOoFBHJZOIo4pKy3DdEOLJcVFNZcvY6wpHNe6n44g9dw0GSELXsM5GKOOKk8MixtBa3/NZjPsV2AA3B9GLzB+vhB0Bp1KIofjElj/uhwdVi/gFqqYHhcpLMi3YIueYU4XFtZhYdIAw90FkEBxKkQTBAE7jgj5QSqxnmgNgDvf6iIIBwgIemlI9cKEN9SJbHQo/GlN0ThW1PROjCRrsyowVbKbA0IFat/urS/Om9sntd+yrz67UlkC4lCIRJmGucUw4t0kLK9BsWIFk9Q06F1VvPxxS1BOznGnQw4PJnqR1gkPYaALnNjyEVVJZcFyOcaKATAIBMo1vYld/c1iQRL7p2cs+vCtioseGFQLQ5UgrKQRnY6gBR7ReBqFgzrTue3ytTgAA89dLC/HRWQoHVr6Gq7UQBCiMLyWFM9ATqquorqs0/FJ0eyvhxWJg/qobxNBNZ4wyz7/+GuV0ek4HLRwvyGKERLE5KLaWtM6+hCjn1ZbR8rNGEU+KjISFYCgvpUmXzDTsJIHDmRqjD0yWKDjzjCRwRwhMoLiLCcaJC0yRCgoogNHrYsLCegy6plVX36y7PNPAIPHIFESaEI5/CJgwF5gXCfW3w/yy5otdo7XpaWlwSA3vou7vvsvhAs7xjt37EArKfEEVLgmCS1smGL0mnTpTAw6rewSdA3R60n3eBaLHeTjjyvUR4UWI6nTsQYjBJ2SQ4tcHxozpQqSETgmOYHFZHE4SHmlFhkRHtSRhiy8JvciqKCwUJKYpG40hoJ3TEpmdRKpMlO1YjSS7l1YaBicVXFjoKsAFsfuNFHksKfGY8RcS3t3KZ7HU1hSwlwkxBKcdMGrVlYRk0mXkJCAQXKvKlqAQT4S4nDgPT66KSdNCIJMRkRxvr5chZkUXFBNOhXeUHggsYIVOrBoAc1ieCgCd8I9dRZdH1pE18QMLGD/HtASpKhCKyrXho8cqcfMbHj+GmQMjqcU5p/wNzLd4ziYHlVmk2PYQF8Gz14yKyYjmxxPAgwEa0CMjbsdSiOdzjQH5//oQHkSgVKwK7DuXK8kSCJTWqlhnEaMGHOdmQ7xqauzZR055OtDwqNwttDDkecK2+SxwUz3eILV0LYDKoIuCVHs5Nt1cCshR9CaLoDA4v0DWE6VWJ3afWNITCh2/bTNf9jB3bixY6jCbzWREyeOny48260L06MLHGgWwfMeXdjkrpzVpu3NpnKZ2JkdcxuKCD1pCHHG+LSCATwpDIvNG6iru4ezoQGYecrvR2WLQ5s0cUKrEFz07j+wt6S0onsXSgKoaKzsIUhVnJKBT+/D+UhMVp5SeE7WicyEIaRXFxa+H5Vb14RCay0+7pHFMFrs6h0D+TuH6jmRPXJCzcxSuyV2S+vXr7EzrxcHDx6urjFn9BU5EwwPdJjCmdi+qQI0/ZY/VMiRwJPpd+r6pSBsSJ0sOpWuwQBIFAZUj6ZYLNxtfYWJw0Rex58p037e7eiPYHV6f6+900wXG9u3b6urM2ekCpKBAxWNlT0EoQ+nUxs5EBObYPRW/qzWOrQAf/bFWbrEWB4cYQMdShSmEsNIAVHdRNuGB4TVa41Fw5R89n7J34egnS832OFqT7vv3pCQ0MbOrr0wm2u2bt4CN+e+MQj7UCVMJ7JFmzwKXiupqGZWbVPg+wX5k5ceEpK7srU2yg5gQGDh67gx0BxoKJYeca2pY/ola3Me5E0moirqZ2ucdTZ2xkMPdwoJubb3xpzq6prdu36FuRw1EJurrpncUOYhCKeUNKd6Swp/W3+WY4XfDjoXrXLoBSUpnix+XZgxQcLeVU0tzyjUKYHhp7qZEIeKICQMufDQ3eJH88VOwYjJkne+sR/J1YYPH/LI44/T85Wtp/1792zb+cuUO4SYcA7IoFnAEC7iIrjxw+E5kk277F//6JAMWly0uGi+YfJoweHUamqxDGJkeugBihzvwzkUFTBEHfPwZOk/C8SIMKh57b1lNhwYHDFq2JSpU5rrqZaADuzbfeTI0ZG3CQNSBHpmmK6a6lOT0x0cIo1UNIL82RU/OXU6BqdH7U6S3oMN9GczenFp3Vl4PaUVGuJJ4Ah2FIPtayTjhvDzHhLvHCb4m9irVuWtr+wrNio9eyZ/vnhpZGQkJMKt3ht69HzjYPOcuXMK8k++PVcXF4k5grAVtSaoIfDwgJnvN8swRkfzlI6BUNW8n4+W0YdNT4HpY0rLYb/p7HDB0Hx9mSmjxDnTxfFDcUZTczrJl+uV/13hTEzounjpNxEREWizNRjwYxe+/ubRY1kfzddFhLp8OQ7TtR6nZ1fDnQGMiMjdN9u2ba8KkbNYtHvHiU9M5WMiWTgiNgdztVYpLFIRdsOMh98UGyb46DVJD/tJzhWpr35q/3mXHBEZvHz5D7cOvKW+k2u+3O7PmjVrpt03rW+KummxzigRvGpjglpHfHLsTFvWcUUUaYBm5t3iQ3cJkaHEYVdtdlJjYc6XOI+fZXW8lhhLkI81lFFPg9rnStRPlzu+3egMCQn/etnKwYMHNjbb4sINY+vWLbePGTN2ELv8fSyNEahoVqslQSiU9OyWPfKUxy2CZAoODsnNP9U5jEwYKTw4VoiOZCWYbHosjCpLqoc4Bgu03NPauu321VvUs6VKRv++ixb9b6/efVyalIrDtQkCX1FxafSoEQV5OZ/9P9208byttuUAS0ayfL38xCtWQTL6+fmfOVOcFMs+MJGbOJgLj4Cri7CRS95cwWbIFGzo+QvyT7+pX65znDqnZvTvt2TJ0qRuNPLvNQEDUllZ6ZjRo8+eOrH6M8PoDBGKs0VlLwRBBROOe2B23brtzIPTH4SpXLnq29qrts5hTHJX0idFSk0kHTvQ5WnFZfVQnnYiz3Ygm8F+kWTQPfXkM0idQkOpIXZNlhb9Nd6+9da/XnzxH/eO5Za+ayAy+G4+cG52RXXGHMeqzdpTTz2CtcKSpZ85LPa4KCa1BzsoTUiOF0xGKGKmulY7lqfuyVIyj8nFpYwoGR578onnZz/XqVMojU644s2N/ba4wLnXt9559+5RwvIP9Rrc3IaZ1VjNC0Fw6gWJz8qXJz9mqbMHrVqzBmLwyUfvZB48Wl5ehGgQbqm2gCS5PCqckouIiOmX3g9sjhw5urFprxcYNIjKrt27p02ZzDLlmxeb4ChjH7Sl/MBGqQRK90ShPG6mRRPCv1m+UnZaP/n4k4OHsiorSzHRAIAePIHFQHgVgi9yEZExPXr0mDNnNrYMvfbemOmGsfPXXfdMnOhjNK/51NArgZfhgzGeXXl3ZS8E4d1lFqEGsvEX57R59tjI+C+/+bpvv/75+dgWzz11qqC4uKy4qBg+e3R0RGhYWNeuCd27dXcf4XHtYQC590SdGMIezMz82wPTzp07teIj44QhrNOq0igB3JgWCVpNUQQ9Wb9TufcZS1Tn+BUrVqampgHD6VOFefl5RUWYHyXoMTw8LCwirGuXRBxsj4mJbtHMtbfYjIOez8w8MOPvfztfdOrbt6UJwwSbU0Mogx7mbJ68EATLgCMgsP+ijn1zkXXBh46kxK7LV36Hnxy4n8XSDpEB0GBAoKVBgOmEbjhi0LyLZndnzp6ZfM9dRw5nPz9T+Nc8Pf0pDvz6ZmuFhvrUomLJoiIk9OK/re8ucaal9ly95sfozjGNMBDBwUQ26A1wTBoeQ2P0JVuKZGOx6yLrSNb9D0w7eTL3jWeF+Y8b6Fa+yySix+YVmSZm3lPiOtBB185Mz57k1Dlt9/6KzH17Bw0dih8huFmQJAm/BGgKAtdNbz2NUXMHVSBjdZufX/jUk0/9/vsf08YL/3oBoTGsG1oVNwrYNZ746p9KLpQxW3eV5ubl9+2bHhTUQVHxgyvEvCXsiLi2Dj0dtobEFeCnEzw3P3/63+4/lnP8rtH8G3MlwRWEcOHwsNzYnFeC6kvpDqNIRg9CVJhs2F762y/bAgIDU3r0QHFrXDS22/QClcHO8mXfPvrIY5kHDzzzN+Htl2DXObXJ7krT+i2uqTISWbj4Npu2fG3Bti3bAgP9evaEOENSrsNvi2boLXCsWL7i6ccfPXr85JP3i+8t0OklRoX9a92eXI8g+jsNhRhEddgADsGzdb+Ur9+wpaz0bGpauvsoEO3TK0gq4x7wly5VvPnGwgXzX666fBEz63+eNyJaqMJk0El0A29ITTqCcOywAZLdqWzZdWnTpi11tdXQx0bsxrsTtT9UOupvGzLpd0NeeXn53LnPvfba/1y+fPHlJ3T/fFrA+RAN6pYuDRoqNXue3lyPIPqYKzTHs+yg/sTfn8srsG7dkfXbrt9wLAi+SUBAoPeW0Z2rx6KiC6tWfffkk0+v/eGH2HD5lWelF2fqXCEKd4VWYTXHSWFgTcERZXiG2LEjk1doX7dpz5atv2BKBHcKoVtGqNKCHTTRAOPsmdM/bfhx9rNz1m/8KSZMWfCkNOchuOhYr7hf8XowvCjp5uBcd7DNCB/q1FNF2pJldqwAr1Qz8TGxOAc0aOjg5OSUxMRkH6Me+/qKIl+tsxQU5h07mr1nz97MA/uhNYwG9sGJ4nMPk9gIwWmhq6frIfLSfX0W5A2MCHr2dLHy0WLnlz/KdRYlKSGhX//+A27JwKTDiTdfkxEWCnYKMPLzTiCWsvvXXfv27T919gyOis+azD88TewSCecWewxwc9sGcmME4ZWgUBXYNWpwDuU6v1svf7fZiWPwiIr6+PqHBHeQ9CKOSEBt2a2OisrLV8xXGNkBCZs2TppyO9e7O9jTHHb8voce+r9phmA0FU2GeZBl7shJx8qf5FUbnVVmzATR3z8guGOgKCGyj3gFhVF+qbKmulqRHSEhZMpofsp4Ma0bzgBo+PUoNpeoY/EXEtQ4rmgTlh1WFbvMa7arx3Ic54sUrGBrrtYLhp+J6dSRRIZzaalk/EApMhheMh2tax2dxjZv4gIxTuqsEgZxyw2/2w8d1opKlIsVWrV7j1JjfH2Y0I6kcxTXI1lE8Cy8A420we326lFcB8CNStA1TdBgO9Hjp6Oaw6leqtHMtW7NzASa+A4+miTSkAhUIJZMrkVE28J8TRdtZrh+AwOZ4HGeh7E7sN1ALtfW7+34m0iwL8GJL0DQrDDxQOHFirfZx80SRPfDnIgN4Rd32HZi6aZofV+QF6z7EfpD+A8OFS68qM82cd1YBeqUubug56iwtd4MBpwsurmhQOCxrsUJcNdI3VjLjbU8kaHGrBu6oJ1hOw7KBGEQCqN5otIEwNSM38A8b/7sn7jzdEFViiuI1+xpl1qnvjG2rm6GHTzZMO7N2m2/8TDQTpCHC69X7QR5pcWT2U6QhwuvV+0EeaXFk9lOkIcLr1ftBHmlxZPZTpCHC69X7QR5pcWT2U6QhwuvV+0EeaXFk9lOkIcLr1ftBHmlxZPZTpCHC69X7QR5pcWT2U6QhwuvV+0EeaXFk/l/EA91yDni2dwAAAAASUVORK5CYII=",
+  "spotify-design": "data:image/png;base64,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",
+  "sub-club": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAARGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAABgoAMABAAAAAEAAABgAAAAAKkzX04AAAHLaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4xMjg8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+MTI4PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CtiXIw8AAAxVSURBVHgB7VxpbFTJEW4Oc4MBQyAYjM1lDnMjCIdB4tAakuwSNmwCiEVBHFJIgB8oKAEiCJDwg0MRRAGzEJBWwK4EibgDgvwB1hCOgEJsMIfDTbhsbszR+b4n2+vx2vP6ve5+42GnpM8znumuqq563V1d3T1CxChmgZgFYhaImAWqREyymmDqV70IajX8l3qHqq/8V/dXs7I5oDaa0RZoDrQBUoB4oCEgAVtEOxQCF4D7QA5wGbgFWKXK4AAauBfwU6AzQKPXBxoAkaJnEJwH5AJ7gS+BAuC9omS05pfAMYCN4xNeGcGecQVYBLBnRj01RQumAReB10BlNHpFOnGIGgfUAaKSPoHWWUBFDYyWz3egDe2iyQMJUDYTeA5Ei5Hd9PwKbUkCKj31gYZ7ALcGReP3B9CuTpXZAx9AuZvvqfGLH5jzaJ/v4aiaRe+lg/dmINGiDFG/fn3RqFEjER8fL+rWrSuqVq0q3r59K96947oqEGJQwaGIvZwRkyeytQ5gPP9XoIMnbTwUTkhIELNnzxZpaWkiOTnZMX5hYaHIy8sTV65cEVu3bhWnT58Wr14FsriltxcCvwfeAhGlxpB+CCjuosZfW7RoIfft2yfD0aNHj2RGRoZx2WHalY/vegMRpaqQvgmw2vCJEyeGs33Jdxs3bpS1a9e2qkuZtn6B/5m7UiYazCR9D8x+aJJhWV4c4wcPHlz243L/79q1q2jcmB0yMPoIkj70Is2kA5gwmw9YbTEn1wYN1NJEAU7ExTaviTc/A5TnVk/dpVhKBa+D8HlGBd8Z+bhhw4aCk6+qA3r27OlMxufPnxcXL14Uubm54syZMwLzg3j+nGtCK8R1T0cg2wr3MEy5PLcy3rZv315OmTLFmXjv3r1bMsb7eZOTkyO3bNkix40bJxHC2tD3DezwaRg7WfkqFVwfAEYb1LlzZ7ly5UqJsNKPrV3rnDhxQk6ePFlWr17dqN6ww+cAh6NAiOPdrwHGwkYaUqdOHblo0SJ59epVVyPqFsjPz5ezZs2SmNyN6F5kg3/i9btAIMTV9DbASANSUlLk+vXrJSZQXdsq1793755EZGVE/yI73MPrACAQYkhyCtBuAFa18siRI8qGM1mQTjfRhlI8foL3rmQiDO0KKe1cJbkUYE5nxYoVYuDAgS4l7XzdunVr04yV0jAmHNASmqsF5hU0sWbNmmLGjBlixIgRFZSw/3G1asbzkkpJSBMO0N4n7devn5g7d66oUkV5/WLcI1wnGCalh1J3IVYPSjPtrEUzZ84UXGTp0uPHjwVRnAGtV6+es3BDmBmWNSIhsWnTprBlfHzZSKVOeM3cOdABWjtCWGSJkSNHuksKU4Jp6J07dwossMSFCxfEw4cPndJt2rQRXA1zfOdr27ZtRfPmzQUSdCXcbty4IZYuXSqOHz9e8pmhN0qji64DkqAs5wDfNGnSpBCD+GG0ZMkSsXz5cvHixYuQ6nfu3BHHjh1zPuOGTZMmTZzkXK9evRxH3Lp1y9kzOHWKQVx00hSo7Tt8Y6p4//79WtEkhhw5YMAA3zro6O9S9+8qLlXqJmEYcefLN/GJ5LCgQ8x4RiDrqaNySF1dB6gl5kNEfv0Px2Pu5+oQ94EHDWIiNjpJZw5gnJus02xGJ9xg0SHyWLBggXjy5InYu3evuH79ug67wOvqrD64ZJ0AxPnVumXLlmLChAnakzAXcsOHDxfDhg0TdEjx6Qjm/SNIlyH7czf5Oj2A/f7reM5NkuXva9WqJRjdEE+fPhVIsAmGmLdv33YiHcb63JDhguvmzZsCM79ljeyyZ8/ZAmhFH126dJEwhlYUpFKZmdU3b95IhJ0yOztbbt68WQ4dOlQiCNDS36X9SlGQXzcx182ct1YDEhMT5dmzZ1VsaKUMQ2AMXVptCGMDqw5Ig+BbYYQrN2rNmjVWjKvKtKCgQK5evVoiGaess2K7rTrg+1CCx/C0lR41apTEmK1qL2vl1q1bJzGPaLenlE2UHOA3CmLyhk7QJk6MXJAxIxrJbGjv3r3FgwcPxMmTJ00t7JSiID8GrIVKnwHGnpZmzZrJQ4cOWXu6VRnzxAVPYBhqm1IP8OMA5v95JNuUog4fNhxPn6qtrJXjkRVDbbPmgDZQ8LUhJUMa26NHD7l7925rxlVhjHS2RIokRC+fbbXmgB/7VEipUcgNOYewLl26pGIv42VwYk5Onz5dSVcXOyg5wM8k/HMI7gtYoZcvXzor1z179oj79+8LLKCchF3pTRQrgouYMpXBPQScztAVozQJe01F8HpmK13NVOpfvnxZLF68WOAugGCEgpy/6N69uwM6QzeLWpEOjMSCPFHt1QHcuG1XkfI2PueuFbFr1y5Ro0YNkZSU5CTbuMXYrVs30b9/f9GhQwfHIabCWIxrNppSLk+vDuAEHEgPKE9b7v1ibnC+QgrDWTfQKTwxPWbMGDF69GiBHI/2esKUI8trg+5nvwGDt4CJSco4j7i4OJmZmSlxSc/35MzE3bx580zopjQJe90N6QHje62j63Tl+q9fvxYHDhz4xua8MoOigs+ePfNaxXd5L0MQDf8d35JcKuJQrmjVqpVo2rSpk8PHqlQwh88jJl7GZN6Y5AaNX6LxecuyMhJvffwXMNE9Q3hMnTpV4nppyLCBrUWZlZUlV61aJcePHy9xtiekTnl6DBkyRHIhpUM4HyRxoMtVVnnyy3ymNAR56QEtIUD7GCJ4hFCfPn3EsmXLvhH6cbuSYJKOTyV3sRgNMXl39OhRp5dwsuQkzMNdffv2Fenp6U7YGiLA4z/bt293dtQ8Vguk+CxIMfFklPCAAaWf/QBOshjvS6DzxJeuy94Dp5fop9leoz2Ag2o3027mYqpjR45s3ognKXRPU5SVyPOkGO4E554gSTWiYQqaQ5BR4mSJ0NEoT7/MsE8sNmzYIBhJBUmqDuDv/fAihlFihMNTC5Em/q7EwoULTRvf6Fn7j2EkU2NjCB+c5XHG8tJjcZDvkW+ydTpiu8kH6w+2HMDN8LVr1wZpc0cWw945c+ZIRFEhD4TBdq426QD+9IwtRSVuvjvLf16itk3Xrl1zIi/8joS19hTZ6lcmHcCloW2FnRBw2rRpzk1J3t81RTx6wtuX8+fPl6mpqdbbUWSrH6g4QHWiuAlmLVQYmiiDTXqBW/KCv3bCk88888mwkxFTMVQylrywwdDy4MGDAifiggwxb8AOPwJOmrAHeVhJQYCv69MIwzvjNA7cSmzIOL/xgNWwUufAMRPZqVMnVxkqengsw0WY0qU31TCUpyAiQrx8wX0ApiO4B7Bt2zYnJaGiTAQvbvDC2VMVHVUdYPwOp4py5ZXhEKS6CuYtSWZYA6bHkHcAeKMiV9UB/1BhFkQZbtKfO3dOSRR7DaIepbIGC/0HvP5lkJ/Dqhn+BhIJQY7rmI3rp3LHjh0VzgM8WnL48GE5duxYiR7jyk9FpmKZVyj3KaBMqlEQEzYrgV8oc7ZckIk8pqs5HHFPmBe9+StYTG1wzuAFDR5rCZi4XvoEUBp+vOrWExUeAEE+UdEki8f1aSOr9EdwjyajBKUrI56PrFq+iHk7vBo/mAueQRnKhhyeElkI+DlliGreqTuq5AE2GhNtPHl84rdA4JQOiblAtBnMpL5Mz/CabsSIZ4T+DZhsVDTweok2M9cf8d+Jhg7OOdFMvOYD0WA8HR3Zxv0AfwuuOlCpaAC04QYEu6VOIytbXY7xB4GlwCDAOKkuxFQE86lIBNg1PwA4WScAvE3fAjApC+xcqQAl/geoyqXzGdGwThbAHxq6APCYRHEPx1uzpKqcX6n8Ie8M4DOAjgiCCiGEY/QmgEkj1fCQaYTihSbevj/EMZNL8yCGlz2QMwyoC0QFBTGZpMESqk+hX6PloCKDgY0Ah54YlbLA3/De1tPPX+f7C9C6lLzY21IW4H7DJcCGA3aCbz/A9jwGEdFLHHqYEzbpgBPgx5RvAyBGLhbggV6OySYckAc+zMbGhhsYQZUYAXHpruOAR6j/ZyAViJFHC/B02DvAjwMYun4FMM8eB7yXZDsMVd30L2vcbHzAp/5PAB0YI58WGIl6LwDVHsBtvd8BKUCMDFiAFztuA24OYPpgN9AViIWVMIJJmglm3DMtzwkc588C04GgckUQ9e2jD9HkQwAdwXXBaYBpg4+B5sC3loLs7vGwMsFJlaHpE4AZyBjFLBCzQMwCMQtExgL/B8PQL1AT0kcmAAAAAElFTkSuQmCC",
+  "superwall": "data:image/png;base64,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",
+  "the-learning-scientists": "data:image/png;base64,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",
+  "vercel": "data:image/png;base64,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"
+ },
  "built": "2026-11-11"
 };

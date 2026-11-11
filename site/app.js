@@ -123,6 +123,7 @@
     [/vercel\.com/, "Vercel", "#000000", "Web craft and performance.", "https://vercel.com/blog"],
     [/airship\.com/, "Airship", "#0b61a4", "Push notification benchmarks and practice.", "https://www.airship.com/resources/"],
     [/nirandfar\.com/, "Nir Eyal", "#e85d04", "Habit-forming products.", "https://www.nirandfar.com"],
+    [/benji\.org/, "Benji Taylor", "#111111", "Essays on interface details from the designer of Family and Honk.", "https://benji.org"],
     [/learningscientists\.org/, "The Learning Scientists", "#2a9d8f", "Evidence-based study strategies.", "https://www.learningscientists.org"],
   ];
   const channelOf = (s) => { for (const [re, name] of CHANNELS) if (re.test(s.Link) || re.test(s.Creator || "")) return name; return host(s.Link).replace(/^blog\./, ""); };
@@ -135,20 +136,22 @@
   const kpCount = (s) => (s["Key points"] || []).length || splitTakeaways(s.Takeaways).length;
 
   // ---------- icons ----------
-  const ICON_BASE = location.pathname.includes("/site/") ? "../icons/" : "icons/";
+  const LIVE = "https://sainath-oncourse.github.io/design-library/icons/";
+  const ICON_BASE = !location.protocol.startsWith("http") ? LIVE : location.pathname.includes("/site/") ? "../icons/" : "icons/";
   const hasIcon = new Set(window.LIBRARY.icons || []);
-  const hasCh = new Set(window.LIBRARY.chIcons || []);
-  const swap = (cls, txt, style = "") => `this.replaceWith(Object.assign(document.createElement('span'),{className:'${cls}',textContent:'${txt}'${style ? `,style:'${style}'` : ""}}))`;
+  const chLogos = window.LIBRARY.chIcons || {};
+  // on a failed load, try the live site's copy once, then fall back to a letter tile
+  const fallback = (cls, txt, file, style = "") => `if(!this.dataset.r&&this.src.indexOf('${LIVE}')!==0){this.dataset.r=1;this.src='${LIVE}${file}';return}this.replaceWith(Object.assign(document.createElement('span'),{className:'${cls}',textContent:'${txt}'${style ? `,style:'${style}'` : ""}}))`;
   function appMark(name, cls = "") {
     const ch = esc(name[0].toUpperCase());
     if (!hasIcon.has(slug(name))) return `<span class="app-mark ${cls}">${ch}</span>`;
-    return `<img class="app-mark ${cls}" src="${ICON_BASE}${slug(name)}.png" alt="" loading="lazy" onerror="${swap(`app-mark ${cls}`, ch)}">`;
+    return `<img class="app-mark ${cls}" src="${ICON_BASE}${slug(name)}.png" alt="" loading="lazy" onerror="${fallback(`app-mark ${cls}`, ch, slug(name) + ".png")}">`;
   }
   function channelMark(name, cls = "") {
     const c = chByName[name] || { color: "#8b8d98" };
-    const ini = esc(initials(name));
-    if (!hasCh.has(slug(name))) return `<span class="cmark ${cls}" style="--c:${c.color}">${ini}</span>`;
-    return `<img class="cmark ${cls}" src="${ICON_BASE}channels/${slug(name)}.png" alt="" loading="lazy" onerror="${swap(`cmark ${cls}`, ini, `--c:${c.color}`)}">`;
+    const logo = chLogos[slug(name)];
+    if (!logo) return `<span class="cmark ${cls}" style="--c:${c.color}">${esc(initials(name))}</span>`;
+    return `<img class="cmark ${cls}" src="${logo}" alt="">`;
   }
 
   // ---------- thumbs + cards ----------
