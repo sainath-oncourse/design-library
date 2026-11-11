@@ -12,7 +12,7 @@ Sainath can't watch every video or read every article, so the agent does: it rea
 | `data/sources.json` | One object per source. **The source of truth.** |
 | `data/lessons.json` | The course: one lesson per topic, each idea citing sources by exact Title |
 | `data/experiments.json` | The weekly experiments |
-| `site/`, `design-library.html` | The website. `design-library.html` is one self-contained file to open or share; `site/` holds its parts |
+| `site/`, `index.html`, `design-library.html` | The website, live at https://sainath-oncourse.github.io/design-library/ (GitHub Pages from `main`; every push updates it). `design-library.html` is one self-contained file to open or share; `site/` holds its parts |
 | `build.mjs` | Run `node build.mjs` after any data change; it regenerates `site/data.js` and catches duplicate links |
 
 Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** kept here. They live in the `product-design` skill's `principles.md`. Don't add a source that only restates a principle.
@@ -35,6 +35,13 @@ Timeless principles (Laws of UX, design books, Apple HIG, Material) are **not** 
   "Tools": ["Design/AI tools shown, e.g. Figma, Claude Code, Cursor (optional)"],
   "Evidence type": "A/B test | Experience",
   "Bottom line": "One sentence: what to take away.",
+  "Key points": [{ "title": "Short claim, ≤10 words", "detail": "2–4 sentences explaining what, how and why, with specifics and quotes", "t": 1234 }],
+  "Chapters": [{ "t": 0, "title": "Intro", "summary": "One sentence" }],
+  "Start here": { "t": 1234, "why": "The best part to watch if Sainath has 5 minutes" },
+  "Image": "Banner image: https://i.ytimg.com/vi/<id>/hqdefault.jpg for YouTube, else the page's og:image",
+  "Video": "YouTube URL when Link is a podcast/newsletter page that also has a video (optional)",
+  "Duration": 3600,
+  "Times": "exact | approximate (times estimated from transcript position)",
   "Status": "Read | To read | Tried",
   "Used in": "Experiment names, if any",
   "Added": "YYYY-MM-DD"
@@ -47,7 +54,7 @@ Channels already mined: Lenny's Podcast (transcripts: github.com/ChatPRD/lennys-
 
 
 1. **Read the source itself, never from memory.** Fetch the article. For a video or podcast, get the transcript (the page, a transcript site, or a published transcript); if Caddie is connected, `create_video_note` then `get_note` reads YouTube transcripts. If it can't be read, add it with `"Status": "To read"` and say so.
-2. Fill every field. Quote numbers exactly with their context; never round up or invent them. Keep "Ideas for OnCourse" to a real screen and a real change.
+2. Fill every field. Key points (4–6) must be explained, not one-liners, each with `t` = seconds where it's said (null for articles). Chapters: use the creator's YouTube chapters when the description has them; otherwise 6–12 at real topic shifts. For articles, chapters come from the real headings with `"t": null, "anchor": "<heading text exactly as on the page>"` (the site links them with #:~:text=). `Takeaways` = the key point titles joined by "; ". Quote numbers exactly with their context; never round up or invent them. Keep "Ideas for OnCourse" to a real screen and a real change.
 3. Check `Link` isn't already in `data/sources.json`, append the object.
 4. **Update the course.** Add the source to the matching lesson in `data/lessons.json`: cite it in an existing idea (`sources` uses the exact Title), add a new idea if it teaches something new, or start a new lesson when 3+ sources share a topic no lesson covers. Only state what the sources say. Run `node build.mjs` (it fails if a lesson cites a missing source).
 5. Commit and push (`git add -A && git commit -m "add: <title>" && git push`).

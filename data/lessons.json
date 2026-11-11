@@ -66,7 +66,7 @@
         "body": "BoldVoice found forcing a trial raised trial starts but refunds rose faster. It now gives the assessment and the whole first daily plan free before the trial. Mimo doubled trial opt-in with an honest trial screen in onboarding.",
         "sources": [
           "Why BoldVoice charged from day 1 and ignored the Duolingo freemium playbook (Anada Lakra)",
-          "Not a playbook: how Mimo 2x blended LTV/CAC in <12 months"
+          "This is not a playbook: how Mimo grew customer LTV by 65%"
         ]
       },
       {
@@ -311,7 +311,7 @@
       },
       {
         "heading": "Saved history brings people back",
-        "body": "Snapchat built Memories after seeing people save snaps to their camera roll; its flashbacks became a reason people still open the app every day. Etsy built its habit loop around Favorites: an updates feed plus pushes when a favorited item goes on sale or is about to sell out.",
+        "body": "Seeing people save snaps to their camera roll gave Snapchat more conviction to build Memories, though Jack Brody says it 'didn't necessarily come from' that; its flashbacks became a reason people still open the app every day. Etsy built its habit loop around Favorites: an updates feed plus pushes when a favorited item goes on sale or is about to sell out.",
         "sources": [
           "Designing Snapchat and the future of music (Jack Brody)",
           "Inside Etsy's product, growth, and marketplace evolution (Tim Holley)"
@@ -474,7 +474,7 @@
       },
       {
         "heading": "No trial can beat a trial",
-        "body": "Natal kept the trial only on annual and removed it from monthly; monthly subscriptions rose sharply, with users who already trusted the product.",
+        "body": "Natal removed the free trial from its monthly plan and offers it \"only on our annual subscription\" at web checkout; monthly subscriptions rose sharply, with users who already trusted the product.",
         "sources": [
           "How Removing the Free Trial Grew Monthly Subs 2000% — Nancy Anderson, Natal"
         ]
@@ -704,7 +704,7 @@
         "sources": [
           "How Airbnb innovates with design (Teo Connor)",
           "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)",
-          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Ramp, Shopify, Intercom designers)"
+          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)"
         ]
       }
     ],
@@ -785,7 +785,7 @@
         "heading": "Handoff explains why, every state, and the motion",
         "body": "Good specs sit on one 'ready for dev' page with the why, states, long and short text, empty and error states, and screen-reader order. Plaid keeps a clean end-to-end page apart from a messy workspace page, and records decisions in callouts because resolved comments vanish. Swiggy hands off motion with easing and duration values, then tunes it together on a phone.",
         "sources": [
-          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Ramp, Shopify, Intercom designers)",
+          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)",
           "This is how a top Consumer Designer designs in Figma (John, Plaid)",
           "How Swiggy Designs 0-1 Products (ft. Swiggy Designer)"
         ]
@@ -910,7 +910,7 @@
         "sources": [
           "Inside Lovable's Design Team (Arthur)",
           "Designing Claude Code (and what's coming next) (Meaghan Choi)",
-          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Ramp, Shopify, Intercom designers)",
+          "12 Senior Designers Show Their Engineering Handoff Process (Figma, Firefox, Slack, Shopify, Intercom designers)",
           "How I use Claude Code as a Designer at Shopify (Caston)"
         ]
       },
