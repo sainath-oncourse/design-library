@@ -35,4 +35,5 @@ const html = readFileSync("site/index.html", "utf8")
   .replace('<script src="data.js"></script>', () => `<script>${readFileSync("site/data.js", "utf8")}</script>`)
   .replace('<script src="app.js"></script>', () => `<script>${readFileSync("site/app.js", "utf8")}</script>`);
 writeFileSync("design-library.html", html);
+writeFileSync("index.html", html);
 console.log("Built design-library.html");
