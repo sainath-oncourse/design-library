@@ -32344,99 +32344,6 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/tabs/01-words-tab",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "tabs",
-   "title": "Words tab: unlock after 5 lessons",
-   "type": "image",
-   "file": "screens/airlearn/android/tabs/01-words-tab.png",
-   "poster": null,
-   "patterns": [
-    "locked feature",
-    "empty state",
-    "progress gate"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/tabs/02-league-tab",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "tabs",
-   "title": "League tab: leaderboards intro",
-   "type": "image",
-   "file": "screens/airlearn/android/tabs/02-league-tab.png",
-   "poster": null,
-   "patterns": [
-    "leaderboard",
-    "empty state",
-    "how it works"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/tabs/03-plan-tab",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "tabs",
-   "title": "Plan tab: PRO and Family PRO",
-   "type": "image",
-   "file": "screens/airlearn/android/tabs/03-plan-tab.png",
-   "poster": null,
-   "patterns": [
-    "subscription",
-    "plan cards"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/tabs/04-call-tab",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "tabs",
-   "title": "Call tab: ULTRA video-call upsell",
-   "type": "image",
-   "file": "screens/airlearn/android/tabs/04-call-tab.png",
-   "poster": null,
-   "patterns": [
-    "upsell",
-    "discount",
-    "AI video call"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/tabs/05-more-tab",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "tabs",
-   "title": "More menu sheet",
-   "type": "image",
-   "file": "screens/airlearn/android/tabs/05-more-tab.png",
-   "poster": null,
-   "patterns": [
-    "bottom sheet",
-    "menu"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
    "id": "airlearn/android/lesson/01-start-free-lesson",
    "app": "airlearn",
    "platform": "android",
@@ -32969,24 +32876,6 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/paywall/08-paywall-bottom-reviews-and-faq",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "paywall",
-   "title": "Paywall user reviews",
-   "type": "image",
-   "file": "screens/airlearn/android/paywall/08-paywall-bottom-reviews-and-faq.png",
-   "poster": null,
-   "patterns": [
-    "testimonials",
-    "FAQ"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
    "id": "airlearn/android/paywall/09-close-paywall-after-lesson",
    "app": "airlearn",
    "platform": "android",
@@ -33192,99 +33081,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/invite/03-share-sheet",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "invite",
-   "title": "Share sheet",
-   "type": "image",
-   "file": "screens/airlearn/android/invite/03-share-sheet.png",
-   "poster": null,
-   "patterns": [
-    "share sheet",
-    "system sheet"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/invite/04-open-share-sheet",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.android.intentresolver",
-   "version": "2021-11",
-   "flow": "invite",
-   "title": "Open share sheet",
-   "type": "video",
-   "file": "screens/airlearn/android/invite/04-open-share-sheet.mp4",
-   "poster": "screens/airlearn/android/invite/04-open-share-sheet.poster.jpg",
-   "patterns": [
-    "share sheet"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/home/13-locked-lesson-node",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "home",
-   "title": "Locked lesson opens 30% off paywall",
-   "type": "image",
-   "file": "screens/airlearn/android/home/13-locked-lesson-node.png",
-   "poster": null,
-   "patterns": [
-    "paywall",
-    "discount",
-    "locked state"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/home/14-tap-locked-lesson",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "home",
-   "title": "Tap locked lesson to discount paywall",
-   "type": "video",
-   "file": "screens/airlearn/android/home/14-tap-locked-lesson.mp4",
-   "poster": "screens/airlearn/android/home/14-tap-locked-lesson.poster.jpg",
-   "patterns": [
-    "paywall",
-    "discount",
-    "transition"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/01-profile",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "Profile",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/01-profile.png",
-   "poster": null,
-   "patterns": [
-    "profile",
-    "stats",
-    "avatar"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/02-open-profile-from-more",
+   "id": "airlearn/android/profile/01-open-profile-from-more",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33292,8 +33089,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Open profile from More",
    "type": "video",
-   "file": "screens/airlearn/android/profile/02-open-profile-from-more.mp4",
-   "poster": "screens/airlearn/android/profile/02-open-profile-from-more.poster.jpg",
+   "file": "screens/airlearn/android/profile/01-open-profile-from-more.mp4",
+   "poster": "screens/airlearn/android/profile/01-open-profile-from-more.poster.jpg",
    "patterns": [
     "transition",
     "profile"
@@ -33302,7 +33099,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/03-profile-header-story-cards",
+   "id": "airlearn/android/profile/02-profile-header-story-cards",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33310,8 +33107,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Profile header story cards",
    "type": "video",
-   "file": "screens/airlearn/android/profile/03-profile-header-story-cards.mp4",
-   "poster": "screens/airlearn/android/profile/03-profile-header-story-cards.poster.jpg",
+   "file": "screens/airlearn/android/profile/02-profile-header-story-cards.mp4",
+   "poster": "screens/airlearn/android/profile/02-profile-header-story-cards.poster.jpg",
    "patterns": [
     "stories",
     "progress bar",
@@ -33321,7 +33118,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/04-profile-buddies-invite-awards",
+   "id": "airlearn/android/profile/03-profile-buddies-invite-awards",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33329,7 +33126,7 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Profile: buddies, invite, awards",
    "type": "image",
-   "file": "screens/airlearn/android/profile/04-profile-buddies-invite-awards.png",
+   "file": "screens/airlearn/android/profile/03-profile-buddies-invite-awards.png",
    "poster": null,
    "patterns": [
     "profile",
@@ -33341,7 +33138,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/05-profile-other-stuff",
+   "id": "airlearn/android/profile/04-locked-award-sheet",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33349,7 +33146,7 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Locked award sheet",
    "type": "image",
-   "file": "screens/airlearn/android/profile/05-profile-other-stuff.png",
+   "file": "screens/airlearn/android/profile/04-locked-award-sheet.png",
    "poster": null,
    "patterns": [
     "bottom sheet",
@@ -33360,7 +33157,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/06-profile-other-stuff-list",
+   "id": "airlearn/android/profile/05-profile-other-stuff-list",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33368,7 +33165,7 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Profile: other stuff list",
    "type": "image",
-   "file": "screens/airlearn/android/profile/06-profile-other-stuff-list.png",
+   "file": "screens/airlearn/android/profile/05-profile-other-stuff-list.png",
    "poster": null,
    "patterns": [
     "settings list",
@@ -33378,26 +33175,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/07-all-awards",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "All awards",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/07-all-awards.png",
-   "poster": null,
-   "patterns": [
-    "badges",
-    "grid",
-    "locked state"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/08-open-all-awards",
+   "id": "airlearn/android/profile/06-open-all-awards",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33405,8 +33183,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Open all awards",
    "type": "video",
-   "file": "screens/airlearn/android/profile/08-open-all-awards.mp4",
-   "poster": "screens/airlearn/android/profile/08-open-all-awards.poster.jpg",
+   "file": "screens/airlearn/android/profile/06-open-all-awards.mp4",
+   "poster": "screens/airlearn/android/profile/06-open-all-awards.poster.jpg",
    "patterns": [
     "transition",
     "badges"
@@ -33415,7 +33193,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/09-all-awards-scroll",
+   "id": "airlearn/android/profile/07-all-awards-scroll",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33423,8 +33201,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "All awards scroll",
    "type": "video",
-   "file": "screens/airlearn/android/profile/09-all-awards-scroll.mp4",
-   "poster": "screens/airlearn/android/profile/09-all-awards-scroll.poster.jpg",
+   "file": "screens/airlearn/android/profile/07-all-awards-scroll.mp4",
+   "poster": "screens/airlearn/android/profile/07-all-awards-scroll.poster.jpg",
    "patterns": [
     "scroll",
     "badges",
@@ -33434,7 +33212,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/10-all-awards-bottom",
+   "id": "airlearn/android/profile/08-all-awards-bottom",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33442,7 +33220,7 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "All awards: bottom",
    "type": "image",
-   "file": "screens/airlearn/android/profile/10-all-awards-bottom.png",
+   "file": "screens/airlearn/android/profile/08-all-awards-bottom.png",
    "poster": null,
    "patterns": [
     "badges",
@@ -33452,25 +33230,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/11-appearance",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "Appearance",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/11-appearance.png",
-   "poster": null,
-   "patterns": [
-    "theme picker",
-    "dark mode"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/12-open-appearance",
+   "id": "airlearn/android/profile/09-open-appearance",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33478,8 +33238,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Open appearance",
    "type": "video",
-   "file": "screens/airlearn/android/profile/12-open-appearance.mp4",
-   "poster": "screens/airlearn/android/profile/12-open-appearance.poster.jpg",
+   "file": "screens/airlearn/android/profile/09-open-appearance.mp4",
+   "poster": "screens/airlearn/android/profile/09-open-appearance.poster.jpg",
    "patterns": [
     "transition",
     "bottom sheet"
@@ -33488,7 +33248,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/13-switch-to-dark-mode",
+   "id": "airlearn/android/profile/10-switch-to-dark-mode",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33496,8 +33256,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Switch to dark mode",
    "type": "video",
-   "file": "screens/airlearn/android/profile/13-switch-to-dark-mode.mp4",
-   "poster": "screens/airlearn/android/profile/13-switch-to-dark-mode.poster.jpg",
+   "file": "screens/airlearn/android/profile/10-switch-to-dark-mode.mp4",
+   "poster": "screens/airlearn/android/profile/10-switch-to-dark-mode.poster.jpg",
    "patterns": [
     "dark mode",
     "theme switch"
@@ -33651,26 +33411,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/14-add-a-buddy",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "Add a Buddy",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/14-add-a-buddy.png",
-   "poster": null,
-   "patterns": [
-    "buddy",
-    "social",
-    "invite"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/15-open-add-a-buddy",
+   "id": "airlearn/android/profile/11-open-add-a-buddy",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33678,8 +33419,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Open Add a Buddy",
    "type": "video",
-   "file": "screens/airlearn/android/profile/15-open-add-a-buddy.mp4",
-   "poster": "screens/airlearn/android/profile/15-open-add-a-buddy.poster.jpg",
+   "file": "screens/airlearn/android/profile/11-open-add-a-buddy.mp4",
+   "poster": "screens/airlearn/android/profile/11-open-add-a-buddy.poster.jpg",
    "patterns": [
     "transition"
    ],
@@ -33687,25 +33428,26 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/16-enter-buddy-code",
+   "id": "airlearn/android/profile/12-add-a-buddy-dialog",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
    "version": "3.14.4.1",
    "flow": "profile",
-   "title": "Enter Buddy code",
+   "title": "Add a Buddy dialog",
    "type": "image",
-   "file": "screens/airlearn/android/profile/16-enter-buddy-code.png",
+   "file": "screens/airlearn/android/profile/12-add-a-buddy-dialog.png",
    "poster": null,
    "patterns": [
-    "code input",
-    "form"
+    "dialog",
+    "referral code",
+    "copy"
    ],
    "note": null,
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/17-already-have-a-buddy-code",
+   "id": "airlearn/android/profile/13-already-have-a-buddy-code",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33713,8 +33455,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Already have a Buddy code",
    "type": "video",
-   "file": "screens/airlearn/android/profile/17-already-have-a-buddy-code.mp4",
-   "poster": "screens/airlearn/android/profile/17-already-have-a-buddy-code.poster.jpg",
+   "file": "screens/airlearn/android/profile/13-already-have-a-buddy-code.mp4",
+   "poster": "screens/airlearn/android/profile/13-already-have-a-buddy-code.poster.jpg",
    "patterns": [
     "transition",
     "input"
@@ -33723,25 +33465,25 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/18-invalid-buddy-code-error",
+   "id": "airlearn/android/profile/14-enter-buddy-code-sheet",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
    "version": "3.14.4.1",
    "flow": "profile",
-   "title": "Invalid Buddy code error",
+   "title": "Enter Buddy code sheet",
    "type": "image",
-   "file": "screens/airlearn/android/profile/18-invalid-buddy-code-error.png",
+   "file": "screens/airlearn/android/profile/14-enter-buddy-code-sheet.png",
    "poster": null,
    "patterns": [
-    "error state",
-    "input"
+    "bottom sheet",
+    "code input"
    ],
    "note": null,
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/19-apply-invalid-buddy-code",
+   "id": "airlearn/android/profile/15-apply-invalid-buddy-code",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33749,8 +33491,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Apply invalid Buddy code",
    "type": "video",
-   "file": "screens/airlearn/android/profile/19-apply-invalid-buddy-code.mp4",
-   "poster": "screens/airlearn/android/profile/19-apply-invalid-buddy-code.poster.jpg",
+   "file": "screens/airlearn/android/profile/15-apply-invalid-buddy-code.mp4",
+   "poster": "screens/airlearn/android/profile/15-apply-invalid-buddy-code.poster.jpg",
    "patterns": [
     "error state"
    ],
@@ -33758,25 +33500,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/20-homescreen-widgets",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "Homescreen widgets",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/20-homescreen-widgets.png",
-   "poster": null,
-   "patterns": [
-    "widgets",
-    "how-to"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/21-open-homescreen-widgets",
+   "id": "airlearn/android/profile/16-open-homescreen-widgets",
    "app": "airlearn",
    "platform": "android",
    "package": "com.google.android.apps.nexuslauncher",
@@ -33784,8 +33508,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Open homescreen widgets",
    "type": "video",
-   "file": "screens/airlearn/android/profile/21-open-homescreen-widgets.mp4",
-   "poster": "screens/airlearn/android/profile/21-open-homescreen-widgets.poster.jpg",
+   "file": "screens/airlearn/android/profile/16-open-homescreen-widgets.mp4",
+   "poster": "screens/airlearn/android/profile/16-open-homescreen-widgets.poster.jpg",
    "patterns": [
     "transition"
    ],
@@ -33831,26 +33555,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/22-faqs",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "FAQs",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/22-faqs.png",
-   "poster": null,
-   "patterns": [
-    "faq",
-    "help",
-    "accordion"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/23-open-faqs",
+   "id": "airlearn/android/profile/17-open-faqs",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33858,8 +33563,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Open FAQs",
    "type": "video",
-   "file": "screens/airlearn/android/profile/23-open-faqs.mp4",
-   "poster": "screens/airlearn/android/profile/23-open-faqs.poster.jpg",
+   "file": "screens/airlearn/android/profile/17-open-faqs.mp4",
+   "poster": "screens/airlearn/android/profile/17-open-faqs.poster.jpg",
    "patterns": [
     "transition"
    ],
@@ -33867,25 +33572,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/24-your-account",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "Your account",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/24-your-account.png",
-   "poster": null,
-   "patterns": [
-    "account",
-    "settings"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/25-open-your-account",
+   "id": "airlearn/android/profile/18-open-your-account",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33893,8 +33580,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Open Your account",
    "type": "video",
-   "file": "screens/airlearn/android/profile/25-open-your-account.mp4",
-   "poster": "screens/airlearn/android/profile/25-open-your-account.poster.jpg",
+   "file": "screens/airlearn/android/profile/18-open-your-account.mp4",
+   "poster": "screens/airlearn/android/profile/18-open-your-account.poster.jpg",
    "patterns": [
     "transition"
    ],
@@ -33902,62 +33589,26 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/26-edit-full-name",
+   "id": "airlearn/android/profile/19-your-account",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
    "version": "3.14.4.1",
    "flow": "profile",
-   "title": "Edit full name",
+   "title": "Your account",
    "type": "image",
-   "file": "screens/airlearn/android/profile/26-edit-full-name.png",
+   "file": "screens/airlearn/android/profile/19-your-account.png",
    "poster": null,
    "patterns": [
-    "form",
-    "text field",
-    "edit"
+    "account",
+    "settings",
+    "destructive"
    ],
    "note": null,
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/27-change-password",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "Change password",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/27-change-password.png",
-   "poster": null,
-   "patterns": [
-    "form",
-    "password"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/28-delete-account-confirmation",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "Delete account confirmation",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/28-delete-account-confirmation.png",
-   "poster": null,
-   "patterns": [
-    "destructive",
-    "confirmation dialog"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/profile/29-tap-delete-my-account",
+   "id": "airlearn/android/profile/20-tap-delete-my-account",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -33965,8 +33616,8 @@ window.LIBRARY = {
    "flow": "profile",
    "title": "Tap Delete my account",
    "type": "video",
-   "file": "screens/airlearn/android/profile/29-tap-delete-my-account.mp4",
-   "poster": "screens/airlearn/android/profile/29-tap-delete-my-account.poster.jpg",
+   "file": "screens/airlearn/android/profile/20-tap-delete-my-account.mp4",
+   "poster": "screens/airlearn/android/profile/20-tap-delete-my-account.poster.jpg",
    "patterns": [
     "dialog",
     "destructive"
@@ -33975,43 +33626,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/profile/30-sign-out-confirmation",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "profile",
-   "title": "Sign out confirmation",
-   "type": "image",
-   "file": "screens/airlearn/android/profile/30-sign-out-confirmation.png",
-   "poster": null,
-   "patterns": [
-    "confirmation dialog"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/message/01-message",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "message",
-   "title": "Message",
-   "type": "image",
-   "file": "screens/airlearn/android/message/01-message.png",
-   "poster": null,
-   "patterns": [
-    "chat",
-    "support",
-    "messages"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/message/02-open-message-from-more",
+   "id": "airlearn/android/message/01-open-message-from-more",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34019,8 +33634,8 @@ window.LIBRARY = {
    "flow": "message",
    "title": "Open Message from More",
    "type": "video",
-   "file": "screens/airlearn/android/message/02-open-message-from-more.mp4",
-   "poster": "screens/airlearn/android/message/02-open-message-from-more.poster.jpg",
+   "file": "screens/airlearn/android/message/01-open-message-from-more.mp4",
+   "poster": "screens/airlearn/android/message/01-open-message-from-more.poster.jpg",
    "patterns": [
     "transition"
    ],
@@ -34028,7 +33643,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/message/03-buddy-messaging-carousel",
+   "id": "airlearn/android/message/02-buddy-messaging-carousel",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34036,8 +33651,8 @@ window.LIBRARY = {
    "flow": "message",
    "title": "Buddy messaging carousel",
    "type": "video",
-   "file": "screens/airlearn/android/message/03-buddy-messaging-carousel.mp4",
-   "poster": "screens/airlearn/android/message/03-buddy-messaging-carousel.poster.jpg",
+   "file": "screens/airlearn/android/message/02-buddy-messaging-carousel.mp4",
+   "poster": "screens/airlearn/android/message/02-buddy-messaging-carousel.poster.jpg",
    "patterns": [
     "carousel",
     "empty state",
@@ -34047,7 +33662,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/message/04-learning-alone-slide",
+   "id": "airlearn/android/message/03-learning-alone-slide",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34055,7 +33670,7 @@ window.LIBRARY = {
    "flow": "message",
    "title": "Learning alone slide",
    "type": "image",
-   "file": "screens/airlearn/android/message/04-learning-alone-slide.png",
+   "file": "screens/airlearn/android/message/03-learning-alone-slide.png",
    "poster": null,
    "patterns": [
     "empty state",
@@ -34121,25 +33736,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/league/04-how-leagues-work",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "league",
-   "title": "How leagues work",
-   "type": "image",
-   "file": "screens/airlearn/android/league/04-how-leagues-work.png",
-   "poster": null,
-   "patterns": [
-    "explainer",
-    "rules"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
-   "id": "airlearn/android/league/05-open-how-leagues-work",
+   "id": "airlearn/android/league/04-open-how-leagues-work",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34147,8 +33744,8 @@ window.LIBRARY = {
    "flow": "league",
    "title": "Open How leagues work",
    "type": "video",
-   "file": "screens/airlearn/android/league/05-open-how-leagues-work.mp4",
-   "poster": "screens/airlearn/android/league/05-open-how-leagues-work.poster.jpg",
+   "file": "screens/airlearn/android/league/04-open-how-leagues-work.mp4",
+   "poster": "screens/airlearn/android/league/04-open-how-leagues-work.poster.jpg",
    "patterns": [
     "transition",
     "bottom sheet"
@@ -34157,7 +33754,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/league/06-league-tiers-scroll",
+   "id": "airlearn/android/league/05-league-tiers-scroll",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34165,8 +33762,8 @@ window.LIBRARY = {
    "flow": "league",
    "title": "League tiers scroll",
    "type": "video",
-   "file": "screens/airlearn/android/league/06-league-tiers-scroll.mp4",
-   "poster": "screens/airlearn/android/league/06-league-tiers-scroll.poster.jpg",
+   "file": "screens/airlearn/android/league/05-league-tiers-scroll.mp4",
+   "poster": "screens/airlearn/android/league/05-league-tiers-scroll.poster.jpg",
    "patterns": [
     "scroll",
     "tiers",
@@ -34176,7 +33773,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/league/07-league-tiers-list",
+   "id": "airlearn/android/league/06-league-tiers-list",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34184,7 +33781,7 @@ window.LIBRARY = {
    "flow": "league",
    "title": "League tiers list",
    "type": "image",
-   "file": "screens/airlearn/android/league/07-league-tiers-list.png",
+   "file": "screens/airlearn/android/league/06-league-tiers-list.png",
    "poster": null,
    "patterns": [
     "tiers",
@@ -34194,7 +33791,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/league/08-league-stats-chart-card",
+   "id": "airlearn/android/league/07-league-stats-chart-card",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34202,7 +33799,7 @@ window.LIBRARY = {
    "flow": "league",
    "title": "League stats chart card",
    "type": "image",
-   "file": "screens/airlearn/android/league/08-league-stats-chart-card.png",
+   "file": "screens/airlearn/android/league/07-league-stats-chart-card.png",
    "poster": null,
    "patterns": [
     "line chart",
@@ -34213,7 +33810,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/league/09-swipe-league-badges",
+   "id": "airlearn/android/league/08-swipe-league-badges",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34221,8 +33818,8 @@ window.LIBRARY = {
    "flow": "league",
    "title": "Swipe league badges",
    "type": "video",
-   "file": "screens/airlearn/android/league/09-swipe-league-badges.mp4",
-   "poster": "screens/airlearn/android/league/09-swipe-league-badges.poster.jpg",
+   "file": "screens/airlearn/android/league/08-swipe-league-badges.mp4",
+   "poster": "screens/airlearn/android/league/08-swipe-league-badges.poster.jpg",
    "patterns": [
     "carousel",
     "badges"
@@ -34231,7 +33828,7 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/league/10-next-league-badge",
+   "id": "airlearn/android/league/09-next-league-badge",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34239,7 +33836,7 @@ window.LIBRARY = {
    "flow": "league",
    "title": "Next league badge",
    "type": "image",
-   "file": "screens/airlearn/android/league/10-next-league-badge.png",
+   "file": "screens/airlearn/android/league/09-next-league-badge.png",
    "poster": null,
    "patterns": [
     "carousel",
@@ -34306,24 +33903,6 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/tabs/09-ultra-all-plans",
-   "app": "airlearn",
-   "platform": "android",
-   "package": "com.unacademy.antonio",
-   "version": "3.14.4.1",
-   "flow": "tabs",
-   "title": "ULTRA: all plans",
-   "type": "image",
-   "file": "screens/airlearn/android/tabs/09-ultra-all-plans.png",
-   "poster": null,
-   "patterns": [
-    "plans sheet",
-    "bottom sheet"
-   ],
-   "note": null,
-   "captured": "2026-11-22"
-  },
-  {
    "id": "airlearn/android/tabs/10-open-ultra-all-plans",
    "app": "airlearn",
    "platform": "android",
@@ -34341,7 +33920,478 @@ window.LIBRARY = {
    "captured": "2026-11-22"
   },
   {
-   "id": "airlearn/android/home/15-tap-30-off-badge",
+   "id": "osmosis/android/onboarding/05-register-with-email",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Register with email",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/05-register-with-email.mp4",
+   "poster": "screens/osmosis/android/onboarding/05-register-with-email.poster.jpg",
+   "patterns": [
+    "web view",
+    "form"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/06-verify-email-code",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Verify email code",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/06-verify-email-code.png",
+   "poster": null,
+   "patterns": [
+    "otp",
+    "web view",
+    "form"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/08-empty-code-validation-error",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Empty code validation error",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/08-empty-code-validation-error.png",
+   "poster": null,
+   "patterns": [
+    "error state",
+    "otp",
+    "validation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/09-submit-email-code",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Submit email code",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/09-submit-email-code.mp4",
+   "poster": "screens/osmosis/android/onboarding/09-submit-email-code.poster.jpg",
+   "patterns": [
+    "otp",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/10-create-password",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Create password",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/10-create-password.png",
+   "poster": null,
+   "patterns": [
+    "web view",
+    "form",
+    "password"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/11-password-rules-checklist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Password rules checklist",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/11-password-rules-checklist.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "password",
+    "validation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/12-continue-with-password",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Continue with password",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/12-continue-with-password.mp4",
+   "poster": "screens/osmosis/android/onboarding/12-continue-with-password.poster.jpg",
+   "patterns": [
+    "form",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/13-account-details-form",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Account details form",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/13-account-details-form.png",
+   "poster": null,
+   "patterns": [
+    "web view",
+    "form"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/14-account-details-filled",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Account details filled",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/14-account-details-filled.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "checkbox"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/15-continue-to-osmosis",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Continue to Osmosis",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/15-continue-to-osmosis.mp4",
+   "poster": "screens/osmosis/android/onboarding/15-continue-to-osmosis.poster.jpg",
+   "patterns": [
+    "transition",
+    "loading"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/16-welcome-who-are-you",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Welcome: who are you",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/16-welcome-who-are-you.png",
+   "poster": null,
+   "patterns": [
+    "role picker",
+    "single select"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/19-next-after-role",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Next after role",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/19-next-after-role.mp4",
+   "poster": "screens/osmosis/android/onboarding/19-next-after-role.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/20-what-are-you-studying",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "What are you studying",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/20-what-are-you-studying.png",
+   "poster": null,
+   "patterns": [
+    "single select",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/23-pick-medical-doctor",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Pick Medical Doctor",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/23-pick-medical-doctor.mp4",
+   "poster": "screens/osmosis/android/onboarding/23-pick-medical-doctor.poster.jpg",
+   "patterns": [
+    "selection"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/27-open-school-picker",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Open school picker",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/27-open-school-picker.mp4",
+   "poster": "screens/osmosis/android/onboarding/27-open-school-picker.poster.jpg",
+   "patterns": [
+    "dropdown"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/38-finish-onboarding",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Finish onboarding",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/38-finish-onboarding.mp4",
+   "poster": "screens/osmosis/android/onboarding/38-finish-onboarding.poster.jpg",
+   "patterns": [
+    "transition",
+    "loading"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/home/01-home-with-trial-banner",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "home",
+   "title": "Home with trial banner",
+   "type": "image",
+   "file": "screens/osmosis/android/home/01-home-with-trial-banner.png",
+   "poster": null,
+   "patterns": [
+    "home",
+    "trial banner",
+    "search"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/tabs/01-open-topics-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "tabs",
+   "title": "Open Topics tab",
+   "type": "video",
+   "file": "screens/osmosis/android/tabs/01-open-topics-tab.mp4",
+   "poster": "screens/osmosis/android/tabs/01-open-topics-tab.poster.jpg",
+   "patterns": [
+    "tab switch"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/tabs/02-topics-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "tabs",
+   "title": "Topics tab",
+   "type": "image",
+   "file": "screens/osmosis/android/tabs/02-topics-tab.png",
+   "poster": null,
+   "patterns": [
+    "tab bar",
+    "browse",
+    "categories"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/tabs/03-open-assessments-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "tabs",
+   "title": "Open Assessments tab",
+   "type": "video",
+   "file": "screens/osmosis/android/tabs/03-open-assessments-tab.mp4",
+   "poster": "screens/osmosis/android/tabs/03-open-assessments-tab.poster.jpg",
+   "patterns": [
+    "tab switch"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/tabs/04-assessments-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "tabs",
+   "title": "Assessments tab",
+   "type": "image",
+   "file": "screens/osmosis/android/tabs/04-assessments-tab.png",
+   "poster": null,
+   "patterns": [
+    "tab bar",
+    "quiz",
+    "flashcards"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/tabs/05-open-saved-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "tabs",
+   "title": "Open Saved tab",
+   "type": "video",
+   "file": "screens/osmosis/android/tabs/05-open-saved-tab.mp4",
+   "poster": "screens/osmosis/android/tabs/05-open-saved-tab.poster.jpg",
+   "patterns": [
+    "tab switch"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/tabs/06-saved-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "tabs",
+   "title": "Saved tab",
+   "type": "image",
+   "file": "screens/osmosis/android/tabs/06-saved-tab.png",
+   "poster": null,
+   "patterns": [
+    "tab bar",
+    "saved",
+    "downloads"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/18-student-selected",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Student selected",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/18-student-selected.png",
+   "poster": null,
+   "patterns": [
+    "single select",
+    "selected state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/22-other-fields-list",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Other fields list",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/22-other-fields-list.png",
+   "poster": null,
+   "patterns": [
+    "picker",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/home/13-tap-locked-lesson-to-discount-paywall",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "home",
+   "title": "Tap locked lesson to discount paywall",
+   "type": "video",
+   "file": "screens/airlearn/android/home/13-tap-locked-lesson-to-discount-paywall.mp4",
+   "poster": "screens/airlearn/android/home/13-tap-locked-lesson-to-discount-paywall.poster.jpg",
+   "patterns": [
+    "paywall",
+    "discount",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/home/14-tap-30-off-badge",
    "app": "airlearn",
    "platform": "android",
    "package": "com.unacademy.antonio",
@@ -34349,11 +34399,4542 @@ window.LIBRARY = {
    "flow": "home",
    "title": "Tap 30% off badge",
    "type": "video",
-   "file": "screens/airlearn/android/home/15-tap-30-off-badge.mp4",
-   "poster": "screens/airlearn/android/home/15-tap-30-off-badge.poster.jpg",
+   "file": "screens/airlearn/android/home/14-tap-30-off-badge.mp4",
+   "poster": "screens/airlearn/android/home/14-tap-30-off-badge.poster.jpg",
    "patterns": [
     "transition",
     "discount"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/invite/03-open-share-sheet",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "invite",
+   "title": "Open share sheet",
+   "type": "video",
+   "file": "screens/airlearn/android/invite/03-open-share-sheet.mp4",
+   "poster": "screens/airlearn/android/invite/03-open-share-sheet.poster.jpg",
+   "patterns": [
+    "share sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/paywall/08-paywall-user-reviews",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "paywall",
+   "title": "Paywall user reviews",
+   "type": "image",
+   "file": "screens/airlearn/android/paywall/08-paywall-user-reviews.png",
+   "poster": null,
+   "patterns": [
+    "testimonials",
+    "FAQ"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/tabs/01-words-tab-unlock-after-5-lessons",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "tabs",
+   "title": "Words tab: unlock after 5 lessons",
+   "type": "image",
+   "file": "screens/airlearn/android/tabs/01-words-tab-unlock-after-5-lessons.png",
+   "poster": null,
+   "patterns": [
+    "locked feature",
+    "empty state",
+    "progress gate"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/tabs/02-league-tab-leaderboards-intro",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "tabs",
+   "title": "League tab: leaderboards intro",
+   "type": "image",
+   "file": "screens/airlearn/android/tabs/02-league-tab-leaderboards-intro.png",
+   "poster": null,
+   "patterns": [
+    "leaderboard",
+    "empty state",
+    "how it works"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/tabs/03-plan-tab-pro-and-family-pro",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "tabs",
+   "title": "Plan tab: PRO and Family PRO",
+   "type": "image",
+   "file": "screens/airlearn/android/tabs/03-plan-tab-pro-and-family-pro.png",
+   "poster": null,
+   "patterns": [
+    "subscription",
+    "plan cards"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/tabs/04-call-tab-ultra-video-call-upsell",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "tabs",
+   "title": "Call tab: ULTRA video-call upsell",
+   "type": "image",
+   "file": "screens/airlearn/android/tabs/04-call-tab-ultra-video-call-upsell.png",
+   "poster": null,
+   "patterns": [
+    "upsell",
+    "discount",
+    "AI video call"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/tabs/05-more-menu-sheet",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "tabs",
+   "title": "More menu sheet",
+   "type": "image",
+   "file": "screens/airlearn/android/tabs/05-more-menu-sheet.png",
+   "poster": null,
+   "patterns": [
+    "bottom sheet",
+    "menu"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/tabs/09-call-tab-ultra-plans",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "tabs",
+   "title": "Call tab: ULTRA plans",
+   "type": "image",
+   "file": "screens/airlearn/android/tabs/09-call-tab-ultra-plans.png",
+   "poster": null,
+   "patterns": [
+    "paywall",
+    "plans"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/07-submit-empty-code-error",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Submit empty code: error",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/07-submit-empty-code-error.mp4",
+   "poster": "screens/osmosis/android/onboarding/07-submit-empty-code-error.poster.jpg",
+   "patterns": [
+    "error state",
+    "otp",
+    "validation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/17-pick-student",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Pick Student",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/17-pick-student.mp4",
+   "poster": "screens/osmosis/android/onboarding/17-pick-student.poster.jpg",
+   "patterns": [
+    "selection"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/21-open-field-dropdown",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Open field dropdown",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/21-open-field-dropdown.mp4",
+   "poster": "screens/osmosis/android/onboarding/21-open-field-dropdown.poster.jpg",
+   "patterns": [
+    "dropdown"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/24-medical-doctor-selected",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Medical Doctor selected",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/24-medical-doctor-selected.png",
+   "poster": null,
+   "patterns": [
+    "single select",
+    "selected state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/25-next-after-field",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Next after field",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/25-next-after-field.mp4",
+   "poster": "screens/osmosis/android/onboarding/25-next-after-field.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/26-what-school-do-you-attend",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "What school do you attend",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/26-what-school-do-you-attend.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "dropdowns",
+    "illustration"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/28-school-picker-list",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "School picker list",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/28-school-picker-list.png",
+   "poster": null,
+   "patterns": [
+    "picker",
+    "search",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/29-school-search-results",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "School search results",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/29-school-search-results.png",
+   "poster": null,
+   "patterns": [
+    "search",
+    "typeahead",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/30-school-selected",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "School selected",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/30-school-selected.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "dropdowns"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/31-open-degree-picker",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Open degree picker",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/31-open-degree-picker.mp4",
+   "poster": "screens/osmosis/android/onboarding/31-open-degree-picker.poster.jpg",
+   "patterns": [
+    "dropdown"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/32-degree-picker",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Degree picker",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/32-degree-picker.png",
+   "poster": null,
+   "patterns": [
+    "picker",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/33-school-details-filled",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "School details filled",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/33-school-details-filled.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "dropdowns",
+    "filled"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/34-next-after-school",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Next after school",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/34-next-after-school.mp4",
+   "poster": "screens/osmosis/android/onboarding/34-next-after-school.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/35-how-far-are-you-in-your-studies",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "How far are you in your studies",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/35-how-far-are-you-in-your-studies.png",
+   "poster": null,
+   "patterns": [
+    "single select",
+    "illustrated options"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/36-pick-preclerkship-and-continue",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Pick preclerkship and continue",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/36-pick-preclerkship-and-continue.mp4",
+   "poster": "screens/osmosis/android/onboarding/36-pick-preclerkship-and-continue.poster.jpg",
+   "patterns": [
+    "selection",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/37-preparing-for-usmle",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Preparing for USMLE",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/37-preparing-for-usmle.png",
+   "poster": null,
+   "patterns": [
+    "single select",
+    "illustrated options"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/39-step-1-review-selected",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Step 1 Review selected",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/39-step-1-review-selected.png",
+   "poster": null,
+   "patterns": [
+    "single select",
+    "selected state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/40-you-re-all-set",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "You're all set",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/40-you-re-all-set.png",
+   "poster": null,
+   "patterns": [
+    "success state",
+    "completion"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/41-start-osmosing",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Start Osmosing",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/41-start-osmosing.mp4",
+   "poster": "screens/osmosis/android/onboarding/41-start-osmosing.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/home/02-back-to-home",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "home",
+   "title": "Back to Home",
+   "type": "video",
+   "file": "screens/osmosis/android/home/02-back-to-home.mp4",
+   "poster": "screens/osmosis/android/home/02-back-to-home.poster.jpg",
+   "patterns": [
+    "tab switch"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/home/03-home",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "home",
+   "title": "Home",
+   "type": "image",
+   "file": "screens/osmosis/android/home/03-home.png",
+   "poster": null,
+   "patterns": [
+    "home",
+    "trial banner"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/search/01-open-search",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "search",
+   "title": "Open search",
+   "type": "video",
+   "file": "screens/osmosis/android/search/01-open-search.mp4",
+   "poster": "screens/osmosis/android/search/01-open-search.poster.jpg",
+   "patterns": [
+    "transition",
+    "search"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/search/02-search-screen",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "search",
+   "title": "Search screen",
+   "type": "image",
+   "file": "screens/osmosis/android/search/02-search-screen.png",
+   "poster": null,
+   "patterns": [
+    "search",
+    "recent",
+    "suggestions"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/search/03-type-search-query",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "search",
+   "title": "Type search query",
+   "type": "video",
+   "file": "screens/osmosis/android/search/03-type-search-query.mp4",
+   "poster": "screens/osmosis/android/search/03-type-search-query.poster.jpg",
+   "patterns": [
+    "typeahead",
+    "search"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/search/04-search-results-diabetes",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "search",
+   "title": "Search results: diabetes",
+   "type": "image",
+   "file": "screens/osmosis/android/search/04-search-results-diabetes.png",
+   "poster": null,
+   "patterns": [
+    "search",
+    "results list",
+    "video cards"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/search/05-open-search-filters",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "search",
+   "title": "Open search filters",
+   "type": "video",
+   "file": "screens/osmosis/android/search/05-open-search-filters.mp4",
+   "poster": "screens/osmosis/android/search/05-open-search-filters.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/search/06-search-filters",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "search",
+   "title": "Search filters",
+   "type": "image",
+   "file": "screens/osmosis/android/search/06-search-filters.png",
+   "poster": null,
+   "patterns": [
+    "filters",
+    "bottom sheet",
+    "chips"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/search/07-apply-clinical-sciences-filter",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "search",
+   "title": "Apply Clinical Sciences filter",
+   "type": "video",
+   "file": "screens/osmosis/android/search/07-apply-clinical-sciences-filter.mp4",
+   "poster": "screens/osmosis/android/search/07-apply-clinical-sciences-filter.poster.jpg",
+   "patterns": [
+    "filter",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/search/08-filtered-results-clinical-sciences",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "search",
+   "title": "Filtered results: Clinical Sciences",
+   "type": "image",
+   "file": "screens/osmosis/android/search/08-filtered-results-clinical-sciences.png",
+   "poster": null,
+   "patterns": [
+    "filters",
+    "results list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/01-open-video-from-search",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Open video from search",
+   "type": "video",
+   "file": "screens/osmosis/android/video/01-open-video-from-search.mp4",
+   "poster": "screens/osmosis/android/video/01-open-video-from-search.poster.jpg",
+   "patterns": [
+    "transition",
+    "video"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/02-video-player",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Video player",
+   "type": "image",
+   "file": "screens/osmosis/android/video/02-video-player.png",
+   "poster": null,
+   "patterns": [
+    "video player",
+    "notes",
+    "tabs"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/03-video-playing",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Video playing",
+   "type": "video",
+   "file": "screens/osmosis/android/video/03-video-playing.mp4",
+   "poster": "screens/osmosis/android/video/03-video-playing.poster.jpg",
+   "patterns": [
+    "video player",
+    "playback"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/04-player-controls",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Player controls",
+   "type": "image",
+   "file": "screens/osmosis/android/video/04-player-controls.png",
+   "poster": null,
+   "patterns": [
+    "video player",
+    "controls",
+    "overlay"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/05-open-playback-speed",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Open playback speed",
+   "type": "video",
+   "file": "screens/osmosis/android/video/05-open-playback-speed.mp4",
+   "poster": "screens/osmosis/android/video/05-open-playback-speed.poster.jpg",
+   "patterns": [
+    "menu"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/06-playback-speed-menu",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Playback speed menu",
+   "type": "image",
+   "file": "screens/osmosis/android/video/06-playback-speed-menu.png",
+   "poster": null,
+   "patterns": [
+    "menu",
+    "speed",
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/07-open-video-info",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Open video info",
+   "type": "video",
+   "file": "screens/osmosis/android/video/07-open-video-info.mp4",
+   "poster": "screens/osmosis/android/video/07-open-video-info.poster.jpg",
+   "patterns": [
+    "dialog"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/08-video-info",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Video info",
+   "type": "image",
+   "file": "screens/osmosis/android/video/08-video-info.png",
+   "poster": null,
+   "patterns": [
+    "info",
+    "dialog",
+    "metadata"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/09-save-video",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Save video",
+   "type": "video",
+   "file": "screens/osmosis/android/video/09-save-video.mp4",
+   "poster": "screens/osmosis/android/video/09-save-video.poster.jpg",
+   "patterns": [
+    "toggle",
+    "toast"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/10-video-saved",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Video saved",
+   "type": "image",
+   "file": "screens/osmosis/android/video/10-video-saved.png",
+   "poster": null,
+   "patterns": [
+    "bookmark",
+    "toast",
+    "saved state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/11-open-add-to-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Open add to playlist",
+   "type": "video",
+   "file": "screens/osmosis/android/video/11-open-add-to-playlist.mp4",
+   "poster": "screens/osmosis/android/video/11-open-add-to-playlist.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/12-add-to-playlist-sheet",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Add to playlist sheet",
+   "type": "image",
+   "file": "screens/osmosis/android/video/12-add-to-playlist-sheet.png",
+   "poster": null,
+   "patterns": [
+    "bottom sheet",
+    "playlist"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/13-new-playlist-form",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "New playlist form",
+   "type": "image",
+   "file": "screens/osmosis/android/video/13-new-playlist-form.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "text field"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/14-create-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Create playlist",
+   "type": "video",
+   "file": "screens/osmosis/android/video/14-create-playlist.mp4",
+   "poster": "screens/osmosis/android/video/14-create-playlist.poster.jpg",
+   "patterns": [
+    "form",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/15-new-playlist-in-sheet",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "New playlist in sheet",
+   "type": "image",
+   "file": "screens/osmosis/android/video/15-new-playlist-in-sheet.png",
+   "poster": null,
+   "patterns": [
+    "playlist",
+    "checkbox",
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/16-tick-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Tick playlist",
+   "type": "video",
+   "file": "screens/osmosis/android/video/16-tick-playlist.mp4",
+   "poster": "screens/osmosis/android/video/16-tick-playlist.poster.jpg",
+   "patterns": [
+    "checkbox"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/17-video-added-to-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Video added to playlist",
+   "type": "image",
+   "file": "screens/osmosis/android/video/17-video-added-to-playlist.png",
+   "poster": null,
+   "patterns": [
+    "checkbox",
+    "selected state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/18-tap-download-progress",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Tap Download: progress",
+   "type": "video",
+   "file": "screens/osmosis/android/video/18-tap-download-progress.mp4",
+   "poster": "screens/osmosis/android/video/18-tap-download-progress.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/19-downloading-video",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Downloading video",
+   "type": "image",
+   "file": "screens/osmosis/android/video/19-downloading-video.png",
+   "poster": null,
+   "patterns": [
+    "download",
+    "progress"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/20-tap-share",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "com.android.intentresolver",
+   "version": "2021-11",
+   "flow": "video",
+   "title": "Tap Share",
+   "type": "video",
+   "file": "screens/osmosis/android/video/20-tap-share.mp4",
+   "poster": "screens/osmosis/android/video/20-tap-share.poster.jpg",
+   "patterns": [
+    "share sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/21-share-sheet",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "com.android.intentresolver",
+   "version": "2021-11",
+   "flow": "video",
+   "title": "Share sheet",
+   "type": "image",
+   "file": "screens/osmosis/android/video/21-share-sheet.png",
+   "poster": null,
+   "patterns": [
+    "share sheet",
+    "system sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/22-switch-to-quiz-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Switch to Quiz tab",
+   "type": "video",
+   "file": "screens/osmosis/android/video/22-switch-to-quiz-tab.mp4",
+   "poster": "screens/osmosis/android/video/22-switch-to-quiz-tab.poster.jpg",
+   "patterns": [
+    "tab switch"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/23-quiz-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Quiz tab",
+   "type": "image",
+   "file": "screens/osmosis/android/video/23-quiz-tab.png",
+   "poster": null,
+   "patterns": [
+    "tabs",
+    "quiz"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/24-switch-to-videos-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Switch to Videos tab",
+   "type": "video",
+   "file": "screens/osmosis/android/video/24-switch-to-videos-tab.mp4",
+   "poster": "screens/osmosis/android/video/24-switch-to-videos-tab.poster.jpg",
+   "patterns": [
+    "tab switch"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/25-videos-tab-loading",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Videos tab loading",
+   "type": "image",
+   "file": "screens/osmosis/android/video/25-videos-tab-loading.png",
+   "poster": null,
+   "patterns": [
+    "tabs",
+    "loading state",
+    "spinner"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/26-switch-to-resources-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Switch to Resources tab",
+   "type": "video",
+   "file": "screens/osmosis/android/video/26-switch-to-resources-tab.mp4",
+   "poster": "screens/osmosis/android/video/26-switch-to-resources-tab.poster.jpg",
+   "patterns": [
+    "tab switch"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/27-resources-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Resources tab",
+   "type": "image",
+   "file": "screens/osmosis/android/video/27-resources-tab.png",
+   "poster": null,
+   "patterns": [
+    "tabs",
+    "resources",
+    "references"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/28-open-transcript",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Open transcript",
+   "type": "video",
+   "file": "screens/osmosis/android/video/28-open-transcript.mp4",
+   "poster": "screens/osmosis/android/video/28-open-transcript.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/video/29-transcript",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "video",
+   "title": "Transcript",
+   "type": "image",
+   "file": "screens/osmosis/android/video/29-transcript.png",
+   "poster": null,
+   "patterns": [
+    "transcript",
+    "text",
+    "reader"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/01-open-question-options",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Open question options",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/01-open-question-options.mp4",
+   "poster": "screens/osmosis/android/quiz/01-open-question-options.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/02-question-options-menu",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Question options menu",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/02-question-options-menu.png",
+   "poster": null,
+   "patterns": [
+    "menu",
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/03-start-video-quiz",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Start video quiz",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/03-start-video-quiz.mp4",
+   "poster": "screens/osmosis/android/quiz/03-start-video-quiz.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/04-quiz-summary",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Quiz summary",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/04-quiz-summary.png",
+   "poster": null,
+   "patterns": [
+    "quiz",
+    "summary",
+    "start"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/05-start-quiz",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Start quiz",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/05-start-quiz.mp4",
+   "poster": "screens/osmosis/android/quiz/05-start-quiz.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/06-quiz-question",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Quiz question",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/06-quiz-question.png",
+   "poster": null,
+   "patterns": [
+    "quiz",
+    "multiple choice",
+    "question"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/07-scroll-question-to-answer-choices",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Scroll question to answer choices",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/07-scroll-question-to-answer-choices.mp4",
+   "poster": "screens/osmosis/android/quiz/07-scroll-question-to-answer-choices.poster.jpg",
+   "patterns": [
+    "scroll",
+    "multiple choice"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/08-lab-table-and-answer-choices",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Lab table and answer choices",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/08-lab-table-and-answer-choices.png",
+   "poster": null,
+   "patterns": [
+    "table",
+    "multiple choice"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/09-select-an-answer",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Select an answer",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/09-select-an-answer.mp4",
+   "poster": "screens/osmosis/android/quiz/09-select-an-answer.poster.jpg",
+   "patterns": [
+    "selection"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/10-answer-selected",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Answer selected",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/10-answer-selected.png",
+   "poster": null,
+   "patterns": [
+    "selected state",
+    "multiple choice"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/11-check-needs-a-confidence-level",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Check needs a confidence level",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/11-check-needs-a-confidence-level.mp4",
+   "poster": "screens/osmosis/android/quiz/11-check-needs-a-confidence-level.poster.jpg",
+   "patterns": [
+    "disabled state",
+    "confidence"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/12-confidence-picker-after-answer",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Confidence picker after answer",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/12-confidence-picker-after-answer.png",
+   "poster": null,
+   "patterns": [
+    "confidence rating",
+    "segmented control",
+    "selected state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/13-pick-confidence",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Pick confidence",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/13-pick-confidence.mp4",
+   "poster": "screens/osmosis/android/quiz/13-pick-confidence.poster.jpg",
+   "patterns": [
+    "selection"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/14-medium-confidence-selected",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Medium confidence selected",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/14-medium-confidence-selected.png",
+   "poster": null,
+   "patterns": [
+    "confidence rating",
+    "selected state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/15-check-answer",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Check answer",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/15-check-answer.mp4",
+   "poster": "screens/osmosis/android/quiz/15-check-answer.poster.jpg",
+   "patterns": [
+    "feedback",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/16-incorrect-answer-feedback",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Incorrect answer feedback",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/16-incorrect-answer-feedback.png",
+   "poster": null,
+   "patterns": [
+    "feedback",
+    "incorrect",
+    "explanation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/17-expand-answer-explanation",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Expand answer explanation",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/17-expand-answer-explanation.mp4",
+   "poster": "screens/osmosis/android/quiz/17-expand-answer-explanation.poster.jpg",
+   "patterns": [
+    "accordion",
+    "expand"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/18-answer-explanation-expanded",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Answer explanation expanded",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/18-answer-explanation-expanded.png",
+   "poster": null,
+   "patterns": [
+    "accordion",
+    "explanation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/19-continue-to-next-question",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Continue to next question",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/19-continue-to-next-question.mp4",
+   "poster": "screens/osmosis/android/quiz/19-continue-to-next-question.poster.jpg",
+   "patterns": [
+    "transition",
+    "progress"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/20-question-2",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Question 2",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/20-question-2.png",
+   "poster": null,
+   "patterns": [
+    "quiz",
+    "progress bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/21-check-correct-answer",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Check correct answer",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/21-check-correct-answer.mp4",
+   "poster": "screens/osmosis/android/quiz/21-check-correct-answer.poster.jpg",
+   "patterns": [
+    "feedback",
+    "success"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/22-correct-answer-feedback",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Correct answer feedback",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/22-correct-answer-feedback.png",
+   "poster": null,
+   "patterns": [
+    "feedback",
+    "correct",
+    "success state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/23-open-quiz-settings",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Open quiz settings",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/23-open-quiz-settings.mp4",
+   "poster": "screens/osmosis/android/quiz/23-open-quiz-settings.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/24-quiz-settings",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Quiz settings",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/24-quiz-settings.png",
+   "poster": null,
+   "patterns": [
+    "settings",
+    "bottom sheet",
+    "toggles"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/25-open-questions-per-day",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Open questions per day",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/25-open-questions-per-day.mp4",
+   "poster": "screens/osmosis/android/quiz/25-open-questions-per-day.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/26-questions-per-day-options",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Questions per day options",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/26-questions-per-day-options.png",
+   "poster": null,
+   "patterns": [
+    "picker",
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/27-open-repetition-interval",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Open repetition interval",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/27-open-repetition-interval.mp4",
+   "poster": "screens/osmosis/android/quiz/27-open-repetition-interval.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/28-spaced-repetition-interval-options",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Spaced repetition interval options",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/28-spaced-repetition-interval-options.png",
+   "poster": null,
+   "patterns": [
+    "picker",
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/29-close-quiz-mid-way",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Close quiz mid-way",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/29-close-quiz-mid-way.mp4",
+   "poster": "screens/osmosis/android/quiz/29-close-quiz-mid-way.poster.jpg",
+   "patterns": [
+    "exit",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/30-quiz-progress-saved-2-of-4",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Quiz progress saved (2 of 4)",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/30-quiz-progress-saved-2-of-4.png",
+   "poster": null,
+   "patterns": [
+    "progress bar",
+    "resume",
+    "saved state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/31-reopen-quiz",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Reopen quiz",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/31-reopen-quiz.mp4",
+   "poster": "screens/osmosis/android/quiz/31-reopen-quiz.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/32-resume-quiz-summary",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Resume quiz summary",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/32-resume-quiz-summary.png",
+   "poster": null,
+   "patterns": [
+    "quiz",
+    "resume",
+    "summary"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/33-answer-choices-as-lab-tables",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Answer choices as lab tables",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/33-answer-choices-as-lab-tables.png",
+   "poster": null,
+   "patterns": [
+    "multiple choice",
+    "table",
+    "cards"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/34-finish-quiz-to-results",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Finish quiz to results",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/34-finish-quiz-to-results.mp4",
+   "poster": "screens/osmosis/android/quiz/34-finish-quiz-to-results.poster.jpg",
+   "patterns": [
+    "transition",
+    "results"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/35-quiz-results",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Quiz results",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/35-quiz-results.png",
+   "poster": null,
+   "patterns": [
+    "results",
+    "score",
+    "summary"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/36-tap-repeat-incorrect",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Tap Repeat incorrect",
+   "type": "video",
+   "file": "screens/osmosis/android/quiz/36-tap-repeat-incorrect.mp4",
+   "poster": "screens/osmosis/android/quiz/36-tap-repeat-incorrect.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/quiz/37-repeat-incorrect-question",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "quiz",
+   "title": "Repeat incorrect question",
+   "type": "image",
+   "file": "screens/osmosis/android/quiz/37-repeat-incorrect-question.png",
+   "poster": null,
+   "patterns": [
+    "quiz",
+    "retry"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/home/04-home-with-playlists-and-recent-videos",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "home",
+   "title": "Home with playlists and recent videos",
+   "type": "image",
+   "file": "screens/osmosis/android/home/04-home-with-playlists-and-recent-videos.png",
+   "poster": null,
+   "patterns": [
+    "home",
+    "carousel",
+    "continue watching"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/home/05-home-scroll",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "home",
+   "title": "Home scroll",
+   "type": "video",
+   "file": "screens/osmosis/android/home/05-home-scroll.mp4",
+   "poster": "screens/osmosis/android/home/05-home-scroll.poster.jpg",
+   "patterns": [
+    "scroll",
+    "home"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/home/06-home-lower-sections",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "home",
+   "title": "Home: lower sections",
+   "type": "image",
+   "file": "screens/osmosis/android/home/06-home-lower-sections.png",
+   "poster": null,
+   "patterns": [
+    "home",
+    "sections"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/01-start-daily-practice",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Start daily practice",
+   "type": "video",
+   "file": "screens/osmosis/android/daily-practice/01-start-daily-practice.mp4",
+   "poster": "screens/osmosis/android/daily-practice/01-start-daily-practice.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/02-daily-practice-summary",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Daily Practice summary",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/02-daily-practice-summary.png",
+   "poster": null,
+   "patterns": [
+    "quiz",
+    "summary",
+    "xp"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/03-start-daily-quiz",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Start daily quiz",
+   "type": "video",
+   "file": "screens/osmosis/android/daily-practice/03-start-daily-quiz.mp4",
+   "poster": "screens/osmosis/android/daily-practice/03-start-daily-quiz.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/04-daily-practice-question",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Daily practice question",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/04-daily-practice-question.png",
+   "poster": null,
+   "patterns": [
+    "quiz",
+    "question"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/05-point-on-image-question",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Point-on-image question",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/05-point-on-image-question.png",
+   "poster": null,
+   "patterns": [
+    "hotspot",
+    "image question",
+    "draggable pin"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/06-check-image-question-missed-hotspot",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Check image question: missed hotspot",
+   "type": "video",
+   "file": "screens/osmosis/android/daily-practice/06-check-image-question-missed-hotspot.mp4",
+   "poster": "screens/osmosis/android/daily-practice/06-check-image-question-missed-hotspot.poster.jpg",
+   "patterns": [
+    "hotspot",
+    "feedback",
+    "incorrect"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/07-missed-hotspot-correct-region-highlighted",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Missed hotspot, correct region highlighted",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/07-missed-hotspot-correct-region-highlighted.png",
+   "poster": null,
+   "patterns": [
+    "feedback",
+    "hotspot",
+    "incorrect",
+    "highlight"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/08-next-daily-question",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Next daily question",
+   "type": "video",
+   "file": "screens/osmosis/android/daily-practice/08-next-daily-question.mp4",
+   "poster": "screens/osmosis/android/daily-practice/08-next-daily-question.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/09-daily-practice-question-2",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Daily practice question 2",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/09-daily-practice-question-2.png",
+   "poster": null,
+   "patterns": [
+    "quiz",
+    "question"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/10-tap-to-place-pin",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Tap to place pin",
+   "type": "video",
+   "file": "screens/osmosis/android/daily-practice/10-tap-to-place-pin.mp4",
+   "poster": "screens/osmosis/android/daily-practice/10-tap-to-place-pin.poster.jpg",
+   "patterns": [
+    "hotspot",
+    "tap",
+    "pin"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/11-pin-placed-on-image",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Pin placed on image",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/11-pin-placed-on-image.png",
+   "poster": null,
+   "patterns": [
+    "hotspot",
+    "pin",
+    "selected state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/12-check-pinned-answer",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Check pinned answer",
+   "type": "video",
+   "file": "screens/osmosis/android/daily-practice/12-check-pinned-answer.mp4",
+   "poster": "screens/osmosis/android/daily-practice/12-check-pinned-answer.poster.jpg",
+   "patterns": [
+    "feedback",
+    "xp"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/13-hotspot-answer-feedback",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Hotspot answer feedback",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/13-hotspot-answer-feedback.png",
+   "poster": null,
+   "patterns": [
+    "feedback",
+    "hotspot",
+    "xp"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/14-finish-daily-practice",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Finish daily practice",
+   "type": "video",
+   "file": "screens/osmosis/android/daily-practice/14-finish-daily-practice.mp4",
+   "poster": "screens/osmosis/android/daily-practice/14-finish-daily-practice.poster.jpg",
+   "patterns": [
+    "celebration",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/15-daily-practice-results-with-xp",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Daily practice results with XP",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/15-daily-practice-results-with-xp.png",
+   "poster": null,
+   "patterns": [
+    "results",
+    "xp",
+    "summary"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/16-tap-done-after-practice",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Tap Done after practice",
+   "type": "video",
+   "file": "screens/osmosis/android/daily-practice/16-tap-done-after-practice.mp4",
+   "poster": "screens/osmosis/android/daily-practice/16-tap-done-after-practice.poster.jpg",
+   "patterns": [
+    "transition",
+    "celebration"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/daily-practice/17-home-practice-done-1-day-streak",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "daily-practice",
+   "title": "Home: practice done, 1-day streak",
+   "type": "image",
+   "file": "screens/osmosis/android/daily-practice/17-home-practice-done-1-day-streak.png",
+   "poster": null,
+   "patterns": [
+    "home",
+    "streak",
+    "completed state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/topics/01-open-anatomy",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "topics",
+   "title": "Open Anatomy",
+   "type": "video",
+   "file": "screens/osmosis/android/topics/01-open-anatomy.mp4",
+   "poster": "screens/osmosis/android/topics/01-open-anatomy.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/topics/02-anatomy-topic",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "topics",
+   "title": "Anatomy topic",
+   "type": "image",
+   "file": "screens/osmosis/android/topics/02-anatomy-topic.png",
+   "poster": null,
+   "patterns": [
+    "topic page",
+    "list",
+    "concepts"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/topics/03-swipe-row-for-actions",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "topics",
+   "title": "Swipe row for actions",
+   "type": "video",
+   "file": "screens/osmosis/android/topics/03-swipe-row-for-actions.mp4",
+   "poster": "screens/osmosis/android/topics/03-swipe-row-for-actions.poster.jpg",
+   "patterns": [
+    "swipe actions",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/topics/04-row-swipe-actions",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "topics",
+   "title": "Row swipe actions",
+   "type": "image",
+   "file": "screens/osmosis/android/topics/04-row-swipe-actions.png",
+   "poster": null,
+   "patterns": [
+    "swipe actions",
+    "save",
+    "playlist"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/topics/05-swipe-row-right-to-save",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "topics",
+   "title": "Swipe row right to save",
+   "type": "video",
+   "file": "screens/osmosis/android/topics/05-swipe-row-right-to-save.mp4",
+   "poster": "screens/osmosis/android/topics/05-swipe-row-right-to-save.poster.jpg",
+   "patterns": [
+    "swipe actions",
+    "save"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/topics/06-row-swipe-right-save",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "topics",
+   "title": "Row swipe right: Save",
+   "type": "image",
+   "file": "screens/osmosis/android/topics/06-row-swipe-right-save.png",
+   "poster": null,
+   "patterns": [
+    "swipe actions",
+    "save"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/topics/07-anatomy-topic-scroll",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "topics",
+   "title": "Anatomy topic scroll",
+   "type": "video",
+   "file": "screens/osmosis/android/topics/07-anatomy-topic-scroll.mp4",
+   "poster": "screens/osmosis/android/topics/07-anatomy-topic-scroll.poster.jpg",
+   "patterns": [
+    "scroll",
+    "sections",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/topics/08-anatomy-later-sections",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "topics",
+   "title": "Anatomy: later sections",
+   "type": "image",
+   "file": "screens/osmosis/android/topics/08-anatomy-later-sections.png",
+   "poster": null,
+   "patterns": [
+    "list",
+    "sections"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/notes/01-open-notes-pdf-hand-off",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "com.android.intentresolver",
+   "version": "2021-11",
+   "flow": "notes",
+   "title": "Open notes: PDF hand-off",
+   "type": "video",
+   "file": "screens/osmosis/android/notes/01-open-notes-pdf-hand-off.mp4",
+   "poster": "screens/osmosis/android/notes/01-open-notes-pdf-hand-off.poster.jpg",
+   "patterns": [
+    "pdf",
+    "share sheet",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/notes/02-notes-pdf-share-sheet",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "com.android.intentresolver",
+   "version": "2021-11",
+   "flow": "notes",
+   "title": "Notes PDF share sheet",
+   "type": "image",
+   "file": "screens/osmosis/android/notes/02-notes-pdf-share-sheet.png",
+   "poster": null,
+   "patterns": [
+    "share sheet",
+    "pdf",
+    "system sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/answers/01-open-an-answers-article",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "answers",
+   "title": "Open an Answers article",
+   "type": "video",
+   "file": "screens/osmosis/android/answers/01-open-an-answers-article.mp4",
+   "poster": "screens/osmosis/android/answers/01-open-an-answers-article.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/answers/02-answers-article",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "answers",
+   "title": "Answers article",
+   "type": "image",
+   "file": "screens/osmosis/android/answers/02-answers-article.png",
+   "poster": null,
+   "patterns": [
+    "article",
+    "web view",
+    "faq"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/answers/03-answers-article-scroll",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "answers",
+   "title": "Answers article scroll",
+   "type": "video",
+   "file": "screens/osmosis/android/answers/03-answers-article-scroll.mp4",
+   "poster": "screens/osmosis/android/answers/03-answers-article-scroll.poster.jpg",
+   "patterns": [
+    "scroll",
+    "article"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/answers/04-answers-article-further-sections",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "answers",
+   "title": "Answers article: further sections",
+   "type": "image",
+   "file": "screens/osmosis/android/answers/04-answers-article-further-sections.png",
+   "poster": null,
+   "patterns": [
+    "article",
+    "headings"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/answers/05-open-article-info",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "answers",
+   "title": "Open article info",
+   "type": "video",
+   "file": "screens/osmosis/android/answers/05-open-article-info.mp4",
+   "poster": "screens/osmosis/android/answers/05-open-article-info.poster.jpg",
+   "patterns": [
+    "dialog"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/answers/06-answers-article-info",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "answers",
+   "title": "Answers article info",
+   "type": "image",
+   "file": "screens/osmosis/android/answers/06-answers-article-info.png",
+   "poster": null,
+   "patterns": [
+    "info",
+    "dialog"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/01-open-questions",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Open Questions",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/01-open-questions.mp4",
+   "poster": "screens/osmosis/android/assessments/01-open-questions.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/02-questions-no-queues-yet",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Questions: no queues yet",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/02-questions-no-queues-yet.png",
+   "poster": null,
+   "patterns": [
+    "empty state",
+    "queues"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/03-open-new-quiz",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Open New Quiz",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/03-open-new-quiz.mp4",
+   "poster": "screens/osmosis/android/assessments/03-open-new-quiz.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/04-custom-quiz-builder",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Custom quiz builder",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/04-custom-quiz-builder.png",
+   "poster": null,
+   "patterns": [
+    "quiz builder",
+    "form",
+    "filters"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/05-pick-usmle-step-1",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Pick USMLE Step 1",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/05-pick-usmle-step-1.mp4",
+   "poster": "screens/osmosis/android/assessments/05-pick-usmle-step-1.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/06-quiz-builder-step-1-options",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Quiz builder: Step 1 options",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/06-quiz-builder-step-1-options.png",
+   "poster": null,
+   "patterns": [
+    "quiz builder",
+    "filters",
+    "systems"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/07-drill-into-organ-systems",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Drill into Organ Systems",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/07-drill-into-organ-systems.mp4",
+   "poster": "screens/osmosis/android/assessments/07-drill-into-organ-systems.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/08-quiz-builder-organ-system-topics",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Quiz builder: organ system topics",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/08-quiz-builder-organ-system-topics.png",
+   "poster": null,
+   "patterns": [
+    "checkbox list",
+    "tree",
+    "filters"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/09-drill-into-subjects",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Drill into Subjects",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/09-drill-into-subjects.mp4",
+   "poster": "screens/osmosis/android/assessments/09-drill-into-subjects.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/10-quiz-builder-subjects-list",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Quiz builder: subjects list",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/10-quiz-builder-subjects-list.png",
+   "poster": null,
+   "patterns": [
+    "checkbox list",
+    "counts"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/11-tick-subjects",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Tick subjects",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/11-tick-subjects.mp4",
+   "poster": "screens/osmosis/android/assessments/11-tick-subjects.poster.jpg",
+   "patterns": [
+    "checkbox",
+    "selection"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/12-quiz-builder-subjects-selected",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Quiz builder: subjects selected",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/12-quiz-builder-subjects-selected.png",
+   "poster": null,
+   "patterns": [
+    "checkbox",
+    "selected state",
+    "cta"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/13-expand-quiz-summary",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Expand quiz summary",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/13-expand-quiz-summary.mp4",
+   "poster": "screens/osmosis/android/assessments/13-expand-quiz-summary.poster.jpg",
+   "patterns": [
+    "expand",
+    "bottom panel"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/14-quiz-summary-expanded",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Quiz summary expanded",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/14-quiz-summary-expanded.png",
+   "poster": null,
+   "patterns": [
+    "expandable panel",
+    "summary"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/15-open-max-quiz-size",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Open max quiz size",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/15-open-max-quiz-size.mp4",
+   "poster": "screens/osmosis/android/assessments/15-open-max-quiz-size.poster.jpg",
+   "patterns": [
+    "dropdown"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/16-max-quiz-size-picker",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Max quiz size picker",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/16-max-quiz-size-picker.png",
+   "poster": null,
+   "patterns": [
+    "picker",
+    "dropdown"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/17-open-question-mode",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Open question mode",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/17-open-question-mode.mp4",
+   "poster": "screens/osmosis/android/assessments/17-open-question-mode.poster.jpg",
+   "patterns": [
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/18-question-mode-unused-incorrect-all",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Question mode: unused, incorrect, all",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/18-question-mode-unused-incorrect-all.png",
+   "poster": null,
+   "patterns": [
+    "radio buttons",
+    "filters",
+    "modal"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/19-questions-queue-list",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Questions queue list",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/19-questions-queue-list.png",
+   "poster": null,
+   "patterns": [
+    "list",
+    "progress bar",
+    "card"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/20-open-queue-options",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Open queue options",
+   "type": "video",
+   "file": "screens/osmosis/android/assessments/20-open-queue-options.mp4",
+   "poster": "screens/osmosis/android/assessments/20-open-queue-options.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/21-queue-options-menu",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Queue options menu",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/21-queue-options-menu.png",
+   "poster": null,
+   "patterns": [
+    "menu",
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/assessments/22-queue-removed-empty-list",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "assessments",
+   "title": "Queue removed, empty list",
+   "type": "image",
+   "file": "screens/osmosis/android/assessments/22-queue-removed-empty-list.png",
+   "poster": null,
+   "patterns": [
+    "empty state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/flashcards/01-open-flashcards",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "flashcards",
+   "title": "Open Flashcards",
+   "type": "video",
+   "file": "screens/osmosis/android/flashcards/01-open-flashcards.mp4",
+   "poster": "screens/osmosis/android/flashcards/01-open-flashcards.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/flashcards/02-flashcards-empty-state",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "flashcards",
+   "title": "Flashcards empty state",
+   "type": "image",
+   "file": "screens/osmosis/android/flashcards/02-flashcards-empty-state.png",
+   "poster": null,
+   "patterns": [
+    "empty state",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/01-open-saved-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Open Saved tab",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/01-open-saved-tab.mp4",
+   "poster": "screens/osmosis/android/saved/01-open-saved-tab.poster.jpg",
+   "patterns": [
+    "tab switch"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/02-saved-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Saved tab",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/02-saved-tab.png",
+   "poster": null,
+   "patterns": [
+    "tabs",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/03-open-watch-later",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Open Watch Later",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/03-open-watch-later.mp4",
+   "poster": "screens/osmosis/android/saved/03-open-watch-later.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/04-watch-later-list",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Watch Later list",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/04-watch-later-list.png",
+   "poster": null,
+   "patterns": [
+    "list",
+    "thumbnail"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/05-swipe-to-remove-from-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Swipe to remove from playlist",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/05-swipe-to-remove-from-playlist.mp4",
+   "poster": "screens/osmosis/android/saved/05-swipe-to-remove-from-playlist.poster.jpg",
+   "patterns": [
+    "swipe action",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/06-swipe-reveals-remove",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Swipe reveals Remove",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/06-swipe-reveals-remove.png",
+   "poster": null,
+   "patterns": [
+    "swipe action",
+    "destructive action"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/07-tap-delete-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Tap delete playlist",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/07-tap-delete-playlist.mp4",
+   "poster": "screens/osmosis/android/saved/07-tap-delete-playlist.poster.jpg",
+   "patterns": [
+    "dialog"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/08-delete-playlist-confirmation",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Delete playlist confirmation",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/08-delete-playlist-confirmation.png",
+   "poster": null,
+   "patterns": [
+    "dialog",
+    "destructive action"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/09-tap-quiz-all-items",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Tap Quiz all items",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/09-tap-quiz-all-items.mp4",
+   "poster": "screens/osmosis/android/saved/09-tap-quiz-all-items.poster.jpg",
+   "patterns": [
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/10-quiz-playlist-question-set-sheet",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Quiz playlist question set sheet",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/10-quiz-playlist-question-set-sheet.png",
+   "poster": null,
+   "patterns": [
+    "bottom sheet",
+    "radio buttons"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/11-question-set-selected",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Question set selected",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/11-question-set-selected.png",
+   "poster": null,
+   "patterns": [
+    "bottom sheet",
+    "radio buttons"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/12-playlist-quiz-summary",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Playlist quiz summary",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/12-playlist-quiz-summary.png",
+   "poster": null,
+   "patterns": [
+    "summary",
+    "quiz"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/13-open-playlists",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Open Playlists",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/13-open-playlists.mp4",
+   "poster": "screens/osmosis/android/saved/13-open-playlists.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/14-playlists-list",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Playlists list",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/14-playlists-list.png",
+   "poster": null,
+   "patterns": [
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/15-tap-create-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Tap Create playlist",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/15-tap-create-playlist.mp4",
+   "poster": "screens/osmosis/android/saved/15-tap-create-playlist.poster.jpg",
+   "patterns": [
+    "modal"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/16-create-playlist-form",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Create playlist form",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/16-create-playlist-form.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "text field",
+    "full-screen modal"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/17-create-playlist-filled",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Create playlist filled",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/17-create-playlist-filled.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "text field"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/18-create-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Create playlist",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/18-create-playlist.mp4",
+   "poster": "screens/osmosis/android/saved/18-create-playlist.poster.jpg",
+   "patterns": [
+    "list update"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/19-playlist-created",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Playlist created",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/19-playlist-created.png",
+   "poster": null,
+   "patterns": [
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/20-empty-playlist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Empty playlist",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/20-empty-playlist.png",
+   "poster": null,
+   "patterns": [
+    "empty state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/21-edit-playlist-form",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Edit playlist form",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/21-edit-playlist-form.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "text field"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/22-open-notes",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Open Notes",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/22-open-notes.mp4",
+   "poster": "screens/osmosis/android/saved/22-open-notes.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/23-saved-notes-empty-state",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Saved notes empty state",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/23-saved-notes-empty-state.png",
+   "poster": null,
+   "patterns": [
+    "empty state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/24-open-all-downloads",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Open All Downloads",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/24-open-all-downloads.mp4",
+   "poster": "screens/osmosis/android/saved/24-open-all-downloads.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/25-all-downloads",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "All downloads",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/25-all-downloads.png",
+   "poster": null,
+   "patterns": [
+    "list",
+    "download"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/26-remove-all-downloads-confirmation",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Remove all downloads confirmation",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/26-remove-all-downloads-confirmation.png",
+   "poster": null,
+   "patterns": [
+    "dialog",
+    "destructive action"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/27-downloads-cleared-alert",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Downloads cleared alert",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/27-downloads-cleared-alert.png",
+   "poster": null,
+   "patterns": [
+    "dialog",
+    "confirmation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/28-downloads-empty-state",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Downloads empty state",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/28-downloads-empty-state.png",
+   "poster": null,
+   "patterns": [
+    "empty state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/29-open-study-schedule",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Open study schedule",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/29-open-study-schedule.mp4",
+   "poster": "screens/osmosis/android/saved/29-open-study-schedule.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/30-study-schedule",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Study schedule",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/30-study-schedule.png",
+   "poster": null,
+   "patterns": [
+    "calendar",
+    "schedule"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/31-next-day",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Next day",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/31-next-day.mp4",
+   "poster": "screens/osmosis/android/saved/31-next-day.poster.jpg",
+   "patterns": [
+    "date change"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/32-study-schedule-next-day",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Study schedule next day",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/32-study-schedule-next-day.png",
+   "poster": null,
+   "patterns": [
+    "calendar",
+    "date navigation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/33-open-pre-study-checklist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Open pre-study checklist",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/33-open-pre-study-checklist.mp4",
+   "poster": "screens/osmosis/android/saved/33-open-pre-study-checklist.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/34-pre-study-checklist",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Pre-study checklist",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/34-pre-study-checklist.png",
+   "poster": null,
+   "patterns": [
+    "checklist",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/35-checklist-item-added",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Checklist item added",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/35-checklist-item-added.png",
+   "poster": null,
+   "patterns": [
+    "checklist",
+    "dialog"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/36-checklist-item-checked",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Checklist item checked",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/36-checklist-item-checked.png",
+   "poster": null,
+   "patterns": [
+    "checklist",
+    "checkbox"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/37-open-active-schedules",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Open active schedules",
+   "type": "video",
+   "file": "screens/osmosis/android/saved/37-open-active-schedules.mp4",
+   "poster": "screens/osmosis/android/saved/37-open-active-schedules.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/38-active-schedules",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Active schedules",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/38-active-schedules.png",
+   "poster": null,
+   "patterns": [
+    "list",
+    "empty state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/saved/39-completed-schedules-tab",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "saved",
+   "title": "Completed schedules tab",
+   "type": "image",
+   "file": "screens/osmosis/android/saved/39-completed-schedules-tab.png",
+   "poster": null,
+   "patterns": [
+    "tabs",
+    "empty state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/01-open-profile-drawer",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Open profile drawer",
+   "type": "video",
+   "file": "screens/osmosis/android/profile/01-open-profile-drawer.mp4",
+   "poster": "screens/osmosis/android/profile/01-open-profile-drawer.poster.jpg",
+   "patterns": [
+    "drawer"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/02-profile-drawer",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Profile drawer",
+   "type": "image",
+   "file": "screens/osmosis/android/profile/02-profile-drawer.png",
+   "poster": null,
+   "patterns": [
+    "drawer",
+    "menu"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/03-open-profile",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Open Profile",
+   "type": "video",
+   "file": "screens/osmosis/android/profile/03-open-profile.mp4",
+   "poster": "screens/osmosis/android/profile/03-open-profile.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/04-profile-screen",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Profile screen",
+   "type": "image",
+   "file": "screens/osmosis/android/profile/04-profile-screen.png",
+   "poster": null,
+   "patterns": [
+    "profile",
+    "form"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/05-open-language-dropdown",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Open language dropdown",
+   "type": "video",
+   "file": "screens/osmosis/android/profile/05-open-language-dropdown.mp4",
+   "poster": "screens/osmosis/android/profile/05-open-language-dropdown.poster.jpg",
+   "patterns": [
+    "dropdown"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/06-language-dropdown",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Language dropdown",
+   "type": "image",
+   "file": "screens/osmosis/android/profile/06-language-dropdown.png",
+   "poster": null,
+   "patterns": [
+    "dropdown",
+    "picker"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/07-tap-manage-my-profile",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Tap Manage my profile",
+   "type": "video",
+   "file": "screens/osmosis/android/profile/07-tap-manage-my-profile.mp4",
+   "poster": "screens/osmosis/android/profile/07-tap-manage-my-profile.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/08-account-page-loading",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Account page loading",
+   "type": "image",
+   "file": "screens/osmosis/android/profile/08-account-page-loading.png",
+   "poster": null,
+   "patterns": [
+    "loading",
+    "web view"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/09-elsevier-account-web-page",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Elsevier account web page",
+   "type": "image",
+   "file": "screens/osmosis/android/profile/09-elsevier-account-web-page.png",
+   "poster": null,
+   "patterns": [
+    "web view",
+    "account"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/10-open-feedback",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Open Feedback",
+   "type": "video",
+   "file": "screens/osmosis/android/profile/10-open-feedback.mp4",
+   "poster": "screens/osmosis/android/profile/10-open-feedback.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/11-feedback",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Feedback",
+   "type": "image",
+   "file": "screens/osmosis/android/profile/11-feedback.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "feedback"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/12-feedback-typed",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "Feedback typed",
+   "type": "image",
+   "file": "screens/osmosis/android/profile/12-feedback-typed.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "text area"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/profile/13-history",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "profile",
+   "title": "History",
+   "type": "image",
+   "file": "screens/osmosis/android/profile/13-history.png",
+   "poster": null,
+   "patterns": [
+    "list",
+    "history"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/01-settings",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Settings",
+   "type": "image",
+   "file": "screens/osmosis/android/settings/01-settings.png",
+   "poster": null,
+   "patterns": [
+    "settings",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/02-open-quiz-settings",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Open quiz settings",
+   "type": "video",
+   "file": "screens/osmosis/android/settings/02-open-quiz-settings.mp4",
+   "poster": "screens/osmosis/android/settings/02-open-quiz-settings.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/03-quiz-settings",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Quiz settings",
+   "type": "image",
+   "file": "screens/osmosis/android/settings/03-quiz-settings.png",
+   "poster": null,
+   "patterns": [
+    "settings",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/04-automatic-dark-mode-off",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Automatic dark mode off",
+   "type": "image",
+   "file": "screens/osmosis/android/settings/04-automatic-dark-mode-off.png",
+   "poster": null,
+   "patterns": [
+    "toggle",
+    "settings"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/05-turn-on-dark-mode",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Turn on dark mode",
+   "type": "video",
+   "file": "screens/osmosis/android/settings/05-turn-on-dark-mode.mp4",
+   "poster": "screens/osmosis/android/settings/05-turn-on-dark-mode.poster.jpg",
+   "patterns": [
+    "theme change"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/06-settings-in-dark-mode",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Settings in dark mode",
+   "type": "image",
+   "file": "screens/osmosis/android/settings/06-settings-in-dark-mode.png",
+   "poster": null,
+   "patterns": [
+    "dark mode",
+    "settings"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/dark-mode/01-home-in-dark-mode",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "dark-mode",
+   "title": "Home in dark mode",
+   "type": "image",
+   "file": "screens/osmosis/android/dark-mode/01-home-in-dark-mode.png",
+   "poster": null,
+   "patterns": [
+    "dark mode",
+    "home"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/dark-mode/02-home-scrolled-in-dark-mode",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "dark-mode",
+   "title": "Home scrolled in dark mode",
+   "type": "image",
+   "file": "screens/osmosis/android/dark-mode/02-home-scrolled-in-dark-mode.png",
+   "poster": null,
+   "patterns": [
+    "dark mode",
+    "home"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/dark-mode/03-assessments-in-dark-mode",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "dark-mode",
+   "title": "Assessments in dark mode",
+   "type": "image",
+   "file": "screens/osmosis/android/dark-mode/03-assessments-in-dark-mode.png",
+   "poster": null,
+   "patterns": [
+    "dark mode",
+    "tab bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/dark-mode/04-saved-in-dark-mode",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "dark-mode",
+   "title": "Saved in dark mode",
+   "type": "image",
+   "file": "screens/osmosis/android/dark-mode/04-saved-in-dark-mode.png",
+   "poster": null,
+   "patterns": [
+    "dark mode",
+    "tab bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/dark-mode/05-topics-in-dark-mode",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "dark-mode",
+   "title": "Topics in dark mode",
+   "type": "image",
+   "file": "screens/osmosis/android/dark-mode/05-topics-in-dark-mode.png",
+   "poster": null,
+   "patterns": [
+    "dark mode",
+    "tab bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/07-open-report-a-bug",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Open Report a bug",
+   "type": "video",
+   "file": "screens/osmosis/android/settings/07-open-report-a-bug.mp4",
+   "poster": "screens/osmosis/android/settings/07-open-report-a-bug.poster.jpg",
+   "patterns": [
+    "push transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/08-report-a-bug",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Report a bug",
+   "type": "image",
+   "file": "screens/osmosis/android/settings/08-report-a-bug.png",
+   "poster": null,
+   "patterns": [
+    "form",
+    "bug report"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/09-tap-sign-out",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Tap Sign out",
+   "type": "video",
+   "file": "screens/osmosis/android/settings/09-tap-sign-out.mp4",
+   "poster": "screens/osmosis/android/settings/09-tap-sign-out.poster.jpg",
+   "patterns": [
+    "dialog"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/10-sign-out-confirmation",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Sign out confirmation",
+   "type": "image",
+   "file": "screens/osmosis/android/settings/10-sign-out-confirmation.png",
+   "poster": null,
+   "patterns": [
+    "dialog",
+    "confirmation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/11-tap-delete-my-account",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Tap Delete my account",
+   "type": "video",
+   "file": "screens/osmosis/android/settings/11-tap-delete-my-account.mp4",
+   "poster": "screens/osmosis/android/settings/11-tap-delete-my-account.poster.jpg",
+   "patterns": [
+    "dialog"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/settings/12-delete-account-confirmation",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "settings",
+   "title": "Delete account confirmation",
+   "type": "image",
+   "file": "screens/osmosis/android/settings/12-delete-account-confirmation.png",
+   "poster": null,
+   "patterns": [
+    "dialog",
+    "destructive action"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/01-open-ask-osmosis-ai",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Open Ask Osmosis AI",
+   "type": "video",
+   "file": "screens/osmosis/android/ask-ai/01-open-ask-osmosis-ai.mp4",
+   "poster": "screens/osmosis/android/ask-ai/01-open-ask-osmosis-ai.poster.jpg",
+   "patterns": [
+    "modal"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/02-ask-osmosis-ai-loading",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Ask Osmosis AI loading",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/02-ask-osmosis-ai-loading.png",
+   "poster": null,
+   "patterns": [
+    "loading",
+    "web view"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/03-ask-osmosis-ai-welcome",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Ask Osmosis AI welcome",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/03-ask-osmosis-ai-welcome.png",
+   "poster": null,
+   "patterns": [
+    "chat",
+    "AI assistant",
+    "empty state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/04-open-chat-sidebar",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Open chat sidebar",
+   "type": "video",
+   "file": "screens/osmosis/android/ask-ai/04-open-chat-sidebar.mp4",
+   "poster": "screens/osmosis/android/ask-ai/04-open-chat-sidebar.poster.jpg",
+   "patterns": [
+    "drawer"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/05-chat-sidebar",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Chat sidebar",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/05-chat-sidebar.png",
+   "poster": null,
+   "patterns": [
+    "drawer",
+    "navigation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/06-ai-quiz-questions-empty-state",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "AI quiz questions empty state",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/06-ai-quiz-questions-empty-state.png",
+   "poster": null,
+   "patterns": [
+    "empty state",
+    "filters"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/07-question-typed",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Question typed",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/07-question-typed.png",
+   "poster": null,
+   "patterns": [
+    "chat",
+    "text field"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/08-send-question-answer-streams-in",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Send question, answer streams in",
+   "type": "video",
+   "file": "screens/osmosis/android/ask-ai/08-send-question-answer-streams-in.mp4",
+   "poster": "screens/osmosis/android/ask-ai/08-send-question-answer-streams-in.poster.jpg",
+   "patterns": [
+    "streaming text"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/09-ai-answer-with-citations",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "AI answer with citations",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/09-ai-answer-with-citations.png",
+   "poster": null,
+   "patterns": [
+    "chat",
+    "AI assistant",
+    "streaming"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/10-ai-answer-full",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "AI answer full",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/10-ai-answer-full.png",
+   "poster": null,
+   "patterns": [
+    "chat",
+    "AI assistant"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/11-ai-answer-scrolled-sources",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "AI answer scrolled, sources",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/11-ai-answer-scrolled-sources.png",
+   "poster": null,
+   "patterns": [
+    "chat",
+    "citations"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/12-open-references",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Open references",
+   "type": "video",
+   "file": "screens/osmosis/android/ask-ai/12-open-references.mp4",
+   "poster": "screens/osmosis/android/ask-ai/12-open-references.poster.jpg",
+   "patterns": [
+    "popover"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/13-references-panel",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "References panel",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/13-references-panel.png",
+   "poster": null,
+   "patterns": [
+    "citations",
+    "side panel"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/14-open-study-mode-menu",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Open Study mode menu",
+   "type": "video",
+   "file": "screens/osmosis/android/ask-ai/14-open-study-mode-menu.mp4",
+   "poster": "screens/osmosis/android/ask-ai/14-open-study-mode-menu.poster.jpg",
+   "patterns": [
+    "dropdown"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/ask-ai/15-study-mode-menu",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "ask-ai",
+   "title": "Study mode menu",
+   "type": "image",
+   "file": "screens/osmosis/android/ask-ai/15-study-mode-menu.png",
+   "poster": null,
+   "patterns": [
+    "dropdown",
+    "menu"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/paywall/01-prime-plan-comparison",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "paywall",
+   "title": "Prime plan comparison",
+   "type": "image",
+   "file": "screens/osmosis/android/paywall/01-prime-plan-comparison.png",
+   "poster": null,
+   "patterns": [
+    "paywall",
+    "feature list",
+    "pricing"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/paywall/02-prime-plans-scrolled",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "paywall",
+   "title": "Prime plans scrolled",
+   "type": "image",
+   "file": "screens/osmosis/android/paywall/02-prime-plans-scrolled.png",
+   "poster": null,
+   "patterns": [
+    "paywall",
+    "pricing"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/paywall/03-open-billing-period-picker",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "paywall",
+   "title": "Open billing period picker",
+   "type": "video",
+   "file": "screens/osmosis/android/paywall/03-open-billing-period-picker.mp4",
+   "poster": "screens/osmosis/android/paywall/03-open-billing-period-picker.poster.jpg",
+   "patterns": [
+    "dropdown"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/paywall/04-billing-period-picker",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "paywall",
+   "title": "Billing period picker",
+   "type": "image",
+   "file": "screens/osmosis/android/paywall/04-billing-period-picker.png",
+   "poster": null,
+   "patterns": [
+    "picker",
+    "pricing"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/paywall/05-switch-to-yearly-billing",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "paywall",
+   "title": "Switch to yearly billing",
+   "type": "video",
+   "file": "screens/osmosis/android/paywall/05-switch-to-yearly-billing.mp4",
+   "poster": "screens/osmosis/android/paywall/05-switch-to-yearly-billing.poster.jpg",
+   "patterns": [
+    "price change"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/paywall/06-yearly-plan-pricing",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "paywall",
+   "title": "Yearly plan pricing",
+   "type": "image",
+   "file": "screens/osmosis/android/paywall/06-yearly-plan-pricing.png",
+   "poster": null,
+   "patterns": [
+    "paywall",
+    "pricing"
    ],
    "note": null,
    "captured": "2026-11-22"
