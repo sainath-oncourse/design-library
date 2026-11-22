@@ -469,3 +469,34 @@ textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 5px var(--accent
   *, ::before, ::after { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
 }
+
+/* ---------- Screens ---------- */
+.shot-app { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+.shot-app:hover { color: var(--accent); }
+.shelf:has(> .shot) { grid-auto-columns: 180px; gap: 16px; }
+.shot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(172px, 1fr)); gap: 22px 16px; }
+.shot { display: flex; flex-direction: column; gap: 9px; padding: 0; border: 0; background: none; text-align: left; cursor: pointer; color: inherit; font: inherit; }
+.shot-media { position: relative; display: block; aspect-ratio: 9 / 19.5; border-radius: 18px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--border); transition: transform .2s var(--ease), box-shadow .2s; }
+.shot:hover .shot-media { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.shot:focus-visible .shot-media { outline: 2px solid var(--accent); outline-offset: 2px; }
+.shot-media img, .shot-media video { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.shot-badge { position: absolute; left: 8px; bottom: 8px; padding: 2px 8px; border-radius: 99px; background: rgba(0,0,0,.72); color: #fff; font-size: 11px; font-weight: 600; }
+.shot-title { font-size: 13px; font-weight: 550; line-height: 1.35; color: var(--text-2); }
+.shot-view { padding: 0; border: 0; border-radius: var(--r-lg); background: var(--surface); color: var(--text); max-width: min(880px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); box-shadow: var(--shadow-lg); }
+.shot-view::backdrop { background: rgba(0,0,0,.6); backdrop-filter: blur(4px); }
+.shot-view-in { display: grid; grid-template-columns: auto 300px; }
+.shot-view-media { background: var(--surface-2); display: grid; place-items: center; padding: 20px; }
+.shot-view-media img, .shot-view-media video { display: block; max-height: calc(100dvh - 72px); max-width: 100%; border-radius: 22px; }
+.shot-view-meta { position: relative; padding: 24px 22px; display: flex; flex-direction: column; gap: 10px; }
+.shot-view-meta .round { position: absolute; top: 14px; right: 14px; font-size: 13px; }
+.shot-view-meta h2 { font-size: 20px; letter-spacing: -.02em; padding-right: 36px; }
+.shot-view-meta p { color: var(--text-2); font-size: 14px; }
+.shot-view-meta dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 13px; margin: 4px 0 8px; }
+.shot-view-meta dt { color: var(--muted); }
+.shot-view-meta .btn { align-self: flex-start; margin-top: auto; }
+@media (max-width: 720px) {
+  .shelf:has(> .shot) { grid-auto-columns: 44%; }
+  .shot-grid { grid-template-columns: repeat(2, 1fr); }
+  .shot-view-in { grid-template-columns: 1fr; }
+  .shot-view-media img, .shot-view-media video { max-height: 62dvh; }
+}

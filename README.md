@@ -7,3 +7,5 @@ What other apps tried, and what happened: videos, talks, articles and case studi
 - **Weekly experiments:** ask the agent for "this week's design experiments".
 
 Data lives in `data/sources.json` and `data/experiments.json`. After editing, run `node build.mjs`.
+
+**Screens:** app screens and animations captured on Android live in the private screen library (`~/Documents/screen-library`). To update the Screens section, run `node sync-screens.mjs` (it copies `screens/` and writes `data/screens.json`), then `node build.mjs`.

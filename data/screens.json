@@ -1,0 +1,2889 @@
+{
+ "apps": {
+  "zepto": {
+   "name": "Zepto"
+  },
+  "flipkart": {
+   "name": "Flipkart"
+  },
+  "myntra": {
+   "name": "Myntra"
+  },
+  "bigbasket": {
+   "name": "BigBasket"
+  },
+  "blinkit": {
+   "name": "Blinkit"
+  },
+  "licious": {
+   "name": "Licious"
+  },
+  "swish": {
+   "name": "Swish"
+  },
+  "superkalam": {
+   "name": "SuperKalam"
+  },
+  "airlearn": {
+   "name": "Airlearn"
+  },
+  "osmosis": {
+   "name": "Osmosis"
+  }
+ },
+ "screens": [
+  {
+   "id": "zepto/android/onboarding/01-notification-permission",
+   "app": "zepto",
+   "platform": "android",
+   "package": "com.google.android.permissioncontroller",
+   "version": "frc_350820360",
+   "flow": "onboarding",
+   "title": "Notification permission",
+   "type": "image",
+   "file": "screens/zepto/android/onboarding/01-notification-permission.png",
+   "poster": null,
+   "patterns": [
+    "system permission dialog"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "zepto/android/onboarding/02-welcome-illustration-animation",
+   "app": "zepto",
+   "platform": "android",
+   "package": "com.zeptoconsumerapp",
+   "version": "26.11.2",
+   "flow": "onboarding",
+   "title": "Welcome illustration animation",
+   "type": "video",
+   "file": "screens/zepto/android/onboarding/02-welcome-illustration-animation.mp4",
+   "poster": "screens/zepto/android/onboarding/02-welcome-illustration-animation.poster.jpg",
+   "patterns": [
+    "animated illustration",
+    "phone login"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "zepto/android/onboarding/03-phone-number-login",
+   "app": "zepto",
+   "platform": "android",
+   "package": "com.zeptoconsumerapp",
+   "version": "26.11.2",
+   "flow": "onboarding",
+   "title": "Phone number login",
+   "type": "image",
+   "file": "screens/zepto/android/onboarding/03-phone-number-login.png",
+   "poster": null,
+   "patterns": [
+    "phone login",
+    "country code",
+    "terms consent",
+    "skip"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "zepto/android/onboarding/04-phone-number-login-keyboard-open",
+   "app": "zepto",
+   "platform": "android",
+   "package": "com.google.android.gms",
+   "version": "26.45.31 (260400-1020418964)",
+   "flow": "onboarding",
+   "title": "Phone number login keyboard open",
+   "type": "image",
+   "file": "screens/zepto/android/onboarding/04-phone-number-login-keyboard-open.png",
+   "poster": null,
+   "patterns": [
+    "phone login",
+    "numeric keyboard"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/onboarding/01-location-permission",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.google.android.permissioncontroller",
+   "version": "frc_350820360",
+   "flow": "onboarding",
+   "title": "Location permission",
+   "type": "image",
+   "file": "screens/flipkart/android/onboarding/01-location-permission.png",
+   "poster": null,
+   "patterns": [
+    "system permission dialog",
+    "location"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/onboarding/02-language-picker",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "onboarding",
+   "title": "Language picker",
+   "type": "image",
+   "file": "screens/flipkart/android/onboarding/02-language-picker.png",
+   "poster": null,
+   "patterns": [
+    "stepper",
+    "language select",
+    "list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/onboarding/03-phone-login",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "onboarding",
+   "title": "Phone login",
+   "type": "image",
+   "file": "screens/flipkart/android/onboarding/03-phone-login.png",
+   "poster": null,
+   "patterns": [
+    "stepper",
+    "phone login",
+    "email option"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/onboarding/04-skip-login-to-home-loading",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "onboarding",
+   "title": "Skip login to home loading",
+   "type": "video",
+   "file": "screens/flipkart/android/onboarding/04-skip-login-to-home-loading.mp4",
+   "poster": "screens/flipkart/android/onboarding/04-skip-login-to-home-loading.poster.jpg",
+   "patterns": [
+    "skip login",
+    "loading spinner",
+    "bottom tabs"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/travel/01-travel-home",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "travel",
+   "title": "Travel home",
+   "type": "image",
+   "file": "screens/flipkart/android/travel/01-travel-home.png",
+   "poster": null,
+   "patterns": [
+    "segmented toggle",
+    "illustrated cards",
+    "promo banners"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/home/01-home-top",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "home",
+   "title": "Home top",
+   "type": "image",
+   "file": "screens/flipkart/android/home/01-home-top.png",
+   "poster": null,
+   "patterns": [
+    "segmented toggle",
+    "search bar",
+    "category row",
+    "banners",
+    "bottom tabs"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/home/02-home-scroll",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "home",
+   "title": "Home scroll",
+   "type": "video",
+   "file": "screens/flipkart/android/home/02-home-scroll.mp4",
+   "poster": "screens/flipkart/android/home/02-home-scroll.poster.jpg",
+   "patterns": [
+    "infinite feed",
+    "carousels",
+    "sticky search"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/home/03-home-scrolled",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "home",
+   "title": "Home scrolled",
+   "type": "image",
+   "file": "screens/flipkart/android/home/03-home-scrolled.png",
+   "poster": null,
+   "patterns": [
+    "product grid",
+    "deal cards"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/categories/01-all-categories",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "categories",
+   "title": "All categories",
+   "type": "image",
+   "file": "screens/flipkart/android/categories/01-all-categories.png",
+   "poster": null,
+   "patterns": [
+    "side rail",
+    "category grid",
+    "bottom tabs"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/categories/02-switch-category-side-rail",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "categories",
+   "title": "Switch category side rail",
+   "type": "video",
+   "file": "screens/flipkart/android/categories/02-switch-category-side-rail.mp4",
+   "poster": "screens/flipkart/android/categories/02-switch-category-side-rail.poster.jpg",
+   "patterns": [
+    "side rail",
+    "selection transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/categories/03-fashion-category",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "categories",
+   "title": "Fashion category",
+   "type": "image",
+   "file": "screens/flipkart/android/categories/03-fashion-category.png",
+   "poster": null,
+   "patterns": [
+    "side rail",
+    "subcategory grid"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/search/01-open-search",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "search",
+   "title": "Open search",
+   "type": "video",
+   "file": "screens/flipkart/android/search/01-open-search.mp4",
+   "poster": "screens/flipkart/android/search/01-open-search.poster.jpg",
+   "patterns": [
+    "search transition",
+    "keyboard"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/search/02-search-empty-state",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "search",
+   "title": "Search empty state",
+   "type": "image",
+   "file": "screens/flipkart/android/search/02-search-empty-state.png",
+   "poster": null,
+   "patterns": [
+    "recent searches",
+    "trending",
+    "keyboard"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/search/03-search-suggestions",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "search",
+   "title": "Search suggestions",
+   "type": "image",
+   "file": "screens/flipkart/android/search/03-search-suggestions.png",
+   "poster": null,
+   "patterns": [
+    "autocomplete",
+    "suggestion list"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/search/04-notification-soft-prompt",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "search",
+   "title": "Notification soft prompt over results",
+   "type": "image",
+   "file": "screens/flipkart/android/search/04-notification-soft-prompt.png",
+   "poster": null,
+   "patterns": [
+    "soft permission prompt",
+    "modal",
+    "dimmed background"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/search/05-search-results",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "search",
+   "title": "Search results",
+   "type": "image",
+   "file": "screens/flipkart/android/search/05-search-results.png",
+   "poster": null,
+   "patterns": [
+    "product grid",
+    "sort and filter",
+    "brand chips",
+    "ads",
+    "ratings"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/search/06-open-sort-and-filter",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "search",
+   "title": "Open sort and filter",
+   "type": "video",
+   "file": "screens/flipkart/android/search/06-open-sort-and-filter.mp4",
+   "poster": "screens/flipkart/android/search/06-open-sort-and-filter.poster.jpg",
+   "patterns": [
+    "filter page transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/search/07-sort-and-filter",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "search",
+   "title": "Sort and filter",
+   "type": "image",
+   "file": "screens/flipkart/android/search/07-sort-and-filter.png",
+   "poster": null,
+   "patterns": [
+    "filter facets",
+    "side rail"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/product/01-open-product-page",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "product",
+   "title": "Open product page",
+   "type": "video",
+   "file": "screens/flipkart/android/product/01-open-product-page.mp4",
+   "poster": "screens/flipkart/android/product/01-open-product-page.poster.jpg",
+   "patterns": [
+    "shared element transition",
+    "image carousel"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/product/02-product-page-top",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "product",
+   "title": "Product page top",
+   "type": "image",
+   "file": "screens/flipkart/android/product/02-product-page-top.png",
+   "poster": null,
+   "patterns": [
+    "image carousel",
+    "price",
+    "rating",
+    "sticky buy bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/product/03-product-page-scroll",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "product",
+   "title": "Product page scroll",
+   "type": "video",
+   "file": "screens/flipkart/android/product/03-product-page-scroll.mp4",
+   "poster": "screens/flipkart/android/product/03-product-page-scroll.poster.jpg",
+   "patterns": [
+    "sticky buy bar",
+    "offers",
+    "size picker"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/product/04-product-page-details",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "product",
+   "title": "Product page details",
+   "type": "image",
+   "file": "screens/flipkart/android/product/04-product-page-details.png",
+   "poster": null,
+   "patterns": [
+    "offers",
+    "delivery check",
+    "specs"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/address/01-open-delivery-address-sheet",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "address",
+   "title": "Open delivery address sheet",
+   "type": "video",
+   "file": "screens/flipkart/android/address/01-open-delivery-address-sheet.mp4",
+   "poster": "screens/flipkart/android/address/01-open-delivery-address-sheet.poster.jpg",
+   "patterns": [
+    "bottom sheet",
+    "logged-out state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/address/02-delivery-address-sheet-logged-out",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "address",
+   "title": "Delivery address sheet logged out",
+   "type": "image",
+   "file": "screens/flipkart/android/address/02-delivery-address-sheet-logged-out.png",
+   "poster": null,
+   "patterns": [
+    "bottom sheet",
+    "location search",
+    "use current location",
+    "logged-out illustration"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/address/03-use-current-location",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "address",
+   "title": "Use current location",
+   "type": "video",
+   "file": "screens/flipkart/android/address/03-use-current-location.mp4",
+   "poster": "screens/flipkart/android/address/03-use-current-location.poster.jpg",
+   "patterns": [
+    "location detection",
+    "loading"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/product/05-product-page-deliverable",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "product",
+   "title": "Product page deliverable",
+   "type": "image",
+   "file": "screens/flipkart/android/product/05-product-page-deliverable.png",
+   "poster": null,
+   "patterns": [
+    "sticky buy bar",
+    "primary and secondary CTA",
+    "sponsored strip"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/cart/01-add-to-cart-with-variant-sheet",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "cart",
+   "title": "Add to cart with variant sheet",
+   "type": "video",
+   "file": "screens/flipkart/android/cart/01-add-to-cart-with-variant-sheet.mp4",
+   "poster": "screens/flipkart/android/cart/01-add-to-cart-with-variant-sheet.poster.jpg",
+   "patterns": [
+    "variant bottom sheet",
+    "size chips",
+    "disabled to enabled CTA",
+    "added feedback"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/cart/02-after-add-to-cart",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "cart",
+   "title": "After add to cart",
+   "type": "image",
+   "file": "screens/flipkart/android/cart/02-after-add-to-cart.png",
+   "poster": null,
+   "patterns": [
+    "go to cart CTA",
+    "added state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/cart/03-open-cart",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "cart",
+   "title": "Open cart",
+   "type": "video",
+   "file": "screens/flipkart/android/cart/03-open-cart.mp4",
+   "poster": "screens/flipkart/android/cart/03-open-cart.poster.jpg",
+   "patterns": [
+    "page transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/cart/04-cart",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "cart",
+   "title": "Cart",
+   "type": "image",
+   "file": "screens/flipkart/android/cart/04-cart.png",
+   "poster": null,
+   "patterns": [
+    "cart item",
+    "price breakdown",
+    "place order bar",
+    "savings callout"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/cart/05-cart-price-details",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "cart",
+   "title": "Cart price details",
+   "type": "image",
+   "file": "screens/flipkart/android/cart/05-cart-price-details.png",
+   "poster": null,
+   "patterns": [
+    "price details",
+    "savings",
+    "trust badges"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/01-switch-to-minutes-cart-tab",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Switch to Minutes cart tab",
+   "type": "video",
+   "file": "screens/flipkart/android/minutes/01-switch-to-minutes-cart-tab.mp4",
+   "poster": "screens/flipkart/android/minutes/01-switch-to-minutes-cart-tab.poster.jpg",
+   "patterns": [
+    "tabs",
+    "quick commerce"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/02-minutes-empty-cart",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Minutes empty cart",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/02-minutes-empty-cart.png",
+   "poster": null,
+   "patterns": [
+    "empty state",
+    "quick commerce"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/03-open-minutes-store",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Open Minutes store",
+   "type": "video",
+   "file": "screens/flipkart/android/minutes/03-open-minutes-store.mp4",
+   "poster": "screens/flipkart/android/minutes/03-open-minutes-store.poster.jpg",
+   "patterns": [
+    "store transition",
+    "loading"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/04-minutes-address-picker",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Minutes address picker",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/04-minutes-address-picker.png",
+   "poster": null,
+   "patterns": [
+    "address search",
+    "use current location",
+    "logged-out state"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/05-use-current-location-to-open-store",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Use current location to open store",
+   "type": "video",
+   "file": "screens/flipkart/android/minutes/05-use-current-location-to-open-store.mp4",
+   "poster": "screens/flipkart/android/minutes/05-use-current-location-to-open-store.poster.jpg",
+   "patterns": [
+    "location detection",
+    "store load"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/06-minutes-home",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Minutes home",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/06-minutes-home.png",
+   "poster": null,
+   "patterns": [
+    "delivery ETA",
+    "category grid",
+    "quick commerce"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/07-minutes-home-scroll",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Minutes home scroll",
+   "type": "video",
+   "file": "screens/flipkart/android/minutes/07-minutes-home-scroll.mp4",
+   "poster": "screens/flipkart/android/minutes/07-minutes-home-scroll.poster.jpg",
+   "patterns": [
+    "sticky header",
+    "deal rails",
+    "floating cart"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/08-minutes-deal-rails",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Minutes deal rails",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/08-minutes-deal-rails.png",
+   "poster": null,
+   "patterns": [
+    "product rails",
+    "add buttons",
+    "floating cart pill"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/09-add-item-and-increase-quantity",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Add item and increase quantity",
+   "type": "video",
+   "file": "screens/flipkart/android/minutes/09-add-item-and-increase-quantity.mp4",
+   "poster": "screens/flipkart/android/minutes/09-add-item-and-increase-quantity.poster.jpg",
+   "patterns": [
+    "add to stepper morph",
+    "quantity stepper",
+    "cart pill update"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/10-item-added-with-stepper",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Item added with stepper",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/10-item-added-with-stepper.png",
+   "poster": null,
+   "patterns": [
+    "quantity stepper",
+    "cart pill"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/11-recommendations-sheet-after-add",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Recommendations sheet slides up after add",
+   "type": "video",
+   "file": "screens/flipkart/android/minutes/11-recommendations-sheet-after-add.mp4",
+   "poster": "screens/flipkart/android/minutes/11-recommendations-sheet-after-add.poster.jpg",
+   "patterns": [
+    "bottom sheet",
+    "cross-sell"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/12-recommendations-sheet",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Recommendations sheet",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/12-recommendations-sheet.png",
+   "poster": null,
+   "patterns": [
+    "cross-sell",
+    "product grid",
+    "savings progress bar",
+    "cart pill"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/13-recommendations-sheet-xtrasaver",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Recommendations sheet with XtraSaver bar",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/13-recommendations-sheet-xtrasaver.png",
+   "poster": null,
+   "patterns": [
+    "savings progress bar",
+    "membership upsell",
+    "cart pill"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/14-open-minutes-cart",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Open Minutes cart",
+   "type": "video",
+   "file": "screens/flipkart/android/minutes/14-open-minutes-cart.mp4",
+   "poster": "screens/flipkart/android/minutes/14-open-minutes-cart.poster.jpg",
+   "patterns": [
+    "cart transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/15-minutes-cart",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Minutes cart",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/15-minutes-cart.png",
+   "poster": null,
+   "patterns": [
+    "delivery ETA",
+    "bill summary",
+    "login to checkout"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "flipkart/android/minutes/16-minutes-cart-bill",
+   "app": "flipkart",
+   "platform": "android",
+   "package": "com.flipkart.android",
+   "version": "9.16",
+   "flow": "minutes",
+   "title": "Minutes cart bill",
+   "type": "image",
+   "file": "screens/flipkart/android/minutes/16-minutes-cart-bill.png",
+   "poster": null,
+   "patterns": [
+    "bill details",
+    "delivery tip",
+    "savings",
+    "cancellation policy"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "zepto/android/onboarding/05-location-permission-off-sheet",
+   "app": "zepto",
+   "platform": "android",
+   "package": "com.zeptoconsumerapp",
+   "version": "26.11.2",
+   "flow": "onboarding",
+   "title": "Location permission off sheet",
+   "type": "image",
+   "file": "screens/zepto/android/onboarding/05-location-permission-off-sheet.png",
+   "poster": null,
+   "patterns": [
+    "bottom sheet",
+    "illustration",
+    "enable location",
+    "request address from friend",
+    "skeleton loading"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "zepto/android/onboarding/06-enable-location-to-playful-loader",
+   "app": "zepto",
+   "platform": "android",
+   "package": "com.zeptoconsumerapp",
+   "version": "26.11.2",
+   "flow": "onboarding",
+   "title": "Enable location to playful loader",
+   "type": "video",
+   "file": "screens/zepto/android/onboarding/06-enable-location-to-playful-loader.mp4",
+   "poster": "screens/zepto/android/onboarding/06-enable-location-to-playful-loader.poster.jpg",
+   "patterns": [
+    "skeleton loading",
+    "playful loader copy",
+    "animated icon"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "zepto/android/onboarding/07-select-location",
+   "app": "zepto",
+   "platform": "android",
+   "package": "com.zeptoconsumerapp",
+   "version": "26.11.2",
+   "flow": "onboarding",
+   "title": "Select location",
+   "type": "image",
+   "file": "screens/zepto/android/onboarding/07-select-location.png",
+   "poster": null,
+   "patterns": [
+    "address search",
+    "use current location",
+    "request from friend"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "zepto/android/onboarding/08-location-not-found",
+   "app": "zepto",
+   "platform": "android",
+   "package": "com.zeptoconsumerapp",
+   "version": "26.11.2",
+   "flow": "onboarding",
+   "title": "Location not found",
+   "type": "image",
+   "file": "screens/zepto/android/onboarding/08-location-not-found.png",
+   "poster": null,
+   "patterns": [
+    "empty state",
+    "address search",
+    "keyboard"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/onboarding/01-story-style-onboarding-carousel",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.google.android.gms",
+   "version": "26.45.31 (260400-1020418964)",
+   "flow": "onboarding",
+   "title": "Story style onboarding carousel",
+   "type": "video",
+   "file": "screens/myntra/android/onboarding/01-story-style-onboarding-carousel.mp4",
+   "poster": "screens/myntra/android/onboarding/01-story-style-onboarding-carousel.poster.jpg",
+   "patterns": [
+    "story progress bars",
+    "auto-advance",
+    "image transitions",
+    "skip"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/onboarding/02-onboarding-story",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.google.android.gms",
+   "version": "26.45.31 (260400-1020418964)",
+   "flow": "onboarding",
+   "title": "Onboarding story",
+   "type": "image",
+   "file": "screens/myntra/android/onboarding/02-onboarding-story.png",
+   "poster": null,
+   "patterns": [
+    "story progress bars",
+    "consent checkbox",
+    "primary CTA"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/onboarding/03-login-with-phone-number-hint",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.google.android.gms",
+   "version": "26.45.31 (260400-1020418964)",
+   "flow": "onboarding",
+   "title": "Login with Google phone number hint",
+   "type": "image",
+   "file": "screens/myntra/android/onboarding/03-login-with-phone-number-hint.png",
+   "poster": null,
+   "patterns": [
+    "phone number hint",
+    "system bottom sheet",
+    "coupon incentive"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/onboarding/04-login",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "onboarding",
+   "title": "Login",
+   "type": "image",
+   "file": "screens/myntra/android/onboarding/04-login.png",
+   "poster": null,
+   "patterns": [
+    "phone login",
+    "savings incentive",
+    "send OTP"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/onboarding/05-skip-to-shopping-for-picker",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "onboarding",
+   "title": "Skip to shopping-for picker",
+   "type": "video",
+   "file": "screens/myntra/android/onboarding/05-skip-to-shopping-for-picker.mp4",
+   "poster": "screens/myntra/android/onboarding/05-skip-to-shopping-for-picker.poster.jpg",
+   "patterns": [
+    "skip login",
+    "floating items animation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/onboarding/06-shopping-for-picker",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "onboarding",
+   "title": "Shopping for picker",
+   "type": "image",
+   "file": "screens/myntra/android/onboarding/06-shopping-for-picker.png",
+   "poster": null,
+   "patterns": [
+    "gender picker",
+    "3D avatars",
+    "floating products"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/onboarding/07-pick-shopping-for-and-load-home",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.google.android.permissioncontroller",
+   "version": "frc_350820360",
+   "flow": "onboarding",
+   "title": "Pick shopping for and load home",
+   "type": "video",
+   "file": "screens/myntra/android/onboarding/07-pick-shopping-for-and-load-home.mp4",
+   "poster": "screens/myntra/android/onboarding/07-pick-shopping-for-and-load-home.poster.jpg",
+   "patterns": [
+    "selection feedback",
+    "home load"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/home/01-home-top",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "home",
+   "title": "Home top",
+   "type": "image",
+   "file": "screens/myntra/android/home/01-home-top.png",
+   "poster": null,
+   "patterns": [
+    "search with rotating hint",
+    "gender tabs",
+    "category circles",
+    "promo banners",
+    "bottom tabs"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/home/02-home-scroll",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "home",
+   "title": "Home scroll",
+   "type": "video",
+   "file": "screens/myntra/android/home/02-home-scroll.mp4",
+   "poster": "screens/myntra/android/home/02-home-scroll.poster.jpg",
+   "patterns": [
+    "banner carousel",
+    "sticky header",
+    "brand rails"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/home/03-home-scrolled",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "home",
+   "title": "Home scrolled",
+   "type": "image",
+   "file": "screens/myntra/android/home/03-home-scrolled.png",
+   "poster": null,
+   "patterns": [
+    "brand rails",
+    "deal cards"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/listing/01-open-dresses-category",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "listing",
+   "title": "Open Dresses category",
+   "type": "video",
+   "file": "screens/myntra/android/listing/01-open-dresses-category.mp4",
+   "poster": "screens/myntra/android/listing/01-open-dresses-category.poster.jpg",
+   "patterns": [
+    "page transition",
+    "skeleton"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/listing/02-dresses-listing",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "listing",
+   "title": "Dresses listing",
+   "type": "image",
+   "file": "screens/myntra/android/listing/02-dresses-listing.png",
+   "poster": null,
+   "patterns": [
+    "product grid",
+    "sort and filter bar",
+    "wishlist hearts",
+    "ratings"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/listing/03-listing-scroll",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "listing",
+   "title": "Listing scroll",
+   "type": "video",
+   "file": "screens/myntra/android/listing/03-listing-scroll.mp4",
+   "poster": "screens/myntra/android/listing/03-listing-scroll.poster.jpg",
+   "patterns": [
+    "infinite grid",
+    "image loading",
+    "collapsing header"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/product/01-open-product-page",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "product",
+   "title": "Open product page",
+   "type": "video",
+   "file": "screens/myntra/android/product/01-open-product-page.mp4",
+   "poster": "screens/myntra/android/product/01-open-product-page.poster.jpg",
+   "patterns": [
+    "shared image transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/product/02-product-page-top",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "product",
+   "title": "Product page top",
+   "type": "image",
+   "file": "screens/myntra/android/product/02-product-page-top.png",
+   "poster": null,
+   "patterns": [
+    "image gallery",
+    "price",
+    "offer",
+    "wishlist",
+    "add to bag bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/product/03-product-gallery-swipe-and-scroll",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "product",
+   "title": "Product gallery swipe and scroll",
+   "type": "video",
+   "file": "screens/myntra/android/product/03-product-gallery-swipe-and-scroll.mp4",
+   "poster": "screens/myntra/android/product/03-product-gallery-swipe-and-scroll.poster.jpg",
+   "patterns": [
+    "image gallery swipe",
+    "size chips",
+    "offers",
+    "delivery check"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/product/04-product-page-details",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "product",
+   "title": "Product page details",
+   "type": "image",
+   "file": "screens/myntra/android/product/04-product-page-details.png",
+   "poster": null,
+   "patterns": [
+    "size chart",
+    "offers",
+    "delivery options"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/bag/01-select-size-and-add-to-bag",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "bag",
+   "title": "Select size and add to bag",
+   "type": "video",
+   "file": "screens/myntra/android/bag/01-select-size-and-add-to-bag.mp4",
+   "poster": "screens/myntra/android/bag/01-select-size-and-add-to-bag.poster.jpg",
+   "patterns": [
+    "size bottom sheet",
+    "size chips",
+    "low stock hint",
+    "added feedback"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/bag/02-size-selected-sheet",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "bag",
+   "title": "Size selected sheet",
+   "type": "image",
+   "file": "screens/myntra/android/bag/02-size-selected-sheet.png",
+   "poster": null,
+   "patterns": [
+    "bottom sheet",
+    "selected chip",
+    "garment measurement",
+    "seller info"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/bag/03-done-adds-to-bag",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "bag",
+   "title": "Done adds to bag",
+   "type": "video",
+   "file": "screens/myntra/android/bag/03-done-adds-to-bag.mp4",
+   "poster": "screens/myntra/android/bag/03-done-adds-to-bag.poster.jpg",
+   "patterns": [
+    "sheet dismiss",
+    "added feedback",
+    "bag badge"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/bag/04-after-add-to-bag",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "bag",
+   "title": "Cross-sell after add to bag",
+   "type": "image",
+   "file": "screens/myntra/android/bag/04-after-add-to-bag.png",
+   "poster": null,
+   "patterns": [
+    "cross-sell rail",
+    "bundle discount",
+    "bag badge",
+    "scroll to top FAB"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/bag/05-open-bag",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "bag",
+   "title": "Open bag",
+   "type": "video",
+   "file": "screens/myntra/android/bag/05-open-bag.mp4",
+   "poster": "screens/myntra/android/bag/05-open-bag.poster.jpg",
+   "patterns": [
+    "page transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/bag/06-bag",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "bag",
+   "title": "Bag",
+   "type": "image",
+   "file": "screens/myntra/android/bag/06-bag.png",
+   "poster": null,
+   "patterns": [
+    "address bar",
+    "offers",
+    "bag item",
+    "size and qty pickers",
+    "place order"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "myntra/android/bag/07-bag-price-details",
+   "app": "myntra",
+   "platform": "android",
+   "package": "com.myntra.android",
+   "version": "4.2610.12",
+   "flow": "bag",
+   "title": "Bag price details",
+   "type": "image",
+   "file": "screens/myntra/android/bag/07-bag-price-details.png",
+   "poster": null,
+   "patterns": [
+    "price breakdown",
+    "coupons",
+    "donation",
+    "place order"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/onboarding/01-launch-and-splash-animation",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.google.android.gms",
+   "version": "26.45.31 (260400-1020418964)",
+   "flow": "onboarding",
+   "title": "Launch and splash animation",
+   "type": "video",
+   "file": "screens/bigbasket/android/onboarding/01-launch-and-splash-animation.mp4",
+   "poster": "screens/bigbasket/android/onboarding/01-launch-and-splash-animation.poster.jpg",
+   "patterns": [
+    "splash",
+    "animated category hero"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/onboarding/02-phone-login",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.google.android.gms",
+   "version": "26.45.31 (260400-1020418964)",
+   "flow": "onboarding",
+   "title": "Phone login",
+   "type": "image",
+   "file": "screens/bigbasket/android/onboarding/02-phone-login.png",
+   "poster": null,
+   "patterns": [
+    "phone login",
+    "referral code",
+    "hero illustration",
+    "skip"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/onboarding/03-rotating-category-hero-animation",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": null,
+   "flow": "onboarding",
+   "title": "Rotating category hero animation",
+   "type": "video",
+   "file": "screens/bigbasket/android/onboarding/03-rotating-category-hero-animation.mp4",
+   "poster": "screens/bigbasket/android/onboarding/03-rotating-category-hero-animation.poster.jpg",
+   "patterns": [
+    "animated hero",
+    "category carousel",
+    "phone login"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/onboarding/04-skip-login-to-location-prompt",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.google.android.permissioncontroller",
+   "version": "frc_350820360",
+   "flow": "onboarding",
+   "title": "Skip login to location prompt",
+   "type": "video",
+   "file": "screens/bigbasket/android/onboarding/04-skip-login-to-location-prompt.mp4",
+   "poster": "screens/bigbasket/android/onboarding/04-skip-login-to-location-prompt.poster.jpg",
+   "patterns": [
+    "skip login",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/onboarding/05-location-permission",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.google.android.permissioncontroller",
+   "version": "frc_350820360",
+   "flow": "onboarding",
+   "title": "Location permission",
+   "type": "image",
+   "file": "screens/bigbasket/android/onboarding/05-location-permission.png",
+   "poster": null,
+   "patterns": [
+    "system permission dialog",
+    "location"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/onboarding/06-allow-location-to-home-with-eta",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.google.android.permissioncontroller",
+   "version": "frc_350820360",
+   "flow": "onboarding",
+   "title": "Allow location to home with ETA",
+   "type": "video",
+   "file": "screens/bigbasket/android/onboarding/06-allow-location-to-home-with-eta.mp4",
+   "poster": "screens/bigbasket/android/onboarding/06-allow-location-to-home-with-eta.poster.jpg",
+   "patterns": [
+    "location detection loader",
+    "delivery ETA"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/home/01-home-top",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "home",
+   "title": "Home top",
+   "type": "image",
+   "file": "screens/bigbasket/android/home/01-home-top.png",
+   "poster": null,
+   "patterns": [
+    "delivery ETA header",
+    "search with rotating hint",
+    "category tabs",
+    "highlight cards",
+    "bottom tabs"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/home/02-home-scroll",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "home",
+   "title": "Home scroll",
+   "type": "video",
+   "file": "screens/bigbasket/android/home/02-home-scroll.mp4",
+   "poster": "screens/bigbasket/android/home/02-home-scroll.poster.jpg",
+   "patterns": [
+    "collapsing header",
+    "banner carousel",
+    "product rails"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/home/03-home-scrolled",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "home",
+   "title": "Home scrolled",
+   "type": "image",
+   "file": "screens/bigbasket/android/home/03-home-scrolled.png",
+   "poster": null,
+   "patterns": [
+    "product rails",
+    "add buttons"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/cart/01-add-item-from-rail",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "cart",
+   "title": "Add item from rail",
+   "type": "video",
+   "file": "screens/bigbasket/android/cart/01-add-item-from-rail.mp4",
+   "poster": "screens/bigbasket/android/cart/01-add-item-from-rail.poster.jpg",
+   "patterns": [
+    "plus to stepper morph",
+    "floating cart bar",
+    "people also bought rail injected",
+    "skeleton loading",
+    "floating cart pill"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/cart/02-item-added-with-stepper",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "cart",
+   "title": "Item added with stepper",
+   "type": "image",
+   "file": "screens/bigbasket/android/cart/02-item-added-with-stepper.png",
+   "poster": null,
+   "patterns": [
+    "quantity stepper",
+    "floating cart bar",
+    "people also bought rail injected",
+    "skeleton loading",
+    "floating cart pill"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/cart/03-open-cart",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "cart",
+   "title": "Open cart",
+   "type": "video",
+   "file": "screens/bigbasket/android/cart/03-open-cart.mp4",
+   "poster": "screens/bigbasket/android/cart/03-open-cart.poster.jpg",
+   "patterns": [
+    "page transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/cart/04-cart",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "cart",
+   "title": "Cart",
+   "type": "image",
+   "file": "screens/bigbasket/android/cart/04-cart.png",
+   "poster": null,
+   "patterns": [
+    "delivery slot",
+    "cart item",
+    "savings",
+    "login to checkout"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/cart/05-cart-bill-details",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "cart",
+   "title": "Cart bill details",
+   "type": "image",
+   "file": "screens/bigbasket/android/cart/05-cart-bill-details.png",
+   "poster": null,
+   "patterns": [
+    "bill details",
+    "delivery fee",
+    "savings",
+    "checkout bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/cart/06-switch-now-to-later-delivery",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "cart",
+   "title": "Switch Now to Later delivery",
+   "type": "video",
+   "file": "screens/bigbasket/android/cart/06-switch-now-to-later-delivery.mp4",
+   "poster": "screens/bigbasket/android/cart/06-switch-now-to-later-delivery.poster.jpg",
+   "patterns": [
+    "segmented toggle",
+    "delivery slot"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "bigbasket/android/cart/07-cart-later-delivery",
+   "app": "bigbasket",
+   "platform": "android",
+   "package": "com.bigbasket.mobileapp",
+   "version": "8.45.0",
+   "flow": "cart",
+   "title": "Cart later delivery",
+   "type": "image",
+   "file": "screens/bigbasket/android/cart/07-cart-later-delivery.png",
+   "poster": null,
+   "patterns": [
+    "segmented toggle",
+    "scheduled delivery"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/onboarding/01-login-with-scrolling-product-wall",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "onboarding",
+   "title": "Login with scrolling product wall",
+   "type": "image",
+   "file": "screens/blinkit/android/onboarding/01-login-with-scrolling-product-wall.png",
+   "poster": null,
+   "patterns": [
+    "login",
+    "phone input",
+    "skip"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/onboarding/02-product-wall-marquee",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "onboarding",
+   "title": "Product wall marquee",
+   "type": "video",
+   "file": "screens/blinkit/android/onboarding/02-product-wall-marquee.mp4",
+   "poster": "screens/blinkit/android/onboarding/02-product-wall-marquee.poster.jpg",
+   "patterns": [
+    "marquee",
+    "login",
+    "background motion"
+   ],
+   "note": "Rows of product tiles drift sideways behind the login form.",
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/onboarding/03-skip-login-to-home",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "onboarding",
+   "title": "Skip login to home",
+   "type": "video",
+   "file": "screens/blinkit/android/onboarding/03-skip-login-to-home.mp4",
+   "poster": "screens/blinkit/android/onboarding/03-skip-login-to-home.poster.jpg",
+   "patterns": [
+    "transition",
+    "skeleton loading"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/home/01-home-with-bestsellers-grid",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "home",
+   "title": "Home with Bestsellers grid",
+   "type": "image",
+   "file": "screens/blinkit/android/home/01-home-with-bestsellers-grid.png",
+   "poster": null,
+   "patterns": [
+    "category tabs",
+    "delivery ETA header",
+    "bento grid"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/home/02-home-scroll",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "home",
+   "title": "Home scroll",
+   "type": "video",
+   "file": "screens/blinkit/android/home/02-home-scroll.mp4",
+   "poster": "screens/blinkit/android/home/02-home-scroll.poster.jpg",
+   "patterns": [
+    "scroll",
+    "collapsing header"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/home/03-switch-to-winter-tab",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "home",
+   "title": "Switch to Winter tab",
+   "type": "video",
+   "file": "screens/blinkit/android/home/03-switch-to-winter-tab.mp4",
+   "poster": "screens/blinkit/android/home/03-switch-to-winter-tab.poster.jpg",
+   "patterns": [
+    "category tabs",
+    "theme change"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/home/04-winter-themed-tab",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "home",
+   "title": "Winter themed tab",
+   "type": "image",
+   "file": "screens/blinkit/android/home/04-winter-themed-tab.png",
+   "poster": null,
+   "patterns": [
+    "seasonal theme",
+    "product carousel",
+    "sub-category chips"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/listing/01-open-sub-category-listing",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "listing",
+   "title": "Open sub-category listing",
+   "type": "video",
+   "file": "screens/blinkit/android/listing/01-open-sub-category-listing.mp4",
+   "poster": "screens/blinkit/android/listing/01-open-sub-category-listing.poster.jpg",
+   "patterns": [
+    "transition",
+    "side rail categories"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/listing/02-sub-category-listing-with-side-rail",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "listing",
+   "title": "Sub-category listing with side rail",
+   "type": "image",
+   "file": "screens/blinkit/android/listing/02-sub-category-listing-with-side-rail.png",
+   "poster": null,
+   "patterns": [
+    "side rail",
+    "product grid",
+    "filters",
+    "sort"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/product/01-product-page",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "product",
+   "title": "Product page",
+   "type": "image",
+   "file": "screens/blinkit/android/product/01-product-page.png",
+   "poster": null,
+   "patterns": [
+    "image carousel",
+    "attribute chips",
+    "sticky add to cart"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/cart/01-add-to-cart",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "cart",
+   "title": "Add to cart",
+   "type": "video",
+   "file": "screens/blinkit/android/cart/01-add-to-cart.mp4",
+   "poster": "screens/blinkit/android/cart/01-add-to-cart.poster.jpg",
+   "patterns": [
+    "stepper",
+    "auto-scroll to recommendations",
+    "View cart pill"
+   ],
+   "note": "Button turns into a stepper, page scrolls to People also bought, and a floating View cart pill appears.",
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/cart/02-added-state-with-view-cart-pill",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "cart",
+   "title": "Added state with View cart pill",
+   "type": "image",
+   "file": "screens/blinkit/android/cart/02-added-state-with-view-cart-pill.png",
+   "poster": null,
+   "patterns": [
+    "floating cart pill",
+    "stepper",
+    "recommendations"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/cart/03-increment-quantity",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "cart",
+   "title": "Increment quantity",
+   "type": "video",
+   "file": "screens/blinkit/android/cart/03-increment-quantity.mp4",
+   "poster": "screens/blinkit/android/cart/03-increment-quantity.poster.jpg",
+   "patterns": [
+    "stepper"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/cart/04-open-cart",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "cart",
+   "title": "Open cart",
+   "type": "video",
+   "file": "screens/blinkit/android/cart/04-open-cart.mp4",
+   "poster": "screens/blinkit/android/cart/04-open-cart.poster.jpg",
+   "patterns": [
+    "transition",
+    "cart"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/cart/05-checkout-cart",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "cart",
+   "title": "Checkout cart",
+   "type": "image",
+   "file": "screens/blinkit/android/cart/05-checkout-cart.png",
+   "poster": null,
+   "patterns": [
+    "cart",
+    "delivery ETA",
+    "cross-sell",
+    "login to proceed"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/cart/06-bill-details-and-savings",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "cart",
+   "title": "Bill details and savings",
+   "type": "image",
+   "file": "screens/blinkit/android/cart/06-bill-details-and-savings.png",
+   "poster": null,
+   "patterns": [
+    "bill breakdown",
+    "savings callout",
+    "coupons"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/search/01-open-search-and-type",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "search",
+   "title": "Open search and type",
+   "type": "video",
+   "file": "screens/blinkit/android/search/01-open-search-and-type.mp4",
+   "poster": "screens/blinkit/android/search/01-open-search-and-type.poster.jpg",
+   "patterns": [
+    "search",
+    "suggestions",
+    "recent searches"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/search/02-typeahead-with-live-results",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "search",
+   "title": "Typeahead with live results",
+   "type": "image",
+   "file": "screens/blinkit/android/search/02-typeahead-with-live-results.png",
+   "poster": null,
+   "patterns": [
+    "autocomplete",
+    "live results",
+    "filter chips"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "blinkit/android/search/03-search-results",
+   "app": "blinkit",
+   "platform": "android",
+   "package": "com.grofers.customerapp",
+   "version": "18.41.1",
+   "flow": "search",
+   "title": "Search results",
+   "type": "image",
+   "file": "screens/blinkit/android/search/03-search-results.png",
+   "poster": null,
+   "patterns": [
+    "search results",
+    "filter chips",
+    "product grid"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/onboarding/01-app-launch",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "onboarding",
+   "title": "App launch",
+   "type": "video",
+   "file": "screens/licious/android/onboarding/01-app-launch.mp4",
+   "poster": "screens/licious/android/onboarding/01-app-launch.poster.jpg",
+   "patterns": [
+    "splash",
+    "launch animation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/onboarding/02-story-welcome",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "onboarding",
+   "title": "Story welcome",
+   "type": "image",
+   "file": "screens/licious/android/onboarding/02-story-welcome.png",
+   "poster": null,
+   "patterns": [
+    "story progress bar",
+    "full-bleed photo",
+    "welcome"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/onboarding/03-phone-login",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "onboarding",
+   "title": "Phone login",
+   "type": "image",
+   "file": "screens/licious/android/onboarding/03-phone-login.png",
+   "poster": null,
+   "patterns": [
+    "login",
+    "phone input",
+    "skip"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/onboarding/04-skip-login-to-home",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "onboarding",
+   "title": "Skip login to home",
+   "type": "video",
+   "file": "screens/licious/android/onboarding/04-skip-login-to-home.mp4",
+   "poster": "screens/licious/android/onboarding/04-skip-login-to-home.poster.jpg",
+   "patterns": [
+    "transition",
+    "location"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/onboarding/05-location-sheet-over-blurred-home",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "onboarding",
+   "title": "Location sheet over blurred home",
+   "type": "image",
+   "file": "screens/licious/android/onboarding/05-location-sheet-over-blurred-home.png",
+   "poster": null,
+   "patterns": [
+    "bottom sheet",
+    "blur backdrop",
+    "location permission"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/onboarding/06-location-error-toast",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "onboarding",
+   "title": "Location error toast",
+   "type": "video",
+   "file": "screens/licious/android/onboarding/06-location-error-toast.mp4",
+   "poster": "screens/licious/android/onboarding/06-location-error-toast.poster.jpg",
+   "patterns": [
+    "error toast",
+    "location"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/onboarding/07-location-search-results",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "onboarding",
+   "title": "Location search results",
+   "type": "image",
+   "file": "screens/licious/android/onboarding/07-location-search-results.png",
+   "poster": null,
+   "patterns": [
+    "location search",
+    "autocomplete"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/onboarding/08-pick-location",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.google.android.permissioncontroller",
+   "version": "frc_350820360",
+   "flow": "onboarding",
+   "title": "Pick location",
+   "type": "video",
+   "file": "screens/licious/android/onboarding/08-pick-location.mp4",
+   "poster": "screens/licious/android/onboarding/08-pick-location.poster.jpg",
+   "patterns": [
+    "location confirm",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/home/01-skeleton-to-home",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "home",
+   "title": "Skeleton to home",
+   "type": "video",
+   "file": "screens/licious/android/home/01-skeleton-to-home.mp4",
+   "poster": "screens/licious/android/home/01-skeleton-to-home.poster.jpg",
+   "patterns": [
+    "skeleton loading",
+    "home"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/home/02-home-with-category-grid",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "home",
+   "title": "Home with category grid",
+   "type": "image",
+   "file": "screens/licious/android/home/02-home-with-category-grid.png",
+   "poster": null,
+   "patterns": [
+    "store switcher",
+    "rotating search placeholder",
+    "category grid"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/home/03-rotating-search-placeholder",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "home",
+   "title": "Rotating search placeholder",
+   "type": "video",
+   "file": "screens/licious/android/home/03-rotating-search-placeholder.mp4",
+   "poster": "screens/licious/android/home/03-rotating-search-placeholder.poster.jpg",
+   "patterns": [
+    "rotating placeholder",
+    "search"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/home/04-home-scroll",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "home",
+   "title": "Home scroll",
+   "type": "video",
+   "file": "screens/licious/android/home/04-home-scroll.mp4",
+   "poster": "screens/licious/android/home/04-home-scroll.poster.jpg",
+   "patterns": [
+    "scroll",
+    "sticky header"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/home/05-collapsed-header-with-product-cards",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "home",
+   "title": "Collapsed header with product cards",
+   "type": "image",
+   "file": "screens/licious/android/home/05-collapsed-header-with-product-cards.png",
+   "poster": null,
+   "patterns": [
+    "sticky search",
+    "product carousel",
+    "quick add"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/cart/01-quick-add-to-cart",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "cart",
+   "title": "Quick add to cart",
+   "type": "video",
+   "file": "screens/licious/android/cart/01-quick-add-to-cart.mp4",
+   "poster": "screens/licious/android/cart/01-quick-add-to-cart.poster.jpg",
+   "patterns": [
+    "quick add",
+    "stepper",
+    "cart bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/cart/02-stepper-with-cart-bar-and-offer-nudge",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "cart",
+   "title": "Stepper with cart bar and offer nudge",
+   "type": "image",
+   "file": "screens/licious/android/cart/02-stepper-with-cart-bar-and-offer-nudge.png",
+   "poster": null,
+   "patterns": [
+    "stepper",
+    "cart bar",
+    "free-delivery nudge"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/cart/03-view-cart-asks-for-login",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "cart",
+   "title": "View cart asks for login",
+   "type": "video",
+   "file": "screens/licious/android/cart/03-view-cart-asks-for-login.mp4",
+   "poster": "screens/licious/android/cart/03-view-cart-asks-for-login.poster.jpg",
+   "patterns": [
+    "login gate",
+    "bottom sheet",
+    "phone input"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/cart/04-login-sheet-before-cart",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "cart",
+   "title": "Login sheet before cart",
+   "type": "image",
+   "file": "screens/licious/android/cart/04-login-sheet-before-cart.png",
+   "poster": null,
+   "patterns": [
+    "login gate",
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/product/01-open-product-page",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "product",
+   "title": "Open product page",
+   "type": "video",
+   "file": "screens/licious/android/product/01-open-product-page.mp4",
+   "poster": "screens/licious/android/product/01-open-product-page.poster.jpg",
+   "patterns": [
+    "transition",
+    "product"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/product/02-product-page",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "product",
+   "title": "Product page",
+   "type": "image",
+   "file": "screens/licious/android/product/02-product-page.png",
+   "poster": null,
+   "patterns": [
+    "image carousel",
+    "spec pills",
+    "sticky price bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/product/03-product-page-scroll",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "product",
+   "title": "Product page scroll",
+   "type": "video",
+   "file": "screens/licious/android/product/03-product-page-scroll.mp4",
+   "poster": "screens/licious/android/product/03-product-page-scroll.poster.jpg",
+   "patterns": [
+    "scroll",
+    "sticky add bar"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "licious/android/product/04-product-details-below-the-fold",
+   "app": "licious",
+   "platform": "android",
+   "package": "com.licious",
+   "version": "8.86.0",
+   "flow": "product",
+   "title": "Product details below the fold",
+   "type": "image",
+   "file": "screens/licious/android/product/04-product-details-below-the-fold.png",
+   "poster": null,
+   "patterns": [
+    "nutrition",
+    "details"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "swish/android/onboarding/01-app-launch",
+   "app": "swish",
+   "platform": "android",
+   "package": "com.swishapp",
+   "version": "3.2.0",
+   "flow": "onboarding",
+   "title": "App launch",
+   "type": "video",
+   "file": "screens/swish/android/onboarding/01-app-launch.mp4",
+   "poster": "screens/swish/android/onboarding/01-app-launch.poster.jpg",
+   "patterns": [
+    "splash",
+    "launch animation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "swish/android/onboarding/02-location-primer-over-video",
+   "app": "swish",
+   "platform": "android",
+   "package": "com.swishapp",
+   "version": "3.2.0",
+   "flow": "onboarding",
+   "title": "Location primer over video",
+   "type": "image",
+   "file": "screens/swish/android/onboarding/02-location-primer-over-video.png",
+   "poster": null,
+   "patterns": [
+    "permission primer",
+    "video background",
+    "bottom sheet"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "swish/android/onboarding/03-video-background-behind-primer",
+   "app": "swish",
+   "platform": "android",
+   "package": "com.swishapp",
+   "version": "3.2.0",
+   "flow": "onboarding",
+   "title": "Video background behind primer",
+   "type": "video",
+   "file": "screens/swish/android/onboarding/03-video-background-behind-primer.mp4",
+   "poster": "screens/swish/android/onboarding/03-video-background-behind-primer.poster.jpg",
+   "patterns": [
+    "video background",
+    "motion"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "swish/android/onboarding/04-allow-location",
+   "app": "swish",
+   "platform": "android",
+   "package": "com.google.android.permissioncontroller",
+   "version": "frc_350820360",
+   "flow": "onboarding",
+   "title": "Allow location",
+   "type": "video",
+   "file": "screens/swish/android/onboarding/04-allow-location.mp4",
+   "poster": "screens/swish/android/onboarding/04-allow-location.poster.jpg",
+   "patterns": [
+    "permission",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "swish/android/onboarding/05-phone-login-over-food-video",
+   "app": "swish",
+   "platform": "android",
+   "package": "com.swishapp",
+   "version": "3.2.0",
+   "flow": "onboarding",
+   "title": "Phone login over food video",
+   "type": "image",
+   "file": "screens/swish/android/onboarding/05-phone-login-over-food-video.png",
+   "poster": null,
+   "patterns": [
+    "login",
+    "phone input",
+    "video background"
+   ],
+   "note": "Login is required; there is no skip.",
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "swish/android/onboarding/06-login-video-loop",
+   "app": "swish",
+   "platform": "android",
+   "package": "com.swishapp",
+   "version": "3.2.0",
+   "flow": "onboarding",
+   "title": "Login video loop",
+   "type": "video",
+   "file": "screens/swish/android/onboarding/06-login-video-loop.mp4",
+   "poster": "screens/swish/android/onboarding/06-login-video-loop.poster.jpg",
+   "patterns": [
+    "video background",
+    "headline swap"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "superkalam/android/onboarding/01-app-launch",
+   "app": "superkalam",
+   "platform": "android",
+   "package": "com.superkalam",
+   "version": "1.6.7",
+   "flow": "onboarding",
+   "title": "App launch",
+   "type": "video",
+   "file": "screens/superkalam/android/onboarding/01-app-launch.mp4",
+   "poster": "screens/superkalam/android/onboarding/01-app-launch.poster.jpg",
+   "patterns": [
+    "splash",
+    "launch animation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "superkalam/android/onboarding/02-welcome-with-feature-cards",
+   "app": "superkalam",
+   "platform": "android",
+   "package": "com.superkalam",
+   "version": "1.6.7",
+   "flow": "onboarding",
+   "title": "Welcome with feature cards",
+   "type": "image",
+   "file": "screens/superkalam/android/onboarding/02-welcome-with-feature-cards.png",
+   "poster": null,
+   "patterns": [
+    "welcome",
+    "feature collage",
+    "single CTA"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "superkalam/android/onboarding/03-welcome-idle-motion",
+   "app": "superkalam",
+   "platform": "android",
+   "package": "com.superkalam",
+   "version": "1.6.7",
+   "flow": "onboarding",
+   "title": "Welcome idle motion",
+   "type": "video",
+   "file": "screens/superkalam/android/onboarding/03-welcome-idle-motion.mp4",
+   "poster": "screens/superkalam/android/onboarding/03-welcome-idle-motion.poster.jpg",
+   "patterns": [
+    "floating cards",
+    "ambient motion"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "superkalam/android/onboarding/04-tap-login",
+   "app": "superkalam",
+   "platform": "android",
+   "package": "com.superkalam",
+   "version": "1.6.7",
+   "flow": "onboarding",
+   "title": "Tap Login",
+   "type": "video",
+   "file": "screens/superkalam/android/onboarding/04-tap-login.mp4",
+   "poster": "screens/superkalam/android/onboarding/04-tap-login.poster.jpg",
+   "patterns": [
+    "login",
+    "transition"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "superkalam/android/onboarding/05-phone-login-sheet",
+   "app": "superkalam",
+   "platform": "android",
+   "package": "com.superkalam",
+   "version": "1.6.7",
+   "flow": "onboarding",
+   "title": "Phone login sheet",
+   "type": "image",
+   "file": "screens/superkalam/android/onboarding/05-phone-login-sheet.png",
+   "poster": null,
+   "patterns": [
+    "login",
+    "bottom sheet",
+    "WhatsApp opt-in"
+   ],
+   "note": "Login is required; there is no skip.",
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/onboarding/01-app-launch",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "onboarding",
+   "title": "App launch",
+   "type": "video",
+   "file": "screens/airlearn/android/onboarding/01-app-launch.mp4",
+   "poster": "screens/airlearn/android/onboarding/01-app-launch.poster.jpg",
+   "patterns": [
+    "splash",
+    "mascot",
+    "launch animation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "airlearn/android/onboarding/02-welcome-with-mascot",
+   "app": "airlearn",
+   "platform": "android",
+   "package": "com.unacademy.antonio",
+   "version": "3.14.4.1",
+   "flow": "onboarding",
+   "title": "Welcome with mascot",
+   "type": "image",
+   "file": "screens/airlearn/android/onboarding/02-welcome-with-mascot.png",
+   "poster": null,
+   "patterns": [
+    "welcome",
+    "mascot",
+    "social sign-in"
+   ],
+   "note": "Only Google or email sign-in; no guest mode.",
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/01-app-launch",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "App launch",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/01-app-launch.mp4",
+   "poster": "screens/osmosis/android/onboarding/01-app-launch.poster.jpg",
+   "patterns": [
+    "splash",
+    "launch animation"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/02-sign-in-or-get-started",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Sign in or get started",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/02-sign-in-or-get-started.png",
+   "poster": null,
+   "patterns": [
+    "sign in",
+    "email",
+    "get started"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/03-get-started",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Get started",
+   "type": "video",
+   "file": "screens/osmosis/android/onboarding/03-get-started.mp4",
+   "poster": "screens/osmosis/android/onboarding/03-get-started.poster.jpg",
+   "patterns": [
+    "transition",
+    "sign up"
+   ],
+   "note": null,
+   "captured": "2026-11-22"
+  },
+  {
+   "id": "osmosis/android/onboarding/04-elsevier-register-web-view",
+   "app": "osmosis",
+   "platform": "android",
+   "package": "org.osmosis.med",
+   "version": "6.0.10-main",
+   "flow": "onboarding",
+   "title": "Elsevier register web view",
+   "type": "image",
+   "file": "screens/osmosis/android/onboarding/04-elsevier-register-web-view.png",
+   "poster": null,
+   "patterns": [
+    "web view",
+    "email registration",
+    "product banner"
+   ],
+   "note": "Account is required; sign-up is an Elsevier web form.",
+   "captured": "2026-11-22"
+  }
+ ]
+}

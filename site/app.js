@@ -56,6 +56,7 @@
     apps: '<svg viewBox="0 0 20 20"><path d="M5 2h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3zm2.5 4.5v7h1.6v-2.6h1.5c1.6 0 2.7-1 2.7-2.2S12.2 6.5 10.6 6.5zm1.6 1.3h1.3c.7 0 1.2.4 1.2.9s-.5 1-1.2 1H9.1z"/></svg>',
     flask: '<svg viewBox="0 0 20 20"><path d="M7 2h6v1.5h-1v4.2l4.8 7.6c.7 1.1-.1 2.7-1.4 2.7H4.6c-1.3 0-2.1-1.6-1.4-2.7L8 7.7V3.5H7zm2.5 1.5v4.6L7.2 11.8h5.6l-2.3-3.7V3.5z"/></svg>',
     search: '<svg viewBox="0 0 20 20"><path d="M8.5 3a5.5 5.5 0 1 0 3.3 9.9l3.6 3.6 1.1-1.1-3.6-3.6A5.5 5.5 0 0 0 8.5 3zm0 1.5a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/></svg>',
+    phone: '<svg viewBox="0 0 20 20"><path d="M6.5 1.5h7A1.5 1.5 0 0 1 15 3v14a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 5 17V3a1.5 1.5 0 0 1 1.5-1.5zm.1 2v13h6.8v-13zM9 14.5h2V16H9z"/></svg>',
     spark: '<svg viewBox="0 0 20 20"><path d="M10 2l1.6 4.4L16 8l-4.4 1.6L10 14l-1.6-4.4L4 8l4.4-1.6z"/></svg>',
   };
 
@@ -668,6 +669,79 @@
     </div>`;
   }
 
+  // ---------- Screens (captured from Android apps) ----------
+  const shots = window.LIBRARY.screens || [];
+  const shotApps = window.LIBRARY.screenApps || {};
+  const MEDIA = location.pathname.includes("/site/") ? "../" : "";
+  const nice = (s) => cap(s.replace(/-/g, " "));
+  const shotAppName = (a) => shotApps[a]?.name || nice(a);
+  const shotGroups = [...new Set(shots.map((s) => s.app))]
+    .map((id) => ({ id, name: shotAppName(id), items: shots.filter((s) => s.app === id) }))
+    .sort((a, b) => b.items.length - a.items.length);
+  let shotType = "all";
+  const shotOk = (s) => shotType === "all" || (shotType === "anim" ? s.type === "video" : s.type === "image");
+  const shotCounts = (items) => {
+    const v = items.filter((s) => s.type === "video").length;
+    return `${plural(items.length - v, "screen")} · ${plural(v, "animation")}`;
+  };
+  const shotThumb = (s) => s.type === "video"
+    ? `<video src="${MEDIA}${esc(s.file)}" poster="${MEDIA}${esc(s.poster || "")}" muted loop playsinline preload="none"></video><span class="shot-badge">▶ Motion</span>`
+    : `<img src="${MEDIA}${esc(s.file)}" alt="${esc(s.title)}" loading="lazy" />`;
+  const shotCard = (s) => `<button type="button" class="shot" data-shot="${esc(s.id)}"><span class="shot-media">${shotThumb(s)}</span><span class="shot-title">${esc(s.title)}</span></button>`;
+  const typeSeg = () => `<div class="seg" role="group" aria-label="Show">${[["all", "All"], ["img", "Screens"], ["anim", "Animations"]].map(([k, l]) => `<button type="button" data-st="${k}" class="${shotType === k ? "on" : ""}">${l}</button>`).join("")}</div>`;
+  const wireSeg = (again) => app.querySelectorAll("[data-st]").forEach((b) => b.onclick = () => { shotType = b.dataset.st; again(); });
+
+  function renderScreens() {
+    app.innerHTML = `<div class="enter">
+      <header class="page-head"><h1>Screens</h1><p>Screens and animations from ${plural(shotGroups.length, "app")}, captured on Android, grouped by flow. Animations play when you point at them.</p></header>
+      ${typeSeg()}
+      ${shotGroups.map((g) => {
+        const items = g.items.filter(shotOk);
+        if (!items.length) return "";
+        return `<section class="sec">${secHead(`<a class="shot-app" href="#/screens/${g.id}">${appMark(g.name)}${esc(g.name)}</a>`, shotCounts(g.items), shelfTools("sh-shot-" + g.id, `#/screens/${g.id}`, "See all"))}
+          ${shelf("sh-shot-" + g.id, items.slice(0, 14).map(shotCard).join(""))}</section>`;
+      }).join("")}
+    </div>`;
+    wireSeg(renderScreens); wireShelves();
+  }
+  function renderScreenApp(id) {
+    const g = shotGroups.find((x) => x.id === id);
+    if (!g) return notFound("That app has no screens yet.");
+    const items = g.items.filter(shotOk);
+    const flows = [...new Set(items.map((s) => s.flow))];
+    const first = g.items[0];
+    app.innerHTML = `<div class="enter">
+      <a class="back" href="#/screens">← All screens</a>
+      <header class="hero-id">${appMark(g.name, "xl")}<div><h1>${esc(g.name)}</h1><p>Android${first.version ? ` · version ${esc(first.version)}` : ""}${first.captured ? ` · captured ${esc(first.captured)}` : ""}</p>
+        <div class="facts"><span>${shotCounts(g.items)}</span><span>${plural(new Set(g.items.map((s) => s.flow)).size, "flow")}</span></div></div></header>
+      ${typeSeg()}
+      ${flows.map((f) => `<section class="sec">${secHead(esc(nice(f)), plural(items.filter((s) => s.flow === f).length, "capture"))}<div class="shot-grid">${items.filter((s) => s.flow === f).map(shotCard).join("")}</div></section>`).join("")}
+    </div>`;
+    wireSeg(() => renderScreenApp(id));
+  }
+  const viewer = document.createElement("dialog");
+  viewer.className = "shot-view";
+  document.body.append(viewer);
+  viewer.addEventListener("click", (e) => { if (e.target === viewer || e.target.closest("[data-close]")) viewer.close(); });
+  viewer.addEventListener("close", () => (viewer.innerHTML = ""));
+  function openShot(id) {
+    const s = shots.find((x) => x.id === id);
+    if (!s) return;
+    const row = (k, v) => (v ? `<dt>${k}</dt><dd>${v}</dd>` : "");
+    viewer.innerHTML = `<div class="shot-view-in">
+      <div class="shot-view-media">${s.type === "video" ? `<video src="${MEDIA}${esc(s.file)}" controls autoplay loop muted playsinline></video>` : `<img src="${MEDIA}${esc(s.file)}" alt="${esc(s.title)}" />`}</div>
+      <div class="shot-view-meta"><button type="button" class="round" data-close aria-label="Close">✕</button>
+        <p class="eyebrow">${esc(shotAppName(s.app))} · ${esc(nice(s.flow))}</p><h2>${esc(s.title)}</h2>
+        ${s.note ? `<p>${esc(s.note)}</p>` : ""}
+        <dl>${row("Type", s.type === "video" ? "Animation" : "Screen")}${row("Patterns", esc((s.patterns || []).join(", ")))}${row("Platform", "Android")}${row("Version", esc(s.version))}${row("Captured", esc(s.captured))}</dl>
+        <a class="btn" href="${MEDIA}${esc(s.file)}" download>Download</a></div></div>`;
+    viewer.showModal();
+  }
+  document.addEventListener("click", (e) => { const b = e.target.closest("[data-shot]"); if (b) openShot(b.dataset.shot); });
+  // Animations play while pointed at, so a page of them doesn't all run at once.
+  document.addEventListener("mouseover", (e) => { const v = e.target.closest(".shot-media")?.querySelector("video"); if (v) v.play().catch(() => {}); });
+  document.addEventListener("mouseout", (e) => { const v = e.target.closest(".shot-media")?.querySelector("video"); if (v && !e.relatedTarget?.closest?.(".shot-media")) { v.pause(); v.currentTime = 0; } });
+
   // ---------- Experiments ----------
   function renderExperiments() {
     const byWeek = [...experiments].sort((a, b) => String(b.Week).localeCompare(String(a.Week)));
@@ -716,6 +790,7 @@
     ["home", "Home", "#/", SVG.home],
     ["course", "Course", "#/course", SVG.course, lessons.length],
     ["sources", "Library", "#/sources", SVG.library, sources.length],
+    ["screens", "Screens", "#/screens", SVG.phone, shots.length],
     ["channels", "Channels", "#/channels", SVG.channels, channels.length],
     ["apps", "Apps", "#/apps", SVG.apps, apps.length],
     ["experiments", "Experiments", "#/experiments", SVG.flask],
@@ -730,13 +805,15 @@
   // ---------- router ----------
   function render() {
     const h = location.hash || "#/";
-    const tab = h.startsWith("#/course") ? "course" : h.startsWith("#/s") ? "sources" : h.startsWith("#/channels") ? "channels" : h.startsWith("#/apps") ? "apps" : h.startsWith("#/experiments") ? "experiments" : h.startsWith("#/agent") ? "agent" : "home";
+    const tab = h.startsWith("#/course") ? "course" : h.startsWith("#/screens") ? "screens" : h.startsWith("#/s") ? "sources" : h.startsWith("#/channels") ? "channels" : h.startsWith("#/apps") ? "apps" : h.startsWith("#/experiments") ? "experiments" : h.startsWith("#/agent") ? "agent" : "home";
     document.querySelectorAll("[data-tab]").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
     const [, , a] = h.split("/");
     document.querySelectorAll("[data-ch]").forEach((x) => x.classList.toggle("active", h.startsWith("#/channels/") && x.dataset.ch === a));
     const id = a && decodeURIComponent(a);
     if (h.startsWith("#/course/") && id) renderLesson(id);
     else if (h.startsWith("#/course")) renderCourse();
+    else if (h.startsWith("#/screens/") && id) renderScreenApp(id);
+    else if (h.startsWith("#/screens")) renderScreens();
     else if (h.startsWith("#/s/")) renderSource(id);
     else if (h.startsWith("#/sources")) renderSources();
     else if (h.startsWith("#/channels/") && id) renderChannel(id);
@@ -746,7 +823,7 @@
     else if (h.startsWith("#/experiments")) renderExperiments();
     else if (h.startsWith("#/agent")) renderAgent();
     else renderHome();
-    const t = { course: "Course", sources: "Library", channels: "Channels", apps: "Apps", experiments: "Experiments", agent: "Use with your agent" }[tab];
+    const t = { course: "Course", sources: "Library", screens: "Screens", channels: "Channels", apps: "Apps", experiments: "Experiments", agent: "Use with your agent" }[tab];
     const h1 = app.querySelector("h1")?.textContent;
     document.title = h1 && tab !== "home" ? `${h1} · Design library` : t ? `${t} · Design library` : "Design library";
     scrollTo({ top: 0, behavior: "instant" });
